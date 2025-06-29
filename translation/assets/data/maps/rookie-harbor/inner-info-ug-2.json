@@ -1,0 +1,2210 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "A new Seeker in my dojo? Hmm.",
+         "transl": "Ein neuer Seeker in meinem Dojo? Hmm."
+        }
+       },
+       {
+        "message": {
+         "orig": "Not ready you are, hmm...",
+         "transl": "Nicht bereit du bist, hmm..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Come back when mastered both \\c[3]Heat\\c[0] and \\c[3]Cold\\c[0] you have, yes yes.",
+         "transl": "Komm wieder, wenn \\c[3]Hitze\\c[0] und \\c[3]Kälte\\c[0] gemeistert du hast, m'jom m'jom."
+        }
+       },
+       {
+        "message": {
+         "orig": "...?",
+         "transl": "...?"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "A new Seeker in my dojo? Hmm.",
+          "transl": "Ein neuer Seeker in meinem Dojo? Hmm."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hrrmmm. Great power within you I sense.",
+          "transl": "Hrrmmm. Große Kraft ich in dir spüre."
+         }
+        },
+        {
+         "message": {
+          "orig": "Ready to explore the depths of your abilities you are? ",
+          "transl": "Bereit, dein volles Potential zu ergründen du bist?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "Good, yes yes. Speak to me to begin you must.",
+            "transl": "Gut, m'jom m'jom. Um zu beginnen, sprechen mit mir du musst."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "Hrmmm? Sure you are?",
+            "transl": "Hrmmm? Sicher du dir bist?"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "thenStep": [
+          null,
+          null,
+          {
+           "message": {
+            "orig": "Mastered my courses you have. Proud I am. Hmm.",
+            "transl": "Ich bin stolz, gemeistert meine Lehren du hast. Hmm."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Take this you should and return for more training you can.",
+            "transl": "Dies nehmen du solltest. Für weiteres Training zurückkehren du kannst."
+           }
+          }
+         ]
+        },
+        null,
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Already expecting you, I am.",
+          "transl": "Bereits erwartet ich dich habe."
+         }
+        },
+        {
+         "message": {
+          "orig": "Ready to train are you? Yes, hrrmmm.",
+          "transl": "Bereit zu trainieren du bist? M'jom, hrrmmm."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Once begun, endure until the course is finished you must. ",
+          "transl": "Einmal begonnen, den Pfad zu Ende gehen du musst."
+         }
+        },
+        {
+         "message": {
+          "orig": "Wisely made your decision must be, yes.",
+          "transl": "Weise getroffen deine Entscheidung muss sein, m'jom."
+         }
+        },
+        {
+         "0": [
+          {
+           "thenStep": [
+            {
+             "message": {
+              "orig": "A good choice. To the art of balls, open your mind must be.",
+              "transl": "Eine gute Wahl. Dein Geist für die Wurfkunst offen sein muss."
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "message": {
+              "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
+              "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+             }
+            }
+           ]
+          }
+         ],
+         "1": [
+          {
+           "message": {
+            "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
+            "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+           }
+          }
+         ],
+         "2": [
+          {
+           "thenStep": [
+            {
+             "message": {
+              "orig": "A good choice. To the art of the blade, open your mind must be.",
+              "transl": "Eine gute Wahl. Dein Geist für die Schwertkunst offen sein muss."
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "message": {
+              "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
+              "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+             }
+            }
+           ]
+          }
+         ],
+         "3": [
+          {
+           "message": {
+            "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
+            "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "Training: VRP",
+            "transl": "Training: VRP"
+           }
+          },
+          {
+           "label": {
+            "orig": "Training: VRP \\c[2][Passed]\\c[0]",
+            "transl": "Training: VRP \\c[2][Bestanden]\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Training: VPI",
+            "transl": "Training: VPI"
+           }
+          },
+          {
+           "label": {
+            "orig": "Training: VPI \\c[2][Passed]\\c[0]",
+            "transl": "Training: VPI \\c[2][Bestanden]\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Return",
+            "transl": "Zurück"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Already expecting you, I am.",
+         "transl": "Bereits erwartet ich dich habe."
+        }
+       },
+       {
+        "message": {
+         "orig": "Ready to train are you? Yes, hrrmmm.",
+         "transl": "Bereit zu trainieren du bist? M'jom, hrrmmm."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       {
+        "message": {
+         "orig": "Once begun, endure until the course is finished you must. ",
+         "transl": "Einmal begonnen, den Pfad zu Ende gehen du musst."
+        }
+       },
+       {
+        "message": {
+         "orig": "Wisely made your decision must be, yes.",
+         "transl": "Weise getroffen deine Entscheidung muss sein, m'jom."
+        }
+       },
+       {
+        "0": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "A good choice. To the art of balls, open your mind must be.",
+             "transl": "Eine gute Wahl. Dein Geist für die Wurfkunst offen sein muss."
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "message": {
+             "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
+             "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+            }
+           }
+          ]
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
+           "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+          }
+         }
+        ],
+        "2": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "A good choice. To the art of the blade, open your mind must be.",
+             "transl": "Eine gute Wahl. Dein Geist für die Schwertkunst offen sein muss."
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "message": {
+             "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
+             "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+            }
+           }
+          ]
+         }
+        ],
+        "3": [
+         {
+          "message": {
+           "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
+           "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "Training: VRP",
+           "transl": "Training: VRP"
+          }
+         },
+         {
+          "label": {
+           "orig": "Training: VRP \\c[2][Passed]\\c[0]",
+           "transl": "Training: VRP \\c[2][Bestanden]\\c[0]"
+          }
+         },
+         {
+          "label": {
+           "orig": "Training: VPI",
+           "transl": "Training: VPI"
+          }
+         },
+         {
+          "label": {
+           "orig": "Training: VPI \\c[2][Passed]\\c[0]",
+           "transl": "Training: VPI \\c[2][Bestanden]\\c[0]"
+          }
+         },
+         {
+          "label": {
+           "orig": "Return",
+           "transl": "Zurück"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "More expected of you I have. Try again you must.",
+         "transl": "Mehr von dir erwartet ich habe. Nochmal versuchen du musst."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Good, good. Yes, hrrrm.",
+         "transl": "Gut, gut. M'jom, hrrrm."
+        }
+       },
+       {
+        "message": {
+         "orig": "Now again... but quickly.",
+         "transl": "Nochmal... Dieses Mal schneller."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Hit all targets in 10 seconds\\c[0] you must.",
+       "transl": "\\c[3]Alle Ziele in 10 Sekunden treffen\\c[0] du musst."
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Fail... you must try again.",
+         "transl": "Fehlgeschlagen... Nochmal versuchen du musst."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Hits",
+         "transl": "Treffer"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "text": {
+       "orig": "Cancel Training",
+       "transl": "Training abbrechen"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Tested in this training your precision and perception will be. Hrmmm.",
+       "transl": "Deine Präzision und Wahrnehmung in diesem Training getestet wird. Hrmmm."
+      }
+     },
+     {
+      "message": {
+       "orig": "Floating you must be for this, yes?",
+       "transl": "Wie Wasser fließen du musst, m'jom."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Worry not. Trust in your sensei, you must.",
+       "transl": "Keine Sorge, vertrauen deinem Sensei du musst."
+      }
+     },
+     {
+      "message": {
+       "orig": "Now... Begun, your training has.",
+       "transl": "Dein Training nun beginnt."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "First, your basic understanding we will test, yes.",
+       "transl": "Deine Grundkenntnisse als Erstes wir testen werden, m'jom."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Hit all the targets you must\\c[0]. That you can do, can you not?",
+       "transl": "\\c[3]Alle Ziele treffen du musst\\c[0]. Sicher leicht für dich, nicht wahr?"
+      }
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Hits",
+         "transl": "Treffer"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Good, yes...",
+       "transl": "Gut, m'jom..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Now... your understanding of ricochet, show to me.",
+       "transl": "Und nun... dein Können im Ricochettieren demonstrieren du musst."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Hit all targets using ricochets\\c[0] you must. ",
+       "transl": "\\c[3]Alle Ziele mit Ricochétschüssen treffen\\c[0] du musst."
+      }
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Hits",
+         "transl": "Treffer"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Completed the course you have.",
+       "transl": "Den Kurs bestanden du hast."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "But. Far from over your training is.",
+       "transl": "Aber! Noch viel zu lernen du hast."
+      }
+     },
+     {
+      "message": {
+       "orig": "For now, rest. When ready for your next lesson, speak to me you will.",
+       "transl": "Erst einmal ausruhen du kannst. Wenn bereit für weitere Lehren, mit mir sprechen du musst."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Too easy for you it was?",
+       "transl": "Das zu einfach für dich war?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Hit all targets using ricochet\\c[0] again you must!",
+       "transl": "\\c[3]Alle Ziele mit Ricochétschüssen nochmal treffen\\c[0] du musst."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Hits",
+         "transl": "Treffer"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "\\v[tmp.missedBalls] you missed. Becoming better you must.",
+         "transl": "\\v[tmp.missedBalls] verfehlt du hast. Besser werden du musst."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "In you perhaps, a true seeker sleeps. Hmm.",
+         "transl": "Möglicherweise ein wahrer Seeker in dir steckt. Hmm."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Your aim next we must test.",
+         "transl": "Als Nächstes deine Treffsicherheit wir testen müssen."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Hit the target 10 times without missing or throwing too much\\c[0] you must.",
+       "transl": "\\c[3]Alle Ziele 10 Mal in Folge treffen\\c[0] du musst."
+      }
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Shots",
+         "transl": "Würfe"
+        }
+       }
+      }
+     },
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Hits",
+         "transl": "Treffer"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "\\v[tmp.missedBalls] you missed. Become better you must.",
+         "transl": "\\v[tmp.missedBalls] verfehlt du hast. Besser werden du musst."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Constant a seeker's aim must be, even when moving the enemy is.",
+         "transl": "Selbst wenn Gegner in Bewegung, Präzision eines Seekers konstant sein muss."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Hit the target 10 times without missing\\c[0] again you must.",
+       "transl": "\\c[3]Alle Ziele 10 Mal in Folge nochmal treffen\\c[0] du musst."
+      }
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Shots",
+         "transl": "Würfe"
+        }
+       }
+      }
+     },
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Target 1",
+         "transl": "Ziel 1"
+        }
+       }
+      }
+     },
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Target 2",
+         "transl": "Ziel 2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Faster and more accurate you must be, yes.",
+         "transl": "Schneller und präziser sein du musst, m'jom."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "A fine student you are, yes... hmm...",
+         "transl": "Ein ausgezeichneter Schüler du bist, m'jom... Hmm..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Your final test now comes.",
+         "transl": "Deine letzte Prüfung nun kommt."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Hit all targets without missing and within 10 seconds\\c[0] you must.",
+       "transl": "\\c[3]Alle Ziele ohne zu verfehlen in 10 Sekunden treffen\\c[0] du musst."
+      }
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Shots",
+         "transl": "Würfe"
+        }
+       }
+      }
+     },
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Hits",
+         "transl": "Treffer"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "text": {
+       "orig": "Cancel Training",
+       "transl": "Training abbrechen"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Tested in this training your strength will be. Yes...",
+       "transl": "Deine Stärke in diesem Training getestet wird. M'jom..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Throw, you cannot. Guarding, also disabled will be.",
+       "transl": "Werfen und blocken dieses Mal du nicht kannst."
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Now... Begun, your training has.",
+       "transl": "Dein Training nun beginnt."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "First, basic understanding we must test, yes.",
+       "transl": "Deine Grundkenntnisse als Erstes wir testen werden, m'jom."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Hit all targets you must\\c[0]. Simple it is, yes?",
+       "transl": "\\c[3]Alle Ziele treffen du musst\\c[0]. Ganz simpel, m'jom?"
+      }
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Hits",
+         "transl": "Treffer"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Expect more of you, do I. Try again you must.",
+         "transl": "Mehr von dir erwartet ich habe. Nochmal versuchen du musst."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Good. Yes, hrrrm.",
+         "transl": "Gut. M'jom, hrrrm."
+        }
+       },
+       {
+        "message": {
+         "orig": "Now again, but quickly.",
+         "transl": "Nochmal... Dieses Mal schneller."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Hit all targets in 10 seconds\\c[0] you must.",
+       "transl": "\\c[3]Alle Ziele in 10 Sekunden treffen\\c[0] du musst."
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Fail... you must try again.",
+         "transl": "Fehlgeschlagen... Nochmal versuchen du musst."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Hits",
+         "transl": "Treffer"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "More expected of you I have. Try again you must.",
+         "transl": "Mehr von dir erwartet ich habe. Nochmal versuchen du musst."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "A fine display.",
+         "transl": "Eine schöne Darbietung."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Now... Multiple enemies at once you must hit.",
+         "transl": "Und nun... mehrere Feinde auf einmal treffen du musst."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Hit all targets in 10 seconds\\c[0] you must.",
+       "transl": "\\c[3]Alle Ziele in 10 Sekunden treffen\\c[0] du musst."
+      }
+     },
+     {
+      "message": {
+       "orig": "With a single swing, multiple enemies you must hit.",
+       "transl": "Mehrere Feinde mit einem einzigen Streich treffen du musst."
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Fail... you must try again.",
+         "transl": "Fehlgeschlagen... Nochmal versuchen du musst."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Hits",
+         "transl": "Treffer"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "The basics you understand I see.",
+       "transl": "Wie ich sehe, die Grundlagen verstanden du hast."
+      }
+     },
+     {
+      "message": {
+       "orig": "A secret technique, time it is to teach.",
+       "transl": "Eine geheime Technik es wird Zeit dich zu lehren."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Strong the last hit of your melee combo is. But leaves you open to counter attack, yes...",
+       "transl": "Stark der letzte Treffer deiner Nahkampfkombo ist. So allerdings anfällig für Konter du bist, m'jom..."
+      }
+     },
+     {
+      "message": {
+       "orig": "However. \\c[3]Dash\\c[0] before ending a combo you can.",
+       "transl": "Doch kleinen Trick es gibt: Am Ende des Kombos \\c[3]dashen\\c[0] du kannst."
+      }
+     },
+     {
+      "message": {
+       "orig": "Fittingly \\c[3]Dash Cancel\\c[0] it is called. hrm...",
+       "transl": "Treffenderweise als \\c[3]Dash Cancel\\c[0] bezeichnet dies wird. Hrm..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Perform 5 Dash Cancels by Dashing while attacking\\c[0] you must.",
+       "transl": "\\c[3]5 Dash Cancels durch Dashen während eines Angriffs ausführen\\c[0] du musst."
+      }
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "\\c[3]Dash\\c[0] while attacking to perform a \\c[3]Dash Cancel\\c[0].",
+         "transl": "Um \\c[3]Dash Cancel\\c[0] auszuführen, \\c[3]dashen\\c[0] während du angreifst du musst."
+        },
+        "taskTitle": {
+         "orig": "Dash Cancels",
+         "transl": "Dash Cancels"
+        }
+       }
+      }
+     },
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Dash Cancels",
+         "transl": "Dash Cancels"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "More expected of you I have. Try again you must.",
+         "transl": "Mehr von dir erwartet ich habe. Nochmal versuchen du musst."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Good, very good.",
+         "transl": "Gut, sehr gut."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "To quickly dash away or continue attacking, this technique you can use.",
+         "transl": "Um schnell in Sicherheit zu dashen oder weiter anzugreifen diese Technik verwenden du kannst."
+        }
+       },
+       {
+        "message": {
+         "orig": "In this, tested now you will be.",
+         "transl": "Darin getestet du nun wirst."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Defeat all the enemies in 20 seconds using Dash Cancels\\c[0] you must.",
+       "transl": "\\c[3]Alle Feinde in 20 Sekunden durch Dash Cancels besiegen\\c[0] du musst."
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Fail... you must try again.",
+         "transl": "Fehlgeschlagen... Nochmal versuchen du musst."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Defeated",
+         "transl": "Besiegt"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "More expected of you I have. Try again you must.",
+         "transl": "Mehr von dir erwartet ich habe. Nochmal versuchen du musst."
+        }
+       },
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "No \\c[3]Dash Cancels\\c[0] you used.",
+             "transl": "Keinen einzigen \\c[3]Dash Cancel\\c[0] du benutzt."
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "thenStep": [
+             {
+              "message": {
+               "orig": "Only one \\c[3]Dash Cancel\\c[0] you used.",
+               "transl": "Nur einen \\c[3]Dash Cancel\\c[0] du benutzt."
+              }
+             }
+            ],
+            "elseStep": [
+             {
+              "message": {
+               "orig": "Only \\v[tmp.cancels] \\c[3]Dash Cancels\\c[0] you used.",
+               "transl": "Nur \\v[tmp.cancels] \\c[3]Dash Cancels\\c[0] du benutzt."
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "More then 50 attacks you used too.",
+             "transl": "Auch mehr als 50 Angriffe gebraucht du hast."
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "thenStep": [
+             {
+              "message": {
+               "orig": "All your attacks you used.",
+               "transl": "Alle Angriffe aufgebraucht du hast."
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "More then 50 attacks you used.",
+             "transl": "Mehr als 50 Angriffe gebraucht du hast."
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "thenStep": [
+             {
+              "message": {
+               "orig": "All your attacks you used.",
+               "transl": "Alle Angriffe aufgebraucht du hast."
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Well honed, your understanding is.",
+         "transl": "Deine Auffassungsgabe außergewöhnlich ist."
+        }
+       },
+       {
+        "message": {
+         "orig": "Now begins, your final test.",
+         "transl": "Deine letzte Prüfung nun beginnt."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "\\c[3]Defeat all enemies in 15 seconds, using less than 30 attacks and at least 3 Dash Cancels\\c[0] you must.",
+       "transl": "\\c[3]Alle Feinde in 15 Sekunden mit weniger als 30 Angriffen und mindestens 3 Dash Cancels besiegen\\c[0] du musst."
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Fail... you must try again.",
+         "transl": "Fehlgeschlagen... Nochmal versuchen du musst."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Defeated",
+         "transl": "Besiegt"
+        }
+       }
+      }
+     },
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Dash Cancels",
+         "transl": "Dash Cancels"
+        }
+       }
+      }
+     },
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Attacks Left",
+         "transl": "Angriffe übrig"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Completed the course you have.",
+       "transl": "Den Kurs bestanden du hast."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "But. Far from over your training is.",
+       "transl": "Aber! Noch viel zu lernen du hast."
+      }
+     },
+     {
+      "message": {
+       "orig": "For now your training is over. You must speak to me if you are ready for your next lesson.",
+       "transl": "Erst einmal ausruhen du kannst. Wenn bereit für weitere Lehren, mit mir sprechen du musst."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     {
+      "message": {
+       "orig": "Lea?",
+       "transl": "Lea?"
+      }
+     },
+     {
+      "message": {
+       "orig": "I think this is an instanced room... Must be something good going on here, no?",
+       "transl": "Ich glaube, das ist ein instanzierter Raum... Dann muss hier irgendwas Gutes drin passieren, non?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

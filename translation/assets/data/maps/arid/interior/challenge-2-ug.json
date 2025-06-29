@@ -1,0 +1,164 @@
+{
+ "entities": [
+  null,
+  {
+   "settings": {
+    "destinations": [
+     {
+      "label": {
+       "orig": "Down",
+       "transl": "Runter"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Again time to clean up the small fry first.",
+       "transl": "Kümmern wir uns erstmal wieder um die kleinen Fische."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Alright, here's the big one!\\. Let's do this!",
+         "transl": "Okay, da kommt der Boss!\\. Legen wir los!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "Alright, here we go. Be careful, Lea!",
+         "transl": "Okay, es geht los. Sei vorsichtig, Lea!"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Alright, got that one down.",
+         "transl": "Gut, der wäre erledigt."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "Phew... Got that one down.",
+         "transl": "Puh... Der wäre erledigt."
+        }
+       }
+      ]
+     },
+     {
+      "message": {
+       "orig": "I don't think I've ever seen an enemy like this. Scary stuff.",
+       "transl": "Kann mich nicht daran erinnern, so einem Gegner schon mal irgendwo begegnet zu sein. Heftig."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Well then... let's go on.",
+       "transl": "Also dann... Weiter geht's."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

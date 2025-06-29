@@ -1,0 +1,988 @@
+{
+ "entities": [
+  null,
+  {
+   "settings": {
+    "blockEvent": [
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "The door is locked, correct? It seems we are trapped.",
+         "transl": "Die Tür ist verschlossen, richtig? Sieht so aus, als wären wir hier gefangen."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hi Lea!",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "MASKED",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "And back!",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "Toward!",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "Down!",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "Hi!",
+         "transl": "<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "She responds!",
+       "transl": "Sie reagiert!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Good morning.",
+       "transl": "Guten Morgen."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "She...\\. looks scared?",
+       "transl": "Sie...\\. sieht verängstigt aus?"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Well...\\. it might be due to your appearance.",
+       "transl": "Das...\\. könnte an deinem Aufzug liegen."
+      }
+     },
+     {
+      "message": {
+       "orig": "I suppose...\\. One moment, then.",
+       "transl": "Gut möglich...\\. Einen Moment, bitte."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "This should be more casual.",
+       "transl": "Das sollte nun legerer sein."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Can't you...\\. speak?",
+       "transl": "Kannst du...\\. nicht sprechen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "[shakes head]",
+       "transl": "[schüttelt Kopf]"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Hm...\\. that's something we need to look into.",
+       "transl": "Hm...\\. Das müssen wir uns anschauen."
+      }
+     },
+     {
+      "message": {
+       "orig": "But you still seem to understand us, don't you?",
+       "transl": "Aber du verstehst uns, oder?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Interesting.",
+       "transl": "Interessant."
+      }
+     },
+     {
+      "message": {
+       "orig": "A mute woman that can still listen...\\. how nostalgic.",
+       "transl": "Eine stumme Frau, die hören kann...\\. Wie nostalgisch."
+      }
+     },
+     {
+      "message": {
+       "orig": "Huh?",
+       "transl": "Hm?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Say, do you remember your name?",
+       "transl": "Erinnerst du dich an deinen Namen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "[shakes head]",
+       "transl": "[schüttelt Kopf]"
+      }
+     },
+     {
+      "message": {
+       "orig": "So...\\. what should we call you, then?",
+       "transl": "Hm...\\. Wie sollen wir dich dann nennen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "How about... \\c[3]Lea\\c[0]?",
+       "transl": "Wie wäre es mit... \\c[3]Lea\\c[0]?"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Here are images of different landscapes.",
+       "transl": "Hier sind Bilder verschiedener Landschaften."
+      }
+     },
+     {
+      "message": {
+       "orig": "Do you remember what forests look like?",
+       "transl": "Weißt du noch, wie Wälder aussehen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Well then... can you point at the image showing forests?",
+       "transl": "Gut... Kannst du auf das Bild zeigen, auf dem Wälder zu sehen sind?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "That's correct.",
+       "transl": "Das ist korrekt."
+      }
+     },
+     {
+      "message": {
+       "orig": "So you remember basic concepts pretty well already.",
+       "transl": "An grundlegende Dinge erinnerst du dich also schon recht gut."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "So, what about yesterday's sign, can you still do it?",
+       "transl": "Also, das Zeichen, was wir gestern geübt haben, kannst du das wiederholen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "You forgot already...?",
+       "transl": "Du hast es schon wieder vergessen...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Oh, dear...",
+       "transl": "Oh je..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Is there any sign you remember?",
+       "transl": "Kannst du dich an ein anderes Zeichen erinnern?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Well, that's something.",
+       "transl": "Na, das ist doch was."
+      }
+     },
+     {
+      "message": {
+       "orig": "It's pretty clear now that it's not just your speech that's missing.\n",
+       "transl": "Aber jetzt ist klar, dass dir nicht nur die Sprachfähigkeit fehlt."
+      }
+     },
+     {
+      "message": {
+       "orig": "Writing things down doesn't work...",
+       "transl": "Schreiben funktioniert nicht..."
+      }
+     },
+     {
+      "message": {
+       "orig": "And we only get so far with hand signs...\n",
+       "transl": "Und mit Handzeichen kommen wir über einen gewissen Punkt nicht hinaus..."
+      }
+     },
+     {
+      "message": {
+       "orig": "It's like you're missing the ability to recall  \"words\"... or any abstract concept.",
+       "transl": "Es ist, als ob dir die Fähigkeit fehlen würde, dich an \"Worte\"... oder abstrakte Konzepte allgemein zu erinnern."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Lea, it's ok.\\. Please don't feel bad about this.",
+       "transl": "Lea, das ist ok.\\. Gräm dich deswegen nicht zu sehr."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Hello, Lea...",
+       "transl": "Hallo, Lea..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Always the same...",
+       "transl": "Immer das Gleiche..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Isn't it funny how it always goes the same way?",
+       "transl": "Ist es nicht seltsam, wie sich die Dinge ständig wiederholen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "All the support I gave them...\\. all the things I did...\\. it suddenly doesn't matter.",
+       "transl": "All die Unterstützung, die ich ihnen gewährte...\\. Alles, was ich für sie getan habe...\\. zählt plötzlich nicht mehr."
+      }
+     },
+     {
+      "message": {
+       "orig": "Just because of conflicting ideals.",
+       "transl": "Bloß wegen gegensätzlicher Ideale."
+      }
+     },
+     {
+      "message": {
+       "orig": "And all at once, things have to go hostile.",
+       "transl": "Und mit einem Schlag werden die Dinge persönlich."
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Sorry...\\. this really shouldn't concern you.",
+       "transl": "Entschuldige...\\. Das sollte nun wirklich nicht deine Sorge sein."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "So, any more hand signs you remember?",
+       "transl": "Also, erinnerst du dich noch an andere Handzeichen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Alright, so you can still count.",
+       "transl": "Ah, gut, du kannst also nach wie vor zählen."
+      }
+     },
+     {
+      "message": {
+       "orig": "That is something you picked up rather quickly.",
+       "transl": "Das ist etwas, das du recht schnell gelernt hast."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Oh... back to trying this again?",
+       "transl": "Oh... übst du das immer noch?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!!",
+       "transl": "...!!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Haha, don't worry.",
+       "transl": "Haha, keine Sorge."
+      }
+     },
+     {
+      "message": {
+       "orig": "You won't need that for any of the signs.",
+       "transl": "Das ist kein Handzeichen, das musst du nicht können."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "What is it?",
+       "transl": "Was ist denn?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Do you want me to tell you more about her?",
+       "transl": "Soll ich dir mehr über sie erzählen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Well...",
+       "transl": "Tja... "
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "We met through work several years ago.",
+       "transl": "Wir haben uns vor einigen Jahren auf der Arbeit kennengelernt."
+      }
+     },
+     {
+      "message": {
+       "orig": "She was competent...\\. hardworking. ",
+       "transl": "Sie war kompetent...\\. Fleißig."
+      }
+     },
+     {
+      "message": {
+       "orig": "\\c[3]Mute\\c[0]... but that didn't stop her from doing her job.",
+       "transl": "\\c[3]Stumm\\c[0]... Doch das hinderte sie nicht daran, ihren Job zu machen."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "We communicated via writing at first.\\. Then I learned sign language.",
+       "transl": "Am Anfang kommunizierten wir schriftlich.\\. Dann lernte ich die Zeichensprache."
+      }
+     },
+     {
+      "message": {
+       "orig": "But even then...\\. she never was much of a talker.",
+       "transl": "Das änderte jedoch nichts daran, dass sie einfach von Natur aus kein gesprächiger Typ war."
+      }
+     },
+     {
+      "message": {
+       "orig": "Just...\\. very, very good at listening.",
+       "transl": "Aber...\\. ein unglaublich guter Zuhörer."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "My job was all about having good relationships.",
+       "transl": "In meinem Job ging es darum, gute Beziehungen zu pflegen."
+      }
+     },
+     {
+      "message": {
+       "orig": "I've met so many people, always busy keeping up connections.",
+       "transl": "Ich habe so viele Leute getroffen, war immer damit beschäftigt, Kontakte zu knüpfen und zu pflegen."
+      }
+     },
+     {
+      "message": {
+       "orig": "Yet...\\. it was all so very shallow.",
+       "transl": "Und doch...\\. war alles so...\\. oberflächlich."
+      }
+     },
+     {
+      "message": {
+       "orig": "With her... it was different.",
+       "transl": "Mit ihr... war das anders."
+      }
+     },
+     {
+      "message": {
+       "orig": "She was one of the few people I could speak openly to.",
+       "transl": "Sie war eine der wenigen, mit denen ich offen reden konnte."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "It's similar with you.",
+       "transl": "Mit dir ist es ähnlich."
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "I suppose, I just get along well with mute people?",
+       "transl": "Scheint so, als käme ich mit stummen Leuten am besten klar, hm?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "So what? We're just humans.",
+       "transl": "Was soll's...\\. Wir sind auch bloß Menschen."
+      }
+     },
+     {
+      "message": {
+       "orig": "The world's most self-absorbed creature.",
+       "transl": "Die wohl egozentrischsten Geschöpfe der Welt."
+      }
+     },
+     {
+      "message": {
+       "orig": "We really like to think highly of ourselves.",
+       "transl": "Wir halten uns immer für die Größten."
+      }
+     },
+     {
+      "message": {
+       "orig": "And sure...\\. we certainly came and went far.",
+       "transl": "Klar...\\. Wir haben als Spezies viel erreicht."
+      }
+     },
+     {
+      "message": {
+       "orig": "But in the end...\\. we are just another kind of creature lost in this vast universe.",
+       "transl": "Aber am Ende...\\. sind wir auch bloß verlorene Geschöpfe...\\. Verloren im riesigen Universum."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Lea...\\. do you remember what a clear sky looks like at night?",
+       "transl": "Lea...\\. erinnerst du dich daran, wie ein klarer Himmel bei Nacht aussieht?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Out in the countryside, no town or city nearby?",
+       "transl": "Draußen, auf dem Land, weit weg von jeder Stadt?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[shakes head]",
+       "transl": "[schüttelt Kopf]"
+      }
+     },
+     {
+      "message": {
+       "orig": "I hope one day you will...",
+       "transl": "Ich hoffe, dass du das eines Tages sehen wirst..."
+      }
+     },
+     {
+      "message": {
+       "orig": "It is like...\\. a boundless sea of stars.",
+       "transl": "Es ist wie...\\. ein endloses Meer von Sternen."
+      }
+     },
+     {
+      "message": {
+       "orig": "When you see it, you start to realize...\\. just how insignificant we are to this world.",
+       "transl": "Wenn du das siehst, wird dir allmählich bewusst...\\. wie unbedeutend wir eigentlich für diese Welt sind."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hi Lea!",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "MASKED",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "And back!",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "Toward!",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "Down!",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "Hi!",
+         "transl": "<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

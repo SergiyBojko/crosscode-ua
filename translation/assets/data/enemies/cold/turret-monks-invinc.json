@@ -1,0 +1,39 @@
+{
+ "actions": {
+  "GoOn": [
+   {
+    "text": {
+     "orig": "Activated!",
+     "transl": "Aktiviert!<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "GoOff": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "Deactivated",
+       "transl": "Deaktiviert<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "GoUltra": [
+   {
+    "text": {
+     "orig": "Next gear!",
+     "transl": "Nächster Gang!<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Rookie Sentry",
+   "transl": "Rookie-Wache<<C<<Geprüft: Minsu"
+  }
+ }
+}

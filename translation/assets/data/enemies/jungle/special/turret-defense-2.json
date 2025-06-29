@@ -1,0 +1,255 @@
+{
+ "actions": {
+  "Init": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "[NEW TURRET]",
+       "transl": "[NEUES GESCHÜTZ]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "StartFullShield": [
+   {
+    "text": {
+     "orig": "FullShield On",
+     "transl": "Vollschild AN<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "ActivationWait": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ACTIVATE WITH CHARGED]",
+     "transl": "[AKTIVIERE MIT LADUNG]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "Activate": [
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "text": {
+         "orig": "[ACTIVATED, HEAT]",
+         "transl": "[AKTIVIERT, HITZE]<<C<<Geprüft: Minsu"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         null,
+         {
+          "text": {
+           "orig": "[ACTIVATED, COLD]",
+           "transl": "[AKTIVIERT, KÄLTE]<<C<<Geprüft: Minsu"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           null,
+           {
+            "text": {
+             "orig": "[ACTIVATED, SHOCK]",
+             "transl": "[AKTIVIERT, SCHOCK]<<C<<Geprüft: Minsu"
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "thenStep": [
+             null,
+             {
+              "text": {
+               "orig": "[ACTIVATED, WAVE]",
+               "transl": "[AKTIVIERT, WELLE]<<C<<Geprüft: Minsu"
+              }
+             }
+            ],
+            "elseStep": [
+             null,
+             {
+              "text": {
+               "orig": "[ACTIVATED, NEUTRAL]",
+               "transl": "[AKTIVIERT, NEUTRAL]<<C<<Geprüft: Minsu"
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     {
+      "text": {
+       "orig": "[NOT ENOUGH ENERGY]",
+       "transl": "[NICHT GENUG ENERGIE]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "LacksEnergy": [
+   null,
+   {
+    "text": {
+     "orig": "[NOT ENOUGH ENERGY]",
+     "transl": "[NICHT GENUG ENERGIE]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "ShotNeutral": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(SHOOT NEUTRAL)",
+       "transl": "(SHOOT NEUTRAL)<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "ShotHeat": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(SHOOT HEAT)",
+       "transl": "(SHOOT HEAT)<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "ShotCold": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(SHOOT COLD)",
+       "transl": "(SHOOT COLD)<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "ShotShock": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(SHOOT SHOCK)",
+       "transl": "(SHOOT SHOCK)<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "ShotWave": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(SHOOT WAVE)",
+       "transl": "(SHOOT WAVE)<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "AntiTurret": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "HEAT",
+         "transl": "HITZE<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "COLD",
+           "transl": "KÄLTE<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "NEUTRAL",
+           "transl": "NEUTRAL<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Charging Shot]",
+     "transl": "[Lade Schuss]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Legal Sentry",
+   "transl": "Legales Geschütz<<C<<Geprüft: Minsu"
+  }
+ }
+}

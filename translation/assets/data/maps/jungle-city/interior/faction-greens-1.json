@@ -1,0 +1,1037 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hey there, Seeker!\\. Welcome to the comfy retreat of \\c[3]\\v[lore.title.faction-wave-jungle]\\c[0].",
+         "transl": "Hallöchen, Seeker!\\. Willkommen in der behaglichen Ruheoase von \\c[3]\\v[lore.title.faction-wave-jungle]n\\c[0]!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Claude Reynes",
+      "transl": "Claude Reynes"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Claude Reynes",
+         "transl": "Claude Reynes"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker].\\. The Track blessed us with peace right now.\\. Please savor it!",
+         "transl": "Grüß dich, Seeker.\\. Der Pfad hat uns derzeit mit Frieden gesegnet.\\. Genieße ihn!"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Claude Reynes",
+          "transl": "Claude Reynes"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah, a \\v[lore.title.seeker].\\. Such a pleasant sight, welcome to our snug little retreat!",
+          "transl": "Ah, ein Seeker.\\. Welch Freude, dich zu sehen. Willkommen in unserer kleinen Wohlfühloase!"
+         }
+        },
+        {
+         "message": {
+          "orig": "We, \\c[3]\\v[lore.title.faction-wave-jungle]\\c[0], strive to protect the balance and purity of this wonderful habitat that is \\v[area.jungle.name].",
+          "transl": "Wir, \\c[3]\\v[lore.title.faction-wave-jungle]\\c[0], beschützen die Balance und Reinheit dieses wunder-\nvollen Habitats, genannt Gaias Garten."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Of course, with humanity always expanding, this has become both more and more important and challenging.",
+          "transl": "Mit der ständig wachsenden Bevölkerung wird diese Aufgabe umso wichtiger, aber auch herausfordernder."
+         }
+        },
+        {
+         "message": {
+          "orig": "Having one as distinguished as a \\v[lore.title.seeker] extend their hand to aid us can make a vast difference!",
+          "transl": "Die besondere Unterstützung eines Seekers hat dabei oft eine enorme Wirkung!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "In fact, just now we are in need of someone to protect one of ours during a screening of local water sources.",
+          "transl": "Tatsächlich brauchen wir gerade jemanden, der uns bei der Sichtung von lokalen Wasserquellen begleitet und beschützt."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Do you feel ready to assist us and our mission?",
+          "transl": "Bist du bereit, uns bei der Mission zu helfen?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Wonderful!\\. The investigation is long overdue because of the dangerous location.",
+            "transl": "Wundervoll!\\. Die Untersuchung war lange überfällig, wegen der gefährlichen Lage."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Meet up with Gardener Linde at the \\c[3]Royal Grove\\c[0].\\. She will be waiting near the teleporter.",
+            "transl": "Triff dich mit Botanikerin Linde im \\c[3]Adelshain\\c[0].\\. Sie wird am Teleporter auf dich warten."
+           }
+          },
+          {
+           "message": {
+            "orig": "Keep her safe so she can work for the well-being of our environment!",
+            "transl": "Beschütze sie, damit sie für das Wohl unserer Umwelt arbeiten kann!"
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye.",
+            "transl": "Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "That is truly a shame.\\. Please come back when you have changed your mind.",
+            "transl": "Das ist wirklich schade.\\. Bitte komm zurück, wenn du deine Meinung geändert hast."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Claude Reynes",
+         "transl": "Claude Reynes"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Meet Gardener Linde at the \\c[3]Royal Grove\\c[0] and support her.\\. She is waiting near the teleporter.",
+         "transl": "Triff dich mit Botanikerin Linde im \\c[3]Adelshain\\c[0].\\. Sie wird am Teleporter auf dich warten."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Claude Reynes",
+          "transl": "Claude Reynes"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah great, welcome back \\v[lore.title.seeker]!\\. We already received the water samples and started the examination.",
+          "transl": "Ah, super, willkommen zurück, Seeker!\\. Die Wasserproben haben wir bereits erhalten und die Untersuchung gestartet."
+         }
+        },
+        {
+         "message": {
+          "orig": "The data has been dearly missing.\\. Now we can finally get back on track with our work.\\.",
+          "transl": "Die Daten haben uns wirklich gefehlt.\\. Jetzt können wir endlich wieder unsere Arbeit aufnehmen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, it will take some time before we have useable information.\\. Maybe we will need your help again, noble \\v[lore.title.seeker]!",
+          "transl": "Bis wir brauchbare Infos haben, dauert es allerdings noch.\\. Vielleicht brauchen wir nochmal deine Hilfe, nobler Seeker!"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "But for now, please take this reward.\\. May the Ancients' bless you!",
+          "transl": "Hier ist aber erstmal deine Belohnung. Mögen die Ahnen dich segnen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Claude Reynes",
+         "transl": "Claude Reynes"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker].\\. The Track blessed us with peace right now.\\. Please savor it!",
+         "transl": "Grüß dich, Seeker.\\. Der Pfad hat uns derzeit mit Frieden gesegnet.\\. Genieße ihn!"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Claude Reynes",
+          "transl": "Claude Reynes"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], right on cue!\\. The water sample you helped to collect has proven to be useful.",
+          "transl": "Seeker, du kommst gerade recht!\\. Die Wasserprobe, die du uns gebracht hast, hat sich als nützlich erwiesen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "We recently got the results of the test back and the data is definitely worrisome.",
+          "transl": "Wir haben vor kurzem die Testergebnisse erhalten, die Werte sind wirklich beunruhigend."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "An unusual concentration of unfamiliar energy has been found in the water.",
+          "transl": "Eine ungewöhnliche Konzentration unbekannter Energie wurde im Wasser gefunden."
+         }
+        },
+        {
+         "message": {
+          "orig": "Reports suggest that it is strong enough to influence even larger animals and plants.",
+          "transl": "Die Ergebnisse deuten darauf hin, dass sie sogar stark genug ist, größere Tiere und Pflanzen zu beeinflussen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!!",
+          "transl": "...!!"
+         }
+        },
+        {
+         "message": {
+          "orig": "As we speak, infected plants roam \\v[area.jungle.name] to spread the disease right into the roots of our beloved forest.",
+          "transl": "Einige Pflanzen sind bereits infiziert, es ist also nur eine Frage der Zeit, bis auch die tiefsten Wurzeln unseres geliebten Waldes befallen sind."
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], will you lend us your aid again, to weed out this threat?",
+          "transl": "Seeker, wirst du uns helfen, diese Bedrohung abzuwenden?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Excellent!\\. You are perfect for this job, I am certain of it.",
+            "transl": "Ausgezeichnet!\\. Ich bin mir sicher, dass du für diese Arbeit genau die Richtige bist."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "Now, we still do not know how the infection started spreading.\\. So you should start by eradicating its offshoots.",
+            "transl": "Wir wissen noch nicht, wie sich die Krankheit überhaupt verbreiten konnte.\\. Du solltest also zunächst ihre Sprößlinge unschädlich machen."
+           }
+          },
+          {
+           "message": {
+            "orig": "There have been several sightings of \\c[3]infected \\v[combat.name.jungle/plant]\\c[0] in \\c[3]Western \\v[area.jungle.name]\\c[0].",
+            "transl": "Es gab diverse Sichtungen von \\c[3]infizierten Ergebeh\\c[0] im \\c[3]westlichen Teil von Gaias Garten\\c[0]."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "They seem to \\c[3]remain hidden near bodies of water\\c[0] while drenching the grounds with their infectious energy.",
+            "transl": "Sie scheinen sich \\c[3]in der Nähe von Gewässern zu verstecken\\c[0], um den Boden mit ihrer krankmachenden Energie zu durchtränken."
+           }
+          },
+          {
+           "message": {
+            "orig": "Though with all that excess energy, you should be able to \\c[3]sense them from afar\\c[0] with your \\c[3]\\v[lore.title.seeker] analysis\\c[0].",
+            "transl": "Du solltest sie allerdings schon aus der Ferne mit Hilfe deiner \\c[3]Seeker-Analyse wahrnehmen\\c[0] können."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Please hurry and dispose of them.\\. Meanwhile, we will try to find the real root of the problem.",
+            "transl": "Bitte beeil dich und kümmere dich um sie.\\. Wir werden in der Zwischenzeit versuchen, die Wurzel des Übels zu finden."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye.",
+            "transl": "Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "\\v[lore.title.seeker], please.\\. This could have dire consequences for the entire area.",
+            "transl": "Bitte, Seeker.\\. Das könnte massive Auswirkungen auf die gesamte Region haben!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Claude Reynes",
+         "transl": "Claude Reynes"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Search for the \\c[3]infected \\v[combat.name.jungle/plant]\\c[0] near bodies of water in \\c[3]Western \\v[area.jungle.name]\\c[0].",
+         "transl": "Suche nach \\c[3]infizierten Ergebeh\\c[0] in Wassernähe im \\c[3]westlichen Teil von Gaias Garten\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "They will try to hide, but with your \\c[3]\\v[lore.title.seeker] analysis\\c[0] you should be able to \\c[3]sense them from afar\\c[0].",
+         "transl": "Sie werden sich verstecken, aber mit deiner \\c[3]Seeker-Analyse\\c[0] solltest du sie \\c[3]schon von weitem wittern können\\c[0]."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Claude Reynes",
+          "transl": "Claude Reynes"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], you have done well in isolating the infection!\\. Meanwhile, we were able to find the cause of the problem!",
+          "transl": "Seeker, du hast die Infektion gut eingedämmt!\\. Und wir wissen jetzt auch, was die Ursache des Problems ist!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Another plant has been found, older and with a much stronger concentration of energy.\\. It must be the source!",
+          "transl": "Eine weitere Pflanze wurde gefunden, wesentlich älter und mit deutlich stärkerer Energiekonzentration.\\. Sie muss die Quelle sein!"
+         }
+        },
+        {
+         "message": {
+          "orig": "And now it has taken root in \\c[3]Wet Passage\\c[0], directly next to central streams of water.",
+          "transl": "Und jetzt hat sie in der \\c[3]Nassen Passage\\c[0] Wurzeln geschlagen, direkt zwischen zwei zentralen Flüssen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], you must face it and finally return it to the ground, before the infection starts again.",
+          "transl": "Seeker, du musst dich ihr stellen und sie wieder der Erde zurückführen, bevor die Infektion sich wieder ausbreitet."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Claude Reynes",
+         "transl": "Claude Reynes"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "The source of the infection has taken root on \\c[3]Wet Passage\\c[0], between two rivers.",
+         "transl": "Die Quelle der Infektion hat in der \\c[3]Nassen Passage\\c[0] zwischen zwei Flüssen Wurzeln geschlagen."
+        }
+       },
+       {
+        "message": {
+         "orig": "Go there and destroy it to preserve the forest's balance.",
+         "transl": "Eile dort hin und zerstöre sie, um das Gleichgewicht im Wald aufrechtzuerhalten."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Claude Reynes",
+          "transl": "Claude Reynes"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker]!\\. You have destroyed it, right?",
+          "transl": "Seeker!\\. Du hast sie zerstört, stimmt's?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Fantastic!\\. With that threat now banished, my fellow gardeners can swarm out and purify the waters.",
+          "transl": "Fantastisch!\\. Jetzt, da die Gefahr gebannt ist, können meine Gärtnerkollegen ausschwärmen und die Gewässer reinigen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "How and where that plant was able to amass such power remains a mystery, but we will investigate the trail.",
+          "transl": "Wie und woher diese Pflanze derart viel Energie bekam, bleibt unklar, aber wir werden die Spur weiterhin verfolgen."
+         }
+        },
+        {
+         "message": {
+          "orig": "You, \\v[lore.title.seeker], have done truly excellent work!\\. Take these rewards and be blessed.",
+          "transl": "Du, Seeker, hast exzellente Arbeit geleistet!\\. Nimm diese Belohnung und sei gesegnet."
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Claude Reynes",
+          "transl": "Claude Reynes"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], great to see you again.\\. You worked up a fine, respectable reputation here and everywhere.",
+          "transl": "Schön, dich wiederzusehen, Seeker.\\. Du hast dir hier und überall einen guten, respektablen Ruf erarbeitet."
+         }
+        },
+        {
+         "message": {
+          "orig": "Lea...",
+          "transl": "Lea..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Having you back could really ease our nerves here.\\. Some trouble has been rekindling in the underbrush.",
+          "transl": "Deine Anwesenheit hier wird unsere Nerven bedeutend beruhigen.\\. Da ist nämlich wieder etwas im Busch."
+         }
+        },
+        {
+         "message": {
+          "orig": "... How?",
+          "transl": "... Wie?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yes, \\v[lore.title.seeker].\\. The corruption you uprooted has returned and now it's even come right to our doorstep.",
+          "transl": "Ja, Seeker.\\. Das Verderben, das du entwurzelt hast, ist zurückgekehrt, und jetzt ist es sogar direkt vor unsere Haustür gekommen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Will you lend us your aid again, so we can bring back peace and balance once and for all?",
+          "transl": "Wirst du uns erneut helfen, damit wir ein für alle Mal den Frieden und das Gleichgewicht wiederherstellen können?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Excellent!\\. I knew we could count on your assistance.",
+            "transl": "Ausgezeichnet!\\. Ich wusste, dass wir auf deine Unterstützung zählen können."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "We were notified of troubling incidents that gave off a similar energy reading as those corrupted plants you pacified.",
+            "transl": "Wir wurden über beunruhigende Vorfälle benachrichtigt, die einen ähnlichen Energiewert abgaben wie die verdorbenen Pflanzen, die du befriedet hast."
+           }
+          },
+          {
+           "message": {
+            "orig": "But this time the attacks targeted people as close as the \\c[3]City Entrance\\c[0]!",
+            "transl": "Aber dieses Mal zielten die Angriffe auf Menschen, die sich direkt am \\c[3]Stadteingang\\c[0] befanden!<<A<<[CHANGED 2021/05/22]"
+           }
+          },
+          {
+           "message": {
+            "orig": "...!\\. How?",
+            "transl": "...!\\. Wie?"
+           }
+          },
+          {
+           "message": {
+            "orig": "That is for you to find out, \\v[lore.title.seeker]!\\. Search for anomalies right at the entrance and try to cleanse them.",
+            "transl": "Das musst du selbst herausfinden, Seeker!\\. Suche nach Anomalien direkt am Eingang und versuche, sie zu bereinigen."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye.",
+            "transl": "Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "\\v[lore.title.seeker], please.\\. This is a matter of critical importance.\\. It might even threaten the entire city!",
+            "transl": "Seeker, bitte.\\. Das ist eine Angelegenheit von entscheidender Bedeutung.\\. Es könnte sogar die gesamte Stadt bedrohen!"
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Claude Reynes",
+         "transl": "Claude Reynes"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Investigate the \\c[3]outside entrance of the city\\c[0] and look for anything that could cause the disturbance.",
+         "transl": "Untersuche den \\c[3]Außeneingang der Stadt\\c[0] und suche nach allem, was die Störung verursachen könnte."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Claude Reynes",
+         "transl": "Claude Reynes"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Go meet \\c[3]Linde\\c[0] on the \\c[3]Isle of Legend\\c[0] in \\c[3]\\v[area.beach.name]\\c[0] and help her extract it!",
+         "transl": "Triff dich mit \\c[3]Linde\\c[0] auf der \\c[3]Insel der Legende\\c[0] des \\c[3]Azur-Archipels\\c[0] und hilf ihr, es zu extrahieren!"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Claude Reynes",
+          "transl": "Claude Reynes"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], good to see you! The salt has been delivered and prepared!",
+          "transl": "Seeker, schön, dich zu sehen! Das Salz wurde geliefert und ist vorbereitet!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Fascinating how much power is stored in this substance..\\. This should even cleanse that toxic spirit.",
+          "transl": "Faszinierend, wie viel Kraft in dieser Substanz steckt...\\. Das sollte sogar diesen vergifteten Geist reinigen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "However, your support is still needed, \\v[lore.title.seeker].",
+          "transl": "Deine Unterstützung wird jedoch weiterhin benötigt, Seeker."
+         }
+        },
+        {
+         "message": {
+          "orig": "Meet up with Linde at the entrance of the city.\\. She will cleanse the ghost while you protect her.",
+          "transl": "Triff dich mit Linde am Eingang der Stadt.\\. Sie wird den Geist reinigen, während du sie beschützt."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Meet!",
+          "transl": "Treffen!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Indeed, together with her you will bring back peace to this city.\\. We are counting on you.",
+          "transl": "Ja, gemeinsam werdet ihr den Frieden in dieser Stadt wiederherstellen.\\. Wir zählen auf euch."
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Claude Reynes",
+         "transl": "Claude Reynes"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Go meet \\c[3]Linde\\c[0] at the \\c[3]city entrance\\c[0]. Together you must lay the toxic spirit to rest!",
+         "transl": "Triff dich mit \\c[3]Linde\\c[0] am \\c[3]Stadteingang\\c[0]. Ihr müsst dem vergifteten Geist Einhalt gebieten!"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Claude Reynes",
+          "transl": "Claude Reynes"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hey, \\v[lore.title.seeker]!\\. There's our savior, returning from her legendary deed!",
+          "transl": "Hey, Seeker!\\. Da ist ja unsere Retterin, die von ihrer legendären Tat zurückkehrt!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "There is no need for this humble silence, \\v[lore.title.seeker].\\. You have truly done great.",
+          "transl": "Kein Grund, so bescheiden zu schweigen, Seeker.\\. Du hast wahrlich Großes geleistet."
+         }
+        },
+        {
+         "message": {
+          "orig": "Lea.",
+          "transl": "Lea."
+         }
+        },
+        {
+         "message": {
+          "orig": "There is no telling what would have happened later, if no one had taken care of this infectious unrest.",
+          "transl": "Man weiß nicht, was später passiert wäre, wenn sich niemand um diese ansteckende Unruhe gekümmert hätte.<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Now it is up to us citizens to prevent something of this kind from ever happening again.\\. By leading healthier, less wasteful lives.",
+          "transl": "Jetzt liegt es an uns Bürgern, zu verhindern, dass so etwas jemals wieder passiert.\\. Indem wir ein gesünderes, weniger verschwenderisches Leben führen."
+         }
+        },
+        {
+         "message": {
+          "orig": "I am sure even the mayor will agree.\\. He is a pragmatic man, who would not want such a catastrophe to repeat.",
+          "transl": "Ich bin sicher, dass sogar der Bürgermeister zustimmen wird.\\. Er ist ein pragmatischer Mann, der nicht möchte, dass sich eine solche Katastrophe wiederholt."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], you have my thanks.\\. Please always consider yourself a friend of this city.\\. Take care!",
+          "transl": "Seeker, du hast meinen Dank.\\. Bitte betrachte dich immer als Freund dieser Stadt.\\. Pass auf dich auf!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Claude Reynes",
+         "transl": "Claude Reynes"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker].\\. The Track blessed us with peace right now.\\. Please savor it!",
+         "transl": "Grüß dich, Seeker.\\. Der Pfad hat uns derzeit mit Frieden gesegnet.\\. Genieße ihn!"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

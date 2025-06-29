@@ -1,0 +1,531 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Barkeep",
+      "transl": "Barkeeper"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Barkeep",
+         "transl": "Barkeeper"
+        }
+       },
+       {
+        "message": {
+         "orig": "No drinks unless the boss gives his okay.",
+         "transl": "Keine Drinks. Außer der Boss macht 'ne Ansage."
+        }
+       },
+       {
+        "message": {
+         "orig": "... Bye.",
+         "transl": "... Bye."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "0": [
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Lea!\\. Wait!",
+         "transl": "Lea!\\. Warte!"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "[disrespectful bird noises]",
+         "transl": "[respektlose Vogellaute]"
+        }
+       },
+       null,
+       null,
+       {
+        "message": {
+         "orig": "... Why?",
+         "transl": "... Warum?"
+        }
+       },
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "[curses of the bird variety]",
+         "transl": "[Flüche der Vogelvielfalt]"
+        }
+       },
+       null,
+       null,
+       {
+        "message": {
+         "orig": "... Wait!",
+         "transl": "... Warte?"
+        }
+       }
+      ],
+      "options": [
+       {
+        "label": {
+         "orig": "[Confront Criminals]",
+         "transl": "[Konfrontiere die Kriminellen]"
+        }
+       },
+       {
+        "label": {
+         "orig": "[Turn back]",
+         "transl": "[Kehre um]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[aggressive squawking]",
+       "transl": "[aggressives Krächzen]<<C<<IGNORE"
+      }
+     },
+     {
+      "text": {
+       "orig": "[aggressive squawking]",
+       "transl": "[aggressives Krächzen]<<C<<IGNORE"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...",
+       "transl": "...<<C<<IGNORE"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!<<C<<IGNORE"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Rescue all the hostages by stunning their captor with a \\c[3]charged shot\\c[0]!",
+       "transl": "Rette alle Geiseln, indem du die Geiselnehmer mit einem \\c[3]geladenen Schuss\\c[0] betäubst!<<C<<IGNORE"
+      }
+     },
+     {
+      "task": {
+       "orig": "\\c[3]Stun\\c[0] the Papagangster with \\c[3]a charged attack\\c[0] to \\c[3]free the hostage\\c[0].\n\\c[1]Be careful to not get too close or hurt the hostage!\\c[0]",
+       "transl": "\\c[3]Lähme\\c[0] den Papagangster mit \\c[3]einem geladenen Angriff\\c[0], um \\c[3]die Geisel zu befreien\\c[0].\n\\c[1]Aber Vorsicht! Du darfst die Geisel nicht verletzen oder ihr zu nahe kommen!\\c[0]<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "DJ Spep",
+      "transl": "DJ Spep"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Please don't mind my friend here.",
+         "transl": "Bitte beachte meinen Freund hier einfach nicht."
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "He just really likes to dance and doesn't want any trouble.",
+         "transl": "Er liebt es einfach nur zu tanzen und will keinen Stress."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "startAction": [
+       null,
+       {
+        "text": {
+         "orig": "[Angry bird noises]",
+         "transl": "[wütende Vogellaute]"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     {
+      "startAction": [
+       null,
+       null,
+       {
+        "text": {
+         "orig": "[Angry goat noises]",
+         "transl": "[wütende Ziegenlaute]"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     {
+      "startAction": [
+       null,
+       {
+        "text": {
+         "orig": "[Angry bird noises]",
+         "transl": "[wütende Vogellaute]"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     {
+      "startAction": [
+       null,
+       null,
+       {
+        "text": {
+         "orig": "[Angry goat noises]",
+         "transl": "[wütende Ziegenlaute]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "startAction": [
+       null,
+       {
+        "text": {
+         "orig": "[Angry bird noises]",
+         "transl": "[wütende Vogellaute]"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "startAction": [
+       null,
+       {
+        "text": {
+         "orig": "[Angry bird noises]",
+         "transl": "[wütende Vogellaute]"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     {
+      "startAction": [
+       null,
+       {
+        "text": {
+         "orig": "[Angry bird noises]",
+         "transl": "[wütende Vogellaute]"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "startAction": [
+       null,
+       {
+        "text": {
+         "orig": "[Angry bird noises]",
+         "transl": "[wütende Vogellaute]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Gal",
+      "transl": "Barkeeper"
+     }
+    }
+   }
+  },
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Gurl",
+      "transl": "Barkeeper"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Barkeep",
+      "transl": "Barkeeper"
+     }
+    }
+   }
+  }
+ ]
+}

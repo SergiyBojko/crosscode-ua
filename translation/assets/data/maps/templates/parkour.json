@@ -1,0 +1,138 @@
+{
+ "entities": [
+  {
+   "settings": {
+    "text": {
+     "orig": "A rock formation!\nYou're filled with \\c[3]Determination\\c[0]",
+     "transl": "Eine Felsformation!\nDu bist fest \\c[3]entschlossen\\c[0]."
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Your time is \\v[timers.test.formatTime]",
+         "transl": "Deine Zeit ist \\v[timers.test.formatTime]."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Go to the start.",
+         "transl": "Gehe zum Anfang."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "You have \\v[timers.timer.formatRemainingTime] left.",
+         "transl": "Du hast noch \\v[timers.timer.formatRemainingTime] Zeit übrig."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Alright, let's go!",
+       "transl": "Ok, dann lass uns loslegen!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "message": {
+       "orig": "Scrub.",
+       "transl": "Verdammt!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "message": {
+       "orig": "You did it!",
+       "transl": "Du hast es geschafft!"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

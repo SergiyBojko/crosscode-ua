@@ -1,0 +1,538 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "1": {
+        "text": {
+         "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
+         "transl": "Brückenaufzug: \\c[1]deaktiviert\\c[0].\nMöchtest du den Aufzug aktivieren?"
+        }
+       },
+       "2": {
+        "0": [
+         null,
+         null,
+         null,
+         {
+          "text": {
+           "orig": "Bridge Elevator \\c[2]enabled\\c[0]!",
+           "transl": "Brückenaufzug: \\c[2]aktiviert\\c[0]!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[no]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       },
+       "hoverText": {
+        "orig": "Display",
+        "transl": "Bildschirm"
+       },
+       "event": [
+        null,
+        {
+         "text": {
+          "orig": "Test sequence status: \\c[2]ready\\c[0].\n\\c[1]Start test sequence\\c[0]?",
+          "transl": "Testsequenz-Status: \\c[2]bereit\\c[0].\n\\c[1]Testsequenz starten\\c[0]?"
+         }
+        },
+        {
+         "0": [
+          null,
+          null,
+          null,
+          {
+           "text": {
+            "orig": "Preparing to \\c[2]initiate test sequence\\c[0]!",
+            "transl": "Bereite \\c[2]Testsequenz vor\\c[0]!"
+           }
+          },
+          {
+           "text": {
+            "orig": "Please \\c[3]enter room to the west \\c[0] to begin.",
+            "transl": "Bitte \\c[3]westlichen Raum betreten\\c[0], um zu beginnen."
+           }
+          }
+         ],
+         "1": [
+          null,
+          {
+           "text": {
+            "orig": "Completion of test sequence is \\c[3]required\\c[0] in order to access the east lab area.",
+            "transl": "Abschluss der Testsequenz \\c[3]erforderlich\\c[0] für Zugang zum östlichen Laborbereich."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "[yes]",
+            "transl": "[Ja]"
+           }
+          },
+          {
+           "label": {
+            "orig": "[no]",
+            "transl": "[Nein]"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "interact": {
+       "1": {
+        "text": {
+         "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
+         "transl": "Brückenaufzug: \\c[1]deaktiviert\\c[0].\nMöchtest du den Aufzug aktivieren?"
+        }
+       },
+       "2": {
+        "0": [
+         null,
+         null,
+         null,
+         {
+          "text": {
+           "orig": "Bridge Elevator \\c[2]enabled\\c[0]!",
+           "transl": "Brückenaufzug: \\c[2]aktiviert\\c[0]!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[no]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       },
+       "hoverText": {
+        "orig": "Display",
+        "transl": "Bildschirm"
+       },
+       "event": [
+        null,
+        {
+         "text": {
+          "orig": "Test sequence status: \\c[2]completed\\c[0].\nPerformance score: \\c[2]41.99%\\c[0].",
+          "transl": "Testsequenz-Status: \\c[2]abgeschlossen\\c[0].\nLeistungspunkte: \\c[2]41,99%\\c[0]."
+         }
+        },
+        null,
+        null,
+        {
+         "text": {
+          "orig": "Granting access to \\c[3]east lab area\\c[0].",
+          "transl": "Gewähre Zugang zum \\c[3]östlichen Laborbereich\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "1": {
+        "text": {
+         "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
+         "transl": "Brückenaufzug: \\c[1]deaktiviert\\c[0].\nMöchtest du den Aufzug aktivieren?"
+        }
+       },
+       "2": {
+        "0": [
+         null,
+         null,
+         null,
+         {
+          "text": {
+           "orig": "Bridge Elevator \\c[2]enabled\\c[0]!",
+           "transl": "Brückenaufzug: \\c[2]aktiviert\\c[0]!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[no]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       },
+       "hoverText": {
+        "orig": "Display",
+        "transl": "Bildschirm"
+       },
+       "event": [
+        null,
+        {
+         "text": {
+          "orig": "\\c[1]NOTE:\\c[0]\n\nSome of the \\v[combat.name.snowtank]s were breaking out of the test chamber and tried to reach the elevator. Put some boxes here so it doesn't happen again.\n\nPS: Good luck everyone on the other side!",
+          "transl": "\\c[1]HINWEIS:\\c[0]\n\nEin paar der \\v[combat.name.snowtank]s sind aus der Testkammer ausgebrochen und hatten versucht, den Aufzug zu erreichen. Stellt ein paar Kisten auf, so dass das nicht wieder passiert.\n\nPS: Viel Glück euch auf der anderen Seite!"
+         }
+        },
+        {
+         "text": {
+          "orig": "Open \\c[3]ventilation shaft\\c[0]?",
+          "transl": "\\c[3]Belüftungsschacht\\c[0] öffnen?"
+         }
+        },
+        {
+         "0": [
+          null,
+          null,
+          null,
+          {
+           "text": {
+            "orig": "Ventilation Shaft \\c[2]opened\\c[0]!",
+            "transl": "Belüftungsschacht \\c[2]geöffnet\\c[0]!"
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "[yes]",
+            "transl": "[Ja]"
+           }
+          },
+          {
+           "label": {
+            "orig": "[no]",
+            "transl": "[Nein]"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Hologram",
+      "transl": "Hologramm"
+     },
+     "event": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "name": {
+        "orig": "Xavier Bonegate",
+        "transl": "Xavier Bonegate"
+       }
+      },
+      null,
+      {
+       "message": {
+        "orig": "Hello and welcome.\\. I'm \\c[3]Xavier Bonegate\\c[0] speaking for \\c[3]Heavy Hardware Inc\\c[0].\\. How are you?",
+        "transl": "Hallo und willkommen.\\. Ich bin \\c[3]Xavier Bonegate\\c[0] und ich spreche für \\c[3]Heavy Hardware AG\\c[0].\\. Wie geht's?"
+       }
+      },
+      {
+       "message": {
+        "orig": "Whatever your answer may be, rest assured that we will always strive to improve the lives of everyone, everywhere, at every time.",
+        "transl": "Was auch immer deine Antwort sein mag, sei versichert, dass wir uns immer bemühen werden, das Leben aller Menschen überall und jederzeit zu verbessern."
+       }
+      },
+      {
+       "message": {
+        "orig": "For example, we are proud to report great successes in the field of fuel-independent, heavy ordnance vehicles.",
+        "transl": "Zum Beispiel können wir mit Stolz große Erfolge auf dem Gebiet von kraftstoffunabhängigen Kampfwagen vermelden."
+       }
+      },
+      {
+       "message": {
+        "orig": "For now this technology is primarily geared towards the use in warfare.\\. To protect our settlements and advance to new, dangerous territories.",
+        "transl": "Derzeit ist diese Technologie in erster Linie für den Kriegseinsatz ausgerichtet:\\. Für die Verteidigung unserer Siedlungen und das Vordringen in neue, gefährliche Gebiete."
+       }
+      },
+      {
+       "message": {
+        "orig": "Energy of the Track, directly woven into every step of our production process, is granting us never before seen efficiency.",
+        "transl": "Die Energie des Pfades, die direkt in jeden Schritt unseres Produktionsprozesses eingebunden ist, verleiht ihr eine noch nie dagewesene Effizienz."
+       }
+      },
+      {
+       "message": {
+        "orig": "The challenges of working with such a new form of energy are great, but by employing the best experts we will be able to reap the rewards.",
+        "transl": "Die Herausforderungen bei der Arbeit mit dieser neuen Energieform sind groß, daher profitieren wir von der Expertise unserer Experten enorm."
+       }
+      },
+      {
+       "message": {
+        "orig": "We also made huge progress with unusually intelligent snowmen, generally known as \\v[combat.name.snowman].",
+        "transl": "Wir haben auch große Fortschritte mit ungewöhnlich intelligenten Schneemännern gemacht, die allgemein als \\v[combat.name.snowman] bekannt sind."
+       }
+      },
+      {
+       "message": {
+        "orig": "We were able to create vehicles for them that they could easily control without using their hands.",
+        "transl": "Wir konnten Fahrzeuge für sie herstellen, die keine Hände zur Steuerung erfordern."
+       }
+      },
+      {
+       "message": {
+        "orig": "They can handle dangerous work even in the coldest of conditions!",
+        "transl": "Sie können nämlich selbst unter den kältesten Bedingungen gefährliche Arbeiten ausführen!"
+       }
+      },
+      {
+       "message": {
+        "orig": "This will greatly minimize risks for workers everywhere!",
+        "transl": "Dies wird die Risiken aller Arbeiter weltweit erheblich minimieren!"
+       }
+      },
+      {
+       "message": {
+        "orig": "And for our greatest project we will equip the most promising \\v[combat.name.snowman] with the most powerful machine we have created so far.",
+        "transl": "Und für unser größtes Projekt statten wir den besten \\v[combat.name.snowman] mit der bislang leistungsstärksten Maschine aus, die wir je hergestellt haben."
+       }
+      },
+      {
+       "message": {
+        "orig": "I am sure that, because of pioneering projects like this, our next report will be an even better one.\\. Until then!",
+        "transl": "Ich bin mir sicher, dass die kommende Zeit beim nächsten Bericht aufgrund derartiger Pilotprojekte die jetzige noch übertreffen wird.\\. Bis dahin!"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "Display",
+        "transl": "Bildschirm"
+       },
+       "event": [
+        null,
+        {
+         "text": {
+          "orig": "\\c[1]INTERNAL MAIL, OUTGOING\\c[0]\n\n\\c[3]FROM:\\c[0] Bergen Facility, Office 21b\n\\c[3]TO:\\c[0] \"Heavy Hardware\", Management\n\n\\c[3]Subject:\\c[0] BOXES???",
+          "transl": "\\c[1]POSTAUSGANG, INTERN\\c[0]\n\n\\c[3]VON:\\c[0] Anlage Bergen, Büro 21b\n\\c[3]AN:\\c[0] \"Heavy Hardware\", Geschäftsführung\n\n\\c[3]Betreff:\\c[0] KISTEN???"
+         }
+        },
+        {
+         "text": {
+          "orig": "Greetings,\n\nwhat is this? Why are there suddenly boxes blocking the entrance to our office?\n\nSincerely,\n[NAME REDACTED]\n\n\\c[1][END OF MAIL]\\c[0]",
+          "transl": "Hallo,\n\nwas soll das? Warum stehen hier auf einmal Kisten herum, die den Eingang zu unserem Büro blockieren?\n\nMit freundlichen Grüßen,\n[NAME ZENSIERT]\n\n\\c[1][ENDE DER NACHRICHT]\\c[0]"
+         }
+        },
+        {
+         "text": {
+          "orig": "\\c[1]INTERNAL MAIL, OUTGOING\\c[0]\n\n\\c[3]FROM:\\c[0] Bergen Facility, Office 21b\n\\c[3]TO:\\c[0] \"Heavy Hardware\", Management\n\n\\c[3]Subject:\\c[0] RE: RE: BOXES???",
+          "transl": "\\c[1]POSTAUSGANG, INTERN\\c[0]\n\n\\c[3]VON:\\c[0] Anlage Bergen, Büro 21b\n\\c[3]AN:\\c[0] \"Heavy Hardware\", Geschäftsführung\n\n\\c[3]Betreff:\\c[0] RE: RE: KISTEN???"
+         }
+        },
+        {
+         "text": {
+          "orig": "A safety precaution in case of another breakout? What are we on this side to do then, hide under the tables?\nIt's bad enough that the Track seems to constantly reshape our facility and place weird stuff everywhere. Now we also have to deal with our colleagues, putting boxes in the way.",
+          "transl": "Eine Vorsichtsmaßnahme gegen einen erneuten Ausbruch? Was sollen wir denn dann auf dieser Seite hier machen? Uns unter den Tischen verstecken?\nEs ist schon schlimm genug, dass der Pfad hier ständig überall die seltsamsten Sachen auftauchen lässt. Jetzt stellen uns auch noch unsere Kollegen Kisten in den Weg."
+         }
+        },
+        {
+         "text": {
+          "orig": "\nThis is ridiculous!\n\n\\c[1][END OF MAIL]\\c[0]",
+          "transl": "\nDas ist doch lächerlich!\n\n\\c[1][ENDE DER NACHRICHT]\\c[0]"
+         }
+        },
+        {
+         "text": {
+          "orig": "\\c[1]INTERNAL MAIL, OUTGOING\\c[0]\n\n\\c[3]FROM:\\c[0] Bergen Facility, Office 21b\n\\c[3]TO:\\c[0] \"Heavy Hardware\", Management\n\n\\c[3]Subject:\\c[0] RE: RE: RE: RE: BOXES???",
+          "transl": "\\c[1]POSTAUSGANG, INTERN\\c[0]\n\n\\c[3]VON:\\c[0] Anlage Bergen, Büro 21b\n\\c[3]AN:\\c[0] \"Heavy Hardware\", Geschäftsführung\n\n\\c[3]Betreff:\\c[0] RE: RE: RE: RE: KISTEN???"
+         }
+        },
+        {
+         "text": {
+          "orig": "YOU are a bad team player!!1\nAnd what do you mean, \"Boxes are quite popular these days.\"? They are IN THE WAY. We can't work like that!\n\n\\c[1][END OF MAIL]\\c[0]",
+          "transl": "Leute, das ist doch ASOZIAL!!1\nUnd was meint ihr mit \"Kisten sind doch wieder schwer im Kommen!\"? Sie STEHEN IM WEG. So können wir nicht arbeiten!\n\n\\c[1][ENDE DER NACHRICHT]\\c[0]"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

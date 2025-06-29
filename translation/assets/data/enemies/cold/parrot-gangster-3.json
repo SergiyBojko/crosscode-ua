@@ -1,0 +1,107 @@
+{
+ "actions": {
+  "Init": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "\\v[entity.name]",
+       "transl": "\\v[entity.name]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "GangsterShootCover": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Shooting...]",
+     "transl": "[Schieße...]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "GangsterReactCharged": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Lost control!]",
+     "transl": "[Kontrolle verloren!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "GangsterWarning": [
+   null,
+   {
+    "text": {
+     "orig": "[WARNING BIRDNOISES!]",
+     "transl": "[WARNENDE VOGELLAUTE!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "GangsterShootHostage": [
+   {
+    "text": {
+     "orig": "[Shooting Hostage...]",
+     "transl": "[Erschieße Geisel...]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "GangsterRetreat": [
+   null,
+   null,
+   {
+    "text": {
+     "orig": "RETREATING",
+     "transl": "RÜCKZUG<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "SceneBomb": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "FRUIT!",
+       "transl": "FRUCHT!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Lawless Bird",
+   "transl": "Gesetzloser Vogel<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "Slightly more civilized and refined variants of the regular \\c[3]Papaguns\\c[0] that are found in the wild, these winged criminals are the elite wingsoldiers of a powerful criminal syndicate that plagues \\c[3]\\v[area.jungle-city.name]\\c[0].\nThese hardened veterans of the crew are often used to crack tough cases, guard the central nest and handle difficult away missions outside of their core turf.",
+     "transl": "Eine etwas zivilisiertere und raffiniertere Variante der gewöhnlichen \\c[3]Papaguns\\c[0] aus der Wildnis. Sie sind die Elite-Flügelsoldaten eines mächtigen kriminellen Syndikats, das \\c[3]Burg Bassin\\c[0] terrorisiert.\nDiese abgehärteten Veteranen der Crew werden oft bei schwierigen Sondermissionen und Außeneinsätzen sowie für den Wachdienst ihres Nest-Hauptquartiers eingesetzt.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "actions": {
+  "AdjustEnemy": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(Adjust Enemy)",
+       "transl": "(Adjust Enemy)<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "RegenAircon": [
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "(Goto AirCon)",
+         "transl": "(Goto AirCon)<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ShootAircon": [
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "!!!",
+       "transl": "!!!<<C<<IGNORE"
+      }
+     }
+    ]
+   },
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "(Shoot AirCon)",
+         "transl": "(Shoot AirCon)<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Snowman Tourist",
+   "transl": "Schneemann-Tourist<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "A \\c[3]\\v[combat.name.snowman]\\c[0] that developed a somewhat higher intelligence and curiousity and thus wanted to leave its home of \\c[3]\\v[area.bergen-trails.name]\\c[0] to visit warmer lands.\nUnfortunately the burning sun has caused some problems, so it usually stays \\c[3]in caves\\c[0] and tries to \\c[3]steal cooling devices\\c[0] to live in a more comfortable temperature.",
+     "transl": "Ein \\c[3]Karotto\\c[0], der eine etwas höhere Intelligenz und Neugierde entwickelte und deshalb seine Heimat, den \\c[3]Bergen-Trail\\c[0], verlassen hat, um in wärmeren Gefilden zu leben.\nLeider hat die brennende Sonne einige Probleme verursacht, so dass er normalerweise \\c[3]in Höhlen\\c[0] bleibt und versucht, \\c[3]Klimaanlagen\\c[0] zu stehlen, um komfortabel leben zu können.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

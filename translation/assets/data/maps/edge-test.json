@@ -1,0 +1,393 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Hey, you kinda look like me #whathappens",
+       "transl": "Hey, du siehst ein wenig so aus wie #waszumhenker<<C<<IGNORE"
+      }
+     },
+     {
+      "text": {
+       "orig": "Lol I dunno.",
+       "transl": "Lol, ka.<<C<<IGNORE"
+      }
+     },
+     {
+      "text": {
+       "orig": "Aaaaalright...",
+       "transl": "Okaaaaaaay...<<C<<IGNORE"
+      }
+     },
+     {
+      "text": {
+       "orig": "Let's talk about \\c[5]Herp\\c[0]!",
+       "transl": "Lass uns über \\c[5]Herp\\c[0] reden!<<C<<IGNORE"
+      },
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hi, I'm Carla!",
+         "transl": "Hi, ich bin Carla!<<C<<IGNORE"
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!<<C<<IGNORE"
+        }
+       }
+      ]
+     },
+     {
+      "text": {
+       "orig": "Aaaaalright...",
+       "transl": "Okaaaaaaay...<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Wanna do a quest? \\v[item.1.name] for \\v[player.money]",
+          "transl": "Willst du eine Quest machen? Sandwich gegen \\v[player.money]<<C<<IGNORE"
+         }
+        },
+        null,
+        {
+         "accepted": [
+          null,
+          null,
+          {
+           "message": {
+            "orig": "Alright! Let's go!",
+            "transl": "Sodenn! Auf geht's!<<C<<IGNORE"
+           }
+          }
+         ],
+         "declined": [
+          null,
+          null,
+          {
+           "message": {
+            "orig": "Really? Alright, talk to me again if you changed your mind!",
+            "transl": "Echt? Also gut, sprich mit mir, wenn du deine Meinung geändert hast.<<C<<IGNORE"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Go on, do that quest for me!",
+         "transl": "Los mach schon, erledige die Quest für mich!<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Done huh?",
+         "transl": "Fertig, huh?<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Quest?",
+          "transl": "Quest?<<C<<IGNORE"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "Nice.",
+            "transl": "Geil.<<C<<IGNORE"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Do it.",
+         "transl": "Tu es.<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hey, I just unlocked a Lore Entry about \\v[lore.unlock.lea]\\c[3]Lea\\c[0]!",
+         "transl": "Hey, ich habe gerade einen Eintrag über \\v[lore.unlock.lea]\\c[3]Lea\\c[0] freigeschaltet!<<C<<IGNORE"
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "All is unlocked. Nice.",
+         "transl": "Alles ist freigeschaltet. Sehr nice!<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Pioneer Tucos",
+         "transl": "Pionier Tucos<<C<<IGNORE"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "I'll join you party!",
+         "transl": "Ich joine deine Party!<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Alright, I'll join...",
+         "transl": "Alles klar, ich joine...<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "A rock formation!\nYou're filled with \\c[3]Determination\\c[0]",
+     "transl": "Eine Felsformation! Du bist voller \\c[3]Entschlossenheit\\c[0]<<C<<IGNORE"
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Your time is \\v[timers.test.formatRemainingTime]",
+         "transl": "Deine Zeit ist \\v[timers.test.formatRemainingTime]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "trade": {
+        "event": [
+         null,
+         null,
+         {
+          "message": {
+           "orig": "Aye!",
+           "transl": "Aye!<<C<<IGNORE"
+          }
+         },
+         {
+          "traded": [
+           null,
+           {
+            "message": {
+             "orig": "Pleasure doing business, lass!",
+             "transl": "Eine Freude, mit dir Geschäfte zu machen, Mädel!<<C<<IGNORE"
+            }
+           }
+          ],
+          "canceled": [
+           null,
+           {
+            "message": {
+             "orig": "Window shoppin', aren't we?",
+             "transl": "Schaufensterbummeln, wie?<<C<<IGNORE"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "0": [
+         {
+          "guiInfo": {
+           "settings": {
+            "taskTitle": {
+             "orig": "Score",
+             "transl": "Punkte<<C<<IGNORE"
+            }
+           }
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "Add Counter",
+           "transl": "Füge Zähler hinzu<<C<<IGNORE"
+          }
+         },
+         {
+          "label": {
+           "orig": "Remove Counter",
+           "transl": "Entferne Zähler<<C<<IGNORE"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

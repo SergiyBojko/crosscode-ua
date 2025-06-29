@@ -1,0 +1,1542 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Area: Rhombus Square",
+      "transl": "Gebiet: Rhombus Square"
+     },
+     "title": {
+      "orig": "\\c[3]Bulletin Board\\c[0]",
+      "transl": "\\c[3]Schwarzes Brett\\c[0]"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Welcome to \\c[3]Rhombus Arena\\c[0]!",
+         "transl": "Willkommen in der \\c[3]Rhombus Arena\\c[0]!"
+        }
+       },
+       {
+        "message": {
+         "orig": "I'm happy to provide information on \\c[3]Cups\\c[0] and related topics!",
+         "transl": "Wenn du magst, erkläre ich dir gerne, wie \\c[3]Pokale\\c[0] funktionieren!"
+        }
+       },
+       null,
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods cups question]",
+           "transl": "[nickt Pokal-Frage]"
+          }
+         },
+         {
+          "message": {
+           "orig": "All challenges of the arena can be accessed through \\c[3]cups\\c[0].",
+           "transl": "Du kannst über die \\c[3]Pokale\\c[0] auf alle Herausforderungen der Arena zugreifen."
+          }
+         },
+         {
+          "message": {
+           "orig": "Each cup offers a list of \\c[3]rounds\\c[0] that you can tackle in \\c[3]two ways\\c[0].",
+           "transl": "Jeder Pokal besteht aus mehreren \\c[3]Runden\\c[0], die du auf \\c[3]zwei Arten\\c[0] angehen kannst."
+          }
+         },
+         {
+          "message": {
+           "orig": "The \\c[3]first\\c[0] is to simply pick each round \\c[3]individually\\c[0] and repeat it as often as you like.",
+           "transl": "Die \\c[3]erste\\c[0] wäre, dass du dir jede Runde \\c[3]einzeln\\c[0] vornimmst und so oft wiederholst, wie du möchtest."
+          }
+         },
+         {
+          "message": {
+           "orig": "Note that you can only select a round if you already completed the previous one.",
+           "transl": "Beachte aber, dass du eine Runde nur auswählen kannst, wenn du die vorherige schon gewonnen hast."
+          }
+         },
+         {
+          "message": {
+           "orig": "The \\c[3]second way\\c[0] to beat a cup is in \\c[3]Rush Mode\\c[0], where you fight through all rounds in order and only recover \\c[3]50% of your HP\\c[0] between rounds.",
+           "transl": "Die \\c[3]zweite\\c[0] ist der \\c[3]Rush-Modus\\c[0]. Hier kämpfst du dich durch alle Runden hintereinander, wobei nur \\c[3]50%\\c[0] deiner HP zwischen den Runden regeneriert werden."
+          }
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[nods team cups question]",
+           "transl": "[nickt Teampokal-Frage]"
+          }
+         },
+         {
+          "message": {
+           "orig": "\\c[3]Solo cups\\c[0] offer challenges for a single player, while \\c[3]team cups\\c[0] can be tackled by the whole party.",
+           "transl": "\\c[3]Einzelpokale\\c[0] sind eine Herausforderung für Einzelspieler, während bei \\c[3]Teampokalen\\c[0] die ganze Party kämpft."
+          }
+         },
+         {
+          "message": {
+           "orig": "Note that for \\c[3]team cups\\c[0] defeated members will not respawn until the end of the round.",
+           "transl": "Bitte beachte bei \\c[3]Teampokalen\\c[0], dass deine gefallenen Mitstreiter erst am Ende der Runde wiederbelebt werden."
+          }
+         },
+         {
+          "message": {
+           "orig": "Also, you will automatically lose the round when the \\c[3]team leader is defeated\\c[0].",
+           "transl": "Außerdem ist die Runde automatisch verloren, wenn der \\c[3]Gruppenanführer besiegt worden ist\\c[0]."
+          }
+         }
+        ],
+        "2": [
+         {
+          "message": {
+           "orig": "[nods custom cups question]",
+           "transl": "[nickt Spezialpokal-Frage]"
+          }
+         },
+         {
+          "message": {
+           "orig": "We offer two different kind of cups!",
+           "transl": "Wir bieten zwei verschiedene Arten von Pokalen an!"
+          }
+         },
+         null,
+         null,
+         null,
+         {
+          "message": {
+           "orig": "\\c[3]Regular Cups\\c[0] are available by default and can be accessed at the \\c[3]left counter\\c[0].",
+           "transl": "\\c[3]Reguläre Pokale\\c[0] sind von Anfang an verfügbar und können am \\c[3]linken Schalter\\c[0] aufgerufen werden."
+          }
+         },
+         null,
+         null,
+         null,
+         {
+          "message": {
+           "orig": "And on the \\c[3]right\\c[0] you find \\c[3]Custom Cups\\c[0]!",
+           "transl": "Und auf der \\c[3]rechten Seite\\c[0] findest du die \\c[3]Spezialpokale\\c[0]!"
+          }
+         },
+         {
+          "message": {
+           "orig": "Those are unique cups created \\c[3]by players for other players\\c[0]!",
+           "transl": "Das sind individuelle Pokale, die \\c[3]von Spielern für andere Spieler\\c[0] erstellt worden sind!"
+          }
+         },
+         null,
+         null,
+         null,
+         null,
+         {
+          "message": {
+           "orig": "...!",
+           "transl": "...!"
+          }
+         },
+         {
+          "message": {
+           "orig": "Note that players have to purchase a \\c[3]Custom Cup Toolkit\\c[0] to create their own custom cup.",
+           "transl": "Bitte beachte, dass du einen \\c[3]Spezialpokal-Bausatz\\c[0] brauchst, um deinen eigenen Pokal zu erstellen."
+          }
+         },
+         null,
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "Sorry Lea...\\. Evotars have not received permission to create Custom Cups, yet.",
+             "transl": "Tut mir leid, Lea...\\. Es ist Evotaren noch nicht erlaubt, Spezialpokale zu erstellen."
+            }
+           },
+           {
+            "message": {
+             "orig": "Instatainment wants to be careful, so do not expect it to change very soon.",
+             "transl": "Instatainment ist da sehr vorsichtig, also erwarte nicht, dass sich dies bald ändern wird."
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "message": {
+             "orig": "Sorry Lea...\\. buying such a Toolkit will leave all kinds of traces on the system.",
+             "transl": "Tut mir leid, Lea...\\. aber so einen Bausatz zu kaufen würde alle möglichen Spuren im System hinterlassen."
+            }
+           },
+           {
+            "message": {
+             "orig": "I cannot risk doing that.",
+             "transl": "Das kann ich nicht riskieren."
+            }
+           }
+          ]
+         },
+         {
+          "message": {
+           "orig": "...",
+           "transl": "..."
+          }
+         },
+         {
+          "message": {
+           "orig": "But maybe you will find other players creating custom cups for you...",
+           "transl": "Aber vielleicht können ja andere Spieler Spezialpokale für dich erstellen..."
+          }
+         },
+         {
+          "message": {
+           "orig": "...!",
+           "transl": "...!"
+          }
+         }
+        ],
+        "3": [
+         {
+          "message": {
+           "orig": "[nods round condition question]",
+           "transl": "[nickt Rundenbedingungen-Frage]"
+          }
+         }
+        ],
+        "4": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[schüttelt Kopf]"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "Cups, Rounds, and Rush Mode",
+           "transl": "Pokale, Runden und Rush-Modus"
+          }
+         },
+         {
+          "label": {
+           "orig": "Solo and Team Cups",
+           "transl": "Einzel- und Teampokale"
+          }
+         },
+         {
+          "label": {
+           "orig": "Regular and Custom Cups",
+           "transl": "Reguläre und Spezialpokale"
+          }
+         },
+         {
+          "label": {
+           "orig": "Round Conditions",
+           "transl": "Rundenbedingungen"
+          }
+         },
+         {
+          "label": {
+           "orig": "\\c[1]No, thanks!\\c[0]",
+           "transl": "\\c[1]Nein, danke!\\c[0]"
+          }
+         }
+        ]
+       },
+       {
+        "message": {
+         "orig": "Any other questions?",
+         "transl": "Sonst noch Fragen?"
+        }
+       },
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Good luck and have fun!",
+         "transl": "Dann viel Glück und viel Spaß!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "arena": [
+        {
+         "thenStep": [
+          null,
+          null,
+          {
+           "message": {
+            "orig": "Welcome to the \\c[3]Rhombus Arena\\c[0], Seeker!",
+            "transl": "Willkommen in der \\c[3]Rhombus-Arena\\c[0], Seeker!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Seeing as this is your first time here, would you like an introduction?",
+            "transl": "Da du zum ersten Mal hier bist, möchtest du eine Einführung?"
+           }
+          },
+          null,
+          null,
+          {
+           "title": {
+            "orig": "Arena Menu",
+            "transl": "Arena-Menü"
+           },
+           "content": {
+            "orig": "Get a quick introduction on how to use the Arena Menu.",
+            "transl": "Eine kurze Einführung zur Verwendung des Arena-Menüs."
+           },
+           "acceptStep": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            {
+             "text": {
+              "orig": "Start by selecting a cup! Each cup shows its name and the \\c[3]Trophy\\c[0] you have unlocked.",
+              "transl": "Beginne mit der Auswahl eines Pokals! Außer dem Namen wird auch die \\c[3]Trophäe\\c[0] angezeigt, die du freigeschaltet hast."
+             }
+            },
+            null,
+            {
+             "text": {
+              "orig": "The info page shows a summary of your progress in a cup. Use the \\c[3]Help Menu\\c[0] for a detailed description of each line.",
+              "transl": "Die Infoseite zeigt deinen Pokal-Fortschritt als Zusammenfassung. Das \\c[3]Hilfe-Menü\\c[0] bietet dir mehr Infos zu jeder Zeile."
+             }
+            },
+            null,
+            {
+             "text": {
+              "orig": "Below you can see how many \\c[3]Arena Coins\\c[0] you have obtained. Win coins by clearing rounds in a cup with a high score.",
+              "transl": "Darunter siehst du, wie viele \\c[3]Arenamünzen\\c[0] du hast. Die erhältst du, indem du in Pokalrunden eine hohe Punktzahl erzielst."
+             }
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            {
+             "text": {
+              "orig": "By selecting a cup you can see all rounds the cup includes. Each round shows its name and the medal you have achieved.",
+              "transl": "Wenn du einen Pokal auswählst, werden alle Runden des Pokals angezeigt. Du siehst den Namen jeder Runde und die Medaille, die du gewonnen hast."
+             }
+            },
+            null,
+            {
+             "text": {
+              "orig": "To unlock a round, clear the previous one!",
+              "transl": "Um eine Runde freizuschalten, gewinne die vorherige!"
+             }
+            },
+            null,
+            {
+             "text": {
+              "orig": "\\c[3]Rush Mode\\c[0] will pit you against all rounds without stopping and limited healing! ",
+              "transl": "Im \\c[3]Rush-Modus\\c[0] musst du alle Runden direkt hintereinander und mit begrenzter Heilung überstehen!"
+             }
+            },
+            null,
+            {
+             "text": {
+              "orig": "To the left you can see a summary of your progress in each round. You can also see what score you need to achieve to obtain a silver or gold medal.",
+              "transl": "Links siehst du eine Zusammenfassung deines Fortschritts für jede Runde und wie viele Punkte du für eine Silber- oder Goldmedaille brauchst."
+             }
+            },
+            null,
+            null,
+            null,
+            {
+             "text": {
+              "orig": "Press \\i[page-left] or \\i[page-right] to see the second page which shows \\c[3]Bonus Points\\c[0] and \\c[3]Conditions\\c[0].",
+              "transl": "Drücke \\i[page-left] oder \\i[page-right], um die zweite Seite zu sehen, auf der dir \\c[3]Bonuspunkte\\c[0] und \\c[3]Bedingungen\\c[0] angezeigt werden."
+             }
+            },
+            null,
+            null,
+            null,
+            null,
+            {
+             "text": {
+              "orig": "Press \\i[circle-left] or \\i[circle-right] to switch between \\c[3]Single Cups\\c[0] and \\c[3]Team Cups\\c[0].",
+              "transl": "Drücke \\i[circle-left] oder \\i[circle-right], um zwischen \\c[3]Einzelpokalen\\c[0] und \\c[3]Teampokalen\\c[0] zu wechseln."
+             }
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            {
+             "message": {
+              "orig": "Good Luck in the Arena!",
+              "transl": "Viel Glück in der Arena!"
+             }
+            },
+            {
+             "message": {
+              "orig": "...!",
+              "transl": "...!"
+             }
+            }
+           ],
+           "cancelStep": [
+            null,
+            null,
+            {
+             "message": {
+              "orig": "[shakes head]",
+              "transl": "[schüttelt Kopf]"
+             }
+            },
+            {
+             "message": {
+              "orig": "Understood! Good Luck in the Arena!",
+              "transl": "Alles klar! Viel Glück in der Arena!"
+             }
+            },
+            {
+             "message": {
+              "orig": "...!",
+              "transl": "...!"
+             }
+            }
+           ]
+          }
+         ],
+         "elseStep": [
+          {
+           "thenStep": [
+            null,
+            null,
+            {
+             "message": {
+              "orig": "Congratulations on your first \\c[3]Platinum Medal\\c[0]!",
+              "transl": "Glückwunsch zu deiner ersten \\c[3]Platinmedaille\\c[0]!"
+             }
+            },
+            {
+             "message": {
+              "orig": "...!",
+              "transl": "...!"
+             }
+            },
+            {
+             "message": {
+              "orig": "The \\c[3]Info Page\\c[0] will now include the requirements for the \\c[3]Platinum Medal\\c[0] in each round as a small accommodation.",
+              "transl": "Als kleine Belohnung enthält die \\c[3]Infoseite\\c[0] jetzt für jede Runde auch die Bedingungen für eine \\c[3]Platinmedaille\\c[0]."
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "text": {
+       "orig": "Access Denied",
+       "transl": "Zutritt verweigert"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "0_0": [
+         null,
+         {
+          "message": {
+           "orig": "Go go, Lea!",
+           "transl": "Hau sie weg, Lea!"
+          }
+         }
+        ],
+        "1_0": [
+         {
+          "message": {
+           "orig": "Good Luck, Lea!",
+           "transl": "Viel Glück, Lea!"
+          }
+         }
+        ],
+        "2_0": [
+         {
+          "message": {
+           "orig": "Do not disappoint, Spheromancer Lea!",
+           "transl": "Kämpfe ehrenhaft, Spheromancer Lea!"
+          }
+         }
+        ],
+        "3_0": [
+         {
+          "message": {
+           "orig": "Have fun, little one.",
+           "transl": "Viel Spaß, Kleine!"
+          }
+         }
+        ],
+        "4_0": [
+         {
+          "message": {
+           "orig": "Kick some ass and don't embarrass us in there.",
+           "transl": "Mach sie fertig und blamier uns bloß nicht."
+          }
+         }
+        ],
+        "5_0": [
+         {
+          "message": {
+           "orig": "Good Luck, Lea!",
+           "transl": "Viel Glück, Lea!"
+          }
+         }
+        ],
+        "6_0": [
+         {
+          "message": {
+           "orig": "Good Luck, Lea!",
+           "transl": "Viel Glück, Lea!"
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "0_0": [
+         {
+          "message": {
+           "orig": "My fists are itching!",
+           "transl": "Mir juckt's schon in den Fäusten!"
+          }
+         }
+        ],
+        "1_0": [
+         {
+          "message": {
+           "orig": "I'll do my best!",
+           "transl": "Ich werde mein Bestes geben!"
+          }
+         }
+        ],
+        "2_0": [
+         {
+          "message": {
+           "orig": "Let us show them true skill!",
+           "transl": "Zeigen wir ihnen, was wahres Können ist!"
+          }
+         }
+        ],
+        "3_0": [
+         {
+          "message": {
+           "orig": "Let's have a good time!",
+           "transl": "Dann wollen wir uns mal amüsieren!"
+          }
+         }
+        ],
+        "4_0": [
+         {
+          "message": {
+           "orig": "Let's see who racks up more points.",
+           "transl": "Wollen doch mal sehen, wer mehr Punkte sammelt!"
+          }
+         }
+        ],
+        "5_0": [
+         {
+          "message": {
+           "orig": "Jawoll, let's do this!",
+           "transl": "Jawoll, los geht's!"
+          }
+         }
+        ],
+        "6_0": [
+         {
+          "message": {
+           "orig": "Jawoll, let's do this!",
+           "transl": "Jawoll, los geht's!"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       {
+        "titleText": {
+         "orig": "\\c[3]Arena Records & Options Unlocked!\\c[0]",
+         "transl": "\\c[3]Arena-Synopsis & -Optionen freigeschaltet!\\c[0]"
+        },
+        "text": {
+         "orig": "The Arena Tab in the Records Menu and Options Menu have been unlocked!",
+         "transl": "Der Arena-Tab im Synopsis-Menü und Options-Menü wurde freigeschaltet!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "We are terribly sorry, but at the current moment \\c[3]Custom Cups\\c[0] are not available.",
+         "transl": "Es tut uns schrecklich leid, aber zur Zeit sind \\c[3]Spezialpokale\\c[0] nicht verfügbar."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "arena": [
+        {
+         "thenStep": [
+          null,
+          null,
+          {
+           "message": {
+            "orig": "Welcome to \\c[3]Custom Cups\\c[0], Seeker!",
+            "transl": "Willkommen zu den \\c[3]Spezialpokalen\\c[0], Seeker!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Here you can play cups that other players created for you. ",
+            "transl": "Hier kannst du Pokale spielen, die andere Spieler für dich gemacht haben."
+           }
+          },
+          {
+           "message": {
+            "orig": "To make sure you can't abuse this system, obtaining coins from these cups is prohibited. ",
+            "transl": "Um bei diesem System Mißbrauch vorzubeugen, gibt es bei diesen Pokalen keine Münzen."
+           }
+          },
+          {
+           "message": {
+            "orig": "Now good luck and have fun!",
+            "transl": "Und nun wünsche ich viel Glück und viel Spaß!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "shop": [
+        {
+         "thenStep": [
+          null,
+          null,
+          {
+           "message": {
+            "orig": "Welcome to the \\c[3]Arena Coin Shop\\c[0], Seeker!",
+            "transl": "Willkommen im \\c[3]Preisladen\\c[0], Seeker!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Hi!",
+            "transl": "Hi!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Here you can spend your hard earned \\c[3]Arena Coins\\c[0].",
+            "transl": "Hier kannst du deine hart verdienten \\c[3]Arenamünzen\\c[0] eintauschen."
+           }
+          },
+          {
+           "message": {
+            "orig": "We feature a wide array of rewards such as specialized \\c[3]Equipment\\c[0] and various \\c[3]Cosmetic Items\\c[0].",
+            "transl": "Wir bieten eine breite Palette an Belohnungen wie \\c[3]spezielle Ausrüstung\\c[0] und diverse \\c[3]Schmuckstücke\\c[0]."
+           }
+          },
+          {
+           "message": {
+            "orig": "Note that each item is only available once and cannot be sold. ",
+            "transl": "Beachte bitte, dass jedes Item nur einmal verfügbar ist und nicht verkauft werden kann."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "We arranged items in multiple tabs. Please use \\i[circle-left] & \\i[circle-right] to change between the tabs.",
+            "transl": "Wir haben die Items auf verschiedene Tabs verteilt. Drücke bitte \\i[circle-left] & \\i[circle-right], um zwischen den Tabs zu wechseln."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "I'm ready for our duel any time!",
+         "transl": "Ich bin jederzeit bereit für unser Duell!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Just select \\c[3]PvP vs Lily\\c[0] among the \\c[3]Custom Cups\\c[0] to the right.",
+         "transl": "Wähle bei den \\c[3]Spezialpokalen\\c[0] einfach rechts \\c[3]PvP vs. Lily\\c[0] aus."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Here we are, such a busy place!",
+       "transl": "Da sind wir! Boah, hier ist ja was los!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Now then...",
+       "transl": "Also dann..."
+      }
+     },
+     {
+      "message": {
+       "orig": "If I understand this correctly you can configure custom cups and do PvP battle challenges that way!",
+       "transl": "Wenn ich das richtig verstehe, kannst du Spezialpokale erstellen und dadurch andere Spieler zu PvP-Duellen herausfordern!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Let me give it a try!",
+       "transl": "Lass es mich mal versuchen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "We're all set!\\. Ready when you are!",
+       "transl": "Okay, wir sind startklar!\\. Bereit, wenn du es bist!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Just select \\c[3]PvP vs Lily\\c[0] among the \\c[3]Custom Cups\\c[0] to the right.",
+       "transl": "Wähle einfach den \\c[3]PvP vs. Lily\\c[0]-Pokal unter den \\c[3]Spezialpokalen\\c[0] auf der rechten Seite."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Welcome to \\c[3]Rhombus Arena\\c[0]!",
+         "transl": "Willkommen in der \\c[3]Rhombus-Arena\\c[0]!"
+        }
+       },
+       {
+        "message": {
+         "orig": "If you want to know more about \\c[3]Scores, Medals, or Coins\\c[0] you're talking to the right person!",
+         "transl": "Wenn du mehr über \\c[3]Punkte, Medaillen oder Münzen\\c[0] wissen willst, bist du bei mir an der richtigen Adresse!"
+        }
+       },
+       null,
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods score basics question]",
+           "transl": "[nickt Punkte-Frage]"
+          }
+         },
+         {
+          "message": {
+           "orig": "The score rates your performance in each round of a cup.",
+           "transl": "Die Punkte bewerten deine Leistung in jeder Runde des Pokals."
+          }
+         },
+         {
+          "message": {
+           "orig": "The majority of your points come from \\c[3]dealt damage to enemies\\c[0].",
+           "transl": "Der Großteil der Punkte resultiert aus dem \\c[3]Schaden, den du den Gegnern zugefügt hast\\c[0]."
+          }
+         },
+         {
+          "message": {
+           "orig": "You get extra points for dealing \\c[3]effective damage\\c[0] using your enemy's weakness.",
+           "transl": "Du bekommst Bonuspunkte für \\c[3]Effektivschaden\\c[0], indem du die Schwächen des Gegners ausnutzt."
+          }
+         },
+         {
+          "message": {
+           "orig": "Also, your score further increases for specific combat actions such as \\c[3]perfect guards\\c[0], \\c[3]perfect dodges\\c[0] and \\c[3]inflicting status effects\\c[0].",
+           "transl": "Außerdem erhöht sich deine Punktzahl durch bestimmte Aktionen im Kampf wie \\c[3]Perfektes Blocken\\c[0], \\c[3]Perfektes Ausweichen\\c[0] und durch \\c[3]Zufügen von Statuseffekten\\c[0]."
+          }
+         },
+         {
+          "message": {
+           "orig": "\\c[3]Breaking enemies\\c[0] gives you extra points as well. However, note that you will get these points only \\c[3]once per enemy or boss phase\\c[0]!",
+           "transl": "\\c[3]Gebrochene Gegner\\c[0] geben ebenfalls Bonuspunkte. Die erhältst du allerdings nur \\c[3]einmal pro Gegner- oder Bossphase\\c[0]!"
+          }
+         },
+         {
+          "message": {
+           "orig": "\\c[3]Receiving damage\\c[0], on the other hand, will \\c[3]quickly decrease your score\\c[0], so better watch out!",
+           "transl": "\\c[3]Erlittener Schaden\\c[0] dagegen wird deine \\c[3]Punktzahl schnell senken\\c[0], pass also gut auf!"
+          }
+         },
+         {
+          "message": {
+           "orig": "Same when your enemies manage to \\c[3]heal themselves\\c[0] or when you reach an \\c[3]Elemental Overload\\c[0].",
+           "transl": "Das Gleiche gilt auch bei einer \\c[3]Elementüberladung\\c[0], oder wenn Gegner es schaffen, \\c[3]sich zu heilen\\c[0]."
+          }
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[nods kills and chains question]",
+           "transl": "[nickt Ketten und Kettenkombo-Frage]"
+          }
+         },
+         {
+          "message": {
+           "orig": "You get additional score points whenever you \\c[3]defeat an enemy\\c[0].",
+           "transl": "Du erhältst zusätzliche Punkte für \\c[3]jeden besiegten Gegner\\c[0]."
+          }
+         },
+         {
+          "message": {
+           "orig": "Additionally, defeating enemies will \\c[3]increase your chain\\c[0].",
+           "transl": "Außerdem erhöht jeder besiegte Gegner \\c[3]deine Kettenkombo\\c[0]."
+          }
+         },
+         {
+          "message": {
+           "orig": "The points of each defeated enemy are subsequently \\c[3]multiplied with your chain\\c[0].",
+           "transl": "Die Punkte jedes besiegten Gegners werden \\c[3]mit deiner Kettenkombo multipliziert\\c[0]."
+          }
+         },
+         {
+          "message": {
+           "orig": "You will keep your chain as long as you \\c[3]remain active in combat\\c[0] without being hit \\c[3]too often\\c[0].",
+           "transl": "Solange du \\c[3]im Kampf aktiv bleibst\\c[0] und dich nicht \\c[3]zu oft treffen lässt\\c[0], bleibt deine Kette aufrecht erhalten."
+          }
+         },
+         {
+          "message": {
+           "orig": "You'll also get extra points for defeating \\c[3]multiple enemies at the same time\\c[0] which are also multiplied with your chain.",
+           "transl": "Zusätzliche Bonuspunkte erhältst du, wenn du \\c[3]mehrere Gegner auf einen Schlag erledigst\\c[0]. Diese werden ebenfalls mit deiner Kettenkombo multipliziert."
+          }
+         },
+         {
+          "message": {
+           "orig": "As such, defeating enemies in a certain way can boost your score by quite a lot!",
+           "transl": "Wenn du die Gegner also auf eine bestimmte Weise besiegst, wird das deine Punktzahl um ein Vielfaches steigern!"
+          }
+         }
+        ],
+        "2": [
+         {
+          "message": {
+           "orig": "[nods bonus points question]",
+           "transl": "[nickt Bonusziele-Frage]"
+          }
+         },
+         {
+          "message": {
+           "orig": "For each round you can receive additional points through \\c[3]bonus objectives\\c[0].",
+           "transl": "Du kannst in jeder Runde Bonuspunkte durch \\c[3]Bonusziele\\c[0] erhalten."
+          }
+         },
+         {
+          "message": {
+           "orig": "Commonly, each round comes with a \\c[3]time bonus\\c[0] that you will receive by finishing below a certain target time.",
+           "transl": "Für gewöhnlich erhältst du einen \\c[3]Zeitbonus\\c[0], wenn du eine Runde innerhalb der Vorgabezeit gewinnst."
+          }
+         },
+         {
+          "message": {
+           "orig": "A unique aspect about the time bonus is that you still get \\c[3]partial points\\c[0] for being faster than \\c[3]twice the target time\\c[0].",
+           "transl": "Das Besondere am Zeitbonus ist, dass du noch \\c[3]Teilpunkte\\c[0] erhältst, wenn du es innerhalb \\c[3]der Hälfte der Vorgabezeit\\c[0] schaffst."
+          }
+         },
+         {
+          "message": {
+           "orig": "You can see the \\c[3]target time\\c[0] as well as \\c[3]additional bonus objectives\\c[0] on the \\c[3]second page\\c[0] of each round's description.",
+           "transl": "Die \\c[3]Vorgabezeit\\c[0] und die \\c[3]Bonusziele\\c[0] werden auf der \\c[3]zweiten Seite\\c[0] der Rundenbeschreibung angezeigt."
+          }
+         },
+         {
+          "message": {
+           "orig": "In addition to round specific bonus objectives, you get additional points for a number of \\c[3]common bonus objectives\\c[0].",
+           "transl": "Zusätzlich zu rundenspezifischen Bonuszielen erhältst du Bonuspunkte für eine Anzahl von \\c[3]gewöhnlichen Bonuszielen\\c[0]."
+          }
+         },
+         {
+          "message": {
+           "orig": "Examples are \\c[3]not receiving damage\\c[0] and \\c[3]not using items\\c[0].",
+           "transl": "Beispiele sind \\c[3]keinen Schaden zu nehmen\\c[0] und \\c[3]keine Items zu benutzen\\c[0]."
+          }
+         },
+         {
+          "message": {
+           "orig": "As with all score points, you can read the list at the end of each round to understand which bonus points you received.",
+           "transl": "Am Ende jeder Runde werden alle Punkte einmal aufgelistet. So siehst du, wie viele Bonuspunkte du für was bekommen hast."
+          }
+         }
+        ],
+        "3": [
+         {
+          "message": {
+           "orig": "[nods medals, trophies, and coins question]",
+           "transl": "[nickt Medaillen, Trophäen und Münzen-Frage]"
+          }
+         },
+         {
+          "message": {
+           "orig": "You can receive \\c[3]bronze\\c[0], \\c[3]silver\\c[0], and \\c[3]gold medals\\c[0] for each round depending on your score.",
+           "transl": "Du kannst - abhängig von deiner Punktzahl - in jeder Runde \\c[3]Bronze-\\c[0], \\c[3]Silber-\\c[0] und \\c[3]Goldmedaillen\\c[0] gewinnen."
+          }
+         },
+         {
+          "message": {
+           "orig": "You will always get at least a bronze medal for finishing a round.",
+           "transl": "Für jeden Rundensieg erhältst du immer mindestens eine Bronzemedaille."
+          }
+         },
+         {
+          "message": {
+           "orig": "Score requirements for \\c[3]silver\\c[0] and \\c[3]gold\\c[0] medals are listed on each round's description.",
+           "transl": "Die Punktzahlen für \\c[3]Silber-\\c[0] und \\c[3]Goldmedaillen\\c[0] stehen in der Rundenbeschreibung."
+          }
+         },
+         {
+          "message": {
+           "orig": "You can receive an additional medal for your performance in \\c[3]Rush mode\\c[0] which is derived from your average performance in each round.",
+           "transl": "Im \\c[3]Rush-Modus\\c[0] kannst du noch eine zusätzliche Medaille gewinnen, die von deiner Durchschnittsleistung in allen Runden abhängig ist."
+          }
+         },
+         {
+          "message": {
+           "orig": "When you've collected \\c[3]medals\\c[0] for each round of a cup, you will also receive a \\c[3]trophy\\c[0] in \\c[3]bronze, silver, or gold\\c[0]!",
+           "transl": "Wenn du in jeder Runde eine \\c[3]Medaille\\c[0] gewonnen hast, erhältst du dafür eine \\c[3]Trophäe\\c[0] aus \\c[3]Bronze\\c[0], \\c[3]Silber\\c[0] oder \\c[3]Gold\\c[0]!"
+          }
+         },
+         {
+          "message": {
+           "orig": "Finally, for each new \\c[3]medal\\c[0] you will receive \\c[3]Arena coins\\c[0] that you can exchange for rewards!",
+           "transl": "Zu guter letzt erhältst du für jede neue \\c[3]Medaille\\c[0] auch \\c[3]Arenamünzen\\c[0], mit denen du Belohnungen kaufen kannst!"
+          }
+         },
+         {
+          "message": {
+           "orig": "One last thing, if you perform exceptionally well in a round or cup, you may receive the highest rating: the \\c[3]platinum\\c[0] medal and trophy.",
+           "transl": "Eine letzte Sache: Wenn deine Leistung in einer Runde oder einem Pokal außergewöhnlich gut war, kannst du mit etwas Glück sogar eine \\c[3]Platin\\c[0]medaille und -trophäe gewinnen!"
+          }
+         },
+         {
+          "message": {
+           "orig": "Note that these ratings only serve to prove your level of expertise and will not rewarded with arena coins.",
+           "transl": "Arenamünzen erhältst du dafür jedoch nicht, da die Platin-Auszeichnung ausschließlich das Niveau deines Könnens symbolisiert."
+          }
+         }
+        ],
+        "4": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[schüttelt Kopf]"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "Score Basics",
+           "transl": "Punkte"
+          }
+         },
+         {
+          "label": {
+           "orig": "Enemy Kills and Chains",
+           "transl": "Ketten und Kettenkombo"
+          }
+         },
+         {
+          "label": {
+           "orig": "Bonus Objectives",
+           "transl": "Bonusziele"
+          }
+         },
+         {
+          "label": {
+           "orig": "Medals, Trophies, and Coins",
+           "transl": "Medaillen, Trophäen und Münzen"
+          }
+         },
+         {
+          "label": {
+           "orig": "\\c[1]No, thanks!\\c[0]",
+           "transl": "\\c[1]Nein, danke!\\c[0]"
+          }
+         }
+        ]
+       },
+       {
+        "message": {
+         "orig": "Any other questions?",
+         "transl": "Hast du noch eine Frage?"
+        }
+       },
+       null,
+       null,
+       {
+        "message": {
+         "orig": "In that case, good luck going for the highest scores!",
+         "transl": "In dem Fall wünsche ich dir viel Glück bei der Jagd nach immer neuen Rekorden!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Come on!\\. Let's go, let's gooo~",
+       "transl": "Na komm!\\. Los jetzt, loooos jeeeetzt~"
+      }
+     },
+     {
+      "text": {
+       "orig": "Wait, I still have to decide which equipment to put on...",
+       "transl": "Warte, ich muss mir noch überlegen, welche Ausrüstung ich nehm'..."
+      }
+     },
+     {
+      "text": {
+       "orig": "Don't overthink it.\\. We can run those cups as often as we like.",
+       "transl": "Mach keine Wissenschaft draus.\\. Wir können die Pokale so oft machen, wie wir wollen."
+      }
+     },
+     {
+      "text": {
+       "orig": "Exactly!! Let's start!",
+       "transl": "Genau!! Lass uns endlich anfangen!"
+      }
+     },
+     {
+      "text": {
+       "orig": "Hey, I'm planning to use consumables and it'd be a shame if they go to waste.",
+       "transl": "Hey, ich brauch' noch Verbrauchsitems, sonst hab ich am Ende zu wenig, und die dann umsonst verbraten."
+      }
+     },
+     {
+      "text": {
+       "orig": "Come on, you're sitting on a huge stack of items! You'll never be able to use those up!",
+       "transl": "Ach was, du sitzt doch auf einem Berg von Items! Die verbrätst du doch nie im Leben!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Man, I can't figure out how to get that platinum medal.",
+       "transl": "Ey, das gibt's doch nicht, wie kriegt man denn die verfluchte Platinmedaille?"
+      }
+     },
+     {
+      "text": {
+       "orig": "It's driving me crazy!",
+       "transl": "Das macht mich wahnsinnig!"
+      }
+     },
+     {
+      "text": {
+       "orig": "Why bother? It's not like you get any coins for it!",
+       "transl": "Wozu? Du kriegst doch eh keine Münzen dafür!"
+      }
+     },
+     {
+      "text": {
+       "orig": "He's a completionist, there's no helping him.",
+       "transl": "Dat is' 'n Perfektionist, dem kannße nich' helfen."
+      }
+     },
+     {
+      "text": {
+       "orig": "I know I'm that close!",
+       "transl": "Kehr, ey, ich kann sie schon riechen!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Training Arena \\i[arrow-e] ",
+      "transl": "Kampfarena \\i[arrow-e] "
+     }
+    }
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "shop": [
+        {
+         "thenStep": [
+          null,
+          null,
+          {
+           "message": {
+            "orig": "Hello, Seeker!\\. You can buy regular consumables here.",
+            "transl": "Hallo, Seeker!\\. Bei mir kriegst du die üblichen Verbrauchsitems. Brauchst du was?"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": {
+       "trade": {
+        "2": {
+         "message": {
+          "orig": "Welcome to \\c[3]Rhombus Arena\\c[0]!",
+          "transl": "Willkommen in der \\c[3]Rhombus Arena\\c[0]!"
+         }
+        },
+        "3": {
+         "message": {
+          "orig": "I'm happy to provide information on \\c[3]Cups\\c[0] and related topics!",
+          "transl": "Wenn du magst, erkläre ich dir gerne, wie \\c[3]Pokale\\c[0] funktionieren!"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": {
+       "trade": {
+        "2": {
+         "message": {
+          "orig": "Welcome to \\c[3]Rhombus Arena\\c[0]!",
+          "transl": "Willkommen in der \\c[3]Rhombus Arena\\c[0]!"
+         }
+        },
+        "3": {
+         "message": {
+          "orig": "I'm happy to provide information on \\c[3]Cups\\c[0] and related topics!",
+          "transl": "Wenn du magst, erkläre ich dir gerne, wie \\c[3]Pokale\\c[0] funktionieren!"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "thenStep": [
+       {
+        "titleText": {
+         "orig": "\\i[element-neutral] \\c[3]+1 CP in the Heat Circuit\\c[0] \\i[element-neutral]",
+         "transl": "\\i[element-neutral] \\c[3]+1 CP im Neutral-Circuit\\c[0] \\i[element-neutral]"
+        },
+        "text": {
+         "orig": "The \\c[3]\\v[item.650.name]\\c[0] is empowering your circuit!\n\n\\c[3]You got one additional CP in the Neutral Circuit!\\c[0] \\i[element-neutral]",
+         "transl": "Das \\c[3]Symbol des Neutrums\\c[0] stärkt deinen Circuit!\n\n\\c[3]Du erhältst einen zusätzlichen CP im Neutral-Circuit!\\c[0] \\i[element-neutral]"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "titleText": {
+         "orig": "\\i[element-heat] \\c[3]+1 CP in the Heat Circuit\\c[0] \\i[element-heat]",
+         "transl": "\\i[element-heat] \\c[3]+1 CP im Hitze-Circuit\\c[0] \\i[element-heat]"
+        },
+        "text": {
+         "orig": "The \\c[3]\\v[item.651.name]\\c[0] is empowering your circuit!\n\n\\c[3]You got one additional CP in the Heat Circuit!\\c[0] \\i[element-heat]",
+         "transl": "Das \\c[3]Symbol der Hitze\\c[0] verstärkt deinen Circuit!\n\n\\c[3]Du erhältst einen zusätzlichen CP im Hitze-Circuit!\\c[0] \\i[element-heat]"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "titleText": {
+         "orig": "\\i[element-cold] \\c[3]+1 CP in the Cold Circuit\\c[0] \\i[element-cold]",
+         "transl": "\\i[element-cold] \\c[3]+1 CP im Kälte-Circuit\\c[0] \\i[element-cold]"
+        },
+        "text": {
+         "orig": "The \\c[3]\\v[item.652.name]\\c[0] is empowering your circuit!\n\n\\c[3]You got one additional CP in the Cold Circuit!\\c[0] \\i[element-cold]",
+         "transl": "Das \\c[3]Symbol der Kälte\\c[0] verstärkt deinen Circuit!\n\n\\c[3]Du erhältst einen zusätzlichen CP im Kälte-Circuit!\\c[0] \\i[element-cold]"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "titleText": {
+         "orig": "\\i[element-shock] \\c[3]+1 CP in the Shock Circuit\\c[0] \\i[element-shock]",
+         "transl": "\\i[element-shock] \\c[3]+1 CP im Schock-Circuit\\c[0] \\i[element-shock]"
+        },
+        "text": {
+         "orig": "The \\c[3]\\v[item.653.name]\\c[0] is empowering your circuit!\n\n\\c[3]You got one additional CP in the Shock Circuit!\\c[0] \\i[element-shock]",
+         "transl": "Das \\c[3]Symbol des Schocks\\c[0] verstärkt deinen Circuit!\n\n\\c[3]Du erhältst einen zusätzlichen CP im Schock-Circuit!\\c[0] \\i[element-shock]"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "titleText": {
+         "orig": "\\i[element-wave] \\c[3]+1 CP in the Wave Circuit\\c[0] \\i[element-wave]",
+         "transl": "\\i[element-wave] \\c[3]+1 CP im Welle-Circuit\\c[0] \\i[element-wave]"
+        },
+        "text": {
+         "orig": "The \\c[3]\\v[item.654.name]\\c[0] is empowering your circuit!\n\n\\c[3]You got one additional CP in the Wave Circuit!\\c[0] \\i[element-wave]",
+         "transl": "Das \\c[3]Symbol der Welle\\c[0] verstärkt deinen Circuit!\n\n\\c[3]Du erhältst einen zusätzlichen CP im Welle-Circuit!\\c[0] \\i[element-wave]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

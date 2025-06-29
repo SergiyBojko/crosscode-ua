@@ -1,0 +1,91 @@
+{
+ "actions": {
+  "shockHitActivate": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ SEARCHING TARGET ]",
+     "transl": "[ SUCHE ZIEL ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "startCapture": [
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "( \\v[entity.attrib.captureTarget] - \\v[entity.target.attrib.test] )",
+         "transl": "( \\v[entity.attrib.captureTarget] - \\v[entity.target.attrib.test] )<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "succeedCapture": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "( CAPTURE )",
+       "transl": "( FANG )<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "test": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "( CAPTURE )",
+       "transl": "( FANG )<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Machinery",
+   "transl": "Maschine<<C<<Geprüft: Minsu"
+  }
+ }
+}

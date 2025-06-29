@@ -1,0 +1,279 @@
+{
+ "actions": {
+  "Init": [
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Left side incoming!",
+         "transl": "Links kommt was!<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Right side incoming!",
+         "transl": "Rechts kommt was!<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     null,
+     {
+      "text": {
+       "orig": "Incoming!",
+       "transl": "Da kommt was!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(SPAWN \\v[entity.name], \\v[entity.attrib.stdSpeed] Speed)",
+       "transl": "(SPAWNE \\v[entity.name], \\v[entity.attrib.stdSpeed] Geschw.)<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "TDReachGoal": [
+   {
+    "text": {
+     "orig": "[INFILTRATION!]",
+     "transl": "[INFILTRATION!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "TDAlert": [
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "[WAVE REACHED LEFT DEFENSES!]",
+           "transl": "[WELLE ERREICHT LINKE FRONT!]<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "[WAVE REACHED RIGHT DEFENSES!]",
+           "transl": "[WELLE ERREICHT RECHTE FRONT!]<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     {
+      "thenStep": [
+       null,
+       {
+        "text": {
+         "orig": "[WAVE REACHED DEFENSES!]",
+         "transl": "[WELLE ERREICHT FRONT!]<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "TDWarning": [
+   {
+    "text": {
+     "orig": "[DANGER!]",
+     "transl": "[GEFAHR!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "TDDash": [
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(CORNER)",
+       "transl": "(CORNER)<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "[Recover Shield...]",
+         "transl": "[Aktiviere Schild...]<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "TDStun": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Shield down & Stunned]",
+     "transl": "[Schildbruch & gelähmt]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "StartFullShield": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "FullShield On",
+       "transl": "Vollschild AN<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   },
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "[Regain Shield]",
+       "transl": "[Aktiviere Schild]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "EndFullShield": [
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "[Shield neutralized!]",
+       "transl": "[Schild neutralisiert!]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "EndFullShieldDizzy": [
+   null,
+   {
+    "text": {
+     "orig": "[Shield neutralized!]",
+     "transl": "[Schild neutralisiert!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "TEST": [
+   {
+    "text": {
+     "orig": "WALKING",
+     "transl": "LAUFE<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Mammal",
+   "transl": "Säugetier<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "A close relative to the regular \\c[3]Teslabovine\\c[0], this specimen prefers to live underground. Usually they have a close connection to intensive points of Ancient power that they are eager to protect.\nThough it is currently unknown what a \"regular Teslabovine\" is, it is assumed that these are somewhat similar to it. In any case, they follow strict paths at a relaxed pace but sometimes feel compelled to \\c[3]charge forward\\c[0]. These charges will incite a \\c[3]powerful bolt of lightning\\c[0] on their trampled path!",
+     "transl": "Dieses Exemplar ist ein enger Verwandter des gewöhnlichen \\c[3]Teslabullen\\c[0] und lebt lieber im Untergrund. Normalerweise haben sie eine enge Verbindung zu Kraftpunkten der Ahnen, die sie bis aufs Blut verteidigen.\nObwohl unklar ist, was eigentlich ein \"gewöhnlicher Teslabulle\" ist, wird angenommen, dass diese sich ähneln. Sie trotten zwar meist gemächlich auf sicheren Pfaden, müssen manchmal aber Druck ablassen und \\c[3]vorwärts stürmen\\c[0]. Dieser Ansturm löst einen \\c[3]starken Blitz\\c[0] entlang ihrer Trampelspuren aus!<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

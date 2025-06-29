@@ -1,0 +1,597 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "50% Overheat reached!",
+           "transl": "50% Überhitzung erreicht!"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "75% Overheat reached! Cooling needed!",
+           "transl": "75% Überhitzung erreicht! Kühlung erforderlich!"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "WARNING: Overheating imminent! Requesting ice!",
+           "transl": "ACHTUNG: Überhitzung bevorstehend! Erwarte Eis!"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Overheated! Starting emergency cooling!",
+         "transl": "Überhitzt! Starte Notkühlung!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "Overheated! Starting emergency cooling! Quality -\\v[tmp.qualityChange]",
+         "transl": "Überhitzt! Starte Notkühlung! Qualität -\\v[tmp.qualityChange]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Brewing Console",
+      "transl": "Brausteuerung"
+     },
+     "event": [
+      null,
+      {
+       "thenStep": [
+        null,
+        null,
+        null,
+        {
+         "thenStep": [
+          {
+           "value": {
+            "orig": "(updated!)",
+            "transl": "(aktualisiert!)"
+           }
+          }
+         ]
+        },
+        {
+         "6": [
+          {
+           "text": {
+            "orig": "- Instruction to Ancient Brewing -\nQuality drinks using the mystical powers of the Track, steam and only the best natural ingredients!",
+            "transl": "- Anleitung zum Brauen nach Art der Ahnen -\nQualitätstränke, die die mystische Kraft des Pfades, des Dampfes und nur die besten natürlichen Zutaten enthalten!"
+           }
+          },
+          {
+           "text": {
+            "orig": "After activating this machine, it will request energy from the \\c[3]4 steam ovens\\c[0]. Those requests have to be met with \\c[3]icedisks\\c[0] quickly and correctly!",
+            "transl": "Nach dem Starten der Maschine wird sie Energie von den \\c[3]vier Dampföfen\\c[0] anfordern. Diese Anfragen müssen mit \\c[3]Eisplatten\\c[0] schnell und korrekt bedient werden!"
+           }
+          },
+          {
+           "text": {
+            "orig": "In the beginning a \\c[3]static bubble generator\\c[0] will be available, though later it will vanish. At this point, bubbles ejected from the \\c[3]pipes left and right\\c[0] have to be used.",
+            "transl": "Anfangs werden \\c[3]statische Blasengeneratoren\\c[0] verfügbar sein, die jedoch später verschwinden. Ab dann müssen Blasen aus den \\c[3]Rohren links und rechts\\c[0] genutzt werden."
+           }
+          },
+          {
+           "text": {
+            "orig": "Due to the immense powers flowing through it, the brewing machine will \\c[3]overheat\\c[0] with time. \\c[3]Cooling it with ice\\c[0] will be necessary to prevent \\c[3]overheating\\c[0] and a \\c[3]time-consuming cooldown-phase\\c[0].",
+            "transl": "Die Braumaschine wird durch die immensen Kräfte, die sie durchströmen, mit der Zeit \\c[3]überhitzen\\c[0]. Daher ist es nötig, sie \\c[3]mit Eis zu kühlen\\c[0], um \\c[3]Überhitzung\\c[0] und eine \\c[3]zeitraubende Abkühlphase\\c[0] zu verhindern."
+           }
+          },
+          {
+           "thenStep": [
+            null,
+            {
+             "text": {
+              "orig": "\\c[3]Not meeting a request\\c[0], \\c[3]putting ice in a wrong oven\\c[0] or \\c[3]overheating the machine\\c[0] will damage the ingredients and \\c[3]reduce the overall quality\\c[0] of the product.",
+              "transl": "\\c[3]Nicht bediente Anfragen\\c[0], \\c[3]Eis im falschen Ofen\\c[0] oder \\c[3]Überhitzung der Maschine\\c[0] wird den Zutaten schaden und \\c[3]die Gesamtqualität\\c[0] des Produktes verringern."
+             }
+            },
+            {
+             "text": {
+              "orig": "On the other hand, brewing \\c[3]quality\\c[0] will increase at a higher rate with \\c[3]growing requests\\c[0] and when maintaining a \\c[3]high heat\\c[0]!",
+              "transl": "Durch \\c[3]steigende Anfragen\\c[0] und das Aufrechterhalten von \\c[3]hoher Hitze\\c[0] wird die \\c[3]Brauqualität\\c[0] hingegen schneller erhöht!"
+             }
+            },
+            {
+             "text": {
+              "orig": "The \\c[3]higher the quality\\c[0], the \\c[3]more useable drinks\\c[0] can be created from \\c[3]the same amount of ingredients\\c[0]!",
+              "transl": "Je \\c[3]höher die Qualität\\c[0], desto \\c[3]mehr Tränke\\c[0] können mit \\c[3]derselben Menge an Zutaten\\c[0] hergestellt werden!"
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "text": {
+              "orig": "\\c[3]Not meeting a request\\c[0], \\c[3]putting ice in a wrong oven\\c[0] or \\c[3]overheating the machine\\c[0] will do \\c[3]damage\\c[0] to the ingredients. With too much \\c[3]damage\\c[0], the brewing will \\c[1]fail\\c[0]! ",
+              "transl": "\\c[3]Nicht bediente Anfragen\\c[0], \\c[3]Eis im falschen Ofen\\c[0] oder \\c[3]Überhitzung der Maschine\\c[0] wird den Zutaten \\c[3]schaden\\c[0]. Bei zu viel \\c[3]Schaden\\c[0] wird der Brauvorgang \\c[1]fehlschlagen\\c[0]!"
+             }
+            }
+           ]
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "Start Brewing Process",
+            "transl": "Brauvorgang starten"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\c[1]!!!\\c[0] \\c[3]Upgrade Brewing Machine\\c[0] \\c[1]!!!\\c[0]",
+            "transl": "\\c[1]!!!\\c[0] \\c[3]Aufrüstung der Braumaschine\\c[0] \\c[1]!!!\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Brewing: \\c[3]\\v[item.367.name]\\c[0] (Material: \\v[item.372.amount] | Owned: \\v[item.367.amount])",
+            "transl": "Braue: \\c[3]Bärenbier\\c[0] (Material: \\v[item.372.amount] | Im Besitz: \\v[item.367.amount])"
+           }
+          },
+          {
+           "label": {
+            "orig": "Brewing: \\c[3]\\v[item.368.name]\\c[0] (Material: \\v[item.373.amount] | Owned: \\v[item.368.amount])",
+            "transl": "Braue: \\c[3]Krabbenmet\\c[0] (Material: \\v[item.373.amount] | Im Besitz: \\v[item.368.amount])"
+           }
+          },
+          {
+           "label": {
+            "orig": "Brewing: \\c[3]\\v[item.369.name]\\c[0] (Material: \\v[item.374.amount] | Owned: \\v[item.369.amount])",
+            "transl": "Braue: \\c[3]Fuchs-Sake\\c[0] (Material: \\v[item.374.amount] | Im Besitz: \\v[item.369.amount])"
+           }
+          },
+          {
+           "label": {
+            "orig": "Brewing: \\c[3]\\v[item.370.name]\\c[0] (Material: \\v[item.375.amount] | Owned: \\v[item.370.amount])",
+            "transl": "Braue: \\c[3]Walwein\\c[0] (Material: \\v[item.375.amount] | Im Besitz: \\v[item.370.amount])"
+           }
+          },
+          {
+           "label": {
+            "orig": "Information \\c[1]\\v[tmp.infoUpdate]\\c[0]",
+            "transl": "Info-\\c[1]\\v[tmp.infoUpdate]\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Turn Quality Notifications \\c[2]ON\\c[0]",
+            "transl": "Schalte Qualitätsbenachrichtigungen \\c[2]AN\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Turn Quality Notifications \\c[1]OFF\\c[0]",
+            "transl": "Schalte Qualitätsbenachrichtigungen \\c[1]AUS\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\c[1]Cancel\\c[0]",
+            "transl": "\\c[1]Abbrechen\\c[0]"
+           }
+          }
+         ]
+        }
+       ],
+       "elseStep": [
+        {
+         "text": {
+          "orig": "[Machine inactive]",
+          "transl": "[Maschine inaktiv]"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "Brewing Statistics",
+        "transl": "Braustatistiken"
+       },
+       "event": [
+        {
+         "thenStep": [
+          null,
+          null,
+          null,
+          null,
+          {
+           "text": {
+            "orig": "~ Brewing Statistics ~\n\nQuality Highscore: \n\\c[3]\\v[map.qualityRecord]\\c[0]",
+            "transl": "~ Braustatistiken ~\n\nQualitätsrekord: \n\\c[3]\\v[map.qualityRecord]\\c[0]"
+           }
+          },
+          {
+           "thenStep": [
+            {
+             "text": {
+              "orig": "Times brewed / Drinks gained:\nTotal: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\n\\v[item.367.name]: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[tmp.focName]: \\v[map.brewedFoc] / \\v[map.drinksFoc]\n\\v[item.370.name]: \\v[map.brewedMhp] / \\v[map.drinksMhp]",
+              "transl": "Anzahl Brauvorgänge / Tränke:\nGesamt: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\nBärenbier: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[tmp.focName]: \\v[map.brewedFoc] / \\v[map.drinksFoc]\nWalwein: \\v[map.brewedMhp] / \\v[map.drinksMhp]"
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "text": {
+              "orig": "Times brewed / Drinks gained:\nTotal: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\n\\v[item.367.name]: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[item.370.name]: \\v[map.brewedMhp] / \\v[map.drinksMhp]",
+              "transl": "Anzahl Brauvorgänge / Tränke:\nGesamt: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\nBärenbier: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\nWalwein: \\v[map.brewedMhp] / \\v[map.drinksMhp]"
+             }
+            }
+           ]
+          }
+         ],
+         "elseStep": [
+          {
+           "text": {
+            "orig": "\\c[1]- UNDER CONSTRUCTION -\\c[0]",
+            "transl": "\\c[1]- IM AUFBAU -\\c[0]"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Brewing Machine",
+     "transl": "Braumaschine"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Left Waterpipe",
+     "transl": "Linkes Wasserblasenrohr"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Right Waterpipe",
+     "transl": "Rechtes Wasserblasenrohr"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Steam Oven #1",
+     "transl": "Dampfofen #1"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Steam Oven #2",
+     "transl": "Dampfofen #2"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Steam Oven #3",
+     "transl": "Dampfofen #3"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Steam Oven #4",
+     "transl": "Dampfofen #4"
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "VAR: \\v[tmp.tempNr]",
+         "transl": "VAR: \\v[tmp.tempNr]"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "VAR: \\v[tmp.tempStringSteam]",
+           "transl": "VAR: \\v[tmp.tempStringSteam]"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[Upgrade Process START]",
+       "transl": "[ STARTE Aufrüstungsprozess ]"
+      }
+     },
+     null,
+     {
+      "text": {
+       "orig": "[ Initiating Trial ]",
+       "transl": "[ Initiiere Prüfung ]"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "\\v[tmp.ovenText]",
+         "transl": "\\v[tmp.ovenText]"
+        }
+       },
+       {
+        "text": {
+         "orig": "\\v[tmp.ovenText]",
+         "transl": "\\v[tmp.ovenText]"
+        }
+       },
+       {
+        "text": {
+         "orig": "\\v[tmp.ovenText]",
+         "transl": "\\v[tmp.ovenText]"
+        }
+       },
+       {
+        "text": {
+         "orig": "\\v[tmp.ovenText]",
+         "transl": "\\v[tmp.ovenText]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "Overheat",
+         "transl": "Überhitzung"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Overheated! Starting emergency cooling!",
+       "transl": "Überhitzt! Starte Notkühlung!"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

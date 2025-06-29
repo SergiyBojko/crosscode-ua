@@ -1,0 +1,742 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "displayName": {
+     "orig": "General",
+     "transl": "General"
+    },
+    "npcStates": [
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Hello, player, and welcome to the \\v[lore.unlock.omni-gilders.first]\\c[3]Omni Gilders\\c[0].",
+          "transl": "Hallo, Spieler, und willkommen bei den \\v[lore.unlock.omni-gilders]\\c[3]Omni-Gilders\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "We are a guild of traders who try to extend their reach through offering players simple quests.",
+          "transl": "Wir sind eine Gilde von Händlern und versuchen, unsere Reichweite durch simple Quests für andere Spieler zu vergrößern."
+         }
+        },
+        {
+         "message": {
+          "orig": "And I'm a humble general. Kind of a manager for the guild.",
+          "transl": "Und ich bin ein einfacher General. So eine Art Manager der Gilde."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yes...\\.\\.\\.Yes...",
+          "transl": "Ja...\\.\\.\\.Ja..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Might I interest you in said quests?",
+          "transl": "Wärest du vielleicht an einer solchen Quest interessiert?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Well nodded! Here we go.",
+          "transl": "Gut genickt! Auf geht's."
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "No need to come back to me by the way.",
+            "transl": "Nebenbei, du musst zwischendurch nicht zurückkommen."
+           }
+          },
+          {
+           "message": {
+            "orig": "The items will be transferred here as soon as you find them.",
+            "transl": "Die Items werden direkt hierhergeschickt, sobald du sie gefunden hast."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "Well, no problem. We can find someone else.",
+            "transl": "Nun, kein Problem. Wir können auch jemand anderen finden."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hey, we don't have any other requests right now.",
+         "transl": "Hey, aktuell haben wir keine weitere Nachfragen."
+        }
+       },
+       {
+        "message": {
+         "orig": "Just finding the items we asked for is enough.",
+         "transl": "Einfach nur die Items finden, nach denen wir suchen, reicht schon."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "We really need some low-level trade stuff.",
+       "transl": "Wir brauchen echt mal ein paar Low Level-Items zum Handeln."
+      }
+     },
+     {
+      "text": {
+       "orig": "We won't be able to extend our base otherwise.",
+       "transl": "Ansonsten können wir unsere Basis nie ausbauen."
+      }
+     },
+     {
+      "text": {
+       "orig": "Don't worry too much about it, the higher-ups have already started giving quests to low-level players.",
+       "transl": "Keine Sorge, die High Level-Chars haben bereits angefangen, Quests an Low Level-Chars zu vergeben."
+      }
+     },
+     {
+      "text": {
+       "orig": "So we don't need to lift a finger?\\. I like it.",
+       "transl": "Also müssen wir eigentlich keinen Finger krümmen?\\. So muss das!"
+      }
+     },
+     {
+      "text": {
+       "orig": "Until we have to grind high level mobs...",
+       "transl": "Bis wir dann irgendwann High Level-Mobs grinden müssen..."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "I'm currently away from keyboard running some errands. Will be back later.",
+         "transl": "Ich bin afk und erledige gerade etwas. Bin später wieder da."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "displayName": {
+     "orig": "Jean",
+     "transl": "Jean"
+    },
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Jean",
+         "transl": "Jean"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Hi!",
+         "transl": "Hi!"
+        }
+       },
+       {
+        "message": {
+         "orig": "L...Lea?! What a nice surprise!",
+         "transl": "L... Lea?! Was für eine nette Überraschung!"
+        }
+       },
+       {
+        "message": {
+         "orig": "And you even found the guild I'm in!",
+         "transl": "Und du hast sogar die Gilde gefunden, in der ich bin!"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "It might look small, but it's really just a small branch.",
+         "transl": "Sie mag klein aussehen, aber das hier ist eigentlich nur eine kleine Zweigstelle."
+        }
+       },
+       {
+        "message": {
+         "orig": "It's actually one of the largest in CrossWorlds!",
+         "transl": "Eigentlich ist es eine der größten Gilden in CrossWorlds!"
+        }
+       },
+       {
+        "message": {
+         "orig": "We proudly call ourselves \\v[lore.unlock.omni-gilders]\\c[3]Omni Gilders\\c[0]!",
+         "transl": "Mit Stolz nennen wir uns die \\v[lore.unlock.omni-gilders]\\c[3]Omni-Gilders\\c[0]!"
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Yeah I know, pretty cool right? ",
+         "transl": "Ja, ich weiß, ziemlich cool, gell?"
+        }
+       },
+       {
+        "message": {
+         "orig": "We're currently looking for players to help us find some trade items.",
+         "transl": "Wir suchen gerade Spieler, die uns dabei helfen, einige Handelsitems zu finden."
+        }
+       },
+       {
+        "message": {
+         "orig": "So if you have some time, just talk to the pentafist over there.",
+         "transl": "Wenn du also etwas Zeit hast, sprich mit dem Pentafist da drüben."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Jean",
+          "transl": "Jean"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Oh hi, Lea!",
+          "transl": "Oh, hi, Lea!"
+         }
+        },
+        {
+         "message": {
+          "orig": "You've come at just the right time!",
+          "transl": "Du kommst genau richtig!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "You see, I'm pretty new in this guild here.",
+          "transl": "Also, ich bin noch ziemlich neu in dieser Gilde hier."
+         }
+        },
+        {
+         "message": {
+          "orig": "New members are mainly on duty for farming trade items.",
+          "transl": "Neue Mitglieder sind hauptsächlich damit beschäftigt, Handelsitems zu ergattern."
+         }
+        },
+        {
+         "message": {
+          "orig": "But we also have to do chores...",
+          "transl": "Aber wir haben auch noch andere Pflichten..."
+         }
+        },
+        {
+         "message": {
+          "orig": "One of which was just given to me.",
+          "transl": "Eine davon wurde mir gerade zugeteilt."
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Oh it's nothing too hard... for others I guess.",
+          "transl": "Oh, nichts Schwieriges... Sollte man meinen."
+         }
+        },
+        {
+         "message": {
+          "orig": "My job is to get a \\c[3]Storage Unit\\c[0] from the cellar to the right. ",
+          "transl": "Ich muss eine \\c[3]Speichereinheit\\c[0] aus dem rechten Keller holen."
+         }
+        },
+        {
+         "message": {
+          "orig": "But this thing is a MAZE, I tell you.",
+          "transl": "Aber der ist ein LABYRINTH, sag' ich dir."
+         }
+        },
+        {
+         "message": {
+          "orig": "I couldn't find the thing. Instead all I found were boxes and more boxes.",
+          "transl": "Ich konnte das Teil nicht finden. Stattdessen habe ich nur Unmengen an Kisten entdeckt."
+         }
+        },
+        {
+         "message": {
+          "orig": "I already tried to talk to \\c[3]Jock\\c[0] and \\c[3]Jeff\\c[0], but I can't seem to find them.",
+          "transl": "Ich habe schon versucht, mit \\c[3]Jock\\c[0] und \\c[3]Jeff\\c[0] zu reden, aber ich kann sie einfach nicht finden."
+         }
+        },
+        {
+         "message": {
+          "orig": "They are online and I even tried this stupid Direct Link. No luck...",
+          "transl": "Sie sind beide online und ich habe sogar diesen dämlichen Direkt-Link ausprobiert. Ohne Erfolg..."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Yeah... I wonder what they're up to...",
+          "transl": "Ja... Ich frage mich, was die treiben..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Anyway, I guess what I'm trying to ask is: Would you help me find the \\c[3]Storage Unit\\c[0]?",
+          "transl": "Jedenfalls, was ich dich eigentlich fragen möchte, ist: Würdest du mir helfen, diese \\c[3]Speichereinheit\\c[0] zu finden?"
+         }
+        },
+        {
+         "accepted": [
+          null,
+          {
+           "message": {
+            "orig": "Thanks Lea! I knew I could count on you!",
+            "transl": "Danke, Lea! Ich wusste, dass ich auf dich zählen kann!"
+           }
+          },
+          {
+           "message": {
+            "orig": "You can get to the cellar via the right door over there.",
+            "transl": "Du kannst die rechte Tür hier benutzen, um in den Keller zu gelangen."
+           }
+          },
+          null,
+          null,
+          {
+           "name": {
+            "orig": "Jean",
+            "transl": "Jean"
+           }
+          },
+          null,
+          {
+           "message": {
+            "orig": "Tell the \\c[3]Quadroguard\\c[0] I sent you in the name of our guild. Apparently that's how things work around here.",
+            "transl": "Sag dem \\c[3]Quadroguard\\c[0], dass ich dich im Namen der Gilde geschickt habe. So funktioniert das hier scheinbar."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Hopefully you can find the stupid thing.",
+            "transl": "Hoffentlich kannst du dieses doofe Teil finden."
+           }
+          },
+          {
+           "message": {
+            "orig": "I don't want to make a bad first impression here.",
+            "transl": "Ich will doch keinen falschen Eindruck erwecken."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "Aww... Well I can't force you I guess...",
+            "transl": "Ooch Mensch... Na ja, ich kann dich schließlich nicht dazu zwingen..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Jean",
+         "transl": "Jean"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "The basement is through the door to the right.",
+         "transl": "Die rechte Tür führt in den Keller."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Jean",
+          "transl": "Jean"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi Lea!",
+          "transl": "Hi Lea!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Jeff and Jock just breezed through here. ",
+          "transl": "Jeff und Jock sind hier gerade vorbeigeschneit."
+         }
+        },
+        {
+         "message": {
+          "orig": "Coming right from the basement it seems.",
+          "transl": "Kamen anscheinend direkt aus dem Keller."
+         }
+        },
+        {
+         "message": {
+          "orig": "Those guys... I was trying to contact them all this time, and they were slacking off in the basement.",
+          "transl": "Diese Faulpelze... Ich versuche die ganze Zeit, sie zu erreichen, und die machen im Keller einfach ein Nickerchen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Didn't even say hello on the way out. ",
+          "transl": "Haben nicht mal Hallo gesagt."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "It's alright. I'm going to talk to them later. I have to recruit new players and they both wanted to help me.",
+          "transl": "Keine Sorge, ich rede später mit ihnen. Ich soll neue Spieler rekrutieren und sie wollten mir dabei helfen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[shakes head]",
+          "transl": "[schüttelt Kopf]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hm? What is it, Lea?",
+          "transl": "Hm? Was ist denn, Lea?"
+         }
+        },
+        {
+         "message": {
+          "orig": "It's really nothing. I'm okay with it. I'm sure they're just busy helping our guild!",
+          "transl": "Ist wirklich halb so wild. Sie sind bestimmt im Auftrag der Gilde unterwegs!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Anyway, did you happen to find the \\c[3]Storage Unit\\c[0]?",
+          "transl": "Wie auch immer, hast du die \\c[3]Speichereinheit\\c[0] gefunden?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Awesome! Thanks so much, Lea! ",
+          "transl": "Super! Vielen lieben Dank, Lea!"
+         }
+        },
+        {
+         "message": {
+          "orig": "The General of this branch is currently in \\c[3]Maroon Valley\\c[0] so I'm gonna head off and give the unit to him as quickly as I can.",
+          "transl": "Der General dieser Zweigstelle ist momentan im \\c[3]Maronental\\c[0], also beeil ich mich besser, sie ihm so schnell wie möglich zu bringen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Here, take this as a small thank you.",
+          "transl": "Hier, nimm das als kleines Dankeschön."
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Sorry, but I can't let you through here.",
+         "transl": "Tut mir leid, aber ich kann dich hier nicht durchlassen."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "I heard everything. You're doing the rookie's job for her.",
+         "transl": "Ich habe alles mitgehört. Du erledigst die Anfängeraufgaben für sie."
+        }
+       },
+       {
+        "message": {
+         "orig": "Pretty lame of her, but I don't care. Knock yourself out.",
+         "transl": "Ziemlich schwache Leistung von ihr, aber was kümmert's mich. Tu, was du nicht lassen kannst."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

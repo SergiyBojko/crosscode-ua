@@ -1,0 +1,229 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "Crate HP",
+         "transl": "Baum-HP<<C<<IGNORE"
+        }
+       }
+      }
+     },
+     {
+      "task": {
+       "orig": "Hungry lifeforms approaching!",
+       "transl": "Hungrige Lebensformen nähern sich!<<C<<IGNORE"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "\\c[3]Defend the tree for 2 minutes\\c[0] for the salve to take effect!",
+       "transl": "\\c[3]Verteidige den Baum für zwei Minuten\\c[0], damit die Salbe wirken kann.<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Salve weakened!",
+           "transl": "Salbe geschwächt!<<C<<IGNORE"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Salve strongly weakened!",
+           "transl": "Salbe stark geschwächt!<<C<<IGNORE"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Salve almost dissolved!",
+           "transl": "Salbe fast verschwunden!<<C<<IGNORE"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         null,
+         null,
+         {
+          "text": {
+           "orig": "Salve dissolved!",
+           "transl": "Salbe verschwunden!<<C<<IGNORE"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Salve lost effect. The sickness returned!",
+       "transl": "Die Salbe hat ihren Effekt verloren. Die Krankheit ist zurück!<<C<<IGNORE"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "\\c[1]QUEST FAILED\\c[0]\n\nRestart task to try again",
+       "transl": "\\c[1]QUEST GESCHEITERT\\c[0]\n\nVersuch's nochmal!<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Tree healed!",
+       "transl": "Baum geheilt!<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

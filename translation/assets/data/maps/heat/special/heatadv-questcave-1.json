@@ -1,0 +1,173 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "\\v[combat.name.heat/special/kamikatze-helper] control panel",
+      "transl": "Cat 4-PU17-Steuereinheit"
+     },
+     "event": [
+      null,
+      null,
+      {
+       "0": [
+        null,
+        {
+         "text": {
+          "orig": "Thank you for deciding to use the \\c[3]\\v[combat.name.heat/special/kamikatze-helper]\\c[0], the ideal choice for mining, demolition, pest-control and passionate festivities!",
+          "transl": "Danke, dass Sie sich für den \\c[3]Cat 4-PU17\\c[0] entschieden haben - die ideale Wahl für Minen- & Abrissarbeiten, Insektenbefall und schweißtreibende Festivitäten!"
+         }
+        },
+        {
+         "text": {
+          "orig": "This highly-advanced machine is programmed to follow its user after activation and dispenses explosive devices (also known as \\c[3]\"bombs\"\\c[0]) after being hit with a \\c[3]charged range attack\\c[0].",
+          "transl": "Diese hochmoderne Maschine wurde dazu programmiert, ihrem Benutzer nach Aktivierung zu folgen und Sprengkörper (sogenannte \\c[3]\"Bomben\"\\c[0]) zu verteilen, wenn sie von einem \\c[3]geladenen VRP\\c[0] getroffen wird."
+         }
+        },
+        {
+         "text": {
+          "orig": "When reloading and generally not dispensing \"bombs\" it will try to evade the movements of its user with highly refined movement algorithms.",
+          "transl": "Während des Nachladens und bei Inaktivität der \"Bomben\" wird sie den Bewegungen des Benutzers mittels hochpräziser Bewegungsalgorithmen ausweichen."
+         }
+        },
+        {
+         "text": {
+          "orig": "It can be manually deactivated again at this console or it will automatically return to the idle-state when the user leaves the space of operation (for example: a cave).",
+          "transl": "Sie kann an dieser Konsole manuell deaktiviert werden oder kehrt automatisch in den Ruhezustand zurück, wenn ihr Benutzer das Operationsgebiet verlässt (z. B.: eine Höhle)."
+         }
+        },
+        {
+         "text": {
+          "orig": "WARNING: Keep stored in dry and cool locations. Should only be used by trained personnel. Keep far away from children and dogs.",
+          "transl": "ACHTUNG: Nur an trockenen, kühlen Orten lagern. Nur von ausgebildetem Personal zu benutzen. Von Kindern und Hunden fernhalten."
+         }
+        }
+       ],
+       "1": [
+        null,
+        {
+         "thenStep": [
+          {
+           "text": {
+            "orig": "\\v[combat.name.heat/special/kamikatze-helper] not at station!",
+            "transl": "Cat 4-PU17 nicht an der Station!"
+           }
+          }
+         ]
+        }
+       ],
+       "options": [
+        {
+         "label": {
+          "orig": "Information and manual",
+          "transl": "Information und Anleitung"
+         }
+        },
+        {
+         "label": {
+          "orig": "Activate \\v[combat.name.heat/special/kamikatze-helper]",
+          "transl": "Aktiviere Cat 4-PU17"
+         }
+        },
+        {
+         "label": {
+          "orig": "Deactivate \\v[combat.name.heat/special/kamikatze-helper]",
+          "transl": "Deaktiviere Cat 4-PU17"
+         }
+        },
+        {
+         "label": {
+          "orig": "Cancel",
+          "transl": "Abbrechen"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "Returning to station...",
+         "transl": "Kehre zur Station zurück..."
+        }
+       },
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "Deactivated!",
+         "transl": "Deaktiviert!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

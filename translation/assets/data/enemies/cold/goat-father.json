@@ -1,0 +1,86 @@
+{
+ "actions": {
+  "moveBomb": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "BOMB!",
+       "transl": "BOMBE!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "bombKick": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "KICK!",
+       "transl": "TRITT!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "bombDaze": [
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "Off Balance",
+     "transl": "[Aus dem Gleichgewicht]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "bombKickPassive": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "KICK!",
+       "transl": "TRITT!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   },
+   {
+    "text": {
+     "orig": "Preparing bomb...",
+     "transl": "Bombe vorbereiten...<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "sceneKick": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "KICK!",
+       "transl": "TRITT!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Boss Goat",
+   "transl": "Goatfather<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "It can make offers, you can not refuse.",
+     "transl": "Macht Angebote, die du nicht ablehnen kannst.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

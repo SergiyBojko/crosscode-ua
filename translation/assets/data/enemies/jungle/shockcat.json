@@ -1,0 +1,81 @@
+{
+ "actions": {
+  "AttackSnowman": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(ATK SNOWMAN)",
+       "transl": "(ATK SNOWMAN)<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "AdjustSnowman": [
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(ADJUST SNOWMAN)",
+       "transl": "(ADJUST SNOWMAN)<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "AirconHit": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(AIRCON)",
+       "transl": "(AIRCON)<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "AirconHitWeak": [
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(AIRCON)",
+       "transl": "(AIRCON)<<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Mammal",
+   "transl": "Säugetier<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "How do you have this report? How could you defeat 10 of these fluffy but arguably shocking kitties? All they wanted is to be petted. I hope they left you with some cat scratches!",
+     "transl": "Wie kannst du diesen Bericht überhaupt haben? Wie konntest du zehn dieser fluffigen - wenn auch schockenden - Kätzchen töten? Sie wollten doch nur gestreichelt werden. Ich hoffe, sie haben ein paar Kratzer hinterlassen!<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

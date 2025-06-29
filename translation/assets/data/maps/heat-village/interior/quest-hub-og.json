@@ -1,0 +1,492 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Human, are you willing to help us in exchange for \\c[3]Shiny Orb\\c[0]?",
+          "transl": "Mensch, bist du bereit zu helfen uns in Austausch für \\c[3]Glänzende Kugel\\c[0]?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "You have our deepest thanks!",
+            "transl": "Du hast unser tiefstes Danke!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Please take this \\c[3]Pass\\c[0]. Needed to enter cave below \\c[3]Maroon Tree\\c[0].",
+            "transl": "Bitte nehmen diese \\c[3]Pass\\c[0]. Nötig um zu betreten Höhle unter \\c[3]Maronenbaum\\c[0]."
+           }
+          },
+          null,
+          null,
+          {
+           "object": {
+            "orig": "\\v[item.236.name]",
+            "transl": "Maronenhöhlenpass"
+           }
+          },
+          null,
+          null,
+          {
+           "message": {
+            "orig": "Good luck!",
+            "transl": "Viel Glück!"
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "Shad understand. Please talk to us when you change mind.",
+            "transl": "Shad versteht. Bitte sprich mit uns, wenn du änderst Meinung."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Please defeat pesky \\c[3]sandworms\\c[0] in cave below \\c[3]Maroon Tree\\c[0].",
+         "transl": "Bitte besiege nervige \\c[3]Sandwürmer\\c[0] in Höhle unter \\c[3]Maronenbaum\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "We will give \\c[3]Shiny Orb\\c[0] as reward. You need orb to enter \\c[3]Faj'ro Temple\\c[0].",
+         "transl": "Wir werden geben \\c[3]Glänzende Kugel\\c[0] als Belohnung. Du brauchst Kugel, um betreten \\c[3]Faj'ro-Tempel\\c[0]."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Dear Human! Did you defeat pesky sandworms below Maroon Tree?",
+          "transl": "Lieber Mensch! Hast du erledigt nervige Sandwürmer unter Maronenbaum?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Indeed, I see note on pass.",
+          "transl": "Du sprichst Wahrheit, wie ich sehe an Notiz auf Pass."
+         }
+        },
+        {
+         "message": {
+          "orig": "Thank you so much, human. Because of your help, tree will live many more years!",
+          "transl": "Danke dir vielmals, Mensch. Wegen deiner Hilfe, Baum wird leben weitere viele Jahre!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Now I'll hand you \\c[3]shiny thing\\c[0] for reward.",
+          "transl": "Jetzt ich gebe dir \\c[3]Glänzende Kugel\\c[0] als Belohnung."
+         }
+        },
+        {
+         "message": {
+          "orig": "Human now can go to \\c[3]mystic statue\\c[0] at market to receive key to \\c[3]Faj'ro Temple\\c[0].",
+          "transl": "Mensch nun kann gehen zu \\c[3]mystische Statue\\c[0] auf Markt, um erhalten Schlüssel zu \\c[3]Faj'ro-Tempel\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        null,
+        null,
+        null,
+        {
+         "message": {
+          "orig": "We got the Shiny Orb, everyone!\\. The pinnacle of creativity!",
+          "transl": "Hey Leute, wir haben die Glänzende Kugel!\\. Der Höhepunkt der Kreativität!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Well... it's the Shad.\\. They prefer simple terminology, right?",
+          "transl": "Na ja... das sind eben die Shad.\\. Die bevorzugen eher simple Terminologie, stimmt's?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Oui, oui. Good excuse.",
+          "transl": "Oui, oui. Gute Ausrede."
+         }
+        },
+        {
+         "task": {
+          "orig": "Time to collect the \\c[3]Yellow Sand Shade\\c[0] from the statue in \\c[3]Ba'kii Kum\\c[0].",
+          "transl": "Zeit, die \\c[3]Gelbe Sandform\\c[0] von der Statue in \\c[3]Ba'kii Kum\\c[0] abzuholen."
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Thank you human for helping Shad!",
+         "transl": "Danke, Mensch, für helfen Shad!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Tree will live many more years!",
+         "transl": "Baum wird leben weitere viele Jahre!"
+        }
+       },
+       {
+        "message": {
+         "orig": "... If human still help us defeat sandworm for years to come.",
+         "transl": "... Wenn Mensch weiterhin helfen uns besiegen Sandwurm in kommenden Jahren."
+        }
+       },
+       null,
+       {
+        "thenStep": [
+         null,
+         {
+          "message": {
+           "orig": "You have to thank the sandworms for helping us keep good diplomatic relations with the Shad.",
+           "transl": "Eigentlich müsste man sich bei den Sandwürmern bedanken, dass sie unsere guten diplomatischen Beziehungen zu den Shad aufrechterhalten."
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Dear humans, I am Eldress of Ba'kii Kum.",
+       "transl": "Liebe Menschen, ich bin Älteste von Ba'kii Kum."
+      }
+     },
+     {
+      "message": {
+       "orig": "You have my thanks for visiting our small, humble town of Shad.",
+       "transl": "Ihr habt meinen Dank für Besuch unserer kleinen, bescheiden Stadt von Shad."
+      }
+     },
+     {
+      "message": {
+       "orig": "For many years Humans and Shad have worked together.",
+       "transl": "Für viele Jahre Mensch und Shad gearbeitet zusammen."
+      }
+     },
+     {
+      "message": {
+       "orig": "We traded, we shared, we fought together.",
+       "transl": "Wir gehandelt, wir geteilt, wir gekämpft zusammen."
+      }
+     },
+     {
+      "message": {
+       "orig": "So today Ba'kii Kum is town of Shad and Human.",
+       "transl": "Darum heute Ba'kii Kum ist Stadt von Shad und Mensch."
+      }
+     },
+     {
+      "message": {
+       "orig": "We know that Humans want to learn about Ancients.",
+       "transl": "Wir wissen, dass Mensch wollen lernen über Ahnen."
+      }
+     },
+     {
+      "message": {
+       "orig": "Ancients are Ancestors of us Shad - yet we still know little!",
+       "transl": "Ahnen sind Vorfahren von uns Shad - trotzdem wir noch wissen wenig!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Therefore, we want to help Humans!",
+       "transl": "Aber wir wollen helfen Mensch!"
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Ba'kii Kum is home of \\c[3]mystic statue\\c[0].",
+       "transl": "Ba'kii Kum ist Heimat von \\c[3]mystische Statue\\c[0]."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Statue holds key to \\c[3]Faj'ro Temple\\c[0], important place for Seeker Human.",
+       "transl": "Statue hält Schlüssel für \\c[3]Faj'ro-Tempel\\c[0], wichtiger Ort für Seeker-Mensch."
+      }
+     },
+     {
+      "message": {
+       "orig": "However, Statue only react if Human holds \\c[3]Shiny Orb\\c[0].",
+       "transl": "Aber, Statue nur reagiert wenn Mensch hält \\c[3]Glänzende Kugel\\c[0]."
+      }
+     },
+     {
+      "message": {
+       "orig": "We have \\c[3]Shiny Orb\\c[0] and will give to Human.",
+       "transl": "Wir haben \\c[3]Glänzende Kugel\\c[0] und werden geben an Mensch."
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "But we have one request.",
+       "transl": "Aber wir haben eine Bitte."
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "In \\c[3]East part of Maroon Valley\\c[0] you find majestic \\c[3]Maroon Tree\\c[0].",
+       "transl": "In \\c[3]Ost-Teil von Maronental\\c[0] ihr findet majestätischen \\c[3]Maronenbaum\\c[0]."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Maroon Tree very important to Shad, but attacked by \\c[3]Sandworms\\c[0] of Track.",
+       "transl": "Maronenbaum sehr wichtig für Shad, aber befallen von \\c[3]Sandwürmern\\c[0] von Pfad."
+      }
+     },
+     {
+      "message": {
+       "orig": "We ask Human to defeat pesky Sandworms in cave below Maroon Tree.",
+       "transl": "Wir fragen Mensch, zu beseitigen lästige Sandwürmer in Höhle unter Maronenbaum."
+      }
+     },
+     {
+      "message": {
+       "orig": "We will give \\c[3]Shiny Orb\\c[0] for defeating Sandworms.",
+       "transl": "Wir werden geben \\c[3]Glänzende Kugel\\c[0] für Beseitigen Sandwürmer."
+      }
+     },
+     {
+      "message": {
+       "orig": "Human help Shad and Shad will help Human! Is a trade!",
+       "transl": "Mensch helfen Shad, Shad werden helfen Mensch. Ist ein Handel!"
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Please talk to me to accept task!",
+       "transl": "Bitte sprecht mich an, um zu akzeptieren Aufgabe!"
+      }
+     },
+     {
+      "message": {
+       "orig": "In name of all Shad, thank you for listening!",
+       "transl": "Im Namen von alle Shad, danke euch für Zuhören!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "So we gotta save the tree! D'accord.",
+       "transl": "Wir müssen also den Baum retten! D'accord."
+      }
+     },
+     {
+      "message": {
+       "orig": "Sounds like a mandatory quest.\\. Let's accept it!",
+       "transl": "Klingt nach einer Pflicht-Quest.\\. Lass sie uns annehmen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Hey Lea, I want to check out the balcony!",
+       "transl": "Hey, Lea! Ich will mir mal die Stadt vom Balkon aus ansehen!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Remember everyone...",
+       "transl": "Und nicht vergessen..."
+      }
+     },
+     {
+      "text": {
+       "orig": "There are no mistakes, just happy little accidents.",
+       "transl": "Es gibt keine Fehler, nur kleine glückliche Missgeschicke."
+      }
+     },
+     {
+      "text": {
+       "orig": "So true.",
+       "transl": "Wie wahr, wie wahr."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

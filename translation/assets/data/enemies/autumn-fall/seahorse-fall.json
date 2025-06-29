@@ -1,0 +1,78 @@
+{
+ "actions": {
+  "Flamethrower": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Charging Flame]",
+     "transl": "[Lade Flammen]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "Quest-AddShield": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<SHIELD ON>",
+       "transl": "<SCHILD AN><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-RemoveShield": [
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<SHIELD OFF>",
+       "transl": "<SCHILD AUS><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-SwitchMarker": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<SWITCH MARKER>",
+       "transl": "<SWITCH MARKER><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Flying Seahorse",
+   "transl": "Fliegendes Seepferdchen<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "Other than its orange color this seahorse has the same behavior as the \\v[combat.name.seahorse]. Its bubble volley however is both faster and contains more bubbles, which can break shields if not careful.",
+     "transl": "Abgesehen von seiner orangefarbenen Farbe hat dieses Seepferdchen das gleiche Verhalten wie das \\v[combat.name.seahorse]. Seine Blasen sind jedoch schneller und es erzeugt mehr davon, was leicht zu einem Schildbruch führen kann.<<C<<Geprüft: Minsu"
+    }
+   },
+   {
+    "text": {
+     "orig": "It is said that they also mysteriously developed the ability to spit bursts of fire. This is rarely seen, though, as their respect for their environment forbids the use of this ability on the surface.",
+     "transl": "Man sagt, sie entwickelten mysteriöserweise auch die Fähigkeit, Feuer zu speien. Dies sieht man selten, da ihr Respekt vor ihrer Umgebung es ihnen verbietet, diese Fähigkeit an der Oberfläche einzusetzen.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

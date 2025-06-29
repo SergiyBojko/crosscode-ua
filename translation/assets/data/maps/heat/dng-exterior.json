@@ -1,0 +1,2336 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "blockEvent": [
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Blue-haired Spheromancer! You're not thinking about skipping the duel, right?",
+         "transl": "Blauhaariger Spheromancer! Ich hoffe, du hast nicht vor, dich vor dem Duell zu drücken - oder?"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ],
+      "elseStep": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "thenStep": [
+         null,
+         null,
+         null,
+         null,
+         {
+          "message": {
+           "orig": "Here we go!",
+           "transl": "Los geht's!"
+          }
+         },
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         {
+          "message": {
+           "orig": "Are you ready for the Faj'ro Temple race?",
+           "transl": "Bist du bereit für das große Rennen von Faj'ro?"
+          }
+         },
+         {
+          "0": [
+           {
+            "message": {
+             "orig": "[nods]",
+             "transl": "[nickt]"
+            }
+           },
+           {
+            "message": {
+             "orig": "Okey-dokey!",
+             "transl": "Okey-dokey!"
+            }
+           },
+           {
+            "message": {
+             "orig": "Everybody get ready!",
+             "transl": "Macht euch bereit!"
+            }
+           },
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           {
+            "task": {
+             "orig": "Complete \\c[3]Faj'ro Temple\\c[0] in the race against Emilie and C'tron.",
+             "transl": "Schließ den \\c[3]Faj'ro-Tempel\\c[0] in einem Rennen gegen Emilie und C'tron ab."
+            }
+           }
+          ],
+          "1": [
+           {
+            "message": {
+             "orig": "[shakes head]",
+             "transl": "[schüttelt Kopf]"
+            }
+           },
+           {
+            "message": {
+             "orig": "D'accord, just don't let us wait for too long~",
+             "transl": "D'accord, lass uns nur nicht zu lange warteeen~"
+            }
+           }
+          ],
+          "options": [
+           {
+            "label": {
+             "orig": "[yes]",
+             "transl": "[Ja]"
+            }
+           },
+           {
+            "label": {
+             "orig": "[no]",
+             "transl": "[Nein]"
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           null,
+           null,
+           null,
+           null,
+           {
+            "thenStep": [
+             null,
+             {
+              "message": {
+               "orig": "Hey Lea, we should call C'tron before entering the Temple.",
+               "transl": "Hey, Lea, wir sollten C'tron anrufen, bevor wir in den Tempel gehen."
+              }
+             },
+             {
+              "message": {
+               "orig": "Don't forget about our race, non?",
+               "transl": "Vergiss unser Rennen nicht, oui?"
+              }
+             },
+             {
+              "message": {
+               "orig": "...!",
+               "transl": "...!"
+              }
+             }
+            ]
+           },
+           {
+            "thenStep": [
+             null,
+             {
+              "message": {
+               "orig": "Lea, what about Emilie? We wanted to race the dungeon together, right?",
+               "transl": "Lea, was ist mit Emilie? Wir wollten das Dungeon-Rennen gemeinsam machen, oder?"
+              }
+             },
+             {
+              "message": {
+               "orig": "...!",
+               "transl": "...!"
+              }
+             }
+            ]
+           }
+          ],
+          "elseStep": [
+           null,
+           null,
+           {
+            "message": {
+             "orig": "Lea, what about that dungeon race? You were planning to enter the dungeon together with Emilie and C'tron, right?",
+             "transl": "Lea, was ist mit dem Rennen? Du wolltest es doch zusammen mit Emilie und C'tron machen, richtig?"
+            }
+           },
+           {
+            "message": {
+             "orig": "...!",
+             "transl": "...!"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "Back to Hourglass Pillar",
+     "transl": "Zurück zur Sanduhrsäule"
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "thenStep": [
+          {
+           "message": {
+            "orig": "I see your stats are \\c[1]as high as ever\\c[0].",
+            "transl": "Wie ich sehe, sind deine Stats \\c[1]unverändert hoch\\c[0]."
+           }
+          }
+         ],
+         "elseStep": [
+          {
+           "thenStep": [
+            {
+             "message": {
+              "orig": "Hm...\\. Your \\c[3]stats seem rather low\\c[0]. I suggest you upgrade your \\c[3]circuits\\c[0] and \\c[3]equipment\\c[0] before the duel.",
+              "transl": "Hm...\\. Deine \\c[3]Stats sind ziemlich niedrig\\c[0]. Ich empfehle dir, deine \\c[3]Circuits\\c[0] und \\c[3]Ausrüstung\\c[0] vor dem Duell auszubauen."
+             }
+            },
+            {
+             "message": {
+              "orig": "Unless you are very confident in your skills. But I don't want to hear any excuses!",
+              "transl": "Es sei denn, du bist dir deiner Sache sicher. Aber dann will ich keine Ausreden hören!"
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "message": {
+              "orig": "I see you are prepared.",
+              "transl": "Ich sehe, du hast dich vorbereitet."
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "message": {
+          "orig": "Are you ready for the duel?",
+          "transl": "Bist du bereit für das Duell?"
+         }
+        },
+        {
+         "0": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright then, let's go!",
+            "transl": "Also dann, legen wir los!"
+           }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          {
+           "thenStep": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            {
+             "thenStep": [
+              null,
+              null,
+              {
+               "message": {
+                "orig": "Well then... good luck!",
+                "transl": "Na dann... Viel Glück!"
+               }
+              },
+              {
+               "message": {
+                "orig": "Make sure to give Grasshead the beating of a lifetime.",
+                "transl": "Verpass dem Graskopf eine Tracht Prügel, an die er sich erinnern wird!"
+               }
+              },
+              {
+               "message": {
+                "orig": "...",
+                "transl": "..."
+               }
+              }
+             ]
+            },
+            {
+             "thenStep": [
+              null,
+              {
+               "message": {
+                "orig": "Hey Lea, I think Tronny wanted to watch your match as well, non?",
+                "transl": "Hey, Lea! Ich glaube, Tronny wollte beim Duell auch zusehen, non?"
+               }
+              },
+              {
+               "message": {
+                "orig": "...!",
+                "transl": "...!"
+               }
+              },
+              {
+               "message": {
+                "orig": "I'll quickly give him a call to come over!",
+                "transl": "Ich rufe ihn schnell an, dass er kommen soll!"
+               }
+              }
+             ]
+            },
+            {
+             "thenStep": [
+              null,
+              {
+               "message": {
+                "orig": "Lea, I think Emilie wanted to see the match as well, right?",
+                "transl": "Lea, ich glaube Emilie wollte beim Duell auch zusehen, oder?"
+               }
+              },
+              {
+               "message": {
+                "orig": "[nods]",
+                "transl": "[nickt]"
+               }
+              },
+              {
+               "message": {
+                "orig": "Let me just quickly call her!",
+                "transl": "Ich rufe sie schnell an!"
+               }
+              }
+             ]
+            }
+           ],
+           "elseStep": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            {
+             "message": {
+              "orig": "Lea, I think C'tron and Emilie wanted to watch your match as well, right?",
+              "transl": "Lea, ich glaube, C'tron und Emilie wollten beide beim Duell zusehen, oder?"
+             }
+            },
+            {
+             "message": {
+              "orig": "...!",
+              "transl": "...!"
+             }
+            },
+            {
+             "message": {
+              "orig": "Just give them a hint via D-Link.",
+              "transl": "Ruf sie einfach schnell über einen D-Link an."
+             }
+            },
+            {
+             "message": {
+              "orig": "[nods]",
+              "transl": "[nickt]"
+             }
+            }
+           ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          {
+           "thenStep": [
+            null,
+            {
+             "thenStep": [
+              null,
+              {
+               "message": {
+                "orig": "Here we are!",
+                "transl": "Da wären wir!"
+               }
+              },
+              {
+               "message": {
+                "orig": "It's duel time! Good thing you didn't forget about us!",
+                "transl": "Grade noch rechtzeitig! Freut mich, dass du uns nicht vergessen hast!"
+               }
+              }
+             ],
+             "elseStep": [
+              {
+               "message": {
+                "orig": "It's duel time! Good thing you didn't forget about me.",
+                "transl": "Grade noch rechtzeitig! Freut mich, dass du mich nicht vergessen hast!"
+               }
+              }
+             ]
+            }
+           ],
+           "elseStep": [
+            null,
+            {
+             "message": {
+              "orig": "Gosh...\\. I almost missed it.\\. Thanks for telling me!",
+              "transl": "Oh Mann...\\. Ich hätte es fast verpasst.\\. Danke, dass du mir Bescheid gesagt hast!"
+             }
+            }
+           ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          {
+           "thenStep": [
+            {
+             "message": {
+              "orig": "I surely hope you learned your lessons since last.",
+              "transl": "Ich hoffe wirklich, dass du deine Lektion seit unserer letzten Begegnung gelernt hast."
+             }
+            },
+            {
+             "message": {
+              "orig": "Or do you plan to once again turn this into a display of \\c[1]BLATANT CHEATING\\c[0] in front of everyone?!",
+              "transl": "Oder hast du wieder vor, deine \\c[1]SCHÄNDLICHE CHEATEREI\\c[0] vor aller Leute Augen vorzuführen?!"
+             }
+            },
+            {
+             "message": {
+              "orig": "...!",
+              "transl": "...!"
+             }
+            },
+            {
+             "message": {
+              "orig": "I won't let you get away so easily this time.",
+              "transl": "Dieses Mal werde ich es dir nicht so leicht machen."
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "thenStep": [
+              {
+               "message": {
+                "orig": "Inviting your friend to watch the duel, Spheromancer?",
+                "transl": "Du lädst deine Freunde ein, damit sie dir zusehen?"
+               }
+              },
+              {
+               "message": {
+                "orig": "Pretty confident!",
+                "transl": "Ziemlich selbstsicher, Spheromancer!"
+               }
+              },
+              {
+               "message": {
+                "orig": "...!",
+                "transl": "...!"
+               }
+              },
+              {
+               "message": {
+                "orig": "Anyway, let's get things started!",
+                "transl": "Wie auch immer, lass uns anfangen!"
+               }
+              }
+             ],
+             "elseStep": [
+              {
+               "message": {
+                "orig": "Are you ready?",
+                "transl": "Bist du bereit?"
+               }
+              },
+              {
+               "message": {
+                "orig": "[nods]",
+                "transl": "[nickt]"
+               }
+              },
+              {
+               "message": {
+                "orig": "Good.",
+                "transl": "Gut."
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "message": {
+            "orig": "PvP Combat, ACTIVATE!",
+            "transl": "PvP-Kampf AKTIVIEREN!"
+           }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          {
+           "thenStep": [
+            {
+             "message": {
+              "orig": "Smash him good, Lea!",
+              "transl": "Hau ihn aus'm Anzug, Lea!"
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "message": {
+              "orig": "Good Luck, Lea!",
+              "transl": "Denk dran, Lea: Immer auf die Zwölf!"
+             }
+            }
+           ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          {
+           "message": {
+            "orig": "Time has passed since our last duel.",
+            "transl": "Es ist einige Zeit vergangen, seit unserem letzten Duell."
+           }
+          },
+          {
+           "message": {
+            "orig": "Our characters have grown.\\. We both acquired the \\c[3]heat element\\c[0].",
+            "transl": "Wir haben uns weiterentwickelt.\\. Wir haben beide das \\c[3]Hitze-Element\\c[0] erhalten."
+           }
+          },
+          {
+           "message": {
+            "orig": "So it is time for me, \\c[3]Apollo\\c[0], to make sure you are still on the right path.",
+            "transl": "Es wird also Zeit, dass ich, \\c[3]Apollo\\c[0], mich überzeuge, ob du noch immer auf dem rechten Weg bist."
+           }
+          },
+          {
+           "message": {
+            "orig": "The path of a \nproper Spheromancer!\\.",
+            "transl": "Dem Weg eines wahren Spheromancers!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Mon dieu, start the duel already!",
+            "transl": "Mon Dieu, fangt endlich an!"
+           }
+          },
+          {
+           "message": {
+            "orig": "THE PATH...\\.\\. of \\c[3]Justice\\c[0]!",
+            "transl": "DEM WEG...\\.\\. der \\c[3]Gerechtigkeit\\c[0]!"
+           }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          {
+           "message": {
+            "orig": "Let the duel begin!",
+            "transl": "Lasst das Duell beginnen!"
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "[yes]",
+            "transl": "[Ja]"
+           }
+          },
+          {
+           "label": {
+            "orig": "[no]",
+            "transl": "[Nein]"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "\\c[1]Bye!\\c[0]",
+             "transl": "\\c[1]Bye!\\c[0]"
+            }
+           },
+           {
+            "thenStep": [
+             {
+              "message": {
+               "orig": "W-WHAT IS THIS DAMAGE?!",
+               "transl": "DAS IST DOCH KEIN NORMALER SCHADEN?!"
+              }
+             }
+            ],
+            "elseStep": [
+             {
+              "message": {
+               "orig": "YOU'RE DOING IT AGAIN!\\. YOU LEARNED NOTHING!!",
+               "transl": "DU TUST ES SCHON WIEDER!\\. DU HAST KEIN BISSCHEN DAZUGELERNT!!"
+              }
+             }
+            ]
+           }
+          ],
+          "elseStep": [
+           {
+            "message": {
+             "orig": "Not bad. But that was just a \"warm up\". Things are getting \\c[3]hot\\c[0] now!",
+             "transl": "Nicht schlecht. Nur ein kleines Vorspiel \"zum Warmwerden\". Denn jetzt wird's richtig \\c[3]heiß\\c[0]!"
+            }
+           },
+           {
+            "message": {
+             "orig": "Did you seriously just make that pun?",
+             "transl": "Den hast du jetzt nicht ernsthaft gebracht, oder?"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "YOU DIRTY LITTLE CHEATER!",
+             "transl": "DU DRECKIGER KLEINER CHEATER!"
+            }
+           },
+           {
+            "message": {
+             "orig": "\\c[1]Lea!\\c[0]",
+             "transl": "\\c[1]Lea!\\c[0]"
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "message": {
+             "orig": "Let's see if you can handle my \\c[3]secret strategy\\c[0]!",
+             "transl": "Mal sehen, wie du mit meiner \\c[3]Geheimtaktik\\c[0] fertigwirst!"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "AHHHHHHHHHH!!",
+             "transl": "AHHHHHHHHHH!!"
+            }
+           },
+           {
+            "message": {
+             "orig": "You can hardly call that a duel, really...",
+             "transl": "Oh Mann, das ist doch kein Duell..."
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "message": {
+             "orig": "Alright, fun time is over now.",
+             "transl": "Okay, jetzt ist Schluss mit lustig."
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "NO \\c[1]SKILLS\\c[0], NO \\c[1]HONOR\\c[0]! ONLY \\c[1]DIRTY TRICKS\\c[0]!",
+             "transl": "KEIN \\c[1]KÖNNEN\\c[0], KEINE \\c[1]EHRE\\c[0]! NUR \\c[1]SCHMUTZIGE TRICKS\\c[0]!"
+            }
+           },
+           {
+            "message": {
+             "orig": "One more hit and he'll shut up, Lea!",
+             "transl": "Noch ein Schlag und er liegt am Boden, Lea!"
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "message": {
+             "orig": "This isn't over yet!!",
+             "transl": "Wir sind noch nicht miteinander fertig!!"
+            }
+           },
+           {
+            "message": {
+             "orig": "You almost got it, Lea! Go, go, go!",
+             "transl": "Du hast es fast geschafft, Lea! Los, los, los!"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "thenStep": [
+             {
+              "message": {
+               "orig": "Again with just a single hit?\\. And here I thought you would have worked on your defense by now.",
+               "transl": "Schon wieder mit nur einem Schlag?\\. Und ich dachte, du hättest deine Verteidigung mittlerweile ausgebaut."
+              }
+             }
+            ],
+            "elseStep": [
+             {
+              "message": {
+               "orig": "Down with just a single hit?!\\. You should really mind your defensive stats.",
+               "transl": "Mit nur einem Schlag am Boden?!\\. Du solltest dich wirklich mal um deine Verteidigung kümmern."
+              }
+             }
+            ]
+           }
+          ],
+          "elseStep": [
+           {
+            "thenStep": [
+             {
+              "message": {
+               "orig": "I won't let you win this easily!",
+               "transl": "So leicht werde ich dich nicht gewinnen lassen!"
+              }
+             }
+            ],
+            "elseStep": [
+             {
+              "message": {
+               "orig": "I know you can do better.",
+               "transl": "Ich weiß, dass du das besser kannst."
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "Come on, Lea! More punching! You can do it!",
+           "transl": "Komm schon, Lea! Stell dir vor, er wäre ein Sandsack! Dann schaffst du's!"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "This is too easy, really...",
+             "transl": "Das ist doch ein Witz..."
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "message": {
+             "orig": "You still have much to learn!",
+             "transl": "Du hast immer noch viel zu lernen!"
+            }
+           }
+          ]
+         },
+         {
+          "message": {
+           "orig": "Don't give up, Lea!",
+           "transl": "Lea! Nicht aufgeben!"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "Alright. Time to end this!",
+           "transl": "Okay! Zeit, dem ein Ende zu bereiten!"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       {
+        "thenStep": [
+         null,
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "ONCE A CHEATER, FOREVER A CHEATER!",
+             "transl": "EINMAL CHEATER, IMMER CHEATER!"
+            }
+           },
+           {
+            "message": {
+             "orig": "YOU REALLY LEARNED NOTHING!",
+             "transl": "DU HAST WIRKLICH NICHTS GELERNT!"
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "message": {
+             "orig": "YOU CHEATER!\\. YOU DIRTY LITTLE CHEATER!",
+             "transl": "DU CHEATER!\\. DU DRECKIGER, KLEINER CHEATER!"
+            }
+           },
+           {
+            "message": {
+             "orig": "THERE WAS ABSOLUTELY NO HONOR IN THIS DUEL!",
+             "transl": "DAS WAR DOCH KEIN DUELL VON EHRE!"
+            }
+           }
+          ]
+         },
+         null,
+         {
+          "message": {
+           "orig": "Blue-haired Spheromancer, I'm severely disappointed!",
+           "transl": "Blauhaariger Spheromancer, ich bin schwer enttäuscht!"
+          }
+         }
+        ],
+        "elseStep": [
+         null,
+         {
+          "message": {
+           "orig": "...",
+           "transl": "..."
+          }
+         },
+         {
+          "message": {
+           "orig": "You've grown remarkably. I'm very impressed, Spheromancer!",
+           "transl": "Dein Fortschritt ist bemerkenswert. Ich bin sehr beeindruckt, Spheromancer!"
+          }
+         }
+        ]
+       },
+       {
+        "message": {
+         "orig": "Lea.",
+         "transl": "Lea."
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Don't forget your promise.",
+         "transl": "Vergiss nicht dein Versprechen."
+        }
+       },
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "SHE CHEATED!!\\. WHY SHOULD I CARE?!",
+           "transl": "WARUM SOLLTE MICH DAS NOCH KÜMMERN?!\\. SIE HAT GECHEATET!!"
+          }
+         },
+         {
+          "message": {
+           "orig": "She won the duel, that's all you agreed on.",
+           "transl": "Sie hat das Duell gewonnen, darauf habt ihr euch geeinigt."
+          }
+         },
+         {
+          "message": {
+           "orig": "...",
+           "transl": "..."
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "... Right.",
+           "transl": "... Stimmt."
+          }
+         },
+         {
+          "message": {
+           "orig": "You deserve to be called by your proper name now.",
+           "transl": "Du verdienst es nun, bei deinem richtigen Namen genannt zu werden."
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       null,
+       null,
+       null,
+       null,
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "You are really severally lacking in \\c[1]stamina\\c[0], being defeated so quickly...",
+           "transl": "Es mangelt dir wirklich an \\c[1]Ausdauer\\c[0], wenn du derart schnell zu Boden gehst..."
+          }
+         }
+        ]
+       },
+       {
+        "message": {
+         "orig": "It looks like you still have much to learn, Blue-Haired Spheromancer.",
+         "transl": "Sieht so aus, als hättest du noch viel zu lernen, blauhaariger Spheromancer."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "...\\. Lea...",
+         "transl": "...\\. Lea..."
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "You still won't use her name? Don't be like that.",
+         "transl": "Du spricht sie immer noch nicht mit ihrem Namen an? Jetzt sei mal nicht so."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "thenStep": [
+         null,
+         {
+          "message": {
+           "orig": "Well, it seems at least that you didn't entirely rely on blatant cheating this time.\\. I respect this.",
+           "transl": "Nun, diesmal scheinst du dich zumindest nicht gänzlich auf schändliche Cheats verlassen zu haben.\\. Das respektiere ich."
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "It was a good duel and a respectable effort on your end.",
+           "transl": "Das war ein gutes Duell und deine Bemühungen verdienen Respekt."
+          }
+         }
+        ]
+       },
+       {
+        "message": {
+         "orig": "I suppose I might as well use your proper name.",
+         "transl": "Dann kann ich dich jetzt wohl auch bei deinem richtigen Namen nennen."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "SPHEROMANCER LEA!",
+         "transl": "SPHEROMANCER LEA!"
+        }
+       },
+       {
+        "message": {
+         "orig": "AS ANOTHER SPHEROMANCER, I URGE YOU TO STOP THIS DISGRACEFUL BEHAVIOR!",
+         "transl": "ALS SPHEROMANCER BITTE ICH DICH, DICH DIESES BESCHÄMENDEN VERHALTENS ZU ENTLEDIGEN!"
+        }
+       },
+       {
+        "message": {
+         "orig": "I shall give you another chance with our next duel to reconsider your current course.",
+         "transl": "Ich werde dir bis zu unserem nächsten Duell eine weitere Chance geben, deinen eingeschlagenen Weg zu überdenken."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "Spheromancer Lea! I'm looking forward to our next duel!",
+         "transl": "Spheromancer Lea! Ich freue mich schon auf unser nächstes Duell!"
+        }
+       }
+      ]
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Does that mean we can finally play this game together like we'd originally planned?",
+       "transl": "Heißt das, wir können jetzt endlich mit dem weitermachen, was wir eigentlich vorhatten?"
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Yes, sorry I made you wait.",
+       "transl": "Ja, tut mir leid, dass du so lange warten musstest."
+      }
+     },
+     {
+      "message": {
+       "orig": "About time. Let's go.",
+       "transl": "Wurde auch Zeit. Auf geht's."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Until next time, Spheromancer Lea!",
+       "transl": "Bis zum nächsten Mal, Spheromancer Lea!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Bye!",
+       "transl": "Bye!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "Congratulations! That was really...\\. \\c[1]one-sided\\c[0].",
+           "transl": "Glückwunsch! Das war ein ziemlich...\\. \\c[1]einseitiger Kampf\\c[0]."
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "Congratulations! That was really impressive!",
+           "transl": "Glückwunsch! Das war echt beeindruckend!"
+          }
+         }
+        ]
+       },
+       {
+        "message": {
+         "orig": "Oui! You've shown Grasshead who's boss! Good work!",
+         "transl": "Oui! Dem Graskopf hast du echt gezeigt, wo der Frosch die Locken hat!"
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "That was a good fight, Lea.\\. You tried your best.",
+         "transl": "Das war ein guter Kampf, Lea.\\. Du hast dein Bestes gegeben."
+        }
+       },
+       {
+        "message": {
+         "orig": "Oui.\\. Just make sure to punch Grasshead even harder next time!",
+         "transl": "Oui.\\. Schlag beim nächsten Mal einfach fester zu!"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     },
+     {
+      "message": {
+       "orig": "Well then...\\. Our next stage would be \\c[3]Faj'ro Temple\\c[0], right?",
+       "transl": "Tja, dann...\\. ist als Nächstes also der \\c[3]Faj'ro-Tempel\\c[0] dran, richtig?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Exactement!",
+       "transl": "Exactement!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "It's time for our third dungeon race!",
+       "transl": "Zeit für unser drittes Dungeon-Rennen!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Oh, you two are racing dungeons together?",
+       "transl": "Oh, ihr beiden veranstaltet also immer Wettrennen?"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "That's right! We've been racing dungeons ever since we met at Newcomer's Bridge.",
+       "transl": "Genau! Wir machen das, seit wir uns an der Neulingsbrücke getroffen haben."
+      }
+     },
+     {
+      "message": {
+       "orig": "Oh, that sounds fun... ",
+       "transl": "Das klingt nach einer Menge Spaß..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Then again, I guess there is no place for me in your competition...",
+       "transl": "Andererseits ist für mich wahrscheinlich kein Platz bei eurem Wettrennen..."
+      }
+     },
+     {
+      "message": {
+       "orig": "What do you mean, Tronny? Of course you can race with us! ",
+       "transl": "Was meinst du, Tronny? Natürlich kannst du mitmachen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "The more the merrier, right Lea?",
+       "transl": "Je mehr, desto besser, oder Lea?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Now if that's the case! Don't mind me joining, then!",
+       "transl": "Ja, wenn das so ist, würde ich gerne mitmachen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Fantastique! Now I really can't wait!",
+       "transl": "Fantastique! Jetzt kann ich es echt nicht mehr abwarten!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Hm.. maybe Lea wants a short breather after the duel? ",
+       "transl": "Hm... Vielleicht braucht Lea vorher eine kurze Pause?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Ah oui... just tell us when you're ready!",
+       "transl": "Ah oui... Sag uns einfach, wenn du so weit bist!"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Enter \\c[3]Faj'ro Temple\\c[0] to start the next dungeon race against Emilie and C'tron!",
+       "transl": "Betritt den \\c[3]Faj'ro-Tempel\\c[0], um das nächste Rennen gegen Emilie und C'tron zu starten!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Blue-haired Spheromancer!",
+       "transl": "Blauhaariger Spheromancer!"
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "I see you have arrived!",
+       "transl": "Ich sehe, du bist eingetroffen!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "It's time for our duel!",
+       "transl": "Es ist Zeit für unser Duell!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Once again, the location is just perfect!",
+       "transl": "Wieder einmal ist der Ort hier einfach wie dafür geschaffen!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "message": {
+         "orig": "Again seeking the attention of other players, oui?",
+         "transl": "Und du suchst wieder die Aufmerksamkeit der anderen Spieler, oui?"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Of course!",
+         "transl": "Natürlich!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         null,
+         {
+          "message": {
+           "orig": "Are you sure?\\. With all those players around?",
+           "transl": "Bist du sicher?\\. Vor all den Spielern hier?"
+          }
+         },
+         null,
+         {
+          "message": {
+           "orig": "Yes, that's the point!",
+           "transl": "Ja, das ist doch der Sinn des Ganzen!"
+          }
+         }
+        ],
+        "elseStep": [
+         null,
+         {
+          "message": {
+           "orig": "...",
+           "transl": "..."
+          }
+         },
+         null,
+         {
+          "message": {
+           "orig": "... What is it?",
+           "transl": "... Was?"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "He wants his audience. You can't talk him out of it, trust me.",
+       "transl": "Er braucht sein Publikum. Das kannst du ihm nicht ausreden, glaub mir."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Anyway!\\. Talk to me when you are ready for the duel!",
+       "transl": "Wie auch immer!\\. Sag mir Bescheid, wenn du bereit für das Duell bist!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "en_US",
+     "transl": "de_DE"
+    }
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "en_US",
+     "transl": "de_DE"
+    }
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "en_US",
+     "transl": "de_DE"
+    }
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "en_US",
+     "transl": "de_DE"
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "...Hi!",
+         "transl": "... Hi!"
+        }
+       },
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hey Lea! You're here as well? I just arrived myself.",
+         "transl": "Hey, Lea! Du bist auch schon hier? Bin selbst gerade eben erst angekommen."
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Wait, I'm last? Aww man.",
+         "transl": "Was? Ich bin Letzte? Och, mennooo..."
+        }
+       },
+       null,
+       null,
+       {
+        "message": {
+         "orig": "... But this is not the end of the dungeon, oui?",
+         "transl": "... Aber das ist noch nicht das Ende des Dungeons, oui?"
+        }
+       },
+       null,
+       null,
+       {
+        "message": {
+         "orig": "No, this seems to be more like a break room in the middle?",
+         "transl": "Nein, sieht mehr aus wie eine Art Pausenraum in der Mitte..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Phew... that means the race isn't over yet!",
+         "transl": "Puh... Das heißt, das Rennen ist noch nicht vorbei!"
+        }
+       }
+      ],
+      "elseStep": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "...Hi...",
+         "transl": "... Hi..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Oh, you're here as well already?\\. Tronny and I just arrived.",
+         "transl": "Oh, du bist auch schon hier?\\. Tronny und ich sind gerade eben angekommen."
+        }
+       },
+       {
+        "message": {
+         "orig": "And he even arrived before me, can you believe this?",
+         "transl": "Und er kam sogar vor mir an, kannst du dir das vorstellen?"
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "W-Well... just barely!",
+         "transl": "N-Na ja... Aber nur ganz knapp!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Anyway, this is not the end of the dungeon, just the middle.",
+         "transl": "Jedenfalls ist der Dungeon noch nicht zu Ende, das ist erst die Mitte."
+        }
+       },
+       {
+        "message": {
+         "orig": "The race isn't over yet!",
+         "transl": "Das Rennen ist noch nicht vorbei!"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "message": {
+       "orig": "But man... this dungeon sure is full of puzzles.",
+       "transl": "Aber uff... Dieser Dungeon ist echt voller Rätsel."
+      }
+     },
+     {
+      "message": {
+       "orig": "True.",
+       "transl": "Stimmt."
+      }
+     },
+     {
+      "message": {
+       "orig": "I mean we could take a break. There is a landmark here, after all.",
+       "transl": "Ich meine, wir könnten auch eine Pause machen, hier ist immerhin ein Wegpunkt."
+      }
+     },
+     {
+      "message": {
+       "orig": "Oui, that's right...",
+       "transl": "Oui, du hast recht..."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "We'll leave it up to you, Lea. Just enter the dungeon when you want to continue the race.",
+       "transl": "Wir lassen dich entscheiden, Lea. Geh einfach in den Dungeon, wenn du weitermachen willst."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "Faj'ro Temple Roof",
+     "transl": "Faj'ro-Dach"
+    }
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "0_0": [
+       {
+        "message": {
+         "orig": "Forget it!",
+         "transl": "Vergiss es!"
+        }
+       }
+      ],
+      "0_1": [
+       {
+        "message": {
+         "orig": "I won't fall for that!",
+         "transl": "Darauf falle ich nicht rein!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "You think this temple will be as long as the last one...?",
+       "transl": "Glaubst du, dieser Tempel ist so lang wie der letzte...?"
+      }
+     },
+     {
+      "text": {
+       "orig": "Probably...",
+       "transl": "Wahrscheinlich..."
+      }
+     },
+     {
+      "text": {
+       "orig": "Ohhh boy...",
+       "transl": "Och nööö, ne..."
+      }
+     },
+     {
+      "text": {
+       "orig": "I heard there is a landmark somewhere in the middle, so it's easy to leave and return if you need a break.",
+       "transl": "Es soll irgendwo in der Mitte einen Wegpunkt geben, damit man zwischendurch auch wieder raus kann, um eine Pause zu machen."
+      }
+     },
+     {
+      "text": {
+       "orig": "Well... it's not like leaving and returning to the previous temple was that hard either.",
+       "transl": "Na ja... Ist ja nicht so, als wäre es besonders schwer gewesen, den letzten Tempel zu verlassen, um eine Pause zu machen."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Are y'all prepared?",
+       "transl": "Seid's alle bereit?"
+      }
+     },
+     {
+      "text": {
+       "orig": "Yupp! All ready!",
+       "transl": "Jau! Alles klärchen!"
+      }
+     },
+     {
+      "text": {
+       "orig": "Good to go!",
+       "transl": "Kann losgehen!"
+      }
+     },
+     {
+      "text": {
+       "orig": "Really? Did ya finally get yerself a new weapon?",
+       "transl": "Wirklich? Hast' dir endlich 'ne neue Waffe besorgt?"
+      }
+     },
+     {
+      "text": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "text": {
+       "orig": "Ya still have yer \\c[3]\\v[item.57.name]\\c[0], don't ya?",
+       "transl": "Lass mich raten, du hast immer noch den \\c[3]Daikon\\c[0], oder?"
+      }
+     },
+     {
+      "text": {
+       "orig": "It has HP regeneration! It's super useful!",
+       "transl": "Er hat HP-Regeneration! Das is super praktisch!"
+      }
+     },
+     {
+      "text": {
+       "orig": "It's a level 13 weapon, for crying out loud! It's dragging ya back more than it helps.",
+       "transl": "Verdammte Axt, das ist 'ne Level 13-Waffe! Das zieht dich mehr runter als es dir hilft."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

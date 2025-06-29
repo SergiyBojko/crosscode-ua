@@ -1,0 +1,734 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Humble Helper",
+      "transl": "Bescheidener Betreuer"
+     }
+    },
+    "npcStates": [
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Humble Helper",
+          "transl": "Bescheidener Betreuer"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hello, Ms. \\v[lore.title.seeker]!\\. So great to see you here on \\v[lore.title.planet].",
+          "transl": "Ich grüße Sie, werte Seeker-Dame!\\. Schön, Sie hier auf Shadoon zu sehen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "As a humble part of our endeavor here I am trying my best to aid Seekers.",
+          "transl": "Als bescheidener Teil unser aller Bestreben hier versuche ich mein Bestes, den Seekern zu helfen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "But, my skills are just not on the same level as yours are.",
+          "transl": "Leider sind meine Fähigkeiten noch nicht auf demselben Level wie Ihre."
+         }
+        },
+        {
+         "message": {
+          "orig": "Might I ask you to help me out, dear \\v[lore.title.seeker]?",
+          "transl": "Dürfte ich Sie höflich darum bitten, mir etwas auszuhelfen, verehrter Seeker?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "accepted": [
+          null,
+          {
+           "message": {
+            "orig": "Superb!\\. Come back to me when you've defeated the \\v[combat.name.hedgehog]s.",
+            "transl": "Hervorragend! Kommen Sie nochmal wieder, wenn Sie die Igöll besiegt haben."
+           }
+          }
+         ],
+         "declined": [
+          null,
+          {
+           "message": {
+            "orig": "Oh, okay!\\. No Problem Ms. \\v[lore.title.seeker].\\. Please come back if you changed your mind.",
+            "transl": "Oh, na ja!\\. Kein Problem.\\. Besuchen Sie mich einfach wieder, wenn Sie es sich anders überlegt haben."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Humble Helper",
+         "transl": "Bescheidener Betreuer"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Hi!",
+         "transl": "Hi!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Hello Ms. \\v[lore.title.seeker]!\\. Enjoying your Journey?",
+         "transl": "Guten Tag, meine Dame!\\. Genießen Sie Ihre abenteuerliche Reise?"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Of course you do, haha!\\. Oh to be young again!",
+         "transl": "Natürlich tun Sie das, haha!\\. Ach Mann, noch einmal jung sein!"
+        }
+       },
+       {
+        "message": {
+         "orig": "But... back to work.\\. It looks like you still need to defeat \\c[3]\\v[quest.my-first-quest.subrequire.0] of these \\v[combat.name.hedgehog]s\\c[0].",
+         "transl": "Aber was soll's, die Pflicht ruft.\\. Wie es scheint, müssen Sie noch \\c[3]\\v[quest.my-first-quest.subrequire.0] Igöll\\c[0] besiegen."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Humble Helper",
+          "transl": "Bescheidener Betreuer"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Wow Ms. \\v[lore.title.seeker], you really did it!\\. Here's your rewards for it!",
+          "transl": "Donnerlüttchen, Sie haben es wirklich geschafft!\\. Hier ist Ihre Belohnung!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Humble Helper",
+          "transl": "Bescheidener Betreuer"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hello Ms. \\v[lore.title.seeker], ready for another quest?\\. I even have more equipment as a reward.",
+          "transl": "Guten Tag, holde Dame! Sind Sie bereit für noch eine Quest, um sich den Rest der Ausrüstung zu verdienen?"
+         }
+        },
+        {
+         "accepted": [
+          null,
+          {
+           "message": {
+            "orig": "Happy collecting and remember that different plants yield different items!",
+            "transl": "Frohes Sammeln! Und nicht vergessen: Verschiedene Pflanzen tragen verschiedene Items!"
+           }
+          }
+         ],
+         "declined": [
+          null,
+          {
+           "message": {
+            "orig": "Oh, okay!\\. No Problem Ms. \\v[lore.title.seeker].\\. Please come back if you changed your mind.",
+            "transl": "Oh, na ja!\\. Kein Problem.\\. Kommen Sie einfach wieder, wenn Sie die Quest doch machen wollen."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Humble Helper",
+         "transl": "Bescheidener Betreuer"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Hi!",
+         "transl": "Hi!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Hello Ms. \\v[lore.title.seeker]!\\. Enjoying the adventure?",
+         "transl": "Guten Tag, meine werte Dame!\\. Genießen Sie Ihre abenteuerliche Reise?"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Of course you do, haha!\\. Oh to be young again!",
+         "transl": "Natürlich tun Sie das, haha!\\. Ach Mann, noch einmal jung sein!"
+        }
+       },
+       {
+        "message": {
+         "orig": "But... back to work.\\. It looks like you still need to collect some of the \\c[3]items\\c[0].",
+         "transl": "Aber was soll's, die Pflicht ruft.\\. Wie es scheint, müssen Sie noch ein paar der \\c[3]Items\\c[0] sammeln."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Humble Helper",
+          "transl": "Bescheidener Betreuer"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Wow Ms. \\v[lore.title.seeker], you really did it!\\. Here's your rewards for it!",
+          "transl": "Alle Achtung, Sie haben es wirklich geschafft!\\. Hier ist Ihre Belohnung!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Humble Helper",
+         "transl": "Bescheidener Betreuer"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Hello Ms. \\v[lore.title.seeker]!\\. I hope you enjoy your journey.",
+         "transl": "Guten Tag, meine holde Dame!\\. Ich hoffe, Sie genießen Ihre abenteuerliche Reise?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "en_US",
+     "transl": "de_DE"
+    }
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "en_US",
+     "transl": "de_DE"
+    }
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "en_US",
+     "transl": "de_DE"
+    }
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "en_US",
+     "transl": "de_DE"
+    }
+   }
+  },
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "\\i[arrow-w] Road to \\v[area.bergen-trails.name]\n\\i[arrow-e] \\v[area.rookie-harbor.name]",
+      "transl": "\\i[arrow-w] Weg zum Bergen-Trail\n\\i[arrow-e] Rookie Harbor"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "title": {
+       "orig": "Combat Rank",
+       "transl": "Kampfrang"
+      },
+      "content": {
+       "orig": "How to increase \\c[3]Combat Rank\\c[0] to improve the drops of defeated enemies.",
+       "transl": "Wie man den \\c[3]Kampfrang\\c[0] erhöht, um mehr Items von Gegnern zu bekommen."
+      },
+      "acceptStep": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "Your \\c[3]combat rank\\c[0] is displayed in the upper right corner during combat.",
+         "transl": "Dein \\c[3]Kampfrang\\c[0] wird während des Kampfes in der rechten oberen Ecke angezeigt."
+        }
+       },
+       null,
+       {
+        "text": {
+         "orig": "By \\c[3]defeating enemies\\c[0] your rank will increase.",
+         "transl": "Durch das \\c[3]Besiegen von Gegnern\\c[0] erhöht sich dein Kampfrang."
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "With a higher combat rank, enemies will \\c[3]drop more items\\c[0], including \\c[3]special rare items\\c[0].",
+         "transl": "Mit einem höheren Kampfrang werden Gegner \\c[3]mehr Items fallen lassen\\c[0], darunter auch \\c[3]seltene Items\\c[0]."
+        }
+       },
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "When you're out of combat you'll enter the \\c[3]cooldown phase\\c[3].",
+         "transl": "Wenn du nicht im Kampf bist, beginnt die \\c[3]Cooldown-Phase\\c[0]."
+        }
+       },
+       null,
+       {
+        "text": {
+         "orig": "When the blue line disappears, combat will end and you will  \\c[3]lose your rank\\c[0].",
+         "transl": "Wenn die blaue Linie verschwindet, ist der Kampf vorbei und du \\c[3]verlierst deinen Kampfrang\\c[0]."
+        }
+       },
+       null,
+       {
+        "text": {
+         "orig": "However, when you enter combat during cool down, you \\c[3]keep your combat rank\\c[3]!",
+         "transl": "Wenn du dich aber wieder in den Kampf stürzt, während der Cooldown noch läuft, \\c[3]behältst du deinen Kampfrang\\c[0]!"
+        }
+       },
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "Repeat?",
+         "transl": "Wiederholen?"
+        },
+        "options": [
+         {
+          "label": {
+           "orig": "Yes",
+           "transl": "Ja"
+          }
+         },
+         {
+          "label": {
+           "orig": "No",
+           "transl": "Nein"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "message": {
+       "orig": "Laser bridge!",
+       "transl": "Laserbrücke!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Back to where our journey started...",
+       "transl": "Autumn's Rise! Hier hat unser Abenteuer angefangen..."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "By now, those enemies are kind of a joke, non?",
+       "transl": "Mittlerweile sind die Gegner hier ein Witz, non?"
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "I mean...\\. if we didn't have the \\c[3]boosters\\c[0] enabled, that is.",
+         "transl": "Ich meine...\\. wenn wir jetzt die \\c[3]Booster\\c[0] nicht aktiviert hätten."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Sure...\\. now they are.",
+       "transl": "Klar...\\. jetzt schon."
+      }
+     },
+     {
+      "message": {
+       "orig": "I bet you got beat up plenty by those Hedgehags in the beginning.",
+       "transl": "Aber ich wette, die Igöll hier haben dich am Anfang ganz schön vermöbelt."
+      }
+     },
+     {
+      "message": {
+       "orig": "Non!\\. Not at all!",
+       "transl": "Non-\\. da muss ich dich enttäuschen!"
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Lea simply \\c[1]sniped them all away\\c[0], you see?",
+         "transl": "Lea hat sie einfach \\c[1]alle weggeschnippt\\c[0]..."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "Those hedgehags were easy-peasy, right, Lea?",
+         "transl": "Die Igöll waren voll pillepalle, stimmt's Lea?"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "\\c[1]Lea!\\c[0]",
+         "transl": "\\c[1]Lea!\\c[0]"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "Lea!",
+         "transl": "Lea!"
+        }
+       }
+      ]
+     },
+     {
+      "message": {
+       "orig": "Right. I forgot you were well prepared thanks to my amazing tutorial.",
+       "transl": "Dank meines großartigen Tutorials, das euch gut darauf vorbereitet hat."
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Non.\\. Again.\\. It's because \\c[1]Lea just killed everything\\c[0].",
+         "transl": "Non.\\. Nochmal.\\. Das lag daran, dass \\c[1]Lea sie alle weggeklatscht hat\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "\\c[1]Bye!!\\c[0]",
+         "transl": "\\c[1]Bye!!\\c[0]"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "Suuuure...",
+         "transl": "Geeeenau..."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Back then, she was the only clue I had.\\.\nThat is why...\\. I put her into the game.",
+       "transl": "Damals war sie der einzige Hinweis, den ich hatte.\\.\nDas war der Grund...\\. warum ich sie ins Spiel geholt habe."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

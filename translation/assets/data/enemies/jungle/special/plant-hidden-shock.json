@@ -1,0 +1,79 @@
+{
+ "actions": {
+  "init": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "[Charging Power]",
+       "transl": "[Sammle Kraft]<<C<<Geprüft: Minsu"
+      }
+     },
+     {
+      "text": {
+       "orig": "[Shield neutralized]",
+       "transl": "[Schild neutralisiert]<<C<<Geprüft: Minsu"
+      }
+     },
+     {
+      "text": {
+       "orig": "[Restore Shield]",
+       "transl": "[Aktiviere Schild]<<C<<Geprüft: Minsu"
+      }
+     },
+     {
+      "text": {
+       "orig": "[Restored Shield]",
+       "transl": "[Schild aktiv]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "StartFullShield": [
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "[ SHIELD RESTORED ]",
+       "transl": "[ SCHILD AKTIV ]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "EndFullShield": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ SHIELD NEUTRALIZED ]",
+     "transl": "[ SCHILD NEUTRALISIERT ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Water-Polluting Plant",
+   "transl": "Wasserverschmutzende Pflanze<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "A \\v[combat.name.jungle/plant] that somehow got infected and now radiates \\c[3]Shock-energy\\c[0]. Said energy empowers it's attack and also creates an almost impenetrable shield that can only be neutralized with an opposing element.\nIt seems like the infection spreads between its NANO-MACHINES, which also explains why they are polluting the water.",
+     "transl": "Ein Ergebeh, der irgendwie infiziert wurde und jetzt \\c[3]Schock-Energie\\c[0] emittiert. Diese Energie stärkt seinen Angriff und erzeugt einen fast undurchdringlichen Schild, welcher nur mit dem gegensätzlichen Element neutralisiert werden kann.\nEs scheint, als würde sich die Infektion zwischen den NANO-MASCHINEN ausbreiten, was auch erklärt, warum sie das Wasser verschmutzen.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,370 @@
+{
+ "entities": [
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Girl, you sure are a natural with that ball thing!",
+       "transl": "Дівчино, та в тебе справжній талант до цих кульок!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Carla, they are called VRPs.\\. Not \"balls\".",
+       "transl": "Карло, вони звуться ВРС. Не \"кульки\"."
+      }
+     },
+     {
+      "message": {
+       "orig": "Ah, c'mon! Nobody calls them that anymore, y'know?",
+       "transl": "Ой, та годі вже! Ніхто їх так більше не називає!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Unfortunately, yes...",
+       "transl": "На жаль, так..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Well done!\\. Yeah that was all.\\. It's a small room.",
+       "transl": "Молодець!\\. Так, це все.\\. Це маленька кімната."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "What are ya standing around here for?\\. The wall is gone, the path is clear.",
+           "transl": "Чого ти тут стоїш?\\. Стіни більше немає, шлях вільний!"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "Up for some spoilers?",
+           "transl": "Хочеш почути спойлер?"
+          }
+         },
+         {
+          "0": [
+           {
+            "message": {
+             "orig": "[nods]",
+             "transl": "[киває]"
+            }
+           },
+           null,
+           null,
+           {
+            "message": {
+             "orig": "Well something is different about this switch, right? ",
+             "transl": "Ну, у цьому перемикачі є щось особливе, еге?"
+            }
+           },
+           {
+            "message": {
+             "orig": "I'm afraid one ball just won't cut it.",
+             "transl": "На жаль, одна кулька тут нічого не зробить."
+            }
+           },
+           {
+            "message": {
+             "orig": "Now, several balls on the other hand...",
+             "transl": "А от кілька кульок..."
+            }
+           }
+          ],
+          "1": [
+           {
+            "message": {
+             "orig": "[shakes head]",
+             "transl": "[хитає головою]"
+            }
+           },
+           {
+            "message": {
+             "orig": "Right, then! Go on!",
+             "transl": "Добре, тоді вперед!"
+            }
+           }
+          ],
+          "options": [
+           {
+            "label": {
+             "orig": "[Yes]",
+             "transl": "[Так]"
+            }
+           },
+           {
+            "label": {
+             "orig": "[No]",
+             "transl": "[Ні]"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "Nah, I won't give ya a hint for that, girl.",
+           "transl": "Ні, дівчино, для цього я не даватиму тобі підказок."
+          }
+         },
+         {
+          "message": {
+           "orig": "You removed the wall, the rest is straightforward.",
+           "transl": "Ти позбулася стіни. Решта надто очевидна."
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "Oh yeah, that one is kinda mean.\\. Need a hint?",
+           "transl": "О так, ця частина трохи складна.\\. Потрібна допомога?"
+          }
+         },
+         {
+          "0": [
+           {
+            "message": {
+             "orig": "[nods]",
+             "transl": "[киває]"
+            }
+           },
+           null,
+           null,
+           {
+            "message": {
+             "orig": "Did you try to hit this switch with charged balls?",
+             "transl": "Ти ж пробувала вдарити по цьому перемикачу зарядженими кульками?"
+            }
+           },
+           {
+            "message": {
+             "orig": "You probably realized that doesn't work.\\. It's too slow.",
+             "transl": "Тоді ти мала зрозуміти, що це не працює. Це занадто повільно."
+            }
+           },
+           {
+            "message": {
+             "orig": "How about you look around?\\. There might be another way. ",
+             "transl": "Як щодо того, щоб трохи озирнутися навколо? Можливо, є інший спосіб."
+            }
+           }
+          ],
+          "1": [
+           {
+            "message": {
+             "orig": "[shakes head]",
+             "transl": "[хитає головою]"
+            }
+           },
+           {
+            "message": {
+             "orig": "Right, then! Go on!",
+             "transl": "Добре, тоді вперед!"
+            }
+           }
+          ],
+          "options": [
+           {
+            "label": {
+             "orig": "[Yes]",
+             "transl": "[Так]"
+            }
+           },
+           {
+            "label": {
+             "orig": "[No]",
+             "transl": "[Ні]"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Heh, this is so much fun.\\. Just too bad we can't chat along the way...",
+         "transl": "Хех, це так весело.\\. Шкода тільки, що ми не можемо поспілкуватися дорогою..."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Ah, don't worry!\\. I'm sure Sergey will get the speech problem fixed in no time.",
+         "transl": "О, не хвилюйся! Я впевнена, що Сергій миттю виправить проблему з мовленням."
+        }
+       },
+       {
+        "message": {
+         "orig": "Am I right, Sergey?",
+         "transl": "Я права, Сергію?"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "It is...\\. challenging to say the least.",
+         "transl": "Це... проблемно, м'яко кажучи."
+        }
+       },
+       {
+        "message": {
+         "orig": "...?",
+         "transl": "...?"
+        }
+       },
+       {
+        "message": {
+         "orig": "It wouldn't kill you to be a little more optimistic...",
+         "transl": "Твій оптимізм знову мене вражає..."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "message": {
+       "orig": "Entering the next stage, more switches await!",
+       "transl": "Переходимо на наступний етап, на тебе чекає ще більше перемикачів!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "blockEvent": [
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Wrong direction, girl.\\.\nGotta reach the teleporter!",
+       "transl": "Не туди, Лія!\\.\nТреба дістатися до телепорту!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "message": {
+       "orig": "Stop this!!",
+       "transl": "Припини це!!"
+      }
+     },
+     {
+      "message": {
+       "orig": "\\c[1]...!!\\c[0]",
+       "transl": "\\c[1]...!!\\c[0]"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

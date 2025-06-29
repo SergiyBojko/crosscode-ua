@@ -1,0 +1,545 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Vagabond",
+          "transl": "Vagabond"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Seeker, are you ready to face your final trial?",
+          "transl": "Seeker, bist du bereit, für die letzte Prüfung?"
+         }
+        },
+        {
+         "0": [
+          {
+           "message": {
+            "orig": "[nods]\n",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Very well...",
+            "transl": "Wie du wünschst..."
+           }
+          },
+          {
+           "message": {
+            "orig": "Seeker... It's time for a duel.",
+            "transl": "Seeker... Die Zeit für ein Duell ist gekommen."
+           }
+          },
+          {
+           "message": {
+            "orig": "...?\n",
+            "transl": "...?\n"
+           }
+          }
+         ],
+         "1": [
+          {
+           "message": {
+            "orig": "[Shakes Head]\n",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Very well...",
+            "transl": "Wie du wünschst..."
+           }
+          },
+          {
+           "message": {
+            "orig": "Stay ever vigilant, Seeker.",
+            "transl": "Bleib stets wachsam, Seeker."
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "Yes",
+            "transl": "Ja"
+           }
+          },
+          {
+           "label": {
+            "orig": "No",
+            "transl": "Nein"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     null,
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Vagabond",
+         "transl": "Vagabond"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "You have earned the Mark of Mastery and with it, the \\c[3]Meteor Shade\\c[0]!",
+         "transl": "Du hast wahre Meisterschaft erlangt und dir damit die \\c[3]Meteoritenform\\c[0] redlich verdient!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Now walk through the door behind me and speak to the ones that came before to receive your prize.",
+         "transl": "Nun schreite durch die Tür hinter mir und sprich mit dem Einen, der lange vor uns da war, um deine Belohnung zu empfangen."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Vagabond",
+         "transl": "Vagabond"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "The \\c[3]Meteor Shade\\c[0] is yours, Seeker.",
+         "transl": "Die \\c[3]Meteoritenform\\c[0] gehört dir, Seeker."
+        }
+       },
+       {
+        "message": {
+         "orig": "We are impressed. Very much so.",
+         "transl": "Wir sind beeindruckt, Seeker. Sehr sogar."
+        }
+       },
+       {
+        "message": {
+         "orig": "My Brothers and Sisters speak highly of the Seeker that defeated the Twilight.",
+         "transl": "Meine Brüder und Schwestern sprechen in höchsten Tönen vom Seeker, der den Meister des Zwielichts besiegt hat."
+        }
+       },
+       {
+        "message": {
+         "orig": "One even mentioned preparing an old trial.",
+         "transl": "Eine erwähnte sogar, dass sie eine alte Prüfung für dich vorbereiten wolle."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Meet her at the \\c[3]Nesting Grounds\\c[0] where you completed the Trial of Vigor.",
+         "transl": "Du findest sie in der \\c[3]Brutstätte\\c[0], wo du die Prüfung der Kraft abgelegt hast."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       {
+        "message": {
+         "orig": "Stay ever vigilant, Seeker.",
+         "transl": "Bleib stets wachsam, Seeker."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...Hi?",
+       "transl": "... Hi?"
+      }
+     },
+     null,
+     {
+      "text": {
+       "orig": "...Prepare yourself...",
+       "transl": "... Mach dich bereit..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "...Show us what you have learned...",
+       "transl": "... Zeig uns, was du gelernt hast..."
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Defeat the Beetles!",
+       "transl": "Besiege die Käfer!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Vagabond",
+       "transl": "Vagabond"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Well done, Seeker.",
+       "transl": "Gut gemacht, Seeker."
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...Hi?!",
+       "transl": "... Hi?!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Vagabond",
+       "transl": "Vagabond"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "It seems nothing can faze you. Maybe you are indeed ready.",
+       "transl": "Es scheint, als könne dich nichts aus der Fassung bringen. Vielleicht bist du wirklich bereit."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "You have mastered every trial put in front of you.",
+       "transl": "Du hast jede Prüfung gemeistert, die dir auferlegt wurde."
+      }
+     },
+     {
+      "message": {
+       "orig": "The golden beetles are proof of that.",
+       "transl": "Die Goldenen Käfer sind der Beweis dafür."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Vagabond",
+       "transl": "Vagabond"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "And you survived our little surprise.",
+       "transl": "Und du hast unserer kleinen Überraschung standgehalten."
+      }
+     },
+     {
+      "message": {
+       "orig": "But this was not your last trial, oh no. ",
+       "transl": "Doch dies war nicht deine letzte Prüfung, oh nein."
+      }
+     },
+     {
+      "message": {
+       "orig": "In your last trial you will face the \\c[3]guardian of this place\\c[0].",
+       "transl": "In deiner letzten Prüfung wirst du dich dem \\c[3]Wächter dieses Ortes stellen\\c[0]."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Speak to me if you wish to start this final test.",
+       "transl": "Sprich erneut mit mir, wenn du die letzte Prüfung zu beginnen wünschst."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Vagabond",
+       "transl": "Vagabond"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "That I would see the day a Seeker would best me in combat...",
+       "transl": "Dass ich den Tag erlebe, an dem ein Seeker mich im Kampf übertrifft..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "It was a good fight. One you can be proud of. ",
+       "transl": "Das war ein guter Kampf. Einer, auf den du stolz sein kannst."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "You have earned the Mark of Mastery and with it, the \\c[3]Meteor Shade\\c[0]!",
+       "transl": "Du hast wahre Meisterschaft erlangt und dir damit die \\c[3]Meteoritenform\\c[0] redlich verdient!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Now walk through the door behind me and speak to the ones that came before to receive your prize.",
+       "transl": "Nun schreite durch die Tür hinter mir und sprich mit dem Einen, der lange vor uns da war, um deine Belohnung zu empfangen."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "Noooooo!\\. It's instanced!\\. I don't want to do this alone!!",
+           "transl": "Neiiiiin!\\. Instanziert!\\. Ich will das nicht alleine machen!!<<A<<[CHANGED 2021/05/22]"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "Good luck with the final trial, Spheromancer Lea!",
+             "transl": "Viel Erfolg bei der letzten Prüfung, Spheromancer Lea!"
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "thenStep": [
+             {
+              "message": {
+               "orig": "Oh it's instanced. I guess we're on our own for the final trial.",
+               "transl": "Oh, instanziert. In der letzten Prüfung ist wohl jeder auf sich allein gestellt."
+              }
+             }
+            ],
+            "elseStep": [
+             {
+              "thenStep": [
+               {
+                "message": {
+                 "orig": "Huh. It's instanced. Good luck, Lea!",
+                 "transl": "Hm. Instanziert. Viel Glück, Lea!"
+                }
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,934 @@
+{
+ "actions": {
+  "NEUTRAL": {
+   "ATTACK_SPECIAL1_A": {
+    "name": {
+     "orig": "Spin Dance",
+     "transl": "Spin Dance"
+    },
+    "description": {
+     "orig": "A wide-ranged spinning move hitting many nearby enemies.",
+     "transl": "Eine weitreichende Drehattacke, die viele nahe Gegner trifft."
+    }
+   },
+   "ATTACK_SPECIAL1_B": {
+    "name": {
+     "orig": "Sphere Saw",
+     "transl": "Sphere Saw"
+    },
+    "description": {
+     "orig": "Catch your enemies in a spinning saw. Powerful attack with smaller range.",
+     "transl": "Bearbeite deine Feinde mit der Kreissäge. Starker Angriff mit geringer Reichweite."
+    }
+   },
+   "ATTACK_SPECIAL2_A": {
+    "name": {
+     "orig": "Spiral Dance",
+     "transl": "Spiral Dance"
+    },
+    "description": {
+     "orig": "A Spin Dance with more spins, hits, damage, and knockback.",
+     "transl": "Ein Spin Dance mit mehr Drehungen, Treffer, Schaden und Rückstoß."
+    }
+   },
+   "ATTACK_SPECIAL2_B": {
+    "name": {
+     "orig": "Sphere Storm",
+     "transl": "Sphere Storm"
+    },
+    "description": {
+     "orig": "Catch your enemies in a fierce air combo with massive damage.",
+     "transl": "Fange deine Feinde in einer tödlichen Luftkombo mit massivem Schaden."
+    }
+   },
+   "THROW_SPECIAL1_A": {
+    "name": {
+     "orig": "Ball of Steel",
+     "transl": "Ball of Steel"
+    },
+    "description": {
+     "orig": "Fire a powerful projectile that will fly through enemies.",
+     "transl": "Feuere ein mächtiges Geschoss, das durch deine Feinde hindurchfliegt."
+    }
+   },
+   "THROW_SPECIAL1_B": {
+    "name": {
+     "orig": "Bullet Rain",
+     "transl": "Bullet Rain"
+    },
+    "description": {
+     "orig": "Fire a mass of small shots in a narrow angle.",
+     "transl": "Feuere einen Hagel kleiner Geschosse in schmalem Winkel ab."
+    }
+   },
+   "THROW_SPECIAL2_A": {
+    "name": {
+     "orig": "Ball of Boomerang",
+     "transl": "Ball of Boomerang"
+    },
+    "description": {
+     "orig": "Fire a powerful projectile with wide range, flying through enemies and back to you.",
+     "transl": "Feuere ein mächtiges Geschoss mit großer Reichweite und Boomerang-Effekt."
+    }
+   },
+   "THROW_SPECIAL2_B": {
+    "name": {
+     "orig": "Bullet Inferno",
+     "transl": "Bullet Inferno"
+    },
+    "description": {
+     "orig": "Fire an even larger mass of homing shots at your target.",
+     "transl": "Feuere einen noch größeren Hagel zielsuchender Geschosse auf dein Ziel ab."
+    }
+   },
+   "DASH_SPECIAL1_A": {
+    "name": {
+     "orig": "Azure Strike",
+     "transl": "Azure Strike"
+    },
+    "description": {
+     "orig": "Dash right through your enemies, damaging everything in your way.",
+     "transl": "Fege mitten durch deine Feinde hindurch und schade dabei allen, die du triffst."
+    }
+   },
+   "DASH_SPECIAL1_B": {
+    "name": {
+     "orig": "First Cut",
+     "transl": "First Cut"
+    },
+    "description": {
+     "orig": "A very powerful attack that will hit exactly one enemy.",
+     "transl": "Ein sehr starker Angriff, der genau einen Gegner trifft."
+    }
+   },
+   "DASH_SPECIAL2_A": {
+    "name": {
+     "orig": "Azure Surge",
+     "transl": "Azure Surge"
+    },
+    "description": {
+     "orig": "Dash through your enemies and ignite delayed damage spreading through nearby targets.",
+     "transl": "Fege durch deine Feinde hindurch und verursache verzögerten Schaden bei nahen Gegnern."
+    }
+   },
+   "DASH_SPECIAL2_B": {
+    "name": {
+     "orig": "Final Showdown",
+     "transl": "Final Showdown"
+    },
+    "description": {
+     "orig": "An extremely powerful attack that will hit exactly one enemy. A lot.",
+     "transl": "Ein sehr starker Angriff, der genau einen Gegner trifft. Viele Male."
+    }
+   },
+   "GUARD_SPECIAL1_A": {
+    "name": {
+     "orig": "Proximity Blast",
+     "transl": "Proximity Blast"
+    },
+    "description": {
+     "orig": "Blast away all nearby enemies, freeing up space.",
+     "transl": "Schleudert alle nahen Gegner beiseite, um Platz zu schaffen."
+    }
+   },
+   "GUARD_SPECIAL1_B": {
+    "name": {
+     "orig": "Guard Sphere",
+     "transl": "Guard Sphere"
+    },
+    "description": {
+     "orig": "Creates a damage-reducing shield, lasting for a couple of seconds.",
+     "transl": "Beschwört einen Schild, der Schaden reduziert und ein paar Sekunden hält."
+    }
+   },
+   "GUARD_SPECIAL2_A": {
+    "name": {
+     "orig": "Vortex Blast",
+     "transl": "Vortex Blast"
+    },
+    "description": {
+     "orig": "Pull enemies towards you, only to blast them away with a fierce triple explosion.",
+     "transl": "Ziehe Gegner an dich ran, um sie mit einer 3-fachen Explosion von dir wegzuschleudern."
+    }
+   },
+   "GUARD_SPECIAL2_B": {
+    "name": {
+     "orig": "Blade Sphere",
+     "transl": "Blade Sphere"
+    },
+    "description": {
+     "orig": "Creates a damage-reducing shield that also damages nearby enemies for several seconds.",
+     "transl": "Beschwört einen Schild, der Schaden reduziert, länger hält und nahe Gegner verletzt."
+    }
+   }
+  },
+  "HEAT": {
+   "ATTACK_SPECIAL1_A": {
+    "name": {
+     "orig": "Fire Whirl",
+     "transl": "Fire Whirl"
+    },
+    "description": {
+     "orig": "Performs a fierce whirl attack, engulfing your enemies in flames.",
+     "transl": "Ein heftiger Wirbelangriff, der deine Feinde in Flammen verschlingt."
+    }
+   },
+   "ATTACK_SPECIAL1_B": {
+    "name": {
+     "orig": "Flame Jab",
+     "transl": "Flame Jab"
+    },
+    "description": {
+     "orig": "A blazing thrust of fire piercing through enemies in front of you.",
+     "transl": "Ein Feuerstoß, der deine Feinde vor dir durchbohrt."
+    }
+   },
+   "ATTACK_SPECIAL2_A": {
+    "name": {
+     "orig": "Calamity Trigger",
+     "transl": "Calamity Trigger"
+    },
+    "description": {
+     "orig": "Draw in enemies with blazing fire balls and finish them with a massive fire whirl.",
+     "transl": "Treibe Gegner mit Feuerbällen zusammen und erledige sie mit einem großen Flammenwirbel."
+    }
+   },
+   "ATTACK_SPECIAL2_B": {
+    "name": {
+     "orig": "Blazing Dragon",
+     "transl": "Blazing Dragon"
+    },
+    "description": {
+     "orig": "Lock in enemies with 2 powerful strikes followed by a flaming air combo.",
+     "transl": "Lähme deine Feinde mit zwei Feuerwellen und setze mit einer lodernden Luftkombo nach."
+    }
+   },
+   "ATTACK_SPECIAL3_A": {
+    "name": {
+     "orig": "Ragnarök",
+     "transl": "Ragnarök"
+    },
+    "description": {
+     "orig": "The end is here. Draw in Enemies, engulf them in an upwards fire whirl and end with blazing ground explosion.",
+     "transl": "Das Ende ist gekommen. Sauge deine Feinde in einen hohen Feuerstrudel und erledige sie mit einer lodernden Bodenexplosion."
+    }
+   },
+   "ATTACK_SPECIAL3_B": {
+    "name": {
+     "orig": "Vermillion Echo",
+     "transl": "Vermillion Echo"
+    },
+    "description": {
+     "orig": "Summon the spirit of the dragon and lock enemies in a fierce combo that ends with a fire tornado.",
+     "transl": "Beschwöre den Geist des Drachen und fange deine Gegner in einer wilden Kombo, die in einem Feuertornado endet."
+    }
+   },
+   "THROW_SPECIAL1_A": {
+    "name": {
+     "orig": "Burn!",
+     "transl": "Burn!"
+    },
+    "description": {
+     "orig": "A controllable blazing burst of fire that deals damage over a small area.",
+     "transl": "Ein kontrollierbarer lodernder Feuerstoß, der auf kleiner Fläche Schaden verursacht."
+    }
+   },
+   "THROW_SPECIAL2_A": {
+    "name": {
+     "orig": "Flare Burn!",
+     "transl": "Flare Burn!"
+    },
+    "description": {
+     "orig": "Jump into the air and fire a destructive laser along the direction you are facing.",
+     "transl": "Springe in die Luft und feuere einen zerstörerischen Laser in Blickrichtung."
+    }
+   },
+   "DASH_SPECIAL1_A": {
+    "name": {
+     "orig": "Crimson Strike",
+     "transl": "Crimson Strike"
+    },
+    "description": {
+     "orig": "Dash through your enemies while leaving a trail of fire.",
+     "transl": "Fege durch deine Feinde hindurch und hinterlasse eine Flammenspur."
+    }
+   },
+   "DASH_SPECIAL1_B": {
+    "name": {
+     "orig": "Ashen Mine",
+     "transl": "Ashen Mine"
+    },
+    "description": {
+     "orig": "Place a mine that explodes when enemies are nearby.",
+     "transl": "Platziere eine Mine, die explodiert, sobald ein Gegner in der Nähe ist."
+    }
+   },
+   "DASH_SPECIAL2_A": {
+    "name": {
+     "orig": "Crimson Stream",
+     "transl": "Crimson Stream"
+    },
+    "description": {
+     "orig": "Surround yourself with fire and dash a long way, leaving hot damaging magma on the ground.",
+     "transl": "Ummantele dich mit Feuer und presche weit vor, während du eine Magmaspur hinterlässt."
+    }
+   },
+   "DASH_SPECIAL2_B": {
+    "name": {
+     "orig": "Mine Valley",
+     "transl": "Mine Valley"
+    },
+    "description": {
+     "orig": "Dash and place multiple mines which can seek enemies when not touched.",
+     "transl": "Dashe und platziere mehrere Minen, die sich ihre Ziele suchen, wenn sie nicht berührt werden."
+    }
+   },
+   "DASH_SPECIAL3_A": {
+    "name": {
+     "orig": "Scarlet Rain",
+     "transl": "Scarlet Rain"
+    },
+    "description": {
+     "orig": "Mark enemies by dashing through them which will be bombarded by a blazing meteor shower.",
+     "transl": "Dashe durch deine Gegner und markiere sie, um sie von einem lodernden Meteoritenschauer bombardieren zu lassen."
+    }
+   },
+   "GUARD_SPECIAL1_A": {
+    "name": {
+     "orig": "Recoil Trumpet",
+     "transl": "Recoil Trumpet"
+    },
+    "description": {
+     "orig": "Perfect guard an attack and counter with a flaming explosion.",
+     "transl": "Pariere einen Angriff und kontere mit einer feurigen Explosion."
+    }
+   },
+   "GUARD_SPECIAL1_B": {
+    "name": {
+     "orig": "Ring of Fire",
+     "transl": "Ring of Fire"
+    },
+    "description": {
+     "orig": "Creates a ring of fire around you, dealing damage to enemies walking into it.",
+     "transl": "Beschwört einen Feuerring um dich herum, der durchlaufenden Gegnern schadet."
+    }
+   },
+   "GUARD_SPECIAL2_A": {
+    "name": {
+     "orig": "Kindling Fanfare",
+     "transl": "Kindling Fanfare"
+    },
+    "description": {
+     "orig": "Perfect guard an attack, jump into the air and counter with a fiery laser beam.",
+     "transl": "Pariere einen Angriff, springe in die Luft und kontere mit einem glühenden Laserstrahl."
+    }
+   },
+   "GUARD_SPECIAL2_B": {
+    "name": {
+     "orig": "Burning Pulse",
+     "transl": "Burning Pulse"
+    },
+    "description": {
+     "orig": "Create a long lasting fire circle that erupts in flaming outbursts several times.",
+     "transl": "Beschwöre einen lang anhaltenden Feuerkreis, der in starken Eruptionen Feuer ausspeit."
+    }
+   },
+   "GUARD_SPECIAL3_A": {
+    "name": {
+     "orig": "Ignite Embers",
+     "transl": "Ignite Embers"
+    },
+    "description": {
+     "orig": "Perfect guard an attack, lock enemies in an upwards combo and finish with a hellish downwards laser.",
+     "transl": "Pariere einen Angriff, fange deine Gegner in einer Aufwärtskombo und laser sie dann brutal zu Grunde."
+    }
+   },
+   "GUARD_SPECIAL3_B": {
+    "name": {
+     "orig": "Ancient Sun",
+     "transl": "Ancient Sun"
+    },
+    "description": {
+     "orig": "Conjure forth the power of the Sun and immolate yourself in fire making melee attacks burst out in flame for short while. ",
+     "transl": "Beschwöre die Macht der Sonne und hülle dich in Feuer, um für kurze Zeit mit Flammen zu attackieren."
+    }
+   }
+  },
+  "COLD": {
+   "ATTACK_SPECIAL1_A": {
+    "name": {
+     "orig": "Frozen Star",
+     "transl": "Frozen Star"
+    },
+    "description": {
+     "orig": "Long startup time for massive damage.",
+     "transl": "Lange Aufladephase für massiven Schaden."
+    }
+   },
+   "ATTACK_SPECIAL1_B": {
+    "name": {
+     "orig": "Ice Twirl",
+     "transl": "Ice Twirl"
+    },
+    "description": {
+     "orig": "Performs a stationary ice whirl attack with wide range and strong knockback.",
+     "transl": "Ein stehender Eiswirbelschlag mit großer Reichweite und starkem Rückstoß."
+    }
+   },
+   "ATTACK_SPECIAL2_A": {
+    "name": {
+     "orig": "Blizzard Hawk",
+     "transl": "Blizzard Hawk"
+    },
+    "description": {
+     "orig": "Take a stand and do massive damage with 3 frozen stars.",
+     "transl": "Beschwöre eine 3-Hit Eiskristallkombo für massiven Schaden."
+    }
+   },
+   "ATTACK_SPECIAL2_B": {
+    "name": {
+     "orig": "Ice Tornado",
+     "transl": "Ice Tornado"
+    },
+    "description": {
+     "orig": "Extend the Ice Twirl by sucking in enemies with multiple hits and then ejecting them.",
+     "transl": "Sauge Gegner mit mehreren Treffern ein und schleudere sie weg."
+    }
+   },
+   "ATTACK_SPECIAL3_A": {
+    "name": {
+     "orig": "Eternal Winter",
+     "transl": "Eternal Winter"
+    },
+    "description": {
+     "orig": "Take a stand and conjure a massive frozen ice spear from the ground that impales your enemies.",
+     "transl": "Beschwöre einen gewaltigen Eisspeer, der deine Feinde pfählt."
+    }
+   },
+   "ATTACK_SPECIAL3_B": {
+    "name": {
+     "orig": "Polar Pirouette",
+     "transl": "Polar Pirouette"
+    },
+    "description": {
+     "orig": "Begin a dance of multiple huge ice whirl attacks and lock enemies in and end it all with a massive pirouette that blast enemies away.",
+     "transl": "Beginne mit einem Eiswirbeltanz, der die Gegner lähmt und sie in einer gewaltigen Pirouette wegschleudert."
+    }
+   },
+   "THROW_SPECIAL1_A": {
+    "name": {
+     "orig": "Hail Flurry",
+     "transl": "Hail Flurry"
+    },
+    "description": {
+     "orig": "Quickly shoots a mass of icy spikes.",
+     "transl": "Feuere eine schnelle Eisspeer-Salve."
+    }
+   },
+   "THROW_SPECIAL1_B": {
+    "name": {
+     "orig": "Snow Flawke",
+     "transl": "Snow Flawke"
+    },
+    "description": {
+     "orig": "Hit enemies with a big snow explosion, caging them within icicles.",
+     "transl": "Triff deine Feinde mit einer wuchtigen Schnee-Explosion, die sie in Eiskristalle fängt."
+    }
+   },
+   "THROW_SPECIAL2_A": {
+    "name": {
+     "orig": "Hail Storm",
+     "transl": "Hail Storm"
+    },
+    "description": {
+     "orig": "Shoot an icicle that bounces off of walls 2 times, creating homing mini icicles.",
+     "transl": "Feuere einen Eiskristall, der zwei Mal von Wänden abprallt und sich in zielsuchende Kristalle aufteilt."
+    }
+   },
+   "THROW_SPECIAL2_B": {
+    "name": {
+     "orig": "Frigid Flawke",
+     "transl": "Frigid Flawke"
+    },
+    "description": {
+     "orig": "Shoot a large snow ball, leaving an icicle trail and caging enemies with multiple icicles.",
+     "transl": "Feuere einen Riesenschneeball, der deine Feinde in Eiskristalle fängt."
+    }
+   },
+   "THROW_SPECIAL3_A": {
+    "name": {
+     "orig": "Gatling Arctillery",
+     "transl": "Gatling Arctillery"
+    },
+    "description": {
+     "orig": "Summon an Ice Turret with spikes around you and blast your enemies away with a volley of icicles.",
+     "transl": "Beschwöre ein eisgepanzertes Geschütz und puste deine Feinde mit einer Salve Eiszapfen weg."
+    }
+   },
+   "DASH_SPECIAL1_A": {
+    "name": {
+     "orig": "Indigo Strike",
+     "transl": "Indigo Strike"
+    },
+    "description": {
+     "orig": "Dash with high speed, leaving a trail of icicles behind you, damaging enemies on contact.",
+     "transl": "Ein schneller Dash, der Eiskristalle hinterlässt, die Gegner bei Kontakt verwunden."
+    }
+   },
+   "DASH_SPECIAL2_A": {
+    "name": {
+     "orig": "Indigo Rush",
+     "transl": "Indigo Rush"
+    },
+    "description": {
+     "orig": "Dash a long distance, leaving icicles which create multiple additional icicle trails.",
+     "transl": "Ein langer Dash, der Eiskristalle hinterlässt, die noch mehr Eiskristalle erzeugen."
+    }
+   },
+   "GUARD_SPECIAL1_A": {
+    "name": {
+     "orig": "Frozen Stance",
+     "transl": "Frozen Stance"
+    },
+    "description": {
+     "orig": "Perfect guard an attack and counter with a cold strike, slowing down your enemy.",
+     "transl": "Pariere einen Angriff und kontere mit einem Frostschlag, der den Gegner verlangsamt."
+    }
+   },
+   "GUARD_SPECIAL1_B": {
+    "name": {
+     "orig": "Brisk Barrier",
+     "transl": "Brisk Barrier"
+    },
+    "description": {
+     "orig": "Blast enemies away and spawn several icicles in front of you, blocking projectiles and damaging enemies on contact.",
+     "transl": "Stoße Gegner weg und verbarrikadiere dich hinter Eiskristallen, die Projektile blocken und Gegner bei Kontakt verwunden."
+    }
+   },
+   "GUARD_SPECIAL2_A": {
+    "name": {
+     "orig": "Freeze Frame",
+     "transl": "Freeze Frame"
+    },
+    "description": {
+     "orig": "Perfect guard an attack and completely freeze the enemy, leaving it open for more attacks.",
+     "transl": "Pariere einen Angriff und friere den Gegner komplett ein, um weitere Angriffe zu landen."
+    }
+   },
+   "GUARD_SPECIAL2_B": {
+    "name": {
+     "orig": "Icy Bastion",
+     "transl": "Icy Bastion"
+    },
+    "description": {
+     "orig": "Spawn multiple icicles around you and envelop yourself in a protective but slowing shield.",
+     "transl": "Beschwöre einige Eiskristalle und hülle dich in einen schützenden, doch verlangsamenden Schild."
+    }
+   },
+   "GUARD_SPECIAL3_A": {
+    "name": {
+     "orig": "Crystal Keeper",
+     "transl": "Crystal Keeper"
+    },
+    "description": {
+     "orig": "Perfect guard an attack, initiate a quick combo and completely freeze all enemies in front of you.",
+     "transl": "Pariere einen Angriff, kontere mit einer schnellen Kombo und friere alle Gegner vor dir ein."
+    }
+   },
+   "GUARD_SPECIAL3_B": {
+    "name": {
+     "orig": "Fimbulvetr",
+     "transl": "Fimbulvetr"
+    },
+    "description": {
+     "orig": "Winter is here. Summon multiple huge icicles around you and envelop yourself in a powerful protective shield.",
+     "transl": "Der Winter ist hier. Beschwöre viele mächtige Eiskristalle und hülle dich in einen mächtigen Schild."
+    }
+   }
+  },
+  "SHOCK": {
+   "ATTACK_SPECIAL1_A": {
+    "name": {
+     "orig": "Tesla Twist",
+     "transl": "Tesla Twist"
+    },
+    "description": {
+     "orig": "Attack with a series of multiple fast spin attacks within a small radius.",
+     "transl": "Greife mit einer Reihe schneller Wirbelattacken mit kleinem Radius an."
+    }
+   },
+   "ATTACK_SPECIAL1_B": {
+    "name": {
+     "orig": "Plasma Spike",
+     "transl": "Plasma Spike"
+    },
+    "description": {
+     "orig": "Hit a single enemy into the air following up with a lightning strike.",
+     "transl": "Schlage einen einzelnen Gegner in die Luft und triff ihn mit einem Blitzschlag."
+    }
+   },
+   "ATTACK_SPECIAL2_A": {
+    "name": {
+     "orig": "Tesla Waltz",
+     "transl": "Tesla Waltz"
+    },
+    "description": {
+     "orig": "Perform a volley of controllable spin attacks while drawing in enemies and finish off with a powerful whirl.",
+     "transl": "Wirble deine Feinde kontrolliert in einen Sog, um sie mit einem mächtigen Rundumschlag zu erledigen."
+    }
+   },
+   "ATTACK_SPECIAL2_B": {
+    "name": {
+     "orig": "Battery Assault",
+     "transl": "Battery Assault"
+    },
+    "description": {
+     "orig": "Lock a single enemy into a fast ground combo followed by multiple hit in the air and a strong lightning finisher.",
+     "transl": "Bearbeite den Feind mit einer Multi-Hit-Kombo am Boden und in der Luft und strecke ihn mit einem Blitz nieder."
+    }
+   },
+   "ATTACK_SPECIAL3_A": {
+    "name": {
+     "orig": "Song of Storms",
+     "transl": "Song of Storms"
+    },
+    "description": {
+     "orig": "Lock a single enemy into a hyper speed combo that creates a doppelganger and finishes with a faster-than-light attack chain.",
+     "transl": "Bearbeite den Feind mit einer blitzschnellen Kombo, die einen Doppelgänger von dir erzeugt und mit einer Blitzkettenkombo endet."
+    }
+   },
+   "THROW_SPECIAL1_A": {
+    "name": {
+     "orig": "Diving Spark",
+     "transl": "Diving Spark"
+    },
+    "description": {
+     "orig": "Throw a projectile that creates a delayed lightning bolt damaging everything around it.",
+     "transl": "Feuere ein Projektil, das einen verzögerten Blitz auf Feind und Umgebung krachen lässt."
+    }
+   },
+   "THROW_SPECIAL1_B": {
+    "name": {
+     "orig": "Homing Wisp",
+     "transl": "Homing Wisp"
+    },
+    "description": {
+     "orig": "Shoot an array of small homing projectiles.",
+     "transl": "Feuere eine Salve zielsuchender Projektile."
+    }
+   },
+   "THROW_SPECIAL2_A": {
+    "name": {
+     "orig": "Chain Blitz",
+     "transl": "Chain Blitz"
+    },
+    "description": {
+     "orig": "Fire a projectile that creates a chain along up to 4 enemies which will get hit by a lightning bolt.",
+     "transl": "Feuere ein Projektil, das bis zu vier Gegner verkettet, die dann von einem Blitz getroffen werden."
+    }
+   },
+   "THROW_SPECIAL2_B": {
+    "name": {
+     "orig": "Radiant Swarm",
+     "transl": "Radiant Swarm"
+    },
+    "description": {
+     "orig": "Throw a shock ball that will bounce off an enemy and create a sphere that emits multiple homing projectiles. ",
+     "transl": "Feuere einen Schockball, der von einem Gegner abprallt und eine Kugel erzeugt, die zielsuchende Projektile emittiert."
+    }
+   },
+   "THROW_SPECIAL3_A": {
+    "name": {
+     "orig": "Mjölnir",
+     "transl": "Mjölnir"
+    },
+    "description": {
+     "orig": "It's hammer time. Throw a ball that chains multiple enemies together and evaporates them with a massive lightning bolt.",
+     "transl": "Hol den Hammer raus! Feuere ein Projektil, das mehrere Gegner verkettet und sie dann mit einem gigantsichen Blitz vaporisiert."
+    }
+   },
+   "THROW_SPECIAL3_B": {
+    "name": {
+     "orig": "Celestial Legion",
+     "transl": "Celestial Legion"
+    },
+    "description": {
+     "orig": "Call upon the help of the gods and summon 3 spheres that spam an enemy with bullets and finish it off with a lightning explosion. ",
+     "transl": "Rufe die Götter zu Hilfe und beschwöre drei Kugeln, die den Feind mit einem Kugelhagel und einer Blitz-Explosion malträtieren."
+    }
+   },
+   "DASH_SPECIAL1_A": {
+    "name": {
+     "orig": "Amber Strike",
+     "transl": "Amber Strike"
+    },
+    "description": {
+     "orig": "Perform a fast dash that attacks one enemy multiple times on contact.",
+     "transl": "Ein schneller Dash, der einen Gegner bei Kontakt mehrfach trifft."
+    }
+   },
+   "DASH_SPECIAL1_B": {
+    "name": {
+     "orig": "Thunder Dart",
+     "transl": "Thunder Dart"
+    },
+    "description": {
+     "orig": "Dash through enemies leaving a shocking trail of lightning.",
+     "transl": "Ein Dash, der eine schockende Blitzspur hinterlässt."
+    }
+   },
+   "DASH_SPECIAL2_A": {
+    "name": {
+     "orig": "Amber Breaker",
+     "transl": "Amber Breaker"
+    },
+    "description": {
+     "orig": "Dash through a single enemy multiple times at the speed of light and finish with a strong punch.",
+     "transl": "Dashe mit Lichtgeschwindigkeit mehrmals durch den Feind und erledige ihn mit einem kräftigen Schlag."
+    }
+   },
+   "DASH_SPECIAL2_B": {
+    "name": {
+     "orig": "Storm Walker",
+     "transl": "Storm Walker"
+    },
+    "description": {
+     "orig": "Lightning returns with a controllable chain attack of 3 dashes which hit all enemies on the path.",
+     "transl": "Steuere drei aufeinander folgende Blitz-Dashes, die alle Gegner dazwischen treffen."
+    }
+   },
+   "DASH_SPECIAL3_A": {
+    "name": {
+     "orig": "Flickering Stars",
+     "transl": "Flickering Stars"
+    },
+    "description": {
+     "orig": "Stop time and pummel an enemy with an uncontrollable series of attacks, finishing off with a diving spark and balls.",
+     "transl": "Halte die Zeit an und hämmere auf den Feind mit einer Reihe Attacken ein, die mit einem heftigen Blitztritt und kleinen Blitzkugeln enden."
+    }
+   },
+   "DASH_SPECIAL3_B": {
+    "name": {
+     "orig": "Lightning Prophecy",
+     "transl": "Lightning Prophecy"
+    },
+    "description": {
+     "orig": "Create an start and end point and dash between it multiple times automatically attacking everything in between.",
+     "transl": "Schaffe einen Start- und Endpunkt, dashe mehrere Male blitzschnell hin und her und greife alles an, was sich dazwischen befindet."
+    }
+   },
+   "GUARD_SPECIAL1_A": {
+    "name": {
+     "orig": "Clock Block",
+     "transl": "Clock Block"
+    },
+    "description": {
+     "orig": "Block one attack and slow down time for everything but yourself.",
+     "transl": "Blocke einen Angriff und verlangsame die Zeit für alle außer dich selbst."
+    }
+   },
+   "GUARD_SPECIAL2_A": {
+    "name": {
+     "orig": "Glitch Time",
+     "transl": "Glitch Time"
+    },
+    "description": {
+     "orig": "Block one attack and stop time for everything but yourself.",
+     "transl": "Blocke einen Angriff und stoppe die Zeit für alle außer dich selbst."
+    }
+   }
+  },
+  "WAVE": {
+   "ATTACK_SPECIAL1_A": {
+    "name": {
+     "orig": "Ki Thrust",
+     "transl": "Ki Thrust"
+    },
+    "description": {
+     "orig": "Frontal attack with high damage, sending all hit enemies flying.",
+     "transl": "Starker Frontalangriff, der alle getroffenen Feinde weit wegstößt."
+    }
+   },
+   "ATTACK_SPECIAL2_A": {
+    "name": {
+     "orig": "Spirit Blast",
+     "transl": "Spirit Blast"
+    },
+    "description": {
+     "orig": "Draws enemies to the front of the player and then blasts them away with a powerful attack.",
+     "transl": "Ziehe deine Feinde an dich heran, um sie mit einer mächtigen Druckwelle wegzustoßen."
+    }
+   },
+   "THROW_SPECIAL1_A": {
+    "name": {
+     "orig": "Fae Round",
+     "transl": "Fae Round"
+    },
+    "description": {
+     "orig": "Shoots a super fast projectile penetrating a line of enemies.",
+     "transl": "Feuere ein extrem schnelles Projektil, welches alle Ziele auf einer Linie durchschlägt."
+    }
+   },
+   "THROW_SPECIAL1_B": {
+    "name": {
+     "orig": "Essence Drain",
+     "transl": "Essence Drain"
+    },
+    "description": {
+     "orig": "Hit enemies with a swarm of projectiles absorbing its HP.",
+     "transl": "Greife Gegner mit einem Schwarm Projektile an und absorbiere ihre HP."
+    }
+   },
+   "THROW_SPECIAL2_A": {
+    "name": {
+     "orig": "Elven Orb",
+     "transl": "Elven Orb"
+    },
+    "description": {
+     "orig": "Shoots a super fast projectile that bounces between the player and a wall for several times and penetrates everything in between.",
+     "transl": "Feuere ein extrem schnelles Projektil, das zwischen dir und der Wand merhmals hin- und herrast und alles dazwischen durchschlägt."
+    }
+   },
+   "THROW_SPECIAL2_B": {
+    "name": {
+     "orig": "Vital Pulse",
+     "transl": "Vital Pulse"
+    },
+    "description": {
+     "orig": "Hit an enemy with a swarm of projectiles, absorbing its HP before blasting it away with a final attack.",
+     "transl": "Triff den Feind mit einem Schwarm Projekile, die zunächst seine Lebenskraft absaugen und ihm dann mit einem finalen Stoß den Rest geben."
+    }
+   },
+   "THROW_SPECIAL3_A": {
+    "name": {
+     "orig": "Ether Snipe",
+     "transl": "Ether Snipe"
+    },
+    "description": {
+     "orig": "Charge up a sniping attack that can bounce 3 times until it hits an enemy. Each bounce increases the strength of the attack.",
+     "transl": "Feuere ein geladenes Wellegeschoss, das drei Mal abprallen kann, bevor es einen Gegner trifft. Jedes Abprallen erhöht die Stärke der Attacke."
+    }
+   },
+   "THROW_SPECIAL3_B": {
+    "name": {
+     "orig": "Wave Motion Beam",
+     "transl": "Wave Motion Beam"
+    },
+    "description": {
+     "orig": "Siphon HP from the enemies and trade it for a huge controllable wave beam that drains your HP.",
+     "transl": "Sauge den Gegnern HP ab und transformiere sie in einen kontrollierbaren Welle-Strahl, der auch deine HP verbraucht."
+    }
+   },
+   "GUARD_SPECIAL1_A": {
+    "name": {
+     "orig": "Guarding Gale",
+     "transl": "Guarding Gale"
+    },
+    "description": {
+     "orig": "Spawns aura that pushes away nearby enemies for several seconds.",
+     "transl": "Aktiviere eine Aura, die nahe Gegner für einige Sekunden wegstößt."
+    }
+   },
+   "GUARD_SPECIAL1_B": {
+    "name": {
+     "orig": "Pain Grip",
+     "transl": "Pain Grip"
+    },
+    "description": {
+     "orig": "Block one attack and regenerate part of the blocked damage.",
+     "transl": "Blocke einen Angriff und regeneriere einen Teil des geblockten Schadens."
+    }
+   },
+   "GUARD_SPECIAL2_A": {
+    "name": {
+     "orig": "Poltergeist",
+     "transl": "Poltergeist"
+    },
+    "description": {
+     "orig": "Spawns aura that pushes away nearby enemies and throws projectiles for several seconds.",
+     "transl": "Aktiviere eine Aura, die nahe Gegner wegstößt und für ein paar Sekunden Projektile auf sie feuert."
+    }
+   },
+   "GUARD_SPECIAL2_B": {
+    "name": {
+     "orig": "Circle of Valor",
+     "transl": "Circle of Valor"
+    },
+    "description": {
+     "orig": "Block all attacks for a few seconds and regenerate part of the blocked damage.",
+     "transl": "Blocke alle Angriffe für ein paar Sekunden und regeneriere einen Teil des geblockten Schadens."
+    }
+   },
+   "GUARD_SPECIAL3_A": {
+    "name": {
+     "orig": "Karma Scale",
+     "transl": "Karma Scale"
+    },
+    "description": {
+     "orig": "Enter critical mode but become invincible. Absorb any enemy attacks for a short time. The more absorbed, the larger the ending explosion and the more HP healed.",
+     "transl": "Werde unverwundbar im kritischen Modus. Absorbiere jegliche Angriffe für kurze Zeit. Je mehr absorbiert wurde, desto länger die finale Explosion und desto mehr HP werden geheilt."
+    }
+   },
+   "DASH_SPECIAL1_A": {
+    "name": {
+     "orig": "Verdant Strike",
+     "transl": "Verdant Strike"
+    },
+    "description": {
+     "orig": "Dash with high speed, damaging and stunning enemies along the way.",
+     "transl": "Sehr schneller Dash, der alle getroffenen Gegner schadet und lähmt."
+    }
+   },
+   "DASH_SPECIAL1_B": {
+    "name": {
+     "orig": "Warp Decoy",
+     "transl": "Warp Decoy"
+    },
+    "description": {
+     "orig": "Dash away and leave behind a decoy, distracting your foes.",
+     "transl": "Dashe dich in Sicherheit und hinterlasse einen Lockvogel, der deine Feinde ablenkt."
+    }
+   },
+   "DASH_SPECIAL2_A": {
+    "name": {
+     "orig": "Verdant Stream",
+     "transl": "Verdant Stream"
+    },
+    "description": {
+     "orig": "Dash through enemies at high speed and draw them into your trail behind you before causing a powerful explosion.",
+     "transl": "Dashe extrem schnell durch deine Feinde und ziehe sie in deine Spur für eine heftige Explosion."
+    }
+   },
+   "DASH_SPECIAL2_B": {
+    "name": {
+     "orig": "Toxic Revenant",
+     "transl": "Toxic Revenant"
+    },
+    "description": {
+     "orig": "Dash away and leave behind a deadly decoy that distracts and damages your foes.",
+     "transl": "Dashe dich in Sicherheit und hinterlasse einen Lockvogel, der deine Feinde ablenkt und ihnen Schaden zufügt."
+    }
+   },
+   "DASH_SPECIAL3_A": {
+    "name": {
+     "orig": "Vortex Tide",
+     "transl": "Vortex Tide"
+    },
+    "description": {
+     "orig": "Charge up by creating a Vortex behind you and blast off leaving behind a huge wave explosion.",
+     "transl": "Lade dich durch einen gewaltigen Vortex hinter dir auf, stürme los und hinterlasse eine heftige Welle-Explosion."
+    }
+   },
+   "DASH_SPECIAL3_B": {
+    "name": {
+     "orig": "Gungnir",
+     "transl": "Gungnir"
+    },
+    "description": {
+     "orig": "Dash through and create 4 decoys that pummel an enemy multiple times ending with a combined wave attack.",
+     "transl": "Erschaffe vier Lockvögel durch einen Dash, die einen Gegner mehrmals angreifen und ihm mit einer kombinierten Welle-Attacke erledigen."
+    }
+   }
+  }
+ }
+}

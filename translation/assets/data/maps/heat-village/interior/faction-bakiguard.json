@@ -1,0 +1,1256 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Guard",
+      "transl": "Wache"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Receptionist",
+      "transl": "Rezeptionist"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Receptionist",
+         "transl": "Rezeptionist"
+        }
+       },
+       {
+        "message": {
+         "orig": "Move along, nothing to see here.",
+         "transl": "Geh weiter, hier gibt es nichts zu sehen."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Sgt. Niellos",
+      "transl": "Hptm. Niellos"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Sgt. Niellos",
+         "transl": "Hptm. Niellos"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker]!\\. Take a seat and listen to the latest town gossip.",
+         "transl": "Hallo, Seeker! Nimm Platz und lausche dem neuesten Stadtklatsch."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Sgt. Niellos",
+          "transl": "Hptm. Niellos"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah, a \\v[lore.title.seeker]!\\. Always nice to see fresh faces in this dusty ol' town.",
+          "transl": "Ah, ein Seeker!\\. Immer wieder schön, ein frisches Gesicht in dieser alten staubigen Stadt zu sehen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Come, join this old man and his array of local blabbermouths.",
+          "transl": "Komm, leiste einem alten Mann und seinen liebsten Plappermäulern Gesellschaft."
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Natzo'gra",
+          "transl": "Natzo'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "A \\v[lore.title.seeker], hurray!",
+          "transl": "Ein Seeker, hurra!"
+         }
+        },
+        {
+         "name": {
+          "orig": "Sue'zie",
+          "transl": "Sue'zie"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yay, \\v[lore.title.seeker]!\\. Welcome!",
+          "transl": "Juhu, ein Seeker!\\. Willkommen!!"
+         }
+        },
+        {
+         "name": {
+          "orig": "Hiez'gra",
+          "transl": "Hiez'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Greetings.",
+          "transl": "Hallo."
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!\\.\\. Hi!\\.\\. Hi!",
+          "transl": "Hi!\\.\\. Hi!\\.\\. Hi!"
+         }
+        },
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Sgt. Niellos",
+          "transl": "Hptm. Niellos"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Ba'kii Kum might be small, but it is a good place.\\. Full of harmony and peaceful coexistence.",
+          "transl": "Ba'kii Kum ist vielleicht klein, aber ein guter Ort.\\. Voller Harmonie und friedlichem Miteinander."
+         }
+        },
+        {
+         "name": {
+          "orig": "Hiez'gra",
+          "transl": "Hiez'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Old human forgetting much theft happen on our markets.\\. Very disrespect.",
+          "transl": "Alter Mann vergessen wohl viele Diebstahl auf unsere Markt.\\. Respektlos sehr."
+         }
+        },
+        {
+         "name": {
+          "orig": "Sue'zie",
+          "transl": "Sue'zie"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yes, yes.\\. Such mean!",
+          "transl": "Ja, ja.\\. Gemein sehr!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Ah, of course.\\. Some silly hotheads still can't seem to appreciate the merits of our cooperation.",
+          "transl": "Ah, natürlich.\\. Ein paar Hitzköpfe scheinen die Vorteile unserer Kooperation noch nicht zu erkennen."
+         }
+        },
+        {
+         "message": {
+          "orig": "And my guards, they always see nothing.\\. It hurts to think of them as unreliable, when they should inspire trust.",
+          "transl": "Und nie sehen meine Wachen etwas.\\. Es tut schon weh, wenn ich daran denke, dass sie so unzuverlässig sind, wo sie doch Vertrauen schaffen sollten."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "name": {
+          "orig": "Natzo'gra",
+          "transl": "Natzo'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "But grey human!\\. Here is \\v[lore.title.seeker], to deliver great justice!\\. She could help!",
+          "transl": "Aber grauer Mensch!\\. Hier ist Seeker, Gerechtigkeit kann bringen!\\. Sie helfen könnte!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Mh, indeed.\\. She could.\\. But remember, they are very busy folk!",
+          "transl": "Mhm, in der Tat.\\. Sie könnte.\\. Aber bedenke, dass sie vielbeschäftigte Menschen sind."
+         }
+        },
+        {
+         "message": {
+          "orig": "So, \\v[lore.title.seeker]... could you spare some time on helping our Shad friends?",
+          "transl": "Also, Seeker... Könntest du etwas von deiner Zeit opfern, um unseren Freunden, den Shad, zu helfen?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          null,
+          {
+           "name": {
+            "orig": "Natzo'gra",
+            "transl": "Natzo'gra"
+           }
+          },
+          {
+           "message": {
+            "orig": "Hurray!",
+            "transl": "Hurra!"
+           }
+          },
+          {
+           "name": {
+            "orig": "Sue'zie",
+            "transl": "Sue'zie"
+           }
+          },
+          {
+           "message": {
+            "orig": "Yaaaay!",
+            "transl": "Juhuuuuu!"
+           }
+          },
+          {
+           "name": {
+            "orig": "Hiez'gra",
+            "transl": "Hiez'gra"
+           }
+          },
+          {
+           "message": {
+            "orig": "Thanks.",
+            "transl": "Danke."
+           }
+          },
+          null,
+          null,
+          null,
+          {
+           "name": {
+            "orig": "Sgt. Niellos",
+            "transl": "Hptm. Niellos"
+           }
+          },
+          {
+           "message": {
+            "orig": "Ah, young folks being so helpful, it warms this old heart.",
+            "transl": "Ah, die Jugend von heute. So hilfsbereit, das wärmt eines alten Mannes Herz."
+           }
+          },
+          {
+           "message": {
+            "orig": "The crimes against shadkind usually happen at the bazaar in the town-center.",
+            "transl": "Die Verbrechen gegen die Shadheit werden in der Regel auf dem Bazar in der Stadtmitte verübt."
+           }
+          },
+          {
+           "message": {
+            "orig": "You should talk to some of the residents and guards.\\. They might tell you in detail what happened recently.",
+            "transl": "Du solltest dort mit einigen Bürgern und Wachen reden.\\. Vielleicht können sie dir im Detail sagen, was genau passiert ist."
+           }
+          },
+          {
+           "message": {
+            "orig": "Best start with Billston, the Chief Guard on the current shift. He should be at the center of the bazaar.",
+            "transl": "Am besten fängst du mit Billston an, dem Wachtmeister der jetzigen Schicht. Er sollte im Zentrum des Bazars sein."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye.",
+            "transl": "Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          null,
+          {
+           "name": {
+            "orig": "Natzo'gra",
+            "transl": "Natzo'gra"
+           }
+          },
+          {
+           "message": {
+            "orig": "Oh no!",
+            "transl": "Oh nein!"
+           }
+          },
+          {
+           "name": {
+            "orig": "Sue'zie",
+            "transl": "Sue'zie"
+           }
+          },
+          {
+           "message": {
+            "orig": "Awwww...",
+            "transl": "Oohhhhh..."
+           }
+          },
+          {
+           "name": {
+            "orig": "Hiez'gra",
+            "transl": "Hiez'gra"
+           }
+          },
+          {
+           "message": {
+            "orig": "Mhmpf.",
+            "transl": "Mhmpf."
+           }
+          },
+          null,
+          null,
+          null,
+          {
+           "name": {
+            "orig": "Sgt. Niellos",
+            "transl": "Hptm. Niellos"
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          },
+          {
+           "message": {
+            "orig": "Ah, that is a shame.\\. You might indeed have bigger fish to fry.",
+            "transl": "Ah, das ist schade.\\. Aber du hast vermutlich schon einen größeren Fisch an der Angel."
+           }
+          },
+          {
+           "message": {
+            "orig": "But we will still be here, whenever you change your mind.",
+            "transl": "Wir werden jedoch hier bleiben, falls du deine Meinung zu ändern gedenkst."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Sgt. Niellos",
+         "transl": "Hptm. Niellos"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Go to the center of town and talk to citizens and guards.\\. They might tell you what is going on.",
+         "transl": "Gehe zum Stadtzentrum und rede mit den Bewohnern und Wachen.\\. Sie wissen vermutlich mehr."
+        }
+       },
+       {
+        "message": {
+         "orig": "Best start with Billston, the Chief Guard of the current shift. He should be at the center of the bazaar.",
+         "transl": "Am besten fängst du mit Billston an, dem Wachtmeister der jetzigen Schicht. Er sollte im Zentrum des Bazars sein."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Sgt. Niellos",
+          "transl": "Hptm. Niellos"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], welcome back!\\. We just had a troubled young man confess his crime.",
+          "transl": "Seeker, willkommen zurück!\\. Hier kam gerade ein aufgewühlter junger Mann vorbei, um seine Verbrechen zu gestehen."
+         }
+        },
+        {
+         "message": {
+          "orig": "He certainly did bad things, but he came clean, so I don't think we need to punish him too much.",
+          "transl": "Er hat sicherlich schlechte Dinge getan, aber er hat gestanden, also denke ich nicht, dass wir ihn hart bestrafen müssen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "The other things he said though... it makes me sad that a bad egg like Billston was just among us.",
+          "transl": "Aber die anderen Dinge, die er sagte... Es macht mich traurig, dass so ein fauler Apfel wie Billston sich direkt in unserer Mitte befand. "
+         }
+        },
+        {
+         "message": {
+          "orig": "...Lea...",
+          "transl": "... Lea..."
+         }
+        },
+        {
+         "message": {
+          "orig": "I should have been more vigilant.\\. Maybe this old man has become too soft with age.",
+          "transl": "Ich hätte aufmerksamer sein sollen.\\. Vielleicht bin ich alter Mann mit dem Alter zu weich geworden."
+         }
+        },
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Sue'zie",
+          "transl": "Sue'zie"
+         }
+        },
+        {
+         "message": {
+          "orig": "Aw, no!\\. Old human is bestest of protector!",
+          "transl": "Ach, nein!\\. Alter Mensch ist der besteste Beschützerling!"
+         }
+        },
+        null,
+        {
+         "name": {
+          "orig": "Natzo'gra",
+          "transl": "Natzo'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yes!\\. Preserving great peace for shad and humans!",
+          "transl": "Ja!\\. Frieden wahren für Shad und Menschen!"
+         }
+        },
+        null,
+        {
+         "name": {
+          "orig": "Hiez'gra",
+          "transl": "Hiez'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "True.\\.\\. Mistake happen.\\.\\. That life.",
+          "transl": "Stimmt.\\.\\. Fehler passiert.\\.\\. Das ist Leben."
+         }
+        },
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Sgt. Niellos",
+          "transl": "Hptm. Niellos"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Shucks, you are too kind with this rusty soldier.\\. But it is true, we should just look forward!",
+          "transl": "Ach, ihr seid zu gnädig mit diesem eingerosteten Soldaten.\\. Aber es stimmt, wir sollten nach vorne blicken!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Thank you for your help, \\v[lore.title.seeker].\\. Billston is still at large but his crimes should stop for now.",
+          "transl": "Danke für deine Hilfe, Seeker.\\. Billston ist zwar noch auf freiem Fuß, aber hier kann er keinen Schaden mehr anrichten."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "I hope we can count on your help again, in case more trouble arises.\\. Goodbye!",
+          "transl": "Ich hoffe, wir können wieder auf deine Hilfe zählen, falls es zu weiteren Problemen kommt.\\. Auf Wiedersehen!"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Sue'zie",
+          "transl": "Sue'zie"
+         }
+        },
+        {
+         "message": {
+          "orig": "Goodbye, hero \\v[lore.title.seeker]!",
+          "transl": "Auf Wiedersehen, Seeker-Held!"
+         }
+        },
+        {
+         "name": {
+          "orig": "Natzo'gra",
+          "transl": "Natzo'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Protect more justice!",
+          "transl": "Du mehr Gerechtigkeit beschützen!"
+         }
+        },
+        {
+         "name": {
+          "orig": "Hiez'gra",
+          "transl": "Hiez'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye.",
+          "transl": "Tüss."
+         }
+        },
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Sgt. Niellos",
+          "transl": "Hptm. Niellos"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Young \\v[lore.title.seeker], you found your way back to us?\\. How swell!",
+          "transl": "Junger Seeker, wie ich sehe, hast du zu uns zurückgefunden?\\. Wie wunderbar!"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Natzo'gra",
+          "transl": "Natzo'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Welcome back, \\v[lore.title.seeker] of justice!",
+          "transl": "Willkommen zurück, Seeker der Gerechtigkeit!"
+         }
+        },
+        {
+         "name": {
+          "orig": "Sue'zie",
+          "transl": "Sue'zie"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yay, honorful Miss \\v[lore.title.seeker]!",
+          "transl": "Juhu, Ehrenfrau Seeker!"
+         }
+        },
+        {
+         "name": {
+          "orig": "Hiez'gra",
+          "transl": "Hiez'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hello.\\. Always welcome.",
+          "transl": "Hallo.\\. Immer willkommen."
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!\\.\\. Hi!\\.\\. Hi!",
+          "transl": "Hi!\\.\\. Hi!\\.\\. Hi!"
+         }
+        },
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Sgt. Niellos",
+          "transl": "Hptm. Niellos"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "I am sure you are still worried about the traitor Billston being at large.",
+          "transl": "Du bist sicher immer noch besorgt, dass sich der Verräter Billston noch auf freiem Fuß befindet."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "But now we do finally have hints of his whereabouts!",
+          "transl": "Aber jetzt haben wir endlich Hinweise zu seinem Aufenthaltsort!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Can we count on you again, to finally bring that scoundrel to justice?",
+          "transl": "Können wir erneut auf dich zählen, um diesen Schurken endlich zur Rechenschaft zu ziehen?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          null,
+          {
+           "name": {
+            "orig": "Natzo'gra",
+            "transl": "Natzo'gra"
+           }
+          },
+          {
+           "message": {
+            "orig": "Justice!",
+            "transl": "Gerechtigkeit!"
+           }
+          },
+          {
+           "name": {
+            "orig": "Sue'zie",
+            "transl": "Sue'zie"
+           }
+          },
+          {
+           "message": {
+            "orig": "Hurray!",
+            "transl": "Hurra!"
+           }
+          },
+          {
+           "name": {
+            "orig": "Hiez'gra",
+            "transl": "Hiez'gra"
+           }
+          },
+          {
+           "message": {
+            "orig": "Nice.",
+            "transl": "Gut."
+           }
+          },
+          null,
+          null,
+          null,
+          {
+           "name": {
+            "orig": "Sgt. Niellos",
+            "transl": "Hptm. Niellos"
+           }
+          },
+          {
+           "message": {
+            "orig": "You really are a treasure, young one!",
+            "transl": "Du bist ein wahrer Schatz, Kleine!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "According to reports reaching us, Billston has left the city and hides somewhere in \\v[area.heat-area.name].",
+            "transl": "Den Berichten zufolge hat Billston die Stadt verlassen und versteckt sich irgendwo im Maronental."
+           }
+          },
+          {
+           "message": {
+            "orig": "There, he sometimes robs Shad traders of their money and goods, before hiding again.",
+            "transl": "Dort stiehlt er aus seinem Versteck heraus den Shad ihr Geld und ihre Waren."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "He should not be far from the settlement, however, since he should still need water and other supplies on a regular basis.",
+            "transl": "Trotzdem sollte er nicht allzu weit weg von der Siedlung sein, da er täglich Wasser und anderes braucht."
+           }
+          },
+          {
+           "message": {
+            "orig": "So, if you want to find him, you should start patrolling the main route through the desert from here!",
+            "transl": "Wenn du ihn also finden willst, solltest du damit beginnen, den Hauptweg durch die Wüste zu untersuchen."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Splendid!\\. It is reassuring to have you helping us again.\\. Godspeed, young \\v[lore.title.seeker]!",
+            "transl": "Wunderbar!\\. Es ist beruhigend, zu wissen, dass du uns wieder hilfst.\\. Viel Erfolg, junger Seeker!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye!",
+            "transl": "Bye!"
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          null,
+          {
+           "name": {
+            "orig": "Natzo'gra",
+            "transl": "Natzo'gra"
+           }
+          },
+          {
+           "message": {
+            "orig": "Whaaat.\\. No more justice?",
+            "transl": "Waaaas.\\. Keine Gerechtigkeit mehr?"
+           }
+          },
+          {
+           "name": {
+            "orig": "Sue'zie",
+            "transl": "Sue'zie"
+           }
+          },
+          {
+           "message": {
+            "orig": "Awwww...",
+            "transl": "Oohhhhh..."
+           }
+          },
+          {
+           "name": {
+            "orig": "Hiez'gra",
+            "transl": "Hiez'gra"
+           }
+          },
+          {
+           "message": {
+            "orig": "Very disappoint.",
+            "transl": "Sehr enttäuscht."
+           }
+          },
+          null,
+          null,
+          null,
+          {
+           "name": {
+            "orig": "Sgt. Niellos",
+            "transl": "Hptm. Niellos"
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          },
+          {
+           "message": {
+            "orig": "Oh, I thought you couldn't wait to finally catch him.\\. But maybe you just want to prepare a bit more?",
+            "transl": "Oh, ich dachte, du könntest es kaum erwarten, ihn endlich zu erwischen.\\. Aber vielleicht möchtest du dich lieber noch etwas vorbereiten?"
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Sgt. Niellos",
+         "transl": "Hptm. Niellos"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "The traitor Billston should be somewhere on the main route through \\v[area.heat-area.name].",
+         "transl": "Der Verräter Billston sollte irgendwo auf dem Hauptweg durch das Maronental sein."
+        }
+       },
+       {
+        "message": {
+         "orig": "He should still need regular supplies, so best start searching near the settlement.",
+         "transl": "Er braucht immer noch regelmäßige Versorgung, fang also am besten in der Nähe der Siedlung an zu suchen."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Sgt. Niellos",
+          "transl": "Hptm. Niellos"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah, once again our hero has returned!\\.",
+          "transl": "Ah, unser Held ist wieder da!\\."
+         }
+        },
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Sue'zie",
+          "transl": "Sue'zie"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yaaay, welcome back!",
+          "transl": "Juhuuu, willkommen zurück!"
+         }
+        },
+        null,
+        {
+         "name": {
+          "orig": "Natzo'gra",
+          "transl": "Natzo'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hero of justice!",
+          "transl": "Held der Gerechtigkeit!"
+         }
+        },
+        null,
+        {
+         "name": {
+          "orig": "Hiez'gra",
+          "transl": "Hiez'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Good job.",
+          "transl": "Gute Arbeit."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Sgt. Niellos",
+          "transl": "Hptm. Niellos"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yes, you have done well.\\. Billston was apprehended and led to a secure prison cell.",
+          "transl": "Ja, das hast du gut gemacht.\\. Billston wurde gefasst und in eine sichere Zelle geworfen."
+         }
+        },
+        {
+         "message": {
+          "orig": "He will cause no more crimes against the unity of our species from now on.",
+          "transl": "Er wird der Einheit unserer Spezies nie wieder Schaden anrichten können."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Though, I do fear that he was not acting alone.\\. There is still a lot of work to do for us.",
+          "transl": "Trotzdem habe ich das Gefühl, dass er nicht allein gearbeitet hat.\\. Wir haben immer noch viel Arbeit vor uns."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "But... for now we should celebrate the harmony of Shad and humankind.\\. And all the progress that has been made!",
+          "transl": "Aber erst einmal sollten wir die Harmonie zwischen den Shad und den Menschen feiern.\\. Und all den Fortschritt, der gemacht wurde!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "You should take your well earned reward.\\. And know that you will always be welcome in our midst!",
+          "transl": "Deine Belohnung hast du dir redlich verdient.\\. Und wisse, dass du uns immer willkommen bist!"
+         }
+        },
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Sue'zie",
+          "transl": "Sue'zie"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yes, hero \\v[lore.title.seeker] always welcome!",
+          "transl": "Ja, Seeker-Held, immer willkommen!"
+         }
+        },
+        {
+         "name": {
+          "orig": "Natzo'gra",
+          "transl": "Natzo'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Justice for all!",
+          "transl": "Gerechtigkeit für alle!"
+         }
+        },
+        {
+         "name": {
+          "orig": "Hiez'gra",
+          "transl": "Hiez'gra"
+         }
+        },
+        {
+         "message": {
+          "orig": "Goodbye.",
+          "transl": "Auf Wiedersehen."
+         }
+        },
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Sgt. Niellos",
+         "transl": "Hptm. Niellos"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker]!\\. Take a seat and listen to the latest town gossip.",
+         "transl": "Hallo, Seeker! Nimm Platz und lausche dem neuesten Stadtklatsch."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Hiez'gra",
+      "transl": "Hiez'grammp"
+     }
+    }
+   }
+  },
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Natso'gra",
+      "transl": "Natso'grammp"
+     }
+    }
+   }
+  },
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Sue'zie",
+      "transl": "Sue'zie"
+     }
+    }
+   }
+  }
+ ]
+}

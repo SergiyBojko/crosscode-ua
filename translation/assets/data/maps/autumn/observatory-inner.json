@@ -1,0 +1,413 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Ye just go into that big room to start the fight.",
+         "transl": "Geh einfach in den großen Raum, um den Kampf zu starten."
+        }
+       },
+       {
+        "message": {
+         "orig": "I'll keep track of the time ye take for it.",
+         "transl": "Ich werde die Zeit stoppen, die du für die Prüfung brauchst."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Ye just go into that big room to start the fight.",
+         "transl": "Geh einfach in den großen Raum, um den Kampf zu starten."
+        }
+       },
+       {
+        "message": {
+         "orig": "I'll keep track of the time ye take for it.",
+         "transl": "Ich werde die Zeit stoppen, die du für die Prüfung brauchst."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Ye back for another try or to see yer best time?",
+         "transl": "Bist du für einen neuen Anlauf hier oder nur, um nach deinen Bestzeiten zu schauen?"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "Ye just go into the big room lass. I'll save the time for ye.",
+           "transl": "Geh einfach in den großen Raum. Ich kümmere mich um die Zeit."
+          }
+         },
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[nickt]"
+          }
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "Here ye go, lass.",
+           "transl": "Hier sind sie, Deern."
+          }
+         }
+        ],
+        "2": [
+         {
+          "message": {
+           "orig": "Ye come back later then.",
+           "transl": "Du kannst jederzeit wiederkommen."
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "Try Challenge",
+           "transl": "Herausforderung annehmen"
+          }
+         },
+         {
+          "label": {
+           "orig": "View Highscore",
+           "transl": "Bestzeit anschauen"
+          }
+         },
+         {
+          "label": {
+           "orig": "Cancel",
+           "transl": "Abbrechen"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "A good fight lass.",
+         "transl": "Ein guter Kampf, Deern."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Ye wanna take a look at yer best times?",
+         "transl": "Willst du einen Blick auf deine Bestzeiten werfen?"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[nickt]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Here ye go, lass.",
+           "transl": "Schau her, Deern."
+          }
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[schüttelt Kopf]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Alright. Ye come back later then. The challenge takes a while to be ready again.",
+           "transl": "In Ordnung. Dann komm später zurück. Es wird etwas dauern, bis die Herausforderung wieder verfügbar ist."
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[Yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[No]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Just like in the ol' days.",
+       "transl": "Wie in guten alten Zeiten."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Still a big room inside a darn small building.",
+       "transl": "Immer noch ein großer Raum in einem verflucht kleinen Gebäude."
+      }
+     },
+     {
+      "message": {
+       "orig": "Them developers sure know how to make it look plausible.",
+       "transl": "Die Entwickler wissen wirklich, wie man das glaubwürdig darstellt."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Well, the counter is still there. So I guess ye can take on the challenge.",
+       "transl": "Tja, der Zähler ist immer noch hier, also scheinst du den Kampf starten zu können."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Ye want to try it out?",
+       "transl": "Willst du es versuchen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "But ye better make sure ye're up to the task. ",
+       "transl": "Aber sieh zu, dass du gut vorbereitet bist."
+      }
+     },
+     {
+      "message": {
+       "orig": "The challenge here is pretty darn tough.",
+       "transl": "Die Herausforderung hier hat es wirklich in sich."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Heh, can't stop the lass from a fight.",
+       "transl": "Hehe, man kann die Deern einfach nicht von einem Kampf abhalten."
+      }
+     },
+     {
+      "message": {
+       "orig": "Ye just go into that big room to start the battle.",
+       "transl": "Geh einfach in den großen Raum, um den Kampf zu starten."
+      }
+     },
+     {
+      "message": {
+       "orig": "I'll save the time ye need for it.",
+       "transl": "Ich werde derweil deine Zeit messen."
+      }
+     },
+     {
+      "message": {
+       "orig": "Now have some fun lass.",
+       "transl": "Viel Spaß da drin, Deern."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Survive!",
+       "transl": "Überlebe!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Ye did it! Very good performance, lass.",
+       "transl": "Du hast es geschafft! Sehr gute Leistung, Deern."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "As promised I saved your time. So just talk to me to get an overview.",
+       "transl": "Wie versprochen, habe ich deine Zeit gestoppt. Frag mich einfach, wenn du einen Blick darauf werfen willst."
+      }
+     },
+     {
+      "message": {
+       "orig": "However the challenge will need some time to be ready again.",
+       "transl": "Es wird allerdings etwas dauern, bis die Herausforderung wieder verfügbar ist."
+      }
+     },
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "And there's yer reward.",
+         "transl": "Und hier ist deine Belohnung."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

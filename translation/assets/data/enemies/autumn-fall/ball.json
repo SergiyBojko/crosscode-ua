@@ -1,0 +1,178 @@
+{
+ "actions": {
+  "Init": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<INIT IDLE>",
+       "transl": "<INIT IDLE><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Idle": [
+   {
+    "thenStep": [
+     null,
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "<ReturnPos Changed>",
+           "transl": "<ReturnPos Changed><<C<<IGNORE"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ReturnPlayer": [
+   null,
+   {
+    "text": {
+     "orig": "[Returning]",
+     "transl": "[Zurückkehren]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "OnMarker": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "<ON MARK> \\v[tmp.markerName] = \\v[tmp.stringCheck]",
+         "transl": "<ON MARK> \\v[tmp.markerName] = \\v[tmp.stringCheck]<<C<<IGNORE"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "[Connected to Power]",
+         "transl": "[Mit Kraftpunkt verbunden]<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "OffMarker": [
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<OFF MARK \\v[tmp.questBall-markerActive]>",
+       "transl": "<OFF MARK \\v[tmp.questBall-markerActive]><<C<<IGNORE"
+      }
+     }
+    ],
+    "elseStep": [
+     {
+      "text": {
+       "orig": "[Disconnected from Power]",
+       "transl": "[Von Kraftpunkt getrennt]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "ChargeHeat": [
+   {
+    "text": {
+     "orig": "[HEAT CHARGE]",
+     "transl": "[HITZE-LADUNG]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "ChargeCold": [
+   {
+    "text": {
+     "orig": "[STABLE]",
+     "transl": "[STABIL]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "DisCharge": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<DISCHARGE>",
+       "transl": "<DISCHARGE><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Thawing": [
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "<THAW>",
+         "transl": "<THAW><<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "HitParty": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "PARTY",
+       "transl": "PARTY<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "AdjustZ": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<Z ADJUST>",
+       "transl": "<Z ADJUST><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Mystery Device",
+   "transl": "Mysteriöses Gerät<<C<<Geprüft: Minsu"
+  }
+ }
+}

@@ -1,0 +1,365 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "This will be the last pillar enemy! We'll let \\c[3]you decide\\c[0] which element to attack this time!",
+       "transl": "Das ist der letzte Säulengegner! Wir lassen \\c[3]dich entscheiden\\c[0], welches Element wir zuerst angreifen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Decide quickly! I want to start hitting stuff!",
+       "transl": "Lea, lass knacken! Mir juckt's in den Fingern!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Hey! Which element should be destroy?",
+         "transl": "Hey! Welches Element sollen wir zerstören?"
+        }
+       },
+       {
+        "message": {
+         "orig": "Oh dear... It' seems like Lea is all alone right now. Let's wait for Emilie or Luke to respawn.",
+         "transl": "Oh je... Sieht so aus, als wäre Lea gerade ganz allein. Lasst uns warten, bis Emilie oder Luke respawnen."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "\\c[3]Red blocks\\c[0]! \\c[3]Heat\\c[0] is under fire now!",
+           "transl": "\\c[3]Rote Blöcke\\c[0]! Macht ihnen Feuer unterm Hintern!"
+          }
+         },
+         {
+          "message": {
+           "orig": "You waited for that one, didn't you?",
+           "transl": "Da hast du jetzt die ganze Zeit drauf gewartet, dass du den bringen kannst, ne?"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "\\c[3]Red blocks\\c[0] targeted now.",
+           "transl": "Zielscheibe: \\c[3]Rot\\c[0]!"
+          }
+         }
+        ]
+       },
+       {
+        "task": {
+         "orig": "Defeat all \\c[3]Red Blocks\\c[0]!",
+         "transl": "Besiege alle \\c[3]Roten Blöcke\\c[0]!"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "\\c[3]Blue blocks\\c[0] now!",
+           "transl": "Jetzt die \\c[3]Blauen\\c[0]!"
+          }
+         },
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "Don't get cold feet now.",
+             "transl": "Kriegt jetzt bloß keine kalten Füße."
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "We're fighting the \\c[0]blue blocks\\c[0]! Shame Tronny isn't around...\n",
+           "transl": "Wir kämpfen jetzt gegen die \\c[3]Blauen Blöcke\\c[0]! Schade, dass Tronny nicht da ist..."
+          }
+         }
+        ]
+       },
+       {
+        "task": {
+         "orig": "Defeat all \\c[3]Blue Blocks\\c[0]!",
+         "transl": "Besiege alle \\c[3]Blauen Blöcke\\c[0]!"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "Attacking the \\c[3]purple blocks\\c[0]...",
+           "transl": "Greifen jetzt die \\c[3]Lilanen Blöcke\\c[0] an..."
+          }
+         },
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "Shocking!",
+             "transl": "Schockschwerenot!"
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "We're fighting the \\c[3]purple blocks\\c[0] ",
+           "transl": "Wir kämpfen gegen die \\c[3]Lilanen\\c[0]!"
+          }
+         }
+        ]
+       },
+       {
+        "task": {
+         "orig": "Defeat all \\c[3]Purple Blocks\\c[0]!",
+         "transl": "Besiege alle \\c[3]Lilanen Blöcke\\c[0]!"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "\\c[3]Green blocks\\c[0] now. Still got nothing.",
+           "transl": "Jetzt die \\c[3]Grünen\\c[0]. Zu denen fällt mir immer noch nix ein."
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "\\c[3]Green blocks\\c[0] now.",
+           "transl": "Jetzt die \\c[3]Grünen\\c[0]."
+          }
+         }
+        ]
+       },
+       {
+        "task": {
+         "orig": "Defeat all \\c[3]Green Blocks\\c[0]!",
+         "transl": "Besiege alle \\c[3]Grünen Blöcke\\c[0]!"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "We put that heat down!",
+         "transl": "Hitze erloschen!"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "All blue blocks are out cold.",
+         "transl": "Alle Blauen kaltgemacht!"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Purple blocks defeated. Good Job!",
+         "transl": "Lilane Blöcke erledigt! Gute Arbeit!"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Green Blocks down. Vibe denied.",
+         "transl": "Grüne Blöcke erledigt. Es hat sich ausg'schwingt!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Well, here we are!\\. Fingers crossed things work out this time!",
+       "transl": "Da wären wir!\\. Drückt die Daumen, dass es diesmal klappt!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Nice work! Next color!",
+         "transl": "Gute Arbeit! Nächste Farbe!"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Very good, everyone!",
+         "transl": "Gute Arbeit, Leute!"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "We almost got it!",
+           "transl": "Wir haben es fast geschafft!"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "We almost got it!",
+           "transl": "Wir haben es fast geschafft!"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

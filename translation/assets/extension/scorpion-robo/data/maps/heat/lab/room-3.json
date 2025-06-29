@@ -1,0 +1,510 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "Call",
+        "transl": "Aufzug rufen"
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "1": {
+        "text": {
+         "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
+         "transl": "Brückenaufzug: \\c[1]deaktiviert\\c[0].\nMöchtest du den Aufzug aktivieren?"
+        }
+       },
+       "2": {
+        "0": [
+         null,
+         null,
+         null,
+         {
+          "text": {
+           "orig": "Bridge Elevator \\c[2]enabled\\c[0]!",
+           "transl": "Brückenaufzug: \\c[2]aktiviert\\c[0]!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[no]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       },
+       "hoverText": {
+        "orig": "Display",
+        "transl": "Bildschirm"
+       },
+       "event": [
+        null,
+        {
+         "text": {
+          "orig": "Test sequence status: \\c[2]ready\\c[0].\n\\c[1]Start test sequence\\c[0]?",
+          "transl": "Testsequenz-Status: \\c[2]bereit\\c[0].\n\\c[1]Testsequenz starten\\c[0]?"
+         }
+        },
+        {
+         "0": [
+          null,
+          null,
+          null,
+          {
+           "text": {
+            "orig": "Preparing to \\c[2]initiate test sequence\\c[0]!",
+            "transl": "Bereite \\c[2]Testsequenz vor\\c[0]!"
+           }
+          },
+          {
+           "text": {
+            "orig": "Please \\c[3]enter\\c[0] the \\c[3]lower area\\c[0] to begin.",
+            "transl": "Bitte \\c[3]untere Ebene betreten\\c[0], um zu beginnen."
+           }
+          }
+         ],
+         "1": [
+          null,
+          {
+           "text": {
+            "orig": "Completion of test sequence is \\c[3]required\\c[0] in order to open the door.",
+            "transl": "Abschluss der Testsequenz \\c[3]erforderlich\\c[0] für Entriegelung der Tür."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "[yes]",
+            "transl": "[Ja]"
+           }
+          },
+          {
+           "label": {
+            "orig": "[no]",
+            "transl": "[Nein]"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "1": {
+        "text": {
+         "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
+         "transl": "Brückenaufzug: \\c[1]deaktiviert\\c[0].\nMöchtest du den Aufzug aktivieren?"
+        }
+       },
+       "2": {
+        "0": [
+         null,
+         null,
+         null,
+         {
+          "text": {
+           "orig": "Bridge Elevator \\c[2]enabled\\c[0]!",
+           "transl": "Brückenaufzug: \\c[2]aktiviert\\c[0]!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[no]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       },
+       "hoverText": {
+        "orig": "Display",
+        "transl": "Bildschirm"
+       },
+       "event": [
+        null,
+        {
+         "text": {
+          "orig": "Mortal Chamber Status: \\c[1]closed\\c[0].\n\\c[2]Open Door?\\c[0]",
+          "transl": "Todeskammer-Status: \\c[1]geschlossen\\c[0].\n\\c[2]Tür öffnen\\c[0]?"
+         }
+        },
+        {
+         "options": [
+          {
+           "label": {
+            "orig": "[yes]",
+            "transl": "[Ja]"
+           }
+          },
+          {
+           "label": {
+            "orig": "[no]",
+            "transl": "[Nein]"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Hologram",
+      "transl": "Hologramm"
+     },
+     "event": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "name": {
+        "orig": "Steve B. Ruger",
+        "transl": "Steve B. Ruger"
+       }
+      },
+      null,
+      {
+       "message": {
+        "orig": "Hello and welcome back to our research facility.\\. Things are still progressing at a steady rate.",
+        "transl": "Hallo und willkommen zurück in unserer Forschungseinrichtung.\\. Wir machen beständig Fortschritte."
+       }
+      },
+      {
+       "message": {
+        "orig": "Well, mostly.\\. We have worked a bit too well in some regards, but I will talk about those complications later.",
+        "transl": "Zumindest überwiegend.\\. Wir sind in mancher Hinsicht etwas über das Ziel hinaus geschossen, doch später mehr dazu."
+       }
+      },
+      {
+       "message": {
+        "orig": "First off, taming some of the more intelligent beings on this fascinating planet was easier than expected.",
+        "transl": "Zunächst sei gesagt, dass es einfacher als erwartet war, die intelligenteren Wesen auf diesem faszinierenden Planeten zu zähmen."
+       }
+      },
+      {
+       "message": {
+        "orig": "In fact it seems like they want to outright cooperate with us!\\. The results of our logic tests have been very satisfying.",
+        "transl": "Als ob sie mit uns zusammenarbeiten wollten! Die Ergebnisse unserer Logiktests waren sehr zufriedenstellend."
+       }
+      },
+      {
+       "message": {
+        "orig": "Their reception of the firearms has also been very positive.",
+        "transl": "Die Aufnahme der Schusswaffen war ebenfalls sehr positiv."
+       }
+      },
+      {
+       "message": {
+        "orig": "They got the hang of it immediately and became inseparable from their new tools.",
+        "transl": "Sie hatten sofort den Dreh raus und können sich gar nicht mehr davon trennen."
+       }
+      },
+      {
+       "message": {
+        "orig": "However, that's where the problems first began, actually.\\. And maybe expectedly.",
+        "transl": "Hier begannen jedoch die Probleme, die auch irgendwo abzusehen waren."
+       }
+      },
+      {
+       "message": {
+        "orig": "The intelligent birds that we armed with cutting-edge weapons became unruly.\\. Imagine that.",
+        "transl": "Die intelligenten Vögel, die wir mit modernsten Waffen bewaffnet haben, wurden plötzlich widerspenstig.\\. Stellen Sie sich das vor."
+       }
+      },
+      {
+       "message": {
+        "orig": "Long story short, they tried to revolt and escape.\\. A very disappointing development.",
+        "transl": "Kurz gesagt, sie haben versucht, zu rebellieren und zu fliehen.\\. Eine sehr enttäuschende Entwicklung."
+       }
+      },
+      {
+       "message": {
+        "orig": "However, we already started a second project with different types of creatures in the facility next door.",
+        "transl": "Wir haben jedoch bereits ein zweites Projekt mit verschiedenen Arten von Kreaturen in der Einrichtung nebenan gestartet."
+       }
+      },
+      {
+       "message": {
+        "orig": "This time we are trying to combine ground-based creatures with light artillery weapons.",
+        "transl": "Dieses Mal versuchen wir, bodengebundene Kreaturen mit leichten Artillerie-Waffen zu kombinieren."
+       }
+      },
+      {
+       "message": {
+        "orig": "This should prove much less risky than our previous endeavor, so please look forward to our next report!",
+        "transl": "So lässt sich künftig das Risiko nämlich erheblich minimieren. Freuen Sie sich also auf den nächsten Bericht!"
+       }
+      },
+      {
+       "message": {
+        "orig": "Until then... bye!",
+        "transl": "Bis dann... Tschüss!"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "Display",
+        "transl": "Bildschirm"
+       },
+       "event": [
+        null,
+        {
+         "text": {
+          "orig": "\\c[1]INTERNAL MAIL, SENT\\c[0]\n\n\\c[3]FROM:\\c[0] Facility Staff, Office 3A\n\\c[3]TO:\\c[0] \"Pressure\", Management\n\n\\c[3]Subject:\\c[0] Facility Hygiene",
+          "transl": "\\c[1]GESENDET, INTERN\\c[0]\n\n\\c[3]VON:\\c[0] Anlagenpersonal, Büro 3A\n\\c[3]AN:\\c[0] \"Hochdruck\", Geschäftsführung\n\n\\c[3]Betreff:\\c[0] Hygiene in der Anlage"
+         }
+        },
+        {
+         "text": {
+          "orig": "Good day dear management,\n\nFirst I want to repeat my gratitude for all the trust and opportunities you have given me with this job. This work has been very fulfilling and interesting.",
+          "transl": "Sehr geehrte Geschäftsführung,\n\nzunächst möchte ich mich für all das Vertrauen und die Möglichkeiten bedanken, die Sie mir gegeben haben. Diese Arbeit war bislang sehr erfüllend und interessant."
+         }
+        },
+        {
+         "text": {
+          "orig": "However, those birds, as fascinating as they are, cause a lot of problems with their excrement. They leave it everywhere and also shoot holes into the walls. Combined with the heat of this place it really creates an uncomfortable smell in the entire facility.",
+          "transl": "Diese Vögel, so faszinierend sie auch sind, verursachen jedoch viele Probleme mit ihren Exkrementen. Sie verteilen sie überall und schießen auch Löcher in die Wände. In Kombination mit der Hitze hier verursacht es einen wirklich unangenehmen Geruch in der gesamten Anlage."
+         }
+        },
+        {
+         "text": {
+          "orig": "So I would kindly request for more manpower in the cleaning force. Thank you in advance!\n\nSincerest Regards,\n[NAME REDACTED]\n\n\\c[1][END OF MAIL]\\c[0]",
+          "transl": "Deshalb möchte ich freundlicherweise um mehr Reinigungspersonal bitten. Vielen Dank im Voraus!\n\nMit freundlichen Grüßen, \n[NAME ZENSIERT] \n\n\\c[1][ENDE DER NACHRICHT]\\c[0]"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "Display",
+        "transl": "Bildschirm"
+       },
+       "event": [
+        null,
+        {
+         "text": {
+          "orig": "\\c[1]INTERNAL MAIL, SENT\\c[0]\n\n\\c[3]FROM:\\c[0] Facility Staff, Office 3B\n\\c[3]TO:\\c[0] Facility Staff, Office 3A\n\n\\c[3]Subject:\\c[0] That Noise",
+          "transl": "\\c[1]GESENDET, INTERN\\c[0]\n\n\\c[3]VON:\\c[0] Anlagenpersonal, Büro 3B\n\\c[3]AN:\\c[0] Anlagenpersonal, Büro 3A\n\n\\c[3]Betreff:\\c[0] Dieses Geräusch"
+         }
+        },
+        {
+         "text": {
+          "orig": "Hey you guys next door,\n\nThere's constant noise coming from your side, like you are having a war over there. Can you try to keep it down a bit? We just got everything settled in here and our cute scorpions are already getting restless.",
+          "transl": "Hallo liebe Kollegen von nebenan,\n\nes kommt ständiger Lärm von eurer Seite, als ob dort ein Krieg toben würde. Könntet ihr versuchen, ein wenig leiser zu sein? Wir haben hier gerade erst alles aufgebaut und unsere süßen Skorpione werden schon unruhig."
+         }
+        },
+        {
+         "text": {
+          "orig": "We almost got them properly tamed and ready for real training so don't make this too hard for us, okay?\n\nCheers,\n[NAME REDACTED]\n\n\\c[1][END OF MAIL]\\c[0]",
+          "transl": "Wir haben sie fast gezähmt und für ein richtiges Training vorbereitet, macht's uns also bitte nicht allzu schwer, ja?\n\nMit freundlichen Grüßen, \n[NAME ZENSIERT] \n\n\\c[1][ENDE DER NACHRICHT]\\c[0]"
+         }
+        },
+        {
+         "text": {
+          "orig": "\\c[1]INTERNAL MAIL, SENT\\c[0]\n\n\\c[3]FROM:\\c[0] Facility Staff, Office 3B\n\\c[3]TO:\\c[0] Facility Staff, Office 3A\n\n\\c[3]Subject:\\c[0] RE:RE:That Noise",
+          "transl": "\\c[1]GESENDET, INTERN\\c[0]\n\n\\c[3]VON:\\c[0] Anlagenpersonal, Büro 3B\n\\c[3]AN:\\c[0] Anlagenpersonal, Büro 3A\n\n\\c[3]Betreff:\\c[0] RE:RE:Dieses Geräusch"
+         }
+        },
+        {
+         "text": {
+          "orig": "Hey neighbors,\n\nAn armed revolt you say? Huh, that sounds rough. I guess birds with guns were a bit of a risky gamble. I hope you are getting this under control before it becomes a bother for all of us.",
+          "transl": "Hallo Nachbarn,\n\nein bewaffneter Aufstand? Klingt ja ziemlich rabiat. War wohl doch etwas zu riskant, Vögel zu bewaffnen, hm? Ich hoffe, ihr habt's bald wieder im Griff, bevor es für uns alle zum Problem wird."
+         }
+        },
+        {
+         "text": {
+          "orig": "Anyway, good luck with that and please don't let them escape in our direction.\n\nCheers,\n[NAME REDACTED]\n\nPS: Joint dinner and laserbowling next Friday?\n\n\\c[1][END OF MAIL]\\c[0]",
+          "transl": "Viel Glück dabei - und lasst sie bitte nicht in unsere Richtung entkommen.\n\nMit freundlichen Grüßen, \n[NAME ZENSIERT] \n\nPS: Gemeinsames Abendessen und Laserbowling nächsten Freitag?\n\n\\c[1][ENDE DER NACHRICHT]\\c[0]"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

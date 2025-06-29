@@ -1,0 +1,1244 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Receptionist",
+      "transl": "Rezeptionist"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Receptionist",
+         "transl": "Rezeptionist"
+        }
+       },
+       {
+        "message": {
+         "orig": "Move along, nothing to see here.",
+         "transl": "Gehen Sie weiter, hier gibt es nichts zu sehen."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Sgt. Sterling",
+      "transl": "Hptm. Sterling"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sgt. Sterling",
+         "transl": "Hptm. Sterling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Greetings from the \\c[3]Bergen Guard\\c[0], \\v[lore.title.seeker].",
+         "transl": "Grüße von der \\c[3]Bergen-Wache\\c[0], Seeker."
+        }
+       },
+       {
+        "message": {
+         "orig": "Everything is quiet right now, so there is no need to trouble yourself.",
+         "transl": "Im Moment ist alles ruhig. Kein Grund also, dich selbst in Ärger zu stürzen."
+        }
+       },
+       {
+        "message": {
+         "orig": ".\\..\\..",
+         "transl": ".\\..\\.."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Sgt. Sterling",
+          "transl": "Hptm. Sterling"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, what do we have here?\\. Another \\v[lore.title.seeker], eh?",
+          "transl": "Na, wen haben wir denn da?\\. Noch ein Seeker, he?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Got a lot of your kind marching into Bergen, with that first station of the Track being here.",
+          "transl": "Sind 'ne ganze Menge von euch, die hier in Bergen aufmarschieren."
+         }
+        },
+        {
+         "message": {
+          "orig": "Many of you even offer some assistance to us, being all do-goody and well-intentioned, I suppose.",
+          "transl": "Viele von euch bieten uns sogar Unterstützung an, weil sie was Gutes tun wollen, nehme ich an."
+         }
+        },
+        {
+         "message": {
+          "orig": "But can just anyone with a fancy title do real policework and face the worst of humanity?\\. I doubt it.",
+          "transl": "Ich bezweifle aber, dass ihr in der Lage seid, wirkliche Polizeiarbeit zu leisten und euch den menschlichen Abgründen zu stellen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "You want to prove me wrong, eh?\\. Alright, then I got a nice and simple practice task for you.",
+          "transl": "Willst du mir etwa das Gegenteil beweisen?\\. Also gut, dann habe ich eine einfache Aufgabe für dich."
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Okay then.\\. I want you to take care of this dwarf goat that is annoying the good citizens of Bergen.",
+            "transl": "Gut.\\. Ich will, dass du dich um diesen Ziegenknirps kümmerst, der die guten Bürger Bergens ärgert."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "Yes, yes, catching it might sound simple but it's really quick and likes to climb to higher places.",
+            "transl": "Sie einfangen hört sich einfach an, aber sie ist verdammt schnell und klettert gerne auf Anhöhen."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "It's stealing food, shiny stuff and everyone's time, but I don't want to waste our manpower on it.",
+            "transl": "Sie stiehlt Essen, Glitzerzeug und jedermanns Zeit. Aber ich will keinen Mann dafür entbehren."
+           }
+          },
+          {
+           "message": {
+            "orig": "Besides, it does sound like ideal \\v[lore.title.seeker]-work, eh?\\. So you better show me your worth!",
+            "transl": "Scheint wohl doch eher 'ne typische Seeker-Aufgabe zu sein, was?\\. Dann zeig mal, was du kannst!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "That's the spirit!\\. You should be able to find it somewhere on the rooftops of Bergen.\\. Happy climbing!",
+            "transl": "Das ist die richtige Einstellung!\\. Du solltest sie irgendwo auf den Dächern finden.\\. Fröhliches Klettern!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye.",
+            "transl": "Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "You are not into the everyday basics, I suppose?\\. Well, no getting around that!",
+            "transl": "Alltägliche Aufgaben sind wohl nicht dein Ding, was?\\. Tja, da kommt man nicht drum herum!"
+           }
+          },
+          {
+           "message": {
+            "orig": "I can't entrust the sensible tasks to just anyone I meet before they have proven themselves!",
+            "transl": "Für die gefährlichen Aufgaben musst du dich erst einmal beweisen!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sgt. Sterling",
+         "transl": "Hptm. Sterling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Still haven't found it?",
+         "transl": "Hast sie immer noch nicht gefunden?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[shakes head]",
+         "transl": "[schüttelt Kopf]"
+        }
+       },
+       {
+        "message": {
+         "orig": "It should be jumping around somewhere on the roofs of Bergen.\\. Just climb around a bit and keep your eyes open!",
+         "transl": "Sie sollte irgendwo auf den Dächern hier herumspringen.\\. Klettere ein wenig herum und halte deine Augen offen!"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Sgt. Sterling",
+          "transl": "Hptm. Sterling"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hey there, \\v[lore.title.seeker].\\. Were you successful?",
+          "transl": "Tagchen, Seeker.\\. Warst du erfolgreich?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yes?\\. Well... where is that damned goat then?",
+          "transl": "Ja?\\. Und wo ist diese Nervziege jetzt?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...Lea?",
+          "transl": "... Lea?"
+         }
+        },
+        {
+         "message": {
+          "orig": "I hope you didn't just butcher the poor thing on the spot.\\. We wanted to examine it for its size and weird behaviour.",
+          "transl": "Ich hoffe, du hast das arme Ding nicht gleich in Gulasch verwandelt.\\. Wir wollten sie wegen ihrer Größe und ihres seltsamen Verhaltens untersuchen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi...?!",
+          "transl": "Hi...?!"
+         }
+        },
+        {
+         "message": {
+          "orig": "What, you gave it to another guard?\\. I don't remember sending anyone for you.",
+          "transl": "Was? Du hast sie einer anderen Wache übergeben?\\. Ich erinnere mich nicht, jemanden geschickt zu haben."
+         }
+        },
+        {
+         "message": {
+          "orig": "It seems like someone played you for a damn fool.",
+          "transl": "Da hat dich aber jemand ordentlich übern Leisten gezogen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "I have no idea why, but there must be some fishy intentions behind it.",
+          "transl": "Ich weiß nicht warum, aber die Sache stinkt gewaltig zum Himmel."
+         }
+        },
+        {
+         "message": {
+          "orig": "Besides, we can't tolerate impostors like that dragging our good name through the snow.\\. You gotta go after him!",
+          "transl": "Außerdem dürfen wir nicht zulassen, dass unser Name in den Schmutz gezogen wird.\\. Schnapp ihn dir!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sgt. Sterling",
+         "transl": "Hptm. Sterling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Go after that impostor!\\. He should be hiding somewhere in \\v[area.bergen-trails.name]!",
+         "transl": "Schnapp dir den Betrüger!\\. Er muss irgendwo auf dem Bergen-Trail sein Versteck haben!"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Sgt. Sterling",
+          "transl": "Hptm. Sterling"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "...Hi.",
+          "transl": "... Hi."
+         }
+        },
+        {
+         "message": {
+          "orig": "There you are again.\\. And I see neither criminal nor goat with you.\\. No success again, eh?",
+          "transl": "Da bist du ja wieder.\\. Und ich sehe weder Betrüger, noch Ziege bei dir.\\. Wieder mal kein Glück gehabt, he?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "I see, they got away.\\. Well, it seems like you had your hands full with their reinforcements.",
+          "transl": "Verstehe, sie sind entkommen.\\. Dann hat dich die Verstärkung wohl erfolgreich abgelenkt."
+         }
+        },
+        {
+         "message": {
+          "orig": "At least that annoying goat is gone and you drove that impostor into hiding.",
+          "transl": "Na, wenigstens ist diese Nervziege erstmal Weg vom Fenster und der Betrüger dazu gezwungen, sich zu verstecken."
+         }
+        },
+        {
+         "message": {
+          "orig": "We will investigate and try to track him down.\\. You might get your chance another day.",
+          "transl": "Wir werden Nachforschungen anstellen und versuchen, ihn aufzuspüren.\\. Du wirst deine Chance schon noch kriegen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Keep up that tenacity of yours and come back later.",
+          "transl": "Bleib weiter hartnäckig und komm später nochmal wieder."
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Sgt. Sterling",
+          "transl": "Hptm. Sterling"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hello \\v[lore.title.seeker], I have some good news for you.\\. I suppose.",
+          "transl": "Hallo, Seeker, ich habe gute Neuigkeiten für dich.\\. Nehm ich zumindest an."
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "We managed to find some hints towards the whereabouts of the impostor guard and his pet goat.",
+          "transl": "Wir haben Hinweise, wo sich der falsche Wachmann mit seiner Hausziege aufhalten könnte."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "So, how about it?\\. Are you up to even the score?",
+          "transl": "Wie schaut es aus?\\. Bereit für eine Revanche?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Very good.\\. You won't even have to walk very far.",
+            "transl": "Sehr gut.\\. Du musst nicht einmal weit laufen."
+           }
+          },
+          {
+           "message": {
+            "orig": "According to our information, their hideout should be on \\c[3]Rising Path 4 in \\v[area.bergen-trails.name]\\c[0]!",
+            "transl": "Unseren Informationen zufolge, sollte ihr Versteck am \\c[3]Aufstieg 4 des Bergen-Trails\\c[0] sein!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "Yes, it's pretty close to your last encounter.\\. So go get them this time!",
+            "transl": "Ja, das ist ganz in der Nähe von eurem letzten Gefecht.\\. Also, schnapp sie dir dieses Mal!"
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye.",
+            "transl": "Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "What, you don't even want to restore your honor now?\\. Come on!",
+            "transl": "Was? Du willst deine Ehre nicht wiederherstellen?\\. Das meinst du doch nicht ernst!"
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sgt. Sterling",
+         "transl": "Hptm. Sterling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Their hideout should be on \\c[3]Rising Path 4 in \\v[area.bergen-trails.name]\\c[0], so go get them!",
+         "transl": "Ihr Versteck sollte am \\c[3]Aufstieg 4 des Bergen-Trails\\c[0] sein. Hol sie dir!"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Sgt. Sterling",
+          "transl": "Hptm. Sterling"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Welcome back.\\. From your grin I suppose you handled everything this time?",
+          "transl": "Willkommen zurück.\\. Deinem Grinsen nach warst du dieses Mal erfolgreicher?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Where are the evildoers then?\\. Did another guard take them away?",
+          "transl": "Wo sind die Schurken dann?\\. Hat eine andere Wache sie abgeführt?"
+         }
+        },
+        {
+         "message": {
+          "orig": "... Lea...",
+          "transl": "... Lea..."
+         }
+        },
+        {
+         "message": {
+          "orig": "What?\\.\\. So the impostor fell down a cliff after being kicked by his own goat-slave?",
+          "transl": "Was?\\.\\. Der Betrüger fiel eine Klippe herunter, nachdem er von seiner eigens versklavten Ziege getreten wurde?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Man, what a story!",
+          "transl": "Oh Mann, was für eine Geschichte!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, I suppose there won't be any more trouble from him.\\. No way he'd survive THAT.",
+          "transl": "Der wird uns jedenfalls keinen Ärger mehr machen.\\. DAS überlebt niemand."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "As for that goat army of his... there is no need to provoke them, as long as they keep to themselves.",
+          "transl": "Was seine Ziegenarmee betrifft... Solange sie unter sich bleiben, gibt es keinen Grund, sie zu provozieren."
+         }
+        },
+        {
+         "message": {
+          "orig": "We will take that translator you found and just prepare for future activities.",
+          "transl": "Wir werden den Übersetzer nehmen, den du gefunden hast, und uns auf zukünftige Maßnahmen vorbereiten."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "We will keep you updated on the situation when  you come by.\\. For now you did good, \\v[lore.title.seeker].",
+          "transl": "Wir werden dich auf dem Laufenden halten, wenn du vorbeikommst.\\. Fürs Erste hast du gute Arbeit geleistet, Seeker."
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sgt. Sterling",
+         "transl": "Hptm. Sterling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Greetings from the \\c[3]Bergen Guard\\c[0], \\v[lore.title.seeker].",
+         "transl": "Ich grüße dich im Namen der \\c[3]Bergen-Wache\\c[0], Seeker."
+        }
+       },
+       {
+        "message": {
+         "orig": "The goats have been quiet recently.\\. Hopefully peaceful coexistence will be possible.",
+         "transl": "Die Ziegen waren in letzter Zeit ruhig.\\. Ich hoffe, dass das auch künftig so bleibt."
+        }
+       },
+       {
+        "message": {
+         "orig": ".\\..\\..",
+         "transl": ".\\..\\.."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Sgt. Sterling",
+          "transl": "Hptm. Sterling"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], it's been long since we saw you last.\\. Your deeds have really left their mark.",
+          "transl": "Seeker! Ist lange her, dass du hier warst.\\. Deine Taten haben wirklich Spuren hinterlassen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Lea...",
+          "transl": "Lea..."
+         }
+        },
+        {
+         "message": {
+          "orig": "We also enjoyed a rather stable situation here.\\. The goats have never bothered us.",
+          "transl": "Es blieb auch bislang recht ruhig hier.\\. Die Ziegen haben uns nicht einmal gestört."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Though some recent incidents might be an omen for trouble.",
+          "transl": "Allerdings könnten die jüngsten Ereignisse ein schlechtes Omen sein."
+         }
+        },
+        {
+         "message": {
+          "orig": "How?",
+          "transl": "Wie?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hmph, I am not sure if we should involve a decorated \\v[lore.title.seeker] such as you in such a minor suspicion.",
+          "transl": "Hmm... ich weiß nicht, ob wir einen hochdekorierten Seeker wie dich mit so etwas überhaupt behelligen sollten."
+         }
+        },
+        {
+         "message": {
+          "orig": "Do you really want to get behind this?",
+          "transl": "Willst du dich wirklich darum kümmern?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Well, alright.\\. I guess you are worried for those goats as well, eh?",
+            "transl": "Na gut.\\. Du bist wohl auch etwas wegen der Ziegen besorgt, hm?"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "Anyway, let me explain.",
+            "transl": "Gut, ich erklär's dir."
+           }
+          },
+          null,
+          {
+           "message": {
+            "orig": "Those goats have kept completely to themselves since you handled that last incident.\\. Barely left their cave, even.",
+            "transl": "Die Ziegen sind seit dem letzten Vorfall ganz unter sich geblieben.\\. Sie haben sogar kaum ihre Höhle verlassen."
+           }
+          },
+          {
+           "message": {
+            "orig": "Recently however, they were seen wandering about close to the border of the Bergen region.\\. And they never returned!",
+            "transl": "Neulich wurden sie jedoch an unserer Grenze gesehen, wie sie dort umherwanderten.\\. Seitdem sind sie nicht wieder zurück!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Maybe it is nothing but we have a duty to get to the bottom of this.",
+            "transl": "Vielleicht ist es nichts, aber wir sind verpflichtet, der Sache auf den Grund zu gehen.<<A<<[CHANGED 2021/05/22]"
+           }
+          },
+          {
+           "message": {
+            "orig": "So please, \\v[lore.title.seeker], return to their cave and find out what happened.",
+            "transl": "Also, Seeker, statte ihrer Höhle bitte einen Besuch ab und finde heraus, was passiert ist, ja?"
+           }
+          },
+          {
+           "message": {
+            "orig": "And take that \\c[3]goat translator\\c[0] with you.\\. It might be useful.",
+            "transl": "Und nimm den \\c[3]Ziegen-Kommunikator\\c[0] mit.\\. Könnte hilfreich sein."
+           }
+          },
+          null,
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Good.\\. We will await your report soon.",
+            "transl": "Gut.\\. Wir erwarten deinen Bericht in Bälde."
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye.",
+            "transl": "Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "I thought so.\\. Don't you worry, the Bergen Guard got this under control.",
+            "transl": "Hab ich mir schon fast gedacht.\\. Keine Sorge, die Bergen-Wache wird sich selbst darum kümmern."
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sgt. Sterling",
+         "transl": "Hptm. Sterling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Go into the cave and find out what happened.\\. We as guards can't, but you \\v[lore.title.seeker] can!",
+         "transl": "Gehe zur Höhle und finde heraus, was passiert ist.\\. Als Wachen sind wir hier gebunden, im Gegensatz zu dir."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sgt. Sterling",
+         "transl": "Hptm. Sterling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "\\v[lore.title.seeker] what are you doing here?!\\. Our fellow guard is still waiting for reinforcements!",
+         "transl": "Seeker, was machst du hier?!\\. Die Wache wartet doch auf deine Verstärkung!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Please help them on the \\c[3]Windy Climb\\c[0] immediatly!",
+         "transl": "Bitte eile ihm am \\c[3]Windigen Aufstieg\\c[0] zu Hilfe!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Bye.",
+         "transl": "Bye."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Sgt. Sterling",
+          "transl": "Hptm. Sterling"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker]! There you are.\\. I got the report from our officer and it is truly worrying.",
+          "transl": "Ah, Seeker, du bist wieder da.\\. Der Bericht ist wirklich beunruhigend."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Having organized groups of creatures working together across regions is almost unheard of and could mean a whole host of trouble.",
+          "transl": "Dass Verbrecherbanden verschiedener Regionen gemeinsame Sache machen, war uns bislang nahezu unbekannt. Ein neuer Gefahrenherd!"
+         }
+        },
+        {
+         "message": {
+          "orig": "You need to investigate this urgently.\\. Scouts have traced that escaped bird towards the jungle of \\c[3]\\v[area.jungle.name]\\c[0].",
+          "transl": "Du musst den Fall dringend untersuchen.\\. Unsere Späher haben die Spur des flüchtigen Vogels bis zum Dschungel von \\c[3]Gaias Garten\\c[0] verfolgt."
+         }
+        },
+        {
+         "message": {
+          "orig": "... Meet?",
+          "transl": "... Treffen?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Indeed, you should \\c[3]visit the local Guard\\c[0] in \\v[area.jungle-city.name] and cooperate with them.",
+          "transl": "Ja, du solltest \\c[3]die örtliche Wache\\c[0] in Burg Bassin aufsuchen und mit ihnen zusammenarbeiten."
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Knowing their chief, \\c[3]Daz Bronzel\\c[0], he will not like this development any more than we do.",
+          "transl": "Wie ich Hauptmann \\c[3]Daz Bronzel\\c[0] kenne, wird ihm diese Entwicklung genauso wenig gefallen wie uns."
+         }
+        },
+        {
+         "message": {
+          "orig": "Lea.",
+          "transl": "Lea."
+         }
+        },
+        {
+         "message": {
+          "orig": "Good, best of luck over there.\\. And give the captain my best regards.",
+          "transl": "Gut, viel Glück dort drüben.\\. Und richte dem Hauptmann meine besten Grüße aus."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye.",
+          "transl": "Bye."
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sgt. Sterling",
+         "transl": "Hptm. Sterling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "\\c[3]Visit the local Guard\\c[0] in \\v[area.jungle-city.name] and talk to \\c[3]Sgt. Bronzel\\c[0].",
+         "transl": "\\c[3]Besuche die örtliche Wache\\c[0] in Burg Bassin und rede mit \\c[3]Hauptmann Bronzel\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "You will need their cooperation to solve this case.",
+         "transl": "Du brauchst ihre Unterstützung, um den Fall zu lösen."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sgt. Sterling",
+         "transl": "Hptm. Sterling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "\\v[lore.title.seeker], I hear the locale of the assigment has now shifted to \\v[area.rhombus-sqr.name]?",
+         "transl": "Seeker, wie ich höre, hat sich der Ort des Geschehens jetzt auf Rhombus Square verlagert?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       {
+        "message": {
+         "orig": "Oh my...\\. This case sure keeps on getting bigger and more confusing by the minute.",
+         "transl": "Meine Güte...\\. Dieser Fall wird von Minute zu Minute größer und verwirrender."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Sgt. Sterling",
+          "transl": "Hptm. Sterling"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], I have already heard the reports.\\. It feels like you travelled half of Shadoon to crack this case.",
+          "transl": "Seeker, ich habe die Berichte bereits gehört.\\. Da bist du wohl durch halb Shadoon gereist, um diesen Fall zu lösen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Impressive work.\\. It seems like coexistence with the goats actually was possible.\\. After some persuasion.",
+          "transl": "Beeindruckende Arbeit.\\. Es sieht so aus, als wäre eine Koexistenz mit den Ziegen wirklich möglich.\\. Nach einiger Überredungskunst."
+         }
+        },
+        {
+         "message": {
+          "orig": "Word is, they even established a business.\\. Selling goat-related products in some park, if you believe it.",
+          "transl": "Es heißt, sie hätten sogar ein Geschäft gegründet.\\. Sie verkaufen jetzt in irgendeinem Park Ziegen-Produkte. Unglaublich, was?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, whatever the case, it is now in the hands of \\v[area.rhombus-sqr.name].",
+          "transl": "Wie dem auch sei, es liegt nun in den Händen von Rhombus Square."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hopefully the goats finally found a home there without causing further trouble.",
+          "transl": "Hoffentlich haben die Ziegen dort endlich eine Heimat gefunden und verursachen keinen Ärger mehr."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "As for you, you have once again earned our thanks and this reward.\\. Bergen Village is in your debt!",
+          "transl": "Und was dich angeht, hast du einmal mehr unseren Dank und diese Belohnung verdient.\\. Bergen steht in deiner Schuld!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sgt. Sterling",
+         "transl": "Hptm. Sterling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Greetings from the \\c[3]Bergen Guard\\c[0], \\v[lore.title.seeker].",
+         "transl": "Ich grüße dich im Namen der \\c[3]Bergen-Wache\\c[0], Seeker."
+        }
+       },
+       {
+        "message": {
+         "orig": "Everything is quiet right now, so there is no need to trouble yourself.",
+         "transl": "Im Moment ist alles ruhig. Kein Grund also, dich in Unannehmlichkeiten zu stürzen."
+        }
+       },
+       {
+        "message": {
+         "orig": ".\\..\\..",
+         "transl": ".\\..\\.."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Guard",
+      "transl": "Wache"
+     }
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "List of reported rabbit incidents",
+     "transl": "Liste der gemeldeten Hasen-Zwischenfälle"
+    }
+   }
+  }
+ ]
+}

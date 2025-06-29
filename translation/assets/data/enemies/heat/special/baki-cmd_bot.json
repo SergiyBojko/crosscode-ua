@@ -1,0 +1,97 @@
+{
+ "actions": {
+  "ChargeAttack": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "Charging!",
+     "transl": "Aufladen!<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "ShieldsOn": [
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Turret-shields online]",
+     "transl": "[Geschützschilde online]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "ShieldsOff": [
+   null,
+   {
+    "text": {
+     "orig": "[Turret-shields offline]",
+     "transl": "[Geschützschilde offline]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "ShowWeakAR": [
+   {
+    "text": {
+     "orig": "Weak!",
+     "transl": "Schwach!<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "StartCmd": [
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Engaging Command-Mode. Turret-shields online]",
+     "transl": "[Aktiviere Kommando-Modus. Geschützschilde online]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "GoSolo": [
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Engaging Assault-Mode]",
+     "transl": "[Aktiviere Angriffsmodus]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "summonBots": [
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Synthesizing reinforcements]",
+     "transl": "[Synthetisiere Verstärkungen]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Desert Leaderbot",
+   "transl": "Wüsten-Anführerbot<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "An improved variant of the more basic \\c[3]\\v[combat.name.default]\\c[0], used by the law-enforcement of \\c[3]\\v[area.heat-village.name]\\c[0]. It is usually accompanied by a squad of \\c[3]\\v[combat.name.heat/special/baki-turret_1]\\c[0] that it will shield while acting defensively. When forced to alone it will switch into a more aggressive mode.",
+     "transl": "Eine verbesserte Variante des einfacheren \\c[3]Rhombus-Vollstreckers 2.0\\c[0], die von den Strafverfolgungsbehörden in \\c[3]Ba'kii Kum\\c[0] eingesetzt wird. Er wird für gewöhnlich von einer Gruppe von \\c[3]Legionsgeschützen v1\\c[0] begleitet, die er abschirmt, während er selbst defensiv bleibt. Ist er jedoch alleine, wechselt er in einen aggressiveren Modus.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

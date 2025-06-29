@@ -1,0 +1,1144 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "The sick tree. Applying \\c[3]\\v[item.189.name]\\c[0] should cure it but it will take time.",
+        "transl": "Der kranke Baum. Auftragen der \\c[3]Herbstsalbe\\c[0] sollte ihn kurieren, wird aber seine Zeit brauchen."
+       },
+       "title": {
+        "orig": "Sick Special Tree",
+        "transl": "Kranker heiliger Baum"
+       },
+       "event": [
+        {
+         "text": {
+          "orig": "Applying salve",
+          "transl": "Trage Salbe auf"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+         "text": {
+          "orig": "Salve is taking effect!",
+          "transl": "Die Salbe zeigt Wirkung!"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "One of the sick trees. Apply \\c[3]\\v[item.171.name]\\c[0] to cure it.",
+        "transl": "Einer der kranken Bäume. \\c[3]Puren Herbst-Cidre\\c[0] auftragen, um ihn zu heilen."
+       },
+       "title": {
+        "orig": "Sick Tree",
+        "transl": "Kranker Baum"
+       },
+       "event": [
+        {
+         "text": {
+          "orig": "Applying extract",
+          "transl": "Trage Extrakt auf"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "text": {
+          "orig": "Sickness cured!",
+          "transl": "Krankheit geheilt!"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "You did well. ",
+       "transl": "Beachtlich."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "We don't like it but we are forced to give you this.",
+       "transl": "Es behagt uns nicht, aber wir sind gezwungen, dir dies zu überreichen."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Don't expect a second reward from us.",
+       "transl": "Erwarte keine zweite Belohnung von uns."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "\\i[arrow-ne] Autumn Residences\n\\i[arrow-w] To Bergen Trail\n\\i[arrow-e] To Rookie Harbor",
+      "transl": "\\i[arrow-ne] Autumn-Residenzen\n\\i[arrow-w] Zum Bergen-Trail\n\\i[arrow-e] Nach Rookie Harbor"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "text": {
+       "orig": "Missing Pass",
+       "transl": "Kein Pass"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "text": {
+     "orig": "This tree looks kinda weird...",
+     "transl": "Dieser Baum sieht seltsam aus..."
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "text": {
+     "orig": "\\c[1]Sick Tree\\c[0]",
+     "transl": "\\c[1]Kranker Baum\\c[0]"
+    }
+   }
+  },
+  null,
+  {
+   "settings": {
+    "text": {
+     "orig": "Healed Tree",
+     "transl": "Geheilter Baum"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "\\c[1]Sick Sacred Tree\\c[0]",
+     "transl": "\\c[1]Kranker heiliger Baum\\c[0]"
+    }
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "Tree HP",
+         "transl": "Baum-HP"
+        }
+       }
+      }
+     },
+     {
+      "task": {
+       "orig": "Hungry lifeforms approaching!",
+       "transl": "Hungrige Lebensformen nähern sich!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "\\c[3]Defend the tree for 2 minutes\\c[0] for the salve to take effect!",
+       "transl": "\\c[3]Verteidige den Baum für zwei Minuten\\c[0], damit die Salbe wirken kann!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Tree healed!",
+       "transl": "Baum geheilt!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Salve weakened!",
+           "transl": "Salbe schwindet!"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Salve strongly weakened!",
+           "transl": "Salbe schwindet stark!"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Salve almost dissolved!",
+           "transl": "Salbe fast verschwunden!"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         null,
+         null,
+         {
+          "text": {
+           "orig": "Salve dissolved!",
+           "transl": "Salbe verschwunden!"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Salve lost effect. The sickness returned!",
+       "transl": "Salbe hat ihre Wirkung verloren. Die Krankheit ist zurück!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "\\c[1]QUEST FAILED\\c[0]\n\nRestart task to try again",
+       "transl": "\\c[1]QUEST GESCHEITERT\\c[0]\n\nVersuch's nochmal!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Here we are!",
+         "transl": "Da wären wir!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Now this is the entrance to a small and humble \\c[3]guild area\\c[0].",
+         "transl": "Dies ist der Eingang zu einem kleinen und bescheidenen \\c[3]Gildengebiet\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "You'll need a pass to enter, so here you go!",
+         "transl": "Ihr braucht einen Pass, um einzutreten. Hier, nehmt den!"
+        }
+       },
+       null,
+       null,
+       {
+        "object": {
+         "orig": "\\v[item.170.name]",
+         "transl": "Gildenpass"
+        }
+       },
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "This item gives you access to our headquarters as well.",
+         "transl": "Dieses Item gewährt euch auch Zugang zu unserem Hauptquartier."
+        }
+       },
+       {
+        "message": {
+         "orig": "Now then, let's go!",
+         "transl": "Also, lasst uns gehen!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "message": {
+       "orig": "The entrance is over there to the \\c[3]north\\c[0].",
+       "transl": "Der Eingang ist dort drüben, \\c[3]im Norden\\c[0]."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Lea?",
+       "transl": "Lea?"
+      }
+     },
+     {
+      "message": {
+       "orig": "That...\\. Lukas...\\. he does not remember what happened, correct?",
+       "transl": "Dieser...\\. Lukas...\\. Er erinnert sich nicht mehr, was passiert ist, korrekt?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Why?",
+       "transl": "Warum?"
+      }
+     },
+     {
+      "message": {
+       "orig": "I...\\. kind of suspected as much.",
+       "transl": "Ich...\\. habe so etwas schon befürchtet."
+      }
+     },
+     {
+      "message": {
+       "orig": "Sorry, I should have talked with you about it.",
+       "transl": "Tut mir leid, darüber hätte ich mit dir reden sollen."
+      }
+     },
+     {
+      "message": {
+       "orig": "That Lukas you met in Vermillion Wasteland...",
+       "transl": "Der Lukas, den du in der Vermilloneinöde getroffen hast..."
+      }
+     },
+     {
+      "message": {
+       "orig": "He was most likely another \\c[3]Evotar\\c[0].",
+       "transl": "... war sehr wahrscheinlich auch ein \\c[3]Evotar\\c[0]."
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "In fact...\\. I suspect that was the case for all players we saw back there.",
+       "transl": "Ich fürchte...\\. dass auch all die anderen Spieler, die wir dort gesehen haben, Evotare waren."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Do you...\\. not want to go back to them?",
+       "transl": "Willst du nicht...\\. zu ihnen zurück?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[shakes head]",
+       "transl": "[schüttelt Kopf]"
+      }
+     },
+     {
+      "message": {
+       "orig": "I see.",
+       "transl": "Verstehe."
+      }
+     },
+     {
+      "message": {
+       "orig": "This situation is rather...\\. complicated.",
+       "transl": "Eine...\\. vertrackte Situation."
+      }
+     },
+     {
+      "message": {
+       "orig": "But I am sure they still mean well with you.",
+       "transl": "Ich bin mir aber sicher, dass sie dir immer noch wohlgesonnen sind."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "M-Maybe give it a bit of time.",
+       "transl": "V-Vielleicht braucht es etwas Zeit."
+      }
+     },
+     {
+      "message": {
+       "orig": "I am sure you will be able to reconcile eventually.",
+       "transl": "Ihr werdet euch bestimmt bald wieder versöhnen."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "I suppose...\\. we should go to \\c[3]Gaia's Garden\\c[0] next?",
+       "transl": "Vielleicht...\\. sollten wir als Nächstes nach \\c[3]Gaias Garten\\c[0] gehen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "That is the next major area, north of \\c[3]Autumn's Fall\\c[0].",
+       "transl": "Das ist das nächste größere Gebiet, das auf unserem Weg liegt."
+      }
+     },
+     {
+      "message": {
+       "orig": "Our goal is still to reach \\c[3]Sapphire Ridge\\c[0], correct?",
+       "transl": "Wir wollten doch zum \\c[3]Saphirgrat\\c[0], korrekt?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "I really should try to extend your vocabulary at least a little bit more.",
+       "transl": "Ich sollte dein Vokabular wirklich noch etwas erweitern."
+      }
+     },
+     {
+      "message": {
+       "orig": "It will be difficult, but I know a few words that might help you in situations like this.",
+       "transl": "Das wird nicht leicht, aber ich weiß ein paar Worte, die dir in solchen Situationen helfen könnten."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "I will get on that while you make your way through \\c[3]Gaia's Garden\\c[0], alright?",
+       "transl": "Ich kümmere mich darum, während du \\c[3]Gaias Garten\\c[0] durchquerst, in Ordnung?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Head to \\c[3]Gaia's Garden\\c[0] (north of \\c[3]Autumn's Fall\\c[0]) by yourself.",
+       "transl": "Erkunde \\c[3]Gaias Garten\\c[0] (nördlich von \\c[3]Autumn's Fall\\c[0]) auf eigene Faust."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

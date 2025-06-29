@@ -1,0 +1,76 @@
+{
+ "actions": {
+  "Quest-MoveToBarrier1": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<Goto Barrier 1>",
+       "transl": "<Goto Barrier 1><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-MoveToBarrier2": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<Goto Barrier 2>",
+       "transl": "<Goto Barrier 2><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-BarrierDmg": [
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "<Dmg Barrier 1>",
+         "transl": "<Dmg Barrier 1><<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "thenStep": [
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "<Dmg Barrier 2>",
+         "transl": "<Dmg Barrier 2><<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Insect, Bug",
+   "transl": "Insekt, Käfer<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "A variant of the \\c[3]\\v[combat.name.mine-coldbug]\\c[0] though less attuned to the element of Cold. Instead it evolved into having an even harder shell than their cousins. The only way to properly damage them would be by using \\c[3]heavy explosives\\c[0].",
+     "transl": "Eine Variante des \\c[3]\\v[combat.name.mine-coldbug]\\c[0], die weniger auf das Element Kälte abgestimmt ist. Dafür hat es einen weitaus härteren Panzer als seine Kollegen. Die einzige Möglichkeit, ihnen ernsthaft beizukommen, sind \\c[3]Bomben\\c[0].<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

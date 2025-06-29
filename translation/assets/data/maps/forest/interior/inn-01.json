@@ -1,0 +1,989 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Area: \\v[area.forest.name]",
+      "transl": "Gebiet: Saphirgrat"
+     },
+     "title": {
+      "orig": "\\c[3]Bulletin Board\\c[0]",
+      "transl": "\\c[3]Schwarzes Brett\\c[0]"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Pi Ling",
+          "transl": "Pi Ling"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Greetings, Seeker!",
+          "transl": "Grüß dich, Seeker!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Are you looking for hints on how to get the \\c[3]Shade\\c[0] of this area?",
+          "transl": "Suchst du nach Hinweisen, wie du die hiesige \\c[3]Form\\c[0] erlangen kannst?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "In that case, my grandmother should be able to help you!",
+          "transl": "In dem Fall sollte dir meine Großmutter weiterhelfen können!"
+         }
+        },
+        {
+         "message": {
+          "orig": "You can usually find her at the balcony at the very top.",
+          "transl": "Du findest sie für gewöhnlich auf dem Dachbalkon.<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Pi Ling",
+         "transl": "Pi Ling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Greetings, Seeker!",
+         "transl": "Grüß dich, Seeker!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Talk to the owner of this establishment to learn more about the shade of this area.",
+         "transl": "Sprich mit dem Besitzer der Herberge, um mehr über die hiesige Form zu erfahren."
+        }
+       },
+       {
+        "message": {
+         "orig": "You usually find her at the balcony at the very top.",
+         "transl": "Du findest sie für gewöhnlich auf dem Dachbalkon."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Pi Ling",
+          "transl": "Pi Ling"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "And did you talk to her?",
+          "transl": "Und? Hast du mit ihr geredet?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "How?!",
+          "transl": "Wie?!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yeah, I know. She is old and it is a bit hard to understand her.",
+          "transl": "Ja, ich weiß. Sie ist alt und es ist nicht leicht, zu verstehen, was sie dir sagen will."
+         }
+        },
+        {
+         "message": {
+          "orig": "But she really does try to help.",
+          "transl": "Aber sie versucht wirklich zu helfen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Just go to the \\c[3]south\\c[0] from here. Walk \\c[3]through the bamboo\\c[0].",
+          "transl": "Gehe von hier aus einfach nach \\c[3]Süden\\c[0]. Laufe \\c[3]durch den Bambus\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "There is somebody there that will help you.",
+          "transl": "Dort gibt es jemanden, der dir helfen wird."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Why?",
+          "transl": "Warum?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Uhm... Do you wonder why I didn't tell you right away?",
+          "transl": "Öhm... Du fragst dich, warum ich dir das nicht gleich gesagt habe?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "I-It's just tradition!",
+          "transl": "D-Das ist so Tradition bei uns!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Also... she's always so happy when she's able to help.",
+          "transl": "Außerdem... Sie freut sich immer so sehr, wenn sie jemandem helfen kann."
+         }
+        },
+        {
+         "message": {
+          "orig": "She doesn't get much company these days, you see?",
+          "transl": "Sie bekommt in letzter Zeit nicht viel Besuch, weißt du?<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "So... thank you for talking to her!",
+          "transl": "Also... Danke, dass du mit ihr geredet hast!"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        },
+        null,
+        null,
+        {
+         "task": {
+          "orig": "Just walk through the \\c[3]bamboo trees\\c[0] south of the \\c[3]Cave Inn\\c[0] to find somebody.",
+          "transl": "Einfach durch den \\c[3]Bambuswald\\c[0] südlich der \\c[3]Höhlenherberge\\c[0] gehen. Da findest du jemanden."
+         }
+        },
+        {
+         "thenStep": [
+          {
+           "message": {
+            "orig": "Such a kind lady.",
+            "transl": "Eine Dame mit einem Herz aus Gold."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Pi Ling",
+         "transl": "Pi Ling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Just go to the \\c[3]south\\c[0] from here. Walk \\c[3]through the bamboo\\c[0].",
+         "transl": "Gehe von hier aus einfach nach \\c[3]Süden\\c[0]. Laufe \\c[3]durch den Bambus\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "There is somebody there that will help you.",
+         "transl": "Dort gibt es jemanden, der dir helfen wird."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Pi Ling",
+         "transl": "Pi Ling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Greetings, Seeker!",
+         "transl": "Grüß dich, Seeker!"
+        }
+       },
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "Ah! It seems you found what you have been looking for.",
+           "transl": "Ah! Sieht so aus, als hättest du gefunden, wonach du gesucht hast."
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "Ah... it seems you already found that person at the bonfire, didn't you?",
+           "transl": "Ah... Ich nehme an, du hast den Mann am Lagerfeuer bereits getroffen, oder?"
+          }
+         }
+        ]
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       {
+        "message": {
+         "orig": "Good luck in passing his trials! I've heard quite the stories from other seekers.",
+         "transl": "Viel Erfolg bei seinen Prüfungen! Ich habe andere Seeker schon viel darüber berichten hören."
+        }
+       },
+       {
+        "message": {
+         "orig": "If you happen to be stuck.... maybe grandmother can help you?",
+         "transl": "Falls du an einer Stelle nicht weiterkommst... kann dir Großmutter vielleicht helfen?"
+        }
+       },
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "Or you know... she'd at least be happy to talk to you!",
+           "transl": "Und wenn nicht... wäre sie zumindest froh, dass sie einfach nur mit dir reden kann!"
+          }
+         },
+         {
+          "message": {
+           "orig": "...",
+           "transl": "..."
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "You find her around the balcony of the top-most floor.",
+           "transl": "Du findest sie für gewöhnlich auf dem Dachbalkon."
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "What a rude guy!",
+       "transl": "Was für ein unhöflicher Kerl!"
+      }
+     },
+     {
+      "text": {
+       "orig": "Typical self-centered player if you ask me.",
+       "transl": "Typischer Ich-Mensch, wenn du mich fragst."
+      }
+     },
+     {
+      "text": {
+       "orig": "You'd think he would have seen me \\c[3]with those big glasses\\c[0].",
+       "transl": "Als wenn der mich \\c[3]mit seinen dicken Gläsern\\c[0] nicht gesehen hätte."
+      },
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hi!",
+         "transl": "Hi!"
+        }
+       },
+       {
+        "message": {
+         "orig": "You're looking for that weird dude?",
+         "transl": "Suchst du etwa diesen komischen Kerl?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       {
+        "message": {
+         "orig": "He just ran past, even pushing me to the side.",
+         "transl": "Ist gerade an mir vorbeigerannt, hat mich sogar angerempelt!"
+        }
+       },
+       {
+        "message": {
+         "orig": "What a douche...",
+         "transl": "So ein Depp..."
+        }
+       },
+       {
+        "thenStep": [
+         null,
+         {
+          "object": {
+           "orig": "\"Whereabouts\" Clue",
+           "transl": "\"Aufenthaltsort\"-Hinweis"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Aaand back on the table.",
+       "transl": "Du sitzt schon wieder auf dem Tisch."
+      }
+     },
+     {
+      "text": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "text": {
+       "orig": "This can is fascinating.",
+       "transl": "Diese Dose ist faszinierend."
+      }
+     },
+     {
+      "text": {
+       "orig": "Can you stop the act already? I know this is not about the can.",
+       "transl": "Kannst du mit dem Theater mal aufhören? Ich weiß, dass es dir nicht um die Dose geht."
+      }
+     },
+     {
+      "text": {
+       "orig": "It's... all about the can...",
+       "transl": "Es geht mir... nur um die Dose..."
+      }
+     },
+     {
+      "text": {
+       "orig": "Why won't you simply admit it? You like to sit on tables.",
+       "transl": "Warum gibst du es nicht einfach zu? Du sitzt gerne auf Tischen!"
+      }
+     },
+     {
+      "text": {
+       "orig": "No, it's not true!",
+       "transl": "Nein, das ist nicht wahr!"
+      },
+      "event": [
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Why?",
+         "transl": "Warum?"
+        }
+       },
+       {
+        "message": {
+         "orig": "Huh?",
+         "transl": "Höh?"
+        }
+       },
+       {
+        "message": {
+         "orig": "See? Now even this random player here agrees!",
+         "transl": "Siehst du? Sogar fremde Leute stimmen mir zu!"
+        }
+       },
+       {
+        "message": {
+         "orig": "She should just admit it, right?",
+         "transl": "Sie sollte es einfach zugeben, richtig?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       {
+        "message": {
+         "orig": "B-But...",
+         "transl": "A-Aber..."
+        }
+       },
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Look, there is nothing...\\. wrong with sitting on tables.",
+         "transl": "Schau, es ist wirklich nichts...\\. falsch daran, gerne auf Tischen zu sitzen.<<A<<[CHANGED 2021/05/22]"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       {
+        "message": {
+         "orig": "I mean sure... it's weird. But we're in a game. We're here to have fun.",
+         "transl": "Ich meine, klar... merkwürdig ist es schon. Aber wir sind hier in einem Spiel. Hier geht's um Spaß!"
+        }
+       },
+       {
+        "message": {
+         "orig": "If sitting on tables is your idea of fun then more power to you!",
+         "transl": "Und wenn dir auf Tischen sitzen Spaß macht, dann nur zu!"
+        }
+       },
+       {
+        "message": {
+         "orig": "But for so many years... people always told me to not do it. That it's bad manners.",
+         "transl": "Aber all die Jahre... hat man mir immer gesagt, ich soll das nicht tun. Dass sich das nicht gehört."
+        }
+       },
+       {
+        "message": {
+         "orig": "Who cares, we're in CrossWorlds! This is a place to screw around and let loose!",
+         "transl": "Wen kümmert's? Wir sind in CrossWorlds! Der ideale Ort, um mal etwas durchzudrehen!"
+        }
+       },
+       {
+        "message": {
+         "orig": "And I definitely never saw any player being banned for sitting on a table.",
+         "transl": "Und ich habe noch keinen Spieler gesehen, der gebannt wurde, weil er auf Tischen saß."
+        }
+       },
+       {
+        "message": {
+         "orig": "You're right...",
+         "transl": "Du hast recht..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Of course I am!\\. Just admit it!",
+         "transl": "Natürlich habe ich das!\\. Gib's einfach zu!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Alright!",
+         "transl": "Na gut!"
+        }
+       },
+       {
+        "message": {
+         "orig": "I love sitting on tables!!",
+         "transl": "Ich liebe es, auf Tischen zu sitzen!!"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Sitting on tables is the best!!",
+         "transl": "Auf Tischen sitzen macht einfach Bock!!"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Everyone! Sitting on tables is amazing!",
+         "transl": "Hört mal alle her! Auf Tischen sitzen ist großartig!"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Huh?",
+         "transl": "Häh?"
+        }
+       },
+       {
+        "message": {
+         "orig": "You see the world from a new angle!",
+         "transl": "Du siehst die Welt aus einem völlig neuen Blickwinkel!"
+        }
+       },
+       {
+        "message": {
+         "orig": "It will change your perspective on everything!",
+         "transl": "Es wird deine Sichtweise komplett verändern!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Damn girl, that's some deep stuff!",
+         "transl": "Ey jau, ich glaub', da könnste recht haben!"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Thank you so much, you two!",
+         "transl": "Vielen, vielen Dank ihr zwei!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Finally, I was able to open up!!",
+         "transl": "Endlich konnte ich das mal rauslassen!!<<A<<[CHANGED 2021/05/22]"
+        }
+       },
+       {
+        "message": {
+         "orig": "N-No problem!\\. You definitely seem more happy this way!",
+         "transl": "K-Kein Problem!\\. Du wirkst wirklich viel fröhlicher so!<<A<<[CHANGED 2021/05/22]"
+        }
+       },
+       {
+        "message": {
+         "orig": "I am!!",
+         "transl": "Aber sowas von!!"
+        }
+       },
+       {
+        "message": {
+         "orig": "I have to go now!\\. I have to spread the message!!",
+         "transl": "Ich muss jetzt gehen!\\. Das muss ich gleich allen erzählen!!"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Oh dear, she really did a complete 180 there, didn't she?",
+         "transl": "Oh Mann, jetzt hat sie's ins genaue Gegenteil verschlagen, was?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "message": {
+         "orig": "I better have a look what she's up to now.",
+         "transl": "Ich schau mal besser nach, was sie jetzt macht."
+        }
+       },
+       {
+        "message": {
+         "orig": "See you around!",
+         "transl": "Man sieht sich!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Bye!",
+         "transl": "Bye!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Sai Ling",
+         "transl": "Sai Ling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Hello, Seeker!",
+         "transl": "Hallo, Seeker!"
+        }
+       },
+       {
+        "message": {
+         "orig": "This is the \\c[3]Cave Inn\\c[0], a hostel built inside a house from the very beginnings of human activity on Planet Shadoon.",
+         "transl": "Dies ist die \\c[3]Höhlenherberge\\c[0]. Das Haus stammt noch von den frühen Anfängen der menschlichen Zivilisation auf diesem Planeten."
+        }
+       },
+       {
+        "message": {
+         "orig": "If I can offer you a room, please let me know.",
+         "transl": "Sag Bescheid, wenn ich dir ein Zimmer anbieten kann..."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       {
+        "message": {
+         "orig": "...Is what I would say if there was actually any room free...",
+         "transl": "... hätte ich jetzt zu dir gesagt, wenn wir tatsächlich noch ein Zimmer frei hätten..."
+        }
+       },
+       {
+        "message": {
+         "orig": "...Why?",
+         "transl": "... Warum?"
+        }
+       },
+       {
+        "message": {
+         "orig": "I'm afraid business is going up for us \\c[3]Ling's\\c[0], again.",
+         "transl": "Bedauerlicherweise läuft das Geschäft für uns \\c[3]Lings\\c[0] mal wieder zu gut.<<A<<[CHANGED 2021/05/22]"
+        }
+       },
+       {
+        "message": {
+         "orig": "Which of course is nothing to be afraid of... ",
+         "transl": "Was für uns natürlich erfreulich ist..."
+        }
+       },
+       {
+        "message": {
+         "orig": "However, our very own 24-7 shop, as well as a trade hub, are at your disposal.",
+         "transl": "Nichtsdestotrotz stehen dir natürlich noch unser 24/7-Laden und die Händler zur Verfügung!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Please enjoy your stay!",
+         "transl": "Einen angenehmen Aufenthalt wünsche ich!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Paro Ling",
+         "transl": "Paro Ling"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Your lot is pretty popular here these days, Seeker.",
+         "transl": "Leute wie dich sieht man hier in letzter Zeit sehr häufig, Seeker."
+        }
+       },
+       {
+        "message": {
+         "orig": "...Why?",
+         "transl": "... Warum?"
+        }
+       },
+       {
+        "message": {
+         "orig": "I still remember when I left home to find luck in the big city, our Inn was almost done for.",
+         "transl": "Ich erinnere mich noch, dass unsere Herberge kurz vor dem Aus stand, als ich damals auszog, um das große Glück in der Stadt zu suchen."
+        }
+       },
+       {
+        "message": {
+         "orig": "Imagine my surprise when I got a letter from my mother telling me to return.",
+         "transl": "Du kannst dir sicher vorstellen, wie überrascht ich war, als mich ein Brief von meiner Mutter erreichte, in dem sie mich bat, zurückzukehren."
+        }
+       },
+       {
+        "message": {
+         "orig": "Of course, I could never refuse such a request, so my wife and I packed our things and moved here.",
+         "transl": "Natürlich konnte ich unmöglich ablehnen. Deswegen sind meine Frau und ich hierhergezogen.<<A<<[CHANGED 2021/05/22]"
+        }
+       },
+       {
+        "message": {
+         "orig": "And we don't regret it! My wife still has some trouble getting used to our traditions, but she always wanted to live somewhere calm and peaceful.",
+         "transl": "Und wir bereuen es nicht! Meine Frau muss sich noch an die Traditionen gewöhnen, aber sie wollte schon immer an einem ruhigen und friedlichen Ort leben."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Now that I think about it, benches in Cross Worlds are very different from other games.",
+       "transl": "Wenn ich so drüber nachdenke, sind die Bänke in CrossWorlds anders als in anderen Spielen.<<A<<[CHANGED 2021/05/22]"
+      }
+     },
+     {
+      "text": {
+       "orig": "How so?",
+       "transl": "Warum?<<A<<[CHANGED 2021/05/22]"
+      }
+     },
+     {
+      "text": {
+       "orig": "Because they are actually useful! In most games they are purely decorative and you can't really sit on them.",
+       "transl": "Weil sie tatsächlich nützlich sind! In den meisten Spielen sind sie nur Deko und du kannst dich nicht mal darauf setzen."
+      }
+     },
+     {
+      "text": {
+       "orig": "Yeah, it's true that avatars allow proper sitting.",
+       "transl": "Ja, stimmt, mit Avataren kann man ja richtig sitzen."
+      }
+     },
+     {
+      "text": {
+       "orig": "Yet, it doesn't seem to be enough...",
+       "transl": "Und doch scheint das irgendwie nicht zu reichen..."
+      }
+     },
+     {
+      "text": {
+       "orig": "What do you mean?",
+       "transl": "Was meinst du damit?"
+      }
+     },
+     {
+      "text": {
+       "orig": "I feel like everyone in this game is trying to sit at the strangest place they can find.",
+       "transl": "Ich habe das Gefühl, dass die Leute sich die unmöglichsten Orte suchen, um dort zu sitzen."
+      }
+     },
+     {
+      "text": {
+       "orig": "Oh, true, I even saw a girl sitting on a table not so long ago.",
+       "transl": "Oh, stimmt, habe letztens sogar ein Mädel gesehen, das auf einem Tisch saß."
+      }
+     },
+     {
+      "text": {
+       "orig": "Right...\\. But I was thinking of someone else.",
+       "transl": "Ja...\\. Aber ich dachte da an jemand anderen."
+      }
+     },
+     {
+      "text": {
+       "orig": "What person could you possibly be talking about?",
+       "transl": "Wen meinst du denn?"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

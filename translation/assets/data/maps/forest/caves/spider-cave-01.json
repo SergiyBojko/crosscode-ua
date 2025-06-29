@@ -1,0 +1,964 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "quest": [
+        {
+         "text": {
+          "orig": "..A Trial it is you seek, and a trial you shall receive... ",
+          "transl": "... Du willst dich also prüfen lassen, so wollen wir dich prüfen..."
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "text": {
+          "orig": "...A warrior must stay focused even when surrounded...",
+          "transl": "... Ein Krieger bleibt stets konzentriert, auch wenn er umzingelt wird..."
+         }
+        },
+        {
+         "text": {
+          "orig": "...This trial will test both strength and speed...",
+          "transl": "... Diese Prüfung wird sowohl deine Stärke als auch deine Geschwindigkeit testen..."
+         }
+        },
+        {
+         "text": {
+          "orig": "...As your foes are fast and will grow in numbers even faster...",
+          "transl": "... Denn deine Feinde sind schnell und wachsen in ihrer Zahl noch schneller..."
+         }
+        },
+        {
+         "text": {
+          "orig": "...Now step into the ring and show us your \\c[3]Vigor\\c[0]...",
+          "transl": "... Nun tritt in den Ring und demonstriere uns deine \\c[3]Kraft\\c[0]..."
+         }
+        },
+        null,
+        {
+         "thenStep": [
+          {
+           "message": {
+            "orig": "We have to fight now? Please just let it be spiders...",
+            "transl": "Wir sollen kämpfen? Bitte lass es nur Spinnen sein..."
+           }
+          },
+          {
+           "thenStep": [
+            {
+             "message": {
+              "orig": "Now that's a plea I never imagined hearing...",
+              "transl": "Uff, das nenne ich mal eine verzweifelte Bitte..."
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "thenStep": [
+              {
+               "message": {
+                "orig": "Emilie, please. No spiders, either!",
+                "transl": "Emilie, bitte. Auch keine Spinnen!"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "text": {
+         "orig": "...A warrior must stay focused even when surrounded...",
+         "transl": "... Ein Krieger bleibt stets konzentriert, auch wenn er umzingelt wird..."
+        }
+       },
+       {
+        "text": {
+         "orig": "...This trial will test both strength and speed...",
+         "transl": "... Diese Prüfung wird sowohl deine Stärke als auch deine Geschwindigkeit testen..."
+        }
+       },
+       {
+        "text": {
+         "orig": "...As your foes are fast and will grow in numbers even faster...",
+         "transl": "... Denn deine Feinde sind schnell und wachsen in ihrer Zahl noch schneller..."
+        }
+       },
+       {
+        "text": {
+         "orig": "...Now step into the ring and show us your \\c[3]Vigor\\c[0]...",
+         "transl": "... Nun tritt in den Ring und demonstriere uns deine \\c[3]Kraft\\c[0]..."
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "event": {
+       "quest": [
+        {
+         "text": {
+          "orig": "...You have completed the \\c[3]Trial of Vigor\\c[0]...",
+          "transl": "... Du hast die \\c[3]Prüfung der Kraft\\c[0] bestanden..."
+         }
+        },
+        {
+         "text": {
+          "orig": "...Take this token as a sign of your victory...",
+          "transl": "... Nimm dies als Zeichen unserer Anerkennung..."
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "text": {
+         "orig": "...Stay ever vigilant, Seeker...",
+         "transl": "... Bleib stets wachsam, Seeker..."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "thenStep": [
+          null,
+          null,
+          null,
+          {
+           "text": {
+            "orig": "...Welcome back Seeker...",
+            "transl": "... Willkommen zurück, Seeker..."
+           }
+          },
+          {
+           "text": {
+            "orig": "...You mastered all trials and even bested our champion...",
+            "transl": "... Du hast alle Prüfungen bestanden und sogar unseren Meister übertroffen..."
+           }
+          },
+          {
+           "text": {
+            "orig": "...Now it is time to test your limits...",
+            "transl": "... Nun ist es an der Zeit, deine Grenzen zu testen..."
+           }
+          }
+         ]
+        },
+        null,
+        {
+         "thenStep": [
+          {
+           "text": {
+            "orig": "...Changed your mind, Seeker...",
+            "transl": "... Du hast es dir also anders überlegt, Seeker..."
+           }
+          },
+          {
+           "thenStep": [
+            {
+             "value": {
+              "orig": "Surival [Normal]",
+              "transl": "Überlebenskampf [normal]"
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "thenStep": [
+              {
+               "value": {
+                "orig": "Surival [Hard]",
+                "transl": "Überlebenskampf [hart]"
+               }
+              }
+             ],
+             "elseStep": [
+              {
+               "value": {
+                "orig": "Endless",
+                "transl": "Endlos"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ],
+         "elseStep": [
+          {
+           "text": {
+            "orig": "...Seeker, which challenge will you take...",
+            "transl": "... Seeker, welche Herausfordering nimmst du an..."
+           }
+          }
+         ]
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "text": {
+          "orig": "\\s[0]Highscores\n-------------------------\n\\c[3]Survival [Normal]\\c[0]: \\v[misc.localNumTempVar.score-surival-normal]\n\\c[3]Survival [Hard]\\c[0]: \\v[misc.localNumTempVar.score-surival-hard]\n\n\\c[3]Endless\\c[0]: \\v[misc.localNumTempVar.score-endless]\n-------------------------\n\\c[3]Total Eliminations\\c[0]: \\v[map.totalKills]\n-------------------------",
+          "transl": "\\s[0]Rekorde\n-------------------------\n\\c[3]Überlebenskampf [normal]\\c[0]: \\v[misc.localNumTempVar.score-surival-normal]\n\\c[3]Überlebenskampf [hart]\\c[0]: \\v[misc.localNumTempVar.score-surival-hard]\n\n\\c[3]Endlos\\c[0]: \\v[misc.localNumTempVar.score-endless]\n-------------------------\n\\c[3]Insgesamt erlegt\\c[0]: \\v[map.totalKills]\n-------------------------"
+         }
+        },
+        {
+         "3": [
+          null,
+          {
+           "text": {
+            "orig": "...Very well...",
+            "transl": "... So sei es..."
+           }
+          }
+         ],
+         "4": [
+          {
+           "text": {
+            "orig": "Combo Timer UI disabled!",
+            "transl": "Kombo-Timer deaktiviert!"
+           }
+          }
+         ],
+         "5": [
+          {
+           "text": {
+            "orig": "Combo Timer UI enabled! It will be displayed in the bottom right corner.",
+            "transl": "Kombo-Timer aktiviert! Wird unten rechts angezeigt."
+           }
+          }
+         ],
+         "6": [
+          {
+           "text": {
+            "orig": "Welcome to the \\c[3]Ring of Spiders\\c[0]!\n\nChoose the mode you want to try out to begin the challenge.",
+            "transl": "Willkommen im \\c[3]Spinnenring\\c[0]!\n\nWähle einen Modus, um die Herausforderung zu beginnen."
+           }
+          },
+          {
+           "text": {
+            "orig": "\\c[3]Survival\\c[0] is similar to the original \\c[3]Trial of Vigor\\c[0]. But instead of 2 minutes, you need to survive for 4.\n\\c[3]Survival [Hard]\\c[0] works the same, but the spiders will be adjusted to match your level.",
+            "transl": "\\c[3]Überlebenskampf\\c[0] ist der \\c[3]Prüfung der Kraft\\c[0] ähnlich. Statt zwei musst du hier jedoch vier Minuten überleben.\nDer Unterschied zu \\c[3]Überlebenskampf [hart]\\c[0] ist, dass die Spinnen sich deinem Level anpassen."
+           }
+          },
+          {
+           "text": {
+            "orig": "\\c[3]Endless\\c[0] will test both endurance and skill. Try to survive as long as you can against the hordes of spiders. \nEnemies will gradually get stronger as time passes on. ",
+            "transl": "\\c[3]Endlos\\c[0] testet dein Durchhaltevermögen und Können. Überlebe solange wie du kannst gegen Horden von Spinnen. \nDie Gegner werden mit der Zeit stärker werden."
+           }
+          },
+          {
+           "text": {
+            "orig": "Gain points by defeating spiders. Defeat enemies fast to increase the combo multiplier \\c[3]by 10%\\c[0]. This stacks infinitely for as long as you defeat another enemy in the time limit of \\c[3]8 seconds\\c[0].\nYou can enable/disable the combo timer in the selection menu.",
+            "transl": "Erhalte Punke, indem du Spinnen besiegst. Besiege Gegner schnell, um deinen Kombo-Multiplikator um \\c[3]10%\\c[0] zu erhöhen. Dieser erhöht sich stetig weiter, solange du den nächsten Gegner \\c[3]innerhalb von acht Sekunden\\c[0] besiegst. \nDu kannst den Kombo-Timer im Menu aktivieren/deaktivieren."
+           }
+          },
+          {
+           "text": {
+            "orig": " Additionally, \\c[3]defeating multiple enemies at once\\c[0] will give a huge bonus. But you only have half a second so line them up well.\nEarning EXP, Credits and Items are disabled for the duration of a challenge.",
+            "transl": "Außerdem erhältst du viele Extrapunkte, wenn du \\c[3]mehrere Gegner auf einmal besiegst\\c[0]. Hier liegt der zeitliche Abstand bei einer halben Sekunde, besiege sie also am besten haufenweise. EXP, Credits und Gegenstände erhältst du allerdings nicht."
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "Survival \\c[2][Normal]\\c[0]",
+            "transl": "Überlebenskampf \\c[2][normal]\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Survival \\c[2][Hard]\\c[0]",
+            "transl": "Überlebenskampf \\c[2][hart]\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Endless",
+            "transl": "Endlos"
+           }
+          },
+          {
+           "label": {
+            "orig": "Abort \\c[3]\\v[tmp.cancelString]\\c[0]",
+            "transl": "Abbrechen \\c[3]\\v[tmp.cancelString]\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Combo Timer \\c[2][On]\\c[0]",
+            "transl": "Kombo-Timer \\c[2][An]\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Combo Timer \\c[1][Off]\\c[0]",
+            "transl": "Kombo-Timer \\c[1][Aus]\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\c[3][Help]\\c[0]",
+            "transl": "\\c[3][Hilfe]\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Cancel",
+            "transl": "Abbrechen"
+           }
+          }
+         ]
+        },
+        null,
+        {
+         "thenStep": [
+          {
+           "text": {
+            "orig": "...Very well. Step into the ring to begin...",
+            "transl": "... So sei es. Tritt in den Ring, um den Kampf zu beginnen..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "elseStep": [
+         {
+          "thenStep": [
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           {
+            "task": {
+             "orig": "Defeat the remaining spiders!",
+             "transl": "Besiege die übrigen Spinnen!"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...Why?",
+       "transl": "... Warum?"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...Sorry!",
+       "transl": "... Sorry!"
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Survive the onslaught of spiders!",
+       "transl": "Halte dem Ansturm der Spinnen stand!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "...An impressive display...",
+       "transl": "... Eine beeindruckende Demonstration..."
+      }
+     },
+     {
+      "text": {
+       "orig": "...Come and collect your reward...",
+       "transl": "... Komm zurück und empfange deine Belohnung..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "task": {
+         "orig": "Survive the onslaught of spiders!",
+         "transl": "Halte dem Ansturm der Spinnen stand!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "task": {
+         "orig": "Survive as long as you can!",
+         "transl": "Halte so lange wie möglich durch!"
+        }
+       }
+      ]
+     },
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Score",
+         "transl": "Punkte"
+        }
+       }
+      }
+     },
+     null,
+     {
+      "thenStep": [
+       {
+        "guiInfo": {
+         "settings": {
+          "text": {
+           "orig": "combo",
+           "transl": "Kombo"
+          }
+         }
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "elseStep": [
+         {
+          "thenStep": [
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           {
+            "task": {
+             "orig": "Defeat the remaining spiders!",
+             "transl": "Besiege die übrigen Spinnen!"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "value": {
+         "orig": "Normal",
+         "transl": "Normal"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "value": {
+         "orig": "Hard",
+         "transl": "Hart"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "\\s[0]\\c[3]New Survival [\\v[tmp.modeName]] Record!\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Points",
+           "transl": "\\s[0]\\c[3]Neuer Überlebenskampf [\\v[tmp.modeName]]-Rekord!\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Punkte"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "text": {
+           "orig": "\\s[0]\\c[3]New Surival [\\v[tmp.modeName]] Record!\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Points\n-------------------------\nOld Best:\n\n\\v[misc.localNumTempVar.bestScoreString] Points",
+           "transl": "\\s[0]\\c[3]Neuer Überlebenskampf [\\v[tmp.modeName]]-Rekord!\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Punkte\n-------------------------\nAlter Bestwert:\n\\v[misc.localNumTempVar.bestScoreString] Punkte"
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "\\s[0]\\c[3]Score Surival [\\v[tmp.modeName]]:\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Points\n-------------------------\nBest:\n\\v[misc.localNumTempVar.bestScoreString] Points\n",
+         "transl": "\\s[0]\\c[3]Überlebenskampf [\\v[tmp.modeName]]:\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Punkte\n-------------------------\nBestwert:\n\\v[misc.localNumTempVar.bestScoreString] Punkte\n"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "\\s[0]\\c[3]New Endless Record!\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Points\n\n\\s[0]\\c[3]Time\\c[0]\n\\v[map.timeStringEndless]\n\\s[0]\\c[3]Eliminations\\c[0]\n\\v[map.killsValEndless]",
+           "transl": "\\s[0]\\c[3]Neuer Endlos-Rekord!\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Punkte\n\n\\s[0]\\c[3]Zeit\\c[0]\n\\v[map.timeStringEndless]\n\\s[0]\\c[3]Erlegte Spinnen\\c[0]\n\\v[map.killsValEndless]"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "text": {
+           "orig": "\\s[0]\\c[3]New Surival Endless Record!\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Points\n\n\\s[0]\\c[3]Time\\c[0]\n\\v[map.timeStringEndless]\n\\s[0]\\c[3]Eliminations\\c[0]\n\\v[map.killsValEndless]",
+           "transl": "\\s[0]\\c[3]Neuer Endlos-Rekord!\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Punkte\n\n\\s[0]\\c[3]Zeit\\c[0]\n\\v[map.timeStringEndless]\n\\s[0]\\c[3]Erlegte Spinnen\\c[0]\n\\v[map.killsValEndless]"
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "\\s[0]\\c[3]Score Endless:\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Points\n\n\\s[0]\\c[3]Time\\c[0]\n\\v[map.timeStringEndless]\n\\s[0]\\c[3]Eliminations\\c[0]\n\\v[map.killsValEndless]\n",
+         "transl": "\\s[0]\\c[3]Endlos:\\c[0]\n\\v[misc.localNumTempVar.scoreStringValue] Punkte\n\n\\s[0]\\c[3]Zeit\\c[0]\n\\v[map.timeStringEndless]\n\\s[0]\\c[3]Erlegte Spinnen\\c[0]\n\\v[map.killsValEndless]\n"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

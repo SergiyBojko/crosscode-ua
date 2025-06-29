@@ -1,0 +1,184 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "A new future lies ahead of you.",
+         "transl": "Eine neue Zukunft erwartet dich."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "You reached a dead end.",
+         "transl": "Du hast eine Sackgasse erreicht."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "The path to the future is \\c[3]locked away\\c[0]...",
+         "transl": "Der Pfad zur Zukunft ist \\c[3]versperrt\\c[0]..."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "You are ready for the future!",
+           "transl": "Du bist bereit für die Zukunft!"
+          }
+         },
+         {
+          "text": {
+           "orig": "Start the \\c[3]Post Game Episode\\c[0]?",
+           "transl": "\\c[3]Post Game-Episode\\c[0] starten?"
+          },
+          "options": [
+           {
+            "label": {
+             "orig": "Yes",
+             "transl": "Ja"
+            }
+           },
+           {
+            "label": {
+             "orig": "No",
+             "transl": "Nein"
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "text": {
+           "orig": "You wonder what will happen next.",
+           "transl": "Du fragst dich, wie es nun weitergeht."
+          }
+         },
+         {
+          "text": {
+           "orig": "This point marks the beginning of the Post Game DLC:\n\\c[3]CrossCode: A New Home\\c[0].",
+           "transl": "An diesem Punkt beginnt der Post Game DLC:\n\\c[3]CrossCode: A New Home\\c[0]"
+          }
+         },
+         {
+          "text": {
+           "orig": "It features a new dungeon, a new area to explore, as well as an extension of the story.",
+           "transl": "Er bietet einen neuen Dungeon, ein neues Gebiet zum Erforschen, sowie eine Erweiterung der Geschichte."
+          }
+         },
+         {
+          "text": {
+           "orig": "Once the DLC has been installed, you can continue from this point on.",
+           "transl": "Nachdem der DLC installiert wurde, kannst du von diesem Punkt aus fortfahren."
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Maybe the \\c[3]key to the future\\c[0] lies in the \\c[3]past\\c[0].",
+         "transl": "Möglicherweise liegt der \\c[3]Schlüssel zur Zukunft\\c[0] in der \\c[3]Vergangenheit\\c[0]."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "You ponder about returning to the \\c[3]past\\c[0].",
+         "transl": "Du erwägst, in die \\c[3]Vergangenheit\\c[0] zurückzukehren."
+        }
+       }
+      ]
+     },
+     {
+      "text": {
+       "orig": "Return to the \\c[3]past\\c[0].\n\nYou can return back to the \\c[3]beginning of Chapter 10\\c[0] shortly after you met Satoshi.",
+       "transl": "Kehre in die \\c[3]Vergangenheit\\c[0] zurück.\n\nDu kannst \\c[3]zum Beginn des 10. Kapitels\\c[0] zurück, kurz nachdem du Satoshi begegnet bist."
+      }
+     },
+     {
+      "text": {
+       "orig": "Your actions in the past might impact your future.\n\nYou will keep your \\c[3]level, items and quest progress\\c[0].",
+       "transl": "Deine Entscheidungen in der Vergangenheit könnten deine Zukunft beeinflussen.\n\nDu wirst deinen \\c[3]Level, deine Items und deinen Quest-Fortschritt\\c[0] beibehalten."
+      }
+     },
+     {
+      "text": {
+       "orig": "You will also have the option to \\c[3]skip the Final Raid and Dungeon\\c[0].",
+       "transl": "Du hast außerdem die Option, den \\c[3]Letzten Raid und Dungeon\\c[0] zu überspringen."
+      }
+     },
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Do you want to return to the \\c[3]past\\c[0]?",
+       "transl": "Möchtest du zurück in die \\c[3]Vergangenheit\\c[0]?"
+      },
+      "options": [
+       {
+        "label": {
+         "orig": "Yes",
+         "transl": "Ja"
+        }
+       },
+       {
+        "label": {
+         "orig": "No",
+         "transl": "Nein"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

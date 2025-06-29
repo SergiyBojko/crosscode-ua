@@ -1,0 +1,74 @@
+{
+ "actions": {
+  "Quest-AddShield": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<SHIELD ON>",
+       "transl": "<SCHILD AN><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-RemoveShield": [
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<SHIELD OFF>",
+       "transl": "<SCHILD AUS><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-SwitchMarker": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<SWITCH MARKER>",
+       "transl": "<SWITCH MARKER><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-AttackBall": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Focussing Probe]",
+     "transl": "[Fokussiere Sonde]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Headbanging Mammal",
+   "transl": "Headbangendes Säugetier<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "This meerkat shows the same characteristics as normal ones. However it has gained the ability to surround stones in a thick layer of ice and throw them at aggressors. Those hurt like hell, so you better watch out.\nIts name is quite misleading, as the music its listening to has been found to be heavy metal.",
+     "transl": "Diese Erdmännchen unterscheiden sich nicht von ihren Artgenossen. Allerdings hüllen sie die Steine, die sie schleudern, in dickes Eis. Das tut höllisch weh, also sollte man besser aufpassen.\nIhr Name ist irreführend, da sie meist Heavy Metal hören.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Guard",
+      "transl": "Wache"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "The first of our new mines is just inside.\\. Miner Darrel is always in need of support.",
+         "transl": "Der neue Stollen ist gleich hier drinnen.\\. Darrel kann immer Hilfe gebrauchen."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "destinations": [
+     {
+      "label": {
+       "orig": "G: HQ",
+       "transl": "G: Hauptquartier"
+      }
+     },
+     {
+      "label": {
+       "orig": "B1: New Mine #1",
+       "transl": "B1: Neuer Stollen #1"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

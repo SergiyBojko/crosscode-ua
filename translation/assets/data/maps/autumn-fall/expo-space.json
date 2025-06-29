@@ -1,0 +1,131 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Traveler, envoy of change,\nyou have mastered the trial of these fields.",
+       "transl": "Reisender, Gesandter des Wandels,\ndu hast die Prüfung dieser Felder bestanden."
+      }
+     },
+     {
+      "text": {
+       "orig": "I will bestow upon you the Shade\nto open the passage to the north.",
+       "transl": "Ich werde dir diese Form schenken, \num das Tor zum Norden zu öffnen."
+      }
+     },
+     {
+      "text": {
+       "orig": "Let your every step\nform the path of your growth.",
+       "transl": "Möge jeder deiner Schritte\nden Pfad deines Wachstums ebnen."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "object": {
+       "orig": "\\v[item.376.name]",
+       "transl": "Grüne Samenform"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Go catch that Frobbit!",
+         "transl": "Fang den Pogonickel!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "Your journey has taken you across\nthese signs of prosperity long passed.",
+         "transl": "Deine Reise hat dich zu diesen Zeugnissen\nlängst vergangenen Wohlstands geführt."
+        }
+       },
+       {
+        "text": {
+         "orig": "Seeking your next destination\nin the wilderness to the north...",
+         "transl": "Auf der Suche nach deinem nächsten Ziel\nin der Wildnis des Nordens..."
+        }
+       },
+       {
+        "text": {
+         "orig": "... you must first accomplish\nthe \\c[3]trial of these fields\\c[0].",
+         "transl": "... musst du zunächst die \n\\c[3]Prüfung dieser Felder\\c[0] bestehen."
+        }
+       },
+       {
+        "text": {
+         "orig": "Pursue the path \nof the \\c[3]luminous creature\\c[0]...",
+         "transl": "Folge dem Pfad \nder \\c[3]leuchtenden Kreatur\\c[0]..."
+        }
+       },
+       {
+        "text": {
+         "orig": "...and prove your mastery\nof the elements acquired.",
+         "transl": "... und beweise, dass du die \nerworbenen Elemente beherrschst."
+        }
+       },
+       {
+        "text": {
+         "orig": "Traveler, envoy of change,\nwill you accept this trial?",
+         "transl": "Reisender, Gesandter des Wandels, \nwirst du dich dieser Prüfung stellen?"
+        }
+       },
+       {
+        "accepted": [
+         {
+          "text": {
+           "orig": "Let your every step\nform the path of your growth.",
+           "transl": "Möge jeder deiner Schritte\nden Pfad deines Wachstums ebnen."
+          }
+         }
+        ],
+        "declined": [
+         {
+          "text": {
+           "orig": "Come back and accept this trial\nwhen you feel prepared.",
+           "transl": "Komme zurück, wenn du bereit bist, \ndich dieser Prüfung zu stellen."
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

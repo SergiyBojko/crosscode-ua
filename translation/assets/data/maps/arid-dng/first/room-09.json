@@ -1,0 +1,109 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Further to the \\c[3]east\\c[0]! You need to reach the \\c[3]wall\\c[0]!",
+       "transl": "Weiter nach \\c[3]Osten\\c[0]! Du musst die gegenüberliegende \\c[3]Wand\\c[0] erreichen!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Take off.",
+      "transl": "Auf und davon!"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "\\c[1]...!\\c[0]",
+         "transl": "\\c[1]...!\\c[0]"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "More!!",
+         "transl": "Mehr!!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

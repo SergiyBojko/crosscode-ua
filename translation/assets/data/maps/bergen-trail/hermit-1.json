@@ -1,0 +1,611 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Finally I'm out of this freezing storm...",
+       "transl": "Endlich bin ich aus diesem Schneesturm raus..."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "shop": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Hi there, fella.",
+          "transl": "Grüß dich, mein Freund."
+         }
+        },
+        {
+         "message": {
+          "orig": "Welcome to the \\c[3]Hermit's House\\c[0].",
+          "transl": "Willkommen in der \\c[3]Eremitenhütte\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "You can find all kinds of strange folks here. ",
+          "transl": "Hier kannst du auf die seltsamsten Leute treffen."
+         }
+        },
+        {
+         "message": {
+          "orig": "If you're looking for a hot beverage I can sell you one if you want?",
+          "transl": "Gelüstet es dich nach einem heißen Trunk oder einer warmen Mahlzeit?"
+         }
+        },
+        {
+         "0": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, but it's going to cost ya.",
+            "transl": "Gut, das wird dich aber was kosten."
+           }
+          }
+         ],
+         "1": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, your choice.",
+            "transl": "Na gut, deine Entscheidung."
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "Buy",
+            "transl": "Kaufen"
+           }
+          },
+          {
+           "label": {
+            "orig": "Decline",
+            "transl": "Ablehnen"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Hi there, fella.",
+          "transl": "Grüß dich, mein Freund."
+         }
+        },
+        {
+         "message": {
+          "orig": "Welcome to the \\c[3]Hermit's House\\c[0].",
+          "transl": "Willkommen in der \\c[3]Eremitenhütte\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah, you have been sent by Mrs. Summers to help us with our broken generator?\\. Man, we were getting worried!",
+          "transl": "Ah, Frau Summers hat dich geschickt, um uns mit dem defekten Generator zu helfen?\\. Oh Mann, endlich, wir haben uns schon Sorgen gemacht!"
+         }
+        },
+        {
+         "message": {
+          "orig": "See, without that generator this room will be pretty chilly soon.\\. And what's the point of it then?",
+          "transl": "Weißt du, ohne den Generator wird dieser Raum bald ziemlich eisig sein.\\. Dann können wir uns hier nur noch ein paar warme Gedanken machen!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "I know, right?\\. So we need some materials to fix that thing and most of them are pretty far away!",
+          "transl": "Genau!\\. Und für die Reparatur brauchen wir ein paar Dinge, an die wir nur schwer herankommen!"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "First off, \\c[3]\\v[item.190.name]\\c[0].\\. There're traders in Bergen who can refine it from cheaper metal with some other stuff.",
+          "transl": "Zunächst einmal bräuchten wir \\c[3]Veredeltes Metall\\c[0].\\. In Bergen gibt es Händler, die das aus einfacheren Metallen herstellen können."
+         }
+        },
+        {
+         "message": {
+          "orig": "Next we need \\c[3]\\v[item.163.name] from the \\v[area.cold-dng.name]\\c[0]...",
+          "transl": "Als Nächstes bräuchten wir \\c[3]Zahnräder\\c[0] aus der \\c[3]Tempelmine\\c[0]..."
+         }
+        },
+        {
+         "message": {
+          "orig": "... and some chunks of \\c[3]\\v[item.109.name]\\c[0] for the cooling.\\. You should find that Ice \\c[3]not far from here\\c[0].",
+          "transl": "... und etwas \\c[3]Bergen-Eis\\c[0] zum Kühlen.\\. Das solltest du hier \\c[3]ganz in der Nähe\\c[0] finden."
+         }
+        },
+        {
+         "message": {
+          "orig": "Lastly we need some fuel.\\. The generator runs on \\c[3]\\v[item.186.name]\\c[0] which only grows in \\c[3]\\v[area.heat-area.name]\\c[0].",
+          "transl": "Und natürlich etwas Sprit.\\. Der Generator läuft mit \\c[3]Dörrholz\\c[0], welches nur im \\c[3]Maronental\\c[0] wächst."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Yeah, it's quite a lot.\\. Those generators sure aren't simple campfires.\\. You got everything?",
+          "transl": "Ja, ist 'ne ganze Menge, ich weiß.\\. Ein Lagerfeuer wäre einfacher, das ballert aber nicht so wie die Dinger.\\. Alles notiert?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Alright, hope to see you soon.\\. Before we're all icicles in here.",
+          "transl": "Also gut, dann hoffentlich bis bald.\\. Möglichst bevor wir hier zu Eiszapfen werden..."
+         }
+        },
+        {
+         "message": {
+          "orig": "... bye.",
+          "transl": "... Bye."
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "shop": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Oh, hi there.\\. Haven't gotten the materials yet, eh?",
+          "transl": "Oh, hallo.\\. Du hast noch nicht alle Sachen zusammen, oder?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[shakes head]",
+          "transl": "[schüttelt Kopf]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, we are still running on backup-power, so it's fine.\\. But better not take too long with it.",
+          "transl": "Wir laufen hier noch mit Notstrom, also noch ist alles gut.\\. Aber lass dir nicht allzu viel Zeit..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Anyway, can I get you some drinks in the meantime?",
+          "transl": "Tja, magst 'nen Päuschen machen und was zu trinken haben?"
+         }
+        },
+        {
+         "0": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, but it's going to cost ya.",
+            "transl": "Gut, aber das wird dich was kosten."
+           }
+          }
+         ],
+         "1": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, your choice.",
+            "transl": "Na gut, deine Entscheidung."
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "Buy",
+            "transl": "Kaufen"
+           }
+          },
+          {
+           "label": {
+            "orig": "Decline",
+            "transl": "Ablehnen"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah, it's you.\\. And from that look on your face I guess you got all that stuff that we need for the repairs?",
+          "transl": "Ah, du bist's.\\. Und so wie du aussiehst, hast du wohl alles für die Reparatur zusammen?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Awesome!\\. Now I'll just use it to make a repair kit with everything you'll need.\\. Gimme a second...",
+          "transl": "Astrein!\\. Lass mich daraus kurz ein Reparaturkit basteln, dann hast du alles, was du brauchst.\\. Dauert nur 'ne Sekunde..."
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "message": {
+          "orig": "... and that's it.\\. Take this, go through the door behind me and just jam it into the generator in the basement.",
+          "transl": "... und zack, feddich!\\. Hier, geh damit durch die Tür hinter mir und pläster das einfach in den Generator im Keller."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Well... you will also need to get through some security barriers that appeared shortly after the generator broke.",
+          "transl": "Achja... du musst ein paar Sicherheitsbarrieren überwinden, die kurz nachdem der Generator beschädigt wurde aufgetaucht sind."
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Don't ask me what powers them and why they are protecting a damaged generator.",
+          "transl": "Frag mich aber nicht, wodurch die angetrieben werden oder warum die einen kaputten Generator beschützen."
+         }
+        },
+        {
+         "message": {
+          "orig": "The Hermit must've had some crazy ideas about interior design, back in his time.",
+          "transl": "Der Eremit muss ein paar verrückte Ideen zum Thema Inneneinrichtung gehabt haben, damals, zu seiner Zeit."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "shop": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Need a hot drink before going to work?\\. It's really cold down there!",
+          "transl": "Magst noch was Heißes zu trinken haben, bevor du dich an die Arbeit machst?\\. Ist wirklich kalt da unten!"
+         }
+        },
+        {
+         "0": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, but it's going to cost ya.",
+            "transl": "Gut, aber das wird dich was kosten."
+           }
+          }
+         ],
+         "1": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, your choice.",
+            "transl": "Also gut, deine Entscheidung."
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "Buy",
+            "transl": "Kaufen"
+           }
+          },
+          {
+           "label": {
+            "orig": "Decline",
+            "transl": "Ablehnen"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Hey there, hero.\\. We got power again and everything's running smoothly.\\. Amazing!",
+          "transl": "Ah, da ist ja unser Held!\\. Wir haben wieder Saft, et fluppt wieder!\\. Fantastisch!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "I already sent a message back to Mrs. Summers so you can claim your reward.",
+          "transl": "Ich habe Frau Summers schon benachrichtigt, damit du dir deine Belohnung abholen kannst."
+         }
+        },
+        {
+         "message": {
+          "orig": "Also, as special thanks, we will give you a small discount on all our drinks.",
+          "transl": "Außerdem gibt's für dich als kleines Dankeschön auf all unsere Getränke einen Nachlass."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "I hope to see you around more often!",
+          "transl": "Ich hoffe, wir werden dich hier noch öfter sehen!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "shop": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Welcome back, fella.\\. Great to see you around!",
+          "transl": "Willkommen zurück, Kumpel.\\. Schön, dich wiederzusehen!"
+         }
+        },
+        {
+         "message": {
+          "orig": "The \\c[3]Hermit's House\\c[0] still has its amazing selection of drinks.",
+          "transl": "Die \\c[3]Eremitenhütte\\c[0] hat immer noch großartige Getränke im Angebot!"
+         }
+        },
+        {
+         "message": {
+          "orig": "For you, it's still on a discount, of course!",
+          "transl": "Und für dich gilt der Rabatt natürlich immer noch."
+         }
+        },
+        {
+         "0": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, take your time!",
+            "transl": "Gut, dann mach's dir mal gemütlich!"
+           }
+          }
+         ],
+         "1": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, your choice.",
+            "transl": "Na gut, deine Entscheidung."
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "Buy",
+            "transl": "Kaufen"
+           }
+          },
+          {
+           "label": {
+            "orig": "Decline",
+            "transl": "Ablehnen"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Some friends of mine told me that you get some quests here after you beat the \\c[3]Temple Mine\\c[0].",
+         "transl": "Ein paar Freunde von mir meinten, man könnte hier ein paar Quests abstauben, nachdem man die \\c[3]Tempelmine\\c[0] abgeschlossen hat."
+        }
+       },
+       {
+        "message": {
+         "orig": "Not really seeing anyone new though...",
+         "transl": "Nur sehe ich gerade niemanden von denen hier abhängen..."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

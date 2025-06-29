@@ -1,0 +1,671 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "message": {
+       "orig": "Oh yeah!\\. Never mind the visor!\\. I just need this to see what you're doing.",
+       "transl": "О так! Не дивуйся щодо Візора! Він мені просто потрібен, щоб бачити, що ти тут робиш."
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Do not worry about it for now.\\. We will explain it to you later on.",
+       "transl": "Поки можеш про це не хвилюватися. Ми тобі це пояснимо пізніше."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Huh? Don't tell me you're already stuck?",
+         "transl": "Га? Не кажи мені що ти вже застрягнула?"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[киває]"
+          }
+         },
+         null,
+         {
+          "message": {
+           "orig": "Gee, back to the basics.",
+           "transl": "Йой, повернемося до основ."
+          }
+         },
+         null,
+         {
+          "message": {
+           "orig": "Look, how about you try to jump over this container here?",
+           "transl": "Слухай, а як щодо того, щоб спробувати перестрибнути цей контейнер?"
+          }
+         },
+         {
+          "message": {
+           "orig": "That cardboard box ain't there for no reason.",
+           "transl": "Картонна коробка там не просто так."
+          }
+         },
+         {
+          "guiInfo": {
+           "settings": {
+            "text": {
+             "orig": "Walk toward small objects to auto-jump on top of them.",
+             "transl": "Підійдіть до невеликих об'єктів, щоб автоматично застрибнути на них."
+            }
+           }
+          }
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[хитає головою]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Right, then! Go on!",
+           "transl": "Добре, тоді вперед!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[Yes]",
+           "transl": "[Так]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[No]",
+           "transl": "[Ні]"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Need a hint?",
+         "transl": "Потрібна допомога?"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[киває]"
+          }
+         },
+         null,
+         {
+          "thenStep": [
+           null,
+           {
+            "message": {
+             "orig": "So, that wall ain't there anymore. You're free to pass.",
+             "transl": "Отже, тієї стіни більше немає. Ти можеш йти далі."
+            }
+           },
+           {
+            "message": {
+             "orig": "Now all that's left is some jumping over those containers.",
+             "transl": "Тепер залишилося лише трохи пострибати через ці контейнери."
+            }
+           },
+           {
+            "guiInfo": {
+             "settings": {
+              "text": {
+               "orig": "Move toward edges to auto-jump over gaps.",
+               "transl": "Рухайтеся до країв, щоб автоматично перестрибувати через прогалини."
+              }
+             }
+            }
+           }
+          ],
+          "elseStep": [
+           null,
+           {
+            "message": {
+             "orig": "You need to find a way to remove this wall.",
+             "transl": "Тобі потрібно знайти спосіб позбутися цієї стіни."
+            }
+           },
+           {
+            "message": {
+             "orig": "Basic stuff, Lea. You'll need to throw balls at something.\\. That's all I'm gonna say.",
+             "transl": "Елементарно, Лія. Тобі просто доведеться у щось кидати кульки. Це все що я скажу."
+            }
+           }
+          ]
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[хитає головою]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Right, then! Go on!",
+           "transl": "Добре, тоді вперед!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[Yes]",
+           "transl": "[Так]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[No]",
+           "transl": "[Ні]"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Need a hint?",
+         "transl": "Потрібна допомога?"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[киває]"
+          }
+         },
+         null,
+         {
+          "thenStep": [
+           null,
+           {
+            "message": {
+             "orig": "Y'know, ball throwing is pretty much the solution to most obstacles around here.",
+             "transl": "Знаєш, кидання кульок - це, значною мірою, рішення більшості тутешніх проблем."
+            }
+           },
+           {
+            "message": {
+             "orig": "Those boxes here are no exception.",
+             "transl": "Оті коробки не є винятком."
+            }
+           }
+          ],
+          "elseStep": [
+           null,
+           {
+            "message": {
+             "orig": "Well, ain't that just another stupid wall....",
+             "transl": "Ну, хіба це не просто ще одна дурна стіна..."
+            }
+           },
+           {
+            "message": {
+             "orig": "But the color is different this time. Maybe that means something, who knows?",
+             "transl": "Але цього разу колір інший. Можливо, це щось означає, хто зна?"
+            }
+           },
+           {
+            "message": {
+             "orig": "I'm pretty sure you yourself can't pass it.\\. But maybe something else can...?",
+             "transl": "Я впевнений, що ти сама не зможеш це пройти.\\. Але, можливо, щось інше зможе...?"
+            }
+           }
+          ]
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[хитає головою]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Right, then! Go on!",
+           "transl": "Добре, тоді вперед!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[Yes]",
+           "transl": "[Так]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[No]",
+           "transl": "[Ні]"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Well, would ya look at all those switches! Need a hint?",
+         "transl": "Багато тут перемикачів, га? Потрібна порада?"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[киває]"
+          }
+         },
+         null,
+         {
+          "thenStep": [
+           null,
+           {
+            "message": {
+             "orig": "Yeah, that switch is pretty well hidden, huh?",
+             "transl": "Так, так, той перемикач там справді добре захований!"
+            }
+           },
+           {
+            "message": {
+             "orig": "Remember those charged balls?\\. Those bounce on walls, y'know?",
+             "transl": "Пам'ятаєш ті заряджені кульки? Вони відскакують від стін, кумекаєш?"
+            }
+           },
+           {
+            "message": {
+             "orig": "I'm sure those will help ya out here.",
+             "transl": "Було б смішно, якби вони не змогли допомогти тобі тут."
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "thenStep": [
+             null,
+             {
+              "message": {
+               "orig": "See those switches on the containers? Yes, you can hit those. From a distance, that is!",
+               "transl": "Бачиш ті перемикачі на контейнерах? Так, їх можна вдарити. З відстані, звісно ж."
+              }
+             },
+             {
+              "message": {
+               "orig": "Just make sure you throw the balls from the same height.",
+               "transl": "Тільки переконайся, що ти кидаєш кульки з тієї ж висоти."
+              }
+             }
+            ],
+            "elseStep": [
+             null,
+             {
+              "message": {
+               "orig": "Really?\\. You can't figure this one out?",
+               "transl": "У тебе з цим проблеми?\\. Справді?"
+              }
+             },
+             {
+              "message": {
+               "orig": "Just jump over the boxes and hit that thing hard.\\. That's all, really.",
+               "transl": "Просто перестрибни через коробки та вдар цю штуку.\\. От і все."
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[хитає головою]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Right, then! Go on! You're almost there!",
+           "transl": "Добре, тоді вперед! Ти майже на місці!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[Yes]",
+           "transl": "[Так]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[No]",
+           "transl": "[Ні]"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "That's all for this room!\\. Nice work, girl!",
+         "transl": "З цією кімнатою завершили!\\. Молодець, дівчино!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Reach the exit!",
+       "transl": "Дійдіть до виходу!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Alright! Let's get started!",
+       "transl": "Гаразд! Почнемо!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Your task is to reach the door at the other end of this room.",
+       "transl": "Твоє завдання - дістатися до дверей на іншому кінці кімнати."
+      }
+     },
+     {
+      "message": {
+       "orig": "And don't mind me! I'll just stick around and keep an eye on ya.",
+       "transl": "І не звертай на мене уваги! Я просто буду поруч і наглядатиму за тобою."
+      }
+     },
+     {
+      "message": {
+       "orig": "Well... I might give you some hints. If you ask nicely, y'know?",
+       "transl": "Ну... я можу дати тобі кілька порад, якщо ти мене чемно попросиш..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "blockEvent": [
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Wrong direction, girl.\\.\nGotta reach the teleporter!\n",
+       "transl": "Не туди, Лія!\\.\nТреба дістатися до телепорту!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Damn, how're we gonna pass this one?!",
+       "transl": "Дідько, як нам це пройти?"
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Actually, never mind. You can just go ahead and \\c[3]snipe it away\\c[0].",
+         "transl": "Взагалі-то, забудь. Можеш просто взяти і \\c[3]підстрелити його\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "But I'm still gonna do my resourceful instant matter building, don't mind me.",
+         "transl": "Але я все одно продовжу своє винахідливе будування миттєвою матерією, не звертай на мене увагу."
+        }
+       }
+      ],
+      "elseStep": [
+       null,
+       {
+        "message": {
+         "orig": "Wait, I got an idea!",
+         "transl": "Зачекай, у мене є ідея!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Carla, Instant Matter builder, at your service.",
+       "transl": "Карла, будівельниця Миттєвою Матерією, завжди до ваших послуг!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "message": {
+       "orig": "\\c[1]...!!\\c[0]",
+       "transl": "\\c[1]...!!\\c[0]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Damn you.",
+       "transl": "А щоб тебе."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

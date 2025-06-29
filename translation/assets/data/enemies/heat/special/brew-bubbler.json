@@ -1,0 +1,55 @@
+{
+ "proxies": {
+  "fireBallProxy": {
+   "action": [
+    {
+     "text": {
+      "orig": "OVERHEAT ATTACK",
+      "transl": "ÜBERHITZUNGSATTACKE<<C<<IGNORE"
+     }
+    }
+   ]
+  }
+ },
+ "actions": {
+  "BubbleSingle": [
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ PREPARING BUBBLE ]",
+     "transl": "[ ERZEUGE BLASE ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "FireShot": [
+   null,
+   {
+    "text": {
+     "orig": "[ RELEASING FIRE ]",
+     "transl": "[ FEUER FREISETZEN ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "TurnOn": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<ON>",
+       "transl": "<AN><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Machinery",
+   "transl": "Maschine<<C<<Geprüft: Minsu"
+  }
+ }
+}

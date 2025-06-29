@@ -1,0 +1,122 @@
+{
+ "actions": {
+  "jumpWater": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Z-0",
+         "transl": "Z-0<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Z-1",
+           "transl": "Z-1<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "Z-2",
+             "transl": "Z-2<<C<<Geprüft: Minsu"
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           {
+            "thenStep": [
+             {
+              "text": {
+               "orig": "Z-3",
+               "transl": "Z-3<<C<<Geprüft: Minsu"
+              }
+             }
+            ]
+           }
+          ],
+          "elseStep": [
+           {
+            "thenStep": [
+             {
+              "thenStep": [
+               {
+                "text": {
+                 "orig": "Z-4",
+                 "transl": "Z-4<<C<<Geprüft: Minsu"
+                }
+               }
+              ]
+             }
+            ],
+            "elseStep": [
+             {
+              "thenStep": [
+               {
+                "text": {
+                 "orig": "Z-5+",
+                 "transl": "Z-5+<<C<<Geprüft: Minsu"
+                }
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Bird",
+   "transl": "Vogel<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "A penguin on a mountain. How it made its way up here shall be forever unknown to mankind. It will throw snowballs at its enemies and slide at them. When pushed into the water they will jump out and attack with a fast divebomb, so watch out for your surroundings.",
+     "transl": "Ein Pinguin auf einem Berg. Wie der hier hochkommt, wird der Menschheit wohl immer ein Rätsel sein. Er wirft Schneebälle auf seine Gegner und attackiert sie durch Bauchrutscher. Wenn sie ins Wasser fallen, springen sie heraus und greifen im Sturzflug an. Pass also auf deine Umgebung auf.<<C<<Geprüft: Minsu"
+    }
+   },
+   {
+    "text": {
+     "orig": "The \\v[combat.name.minibosses/penguin-rapper] can use various forms of beatbox to animate it to attack in formation with other members of its kind.",
+     "transl": "Der Pengkönig Dakara setzt verschiedene Arten von Beatboxing ein, um sie zu animieren, in Formation mit anderen Mitgliedern ihrer Art anzugreifen.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

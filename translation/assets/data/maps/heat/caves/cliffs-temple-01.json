@@ -1,0 +1,62 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Another instanced cave...",
+         "transl": "Noch eine instanzierte Höhle..."
+        }
+       },
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "I'm really bad at those...",
+           "transl": "Die sind nicht gerade meine Stärke..."
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "I'm really bad at these instanced challenges.",
+           "transl": "Diese instanzierten Aufgaben liegen mir einfach nicht."
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

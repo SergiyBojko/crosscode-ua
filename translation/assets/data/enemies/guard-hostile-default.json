@@ -1,0 +1,206 @@
+{
+ "actions": {
+  "Init": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "Init",
+       "transl": "Starte<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "Attack_Stab_Triple": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "\"En garde!\"",
+     "transl": "\"En garde!\"<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "Blindside": [
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "\"Too easy!\"",
+     "transl": "\"Zu einfach!\"<<C<<Geprüft: Minsu"
+    }
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "hit": [
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "HIT",
+         "transl": "TREFFER<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ],
+    "missed": [
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "MISS",
+         "transl": "VERFEHLT<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "HealSandwich": [
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "RETREAT",
+           "transl": "RÜCKZUG<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "[Eating] #\\v[entity.attrib.sandwichUse]",
+       "transl": "[Isst] #\\v[entity.attrib.sandwichUse]<<C<<Geprüft: Minsu"
+      }
+     }
+    ],
+    "elseStep": [
+     {
+      "text": {
+       "orig": "[Eating]",
+       "transl": "[Isst]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "HealCancel": [
+   null,
+   null,
+   {
+    "text": {
+     "orig": "\"My sandwich! You'll pay!\"",
+     "transl": "\"Mein Sandwich! Das wirst du mir büßen!\"<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "summonTurrets": [
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "RETREAT",
+         "transl": "RÜCKZUG<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "TURRETS",
+       "transl": "GESCHÜTZE<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Getting Reinforcements]",
+     "transl": "[Hole Verstärkung]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Human Guard",
+   "transl": "Menschliche Wache<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "An armed human, currently or formerly employed by one of the many city guards on Shadoon.\n\nWield a powerful type of weapon that is used by most guards, the Laserlance. Also usually carries a standard ration of Sandwiches to recover from tiresome battles.",
+     "transl": "Ein bewaffneter Mensch, aktuell oder ehemals angestellt bei einer der vielen Stadtwachen auf Shadoon.\n\nSchwingt einen mächtigen Typ Waffe, den die meisten Wachen einsetzen - die Laserlanze. Trägt für gewöhnlich auch eine Standardration Sandwiches bei sich, um sich von anstrengenden Kämpfen zu erholen.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

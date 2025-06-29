@@ -1,0 +1,513 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "message": {
+       "orig": "Let's go!",
+       "transl": "Los geht's!"
+      }
+     },
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Wipe out, bummer!",
+         "transl": "Naaah, das war nix!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "Killed it! Sweet!",
+           "transl": "Astrein, Mann! So geht das!"
+          }
+         },
+         {
+          "message": {
+           "orig": "Come back here to get your reward!",
+           "transl": "Dann komm mal zurück für deine Belohnung!"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "CrossCentral",
+     "transl": "CrossCentral"
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Guard Offcr Cedric",
+      "transl": "Wm. Cedric"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Cedric",
+         "transl": "Wm. Cedric"
+        }
+       },
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker]. I have to keep watch on the harbor and protect our citizens, so please excuse me.",
+         "transl": "Grüß dich, Seeker. Ich halte hier Wache am Hafen, um die Bürger zu schützen. Also entschuldige mich bitte."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Cedric",
+          "transl": "Wm. Cedric"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hello, \\v[lore.title.seeker].\\. I assume they sent you to help me investigate this smuggling case?",
+          "transl": "Hallo, Seeker.\\. Ich nehme an, du bist die Verstärkung für den Schmugglerfall?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Excellent.\\. I want you to examine the crates on the eastern part of the harbor.",
+          "transl": "Ausgezeichnet.\\. Ich möchte, dass du die Kisten im östlichen Teil des Hafens überprüfst."
+         }
+        },
+        {
+         "message": {
+          "orig": "The data signature of the suspicious goods has already been sent to you, so you should be able to sense it.",
+          "transl": "Die Datensignatur der verdächtigen Güter wurde dir bereits übermittelt. Damit solltest du sie ausfindig machen können."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "I'll be here investigating our leads to potential culprits.\\. Come back when you've found something.",
+          "transl": "Ich bleibe hier und gehe die Hinweise zu möglichen Verdächtigen durch.\\. Komm zurück, wenn du was gefunden hast."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Cedric",
+         "transl": "Wm. Cedric"
+        }
+       },
+       {
+        "message": {
+         "orig": "The crate should be somewhere around here so you better find it!",
+         "transl": "Die Kiste muss hier irgendwo sein, mach dich also besser auf die Suche!"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Cedric",
+         "transl": "Wm. Cedric"
+        }
+       },
+       {
+        "message": {
+         "orig": "You go find that suspicious dockworker!\\. I'll make sure he doesn't leave for the city.",
+         "transl": "Du musst den verdächtigen Hafenarbeiter finden!\\. Ich passe hier auf, dass er den Hafen nicht verlässt."
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Cedric",
+         "transl": "Wm. Cedric"
+        }
+       },
+       {
+        "message": {
+         "orig": "Well met, \\v[lore.title.seeker]. There has been no further trouble at the docks so far but we should stay vigilant.",
+         "transl": "Gut gemacht, Seeker. Es gab an den Docks bisher keine Probleme mehr. Aber wir sollten wachsam sein."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "message": {
+         "orig": "Sacrebleu! Why would they add a door there?!",
+         "transl": "Sacrebleu! Warum haben die ausgerechnet hier eine Tür hingebaut?!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         null,
+         {
+          "message": {
+           "orig": "This door honestly just went where it was supposed to. Very consistent.",
+           "transl": "Diese Tür steht ehrlich gesagt genau dort, wo sie stehen sollte. Völlig stimmig."
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           null,
+           {
+            "message": {
+             "orig": "What was that? Did they honestly design it that way?",
+             "transl": "Was war denn das? Haben die sich dieses Design so gedacht?"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "proxies": {
+  "missilesHoming": {
+   "action": [
+    {
+     "text": {
+      "orig": "!!!",
+      "transl": "!!!"
+     }
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "hit": [
+      {
+       "text": {
+        "orig": "boom effects?",
+        "transl": "Knalleffekte?<<C<<Geprüft: Minsu"
+       }
+      }
+     ]
+    },
+    null,
+    null,
+    {
+     "hit": [
+      {
+       "text": {
+        "orig": "boom effects?",
+        "transl": "Knalleffekte?<<C<<Geprüft: Minsu"
+       }
+      }
+     ],
+     "missed": [
+      {
+       "hit": [
+        {
+         "text": {
+          "orig": "boom effects?",
+          "transl": "Knalleffekte?<<C<<Geprüft: Minsu"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "missilesExplosion": {
+   "action": [
+    {
+     "text": {
+      "orig": "!!!",
+      "transl": "!!!"
+     }
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "hit": [
+      {
+       "text": {
+        "orig": "boom effects?",
+        "transl": "Knalleffekte?<<C<<Geprüft: Minsu"
+       }
+      }
+     ]
+    },
+    null,
+    null,
+    {
+     "hit": [
+      {
+       "text": {
+        "orig": "boom effects?",
+        "transl": "Knalleffekte?<<C<<Geprüft: Minsu"
+       }
+      }
+     ],
+     "missed": [
+      {
+       "hit": [
+        {
+         "text": {
+          "orig": "boom effects?",
+          "transl": "Knalleffekte?<<C<<Geprüft: Minsu"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "actions": {
+  "GangsterShootCover": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Shooting...]",
+     "transl": "[Schieße...]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "GangsterReactCharged": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Lost control!]",
+     "transl": "[Kontrolle verloren!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "GangsterWarning": [
+   null,
+   {
+    "text": {
+     "orig": "[WARNING BIRDNOISES!]",
+     "transl": "[WARNENDE VOGELLAUTE!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "GangsterShootHostage": [
+   {
+    "text": {
+     "orig": "[Shooting Hostage...]",
+     "transl": "[Erschieße Geisel...]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "OLD_GangsterReactCharged": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Hit to free hostage!]",
+     "transl": "[Vogel treffen, um Geisel zu befreien!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Lawless Birdboss",
+   "transl": "Gesetzloser Vogelboss"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "The young and hot-headed boss of the Papagang. He only just recently took over the leadership position as the old boss retired. \nThough he seems vain and undisciplined, he is in fact a master with his powerful weaponry. Precise \\c[3]machinegun fire\\c[0], explosive \\c[3]fruitbombs\\c[0] and especially his tenacious \\c[3]seeking missiles\\c[0] have destroyed many a rival in the past.",
+     "transl": "Der junge und hitzköpfige Boss der Papagang. Er hat die Führung erst kürzlich übernommen, nachdem der alte Boss zurücktrat. Er scheint ungestüm und undiszipliniert zu sein, doch ist er in Wahrheit ein wahrer Meister seiner Waffenkunst. Präzises \\c[3]Maschinengewehrfeuer\\c[0], explosive \\c[3]Fruchtbomben\\c[0] und ganz besonders seine \\c[3]zielsuchenden Raketen\\c[0] haben bereits viele seiner Rivalen vernichtet."
+    }
+   }
+  ]
+ }
+}

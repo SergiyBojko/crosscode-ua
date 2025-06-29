@@ -1,0 +1,199 @@
+{
+ "actions": {
+  "Init": [
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Left side incoming!",
+         "transl": "Links kommt was!<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Right side incoming!",
+         "transl": "Rechts kommt was!<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     null,
+     {
+      "text": {
+       "orig": "Incoming!",
+       "transl": "Da kommt was!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(SPAWN \\v[entity.name], \\v[entity.attrib.stdSpeed] Speed)",
+       "transl": "(SPAWNE \\v[entity.name], \\v[entity.attrib.stdSpeed] Geschw.)<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "TDReachGoal": [
+   {
+    "text": {
+     "orig": "[INFILTRATION!]",
+     "transl": "[INFILTRATION!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "TDAlert": [
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "[WAVE REACHED LEFT DEFENSES!]",
+           "transl": "[WELLE ERREICHT LINKE FRONT!]<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "[WAVE REACHED RIGHT DEFENSES!]",
+           "transl": "[WELLE ERREICHT RECHTE FRONT!]<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     {
+      "thenStep": [
+       null,
+       {
+        "text": {
+         "orig": "[WAVE REACHED DEFENSES!]",
+         "transl": "[WELLE ERREICHT FRONT!]<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "TDWarning": [
+   {
+    "text": {
+     "orig": "[DANGER!]",
+     "transl": "[GEFAHR!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "TDEvade": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[Recover Shield...]",
+       "transl": "[Aktiviere Schild...]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "StartFullShield": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "FullShield On",
+       "transl": "Vollschild AN<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "EndFullShield": [
+   null,
+   {
+    "text": {
+     "orig": "[Shield neutralized!]",
+     "transl": "[Schild neutralisiert!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "EndFullShieldDizzy": [
+   null,
+   {
+    "text": {
+     "orig": "[Shield neutralized!]",
+     "transl": "[Schild neutralisiert!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Mammal",
+   "transl": "Säugetier<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "A close relative to the regular \\c[3]\\v[combat.name.jungle/shockcat]\\c[0], this specimen prefers to live underground. Usually they have a close connection to intensive points of Ancient power that they are eager to protect.\nThough they are stubbornly following strict paths, unlike their less disciplined and decidedly more cuddly cousins, they still retain a Shokat's blinding agility. Expect them to \\c[3]dodge projectiles\\c[0] of automated turrets with ease! \\c[3]Dodging will disrupt their shields\\c[0], though, and thus make them \\c[3]especially vulnerable to charged shots\\c[0] for a few seconds.",
+     "transl": "Dieses Exemplar ist ein enger Verwandter der gewöhnlichen \\c[3]Schockatz\\c[0] und lebt lieber im Untergrund. Normalerweise haben sie eine enge Verbindung zu Kraftpunkten der Ahnen, die sie bis aufs Blut verteidigen.\nObwohl sie - im Gegensatz zu ihren anderen Artgenossen - stur einem Pfad folgen, besitzen sie dennoch die blitzschnellen Reflexe ihrer Kollegen. Sie \\c[3]weichen Geschützgeschossen mit Leichtigkeit aus\\c[0]! Dabei \\c[3]deaktiviert sich jedoch ihr Schild\\c[0] - der ideale Augenblick für ein paar \\c[3]wuchtige Schüsse\\c[0]!"
+    }
+   }
+  ]
+ }
+}

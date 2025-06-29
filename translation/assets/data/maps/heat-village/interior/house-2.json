@@ -1,0 +1,171 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Oy Lady. Can I interest you in a rare trinket?",
+         "transl": "Arrr, Lady. Kann ich dich für ein seltenes Schmuckstück begeistern?"
+        }
+       },
+       {
+        "message": {
+         "orig": "One that will surely bring you nothing but good fortune, I swear!",
+         "transl": "Eines, das dir nichts als Glück bringt, das schwöre ich dir!"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[nickt]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Finally... I'm free...",
+           "transl": "Harrr... Endlich bin ich frei..."
+          }
+         },
+         {
+          "message": {
+           "orig": "...?",
+           "transl": "...?"
+          }
+         },
+         null,
+         null,
+         null,
+         null,
+         null,
+         {
+          "object": {
+           "orig": "\\v[item.403.name]",
+           "transl": "Verfluchte Münze"
+          }
+         },
+         null,
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "Well, that was strange...",
+             "transl": "Ähm, das war jetzt irgendwie komisch..."
+            }
+           },
+           {
+            "message": {
+             "orig": "...",
+             "transl": "..."
+            }
+           },
+           {
+            "message": {
+             "orig": "I wonder what the coin does...",
+             "transl": "Ich frage mich, was die Münze bewirkt..."
+            }
+           },
+           {
+            "thenStep": [
+             {
+              "message": {
+               "orig": "A coin is sometimes used as a fee for something.",
+               "transl": "Manchmal ist eine Münze eine Gebühr für etwas."
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[Shakes Head]",
+           "transl": "[schüttelt Kopf]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Aye... ye sure, sweetheart?",
+           "transl": "Aye... Bist du sicher, Schätzchen?"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "Yes",
+           "transl": "Ja"
+          }
+         },
+         {
+          "label": {
+           "orig": "No",
+           "transl": "Nein"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "message": {
+       "orig": "A flame inside a building? Really?",
+       "transl": "Ein Feuer in einem Gebäude? Oh je..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "text": {
+     "orig": "The Book of Dead",
+     "transl": "Das Buch der Toten"
+    }
+   }
+  }
+ ]
+}

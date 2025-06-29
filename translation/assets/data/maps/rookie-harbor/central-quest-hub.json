@@ -1,0 +1,734 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "\\c[3]The 4 Factions of Humanity\\c[0]",
+        "transl": "\\c[3]Die vier Fraktionen der Menschheit\\c[0]"
+       },
+       "event": [
+        {
+         "text": {
+          "orig": "Large parts of Humankind are organized into the \\c[3]4 big factions\\c[0].",
+          "transl": "Ein Großteil der Menschheit ist in \\c[3]vier großen Fraktionen\\c[0] organisiert."
+         }
+        },
+        {
+         "text": {
+          "orig": "Each of them is responsible for different aspects of human civilization, all of them crucial for survival and prosperity.",
+          "transl": "Jede von ihnen ist für verschiedene Aspekte der menschlichen Zivilisation verantwortlich, die alle für das Überleben und den Wohlstand entscheidend sind.<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "text": {
+          "orig": "The main headquarters of the factions are located in \\v[area.rhombus-sqr.name] but every human settlement harbors one \\c[3]local subdivision\\c[0] for each of them.",
+          "transl": "Ihre Hauptquartiere befinden sich in Rhombus Square, allerdings beherbergt jede bewohnte Siedlung eine \\c[3]lokale Vertretung\\c[0] jeder Fraktion."
+         }
+        },
+        {
+         "text": {
+          "orig": "The \\c[3]Venture Alliance\\c[0] is mainly responsible for doing pioneer work by exploring and claiming new land, hunting and scavenging wildlife and mining natural resources.\nIt is represented in \\v[area.rookie-harbor.name] by the \\c[3]Falldivers\\c[0].",
+          "transl": "Die \\c[3]Avantgarde-Allianz\\c[0] kümmert sich in erster Linie um Pionierarbeiten. Sie erkunden und beanspruchen neue Gebiete, jagen und sammeln in der Wildnis und bauen Rohstoffe ab. \nIn Rookie Harbor wird diese Fraktion durch die \\c[3]Herbsttaucher\\c[0] vertreten."
+         }
+        },
+        {
+         "text": {
+          "orig": "The \\c[3]Human Preservation Department\\c[0] is mainly responsible for the protection and discipline of the human settlements on \\v[lore.title.planet].\nIt is represented in \\v[area.rookie-harbor.name] by the \\c[3]Rookie Harbor Guard\\c[0].",
+          "transl": "Das \\c[3]Ministerium für Bürgerschutz\\c[0] ist hauptsächlich für die Sicherheit und Disziplin in den menschlichen Siedlungen auf Shadoon zuständig.\nIn Rookie Harbor wird diese Fraktion durch die hiesige \\c[3]Hafenwache\\c[0] vertreten."
+         }
+        },
+        {
+         "text": {
+          "orig": "The \\c[3]Association of Human Advancement\\c[0] is mainly responsible for trade, manufacturing and scientific research.\nIt is represented in \\v[area.rookie-harbor.name] by the \\c[3]Coastal Trading Coalition\\c[0].",
+          "transl": "Die \\c[3]Gesellschaft für Zivilisationsentwicklung\\c[0] ist vor allem für Handel, Produktion und Forschung zuständig.\nIn Rookie Harbor wird diese Fraktion durch den \\c[3]Küsten-Handelsverband\\c[0] vertreten."
+         }
+        },
+        {
+         "text": {
+          "orig": "The \\c[3]Amity of Balance\\c[0] is mainly responsible for farming, gathering and the research of native life and gaining an understanding of the inner workings of the \\v[lore.title.track-of-ancients].\nIt is represented in \\v[area.rookie-harbor.name] by the \\c[3]Fruits of Autumn\\c[0].",
+          "transl": "Die \\c[3]Wiege der Balance\\c[0] kümmert sich vorwiegend um Landwirtschaft und die Erforschung einheimischen Lebens und der inneren Mechanismen des Pfades der Ahnen.\nIn Rookie Harbor wird diese Fraktion durch die \\c[3]Früchte des Herbstes\\c[0] vertreten."
+         }
+        },
+        {
+         "text": {
+          "orig": "While the factions are filled with highly resourceful experts of their field, they often need the support of the \\c[3]\\v[lore.title.seeker]s\\c[0] because of their special connection to the \\c[3]\\v[lore.title.track-of-ancients]\\c[0].",
+          "transl": "Obwohl die Fraktionen viele findige Experten in ihren Reihen haben, sind sie häufig auf die Unterstützung der \\c[3]Seeker\\c[0] angewiesen - wegen ihrer besonderen Verbindung zum \\c[3]Pfad der Ahnen\\c[0]."
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Area: Rookie Harbor",
+      "transl": "Gebiet: Rookie Harbor"
+     },
+     "title": {
+      "orig": "\\c[3]Bulletin Board\\c[0]",
+      "transl": "\\c[3]Schwarzes Brett\\c[0]"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Whoa... such a crowded place.",
+       "transl": "Wow... Hier ist aber viel los!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Wilson the cactus",
+     "transl": "Wilson der Kaktus"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Bertha Bogenhanf",
+     "transl": "Bertha Bogenhanf"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "A map of CrossWorlds",
+     "transl": "Eine Karte von CrossWorlds"
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Faction Advisor",
+      "transl": "Fraktionsberater"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Faction Advisor",
+         "transl": "Fraktionsberater"
+        }
+       },
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker].\\. We should talk after you have gotten your briefing upstairs.",
+         "transl": "Grüß dich, Seeker.\\. Wir unterhalten uns später, wenn du oben deine Einführung bekommen hast."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Faction Advisor",
+          "transl": "Fraktionsberater"
+         }
+        },
+        {
+         "message": {
+          "orig": "Greetings, \\v[lore.title.seeker]. I see that you have completed the introduction to \\v[lore.title.operation-trackwalker].",
+          "transl": "Grüß dich, Seeker. Wie ich sehe, hast du die Einführung in die Operation Pfadläufer erhalten."
+         }
+        },
+        {
+         "message": {
+          "orig": "Thus you are now also qualified to use your abilities as a \\v[lore.title.seeker] to assist the \\c[3]4 factions\\c[0] in their duties.",
+          "transl": "Damit bist du nun auch qualifiziert, deine Fähigkeiten als Seeker bei den \\c[3]vier Fraktionen\\c[0] einzubringen und sie in ihren Pflichten zu unterstützen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "They are organizations that secure humanity's survival and prosperity through their special fields of expertise.",
+          "transl": "Das sind Organisationen, die den Fortbestand und Wohlstand der Menschheit durch ihre Expertisen auf verschiedenen Gebieten sichern."
+         }
+        },
+        {
+         "message": {
+          "orig": "More detailed information can be accessed in the terminal behind you.",
+          "transl": "Mehr Informationen kannst du am Terminal hinter dir abfragen."
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Faction Advisor",
+          "transl": "Fraktionsberater"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "For now you should know that each faction has a subdivision in \\v[area.rookie-harbor.name], like in every settlement.",
+          "transl": "Vorab solltest du wissen, dass jede Fraktion eine lokale Vertretung in Rookie Harbor hat, wie auch in jeder anderen bewohnten Siedlung."
+         }
+        },
+        {
+         "message": {
+          "orig": "To better understand our society and your place in it, you should get introduced to all of them.",
+          "transl": "Für ein besseres Verständnis unserer Gesellschaft und deinen Platz in ihr, solltest du dich allen einmal vorstellen."
+         }
+        },
+        {
+         "message": {
+          "orig": "For this purpose I will now issue an official assignment.\\. Please accept.",
+          "transl": "Zu diesem Zweck werde ich dir nun einen offiziellen Auftrag erteilen.\\. Ich bitte dich, ihn anzunehmen."
+         }
+        },
+        null,
+        null,
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Good.\\. Visit the representative of every faction in \\v[area.autumn-area.name] and introduce yourself.",
+            "transl": "Gut.\\. Besuche den Repräsentanten jeder Fraktion in Autumn's Rise und stelle dich ihnen vor."
+           }
+          },
+          {
+           "message": {
+            "orig": "Most of them can be found in their respective headquarters \\c[3]near the market or the western entrance\\c[0].",
+            "transl": "Drei davon findest du in ihren Hauptquartieren \\c[3]in der Nähe des Marktes bzw. des Westeingangs\\c[0]."
+           }
+          },
+          {
+           "message": {
+            "orig": "Though the HQ of the CTC is still inaccessible to new \\v[lore.title.seeker]s, their ambassador can be found \\c[3]just outside this building\\c[0].",
+            "transl": "Das Hauptquartier des KHVs ist für neue Seeker leider noch nicht zugänglich, aber ihr Botschafter \\c[3]steht draußen vor dem Gebäude\\c[0]."
+           }
+          },
+          {
+           "message": {
+            "orig": "Once you have visited all of them, return to me to get your reward.",
+            "transl": "Wenn du dich allen vorgestellt hast, kehre zu mir zurück, um deine Belohnung abzuholen."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Please accept\\v[tmp.plsAccept]",
+            "transl": "Ich bitte dich, anzunehmen\\v[tmp.plsAccept]"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Faction Advisor",
+         "transl": "Fraktionsberater"
+        }
+       },
+       {
+        "message": {
+         "orig": "Visit the representative of every faction in \\v[area.autumn-area.name] and introduce yourself.",
+         "transl": "Besuche den Repräsentanten jeder Fraktion in Autumn's Rise und stelle dich ihnen vor."
+        }
+       },
+       {
+        "message": {
+         "orig": "Most of them can be found in their respective headquarters near the market or the western entrance.",
+         "transl": "Drei davon findest du in ihren Hauptquartieren in der Nähe des Marktes oder des Westeingangs."
+        }
+       },
+       {
+        "message": {
+         "orig": "Though the HQ of the CTC is still inaccessible to new \\v[lore.title.seeker]s, their ambassador can be found \\c[3]just outside this building\\c[0].",
+         "transl": "Das Hauptquartier des KHVs ist für neue Seeker leider noch nicht zugänglich, aber ihr Botschafter \\c[3]steht draußen vor dem Gebäude\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "Once you have visited all of them, return to me to get your reward.",
+         "transl": "Wenn du dich allen vorgestellt hast, kehre zu mir zurück, um deine Belohnung abzuholen."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Faction Advisor",
+          "transl": "Fraktionsberater"
+         }
+        },
+        {
+         "message": {
+          "orig": "You have visited all of the factions in \\v[area.rookie-harbor.name]. Excellent.",
+          "transl": "Du hast alle Fraktionen in Rookie Harbor besucht. Ausgezeichnet."
+         }
+        },
+        {
+         "message": {
+          "orig": "I hope you now understand how you can help humanity, besides solving the \\v[lore.title.track-of-ancients].",
+          "transl": "Ich hoffe, du verstehst jetzt, dass du der Menschheit nicht nur helfen kannst, indem du den Pfad der Ahnen beschreitest."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "And remember that they might have new tasks available for you as time goes on.",
+          "transl": "Und denk daran, dass sie mit der Zeit neue Aufgaben für dich haben könnten."
+         }
+        },
+        {
+         "message": {
+          "orig": "So you should return and offer your help as you progress further.",
+          "transl": "Du solltest also von Zeit zu Zeit zurückkehren und schauen, ob du deine Hilfe anbieten kannst."
+         }
+        },
+        {
+         "message": {
+          "orig": "But for now take these rewards as a gesture from the \\v[lore.title.human-government].",
+          "transl": "Nun aber zu deiner Belohnung, die ich dir hiermit als eine Geste der Vereinten Reisenation überreiche."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Faction Advisor",
+         "transl": "Fraktionsberater"
+        }
+       },
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker].",
+         "transl": "Grüß dich, Seeker."
+        }
+       },
+       {
+        "message": {
+         "orig": "Remember that all factions might have new tasks available for you as time goes on.",
+         "transl": "Denk daran, dass alle Fraktionen mit der Zeit neue Aufgaben für dich haben könnten."
+        }
+       },
+       {
+        "message": {
+         "orig": "So you should return to offer your help as you progress.",
+         "transl": "Du solltest also von Zeit zu Zeit zurückkehren und schauen, ob du deine Hilfe anbieten kannst."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "That's such a cute little cactus~",
+       "transl": "Das ist so ein süßer kleiner Kaktus~"
+      }
+     },
+     {
+      "text": {
+       "orig": "Look! I think it's starting to blossom!",
+       "transl": "Sieh mal! Ich glaube, er fängt an zu blühen!"
+      }
+     },
+     {
+      "text": {
+       "orig": "That's great.",
+       "transl": "Großartig."
+      }
+     },
+     {
+      "text": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "text": {
+       "orig": "Do you really have to sit on the table to watch it?",
+       "transl": "Musst du deswegen auf dem Tisch sitzen, um ihn zu sehen?"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "C'mon, I want to go!",
+       "transl": "Komm schon, ich will gehen!"
+      }
+     },
+     {
+      "text": {
+       "orig": "Hush. I almost got it.",
+       "transl": "Scht! Ich hab's gleich."
+      }
+     },
+     {
+      "text": {
+       "orig": "You already said that 5 minutes ago!",
+       "transl": "Das hast du schon vor fünf Minuten gesagt!"
+      }
+     },
+     {
+      "text": {
+       "orig": "Blame that messed up search interface.",
+       "transl": "Schieb's auf die verkorkste Suchmaske hier!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "You look confused, Seeker.",
+         "transl": "Du siehst etwas irritiert aus, Seeker."
+        }
+       },
+       {
+        "message": {
+         "orig": "What you see here is the \\c[3]Bulletin Board\\c[0]. You can use it to see \\c[3]open quests in this area\\c[0].",
+         "transl": "Was du hinter mir siehst, ist das \\c[3]Schwarze Brett\\c[0]. Darauf werden alle \\c[3]offenen Quests in diesem Gebiet angezeigt\\c[0]."
+        }
+       },
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "If you want to know more about quests, I suggest you talk to my fellow advisors at the counter over there.",
+           "transl": "Wenn du mehr über Quests erfahren möchtest, empfehle ich dir, mit meinen Kollegen am Schalter hinter mir zu reden."
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "All new recruits, please go to the \\c[3]upper floor\\c[0] for the introductory briefing.",
+       "transl": "Alle neuen Rekruten sollen sich für die Einführung bitte in das \\c[3]obere Stockwerk\\c[0] begeben."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Training Advisor",
+      "transl": "Trainingsberater"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Training Advisor",
+         "transl": "Trainingsberater"
+        }
+       },
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker].\\. We should talk after you have completed your briefing upstairs.",
+         "transl": "Grüß dich, Seeker.\\. Wir unterhalten uns, wenn du oben deine Einführung erhalten hast."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Training Advisor",
+         "transl": "Trainingsberater"
+        }
+       },
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker]. I see that you have completed the introduction to \\v[lore.title.operation-trackwalker].",
+         "transl": "Grüß dich, Seeker. Wie ich sehe, hast du die Einführung in die Operation Pfadläufer erhalten."
+        }
+       },
+       {
+        "message": {
+         "orig": "To become the best \\c[3]Seeker\\c[0] you can be, we host a famous Teacher here in Rookie Harbor: \\c[3]Master Sensei\\c[0].",
+         "transl": "Um der beste \\c[3]Seeker\\c[0] zu werden, der du sein kannst, haben wir einen berühmten Lehrer zu Gast: \\c[3]Meister Sensei\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "He can teach you everything you need to know and more. Once you have mastered both the \\c[3]Heat\\c[0] and \\c[3]Cold\\c[0] elements, please find him in \\c[3]\\v[area.rookie-harbor.name] - Info Hub Dojo\\c[0]!",
+         "transl": "Er lehrt dich alles, was du wissen musst - und noch mehr. Sobald du die Elemente \\c[3]Hitze\\c[0] und \\c[3]Kälte\\c[0] gemeistert hast, steht er dir im \\c[3]Dojo des Info-Hubs\\c[0] zur Verfügung!<<A<<[CHANGED 2021/05/22]"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Training Advisor",
+         "transl": "Trainingsberater"
+        }
+       },
+       {
+        "message": {
+         "orig": "Congratulations on mastering your Seeker abilities with Master Sensei.",
+         "transl": "Herzlichen Glückwunsch zur Meisterung deiner Seeker-Fähigkeiten!"
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

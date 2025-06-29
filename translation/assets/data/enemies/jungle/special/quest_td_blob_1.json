@@ -1,0 +1,152 @@
+{
+ "actions": {
+  "Init": [
+   {
+    "thenStep": [
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Left side incoming!",
+         "transl": "Links kommt was!<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Right side incoming!",
+         "transl": "Rechts kommt was!<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     null,
+     {
+      "text": {
+       "orig": "Incoming!",
+       "transl": "Da kommt was!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   },
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(SPAWN \\v[entity.name], \\v[entity.attrib.stdSpeed] Speed)",
+       "transl": "(SPAWNE \\v[entity.name], \\v[entity.attrib.stdSpeed] Geschw.)<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "TDReachGoal": [
+   {
+    "text": {
+     "orig": "[INFILTRATION!]",
+     "transl": "[INFILTRATION!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "TDAlert": [
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "[WAVE REACHED LEFT DEFENSES!]",
+           "transl": "[WELLE ERREICHT LINKE FRONT!]<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "[WAVE REACHED RIGHT DEFENSES!]",
+           "transl": "[WELLE ERREICHT RECHTE FRONT!]<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     {
+      "thenStep": [
+       null,
+       {
+        "text": {
+         "orig": "[WAVE REACHED DEFENSES!]",
+         "transl": "[WELLE ERREICHT FRONT!]<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "TDWarning": [
+   {
+    "text": {
+     "orig": "[DANGER!]",
+     "transl": "[GEFAHR!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "StartFullShield": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "FullShield On",
+       "transl": "Vollschild AN<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "EndFullShield": [
+   null,
+   {
+    "text": {
+     "orig": "[Shield neutralized!]",
+     "transl": "[Schild neutralisiert!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Gelatin Mass ",
+   "transl": "Gelatinemasse<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "A close relative to the regular \\c[3]\\v[combat.name.jungle/blob]\\c[0], this specimen prefers to live underground. Usually they have a close connection to intensive points of Ancient power that they are eager to protect.\nSince it is more prone to traverse on strict paths, one might think of it as very inflexible. It is, however, just as wobbly as its overworldly relative.",
+     "transl": "Dieses Exemplar ist ein enger Verwandter des gewöhnlichen \\c[3]Gellerick\\c[0] und lebt lieber im Untergrund. Normalerweise haben sie eine enge Verbindung zu Kraftpunkten der Ahnen, die sie bis aufs Blut verteidigen.\nDa sie bekannt dafür sind, sich auf festen Pfaden zu bewegen, könnte man meinen, sie seien ziemlich unflexibel. Sie sind aber genau so wobbelig unterwegs wie ihre Verwandten an der Oberfläche.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

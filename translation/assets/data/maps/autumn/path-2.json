@@ -1,0 +1,862 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "One of the sick trees. Apply \\c[3]\\v[item.171.name]\\c[0] to cure it.",
+        "transl": "Einer der kranken Bäume. \\c[3]Puren Herbst-Cidre\\c[0] auftragen, um ihn zu heilen."
+       },
+       "title": {
+        "orig": "Sick Tree",
+        "transl": "Kranker Baum"
+       },
+       "event": [
+        {
+         "text": {
+          "orig": "Applying extract",
+          "transl": "Trage Extrakt auf"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "text": {
+          "orig": "Sickness cured!",
+          "transl": "Krankheit geheilt!"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Can't you see I'm in the middle of something here?",
+         "transl": "Siehst du nicht, dass ich beschäftigt bin?"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Still in the middle of something.",
+         "transl": "Ich bin immer noch beschäftigt."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...WHAT?",
+          "transl": "... WAS?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Oh dang it, I fell asleep again.",
+          "transl": "Oh, Verdammt. Ich bin schon wieder eingeschlafen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Sorry for startling you. Is this for me?",
+          "transl": "Sorry fürs Anblaffen. Ist das für mich?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Nice. I love presents! ",
+          "transl": "Wie toll. Ich liebe Geschenke!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Blue haired Spheromancer!",
+       "transl": "Blauhaariger Spheromancer!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "So we meet again!",
+       "transl": "So treffen wir uns wieder!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Mon Dieu, not this guy again~",
+       "transl": "Mon Dieu, nicht der schon wieder."
+      }
+     },
+     {
+      "message": {
+       "orig": "...Hi!",
+       "transl": "... Hi!"
+      }
+     },
+     null,
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "I see your level remains as \\c[1]UNACCEPTABLE\\c[0] as it has been before!",
+         "transl": "Wie ich sehe, ist dein Level noch genauso \\c[1]INAKZEPTABEL\\c[0] wie zuvor!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Why do you even care so much about this...\\.",
+         "transl": "Warum stört dich das eigentlich so sehr...?\\."
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "AGAIN, SHE IS \\c[1]LEVEL \\v[player.level]\\c[0]!",
+         "transl": "NOCHMAL: SIE HAT \\c[1]LEVEL \\v[player.level]\\c[0]!"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "EVERYBODY SHOULD CARE ABOUT THIS!!",
+         "transl": "DAS SOLLTE DOCH JEDEN STÖREN!!"
+        }
+       },
+       {
+        "message": {
+         "orig": "This game has \\c[1]RULES\\c[0]!!",
+         "transl": "Dieses Spiel hat schließlich \\c[1]REGELN\\c[0]!!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Anyway...",
+         "transl": "Jedenfalls..."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "Good!\\. I see your level is now in an acceptable range. ",
+         "transl": "Ah, gut!\\. Ich sehe, dein Level ist endlich im annehmbaren Rahmen."
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "As if that one level would have made a big difference.",
+         "transl": "Als ob das eine Level einen Unterschied gemacht hätte."
+        }
+       },
+       {
+        "message": {
+         "orig": "However!",
+         "transl": "Aber!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Your previous actions have not been forgotten!",
+         "transl": "Deine vorherigen Schandtaten sind nicht vergessen!"
+        }
+       }
+      ]
+     },
+     {
+      "message": {
+       "orig": "Being a cheater is bad as it is. ",
+       "transl": "Ein Cheater zu sein, ist schon schlimm genug!\n"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "But seeing a \\c[3]Spheromancer\\c[0] displaying such dishonest behavior!\\. It breaks my heart!",
+       "transl": "Aber einen \\c[3]Spheromancer\\c[0] zu sehen, der betrügt!\\. Das bricht mir das Herz!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...What?",
+       "transl": "... Was?"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "We Spheromancers are a noble, yet unappreciated class!",
+       "transl": "Wir Spheromancer sind eine edle, doch leider verkannte Klasse!"
+      }
+     },
+     {
+      "message": {
+       "orig": "I can't allow a player like you to further damage our reputation!",
+       "transl": "Ich kann es Spielern wie dir nicht durchgehen lassen, unseren Ruf weiter zu schädigen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Wait...\\. You're a Spheromancer, too?",
+       "transl": "Moment...\\. Du bist auch ein Spheromancer?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Why of course!\\. Don't you see my striking crimson outfit?",
+       "transl": "Natürlich!\\. Siehst du nicht mein auffallend purpurnes Outfit?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...Oh!",
+       "transl": "... Oh!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Pardon, I thought you were a Triblader with all that green and...\\. pointy hair.",
+       "transl": "Pardon, ich dachte du wärst ein Triblader, mit all dem Grün und dem...\\. spitzen Haar."
+      }
+     },
+     {
+      "message": {
+       "orig": "It's my style.",
+       "transl": "Das ist mein Stil!"
+      }
+     },
+     {
+      "message": {
+       "orig": "It's plain to see that fashion is beyond your grasp.",
+       "transl": "Offensichtlich hast du keinen Sinn für Mode."
+      }
+     },
+     {
+      "message": {
+       "orig": "Suuuure~",
+       "transl": "Genauuuuu~"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Anyway!\\. I'm talking to you, blue-haired Spheromancer!",
+       "transl": "Egal!\\. Ich rede mit dir, blauhaariger Spheromancer!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...\\.Lea.",
+       "transl": "...\\. Lea."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "I challenge you to a \\c[3]duel\\c[0]!",
+       "transl": "Ich fordere dich zum \\c[3]Duell\\c[0] heraus!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Wait, what?",
+       "transl": "Moment, was?"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Come on!\\. We just started playing!",
+       "transl": "Komm schon!\\. Wir haben gerade erst angefangen zu spielen!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Of course we won't do it right here and now.",
+       "transl": "Natürlich werden wir das nicht hier und jetzt tun."
+      }
+     },
+     {
+      "message": {
+       "orig": "Let's have our duel at the \\c[3]entrance of Bergen Trail\\c[0]!",
+       "transl": "Lass uns das Duell am \\c[3]Eingang vom Bergen-Trail\\c[0] austragen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "I'll test your skills properly - to make sure you don't use any more dishonest methods!",
+       "transl": "Ich werde deine Fähigkeiten gründlich auf die Probe stellen - um sicherzustellen, dass du dich keiner unlauteren Methoden mehr bedienst!"
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Ha...\\. you really think that's a good idea?",
+         "transl": "Ha...\\. Das halte ich für keine schlaue Idee..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Trust me you haven't seen \\c[1]the worst of it\\c[0] yet.",
+         "transl": "Glaub mir, du hast das \\c[1]Schlimmste\\c[0] noch nicht gesehen."
+        }
+       },
+       {
+        "message": {
+         "orig": "\\c[1]...!",
+         "transl": "\\c[1]...!\\c[0]"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "Well she \\c[1]is level \\v[player.level]\\c[0]. So you can already guess how this will play out.",
+           "transl": "Na ja, sie \\c[1]hat Level \\v[player.level]\\c[0]. Du kannst dir also denken, wie das ausgeht."
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "Are you serious?",
+           "transl": "Echt jetzt?"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     null,
+     {
+      "message": {
+       "orig": "Do you accept, blue-haired Spheromancer?",
+       "transl": "Nimmst du die Herausforderung an, blauhaariger Spheromancer?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...\\.Lea.",
+       "transl": "...\\. Lea."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Good!\\. I'll be waiting for you!",
+       "transl": "Gut!\\. Ich werde auf dich warten!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "And off he goes again.",
+       "transl": "Und da verschwindet er wieder."
+      }
+     },
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "I'm sure this will be a lot of \\c[1]fun to watch\\c[0]!",
+         "transl": "Ich \\c[1]freu'\\c[0] mich jetzt schon drauf, dir \\c[1]dabei zuzusehen\\c[0]..."
+        }
+       },
+       {
+        "message": {
+         "orig": "You beating that guy to a pulp.",
+         "transl": "... wie du den Kerl an die Wand klatschst und Hafergrütze aus ihm machst!"
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "But I'd really like to level up a bit before that, too. If that's okay!",
+         "transl": "Aber vorher möchte ich noch ein bisschen leveln. Wenn das ok ist!"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "Are you sure it's okay to accept his challenge just like that?",
+         "transl": "Bist du sicher, dass es richtig war, seine Herausforderung einfach so anzunehmen?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "D'accord.\\. It's your choice.",
+         "transl": "D'accord.\\. Deine Entscheidung."
+        }
+       },
+       {
+        "message": {
+         "orig": "Then let's make sure you're well prepared!",
+         "transl": "Dann lass uns dafür sorgen, dass du gut vorbereitet bist!"
+        }
+       },
+       {
+        "message": {
+         "orig": "I want you to kick this guy's derrière!",
+         "transl": "Ich will, dass du dem Kerl so richtig in den Derrière trittst."
+        }
+       }
+      ]
+     },
+     {
+      "message": {
+       "orig": "Come on, let's train!",
+       "transl": "Komm, lass uns trainieren!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     {
+      "task": {
+       "orig": "Apollo challenged you to a duel and waits for you at the entrance of \\c[3]Bergen Trail\\c[0]. Be prepared!",
+       "transl": "Apollo hat dich zu einem Duell herausgefordert. Er erwartet dich am Eingang des \\c[3]Bergen-Trails\\c[0]. Sei vorbereitet!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "\\c[1]Sick Tree\\c[0]",
+     "transl": "\\c[1]Kranker Baum\\c[0]"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Healed Tree",
+     "transl": "Geheilter Baum"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,925 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Guard",
+      "transl": "Wache"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Receptionist",
+      "transl": "Rezeptionist"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Receptionist",
+         "transl": "Rezeptionist"
+        }
+       },
+       {
+        "message": {
+         "orig": "Greetings, \\v[lore.title.seeker].\\. The Arid Breeze is always welcoming of guests.",
+         "transl": "Grüß dich, Seeker.\\. Der Wüstenwind heißt jederzeit seine Gäste willkommen."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Joel Mahir",
+      "transl": "Joel Mahir"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Joel Mahir",
+         "transl": "Joel Mahir"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "\\v[lore.title.seeker], be our guest!\\. There is much to talk about, I am sure.",
+         "transl": "Seeker, sei unser Gast!\\. Ich nehme an, es gibt viel zu besprechen."
+        }
+       },
+       {
+        "message": {
+         "orig": "Hi!",
+         "transl": "Hi!"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "...bye.",
+         "transl": "... Bye."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Joel Mahir",
+          "transl": "Joel Mahir"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "I greet you, \\v[lore.title.seeker].\\. The proud explorers of the Arid Breeze are honored by your visit.",
+          "transl": "Ich grüße dich, Seeker.\\. Die stolzen Abenteurer des Wüstenwinds fühlen sich durch deinen Besuch geehrt."
+         }
+        },
+        {
+         "message": {
+          "orig": "My name is Jonathan Lorenzo Mahir el Valente Al-Nassar, the leader of our company of braves.",
+          "transl": "Mein Name ist Jonathan Lorenzo Mahir el Valente Al-Nassar, Anführer unserer tapferen Kompanie."
+         }
+        },
+        {
+         "message": {
+          "orig": "...L-Lea?!",
+          "transl": "... L-Lea?!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Don't worry, to my friends I am just Joel Mahir.\\. And everyone is a friend to me, especially a pretty \\v[lore.title.seeker] like yourself.",
+          "transl": "Keine Sorge, für meine Freunde bin ich einfach nur Joel Mahir.\\. Und jeder ist mein Freund, besonders ein schmucker Seeker wie du."
+         }
+        },
+        {
+         "message": {
+          "orig": "...hi.",
+          "transl": "... Hi."
+         }
+        },
+        {
+         "message": {
+          "orig": "It would please me to listen to the story of your exploits, \\v[lore.title.seeker], but first we must water our accomplishments.",
+          "transl": "Es wäre mir eine Freude, den Geschichten eurer Großtaten zu lauschen, Seeker, aber zunächst müssen wir unsere Errungenschaften begießen."
+         }
+        },
+        {
+         "message": {
+          "orig": "See, a place of great importance in Ancient society is almost in our reach.\\. After all these years of searching!",
+          "transl": "Ein Ort, der in der Ahnengesellschaft von großer Wichtigkeit war, ist nämlich zum Greifen nah.\\. Nach all den Jahren mühsamer Suche!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "And we know of the final piece that would complete this puzzle... it must only be collected now!",
+          "transl": "Und wir wissen von dem letzten Teil, das dieses Puzzle vervollständigen würde... Es muss jetzt nur noch eingesammelt werden!"
+         }
+        },
+        {
+         "message": {
+          "orig": "So, young \\v[lore.title.seeker].\\. Do you want to claim that honor?",
+          "transl": "Also, junger Seeker.\\. Willst du diese Ehre für dich in Anspruch nehmen?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Splendid!\\. With a \\v[lore.title.seeker] like you by our side, I can almost taste the juices of success!",
+            "transl": "Fabulös!\\. Mit einem Seeker wie dir an unserer Seite, kann ich schon fast den Geschmack des Erfolges kosten!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "The object we need is a stone tablet with Ancient inscriptions and a map of the area in the old times.",
+            "transl": "Das Objekt unserer Begierde ist eine steinerne Platte mit Ahnen-Inschriften und einer Karte des Gebiets, wie es früher einmal aussah."
+           }
+          },
+          {
+           "message": {
+            "orig": "However, it has been claimed by a pack of dastardly \\v[combat.name.heat/drillertoise]s!",
+            "transl": "Allerdings wurde es von einer Bande hinterhältiger \\v[combat.name.heat/drillertoise]n in Anspruch genommen!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Worse, they are of the stubborn and cowardly kind.\\. They will just hide under their rocks and never move.",
+            "transl": "Schlimmer noch, sie sind von der sturen und feigen Art.\\. Sie werden sich einfach unter den Felsen verstecken und sich niemals bewegen."
+           }
+          },
+          {
+           "message": {
+            "orig": "But fret not, for we have requested a mobile explosion dispenser from our friends in Bergen.",
+            "transl": "Es besteht jedoch kein Anlass zur Sorge. Wir haben von unseren Freunden in Bergen bereits explosive Unterstützung angefordert."
+           }
+          },
+          {
+           "message": {
+            "orig": "With that apparatus you will be able to clear out their cave and claim the tablet!",
+            "transl": "Mit dem Gerät wird es dir möglich sein, die Höhle zu säubern und die Platte zu erobern!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "We will prepare some of our best tea for your return.",
+            "transl": "Wir werden eine unserer besten Teesorten für deine Rückkehr vorbereiten."
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye.",
+            "transl": "Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "No?\\. That is a shock.\\. I would not have expected you to deny this humble request.",
+            "transl": "Nein?\\. Das...\\. kommt jetzt überraschend.\\. Ich hätte nicht erwartet, dass du diese bescheidene Bitte ablehnst."
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Joel Mahir",
+         "transl": "Joel Mahir"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Find the cave of those cowardly turtles!\\. It is at the northern entrance of the Maroon Oasis.",
+         "transl": "Finde die Höhle von diesen feigen Schildkröten!\\. Sie liegt am Nordeingang der Maronenoase."
+        }
+       },
+       {
+        "message": {
+         "orig": "Once inside, activate the mining machine to clear the way and dispose of those creatures.",
+         "transl": "Aktiviere dort die Minen-Maschine, um den Weg freizuräumen und diese schändlichen Kreaturen zu vertreiben."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Joel Mahir",
+          "transl": "Joel Mahir"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], you have returned to us.\\. And that smile on your lips speaks of your success, does it not?",
+          "transl": "Seeker, du bist zurückgekehrt.\\. Und das Lächeln auf deinen Lippen kündet vom Erfolg, nicht wahr?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah, astonishing.\\. This is truly Ancient work.",
+          "transl": "Ah!\\.\\.\\. Bemerkenswert!\\. Dies ist wahrlich eine Arbeit der Ahnen."
+         }
+        },
+        {
+         "message": {
+          "orig": "For even something as mundane as a travel guide to display such elegance. Magnificent!",
+          "transl": "Selbst ein einfacher Reiseführer wie dieser zeugt von ihrer Eleganz. Beeindruckend!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "I can hardly wait to finally feast my eyes on the main course.\\. I hope we can count on you again when the time comes!",
+          "transl": "Ich kann es kaum erwarten, meine Augen auf unser eigentliches Ziel zu richten.\\. Ich hoffe, wir können erneut auf deine Hilfe zählen, wenn die Zeit gekommen ist."
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Joel Mahir",
+          "transl": "Joel Mahir"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah, it is our lovely friend \\v[lore.title.seeker] again, filling our presence with joy!",
+          "transl": "Ah, unser Freund, der Seeker ist zurückgekehrt, und erfreut uns mit seiner Gesellschaft!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "And that you are returning in this time of discovery is truly good fortune.\\. The winds are on our side!",
+          "transl": "Und dass du zum Zeitpunkt der neuen Entdeckung zurückkehrst, ist wahrlich ein Zeichen großen Glücks.\\. Die Winde sind auf unserer Seite!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "We have inspected that precious artifact you found on your last adventure and found hints to a holy place.",
+          "transl": "Wir haben das wertvolle Artefakt, das du während deines letzten Abenteuers gefunden hast, untersucht und herausgefunden, dass es zu einem heiligen Ort führt."
+         }
+        },
+        {
+         "message": {
+          "orig": "How about it, \\v[lore.title.seeker]? Are you ready to claim the fruits of our work?",
+          "transl": "Was meinst du, Seeker? Bist du bereit, die Früchte deiner harten Arbeit zu ernten?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Yes, of course you want to!\\. What could be more exciting?",
+            "transl": "Ja, natürlich willst du!\\. Was könnte auch spannender sein?"
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Hira, one of our most able explorers, has pinpointed the location of the entrance to a small area.",
+            "transl": "Hira, eine unserer fähigsten Erkunderinnen, hat den Ort des Eingangs auf ein kleines Gebiet beschränkt."
+           }
+          },
+          {
+           "message": {
+            "orig": "Meet up with her at Torn Road in \\v[area.heat-area.name].\\. She will explain the details.",
+            "transl": "Triff sie am Zerrissenen Weg im Maronental,\\. sie wird dir die Details erklären."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "May the winds guide you!",
+            "transl": "Mögen die Winde dich führen!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye.",
+            "transl": "Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "No, truly?\\. But how could you resist, with exploration being so close?",
+            "transl": "Nein? Im Ernst?\\. Aber wie kannst du auf die Erkundung selbst jetzt plötzlich verzichten?"
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Joel Mahir",
+         "transl": "Joel Mahir"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Meet our explorer Hira on the Torn Road in \\v[area.heat-area.name].",
+         "transl": "Triff unsere Erkunderin Hira am Zerrissenen Weg im Maronental."
+        }
+       },
+       {
+        "message": {
+         "orig": "She will help you find the Entrance.",
+         "transl": "Sie wird dir helfen, den Eingang zu finden."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Joel Mahir",
+          "transl": "Joel Mahir"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], welcome back!\\. Word of your latest exploits already reached us!",
+          "transl": "Seeker, willkommen zurück!\\. Wir haben bereits von deiner neuesten Großtat gehört!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "You have made great progress.\\. And there is still more to discover, oh the excitement!",
+          "transl": "Du hast große Fortschritte gemacht.\\. Und es gibt immer noch Neues zu entdecken! Hach, wie aufregend!"
+         }
+        },
+        {
+         "message": {
+          "orig": "The result couldn't be better.\\. What is life without another goal to strive for, after all?",
+          "transl": "Das Ergebnis könnte nicht besser sein.\\. Denn was ist das Leben ohne ein Ziel, das man anstrebt?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Now Hira will continue excavating the place to find a way to go even deeper.",
+          "transl": "Jetzt wird Hira den Ort untersuchen, um eine Möglichkeit zu finden, noch tiefer hineinzugelangen."
+         }
+        },
+        {
+         "message": {
+          "orig": "We will keep a spot for you on the next expedition!",
+          "transl": "Wir werden bei der nächsten Expedition einen Platz für dich reservieren!"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Joel Mahir",
+          "transl": "Joel Mahir"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Most honored \\v[lore.title.seeker], fate has brought you back to us!\\. A pleasant sight indeed!",
+          "transl": "Ah, verehrter Seeker, das Schicksal hat dich zu uns zurückgeführt!\\. Welch ein schöner Anblick!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Now, while you were out there, shaping this world, we have not been idle ourselves, no?",
+          "transl": "Nun, während du dort draußen gewirkt hast, sind wir nicht untätig gewesen!"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "The last obstacles on our way to uncover the true secrets of that Ancient temple have finally been unlocked.",
+          "transl": "Die letzten Hindernisse, dem Tempel seine wahren Geheimnisse zu entlocken, sind nun endlich überwunden."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "So, \\v[lore.title.seeker], will you do us the honor and take the final steps?",
+          "transl": "Also, Seeker, würdest du uns die Ehre erweisen und die letzten Schritte übernehmen?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Marvelous!\\. Your humble aura truly belies the greatness within you.",
+            "transl": "Wunderbar!\\. Deine bescheidene Aura widerspricht wahrlich deiner inneren Größe."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "Our diligent explorer, Hira, has been leading the excavation of the temple and is still waiting within it.",
+            "transl": "Hira, unsere fleißige Erkunderin, hat die Grabungen im Tempel geleitet und wartet dort noch auf dich."
+           }
+          },
+          {
+           "message": {
+            "orig": "Join her once again in the \\c[3]Barren Temple Hall\\c[0].\\. You can reach it through the \\c[3]Torn Road\\c[0] in \\c[3]\\v[area.heat-area.name]\\c[0].",
+            "transl": "Stoße in der \\c[3]Halle des Verwaisten Tempels\\c[0] zu ihr.\\. Du kannst den Tempel über den \\c[3]Zerrissenen Weg\\c[0] erreichen."
+           }
+          },
+          {
+           "message": {
+            "orig": "She will show you the way deeper inside the Ancient sanctuary.",
+            "transl": "Sie wird dir den Weg zeigen, der weiter hinein in das Ahnenheiligtum führt."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "May the winds guide you!",
+            "transl": "Mögen die Winde dich führen!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye.",
+            "transl": "Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Sacrebleu!\\. A legendary discovery is at hand and you will not strike?\\. Please, \\v[lore.title.seeker], rethink your decision!",
+            "transl": "Sacrebleu!\\. Du willst dir allen Ernstes eine legendäre Entdeckung entgehen lassen?\\. Bitte, Seeker, überlege es dir nochmal!"
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          },
+          {
+           "thenStep": [
+            {
+             "message": {
+              "orig": "...",
+              "transl": "..."
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Joel Mahir",
+         "transl": "Joel Mahir"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Meet Hira again in the \\c[3]Barren Temple Hall\\c[0].\\. You can reach it through the \\c[3]Torn Road\\c[0] in \\c[3]\\v[area.heat-area.name]\\c[0].",
+         "transl": "Hira wartet in der \\c[3]Halle des Verwaisten Tempels\\c[0] auf dich.\\. Du kannst den Tempel über den \\c[3]Zerrissenen Weg\\c[0] erreichen."
+        }
+       },
+       {
+        "message": {
+         "orig": "She will show you the way deeper inside the Ancient sanctuary.",
+         "transl": "Sie wird dir den Weg zeigen, der weiter hinein in das Ahnenheiligtum führt."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Joel Mahir",
+          "transl": "Joel Mahir"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "The great \\v[lore.title.seeker] returns, bringing closure to another tale of legend!",
+          "transl": "Ah, der große Seeker ist zurück! Und er hat Geschichte geschrieben!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "This treasure you brought, truly magnificent.\\. It might verily outshine all I ever gazed upon, save for you, of course.",
+          "transl": "Und der Schatz, den du gefunden hast, wirklich großartig.\\. Er könnte wahrlich alles überstrahlen, was ich je erblicken durfte - abgesehen von dir, natürlich."
+         }
+        },
+        {
+         "message": {
+          "orig": "...hi.",
+          "transl": "... Hi."
+         }
+        },
+        {
+         "message": {
+          "orig": "Haha, still not taken by flattery I see.\\. But you are right, the artifact's true use yet eludes us.",
+          "transl": "Haha, Schmeicheleien noch nicht erlegen, wie ich sehe.\\. Aber du hast recht, der eigentliche Zweck des Artefakts entzieht sich uns noch."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "But it matters not.\\. Its significance in Ancient culture alone grants it a strong connection to the track and its power.",
+          "transl": "Es ist aber nicht wichtig.\\. Allein durch seine Bedeutung in der Ahnenkultur ist er aufs Engste mit dem Pfad und dessen Kraft verbunden."
+         }
+        },
+        {
+         "message": {
+          "orig": "So by overcoming all the challenges to claim it, you have done a great deed for all of humanity.\\. We cannot thank you enough.",
+          "transl": "Wie dem auch sei, mit deinem Heldenmut hast du der Menschheit einen großen Dienst erwiesen.\\. Dafür können wir dir nicht genug danken."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Until the day we may meet again.\\. You will always be welcome here, \\v[lore.title.seeker]!",
+          "transl": "Bis zu jenem Tag, an dem wir uns wiedersehen mögen.\\. Du wirst hier immer willkommen sein, Seeker!"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye.",
+          "transl": "Bye."
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Joel Mahir",
+         "transl": "Joel Mahir"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "\\v[lore.title.seeker], be our guest!\\. There is much to talk about, I am sure.",
+         "transl": "Seeker, fühl dich wie zu Hause!\\. Es gibt sicher vieles zu besprechen."
+        }
+       },
+       {
+        "message": {
+         "orig": "Hi!",
+         "transl": "Hi!"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "...bye.",
+         "transl": "... Bye."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

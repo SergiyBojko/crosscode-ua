@@ -1,0 +1,97 @@
+{
+ "actions": {
+  "Quest-MoveToTree": [
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Hungry noises]",
+     "transl": "[Magenknurren]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "Quest-LickTree": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Licking Tree]",
+     "transl": "[Leckt Baum]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "Quest-AddShield": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<SHIELD ON>",
+       "transl": "<SCHILD AN><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-RemoveShield": [
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<SHIELD OFF>",
+       "transl": "<SCHILD AUS><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-SwitchMarker": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<SWITCH MARKER>",
+       "transl": "<SWITCH MARKER><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-AttackBall": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Focussing Probe]",
+     "transl": "[Fokussiere Sonde]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Mammal",
+   "transl": "Säugetier<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "This sub-species of the common \\v[combat.name.hedgehog] can only be found in \\c[3]\\v[area.autumn-fall.name]\\c[0]. Their needles are pitch black and the red patch on their back is meant to scare off potential predators since it looks like blood. \nDespite all this, these creatures are passive and only attack when attacked. They will use the same attacks \\v[combat.name.hedgehog] and \\v[combat.name.hedgehog-alt] use but will mix up the dash attack by attacking twice in a row.",
+     "transl": "Diese Unterart des gemeinen Igöll ist nur in \\c[3]Autumn's Fall\\c[0] zu finden. Ihre Stacheln sind pechschwarz und der rote, blutgleiche Punkt auf ihrem Rücken dient der Abschreckung von potentiellen Feinden.\nDennoch sind sie passiv und kämpfen nur, wenn man sie angreift. Sie benutzen dasselbe Angriffsarsenal wie die Igöll und Alten Igöll, können dabei aber zweimal dashen.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

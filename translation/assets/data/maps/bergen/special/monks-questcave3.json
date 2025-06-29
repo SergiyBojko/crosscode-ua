@@ -1,0 +1,856 @@
+{
+ "entities": [
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "Activate \"Extra Frosty\" here!",
+         "transl": "Aktiviere \"Extra frostig\" hier!"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "titleText": {
+         "orig": "\\c[1]Attention!\\c[0]",
+         "transl": "\\c[1]Achtung!\\c[0]"
+        },
+        "text": {
+         "orig": "\\c[3]\"Extra Frosty\"\\c[0] got automatically deactivated when leaving the cave. To continue the quest \\c[3]\"Chlg. of Ascension: Frosty\"\\c[0], you have to \\c[3]reactivate it again\\c[0]!",
+         "transl": "\\c[3]\"Extra frostig\"\\c[0] wurde deaktiviert. Um die Quest \\c[3]\"Hrsfg. der Aszension: Frostig\"\\c[0] fortzusetzen, musst du sie \\c[3]wieder aktivieren\\c[0]!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "text": {
+       "orig": "Patience...",
+       "transl": "Geduld..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "elseStep": [
+       {
+        "thenStep": [
+         null,
+         {
+          "text": {
+           "orig": "ADLASDKASÖLDKSA",
+           "transl": "ADLASDKASÖLDKSA"
+          }
+         },
+         {
+          "text": {
+           "orig": "ADLASDKASÖLDKSA",
+           "transl": "ADLASDKASÖLDKSA"
+          }
+         },
+         {
+          "text": {
+           "orig": "ADLASDKASÖLDKSA",
+           "transl": "ADLASDKASÖLDKSA"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "Return to the \\c[3]Monastery\\c[0]",
+     "transl": "Zurück zum \\c[3]Kloster\\c[0]"
+    }
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "Return to the \\c[3]Monastery\\c[0] \\c[1](progress will be lost!)\\c[0]",
+     "transl": "Zurück zum \\c[3]Kloster\\c[0] \\c[1](Fortschritt geht verloren!)\\c[0]"
+    }
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "Return to the \\c[3]Monastery\\c[0] \\c[1](progress will be lost!)\\c[0]",
+     "transl": "Zurück zum \\c[3]Kloster\\c[0] \\c[1](Fortschritt geht verloren!)\\c[0]"
+    }
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "Return to the \\c[3]Monastery\\c[0]",
+     "transl": "Zurück zum \\c[3]Kloster\\c[0]"
+    }
+   }
+  },
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "The Trial of Ascension",
+        "transl": "Die Prüfung der Aszension"
+       },
+       "event": [
+        null,
+        null,
+        {
+         "thenStep": [
+          {
+           "0": [
+            null,
+            {
+             "text": {
+              "orig": "This is a trial of fortitude and dexterity. To pass you must reach the end of the icy path without falling into the darkness.",
+              "transl": "Dies ist die Prüfung der Standhaftigkeit und Geschicklichkeit. Um sie zu bestehen, musst du das Ende des eisigen Weges erreichen, ohne in die Dunkelheit zu stürzen."
+             }
+            },
+            {
+             "text": {
+              "orig": "Beware the slippery ground, for the Track itself will test you with the Element of this mountain: The Cold.",
+              "transl": "Achte auf den rutschigen Untergrund. Der Pfad selbst wird dich mit dem Element des Berges testen: Der Kälte."
+             }
+            },
+            {
+             "text": {
+              "orig": "At certain points you must prove your connection to the element of Wave by overcoming large chasms with teleportation.",
+              "transl": "An bestimmten Stellen musst du deine Verbindung zum Element Welle beweisen, indem du große Abgründe durch Teleportation überwindest."
+             }
+            },
+            {
+             "text": {
+              "orig": "Along the way you will be attacked by invincible guardians. Their shots will knock you away but your shield can defend against them.",
+              "transl": "Auf dem Weg wirst du von unsterblichen Wächtern angegriffen werden. Ihre Geschosse werden dich zurückstoßen, doch dein Schild kann sie abwehren."
+             }
+            },
+            {
+             "text": {
+              "orig": "There will be a checkpoint after each of the challenges. Leaving the cave will deactivate them again, though.",
+              "transl": "Nach jeder Herausforderung wirst du an einen Kontrollpunkt kommen. Sobald du die Höhle verlässt, werden diese allerdings wieder deaktiviert."
+             }
+            },
+            {
+             "thenStep": [
+              {
+               "text": {
+                "orig": "Now that you have passed the trial once, your time will be recorded. You can also increase the number of obstacles on the track by activating \"Extra Frosty\", to challenge yourself even more.",
+                "transl": "Nun, da du die Prüfung einmal abgeschlossen hast, wird deine Zeit aufgezeichnet werden. Du kannst außerdem \"Extra frostig\" aktivieren, um die Anzahl der Hindernisse zu erhöhen und damit die Herausforderung nochmal deutlich zu steigern."
+               }
+              }
+             ]
+            },
+            {
+             "thenStep": [
+              {
+               "text": {
+                "orig": "With the additional challenges being solved you can now also deactivate your shield for even greater challenge. This is not linked to further rewards, however.",
+                "transl": "Nachdem du auch die zusätzlichen Herausforderungen gemeistert hast, kannst du nun deinen Schild deaktivieren, für eine noch größere Herausforderung. Weitere Belohnungen gibt es jedoch nicht."
+               }
+              }
+             ]
+            }
+           ],
+           "1": [
+            {
+             "text": {
+              "orig": "Best time\n\n\\c[3]Normal:\\c[0] \\v[map.bestTime-format]\n\\c[3]Extra Frosty:\\c[0] \\v[map.bestTime-frosty-format]\n\\c[3]No Shield:\\c[0] \\v[map.bestTime-noShield-format]\n\\c[3]Extra Frosty & No Shield:\\c[0] \\v[map.bestTime-frostyNoShield-format]",
+              "transl": "Bestzeiten\n\n\\c[3]Normal:\\c[0] \\v[map.bestTime-format]\n\\c[3]Extra frostig:\\c[0] \\v[map.bestTime-frosty-format]\n\\c[3]Kein Schild:\\c[0] \\v[map.bestTime-noShield-format]\n\\c[3]Extra frostig & Kein Schild:\\c[0] \\v[map.bestTime-frostyNoShield-format]"
+             }
+            }
+           ],
+           "2": [
+            {
+             "text": {
+              "orig": "You feel a freezing chill.\\. \nThe density of ice has increased!",
+              "transl": "Du fühlst einen kalten Hauch.\\. Die Dichte des Eises hat sich erhöht!"
+             }
+            }
+           ],
+           "3": [
+            {
+             "text": {
+              "orig": "A bit of warmth returns to you.\\.\nThe density of ice has normalized!",
+              "transl": "Ein wenig Wärme kehrt zurück.\\. Die Dichte des Eises hat sich normalisiert!"
+             }
+            }
+           ],
+           "4": [
+            null,
+            {
+             "text": {
+              "orig": "You cast away your shield.\\. \nSuch bravery!",
+              "transl": "Du legst deinen Schild ab.\\. Sehr mutig!"
+             }
+            }
+           ],
+           "5": [
+            null,
+            {
+             "text": {
+              "orig": "Your shield has returned.",
+              "transl": "Dein Schild ist wieder verfügbar."
+             }
+            }
+           ],
+           "options": [
+            {
+             "label": {
+              "orig": "Information",
+              "transl": "Information"
+             }
+            },
+            {
+             "label": {
+              "orig": "See best time",
+              "transl": "Bestzeit ansehen"
+             }
+            },
+            {
+             "label": {
+              "orig": "Activate \"Extra Frosty\"-challenge",
+              "transl": "Aktiviere \"Extra frostig\""
+             }
+            },
+            {
+             "label": {
+              "orig": "Deactivate \"Extra Frosty\"-challenge",
+              "transl": "Deaktiviere \"Extra frostig\""
+             }
+            },
+            {
+             "label": {
+              "orig": "Deactivate Guarding inside the Cave",
+              "transl": "Deaktiviere Verteidigung in der Höhle"
+             }
+            },
+            {
+             "label": {
+              "orig": "Reactivate Guarding",
+              "transl": "Reaktiviere Verteidigung"
+             }
+            },
+            {
+             "label": {
+              "orig": "Cancel",
+              "transl": "Abbruch"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Times reset!",
+       "transl": "Zeiten zurückgesetzt!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "text": {
+       "orig": "Swift as molten ice...",
+       "transl": "So glatt wie Blitzeis..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         null,
+         {
+          "value": {
+           "orig": "\"Extra Frosty\" & \"No Shield\"",
+           "transl": "\"Extra frostig\" & \"Kein Schild\""
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "value": {
+           "orig": "\"Extra Frosty\"",
+           "transl": "\"Extra frostig\""
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "value": {
+           "orig": "\"No Shield\"",
+           "transl": "\"Kein Schild\""
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "value": {
+           "orig": "Normal",
+           "transl": "Normal"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "\\c[3]New Record (\\v[tmp.resultMode])!\\c[0]\n\\v[tmp.time-format]",
+           "transl": "\\c[3]Neuer Rekord (\\v[tmp.resultMode])!\\c[0]\n\\v[tmp.time-format]"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "text": {
+           "orig": "\\c[3]New Record (\\v[tmp.resultMode])!\\c[0]\n\\v[tmp.time-format]\n\nOld Best:\n\\v[tmp.bestTime-FORMAT]",
+           "transl": "\\c[3]Neuer Rekord (\\v[tmp.resultMode])!\\c[0]\n\\v[tmp.time-format]\n\nAlte Bestzeit:\n\\v[tmp.bestTime-FORMAT]"
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "\\c[3]Time (\\v[tmp.resultMode]):\\c[0]\n\\v[tmp.time-format]\n\nBest:\n\\v[tmp.bestTime-FORMAT]\n",
+         "transl": "\\c[3]Zeit (\\v[tmp.resultMode]):\\c[0]\n\\v[tmp.time-format]\n\nBestzeit:\n\\v[tmp.bestTime-FORMAT]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       null,
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "UP",
+             "transl": "HOCH"
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           {
+            "thenStep": [
+             {
+              "text": {
+               "orig": "DOWN",
+               "transl": "RUNTER"
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "action": [
+       null,
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "LEFT",
+             "transl": "LINKS"
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           {
+            "thenStep": [
+             {
+              "text": {
+               "orig": "RIGHT",
+               "transl": "RECHTS"
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     null,
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "NOTHING",
+         "transl": "NICHTS"
+        }
+       },
+       null,
+       {
+        "text": {
+         "orig": "222",
+         "transl": "222"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "Return to the \\c[3]Monastery\\c[0] \\c[1](progress will be lost!)\\c[0]",
+     "transl": "Zurück zum \\c[3]Kloster\\c[0] \\c[1](Fortschritt geht verloren!)\\c[0]"
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       null,
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "UP",
+             "transl": "HOCH"
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           {
+            "thenStep": [
+             {
+              "text": {
+               "orig": "DOWN",
+               "transl": "RUNTER"
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "action": [
+       null,
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "UP",
+             "transl": "HOCH"
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           {
+            "thenStep": [
+             {
+              "text": {
+               "orig": "DOWN",
+               "transl": "RUNTER"
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     null,
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "NOTHING",
+         "transl": "NICHTS"
+        }
+       },
+       null,
+       {
+        "text": {
+         "orig": "222",
+         "transl": "222"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "NOTHING",
+         "transl": "NICHTS"
+        }
+       },
+       null,
+       {
+        "text": {
+         "orig": "222",
+         "transl": "222"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "NOTHING",
+         "transl": "NICHTS"
+        }
+       },
+       null,
+       {
+        "text": {
+         "orig": "222",
+         "transl": "222"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Patience...",
+       "transl": "Geduld..."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

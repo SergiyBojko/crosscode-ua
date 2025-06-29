@@ -1,0 +1,2244 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[Activate to start Wave]",
+       "transl": "[Aktivieren, um Welle zu starten]"
+      }
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Energy",
+         "transl": "Energie"
+        }
+       }
+      }
+     },
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "Life",
+         "transl": "Leben"
+        },
+        "taskTitle": {
+         "orig": "Energy",
+         "transl": "Energie"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Alright, the \\c[3]first wave\\c[0] should be incoming.",
+       "transl": "Okay, die \\c[3]erste Welle\\c[0] sollte nun kommen."
+      }
+     },
+     {
+      "message": {
+       "orig": "The critters got \\c[3]a shield\\c[0] that will \\c[3]reflect damage\\c[0], so hold your fire at first.",
+       "transl": "Die Kriechviecher haben \\c[3]einen Schild\\c[0], der \\c[3]Schaden reflektiert\\c[0], also nicht gleich drauflosfeuern!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Wait for the turrets to \\c[3]neutralize the shields\\c[0] before attacking!",
+       "transl": "Warte darauf, dass die Geschütze die \\c[3]Schilde neutralisieren\\c[0], bevor du angreifst!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Wave 1 incoming!",
+       "transl": "1. Welle kommt!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "[Wave Bonus: Energy +\\v[tmp.tdEnergyChangeTmp]]",
+           "transl": "[Wellenbonus: Energie +\\v[tmp.tdEnergyChangeTmp]]"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "text": {
+           "orig": "[Energy +\\v[tmp.tdEnergyChangeTmp]]",
+           "transl": "[Energie +\\v[tmp.tdEnergyChangeTmp]]"
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "[Energy \\v[tmp.tdEnergyChangeTmp]]",
+         "transl": "[Energie \\v[tmp.tdEnergyChangeTmp]]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Wave 1 incoming!",
+       "transl": "1. Welle kommt!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Wave 1 incoming!",
+       "transl": "1. Welle kommt!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "text": {
+       "orig": "[lel]",
+       "transl": "[lel]"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Wave 1 incoming!",
+       "transl": "1. Welle kommt"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "text": {
+       "orig": "COLD available!",
+       "transl": "KÄLTE verfügbar!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Alright, first one down.\\. The blobs dislike the cold so I will \\c[3]unlock Cold Turrets\\c[0] now.",
+       "transl": "Gut, erste Welle erledigt.\\. Die Blobs können Kälte nicht leiden, deswegen schalte ich jetzt die \\c[3]Kältegeschütze frei\\c[0]."
+      }
+     },
+     {
+      "message": {
+       "orig": "Activate them by using a \\c[3]Cold-elemental charged shot\\c[0].",
+       "transl": "Du aktivierst sie, indem du \\c[3]geladene Kälteprojektile\\c[0] feuerst."
+      }
+     },
+     {
+      "message": {
+       "orig": "Though, while elemental turrets are \\c[3]stronger\\c[0] they also \\c[3]don't disrupt shields\\c[0], so you'll need to \\c[3]mix them up with neutrals\\c[0]!",
+       "transl": "Obwohl Elementargeschütze \\c[3]stärker\\c[0] sind, \\c[3]zerstören sie keine Schilde\\c[0], also wirst du \\c[3]zwischen neutralen und elementaren wechseln müssen\\c[0]!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Wave 2 incoming!",
+       "transl": "2. Welle kommt!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "text": {
+       "orig": "HEAT available!",
+       "transl": "HITZE verfügbar!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Seems like those Plants dislike fire.\\. Unlocking \\c[3]Heat-turrets\\c[0].",
+       "transl": "Diese Pflanzen vertragen scheinbar keine Hitze.\\. Ich schalte die \\c[3]Hitzegeschütze\\c[0] frei!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Obviously, you can activate them with \\c[3]charged Heat-elemental shots\\c[0].",
+       "transl": "Du aktivierst sie natürlich entsprechend mit \\c[3]geladenen Hitzeprojektilen\\c[0]."
+      }
+     },
+     {
+      "message": {
+       "orig": "They also \\c[3]don't disrupt shields\\c[0], though, so remember to activate some more \\c[3]neutral turrets\\c[0] as well.",
+       "transl": "Aber auch sie \\c[3]zerstören keine Schilde\\c[0]! Vergiss nicht, weitere \\c[3]Neutralgeschütze\\c[0] zu aktivieren."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Wave 3 incoming!",
+       "transl": "3. Welle kommt!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Wave 4 incoming!",
+       "transl": "4. Welle kommt!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     {
+      "message": {
+       "orig": "A lot of critters incoming!\\. This should be their \\c[3]last assault\\c[0].",
+       "transl": "Kriechtier-Invasion!\\. Das sollte ihr \\c[3]letzter Sturmangriff\\c[0] sein!"
+      }
+     },
+     {
+      "message": {
+       "orig": "I'm gonna put up everything we've got.\\. Put it to good use!",
+       "transl": "Ich stelle alles auf, was wir haben.\\. Gib dein Bestes!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Final Wave incoming!!!",
+       "transl": "Letzte Welle kommt!!!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Defense successful!",
+       "transl": "Verteidigung erfolgreich!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Good job, \\v[lore.title.seeker].\\. \\c[3]Come back here\\c[0], so we can review the results!",
+       "transl": "Gute Arbeit, Seeker.\\. \\c[3]Komm hierher\\c[0] und wir besprechen die Ergebnisse!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "About to blow!!!",
+       "transl": "Kurz vorm Explodieren!!!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Pathhacker destroyed!",
+       "transl": "Pfadhacker zerstört!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "\\c[1]QUEST FAILED\\c[0]\n\nRestart task to try again",
+       "transl": "\\c[1]QUEST GESCHEITERT\\c[0]\n\nVersuch's nochmal!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Wave 1 incoming!",
+       "transl": "1. Welle kommt!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Pathfinder",
+      "transl": "Pfadfinder"
+     }
+    },
+    "npcStates": [
+     null,
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "message": {
+          "orig": "[ Greetings customer of our TURRET Inc. defensive product line. ]",
+          "transl": "[ Willkommen zur Verteidigungsproduktlinie der GESCHÜTZ AG. ]"
+         }
+        },
+        {
+         "message": {
+          "orig": "... h-hi?",
+          "transl": "... Hi."
+         }
+        },
+        {
+         "message": {
+          "orig": "[ Since you have already successfully used our products, are you interested in their advanced recreational functionality? ]",
+          "transl": "[ Da Sie unsere Produkte bereits erfolgreich genutzt haben, hätten Sie Interesse an der erweiterten Freizeitfunktion? ]"
+         }
+        },
+        {
+         "accepted": [
+          null,
+          null,
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "[ CHALLENGE ACCEPTED. Choose \\c[3]Challenge Mode\\c[0] to start. ]",
+            "transl": "[ HERAUSFORDERUNG ANGENOMMEN. Wählen Sie \\c[3]Herausforderung\\c[0], um zu beginnen. ]"
+           }
+          },
+          {
+           "message": {
+            "orig": "[ Using this device in such a manner will collect energy from the Track and convert it into \\c[3]special tokens\\c[0]. ]",
+            "transl": "[ Wenn Sie das Gerät auf diese Weise verwenden, wird Energie vom Pfad gesammelt und in \\c[3]Spezialmarken\\c[0] konvertiert ]"
+           }
+          },
+          {
+           "message": {
+            "orig": "[ Those can be \\c[3]exchanged for valuable items\\c[0] directly at this device. ]",
+            "transl": "[ Die Marken können direkt an diesem Gerät für \\c[3]nützliche Items eingetauscht werden\\c[0] ]"
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "[ Thank you for using TURRET products! ]",
+            "transl": "[ Wir danken für Ihr Vertrauen in GESCHÜTZ-Produkte! ]"
+           }
+          },
+          {
+           "message": {
+            "orig": "... bye.",
+            "transl": "... Bye."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "[ CHALLENGE DENIED. Please come back when you make up your mind. ]",
+            "transl": "[ HERAUSFORDERUNG ABGELEHNT. Sollten Sie Ihre Meinung ändern, sind Sie jederzeit willkommen. ]"
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "trade": {
+        "event": [
+         null,
+         null,
+         {
+          "text": {
+           "orig": "\\s[0]Challenge Highscore:\n\\c[3]\\v[map.tdHighScore] Points on Wave \\v[map.tdHighWave]\\c[0] ",
+           "transl": "\\s[0]Rekord:\n\\c[3]\\v[map.tdHighScore] Punkte bei Welle \\v[map.tdHighWave]\\c[0] \n"
+          }
+         },
+         {
+          "0": [
+           null,
+           null,
+           null,
+           null,
+           {
+            "message": {
+             "orig": "[nods normally]",
+             "transl": "[nickt normal]"
+            }
+           },
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           {
+            "thenStep": [
+             {
+              "guiInfo": {
+               "settings": {
+                "taskTitle": {
+                 "orig": "Wave",
+                 "transl": "Welle"
+                }
+               }
+              }
+             }
+            ],
+            "elseStep": [
+             {
+              "guiInfo": {
+               "settings": {
+                "taskTitle": {
+                 "orig": "Score",
+                 "transl": "Punkte"
+                }
+               }
+              }
+             }
+            ]
+           },
+           {
+            "guiInfo": {
+             "settings": {
+              "taskTitle": {
+               "orig": "Energy",
+               "transl": "Energie"
+              }
+             }
+            }
+           },
+           {
+            "guiInfo": {
+             "settings": {
+              "text": {
+               "orig": "Life",
+               "transl": "Leben"
+              },
+              "taskTitle": {
+               "orig": "Energy",
+               "transl": "Energie"
+              }
+             }
+            }
+           }
+          ],
+          "1": [
+           null,
+           null,
+           null,
+           null,
+           {
+            "message": {
+             "orig": "[nods challengingly]",
+             "transl": "[nickt herausfordernd]"
+            }
+           }
+          ],
+          "2": [
+           null,
+           {
+            "message": {
+             "orig": "How?",
+             "transl": "Wie?"
+            }
+           },
+           {
+            "message": {
+             "orig": "[ Replaying instruction recording ]",
+             "transl": "[ Abspielen der Anleitungsaufnahme ]"
+            }
+           },
+           {
+            "name": {
+             "orig": "Mika",
+             "transl": "Mika"
+            }
+           },
+           {
+            "message": {
+             "orig": "Alright, I will give you a short briefing as to how this will work out.",
+             "transl": "Ich gebe dir eine kleine Einführung, wie das Ganze funktioniert."
+            }
+           },
+           {
+            "message": {
+             "orig": "After I properly activate our Pathhacker here, enemies will \\c[3]attack in waves\\c[0].",
+             "transl": "Sobald ich unseren Pfadhacker hier aktiviere, werden uns die Gegner \\c[3]in Wellen angreifen\\c[0]."
+            }
+           },
+           {
+            "message": {
+             "orig": "You gotta defeat them, \\c[3]before they reach this point\\c[0] and damage our precious machine here.",
+             "transl": "Du musst sie plattmachen, \\c[3]bevor sie diesen Punkt hier erreichen\\c[0] und unser Schätzchen hier demolieren können."
+            }
+           },
+           {
+            "message": {
+             "orig": "Careful though, because they'll all have \\c[3]shields that reflect damage\\c[0].\\. So just attacking blindly won't be an option.",
+             "transl": "Aber Vorsicht, sie haben alle \\c[3]einen Schild, der Schaden reflektiert\\c[0].\\. Einfach drauflosballern ist also nicht die cleverste Option."
+            }
+           },
+           {
+            "message": {
+             "orig": "...!",
+             "transl": "...!"
+            }
+           },
+           {
+            "message": {
+             "orig": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
+             "transl": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgeschütze\\c[0] vorbereitet."
+            }
+           },
+           {
+            "message": {
+             "orig": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
+             "transl": "Um ein Geschütz zu aktivieren, \\c[3]schieß ein paarmal darauf\\c[0] und feuere dann einen \\c[3]geladenen Schuss\\c[0]!"
+            }
+           },
+           {
+            "message": {
+             "orig": "When activated with the \\c[3]neutral element\\c[0] they will \\c[3]disrupt the shields\\c[0] with each hit.",
+             "transl": "Wenn sie mit dem \\c[3]Neutral-Element\\c[0] geladen sind, werden sie \\c[3]die Schilde mit jedem Treffer neutralisieren\\c[0]."
+            }
+           },
+           {
+            "message": {
+             "orig": "Later I'll also unlock \\c[3]elemental modes\\c[0] that will \\c[3]cause more damage instead of disrupting the shields\\c[0].",
+             "transl": "Später werde ich auch \\c[3]Elementar-Modi\\c[0] freischalten, die \\c[3]mehr Schaden verursachen, aber keine Schilde auflösen\\c[0]."
+            }
+           },
+           {
+            "message": {
+             "orig": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
+             "transl": "Jedes Geschütz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier tötest, und nach jeder Gegnerwelle\\c[0]."
+            }
+           }
+          ],
+          "3": [
+           null,
+           {
+            "text": {
+             "orig": "\\c[3]- Turret Overview -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nSingle-target shot, light homing, neutralizes shields, frequent attacks, weak.\n\\c[1]Default mode when using an inactive element!\\c[0]",
+             "transl": "\\c[3]- Merkblatt zum Geschütz -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nNur Einzelziel, semi-zielsuchend, neutralisiert Schilde, häufige Angriffe, schwach.\n\\c[1]Standardmodus, wenn ein inaktives Element genutzt wird!\\c[0]"
+            }
+           },
+           {
+            "text": {
+             "orig": "\\i[element-heat] \\c[3]Heat\\c[0]:\nPenetrating flamethrower, large area, short range, powerful, causes Burn.\n\n\\i[element-cold] \\c[3]Cold\\c[0]:\nExplosive shot, light homing, creates icicles, slows enemies, causes Chill.",
+             "transl": "\\i[element-heat] \\c[3]Hitze\\c[0]:\nDurchschlagender Flammenwerfer, großer Radius, kurze Reichweite, stark, verursacht Brand.\n\n\\i[element-cold] \\c[3]Kälte\\c[0]:\nExplosionsschuss, semi-zielsuchend, erzeugt Eiskristalle, verlangsamt Gegner, verursacht Frost."
+            }
+           },
+           {
+            "text": {
+             "orig": "\\c[1]Shock and Wave are not unlocked and will be defaulted to Neutral!\\c[0]",
+             "transl": "\\c[1]Schock und Welle sind nicht freigeschaltet und werden als Neutral behandelt!\\c[0]"
+            }
+           },
+           {
+            "text": {
+             "orig": "All turrets cost \\c[3]\\v[tmp.tdCostTurret1] Energy\\c[0] to activate, regardless of element.\n\nFor \\c[3]\\v[tmp.tdUpgradeCost] Energy\\c[0] all turrets will upgrade their attack power. This will happen automatically upon reaching that amount.",
+             "transl": "Alle Geschütze brauchen zur Aktivierung \\c[3]\\v[tmp.tdCostTurret1] Energie\\c[0], unabhängig vom Element.\n\nWenn du \\c[3]\\v[tmp.tdUpgradeCost] Energie\\c[0] erreichst, verbessert sich automatisch die Angriffskraft aller Geschütze."
+            }
+           }
+          ],
+          "options": [
+           {
+            "label": {
+             "orig": "Normal Mode (8 waves, enemy levels start at 40)",
+             "transl": "Normal (8 Wellen, Gegner starten auf Level 40)"
+            }
+           },
+           {
+            "label": {
+             "orig": "Challenge Mode (Infinite survival, enemy levels start at player level, minimum 42)",
+             "transl": "Herausforderung (Überlebenskampf, Gegner starten auf Spielerlevel, Minimum 42)"
+            }
+           },
+           {
+            "label": {
+             "orig": "Detailed Instructions",
+             "transl": "Genaue Instruktionen"
+            }
+           },
+           {
+            "label": {
+             "orig": "Turret Data",
+             "transl": "Geschützdaten"
+            }
+           },
+           {
+            "label": {
+             "orig": "\\c[3]Trade for Tokens\\c[0]",
+             "transl": "\\c[3]Spezialmarken umtauschen\\c[0]"
+            }
+           },
+           {
+            "label": {
+             "orig": "\\c[1]Cancel\\c[0]",
+             "transl": "\\c[1]Abbrechen\\c[0]"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      }
+     },
+     {
+      "event": {
+       "trade": {
+        "event": [
+         null,
+         null,
+         {
+          "text": {
+           "orig": "\\s[0]Challenge Highscore:\n\\c[3]\\v[map.tdHighScore] Points on Wave \\v[map.tdHighWave]\\c[0] ",
+           "transl": "\\s[0]Rekord:\n\\c[3]\\v[map.tdHighScore] Punkte bei Welle \\v[map.tdHighWave]\\c[0] \n"
+          }
+         },
+         {
+          "0": [
+           null,
+           null,
+           null,
+           null,
+           {
+            "message": {
+             "orig": "[nods normally]",
+             "transl": "[nickt normal]"
+            }
+           },
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           null,
+           {
+            "thenStep": [
+             {
+              "guiInfo": {
+               "settings": {
+                "taskTitle": {
+                 "orig": "Wave",
+                 "transl": "Welle"
+                }
+               }
+              }
+             }
+            ],
+            "elseStep": [
+             {
+              "guiInfo": {
+               "settings": {
+                "taskTitle": {
+                 "orig": "Score",
+                 "transl": "Punkte"
+                }
+               }
+              }
+             }
+            ]
+           },
+           {
+            "guiInfo": {
+             "settings": {
+              "taskTitle": {
+               "orig": "Energy",
+               "transl": "Energie"
+              }
+             }
+            }
+           },
+           {
+            "guiInfo": {
+             "settings": {
+              "text": {
+               "orig": "Life",
+               "transl": "Leben"
+              },
+              "taskTitle": {
+               "orig": "Energy",
+               "transl": "Energie"
+              }
+             }
+            }
+           }
+          ],
+          "1": [
+           null,
+           null,
+           null,
+           null,
+           {
+            "message": {
+             "orig": "[nods challengingly]",
+             "transl": "[nickt herausfordernd]"
+            }
+           }
+          ],
+          "2": [
+           null,
+           {
+            "message": {
+             "orig": "How?",
+             "transl": "Wie?"
+            }
+           },
+           {
+            "message": {
+             "orig": "[ Replaying instruction recording ]",
+             "transl": "[ Abspielen der Anleitungsaufnahme ]"
+            }
+           },
+           {
+            "name": {
+             "orig": "Mika",
+             "transl": "Mika"
+            }
+           },
+           {
+            "message": {
+             "orig": "Alright, I will give you a short briefing as to how this will work out.",
+             "transl": "Ich gebe dir eine kleine Einführung, wie das Ganze funktioniert."
+            }
+           },
+           {
+            "message": {
+             "orig": "After I properly activate our Pathhacker here, enemies will \\c[3]attack in waves\\c[0].",
+             "transl": "Sobald ich unseren Pfadhacker hier aktiviere, werden uns die Gegner \\c[3]in Wellen angreifen\\c[0]."
+            }
+           },
+           {
+            "message": {
+             "orig": "You gotta defeat them, \\c[3]before they reach this point\\c[0] and damage our precious machine here.",
+             "transl": "Du musst sie plattmachen, \\c[3]bevor sie diesen Punkt hier erreichen\\c[0] und unser Schätzchen hier demolieren können."
+            }
+           },
+           {
+            "message": {
+             "orig": "Careful though, because they'll all have \\c[3]shields that reflect damage\\c[0].\\. So just attacking blindly won't be an option.",
+             "transl": "Aber Vorsicht, sie haben alle \\c[3]einen Schild, der Schaden reflektiert\\c[0].\\. Einfach drauflosballern ist also nicht die cleverste Option."
+            }
+           },
+           {
+            "message": {
+             "orig": "...!",
+             "transl": "...!"
+            }
+           },
+           {
+            "message": {
+             "orig": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
+             "transl": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgeschütze\\c[0] vorbereitet."
+            }
+           },
+           {
+            "message": {
+             "orig": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
+             "transl": "Um ein Geschütz zu aktivieren, \\c[3]schieß ein paarmal darauf\\c[0] und starte es dann mit einem \\c[3]geladenen Schuss\\c[0]!"
+            }
+           },
+           {
+            "message": {
+             "orig": "When activated with the \\c[3]neutral element\\c[0] they will \\c[3]disrupt the shields\\c[0] with each hit.",
+             "transl": "Wenn sie mit dem \\c[3]Neutral-Element\\c[0] geladen sind, werden sie \\c[3]die Schilde mit jedem Treffer neutralisieren\\c[0]."
+            }
+           },
+           {
+            "message": {
+             "orig": "Later I'll also unlock \\c[3]elemental modes\\c[0] that will \\c[3]cause more damage instead of disrupting the shields\\c[0].",
+             "transl": "Später werde ich auch \\c[3]Elementar-Modi\\c[0] freischalten, die \\c[3]mehr Schaden verursachen, aber keine Schilde auflösen\\c[0]."
+            }
+           },
+           {
+            "message": {
+             "orig": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
+             "transl": "Jedes Geschütz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier tötest, und nach jeder Gegnerwelle\\c[0]."
+            }
+           }
+          ],
+          "3": [
+           null,
+           {
+            "text": {
+             "orig": "\\c[3]- Turret Overview -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nSingle-target shot, light homing, neutralizes shields, frequent attacks, weak.\n\\c[1]Default mode when using an inactive element!\\c[0]",
+             "transl": "\\c[3]- Merkblatt zum Geschütz -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nNur Einzelziel, semi-zielsuchend, neutralisiert Schilde, häufige Angriffe, schwach.\n\\c[1]Standardmodus, wenn ein inaktives Element genutzt wird!\\c[0]"
+            }
+           },
+           {
+            "text": {
+             "orig": "\\i[element-heat] \\c[3]Heat\\c[0]:\nPenetrating flamethrower, large area, short range, powerful, causes Burn.\n\n\\i[element-cold] \\c[3]Cold\\c[0]:\nExplosive shot, light homing, creates icicles, slows enemies, causes Chill.",
+             "transl": "\\i[element-heat] \\c[3]Hitze\\c[0]:\nDurchschlagender Flammenwerfer, großer Radius, kurze Reichweite, stark, verursacht Brand.\n\n\\i[element-cold] \\c[3]Kälte\\c[0]:\nExplosionsschuss, semi-zielsuchend, erzeugt Eiskristalle, verlangsamt Gegner, verursacht Frost."
+            }
+           },
+           {
+            "text": {
+             "orig": "\\c[1]Shock and Wave are not unlocked and will be defaulted to Neutral!\\c[0]",
+             "transl": "\\c[1]Schock und Welle sind nicht freigeschaltet und werden als Neutral behandelt!\\c[0]"
+            }
+           },
+           {
+            "text": {
+             "orig": "All turrets cost \\c[3]\\v[tmp.tdCostTurret1] Energy\\c[0] to activate, regardless of element.\n\nFor \\c[3]\\v[tmp.tdUpgradeCost] Energy\\c[0] all turrets will upgrade their attack power. This will happen automatically upon reaching that amount.",
+             "transl": "Alle Geschütze brauchen zur Aktivierung \\c[3]\\v[tmp.tdCostTurret1] Energie\\c[0], unabhängig vom Element.\n\nWenn du \\c[3]\\v[tmp.tdUpgradeCost] Energie\\c[0] erreichst, verbessert sich automatisch die Angriffskraft aller Geschütze."
+            }
+           }
+          ],
+          "options": [
+           {
+            "label": {
+             "orig": "Normal Mode (8 waves, enemy levels start at 40)",
+             "transl": "Normal (8 Wellen, Gegner starten auf Level 40)"
+            }
+           },
+           {
+            "label": {
+             "orig": "Challenge Mode (Infinite survival, enemy levels start at player level, minimum 42)",
+             "transl": "Herausforderung (Überlebenskampf, Gegner starten auf Spielerlevel, Minimum 42)"
+            }
+           },
+           {
+            "label": {
+             "orig": "Detailed Instructions",
+             "transl": "Genaue Instruktionen"
+            }
+           },
+           {
+            "label": {
+             "orig": "Turret Data",
+             "transl": "Geschützdaten"
+            }
+           },
+           {
+            "label": {
+             "orig": "\\c[3]Trade for Tokens\\c[0]",
+             "transl": "\\c[3]Spezialmarken umtauschen\\c[0]"
+            }
+           },
+           {
+            "label": {
+             "orig": "\\c[1]Cancel\\c[0]",
+             "transl": "\\c[1]Abbrechen\\c[0]"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Mika",
+      "transl": "Mika"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Mika",
+         "transl": "Mika"
+        }
+       },
+       {
+        "message": {
+         "orig": "Hey, \\v[lore.title.seeker].\\. Please don't disturb my work!",
+         "transl": "Hey, Seeker. Stör mich bitte nicht bei der Arbeit!"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "message": {
+          "orig": "Hi.",
+          "transl": "Hi."
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": ".\\..\\..\\.",
+          "transl": ".\\..\\..\\."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        null,
+        {
+         "name": {
+          "orig": "Mika",
+          "transl": "Mika"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah, there you are.\\. Finally, I thought that would-be thespian would never let you through.",
+          "transl": "Da bist du ja!\\. Dachte schon, der Möchtegern-Mime hätte dich totgequatscht."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "So, you have come to help us open this door here, right?",
+          "transl": "Also, du bist hier, um uns dabei zu helfen, diese Tür hier zu öffnen, oder?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "How?",
+          "transl": "Wie?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Don't worry, we will leave the complicated part to this technical marvel here.",
+          "transl": "Keine Sorge, den komplizierten Teil übernimmt unser technisches Wunder hier."
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Mika",
+          "transl": "Mika"
+         }
+        },
+        {
+         "message": {
+          "orig": "You, \\v[lore.title.seeker], will simply defend it against the incoming wave of enemies.",
+          "transl": "Du, Seeker, wirst es ganz einfach vor einlaufenden Gegnern beschützen."
+         }
+        },
+        {
+         "message": {
+          "orig": "For that purpose you can use the Trackwalker-compatible defensive system we prepared.",
+          "transl": "Zu diesem Zweck kannst du das Pfadläufer-kompatible Abwehrsystem hier nutzen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Mika",
+          "transl": "Mika"
+         }
+        },
+        {
+         "message": {
+          "orig": "It's just the one for now, but we will spawn more over time.",
+          "transl": "Im Moment ist's nur ein Geschütz, wir werden aber nach und nach mehr heranschaffen."
+         }
+        },
+        {
+         "message": {
+          "orig": "They will automatically attack incoming enemies once you've activated them.",
+          "transl": "Sie greifen ankommende Gegner automatisch an, sobald du sie aktiviert hast."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Talk to me again once you want to start.\\. You will learn the rest on the go.",
+          "transl": "Rede mit mir, sobald du bereit bist.\\. Den Rest lernst du dann in der Praxis."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Mika",
+          "transl": "Mika"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hello, \\v[lore.title.seeker].\\. Ready to defend against the incoming waves?",
+          "transl": "Hey, Seeker.\\. Bist du bereit, es mit wahren Horden von Gegnern aufzunehmen?"
+         }
+        },
+        null,
+        {
+         "0": [
+          null,
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright.\\. I will start up our generator here in a second.",
+            "transl": "Alles klar.\\. Ich starte den Generator hier, einen Augenblick."
+           }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          {
+           "name": {
+            "orig": "Mika",
+            "transl": "Mika"
+           }
+          },
+          {
+           "message": {
+            "orig": "But first, activate that turret by \\c[3]hitting it a few\\c[0] times and then using a \\c[3]charged projectile on it\\c[0]!",
+            "transl": "Aktiviere aber zuerst das Geschütz, indem du \\c[3]ein paarmal darauf schießt\\c[0] und es dann mit einem \\c[3]geladenen Schuss startest\\c[0]!"
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+           "task": {
+            "orig": "Hit \\c[3]the turret\\c[0] first with \\c[3]repeated shots\\c[0] and lastly with a \\c[3]charged shot\\c[0] to activate it",
+            "transl": "Um ein Geschütz zu aktivieren, \\c[3]schieß ein paarmal darauf\\c[0] und starte es dann mit einem \\c[3]geladenen Schuss\\c[0]."
+           }
+          }
+         ],
+         "1": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Okay, but please make up your mind soon.\\. We want to be finished here at some point.",
+            "transl": "Okay, aber entscheide dich bitte bald.\\. Wir wollen hier bald fertig werden."
+           }
+          }
+         ],
+         "2": [
+          {
+           "message": {
+            "orig": "How?",
+            "transl": "Wie?"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, I will give you a short briefing as to how this will work out.",
+            "transl": "Ich gebe dir eine kleine Einführung, wie das Ganze funktioniert."
+           }
+          },
+          {
+           "message": {
+            "orig": "After I properly activate our Pathhacker here, enemies will \\c[3]attack in waves\\c[0].",
+            "transl": "Sobald ich unseren Pfadhacker hier aktiviere, werden uns die Gegner \\c[3]in Wellen angreifen\\c[0]."
+           }
+          },
+          {
+           "message": {
+            "orig": "You gotta defeat them, \\c[3]before they reach this point\\c[0] and damage our precious machine here.",
+            "transl": "Du musst sie plattmachen, \\c[3]bevor sie diesen Punkt hier erreichen\\c[0] und unser Schätzchen hier demolieren können."
+           }
+          },
+          {
+           "message": {
+            "orig": "Careful though, because they'll all have \\c[3]shields that reflect damage\\c[0].\\. So just attacking blindly won't be an option.",
+            "transl": "Aber Vorsicht, sie haben alle \\c[3]einen Schild, der Schaden reflektiert\\c[0].\\. Einfach drauflosballern ist also nicht die cleverste Option."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          {
+           "name": {
+            "orig": "Mika",
+            "transl": "Mika"
+           }
+          },
+          {
+           "message": {
+            "orig": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
+            "transl": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgeschütze\\c[0] vorbereitet."
+           }
+          },
+          {
+           "message": {
+            "orig": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
+            "transl": "Um ein Geschütz zu aktivieren, \\c[3]schieß ein paarmal darauf\\c[0] und starte es dann mit einem \\c[3]geladenen Schuss\\c[0]!"
+           }
+          },
+          {
+           "message": {
+            "orig": "When activated with the \\c[3]neutral element\\c[0] they will \\c[3]disrupt the shields\\c[0] with each hit.",
+            "transl": "Wenn sie mit dem \\c[3]Neutral-Element\\c[0] geladen sind, werden sie \\c[3]die Schilde mit jedem Treffer neutralisieren\\c[0]."
+           }
+          },
+          {
+           "message": {
+            "orig": "Later I'll also unlock \\c[3]elemental modes\\c[0] that will \\c[3]cause more damage instead of disrupting the shields\\c[0].",
+            "transl": "Später werde ich auch \\c[3]Elementar-Modi\\c[0] freischalten, die \\c[3]mehr Schaden verursachen, aber keine Schilde auflösen\\c[0]."
+           }
+          },
+          {
+           "message": {
+            "orig": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
+            "transl": "Jedes Geschütz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier tötest, und nach jeder Gegnerwelle\\c[0]."
+           }
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+           "name": {
+            "orig": "Mika",
+            "transl": "Mika"
+           }
+          },
+          {
+           "message": {
+            "orig": "Anyway, can we start this up already?",
+            "transl": "Klar so weit? Können wir loslegen?"
+           }
+          }
+         ],
+         "3": [
+          {
+           "message": {
+            "orig": "How?!",
+            "transl": "Wie?!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Wow, you really want to dig into the details, eh?\\. Very admirable, I gotta say.",
+            "transl": "Wow, jetzt willst du's aber wirklich wissen, he?\\. Sehr lobenswert, muss ich sagen."
+           }
+          },
+          {
+           "message": {
+            "orig": "Here, take a look at this sheet that came with the manual.\\. It should give you a good overview.",
+            "transl": "Hier, schau dir diese Seite aus der Anleitung an.\\. Die sollte dir einen guten Überblick geben."
+           }
+          },
+          null,
+          {
+           "text": {
+            "orig": "\\c[3]- Turret Overview -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nSingle-target shot, light homing, neutralizes shields, frequent attacks, weak.\n\\c[1]Default mode when using an inactive element!\\c[0]",
+            "transl": "\\c[3]- Merkblatt zum Geschütz -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nNur Einzelziel, semi-zielsuchend, neutralisiert Schilde, häufige Angriffe, schwach.\n\\c[1]Standardmodus, wenn ein inaktives Element genutzt wird!\\c[0]"
+           }
+          },
+          {
+           "text": {
+            "orig": "\\i[element-heat] \\c[3]Heat\\c[0]:\nPenetrating flamethrower, large area, short range, powerful, causes Burn.\n\n\\i[element-cold] \\c[3]Cold\\c[0]:\nExplosive shot, light homing, creates icicles, slows enemies, causes Chill.",
+            "transl": "\\i[element-heat] \\c[3]Hitze\\c[0]:\nDurchschlagender Flammenwerfer, großer Radius, kurze Reichweite, stark, verursacht Brand.\n\n\\i[element-cold] \\c[3]Kälte\\c[0]:\nExplosionsschuss, semi-zielsuchend, erzeugt Eiskristalle, verlangsamt Gegner, verursacht Frost."
+           }
+          },
+          {
+           "text": {
+            "orig": "\\c[1]Shock and Wave are not unlocked and will be defaulted to Neutral!\\c[0]",
+            "transl": "\\c[1]Schock und Welle sind nicht freigeschaltet und werden als Neutral behandelt!\\c[0]"
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "Yes, start the waves",
+            "transl": "Ja, lass sie kommen!"
+           }
+          },
+          {
+           "label": {
+            "orig": "No",
+            "transl": "Nein"
+           }
+          },
+          {
+           "label": {
+            "orig": "Detailed Instructions",
+            "transl": "Genaue Instruktionen"
+           }
+          },
+          {
+           "label": {
+            "orig": "Turret Data",
+            "transl": "Geschützdaten"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     null,
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Mika",
+          "transl": "Mika"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi.",
+          "transl": "Hi."
+         }
+        },
+        {
+         "message": {
+          "orig": "Good job, \\v[lore.title.seeker]!\\. We neutralized the energy field of the door and there are no more waves on the radar.",
+          "transl": "Gute Arbeit, Seeker!\\. Wir haben das Energiefeld der Tür neutralisiert. Die Gegnerwellen sind auf dem Radar verschwunden."
+         }
+        },
+        {
+         "message": {
+          "orig": "Now we just need to unlock the door-mechanism itself.\\. Your job here is done.",
+          "transl": "Jetzt müssen wir nur noch den Türmechanismus knacken.\\. Deine Arbeit ist damit erledigt."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Report back at our headquarters to get your reward.",
+          "transl": "Melde dich im Hauptquartier, um deine Belohnung zu erhalten."
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Mika",
+         "transl": "Mika"
+        }
+       },
+       {
+        "message": {
+         "orig": "Greetings \\v[lore.title.seeker]. We're still working on opening that door.",
+         "transl": "Grüß dich, Seeker. Wir arbeiten noch daran, die Tür zu öffnen."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Taio",
+       "transl": "Taio"
+      }
+     },
+     {
+      "message": {
+       "orig": "Halt!\\. Who so darest to enter this cave?",
+       "transl": "Halt!\\. Wer waget es, hier einzutreten? So sprechet!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Hi. Lea.",
+       "transl": "Hi. Lea."
+      }
+     },
+     {
+      "message": {
+       "orig": "Aha!\\. At last, yon mighty \\v[lore.title.seeker] we requested hath reached us!\\. But wilt thou provest worthy?",
+       "transl": "Sehet! Endlich gesellet sich jener mächtige Seeker zu uns, den wir ansuchten!\\. Wird er sich seiner als würdig erweisen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "We shall see!!\\. By custom of olde, thyne ability shall be tested by trial of...!",
+       "transl": "Dies bleibt abzuwarten!\\. Nach alter Sitte der Altvorderen möget Ihr Eure Fähigkeiten unter Bewei-...!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Mika",
+       "transl": "Mika"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "BY THE ANCIENTS, STOP MAKING NOISE AND SEND HER DOWN HERE ALREADY!",
+       "transl": "BEI DEN AHNEN, HÖR AUF ZU QUATSCHEN UND SCHICK SIE ENDLICH HIER RUNTER!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Taio",
+       "transl": "Taio"
+      }
+     },
+     {
+      "message": {
+       "orig": "A-alright.\\..\\..\\. Thou hast heard the voice.\\. Procedest down and to thy left.",
+       "transl": "A-Also gut.\\.\\.\\. Der Seeker hat die Worte vernommen.\\. Er möge voranschreiten."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Taio",
+      "transl": "Taio"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Taio",
+         "transl": "Taio"
+        }
+       },
+       {
+        "message": {
+         "orig": "Speaketh to comrade Mika deep in this denne.\\. She shall enlighten thee.",
+         "transl": "Sprechet mit Kameradin Mika.\\. Sie möge Euch aufklären. "
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Taio",
+         "transl": "Taio"
+        }
+       },
+       {
+        "message": {
+         "orig": "Splendid work, \\v[lore.title.seeker].\\. I beseech thee to give the most verily regardes to our liege.",
+         "transl": "Exquisite Arbeit, Seeker.\\. Ich ersuche Euch, meine Lehnsfrau hochachtungsvoll zu grüßen."
+        }
+       },
+       {
+        "message": {
+         "orig": "...bye.",
+         "transl": "... Bye."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Taio",
+         "transl": "Taio"
+        }
+       },
+       {
+        "message": {
+         "orig": "Hail, \\v[lore.title.seeker].\\. Thyne presence is most welcome in thise denne.",
+         "transl": "Ich grüße Euch, Seeker.\\. Eure Präsenz ist mehr als willkommen hier."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Taio",
+         "transl": "Taio"
+        }
+       },
+       {
+        "message": {
+         "orig": "Hail, \\v[lore.title.seeker].\\. Thyne presence is most welcome in thise denne.",
+         "transl": "Ich grüße Euch, Seeker.\\. Eure Präsenz ist mehr als willkommen hier."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "The barrier is down!\\. Another hit and we're done for!",
+           "transl": "Die Barriere ist durchbrochen!\\. Noch ein Treffer und wir sind geliefert!"
+          }
+         }
+        ]
+       },
+       {
+        "text": {
+         "orig": "[BARRIER DOWN!]",
+         "transl": "[BARRIERE DURCHBROCHEN!]"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "Hey \\v[lore.title.seeker], you let one through!",
+             "transl": "Hey, Seeker, du hast einen durchgelassen!"
+            }
+           }
+          ]
+         },
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "Our barrier has taken some heavy hits!\\. Better step up your game, \\v[lore.title.seeker]!",
+             "transl": "Unsere Barriere hat schwere Treffer kassiert!\\. Leg eine Schippe drauf, Seeker!"
+            }
+           }
+          ]
+         },
+         {
+          "thenStep": [
+           {
+            "message": {
+             "orig": "Barrier is almost down!\\. Keep it together, \\v[lore.title.seeker]!",
+             "transl": "Die Barriere ist fast zerstört!\\. Reiß dich am Riemen, Seeker!"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": {
+         "orig": "[Barrier damaged!]",
+         "transl": "[Barriere beschädigt!]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[Waves starting]",
+       "transl": "[Gegnerwellen im Anmarsch]"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Wave \\v[tmp.tdWave] incoming!",
+       "transl": "\\v[tmp.tdWave]. Welle kommt!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "[Wave Score Bonus +\\v[tmp.tempScoreGain]!]",
+         "transl": "[Welle-Bonuspunkte +\\v[tmp.tempScoreGain]!]"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "task": {
+         "orig": "Wave \\v[tmp.tdWave] incoming!",
+         "transl": "\\v[tmp.tdWave]. Welle kommt!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "[Wave Score Bonus +\\v[tmp.tempScoreGain]!]",
+         "transl": "[Welle-Bonuspunkte +\\v[tmp.tempScoreGain]!]"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "task": {
+         "orig": "Wave \\v[tmp.tdWave] incoming!",
+         "transl": "\\v[tmp.tdWave]. Welle kommt!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "[Wave Score Bonus +\\v[tmp.tempScoreGain]!]",
+         "transl": "[Welle-Bonuspunkte +\\v[tmp.tempScoreGain]!]"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "task": {
+         "orig": "Wave \\v[tmp.tdWave] incoming!",
+         "transl": "\\v[tmp.tdWave]. Welle kommt!"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "0_0": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "(Cycle \\v[tmp.spawnCycle]: Spawn Slimey-Group!)",
+             "transl": "(Zyklus \\v[tmp.spawnCycle]: Spawne Blob-Gruppe!)"
+            }
+           }
+          ]
+         }
+        ],
+        "1_0": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "(Cycle \\v[tmp.spawnCycle]: Spawn Plant-Group!)",
+             "transl": "(Zyklus \\v[tmp.spawnCycle]: Spawne Pflanzen-Gruppe!)"
+            }
+           }
+          ]
+         }
+        ],
+        "2_0": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "(Cycle \\v[tmp.spawnCycle]: Spawn Fish-Group!)",
+             "transl": "(Zyklus \\v[tmp.spawnCycle]: Spawne Fisch-Gruppe!)"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "SIMULATION OVER!",
+       "transl": "SIMULATION BEENDET!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         null,
+         null,
+         {
+          "text": {
+           "orig": "\\c[3]Survived \\v[tmp.tdWave] waves!\\c[0]\n\nGain \\c[3]\\v[tmp.tdRewards] \\v[item.517.name]\\c[0]!",
+           "transl": "\\c[3]\\v[tmp.tdWave] Wellen überlebt!\\c[0]\n\n\\c[3]\\v[tmp.tdRewards] Geschützmarke(n)\\c[0] erhalten!"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "text": {
+           "orig": "\\c[1]Failure on Wave \\v[tmp.tdWave]!\\c[0]",
+           "transl": "\\c[1]Gescheitert bei Welle \\v[tmp.tdWave]!\\c[0]"
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "value": {
+         "orig": " ",
+         "transl": "<<C<<IGNORE"
+        }
+       },
+       {
+        "thenStep": [
+         null,
+         null,
+         {
+          "value": {
+           "orig": "New record!",
+           "transl": "Neuer Rekord!"
+          }
+         }
+        ]
+       },
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "Survived till \\c[3]Wave \\v[tmp.tdWave]\\c[0].\n\\c[3]Score: \\v[tmp.tdScore]\\c[0]\n\\c[2]\\v[tmp.recordString]\\c[0]\n\nGain \\c[3]\\v[tmp.tdRewards] \\v[item.517.name]\\c[0]!",
+         "transl": "Überlebt bis \\c[3]Welle \\v[tmp.tdWave]\\c[0].\n\\c[3]Punkte: \\v[tmp.tdScore]\\c[0]\n\\c[2]\\v[tmp.recordString]\\c[0]\n\n\\c[3]\\v[tmp.tdRewards] Geschützmarke(n)\\c[0] erhalten!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[ Turrets Upgrade, -\\v[tmp.tdUpgradeCost] Energy ]",
+       "transl": "[ Geschütz-Aufrüstung, -\\v[tmp.tdUpgradeCost] Energie ]"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "Enter \\c[3]Woodland Vanguard HQ\\c[0]",
+     "transl": "Zur \\c[3]Waldland-Avantgarde\\c[0]"
+    }
+   }
+  }
+ ]
+}

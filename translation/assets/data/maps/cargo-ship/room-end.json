@@ -1,0 +1,339 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "destinations": [
+     {
+      "label": {
+       "orig": "4th floor (bridge)",
+       "transl": "3. OG (Brücke)"
+      }
+     },
+     {
+      "label": {
+       "orig": "3rd floor (cabins)",
+       "transl": "2. OG (Kajüten)"
+      }
+     },
+     {
+      "label": {
+       "orig": "2nd floor (cabins)",
+       "transl": "1. OG (Kajüten)"
+      }
+     },
+     {
+      "label": {
+       "orig": "1st floor (deck)",
+       "transl": "EG (Deck)"
+      }
+     },
+     {
+      "label": {
+       "orig": "Basement floor (cargo hold)",
+       "transl": "UG (Frachträume)"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Alright, up to the bridge. ",
+       "transl": "Dann mal rauf zur Brücke."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Oh yeah. Lea?\\. Just a heads up - the captain's kinda grumpy, but don't worry about it.",
+       "transl": "Ach ja, kleine Vorwarnung: Der Käpt'n is' 'n bisschen grummelig, aber mach dir keinen Kopp."
+      }
+     },
+     {
+      "message": {
+       "orig": "That's just the way he is.",
+       "transl": "Der is' immer so."
+      }
+     },
+     {
+      "message": {
+       "orig": "\\..\\..\\..",
+       "transl": "\\..\\..\\.."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Well, well... Our endeavor has not been concluded!",
+       "transl": "Aber, aber... Unser Vorhaben ist noch nicht beendet!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "You will not escape our will!",
+       "transl": "Du kannst dich unserem Willen nicht entziehen!"
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "He already caught up?",
+       "transl": "Den werden wir wohl so schnell nich' los..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Lea, those are high level opponents.",
+       "transl": "Lea, das sind High Level-Gegner."
+      }
+     },
+     {
+      "message": {
+       "orig": "Do not fight them. Run to the teleporter!",
+       "transl": "Lass dich nicht auf einen Kampf ein. Lauf direkt zum Teleporter!"
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "\\c[1]...?\\c[0]",
+         "transl": "\\c[1]...?\\c[0]"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Alright, you will \\c[1]probably just kill them with ease\\c[0].",
+         "transl": "Ja, ich weiß, die \\c[1]schaffst du wahrscheinlich mit links\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "Still, we better get off the ship quickly.",
+         "transl": "Wir sollten trotzdem schnell von hier verschwinden."
+        }
+       },
+       {
+        "message": {
+         "orig": "Jet will kill me if we remain here any longer.",
+         "transl": "Jet wird mir den Hals umdrehen, wenn wir hier noch länger bleiben."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "...?",
+           "transl": "...?"
+          }
+         },
+         {
+          "message": {
+           "orig": "Yes, Lea.\\. Even being \\c[1]over-leveled\\c[0], you will be better off just running away.",
+           "transl": "Ja, Lea.\\. Auch wenn du \\c[1]überlevelt\\c[0] bist, ist es besser für dich, von hier zu verschwinden."
+          }
+         },
+         {
+          "message": {
+           "orig": "...",
+           "transl": "..."
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "...!",
+           "transl": "...!"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "One moment! Let me add a little shortcut for you!",
+       "transl": "Einen Moment! Lass mich dir eine kleine Abkürzung bauen!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "This will take you right to the \\c[3]teleporter\\c[0], where Carla is waiting.",
+       "transl": "Sie bringt dich direkt zum Teleporter, wo Carla auf dich wartet."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...How?",
+       "transl": "... Wie?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Hm?",
+       "transl": "Hm?"
+      }
+     },
+     {
+      "message": {
+       "orig": "... Oh.",
+       "transl": "... Oh."
+      }
+     },
+     {
+      "message": {
+       "orig": "Yes, that sure would have helped back then when we had to run through the whole cargo hold, correct?",
+       "transl": "Ja, du meinst wahrscheinlich, dass das sehr hilfreich gewesen wäre, als wir hier auf der Flucht waren, korrekt?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Unfortunately, I did not have the routine to spawn these shortcuts ready back then.",
+       "transl": "Zu der Zeit hatte ich das Programm zum Bau solcher Abkürzungen noch nicht fertig."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "To Teleporter",
+     "transl": "Zum Teleporter"
+    }
+   }
+  }
+ ]
+}

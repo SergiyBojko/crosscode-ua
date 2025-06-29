@@ -1,0 +1,615 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "You look at it, you buy it.",
+         "transl": "Du hast es angesehen, also musst du's kaufen."
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        null,
+        {
+         "message": {
+          "orig": "...! ",
+          "transl": "...! "
+         }
+        },
+        {
+         "message": {
+          "orig": "...! ",
+          "transl": "...! "
+         }
+        },
+        {
+         "message": {
+          "orig": "Well look who it is!",
+          "transl": "Ach, wen haben wir denn da?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "I must admit, I was expecting you.",
+          "transl": "Ich muss gestehen, dass ich dich erwartet habe."
+         }
+        },
+        {
+         "message": {
+          "orig": "Yet you still managed to surprise me.",
+          "transl": "Und doch hast du es geschafft, mich zu überraschen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Haha, now don't get cocky on an old man.",
+          "transl": "Hoahoahoa, werde bloß nicht übermütig."
+         }
+        },
+        {
+         "message": {
+          "orig": "Anyway... there's only one more piece missing in our little puzzle.",
+          "transl": "Also... Es fehlt nur noch ein Teil in unserem kleinen Puzzle."
+         }
+        },
+        {
+         "message": {
+          "orig": "Should we find it, I might be able to fulfill my promise to my kids...",
+          "transl": "Sollten wir es finden, könnte ich mein Versprechen meinen Kindern gegenüber halten..."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "No reason to look sad, little one. ",
+          "transl": "Kein Grund, so traurig zu gucken, Kleine."
+         }
+        },
+        {
+         "message": {
+          "orig": "I'm sure if I can get them all in one place and talk to them this will all end well.",
+          "transl": "Ich bin sicher, dass alles gut werden wird, wenn ich sie alle versammeln und mit ihnen reden kann."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Alright, the last ones are the \\c[3]\\v[item.515.name]\\c[0]. ",
+          "transl": "Also dann, jetzt brauchen wir nur noch die \\c[3]Kaputten Chakrams\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "Are you ready to help me one final time?",
+          "transl": "Bist du bereit, mir ein letztes Mal zu helfen?"
+         }
+        },
+        {
+         "accepted": [
+          null,
+          {
+           "message": {
+            "orig": "I appreciate it, kid!",
+            "transl": "Das weiß ich zu schätzen, Kleine!"
+           }
+          },
+          {
+           "message": {
+            "orig": "This one starts off just like the last one.",
+            "transl": "Wir fangen genauso an wie beim letzten Mal."
+           }
+          },
+          {
+           "message": {
+            "orig": "There's a book here talking about a place in \\c[3]\\v[area.forest.name]\\c[0]. It's in the shelf to the left.",
+            "transl": "Hier ist ein Buch, das von einem Ort auf dem \\c[3]Saphirgrat\\c[0] spricht. Es steht im linken Bücherregal."
+           }
+          },
+          {
+           "message": {
+            "orig": "Give it a read and see if you can make something of it. ",
+            "transl": "Schau mal rein und sag mir, ob du schlau daraus wirst."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "No? What's the matter? Please come back if you changed your mind!",
+            "transl": "Nein? Was ist los? Überlege es dir bitte nochmal!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hello young lady, read the book yet?",
+         "transl": "Hallo, junge Dame, hast du das Buch schon gelesen?"
+        }
+       },
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[nickt]"
+          }
+         },
+         {
+          "message": {
+           "orig": "So, something about a \"Berrytree\" and a Panda. Ah yes, also the bug by the campfire? ",
+           "transl": "Also, irgendein \"Beerenbaum\" und ein Panda. Ach ja, und ein Käfer am Lagefeuer."
+          }
+         },
+         {
+          "message": {
+           "orig": "To be frank, I have no idea what it means. ",
+           "transl": "Ich habe nicht den blassesten Schimmer, was das bedeutet."
+          }
+         },
+         {
+          "message": {
+           "orig": "I hope you can make something out of it.",
+           "transl": "Hoffentlich kannst du etwas damit anfangen."
+          }
+         },
+         {
+          "message": {
+           "orig": "...",
+           "transl": "..."
+          }
+         },
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[nickt]"
+          }
+         },
+         {
+          "message": {
+           "orig": "That's the spirit!",
+           "transl": "So lob ich mir das!"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[schüttelt Kopf]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Well, give it a read. It's on the shelf to the left.",
+           "transl": "Gut, dann schau mal rein. Es steht im linken Bücherregal."
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Welcome back kid, any luck finding the \\c[3]\\v[item.515.name]\\c[0]?",
+          "transl": "Willkommen zurück, Kleine. Hattest du Glück mit den \\c[3]Kaputten Chakrams\\c[0]?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "We really did it...",
+          "transl": "Wir haben es wirklich geschafft..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, you did it to be fair.",
+          "transl": "Besser gesagt, du hast es geschafft."
+         }
+        },
+        {
+         "thenStep": [
+          {
+           "message": {
+            "orig": "Thanks!",
+            "transl": "Danke!"
+           }
+          }
+         ],
+         "elseStep": [
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          }
+         ]
+        },
+        {
+         "message": {
+          "orig": "Well... I guess there is no point in waiting. ",
+          "transl": "Tja... Macht wohl keinen Sinn, es jetzt auf die lange Bank zu schieben."
+         }
+        },
+        {
+         "message": {
+          "orig": "Let me make some arrangements and get word out to my children.",
+          "transl": "Lass mich ein paar Vorbereitungen treffen und dann meine Kinder zusammentrommeln."
+         }
+        },
+        {
+         "message": {
+          "orig": "We should all meet at the place where we first heard of this quest: \\c[3]The Observatory\\c[0] in \\c[3]\\v[area.autumn-area.name]\\c[0].",
+          "transl": "Wir treffen uns am besten da, wo wir zum ersten Mal von dieser Quest gehört haben: An der \\c[3]Sternwarte\\c[0] in \\c[3]Autumn's Rise\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "Would you be willing to join us? It's only fair and I trust you. ",
+          "transl": "Würdest du uns Gesellschaft leisten? Das wäre nur fair. Und ich vertraue dir."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Thanks, kiddo.",
+          "transl": "Danke, Kleine."
+         }
+        },
+        {
+         "message": {
+          "orig": "I'll be leaving then! See you at the Observatory.",
+          "transl": "Dann mache ich mich mal auf den Weg! Wir sehen uns an der Sternwarte."
+         }
+        },
+        {
+         "thenStep": [
+          {
+           "message": {
+            "orig": "Bye!",
+            "transl": "Bye!"
+           }
+          }
+         ],
+         "elseStep": [
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          }
+         ]
+        },
+        null,
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Is it just me or did he seem... \\.\\.nervous?",
+          "transl": "Geht das nur mir so, oder wirkte er auf dich auch irgendwie... \\.\\.nervös?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, I am sure everything will work out after all the work you went through.",
+          "transl": "Ich bin mir aber sicher, dass sich all deine Mühe für ihn auszahlen wird."
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Ridge Poems",
+     "transl": "Saphirgedichte"
+    }
+   }
+  },
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Read Book",
+      "transl": "Buch lesen"
+     },
+     "title": {
+      "orig": "\\c[3]Ridge Poems\\c[0]",
+      "transl": "\\c[3]Saphirgedichte\\c[0]"
+     },
+     "event": [
+      {
+       "text": {
+        "orig": "In \\c[3]\\v[area.forest.name]\\c[0], locals indulge passionately in the art of poems. The most famous is called \\c[3]A War in the Bellow\\c[0] and goes like this:",
+        "transl": "Die Bewohner des \\c[3]Saphirgrats\\c[0] frönen leidenschaftlich der Dichtkunst. Das berühmteste Gedicht trägt den Titel \\c[3]Ein Krieg in der Brüllerei\\c[0] und geht wie folgt:"
+       }
+      },
+      {
+       "text": {
+        "orig": "Silent evenfall\nshall a mealy, stern bug wait\nby the campfire",
+        "transl": "In der Dämmerung\nwartet beim Lagerfeuer\nein zäher Käfer"
+       }
+      },
+      {
+       "text": {
+        "orig": "Composure nighttime\nAn old, strong panda walks\nwatching the berrytree",
+        "transl": "Zu ruhiger Nachtzeit\nwandelt ein alter Panda\nunter den Bäumen"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Bellwielder",
+         "transl": "Bellwielder"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Hello.",
+         "transl": "Hallo."
+        }
+       },
+       {
+        "message": {
+         "orig": "Hi...?",
+         "transl": "Hi...?"
+        }
+       },
+       {
+        "message": {
+         "orig": "Are you looking for a book?",
+         "transl": "Suchst du nach einem Buch?"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "[shakes head]",
+         "transl": "[schüttelt Kopf]"
+        }
+       },
+       {
+        "message": {
+         "orig": "Okay.",
+         "transl": "Okay."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "So...\\. just so you know...",
+         "transl": "Also...\\. Nur damit du's weißt..."
+        }
+       },
+       {
+        "message": {
+         "orig": "This is a book store.",
+         "transl": "Das hier ist ein Buchladen."
+        }
+       },
+       {
+        "message": {
+         "orig": "Not sure what else you hope to find here.",
+         "transl": "Keine Ahnung, was du hier sonst zu finden hoffst."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "*sigh*",
+         "transl": "*seufz*"
+        }
+       },
+       {
+        "message": {
+         "orig": "What am I doing here?",
+         "transl": "Was mach' ich hier eigentlich?"
+        }
+       },
+       {
+        "message": {
+         "orig": "I came to this bustling city hoping to get a position in one of their libraries.",
+         "transl": "Ich kam in diese Stadt, weil ich gehofft hatte, hier eine Stelle in einer Bibliothek zu finden."
+        }
+       },
+       {
+        "message": {
+         "orig": "Yet somehow I ended up in this tiny book store.",
+         "transl": "Aber irgendwie bin ich in diesem mickrigen Buchladen gelandet."
+        }
+       },
+       {
+        "message": {
+         "orig": "Why?",
+         "transl": "Warum?"
+        }
+       },
+       {
+        "message": {
+         "orig": "Well, apparently they didn't like the fact I'm always carrying this giant bell with me.",
+         "transl": "Tja, anscheinend hatten sie ein Problem mit der großen Glocke, die ich immer mit mir herumtrage."
+        }
+       },
+       {
+        "message": {
+         "orig": "Because yes, yes...\\. Libraries are quiet places.",
+         "transl": "Und ja, natürlich.... Bibliotheken sind Orte der Ruhe."
+        }
+       },
+       {
+        "message": {
+         "orig": "I know!",
+         "transl": "Das weiß ich doch!"
+        }
+       },
+       {
+        "message": {
+         "orig": "What do they expect me to do?\\. Constantly ring the bell like a crazy person?",
+         "transl": "Wovor hatten die denn Angst? Dass ich wie ein Bekloppter mit der Glocke läute?"
+        }
+       },
+       {
+        "message": {
+         "orig": "Of course I wouldn't do that!",
+         "transl": "Das würde ich doch nie tun!"
+        }
+       },
+       {
+        "message": {
+         "orig": "But I just...\\. have to bring it with me, okay?\\. It's complicated.",
+         "transl": "Aber...\\. ich muss sie einfach mit mir herumtragen.\\. Es ist kompliziert, okay?"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Well at least in this book store they don't mind.",
+         "transl": "Na ja, zumindest hier im Buchladen wird die Glocke toleriert."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

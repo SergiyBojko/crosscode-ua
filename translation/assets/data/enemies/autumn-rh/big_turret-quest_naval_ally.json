@@ -1,0 +1,153 @@
+{
+ "actions": {
+  "StartFullShield": [
+   {
+    "text": {
+     "orig": "FullShield On",
+     "transl": "Vollschild AN<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "StartPartShield": [
+   {
+    "text": {
+     "orig": "FrontShield On",
+     "transl": "Frontschild AN<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "StartAllShields": [
+   {
+    "text": {
+     "orig": "DoubleShield On",
+     "transl": "Doppelschild AN<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "StunStart": [
+   null,
+   {
+    "text": {
+     "orig": "[ STUNNED ]",
+     "transl": "[ GELÄHMT ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "TurnOn": [
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ Charging Shot ]",
+     "transl": "[ Lade Schuss ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "AntiTurret": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "HEAT",
+         "transl": "HITZE<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     {
+      "thenStep": [
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "COLD",
+           "transl": "KÄLTE<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       }
+      ],
+      "elseStep": [
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "SHOCK",
+             "transl": "SCHOCK<<C<<Geprüft: Minsu"
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           {
+            "thenStep": [
+             {
+              "text": {
+               "orig": "WAVE",
+               "transl": "WELLE<<C<<Geprüft: Minsu"
+              }
+             }
+            ]
+           }
+          ],
+          "elseStep": [
+           {
+            "thenStep": [
+             {
+              "text": {
+               "orig": "NEUTRAL",
+               "transl": "NEUTRAL<<C<<Geprüft: Minsu"
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Charging Shot]",
+     "transl": "[ Lade Schuss ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "ShotRdy": [
+   {
+    "text": {
+     "orig": "[ CANNON READY! ]",
+     "transl": "[ KANONE BEREIT! ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Naval Weapon",
+   "transl": "Marinewaffe<<C<<Geprüft: Minsu"
+  }
+ }
+}

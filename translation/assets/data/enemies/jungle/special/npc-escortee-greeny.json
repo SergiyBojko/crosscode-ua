@@ -1,0 +1,190 @@
+{
+ "actions": {
+  "EscortMovePoint": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "[ MOVE ]",
+       "transl": "[ BEWEGEN ]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "EscortInspect": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "[ INSPECT ]",
+       "transl": "[ UNTERSUCHEN ]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "EscortCombatIdle": [
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "[ RECHARGING SALT ]",
+       "transl": "[ SALZ WIEDER AUFLADEN ]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "EscortDodge": [
+   {
+    "text": {
+     "orig": "DODGE",
+     "transl": "[ AUSWEICHEN ]<<C<<IGNORE"
+    }
+   }
+  ],
+  "EscortHit": [
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ DANGER! ]",
+     "transl": "[ GEFAHR! ]<<C<<Geprüft: Minsu"
+    }
+   },
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "[ RECHARGING SALT ]",
+       "transl": "[ SALZ WIEDER AUFLADEN ]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "EscortDead": [
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ Linde is unconscious!!! ]",
+     "transl": "[ Linde ist bewusstlos!!! ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "EscortSuckEnemy": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ ABSORBING ]",
+     "transl": "[ ABSORBIEREN ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "EscortSuckCess": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ ABSORBING DONE ]",
+     "transl": "[ ABSORBIEREN FERTIG ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "EscortSuckCancel": [
+   null,
+   {
+    "text": {
+     "orig": "[ ABSORBING CANCELLED ]",
+     "transl": "[ ABSORBIEREN ABGEBROCHEN ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "EscortSaltSteam": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ BUILDING STEAM ]",
+     "transl": "[ DAMPF AUFBAUEN ]<<C<<Geprüft: Minsu"
+    }
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ RECHARGING SALT ]",
+     "transl": "[ SALZ WIEDER AUFLADEN ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Escortee",
+   "transl": "Schützling<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "A person that wants to be escorted, to not get mugged.",
+     "transl": "Eine Person, die begleitet werden will, um nicht ausgeraubt zu werden.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

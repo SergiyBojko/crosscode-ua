@@ -1,0 +1,286 @@
+{
+ "entities": [
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "\\c[3]4F\\c[0]: \\c[4]Serious Business\\c[0]\n\\c[3]3F\\c[0]: \\c[4]More Business\\c[0]\n\\c[3]2F\\c[0]: \\c[4]Business\\c[0]\n\\c[3]1F\\c[0]: Mayor's Office\n\\c[3]GF\\c[0]: \\c[4]Quest Hub\\c[0]\n",
+      "transl": "\\c[3]4.OG\\c[0]: \\c[4]Das große Geschäft\\c[0]\n\\c[3]3.OG\\c[0]: \\c[4]Geschäftliches!\\c[0]\n\\c[3]2.OG\\c[0]: \\c[4]Geschäftliches\\c[0]\n\\c[3]1.OG\\c[0]: Bürgermeisterbüro\n\\c[3]EG\\c[0]: \\c[4]Quest Hub\\c[0]"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Greetings, Seeker. Do you have any business with the mayor?",
+          "transl": "Grüß dich, Seeker. Hast du etwas Geschäftliches mit dem Bürgermeister zu besprechen?<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Are you sure?",
+          "transl": "Bist du sicher?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Do you perhaps want to proceed along the \\c[3]Track of the Ancients\\c[0]?",
+          "transl": "Möchtest du vielleicht deine Reise auf dem \\c[3]Pfad der Ahnen\\c[0] fortsetzen?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Then you don't need to see the mayor.",
+          "transl": "Dafür musst du ihn nicht sprechen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Your next task as Seekers is to visit the temples in the \\c[3]north of Gaia's Garden\\c[0].",
+          "transl": "Deine nächste Aufgabe besteht darin, die Tempel im \\c[3]Norden von Gaias Garten\\c[0] aufzusuchen."
+         }
+        },
+        {
+         "message": {
+          "orig": "All Seekers are free to enter those dungeons, no permission required!",
+          "transl": "Allen Seekern ist es gestattet, sie ohne vorherige Erlaubnis zu betreten!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Maybe also tell your fellow Seekers that they don't have to show up here. They just keep doing it.",
+          "transl": "Sag das besser mal auch den anderen Seekern, damit sie nicht ständig zuerst hierherkommen. Das machen sie nämlich nach wie vor."
+         }
+        },
+        {
+         "message": {
+          "orig": "Why would they even want to see the mayor anyway?",
+          "transl": "Warum wollen sie den Bürgermeister überhaupt sehen?"
+         }
+        },
+        {
+         "message": {
+          "orig": "It's not like he has any business with the track, right?",
+          "transl": "Der Pfad gehört doch gar nicht zu seinem Tagesgeschäft!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Force of habit, I suppose?",
+          "transl": "Macht der Gewohnheit, wahrscheinlich.<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "message": {
+          "orig": "It seems the mayor of this town doesn't want to be involved in any of the Seeker's business!",
+          "transl": "Scheint so, als ob der Bürgermeister hier nichts mit Seekern am Hut haben will!"
+         }
+        },
+        {
+         "task": {
+          "orig": "No need to visit the \\c[3]mayor\\c[0] this time. You can just head straight to the temples of \\c[3]Grand Krys'kajo\\c[0]!",
+          "transl": "Ein \\c[3]Bürgermeisterbesuch\\c[0] ist nicht nötig. Der Weg zu den Tempeln des \\c[3]Großen Krys'kajo\\c[0] ist frei!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Greetings Seeker.",
+         "transl": "Grüß dich, Seeker."
+        }
+       },
+       {
+        "message": {
+         "orig": "If you want to proceed along the \\c[3]Track of the Ancients\\c[0] you don't need to see the mayor.",
+         "transl": "Um deine Reise auf dem \\c[3]Pfad der Ahnen\\c[0] fortzusetzen, ist ein Bürgermeisterbesuch nicht vonnöten."
+        }
+       },
+       {
+        "message": {
+         "orig": "Just visit the Temples in the \\c[3]north of Gaia's Garden\\c[0].",
+         "transl": "Suche einfach die Tempel im \\c[3]Norden von Gaias Garten\\c[0] auf."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "I'm sorry Seeker, but thanks to this noisy Shad I have my hands full with re-scheduling.",
+         "transl": "Tut mir leid, Seeker, aber dank diesen Schreihälsen hier habe ich gerade alle Hände voll zu tun."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hello Seeker, the Mayor is free if you want to visit him.",
+         "transl": "Hallo, Seeker. Der Bürgermeister hat jetzt Zeit, falls du ihn sehen willst."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Her again...",
+       "transl": "Die schon wieder..."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Wow, that was rude.",
+       "transl": "Meine Güte, wie unhöflich."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Cool, thanks to this weird Shad I now have to wait for my appointment with the mayor.",
+         "transl": "Toll, dank dieser verrückten Shad darf ich jetzt auf meinen Termin mit dem Bürgermeister warten."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "destinations": [
+     {
+      "label": {
+       "orig": "GF: Lobby",
+       "transl": "EG: Empfangshalle"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

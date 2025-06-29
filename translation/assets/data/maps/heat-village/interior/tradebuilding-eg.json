@@ -1,0 +1,912 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Guard",
+      "transl": "Wache"
+     }
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Ryda",
+      "transl": "Ryda"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Oh, a \\v[lore.title.seeker] wants to talk to me?\\. I am sorry but I don't think we got any business right now.",
+         "transl": "Oh, ein Seeker möchte mit mir reden?\\. Es tut mir leid, aber ich glaube nicht, dass wir etwas zu bereden haben."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Aww, don't give me that face.\\. I'm sure we can talk later!",
+         "transl": "Ahh, jetzt guck mich doch nicht so an.\\. Ich bin sicher, wir können später reden!"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Ryda",
+          "transl": "Ryda"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hey there, lady.\\. Anything I can help you with?",
+          "transl": "Hallo, junge Dame.\\. Kann ich dir mit irgendwas helfen?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Kney'tehab sent you to me to test our new toy?\\. That's amazing news!",
+          "transl": "Kney'tehab hat dich zu mir geschickt, um unser neuestes Spielzeug zu testen?\\. Das sind großartige Neuigkeiten!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Even finding a \\v[lore.title.seeker] to help me.\\. The boss can be such a sweetheart when he wants to!",
+          "transl": "Er hat sogar einen Seeker gefunden, um mir zu helfen.\\. Der Boss kann wirklich süß sein, wenn er denn möchte!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "See, we have found a way to integrate a human device into locations flowing with Ancient energy.",
+          "transl": "Schau, wir haben eine Möglichkeit gefunden, ein von Menschenhand geschaffenes Gerät in einer Umgebung mit viel Ahnenenergie zu installieren."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Here we wired a distillery into a puzzle to brew ourselves some drinks in the way of the Ancients!",
+          "transl": "Hier haben wir eine Destille in ein Rätsel eingebunden, um uns ein paar Getränke nach Art der Ahnen zu brauen!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "I know, right?!\\. Drinks flowing with Ancient power must be the stuff!",
+          "transl": "Total geil, oder?!\\. In diesen Gebräuen steckt die pure Ahnenkraft, das kann nur gut sein!"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "I'm so excited I'd love to start right away!\\. But we need a few materials first to get our baby running.",
+          "transl": "Ich bin so aufgeregt, ich würde am liebsten sofort loslegen!\\. Wir brauchen aber leider ein paar Materialien, um das Schätzchen anzuschmeißen."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Here, take a list of the things.\\. It's mostly ingredients from different places and some ice for the cooling.",
+          "transl": "Hier ist eine Liste.\\. Das meiste sind Zutaten aus verschiedenen Orten und ein wenig Eis zum Kühlen."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Great!\\. It will be worth it, I promise you!",
+          "transl": "Klasse!\\. Es wird sich lohnen, das verspreche ich dir!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Gather all the ingredients that we need for a test run.\\. Oh, and some ice for the cooling!",
+         "transl": "Sammle alle Zutaten, die wir für einen Testlauf brauchen.\\. Oh, und vergiss das Eis zum Kühlen nicht!"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Ryda",
+          "transl": "Ryda"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Heya \\v[lore.title.seeker]!\\. You got everything?",
+          "transl": "Heya, Seeker!\\. Hast du alles?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Amazing, you really got everything!\\. Now we can begin with the fun part.",
+          "transl": "Genial, du hast wirklich alles bekommen!\\. Dann kommen wir jetzt zum spaßigen Teil."
+         }
+        },
+        {
+         "message": {
+          "orig": "Let me just prepare everything you need!",
+          "transl": "Lass mich schnell alles vorbereiten!"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Ryda",
+          "transl": "Ryda"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Alrighty, that's it.\\. Here, take this and go down the stairs behind me to your right.",
+          "transl": "So, das wärs.\\. Hier, nimm das und geh die Treppe rechts hinter mir herunter."
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Ryda",
+          "transl": "Ryda"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "I will follow you and tell you how to get our precious machine running!",
+          "transl": "Ich werde dir folgen und erklären, wie man unsere wunderbare Maschine in Gang bringt!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Go down the stairs behind me to your right.\\. I will follow you and explain how it works!",
+         "transl": "Geh die Treppe rechts hinter mir runter.\\. Ich folge und erkläre dir dann, wie alles funktioniert!"
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Sorry, but I'm busy here.\\. I'm sure you'll manage on your own.\\. Don't forget that the console has an instruction!",
+         "transl": "Tut mir leid, aber ich bin hier beschäftigt.\\. Du schaffst das sicher auch alleine.\\. Vergiss nicht, dass die Konsole eine Anleitung hat!"
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Amazing job down there, \\v[lore.title.seeker]!\\. I already told the boss so he can prepare your reward!",
+         "transl": "Gute Arbeit da unten, Seeker!\\. Ich habe dem Boss bereits Bescheid gesagt, damit er deine Belohnung vorbereiten kann!"
+        }
+       },
+       {
+        "message": {
+         "orig": "\\c[3]Come back afterwards\\c[0] if you wanna brew more of the finest!",
+         "transl": "\\c[3]Komm danach einfach zurück\\c[0], wenn du noch mehr von dem guten Stoff brauen willst!"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Ryda",
+          "transl": "Ryda"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Heya, \\v[lore.title.seeker], great to see you back!",
+          "transl": "Heya, Seeker, schön dich wiederzusehen!"
+         }
+        },
+        {
+         "message": {
+          "orig": "We already tweaked our sweet little machine with the data of your tests.\\. The stuff it produces is just the best!",
+          "transl": "Wir haben die Einstellung an dem Maschinchen schon entsprechend deiner Testdaten vorgenommen.\\. Der Stoff, der da rauskommt, ist die Wucht!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "We can open it up for you to use it on your own again, if you agree to give it some further tests!",
+          "transl": "Wir können sie gerne wieder für dich öffnen, unter der Bedingung, dass du weitere Testdaten sammelst!"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Great!\\. You will see that we have changed the way it works a bit.",
+            "transl": "Klasse!\\. Du wirst sehen, dass wir ihre Arbeitsweise ein wenig verändert haben."
+           }
+          },
+          {
+           "message": {
+            "orig": "You will now have a \\c[3]limited amount of time\\c[0] to refine those ingredients as much as possible!",
+            "transl": "Du musst jetzt innerhalb einer \\c[3]bestimmten Zeit\\c[0] die Zutaten so weit verarbeiten, wie du kannst!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "Basically, to help us out you should just try to reach as much \\c[3]quality\\c[0] as you can.",
+            "transl": "Im Grunde hilfst du uns also dadurch, indem du versuchst, die beste \\c[3]Qualität\\c[0] zu erreichen."
+           }
+          },
+          {
+           "message": {
+            "orig": "That'll also \\c[3]increase the number of drinks\\c[0] produced, so it's win-win for everyone!",
+            "transl": "Das wird auch \\c[3]die Anzahl der Getränke erhöhen\\c[0], für beide Seiten also ein Gewinn!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Thing is, reaching high qualities is tricky, because it's about maintaining a \\c[3]high heat\\c[0] without making mistakes.",
+            "transl": "Das Problem ist, eine hohe Qualität zu erreichen ist schwierig, weil man eine \\c[3]hohe Hitze\\c[0] beibehalten muss, ohne Fehler zu machen."
+           }
+          },
+          {
+           "message": {
+            "orig": "...?!",
+            "transl": "...?!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Well, I'm sure you will get the hang of it.\\. I will give you another batch of ingredients to start right away.",
+            "transl": "Du kriegst den Dreh bestimmt schnell raus.\\. Ich gebe dir eine neue Ladung Zutaten, damit du sofort loslegen kannst."
+           }
+          },
+          {
+           "message": {
+            "orig": "You can get more from my assistant down there, if you also bring the base materials.",
+            "transl": "Du kannst mehr von meiner Assistentin unten kriegen, wenn du die Grundmaterialien dabei hast."
+           }
+          },
+          {
+           "message": {
+            "orig": "Good luck!",
+            "transl": "Viel Glück!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye!",
+            "transl": "Bye!"
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "What, seriously?\\. But why wouldn't you?\\. There's no pressure, really...",
+            "transl": "Was, ernsthaft?\\. Warum nicht?\\. Hier macht dir doch keiner Druck..."
+           }
+          },
+          {
+           "message": {
+            "orig": ".\\..\\..",
+            "transl": ".\\..\\.."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Try to get as much \\c[3]quality\\c[0] out of it as possible!\\. Our data says that \\c[3]maintaining high heat is key\\c[0].",
+         "transl": "Versuch eine möglichst hohe \\c[3]Qualität\\c[0] zu erreichen!\\. Unsere Daten besagen, dass du dafür eine \\c[3]hohe Hitze beibehalten musst\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "My assistant Bru down there can prepare more brewing sets if needed.",
+         "transl": "Meine Assistentin Bru kann mehr Brau-Sets vorbereiten, wenn du welche brauchst."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Ryda",
+          "transl": "Ryda"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Wow, \\v[lore.title.seeker], Those quality-ratings were just off the charts!\\. Amazing work!",
+          "transl": "Wow, Seeker, die Qualitätswerte sind der helle Wahnsinn!\\. Großartige Arbeit!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "That'll really help us refine the mechanics.",
+          "transl": "Das bringt uns wirklich ein gutes Stück weiter."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Also, we worked on another recipe for you to use.\\. You should try it out when you have the time!",
+          "transl": "Wir haben außerdem an einem neuen Rezept gearbeitet, welches du benutzen kannst.\\. Du solltest es ausprobieren, wenn du Zeit hast!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Anyway, things are getting busy again.\\. See you around, \\v[lore.title.seeker]!",
+          "transl": "Wie auch immer, es wird wieder voller.\\. Man sieht sich, Seeker!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Heya, \\v[lore.title.seeker]!\\. Wanna get more drinks done?",
+         "transl": "Heya, Seeker!\\. Willst du ein paar Getränke brauen?"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Ryda",
+          "transl": "Ryda"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Seeker!\\. Nice to see you again, it's been so long!",
+          "transl": "Seeker!\\. Schön, dich wiederzusehen! Wie lange ist das her!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "What have you been up to?\\. I have heard stories but I'd love to hear the real thing.",
+          "transl": "Was hast du so getrieben?\\. Ich habe Geschichten gehört, aber die erzählst du mir am besten jetzt selbst."
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Meet, Lea... How, why.",
+          "transl": "Treffen, Lea... Wie, warum."
+         }
+        },
+        {
+         "message": {
+          "orig": "Wooow, that sounds exciting.\\. You sure have gone through a lot while I was stuck here, eh?",
+          "transl": "Wooow, das klingt echt aufregend.\\. Du hast wirklich eine Menge durchgemacht, während ich hier festsaß, was?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "But we better get to business.\\. We both got lots on our plate.\\. Like this venture here.",
+          "transl": "Aber wir kommen besser zur Sache.\\. Wir haben beide viel um die Ohren.\\. Wie dieses Unternehmen hier."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "I assume Kney filled you in on what I've been brewing up this time.\\. It's time to upgrade our distillery again!",
+          "transl": "Ich nehm' an, Kney' hat dir gesagt, was ich dieses Mal zusammengebraut habe.\\. Es ist an der Zeit, unsere Destille wieder aufzurüsten!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Boring parts first, I got the concept tweaked out but there's still a lot of materials I need.",
+          "transl": "Aber zuerst den langweiligen Teil: Ich habe ein ausgefeiltes Konzept, aber es gibt noch eine Menge Materialien, die ich brauche."
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Here, take a list of the things.\\. I'll need some of that super valuable \\c[3]\\v[item.192.name]\\c[0] for one.",
+          "transl": "Hier die Liste mit den Sachen.\\. Ich brauche vor allem etwas von diesem super wertvollen \\c[3]Epischen Metall\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "Then a few \\c[3]\\v[item.185.name]s\\c[0] straight out of our desert.",
+          "transl": "Dann ein paar \\c[3]Kristall-Lauche\\c[0] direkt aus unserer Wüste."
+         }
+        },
+        {
+         "message": {
+          "orig": "The rest you should find on \\v[area.beach.name].\\. I hope you enjoy a nice trip to the beach!",
+          "transl": "Den Rest solltest du auf dem Azur-Archipel finden.\\. Genieß deinen Ausflug am Strand!"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Awesome!\\. I'll be counting on you!",
+          "transl": "Klasse!\\. Ich zähl' auf dich!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "I'll wait here till you get all those ingredients!",
+         "transl": "Ich warte hier, bis du alle Zutaten zusammen hast!"
+        }
+       },
+       {
+        "message": {
+         "orig": "To jog your memory, I'll need some of that super valuable \\c[3]\\v[item.192.name]\\c[0] for one.",
+         "transl": "Zur Erinnerung: Ich brauche vor allem etwas von diesem super wertvollen \\c[3]Epischen Metall\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "Then a few \\c[3]\\v[item.185.name]s\\c[0] straight out of our desert.",
+         "transl": "Dann ein paar \\c[3]Kristall-Lauche\\c[0] direkt aus unserer Wüste."
+        }
+       },
+       {
+        "message": {
+         "orig": "The rest you should find on a relaxing beach trip on \\v[area.beach.name].",
+         "transl": "Den Rest solltest du bei einem entspannten Strandspaziergang auf dem Azur-Archipel finden."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Ryda",
+          "transl": "Ryda"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Heya \\v[lore.title.seeker]!\\. You got everything?",
+          "transl": "Heya, Seeker!\\. Hast du alles?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Amazing, that's all that rare stuff I still needed.\\. Now I can get straight to finishing the last tweaks on the machine!",
+          "transl": "Genial, du hast alles, was ich noch brauchte!\\. Dann kann ich jetzt endlich die letzten Kniffe an der Maschine vornehmen!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Wait a few minutes, I will be right back!",
+          "transl": "Warte ein paar Minuten, ich bin gleich zurück!"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Ryda",
+          "transl": "Ryda"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Alrighty, it's done.\\. All that's needed now is for a \\v[lore.title.seeker] to calibrate it and do a test run.",
+          "transl": "So, das wär's.\\. Jetzt muss nur noch ein Seeker das Gerät kalibrieren und einen Testlauf durchführen."
+         }
+        },
+        {
+         "message": {
+          "orig": "... how?",
+          "transl": "... Wie?"
+         }
+        },
+        {
+         "message": {
+          "orig": "You'll just need to go to the machine and activate the upgrade procedure.\\. Simple as that.",
+          "transl": "Ganz einfach: Du musst nur zur Maschine gehen und den Aufrüstungsvorgang aktivieren."
+         }
+        },
+        {
+         "message": {
+          "orig": "... why?",
+          "transl": "... Warum?"
+         }
+        },
+        {
+         "message": {
+          "orig": "I'd do it myself but those track-gadgets need \\v[lore.title.seeker]s for some interactions.\\. It is what it is.",
+          "transl": "Ich würde es ja selbst machen, aber diese Pfad-Geräte brauchen Seeker für einige Interaktionen.\\. So ist es nun mal."
+         }
+        },
+        {
+         "message": {
+          "orig": "Better not question it.\\. You could just finish this job instead, right?",
+          "transl": "Nicht groß drüber nachdenken.\\. In der Zeit hast du den Job längst erledigt."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Go down the stairs behind me to your right.\\. The distillery is still down there, waiting for that upgrade!",
+         "transl": "Geh die Treppe rechts hinter mir runter.\\. Die Destille ist immer noch da unten und wartet auf ihre Aufrüstung!"
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "I will take care of everything with the machine.\\. Report back on the market for your well-earned reward!",
+         "transl": "Ich kümmere mich um alles mit der Maschine.\\. Melde dich wieder auf dem Markt für deine wohlverdiente Belohnung!"
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Heya, \\v[lore.title.seeker]!\\. Wanna get more drinks done?",
+         "transl": "Heya, Seeker!\\. Willst du noch mehr Getränke brauen?"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

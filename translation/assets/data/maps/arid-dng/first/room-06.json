@@ -1,0 +1,203 @@
+{
+ "entities": [
+  {
+   "settings": {
+    "blockEvent": [
+     null,
+     {
+      "message": {
+       "orig": "We should not leave through the entrance. Strange things could happen.",
+       "transl": "Wir dürfen den Raum nicht durch den Eingang verlassen. Es könnten sonst seltsame Dinge passieren."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "blockEvent": [
+     null,
+     {
+      "message": {
+       "orig": "Lea, not the door please. The exit sign.",
+       "transl": "Lea, nicht durch die Tür, bitte. Nimm den Ausgang."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Oh! Well... we should take care of those first.",
+       "transl": "Oh! Um die sollten wir uns natürlich zuerst kümmern..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Wait, Lea!",
+       "transl": "Warte, Lea!"
+      }
+     },
+     {
+      "message": {
+       "orig": "This time we'll exit through the wall to the east!",
+       "transl": "Dieses Mal verschwinden wir durch die östliche Wand!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Take off.",
+      "transl": "Auf und davon!"
+     },
+     "event": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "thenStep": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Whooops!",
+          "transl": "Uuups!"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "message": {
+          "orig": "WHY?!",
+          "transl": "WARUM?!"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Sorry, I forgot to fix the routine for sideway jumps...",
+          "transl": "Entschuldige, ich habe vergessen, das Programm für Seitwärtssprünge anzupassen..."
+         }
+        },
+        {
+         "message": {
+          "orig": "...How?!",
+          "transl": "... Wie?!"
+         }
+        },
+        {
+         "message": {
+          "orig": "A-Anyway, it should work now. Promise.",
+          "transl": "N-Na ja, jetzt sollte es jedenfalls funktionieren. Versprochen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Please try again.",
+          "transl": "Versuche es bitte nochmal."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

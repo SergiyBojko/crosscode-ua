@@ -1,0 +1,120 @@
+{
+ "actions": {
+  "Init": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "\\v[entity.attrib.startingWave]",
+       "transl": "\\v[entity.attrib.startingWave]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "InitMove": [
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "MOVE",
+       "transl": "BEWEGEN<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "StartFullShield": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "[ FullShield On ]",
+       "transl": "[ Vollschild AN ]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "Target": [
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ TARGET ]",
+     "transl": "[ ZIEL ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "NoTargetMinistun": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "STOP",
+       "transl": "STOP<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "MarkTarget": [
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[TARGET]",
+     "transl": "[ ZIEL ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "AntiTurretShot": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[ Targetting Turret! ]",
+     "transl": "[ Geschütz anvisieren! ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "ReachGoal": [
+   {
+    "text": {
+     "orig": "[ WEAPON ESCAPED! ]",
+     "transl": "[ WAFFEN ENTKOMMEN! ]<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Floating Sentry",
+   "transl": "Schwimmwache<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "Large, heavily modified turrets made in \\c[3]\\v[area.rhombus-sqr.name]\\c[0] and meant for illegal activities all over \\v[lore.title.planet]. They are equipped with \\c[3]floating devices\\c[0] to cross the ocean on their own and even have their own \\c[3]shielding system\\c[0].\nIt is advised to only face them with the support of \\c[3]heavy artillery\\c[0].",
+     "transl": "Stark modifizierte Geschütze, die für illegale Zwecke in \\c[3]Rhombus Square\\c[0] gefertigt wurden. Sie sind mit \\c[3]schwimmenden Vorrichtungen\\c[0] ausgestattet, um selbstständig den Ozean zu überqueren und haben möglicherweise sogar ein eigenes \\c[3]Abschirmsystem\\c[0]. Es wird empfohlen, sie nur mit \\c[3]schwerer Artillerie\\c[0] zu bekämpfen.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

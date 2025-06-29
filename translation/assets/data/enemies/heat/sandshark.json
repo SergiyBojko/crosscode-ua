@@ -1,0 +1,301 @@
+{
+ "actions": {
+  "Quest-MoveToCrate": [
+   {
+    "text": {
+     "orig": "[hateful bone noises]",
+     "transl": "[abartige Knochengeräusche]<<C<<Geprüft: Minsu"
+    }
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "thenStep": [
+       null,
+       {
+        "text": {
+         "orig": "<ESCAPE>",
+         "transl": "<ESCAPE><<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "<GOTO>",
+       "transl": "<GOTO><<C<<IGNORE"
+      }
+     }
+    ]
+   },
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "<SIDE>",
+       "transl": "<SIDE><<C<<IGNORE"
+      }
+     }
+    ]
+   },
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "text": {
+         "orig": "<TACKLE>",
+         "transl": "<TACKLE><<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     {
+      "thenStep": [
+       null,
+       {
+        "text": {
+         "orig": "<ADJUST>",
+         "transl": "<ADJUST><<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "Quest-TackleCrate": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "<1 START>",
+       "transl": "<1 START><<C<<IGNORE"
+      }
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "<2 JUMP>",
+       "transl": "<2 JUMP><<C<<IGNORE"
+      }
+     }
+    ]
+   },
+   null,
+   {
+    "text": {
+     "orig": "!!!",
+     "transl": "!!!<<C<<IGNORE"
+    }
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "<3 TACKLE>",
+       "transl": "<3 TACKLE><<C<<IGNORE"
+      }
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "<4 MISSED>",
+       "transl": "<4 MISSED><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-HitCrate": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "thenStep": [
+       null,
+       {
+        "text": {
+         "orig": "<4 HIT>",
+         "transl": "<4 HIT><<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "<5 LAND>",
+       "transl": "<5 LAND><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-Deflect": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "<DEFLECT>",
+       "transl": "<DEFLECT><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ],
+  "Quest-CircleCrate": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "<CIRCLE>",
+       "transl": "<CIRCLE><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Fish",
+   "transl": "Fisch<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "Fearsome creatures, these bony sharks attack on sight, or rather vibration as they are actually blind. Adventurers often struggle in dealing with this fast foe as it is hard to catch and invulnerable underground. However constantly aiming your shot and throwing balls at them as soon as they jump up stuns them for quite a while.",
+     "transl": "Furchterregende Kreaturen. Diese knöchernen Haie greifen bei Sichtkontakt, oder besser gesagt, bei Vibration an, da sie genau genommen blind sind. Abenteurer haben oft Schwierigkeiten, mit diesem schnellen Feind umzugehen, da er schwer zu fangen und im Untergrund unverwundbar ist. Hier helfen nur gezielte Schüsse, um ihn zu lähmen, sobald er hochspringt.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

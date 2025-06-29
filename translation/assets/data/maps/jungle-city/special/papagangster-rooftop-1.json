@@ -1,0 +1,679 @@
+{
+ "entities": [
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "action": [
+         {
+          "thenStep": [
+           null,
+           {
+            "thenStep": [
+             null,
+             null,
+             null,
+             null,
+             {
+              "text": {
+               "orig": "\\v[tmp.tempCrateString]",
+               "transl": "\\v[tmp.tempCrateString]<<C<<IGNORE"
+              }
+             },
+             {
+              "thenStep": [
+               null,
+               {
+                "text": {
+                 "orig": "LOADED",
+                 "transl": "GELADEN"
+                }
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "\\v[tmp.tempHideStringOmega]",
+         "transl": "\\v[tmp.tempHideStringOmega]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "value": {
+       "orig": "[Waiting for crate]",
+       "transl": "[Warte auf Kiste]"
+      }
+     },
+     {
+      "value": {
+       "orig": "[New platform incoming]",
+       "transl": "[Neue Plattform unterwegs]"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "thenStep": [
+         null,
+         null,
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "DOUBLE SPAWN!",
+             "transl": "DOPPEL-SPAWN!"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "ENEMY SPAWN IN \\v[tmp.tempSpawnTime]sec!",
+           "transl": "GEGNER-SPAWN IN \\v[tmp.tempSpawnTime] Sek.!"
+          }
+         }
+        ]
+       },
+       null,
+       {
+        "thenStep": [
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         {
+          "action": [
+           {
+            "thenStep": [
+             {
+              "text": {
+               "orig": "\\v[tmp.tempStringEnemyName]",
+               "transl": "\\v[tmp.tempStringEnemyName]<<C<<IGNORE"
+              }
+             }
+            ]
+           },
+           null,
+           null,
+           null,
+           null,
+           null,
+           {
+            "text": {
+             "orig": "[Angry bird noises!]",
+             "transl": "[Wütende Vogellaute!]"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[Angry bird noises!]",
+       "transl": "[Wütende Vogellaute!]"
+      }
+     },
+     {
+      "text": {
+       "orig": "[Angry bird noises!]",
+       "transl": "[Wütende Vogellaute!]"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Crates",
+         "transl": "Kisten"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "states": [
+     null,
+     {
+      "action": [
+       {
+        "text": {
+         "orig": "\\v[tmp.platformDelayString]",
+         "transl": "\\v[tmp.platformDelayString]<<C<<IGNORE"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "text": {
+         "orig": "\\v[tmp.platformWaitString]",
+         "transl": "\\v[tmp.platformWaitString]<<C<<IGNORE"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "action": [
+         {
+          "text": {
+           "orig": "Return to Roof",
+           "transl": "Zurück zum Dach"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

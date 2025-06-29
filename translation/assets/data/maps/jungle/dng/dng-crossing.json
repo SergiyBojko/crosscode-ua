@@ -1,0 +1,1657 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "text": {
+       "orig": "Access denied",
+       "transl": "Zutritt verweigert"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Hello there, young lady!",
+          "transl": "Hallo, junge Dame!"
+         }
+        },
+        {
+         "thenStep": [
+          {
+           "message": {
+            "orig": "Oh! My guardian senses are detecting that precious \\c[3]\\v[item.288.name]\\c[0] in your belongings!",
+            "transl": "Oh! Meine Wächtersinne sagen mir, dass du den \\c[3]Gaia-Tempelpass\\c[0] in deiner Tasche hast!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "Don't gimme that look, lady! It's all that I'm detecting!",
+            "transl": "Sieh mich nicht so an, junge Dame! Das ist alles, was ich erspüren kann! Ehrenwort!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Anyway, you're free to enter. Good luck!",
+            "transl": "Wie dem auch sei, du darfst eintreten. Viel Glück!"
+           }
+          }
+         ],
+         "elseStep": [
+          {
+           "message": {
+            "orig": "I'm sure you're dying to enter this temple here to my back, but I have to ask you to show me the \\c[3]\\v[item.288.name]\\c[0] first.",
+            "transl": "Du kannst es sicher kaum erwarten, den Tempel hinter mir zu betreten. Das geht jedoch leider nur mit dem \\c[3]Gaia-Tempelpass\\c[0]."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "I know it's an annoying formality, but rules are rules!",
+            "transl": "Ich weiß, eine ärgerliche Formalität. Aber so sind nun mal die Vorschriften!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Just head to \\c[3]\\v[area.jungle-city.name]\\c[0]. Really, it should be a breeze for you to acquire that pass over there.",
+            "transl": "Es sollte aber ein Leichtes für dich sein, den Pass in \\c[3]Burg Bassin\\c[0] zu organisieren."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hello there, Seeker.",
+         "transl": "Ah, hallo, Seeker."
+        }
+       },
+       {
+        "message": {
+         "orig": "A white Shad came a while back and all the Shad left.",
+         "transl": "Eine weiße Shad kam vor einer Weile und alle Shad sind daraufhin gegangen."
+        }
+       },
+       {
+        "message": {
+         "orig": "I assume you have something to do with this?",
+         "transl": "Ich nehme an, dass das auch dein Verdienst war?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       {
+        "message": {
+         "orig": "Thanks a lot. I wouldn't know what to do if this escalated...",
+         "transl": "Ich danke dir vielmals. Wenn das eskaliert wäre, hätte ich nicht gewusst, was ich tun sollte..."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "I'll just pretend they are not here...",
+         "transl": "Ich tue einfach so, als wären sie gar nicht hier..."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "text": {
+       "orig": "Access denied",
+       "transl": "Zutritt verweigert"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Yo, what's up?",
+         "transl": "Yo, was geht?"
+        }
+       },
+       {
+        "message": {
+         "orig": "The path to the north leads up to the \\c[3]Grand Krys'kajo\\c[0].",
+         "transl": "Der nördliche Pfad hier führt zum \\c[3]Großen Krys'kajo\\c[0]."
+        }
+       },
+       {
+        "thenStep": [
+         {
+          "message": {
+           "orig": "You want to enter?",
+           "transl": "Willst du rein?"
+          }
+         },
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[nickt]"
+          }
+         },
+         {
+          "message": {
+           "orig": "You first need to enter the dungeons to the \\c[3]left\\c[0] and \\c[3]right\\c[0] to collect the \\c[3]\\v[item.231.name]\\c[0] and \\c[3]\\v[item.286.name]\\c[0].",
+           "transl": "Dafür musst du zuerst die Dungeons zur \\c[3]Linken\\c[0] und \\c[3]Rechten\\c[0] bewältigen, um die \\c[3]Lila Blitzform\\c[0] und die \\c[3]Azurtropfenform\\c[0] zu erhalten."
+          }
+         },
+         {
+          "message": {
+           "orig": "If you've already finished those dungeons... just revisit the \\c[3]boss rooms\\c[0]. I'm sure you'll find the shades somewhere in there.",
+           "transl": "Falls du die Dungeons schon gemacht hast... geh nochmal in die \\c[3]Bossräume\\c[0]. Da wirst du sicher etwas finden."
+          }
+         },
+         {
+          "message": {
+           "orig": "...!",
+           "transl": "...!"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "message": {
+           "orig": "It looks like you're ready to enter! Better be prepared then. This is the last dungeon of Gaia's Garden.",
+           "transl": "Sieht so aus, als wärst du nun bereit! Sei besser vorbereitet. Das ist der letzte Dungeon von Gaias Garten."
+          }
+         },
+         {
+          "message": {
+           "orig": "...!",
+           "transl": "...!"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "P-Please calm down...",
+       "transl": "B-Bitte beruhigt euch..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Shad will not stand down! Humans have poisoned great jungle.",
+       "transl": "Shad werden nicht zurückhalten! Menschen haben vergiftet großen Dschungel!"
+      }
+     },
+     {
+      "message": {
+       "orig": "No more! We block entrance for all to save jungle!",
+       "transl": "Das reichen! Wir blockieren Eingang für alle, um retten Dschungel!"
+      }
+     },
+     {
+      "message": {
+       "orig": "This is too much for a single guard...\n",
+       "transl": "Das sind zu viele für eine einzelne Wache..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "I'm very sorry Seeker, but as you can see we have a situation here.\n",
+       "transl": "Es tut mir leid, Seeker, aber wie ihr seht, gibt es Schwierigkeiten."
+      }
+     },
+     {
+      "message": {
+       "orig": "The Shad formed a wall and blocked the path to \\c[3]Grand Krys'kajo\\c[0] and its trials.\n",
+       "transl": "Die Shad haben eine Mauer gebildet und blockieren den Weg zum \\c[3]Großen Krys'kajo\\c[0] und seinen Prüfungen..."
+      }
+     },
+     {
+      "message": {
+       "orig": " ...Including our power plant.",
+       "transl": "... und zu unserem Kraftwerk."
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "They let no one through and are clearly agitated.\n",
+       "transl": "Sie lassen niemanden durch und sind ziemlich aufgebracht."
+      }
+     },
+     {
+      "message": {
+       "orig": "I fear that as long as they're acting this way, no Seeker can progress any further.\n",
+       "transl": "Solange sie sich nicht beruhigen, wird kein Seeker den Weg passieren können, fürchte ich."
+      }
+     },
+     {
+      "message": {
+       "orig": "To be honest, I'm not sure what to do.\n",
+       "transl": "Um ehrlich zu sein weiß ich nicht, was ich tun soll."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "What we need here is an official statement from our mayor.\n",
+       "transl": "Was wir hier bräuchten wäre eine offizielle Stellungnahme unseres Bürgermeisters."
+      }
+     },
+     {
+      "message": {
+       "orig": "I have yet to receive any instructions concerning this whole mess...\n",
+       "transl": "Ich kann hier nicht weg, weil ich auf weitere Anweisungen warten soll..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Seeker, it would be a huge help if you could send word to the mayor.\n",
+       "transl": "Es wäre daher eine große Hilfe, Seeker, wenn du den Bürgermeister benachrichtigen könntest."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Thank you! I will try and hold the fort here.",
+       "transl": "Ich danke dir! Ich werde derweil versuchen, hier die Stellung zu halten."
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "It seems that fate won't let us reach the temples just yet!",
+       "transl": "Es sieht so aus, als ob das Schicksal noch nicht möchte, dass wir die Tempel erreichen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Let us quickly seek an audition with the mayor before this conflict escalates any further!",
+       "transl": "Lasst uns zügig beim Bürgermeister vorsprechen, bevor die Situation hier eskaliert!"
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "So...\\. back to the city again?",
+         "transl": "Also...\\. wieder zurück in die Stadt?"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "And where do we find that mayor?",
+         "transl": "Und wo finden wir diesen Bürgermeister?"
+        }
+       },
+       {
+        "message": {
+         "orig": "Why of course, in the \\c[3]Quest Hub\\c[0] of \\c[3]Basin Keep\\c[0]!",
+         "transl": "Na, selbstverständlich im \\c[3]Quest Hub\\c[0] von \\c[3]Burg Bassin\\c[0]!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Okay. I start seeing the pattern here.",
+         "transl": "Ah. So langsam erkenne ich ein Muster."
+        }
+       }
+      ]
+     },
+     {
+      "task": {
+       "orig": "Visit the \\c[3]mayor\\c[0] in \\c[3]Basin Keep\\c[0] to tell him about the Shad blocking the path to the temples.",
+       "transl": "Suche den \\c[3]Bürgermeister\\c[0] in \\c[3]Burg Bassin\\c[0] auf, um ihn über die Blockade der Tempel zu benachrichtigen."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "dialog": [
+     {
+      "text": {
+       "orig": "Is there no way for us to find common ground?",
+       "transl": "Gibt es keinen Weg, uns friedlich zu einigen?"
+      }
+     },
+     {
+      "text": {
+       "orig": "No! Humans have broken trust with Shad.",
+       "transl": "Nein! Menschen haben Vertrauen gebrochen von Shad."
+      }
+     },
+     {
+      "text": {
+       "orig": "Oh bother...",
+       "transl": "Oh je..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "What's this?",
+       "transl": "Was ist das?"
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "... \\.\\.\\.",
+       "transl": "... \\.\\.\\."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Wait...\\. something is coming from down there!",
+       "transl": "Moment...\\. Da kommt was aus dieser Richtung!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Oh, you have got to be kidding!",
+       "transl": "Ah, das darf doch nicht wahr sein!<<A<<[CHANGED 2021/05/22]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Not the bird people. Again.",
+       "transl": "Nicht die Vogelmenschen. Schon wieder."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "K'tara",
+       "transl": "K'tara"
+      }
+     },
+     {
+      "message": {
+       "orig": "Seeker!",
+       "transl": "Seeker!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Hi...",
+       "transl": "Hi..."
+      }
+     },
+     {
+      "message": {
+       "orig": "I'm so sorry. I could not stop them.",
+       "transl": "Es tut mir schrecklich leid. Ich konnte sie nicht aufhalten."
+      }
+     },
+     {
+      "message": {
+       "orig": "...Why?",
+       "transl": "... Warum?"
+      }
+     },
+     {
+      "message": {
+       "orig": "The \\c[3]Wiccats\\c[0], they're back already! Some of my people have been attacked!",
+       "transl": "Die \\c[3]Schnurrken\\c[0], sie sind wieder da! Ein paar meiner Leute wurden von ihnen angegriffen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Now, they're hell bent on shutting down the power plant for real.",
+       "transl": "Jetzt sind sie wild entschlossen, das Kraftwerk diesmal wirklich lahmzulegen!<<A<<[CHANGED 2021/05/22]"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Hey, Tara, it's been a while. And you brought a lot of company as well!",
+       "transl": "Hey, Tara, lange nicht gesehen. Und du hast sogar einiges an Gesellschaft mitgebracht! "
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Dr. Cretia",
+       "transl": "Dr. Cretia"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Lou!",
+       "transl": "Lou!"
+      }
+     },
+     {
+      "message": {
+       "orig": "We're in trouble!",
+       "transl": "Wir haben ein Problem!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Let me guess, the Cats are back?",
+       "transl": "Lass mich raten, die Katzen sind wieder da?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Yes, how'd you know?",
+       "transl": "Ja, woher weißt du das?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Well, we got them too. Right at the power plant.",
+       "transl": "Bei uns sind sie auch. Direkt am Kraftwerk."
+      }
+     },
+     {
+      "message": {
+       "orig": "That's terrible!",
+       "transl": "Das ist ja furchtbar!"
+      }
+     },
+     {
+      "message": {
+       "orig": "No, that's perfect!",
+       "transl": "Nein, das ist perfekt!"
+      }
+     },
+     {
+      "message": {
+       "orig": "I've got them right where I want them!",
+       "transl": "Jetzt habe ich sie genau dort, wo ich sie haben will!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "This is the perfect opportunity to research the heck out of these buggers!",
+       "transl": "Das ist die ideale Gelegenheit, die Mistdinger auf Herz und Nieren zu untersuchen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "To determine their source - the actual reason for their existence!",
+       "transl": "Um ihre Herkunft zu bestimmen - den eigentlichen Grund für ihre Existenz!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Spoilers: It won't be the power plant.",
+       "transl": "Spoiler: Das Kraftwerk wird es nicht sein."
+      }
+     },
+     {
+      "message": {
+       "orig": "I wish I had your confidence...",
+       "transl": "Ich wünschte, ich hätte dein Selbstvertrauen..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Oh, I don't need confidence! I have science!",
+       "transl": "Ach, Selbstvertrauen brauche ich nicht! Ich habe die Wissenschaft!<<A<<[CHANGED 2021/05/22]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Anyway, Tara... Please try to keep your folks calm.",
+       "transl": "Aber nun zu dir, Tara... Versuche deine Leute bitte zu beruhigen.<<A<<[CHANGED 2021/05/22]"
+      }
+     },
+     {
+      "message": {
+       "orig": "I can't have them charge the power plant for the time being.",
+       "transl": "Ich kann nicht zulassen, dass sie in der Zwischenzeit das Kraftwerk stürmen."
+      }
+     },
+     {
+      "message": {
+       "orig": "I'll try my best...",
+       "transl": "Ich werde mein Bestes geben..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Seeker!",
+       "transl": "Seeker!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...Hi?",
+       "transl": "... Hi?"
+      }
+     },
+     {
+      "message": {
+       "orig": "You have experience in dealing with those Wiccats, correct?",
+       "transl": "Du hast Erfahrung im Umgang mit diesen Schnurrken, korrekt?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Great! Follow me this way, I need your assistance ASAP!",
+       "transl": "Fein! Wenn du mir bitte folgen würdest, ich brauche umgehend deine Unterstützung!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "K'tara",
+       "transl": "K'tara"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Yeah, she's the kind that takes your assistance for granted.",
+       "transl": "Ja, sie ist so ein Typ, der deine Hilfe für selbstverständlich hält."
+      }
+     },
+     {
+      "message": {
+       "orig": "Still... this might be our only chance to resolve this conflict peacefully...",
+       "transl": "Dennoch... Das könnte unsere einzige Chance sein, den Konflikt friedlich zu lösen..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Let's all work together!",
+       "transl": "Lasst uns also alle zusammenarbeiten!"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Looks like we have to solve another little quest before entering the last dungeon.",
+       "transl": "Tja, da müssen wir wohl noch eine Kleinigkeit erledigen, bevor wir in den letzten Dungeon können."
+      }
+     },
+     {
+      "message": {
+       "orig": "Oui, oui. It would have been too easy otherwise, I guess!",
+       "transl": "Oui, oui. Alles andere wäre ja auch zu einfach gewesen!"
+      }
+     },
+     {
+      "task": {
+       "orig": "Solve the quest \\c[3]The Root Cause\\c[0] to get access to \\c[3]Grand Krys'kajo\\c[0]!",
+       "transl": "Erledige die Quest \\c[3]Die Wurzel allen Übels\\c[0], um dir Zugang zum \\c[3]Großen Krys'kajo\\c[0] zu verschaffen!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "K'tara",
+         "transl": "K'tara"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Lou and I have known each other for a long time. ",
+         "transl": "Lou und ich kennen uns schon seit einer halben Ewigkeit."
+        }
+       },
+       {
+        "message": {
+         "orig": "Without her, I probably wouldn't have found my interest in human society.",
+         "transl": "Ohne sie hätte ich wohl nie mein Interesse an der menschlichen Gesellschaft entdeckt."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Anyway, if she's that confident I'm sure she has a plan that will help us all.",
+         "transl": "Jedenfalls, wenn sie so zuversichtlich ist, hat sie sicher einen Plan, der uns allen helfen wird."
+        }
+       },
+       {
+        "message": {
+         "orig": "You follow her to the power plant. I'll try and hold off my people for as long as I can.",
+         "transl": "Du folgst ihr zum Kraftwerk. Ich werde versuchen, meine Leute so gut es geht zurückzuhalten."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Here we are! That famous dungeon crossing!",
+       "transl": "Da wären wir! Die berühmte Dungeon-Kreuzung!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "So... which dungeon is first?",
+       "transl": "Also... Welchen Dungeon als Erstes?"
+      }
+     },
+     {
+      "message": {
+       "orig": "I think that is up to us.",
+       "transl": "Das können wir uns aussuchen."
+      }
+     },
+     {
+      "message": {
+       "orig": "There are two temples we have to complete first in any order.",
+       "transl": "Es liegen zwei Dungeons vor uns, die wir in beliebiger Reihenfolge angehen können."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "The \\c[3]So'najiz Temple\\c[0] in the west...",
+       "transl": "Den \\c[3]So'najiz-Tempel\\c[0] im Westen..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...and the \\c[3]Zir'vitar Temple\\c[0] in the east.",
+       "transl": "... und den \\c[3]Zir'vitar-Tempel\\c[0] im Osten."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Once we have completed both, we can enter the \\c[3]Grand Krys'kajo\\c[0] to the north!",
+       "transl": "Sobald wir die beiden erledigt haben, können wir den \\c[3]Großen Krys'kajo\\c[0] im Norden betreten!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Mon dieu, that's a lot of dungeons.",
+       "transl": "Mon Dieu, das sind ganz schön viele Dungeons."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Well, we don't have to do them all at once.",
+       "transl": "Nun ja, wir müssen sie zum Glück nicht alle auf einmal machen."
+      }
+     },
+     {
+      "message": {
+       "orig": "Oui, but I'd like to finish at least one of them today.",
+       "transl": "Oui, aber zumindest einen möchte ich heute gerne schaffen."
+      }
+     },
+     {
+      "message": {
+       "orig": "Sounds reasonable.",
+       "transl": "Klingt vernünftig."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Oh right, what about you, Lea? ",
+       "transl": "Was sagst du dazu, Lea?<<A<<[CHANGED 2021/05/22]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Are you ready to dive right into dungeon crawling?",
+       "transl": "Bist du startklar für das große Dungeon-Crawling?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "If you like, we can take a stroll through the jungle first. Punching some more parrots.",
+       "transl": "Wir könnten vorher noch einen Streifzug durch den Dschungel machen, wenn du willst. Ein paar Papageien plätten."
+      }
+     },
+     {
+      "message": {
+       "orig": "Well, yeah...\\. we could do that.",
+       "transl": "Joa...\\. das könnten wir machen."
+      }
+     },
+     {
+      "message": {
+       "orig": "We leave it up to you, Lea.",
+       "transl": "Das überlassen wir dir, Lea."
+      }
+     },
+     {
+      "message": {
+       "orig": "But of course, no entering a dungeon without us!",
+       "transl": "Aber wehe, du betrittst einen der Dungeons ohne uns!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     {
+      "task": {
+       "orig": "Run the \\c[3]So'najiz\\c[0] or \\c[3]Zir'vitar Temple\\c[0] together with \\c[3]Emilie\\c[0] and \\c[3]C'tron\\c[0].",
+       "transl": "Bewältige den \\c[3]So'najiz-\\c[0] oder den \\c[3]Zir'vitar-Tempel\\c[0] zusammen mit \\c[3]Emilie\\c[0] und \\c[3]C'tron\\c[0]."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "\\c[3]So'najiz End\\c[0]",
+     "transl": "\\c[3]So'najiz / Ende\\c[0]"
+    }
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Here we are again...",
+       "transl": "Da wären wir wieder..."
+      }
+     },
+     {
+      "message": {
+       "orig": "So...\\. should we start another dungeon now?",
+       "transl": "Also...\\. Sollen wir noch einen Dungeon machen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Well...\\. It is a bit late, isn't it?",
+       "transl": "Nun ja...\\. Ist schon ein bisschen spät, oder?"
+      }
+     },
+     {
+      "message": {
+       "orig": "I'm afraid I have to logout soon.",
+       "transl": "Ich muss heute leider früher Schluss machen."
+      }
+     },
+     {
+      "message": {
+       "orig": "Oui, same for me. I don't think another dungeon fits in.",
+       "transl": "Oui, ich auch. Da würde jetzt kein Dungeon mehr dazwischen passen."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Oh, you know what?",
+       "transl": "Oh, wisst ihr was?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Before we log off, we should drop by the headquarters and say hello to Lin and the others.",
+       "transl": "Bevor wir uns ausloggen, sollten wir beim Hauptquartier vorbeischauen und Lin und den anderen Hallo sagen."
+      }
+     },
+     {
+      "message": {
+       "orig": "Just let them know that Lea is back again and ready for action.",
+       "transl": "Damit sie wissen, dass Lea wieder da ist."
+      }
+     },
+     {
+      "message": {
+       "orig": "Oh, that's a good idea!",
+       "transl": "Ah, gute Idee!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "D'accord! Let's not wait too long, then.",
+       "transl": "D'accord! Machen wir uns am besten gleich auf den Weg."
+      }
+     },
+     {
+      "message": {
+       "orig": "I'm not sure how much longer they'll be online.",
+       "transl": "Ich weiß nämlich nicht, wie lange sie noch online sind."
+      }
+     },
+     null,
+     {
+      "task": {
+       "orig": "Talk to \\c[3]Hlin\\c[0] in the \\c[3]First Scholars HQ\\c[0].",
+       "transl": "Besuche \\c[3]Hlin\\c[0] im \\c[3]Hauptquartier der Ersten Gelehrten\\c[0]."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "\\c[3]Zir'Vitar End\\c[0]",
+     "transl": "\\c[3]Zir'Vitar / Ende\\c[0]"
+    }
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "K'tara",
+       "transl": "K'tara"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Seeker!",
+       "transl": "Seeker!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Hi!",
+       "transl": "Hi!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Lou and I were just talking. Thank you so much for finding the cause of all our problems.",
+       "transl": "Ich habe gerade mit Lou gesprochen. Ich danke dir vielmals, dass du die Ursache unserer Probleme gefunden hast!"
+      }
+     },
+     {
+      "message": {
+       "orig": "I already talked to my people and for now they at least will let you Seekers to the tree.",
+       "transl": "Ich habe bereits mit meinen Leuten geredet, sie wollen euch Seeker vorerst zum Großen Baum gewähren lassen."
+      }
+     },
+     {
+      "message": {
+       "orig": "However, it might take a while until they all see the fruits of your labor.",
+       "transl": "Es braucht wohl seine Zeit, bis jeder Einzelne von ihnen die Früchte eurer Arbeit sieht und anerkennt."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "I will do my best to restore the relationship between humans and Shad. ",
+       "transl": "Ich werde mein Möglichstes tun, um die Beziehung zwischen Menschen und Shad wieder zu kitten."
+      }
+     },
+     {
+      "message": {
+       "orig": "Thank you again, Seeker, and may we meet again!",
+       "transl": "Nochmals vielen Dank, Seeker! Und mögen wir uns wiederbegegnen!<<A<<[CHANGED 2021/05/22]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Bye!",
+       "transl": "Bye!"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

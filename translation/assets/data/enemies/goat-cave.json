@@ -1,0 +1,90 @@
+{
+ "actions": {
+  "moveBomb": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "BOMB!",
+       "transl": "BOMBE!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "bombKick": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "KICK!",
+       "transl": "TRITT!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "bombDaze": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[Off Balance]",
+     "transl": "[Aus dem Gleichgewicht]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "bombKickPassive": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "KICK!",
+       "transl": "TRITT!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   },
+   {
+    "text": {
+     "orig": "Preparing bomb...",
+     "transl": "Bombe vorbereiten...<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "sceneKick": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "KICK!",
+       "transl": "TRITT!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Mammal",
+   "transl": "Säugetier<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "This much more powerful and intelligent variant of the \\c[3]\\v[combat.name.goat]\\c[0] has only been sighted very recently.\nReports suggest that it might not have developed naturally but was actually \\c[3]created by human influence\\c[0].\nIn any case it uses \\c[3]heat-based\\c[0] attacks and is even able to handle \\c[3]explosives\\c[0].",
+     "transl": "Diese deutlich kraftvollere und intelligentere Variante der \\c[3]Hornygen Ziege\\c[0] wurde erst kürzlich gesichtet.\nBerichte vermuten, dass sie keines natürlichen Ursprungs ist, sondern durch \\c[3]menschlichen Einfluss\\c[0] entstand.\nSie nutzt auf jeden Fall \\c[3]hitzebasierte\\c[0] Angriffe und ist sogar in der Lage, mit \\c[3]Sprengstoff\\c[0] umzugehen.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

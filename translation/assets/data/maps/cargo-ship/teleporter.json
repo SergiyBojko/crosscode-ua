@@ -1,0 +1,1404 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Do you want to be \\c[3]Manlea\\c[0]?",
+         "transl": "Ви хочете стати \\c[3]Чолією\\c[0]?"
+        },
+        "options": [
+         {
+          "label": {
+           "orig": "YES!",
+           "transl": "ТАК!"
+          }
+         },
+         {
+          "label": {
+           "orig": "No...",
+           "transl": "Ні..."
+          }
+         }
+        ]
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Initializing Avatar",
+       "transl": "Ініціалізація Аватару"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "There you are, initialization successful!",
+       "transl": "... Ініціалізація успішно завершена! Вітаю!"
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Oh, is the speech synchronization malfunctioning?",
+       "transl": "Хм, синхронізація голосу не працює?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "... Apparently. Well, something just had to go wrong.",
+       "transl": "... Очевидно. Щось повинно було піти не так."
+      }
+     },
+     {
+      "message": {
+       "orig": "But you understand me, correct?",
+       "transl": "Але ти мене розумієш, правда ж?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[киває]"
+      }
+     },
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Wait...",
+         "transl": "Зажди..."
+        }
+       },
+       {
+        "message": {
+         "orig": "Wha-what is up with your \\c[3]level\\c[0]?",
+         "transl": "А щ-що це з твоїм \\c[3]Рівнем\\c[0]?"
+        }
+       },
+       {
+        "message": {
+         "orig": "...?!",
+         "transl": "...?!"
+        }
+       },
+       {
+        "message": {
+         "orig": "You are level \\c[3]\\v[player.level]\\c[0].\\. It should have been reset.",
+         "transl": "Ти \\c[3]\\v[player.level]\\c[0] Рівня.\\. Він мав бути скинутий."
+        }
+       },
+       {
+        "message": {
+         "orig": "...?",
+         "transl": "...?"
+        }
+       },
+       {
+        "message": {
+         "orig": "Ugh...\\. this is not off to a great start.",
+         "transl": "Йой...\\. це не надто вдалий початок..."
+        }
+       },
+       {
+        "message": {
+         "orig": "...???",
+         "transl": "...???"
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "message": {
+       "orig": "Ok. We will make it work, somehow.",
+       "transl": "Добре. Якось впораємось."
+      }
+     },
+     {
+      "message": {
+       "orig": "You... are probably confused about this situation, correct?",
+       "transl": "Ти... мабуть, не розумієш, що відбувається, вірно?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[киває]"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Alright. Let us take small steps. ",
+       "transl": "Добре. Почнемо з малого."
+      }
+     },
+     {
+      "message": {
+       "orig": "Do you remember VRPs?",
+       "transl": "Пам'ятаєш ВРС?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...Virtual Ricochet Projectiles?",
+       "transl": "... Віртуальні Рикошетні Снаряди?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...Balls?",
+       "transl": "... Кульки?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[киває]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Ok... you seem to remember...",
+       "transl": "Добре... здається, ти пам'ятаєш..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Carla? We are ready. Please initiate the training sequence.",
+       "transl": "Карло? Ми готові. Будь ласка, розпочни тренувальну послідовність."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "Press \\i[key-throw] to aim.\nRelease \\i[key-throw] to throw.",
+         "transl": "Натисніть \\i[key-throw], щоб прицілитися.\nВідпустіть \\i[key-throw], щоб кинути."
+        },
+        "altText": {
+         "orig": "Use \\i[right-stick] to aim.\nPress \\i[throw] to throw.",
+         "transl": "Використайте \\i[right-stick], щоб прицілитися.\nНатисніть \\i[throw], щоб кинути."
+        }
+       }
+      }
+     },
+     {
+      "task": {
+       "orig": "Hit enemies with \\i[o]",
+       "transl": "Бийте ворогів за допомогою \\i[o]."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "VRPs are your most essential tool and weapon.",
+       "transl": "ВРС - ваш найважливіший інструмент і зброя."
+      }
+     },
+     {
+      "message": {
+       "orig": "They are basically like balls.",
+       "transl": "Вони, по суті, як кульки."
+      }
+     },
+     {
+      "message": {
+       "orig": "Your task is to hit all these robots with VRPs.",
+       "transl": "Твоє завдання зараз - вразити всіх роботів ВРС."
+      }
+     },
+     {
+      "message": {
+       "orig": "So, give it a shot!\\.\nOr rather...\\.\\.\\. a throw!",
+       "transl": "Тоді стріляй!\\.\nАбо радше...\\.\\.\\. \"кидай\"!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Nice work!",
+       "transl": "Молодець!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Well, just to be sure...\\.\nLet us repeat this exercise with an extended distance.",
+       "transl": "Що ж, просто для впевненості...\\. Повторімо вправу з більшої відстані."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "Aim and move the cursor towards the edge of the screen to extend your view.",
+         "transl": "Під час прицілювання перемістіть вказівник до краю екрана, щоб розширити поле зору."
+        }
+       }
+      }
+     },
+     {
+      "task": {
+       "orig": "Hit enemies with \\i[o].",
+       "transl": "Бийте ворогів з \\i[o]."
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Something particular about VRPs: They are not affected by gravity.",
+       "transl": "Примітка щодо ВРС: на них не діє сила тяжіння."
+      }
+     },
+     {
+      "message": {
+       "orig": "Thus, no matter how far you throw, VRPs will not fall to the ground.",
+       "transl": "Це означає, що незалежно від того, як далеко ти кинеш, ВРС не впадуть на землю."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Very good.",
+       "transl": "Дуже добре."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Ok, next let us enable the Charge Mode.",
+       "transl": "Ок, далі активуємо Режим Заряджання."
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "object": {
+       "orig": "\\i[tech]Charge Mode",
+       "transl": "\\i[tech]Режим Заряджання"
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "You activate charged VRPs by aiming for a longer time.",
+       "transl": "Цілячись довше, ти активуєш заряджені ВРС."
+      }
+     },
+     {
+      "message": {
+       "orig": "Let us practice right away.",
+       "transl": "Давай одразу попрактикуємось!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Hit enemies with \\i[o]\nAvoid enemies with \\i[x]",
+       "transl": "Бийте ворогів з \\i[o].\nУникайте ворогів з \\i[x]."
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Charge Mode allows for the throwing of larger VRPs.",
+       "transl": "Режим Заряджання дозволяє кидати більші ВРС."
+      }
+     },
+     {
+      "message": {
+       "orig": "Those charged VRPs will ricochet on walls.",
+       "transl": "Заряджені ВРС також рикошетять від стін."
+      }
+     },
+     {
+      "message": {
+       "orig": "That is the reason for their name, you see!",
+       "transl": "Звідси й назва!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Using charged VRPs, you can hit the target with the red circle. ",
+       "transl": "Із зарядженими ВРС ти можеш вразити ціль із червоним колом."
+      }
+     },
+     {
+      "message": {
+       "orig": "Easy enough, right?",
+       "transl": "Простіше простого, правда?"
+      }
+     },
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "Aim until you see a red line to throw a charged ball.",
+         "transl": "Цільтеся, поки не побачите червону лінію, щоб кинути заряджену кулю."
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "Aim precisely to not hit the \\i[7] targets",
+         "transl": "Цільтеся ретельно, щоб не вразити ворогів \\i[7]."
+        }
+       }
+      }
+     },
+     {
+      "guiInfo": {
+       "settings": {
+        "taskTitle": {
+         "orig": "Hit enemies with \\i[6]\nAvoid enemies with \\i[7]",
+         "transl": "Бийте ворогів з \\i[6].\nУникайте ворогів з \\i[7]."
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "message": {
+         "orig": "... Well, that was quick...",
+         "transl": "... Що ж, це було швидко..."
+        }
+       },
+       {
+        "message": {
+         "orig": "I suppose I talked too much again.",
+         "transl": "Мабуть, я знову забагато говорив."
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Anyway, enough practice with VRPs.",
+         "transl": "Добре! Досить практики з ВРС."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "Ok! Enough practice with VRPs.",
+         "transl": "Добре! Досить практики з ВРС."
+        }
+       }
+      ]
+     },
+     {
+      "message": {
+       "orig": "It is about time we put you down on your feet.\n",
+       "transl": "Настав час покласти тебе на твердий ґрунт."
+      }
+     },
+     {
+      "message": {
+       "orig": "Carla, we are done here. You can terminate the floatation sequence.",
+       "transl": "Карло, ми закінчили. Можеш завершити послідовність левітації."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Hey there, girl!\\.\nWelcome to our \ncozy cargo hold!",
+       "transl": "Привіт, дівчино!\\. \nЛаскаво просимо до нашого \nзатишного вантажного відсіку!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "My name's Carla.\\. Nice to meet ya!",
+       "transl": "Я Карла. Приємно познайомитися!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "You sure are a quiet one!",
+       "transl": "Бачу, ти не надто балакуча!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Apparently there is an issue with her speech synchronization.\\. \nShe still understands us, though.",
+       "transl": "Схоже є проблеми із синхронізацією її голосу.\\. Але вона може нас зрозуміти."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "No way!\\. Is there a way to fix it?",
+       "transl": "Та ти що?\\. Ти ж можеш це виправити?"
+      }
+     },
+     {
+      "message": {
+       "orig": "I do not know yet.\\. I will have to look into that.",
+       "transl": "Я ще не знаю.\\. Треба буде з цим розібратися."
+      }
+     },
+     {
+      "message": {
+       "orig": "Anyway!\\. I'm sure we'll be able to understand each other somehow.\\. Non-verbal communication, ya know?",
+       "transl": "Хай там що!\\. Я впевнена, що ми якось зрозуміємо одне одного.\\. Спілкування без слів і все таке."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[киває]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Attagirl!",
+       "transl": "Так тримати!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Still, kinda would like to know your name.",
+       "transl": "Але я б все ж хотіла знати твоє ім'я."
+      }
+     },
+     {
+      "message": {
+       "orig": "Sergey?\\. Can you help us out here?",
+       "transl": "Сергію?\\. Чи можеш ти нам з цим допомогти?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Right...\\. Her name is Lea.",
+       "transl": "Звісно...\\. Її звати Лія."
+      }
+     },
+     {
+      "message": {
+       "orig": "Lea?\\. Well ain't that sweet.",
+       "transl": "Лія?\\. Гарне ім'я."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Well then, Lea, ready to get up? ",
+       "transl": "Тоді, Ліє, можемо почати?"
+      }
+     },
+     {
+      "message": {
+       "orig": "We gotta get you ready for what's coming.\\. Ball throwing and the like, ya know?",
+       "transl": "Нам потрібно підготувати тебе до того, що попереду. Ну, знаєш, до кидання кульок та всього такого."
+      }
+     },
+     {
+      "message": {
+       "orig": "And I got just the thing prepared for ya! ",
+       "transl": "І я підготувала для тебе саме те, що треба!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Follow me!",
+       "transl": "Іди за мною!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "Press \\i[key-up]\\i[key-left]\\i[key-down]\\i[key-right] to move around.\nPress  \\i[pause] to access the pause menu and save the game.",
+         "transl": "Рухайтеся за допомогою \\i[key-up]\\i[key-left]\\i[key-down]\\i[key-right].\nНатисність \\i[pause], щоб відкрити меню паузи та зберегти гру."
+        },
+        "altText": {
+         "orig": "Use \\i[left-stick] to move around.\nPress  \\i[pause] to access the pause menu and save the game.",
+         "transl": "Рухайтеся за допомогою \\i[left-stick].\nНатисність \\i[pause], щоб відкрити меню паузи та зберегти гру."
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Hey there, Girl! I'd appreciate if you wouldn't step on my stuff like that!",
+         "transl": "Гей, Дівчино! Не ходи по моїх речах, добре?"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Just leave through the door, when you're ready.",
+         "transl": "Ти готова? Тоді просто зайди у двері."
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[киває]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Here we are again.\\. Time for you to leave this party.",
+       "transl": "Da wären wir wieder.\\. Zeit für dich zu verschwinden."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "C'mon sweetie, this isn't the time for tearful goodbyes.\n",
+       "transl": "Ach, komm schon, Süße. Keine Zeit für feuchte Augen!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Besides, there are those guys.",
+       "transl": "Siehste, da sind'se schon."
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Goodbye, Lea.\\. \nEnjoy CrossWorlds!",
+       "transl": "Mach's gut, Lea.\\.\nGenieß die Zeit in CrossWorlds!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "To Elevator",
+     "transl": "Zum Aufzug"
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Surprise!",
+       "transl": "Überraschung!"
+      }
+     },
+     {
+      "message": {
+       "orig": "I managed to add a proper \\c[3]landmark\\c[0] on the cargo ship. ",
+       "transl": "Es ist mir gelungen, einen richtigen \\c[3]Wegpunkt\\c[0] ins Frachtschiff zu integrieren."
+      }
+     },
+     {
+      "message": {
+       "orig": "That means from now on you can travel back to the cargo hold whenever you like.",
+       "transl": "Von nun an kannst du dich also nach Belieben zum Frachtraum zurückteleportieren."
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "But better to not try to drag along other party members.",
+       "transl": "Achte aber bitte darauf, dass du keine anderen Spieler mitnimmst."
+      }
+     },
+     {
+      "message": {
+       "orig": "You are the only player that can enter this place.",
+       "transl": "Du bist der einzige Spieler, der diesen Ort betreten kann."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Hey there, girl!",
+       "transl": "Hey, Liebes!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Hi!",
+       "transl": "Hi!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "You look pretty well rested.",
+       "transl": "Siehst aus, als hätteste gut geschlafen."
+      }
+     },
+     {
+      "message": {
+       "orig": "I suppose Sergey talked things through with you?",
+       "transl": "Ich nehm' mal an, dass Sergey dir nun alles erzählt hat?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "About time, really.",
+       "transl": "Wurd' auch Zeit, wirklich."
+      }
+     },
+     {
+      "message": {
+       "orig": "Just so you know, you have all our support! ",
+       "transl": "Nur damit du's weißt: Du hast unsere vollste Unterstützung!"
+      }
+     },
+     {
+      "message": {
+       "orig": "If you ever need a break from that busy Playground, feel free to drop by!",
+       "transl": "Wann immer du 'ne Pause vom Spielplatz brauchs', komm einfach vorbei!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Well then, let's get you back among all those other players!",
+       "transl": "Na dann, zurück mit dir zu all den anderen Spielern!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Please stand in the middle of the teleporter.",
+       "transl": "Stell dich bitte in die Mitte des Teleporters."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Everything ready... Good luck over there, girl!",
+       "transl": "Kann losgehen... Viel Glück da drüben, Liebes!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Bye!",
+       "transl": "Bye!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "There you are!",
+       "transl": "Ah, da bist du ja!"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Hi!",
+       "transl": "Hi!"
+      }
+     },
+     {
+      "message": {
+       "orig": "I just wanted to make sure the teleporter still works.",
+       "transl": "Ich wollte nur überprüfen, dass der Teleporter immer noch funktioniert."
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Actually... there is something else.",
+       "transl": "Und... da wäre noch etwas anderes."
+      }
+     },
+     {
+      "message": {
+       "orig": "Something I thought I would rather give you in private...",
+       "transl": "Etwas, was ich dir ganz im Vertrauen geben wollte..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "object": {
+       "orig": "Vermillion Arena Cup",
+       "transl": "Vermillon-Arenapokal"
+      }
+     },
+     null,
+     null,
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "It is an arena cup with all sorts of battles you experienced in Vermillion Wasteland.",
+       "transl": "Ein Arenapokal mit Gegnern von jeder Art, gegen die du in der Vermilloneinöde gekämpft hast."
+      }
+     },
+     {
+      "message": {
+       "orig": "Including Gautham's \"Ultimate Experience\".",
+       "transl": "Einschließlich Gauthams \"Ultimative Erfahrung\"."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "I thought you would have mixed feelings about this...",
+       "transl": "Ich dachte, dass du wahrscheinlich mit gemischten Gefühlen darauf reagieren würdest..."
+      }
+     },
+     {
+      "message": {
+       "orig": "But at the same time...\\. this is \\c[3]Gautham's legacy\\c[0].",
+       "transl": "Doch gleichzeitig...\\. ist es auch \\c[3]Gauthams Erbe\\c[0]."
+      }
+     },
+     {
+      "message": {
+       "orig": "I am sure all these creations meant a great deal to him.",
+       "transl": "All diese Kreationen haben ihm sicher sehr viel bedeutetet."
+      }
+     },
+     {
+      "message": {
+       "orig": "So the thought of it all getting lost... ",
+       "transl": "Und der Gedanke daran, dass das alles verloren gehen würde... "
+      }
+     },
+     {
+      "message": {
+       "orig": "If there is one thing Gautham would have wanted, it is to share his creations.",
+       "transl": "Wenn es eine Sache gibt, die Gautham gewollt hätte, dann ist es das Weiterleben seiner Schöpfungen."
+      }
+     },
+     {
+      "message": {
+       "orig": "Right?",
+       "transl": "Nicht wahr?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "That is why I created this cup.",
+       "transl": "Darum habe ich diesen Pokal geschaffen."
+      }
+     },
+     {
+      "message": {
+       "orig": "But I wanted to give it to you first.\\. You are my beta tester, so to speak.",
+       "transl": "Und dir wollte ich ihn zuerst geben.\\. Du bist sozusagen mein Beta-Tester."
+      }
+     },
+     {
+      "message": {
+       "orig": "If you feel up to the task, I would like to get your feedback on it.",
+       "transl": "Wenn du dich der Herausforderung gewachsen fühlst, würde ich gerne deine Meinung dazu hören."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "There is no rush.",
+       "transl": "Es eilt nicht."
+      }
+     },
+     {
+      "message": {
+       "orig": "First, I will have to convince Instatainment to allow all those border-line game breaking mechanics.",
+       "transl": "Zuerst muss ich Instatainment davon überzeugen, all diese grenzwertigen Spielmechaniken zu erlauben."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Anyway...",
+       "transl": "Also dann..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Jet and the others are waiting in the \\c[3]cabins on the third floor\\c[0].",
+       "transl": "Jet und die anderen warten in den \\c[3]Kabinen im 2. OG\\c[0] auf uns."
+      }
+     },
+     {
+      "message": {
+       "orig": "I will go ahead, see you there!\n",
+       "transl": "Ich gehe schon mal vor, bis gleich!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "task": {
+       "orig": "Meet Sergey, Jet, and the others at \\c[3]Cargo Ship - Cabins 2\\c[0]",
+       "transl": "Triff Sergey, Jet und die anderen auf dem \\c[3]Frachtschiff - Kabine 2\\c[0]"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

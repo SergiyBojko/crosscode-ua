@@ -1,0 +1,77 @@
+{
+ "actions": {
+  "AirSurfaceShot": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "text": {
+     "orig": "[heated wing noises]",
+     "transl": "[Heiße Flügelgeräusche]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "moveFlame": [
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<FIRE REGEN>",
+       "transl": "<FIRE REGEN><<C<<IGNORE"
+      }
+     }
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[absorbing heat]",
+       "transl": "[Absorbiere Hitze]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "flameRegen": [
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "<REGEN>",
+       "transl": "<REGEN><<C<<IGNORE"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Flaming Bird",
+   "transl": "Flammender Vogel<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "A stronger variant of the more common \\c[3]\\v[combat.name.heat/volturbine]\\c[0], these fiery birds are usually found underground, protecting holy places of the Ancients.\nIn addition to the usual abilities of their species they can \\c[3]shoot explosive air-to-ground missiles\\c[0] and also \\c[3]use flames to regenerate\\c[0].",
+     "transl": "Eine stärkere Variante der gewöhnlicheren \\c[3]Turbogeier\\c[0]. Dieser feurige Vogel befindet sich normalerweise unter der Erde, um die heiligen Stätten der Alten zu schützen.\nZusätzlich zu den üblichen Fähigkeiten ihrer Spezies können sie \\c[3]explosive Luft-Boden-Raketen abschießen\\c[0] und \\c[3]Flammen einsetzen, um sich zu regenerieren\\c[0].<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

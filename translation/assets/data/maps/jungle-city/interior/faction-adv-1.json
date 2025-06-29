@@ -1,0 +1,846 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hey, \\v[lore.title.seeker].\\. These are the headquarters of the Woodland Vanguard.\\. Nice to see you around!",
+         "transl": "Hey, Seeker.\\. Willkommen im Hauptquartier der Waldland-Avantgarde.\\. Schön, dass du hier bist!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Kacela Madaki",
+      "transl": "Kacela Madaki"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Madaki",
+         "transl": "Madaki"
+        }
+       },
+       {
+        "message": {
+         "orig": "Heya, \\v[lore.title.seeker].\\. We got nothing to do for you right now.\\. Nice to see you, though!",
+         "transl": "Heya, Seeker. Aktuell haben wir keine Aufgaben für dich.\\. Aber schön, dich zu sehen!"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Madaki",
+          "transl": "Madaki"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hey there!\\. You're a \\v[lore.title.seeker] aren't you?",
+          "transl": "Hallihallo!\\. Du bist ein Seeker, stimmt's?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Great, just what I needed.\\.\\.\\. ...no,\\. really,\\. we do have an urgent need for a \\v[lore.title.seeker] here.",
+          "transl": "Ja herrlich, du hast mir gerade noch gefehlt.\\.\\.\\. ... Nee, Spaß beiseite, wir brauchen tatsächlich dringend einen Seeker!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Our recent progress led us into some areas with heavy critter-concentration, so we need some additional muscle.",
+          "transl": "Wir konnten kürzlich neue Areale erschließen, leider mit hoher Kriechtier-Konzentration. Wir brauchen also zusätzliche Muskelkraft."
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, not just muscle... also smarts and specialized \\v[lore.title.seeker] skills.\\. Sounds like just your thing?",
+          "transl": "Na ja, nicht nur Muskeln... Auch Cleverness und spezielle Seeker-Fähigkei-\nten.\\. Ist das nicht genau dein Ding?"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Neat!\\. And just like the briefing says, you won't be doing all the work by hand.",
+            "transl": "Sauber!\\. Und wie die Anzeige schon sagt, musst du die ganze Arbeit nicht von Hand machen."
+           }
+          },
+          {
+           "message": {
+            "orig": "A network of defensive turrets is already on site.\\. State-of-the-art, almost indestructible and easy to use.",
+            "transl": "Ein Netzwerk defensiver Geschütze ist bereits vor Ort.\\. Hochmodern, fast unzerstörbar und einfach zu nutzen."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "...if you are connected to Trackwalker, that is.\\. Someone failed to notice that when ordering a truckload of those things...",
+            "transl": "... Natürlich nur, wenn du mit dem Pfadläufersystem verbunden bist.\\. Das hat mal jemand übersehen, der eine ganze Wagenladung davon bestellt hatte..."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "It's the main reason we need you at all, \\v[lore.title.seeker].\\.\\. No offense.",
+            "transl": "Das ist auch der einzige Grund, warum wir dich brauchen, Seeker.\\.\\. Nichts für ungut."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "Anyway, enter the cave in the \\c[3]Calm Backyard of \\v[area.jungle.name]\\c[0].\\. You'll get the details there.",
+            "transl": "Wie auch immer, gehe zur Höhle im \\c[3]Ruhigen Garten in Gaias Garten\\c[0].\\. Die Details erfährst du dort."
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye...",
+            "transl": "Bye..."
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Man, just our luck.\\. I hope you can clear some time for us soon.",
+            "transl": "Mann, wie schade.\\. Ich hoffe, du findest bald doch etwas Zeit für uns."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Madaki",
+         "transl": "Madaki"
+        }
+       },
+       {
+        "message": {
+         "orig": "Go to \\c[3]Calm Backyard in \\v[area.jungle.name]\\c[0] and enter the cave.\\. You'll get all the details there.",
+         "transl": "Gehe zur Höhle im \\c[3]Ruhigen Garten in Gaias Garten\\c[0].\\. Die Details erfährst du dort."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Madaki",
+          "transl": "Madaki"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\v[lore.title.seeker], you're back.\\. Seems like we finally made some progress, thanks to you.",
+          "transl": "Ah, Seeker, du bist zurück.\\. Sieht so aus, als hätten wir nun endlich Fortschritte gemacht. Dank dir!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "The experts on site still need to properly open that door, but it's only a matter of time.",
+          "transl": "Die Experten vor Ort müssen noch herausfinden, wie man diese Tür öffnet, aber das ist bloß eine Frage der Zeit."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hey, how does this sound: Once we make progress, we'll work together again, eh?",
+          "transl": "Hey, wie hört sich das an: Sobald wir weiter sind, arbeiten wir wieder zusammen, ja?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Oh, and they also just finished that direct teleporter to the place!\\. Great timing... Lemme activate it real quick...",
+          "transl": "Oh, und den Teleporter dorthin haben sie übrigens auch gerade fertiggestellt!\\. Perfektes Timing... Warte, ich aktiviere ihn eben..."
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Madaki",
+          "transl": "Madaki"
+         }
+        },
+        {
+         "message": {
+          "orig": "Great!\\. I will send a request over the Seeker Hub once we're ready.",
+          "transl": "Super!\\. Ich werde dann einen Auftrag im Quest Hub eintragen lassen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye, \\v[lore.title.seeker], hope to see you again!",
+          "transl": "Ich hoffe, wir sehen uns bald wieder, Seeker!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Madaki",
+         "transl": "Madaki"
+        }
+       },
+       {
+        "message": {
+         "orig": "Heya, \\v[lore.title.seeker].\\. We got nothing to do for you right now.\\. Nice to see you, though!",
+         "transl": "Heya, Seeker. Aktuell haben wir keine Aufgaben für dich.\\. Aber schön, dich zu sehen!"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Madaki",
+          "transl": "Madaki"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah, \\v[lore.title.seeker], nice seeing you again.\\. Still interested in our temple excavation, I assume?",
+          "transl": "Ah, Seeker, schön dich zu sehen.\\. Immer noch an der Tempelausgrabung interessiert?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, of course you are!\\. And we got some great news for you on that front:\\.\\. The door has been opened!",
+          "transl": "Klar, was frag ich überhaupt!\\. Wir haben eine tolle Neuigkeit für dich:\\.\\. Die Tür ist endlich offen!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "We are now just about to plug into the track's energy circuits from the temple that lies behind it.",
+          "transl": "Wir sind gerade dabei, uns mit dem Energiestrom des dahinter liegenden Tempels zu verbinden."
+         }
+        },
+        {
+         "message": {
+          "orig": "But for that we will need someone to lead the defenses again.\\. How about it, got some free time on your schedule?",
+          "transl": "Aber dafür brauchen wir wieder jemanden, der die Defensive leitet.\\. Wie schaut's aus, hast du gerade Zeit? "
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, reliable as before I see.\\. Let's hope that's also true for that tech you will be using again.",
+            "transl": "Ich wusste, ich kann auf dich zählen!\\. Ich hoffe nur, die Technik ist genauso verlässlich wie du."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "That defensive system from last time got a bit of an upgrade but should be working about the same.",
+            "transl": "Das Abwehrsystem hat nämlich ein kleines Upgrade bekommen, sollte aber eigentlich gleich funktionieren."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Go back to that \\c[3]Grubby Cave\\c[0] on \\c[3]Calm Backyard\\c[0] and go through that door inside.",
+            "transl": "Geh zurück zur \\c[3]Schmuddelgrotte\\c[0] im \\c[3]Ruhigen Garten\\c[0] und dort durch die Tür ins Innere."
+           }
+          },
+          {
+           "message": {
+            "orig": "We already got some of our colleagues inside that can fill you in on the details.",
+            "transl": "Es sind bereits ein paar Kollegen dort, die dich mit den Einzelheiten vertraut machen werden."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye!",
+            "transl": "Bye!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Yeah, goodbye.\\. And good luck!",
+            "transl": "Ja, bis dann.\\. Und viel Glück!"
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Dang, you must really be busy.\\. Hope you can find some time for us in the near future.",
+            "transl": "Mist, dann musst du gerade echt beschäftigt sein.\\. Ich hoffe, du findest bald etwas Zeit dafür."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Madaki",
+         "transl": "Madaki"
+        }
+       },
+       {
+        "message": {
+         "orig": "The temple is behind that door in the \\c[3]Grubby Cave\\c[0] you visited last time.",
+         "transl": "Der Tempel liegt hinter der Tür in der \\c[3]Schmuddelgrotte\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "You can enter that cave from the \\c[3]Calm Backyard\\c[0] in \\c[3]\\v[area.jungle.name]\\c[0].",
+         "transl": "Du kannst die Höhle vom \\c[3]Ruhigen Garten\\c[0] aus in \\c[3]Gaias Garten\\c[0] betreten."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Madaki",
+          "transl": "Madaki"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Oh, hey!\\. The \\v[lore.title.seeker] makes her heroic return after once again taming the wild!",
+          "transl": "Ah, die triumphale Rückkehr des Seekers nach erneuter Heldentat!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yes, you did a good job, indeed.\\. And an important one.\\. Replacing that device would've set us back for weeks if it broke.",
+          "transl": "Das war wirklich gute Arbeit.\\. Und eine wichtige dazu!\\. Das Gerät im Schadensfall zu ersetzen hätte uns um Wochen zurückgeworfen. "
+         }
+        },
+        {
+         "message": {
+          "orig": "But now we can siphon that sweet, precious Track-energy and also extract more information for future missions.",
+          "transl": "Aber jetzt können wir entspannt die wertvolle Pfadenergie abschöpfen und neue Informationen für künftige Missionen gewinnen."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hopefully, we can count on you again in the future, \\v[lore.title.seeker]!",
+          "transl": "Hoffentlich können wir auch in Zukunft auf dich zählen, Seeker!"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "See you around!",
+          "transl": "Man sieht sich!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "..."
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Madaki",
+          "transl": "Madaki"
+         }
+        },
+        {
+         "message": {
+          "orig": "Ah, \\v[lore.title.seeker], nice seeing you again.\\. Still interested in our temple excavation, I assume?",
+          "transl": "Ah, Seeker, schön dich zu sehen.\\. Immer noch an der Tempelausgrabung interessiert?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Alright, reliable as before I see.\\. Let's hope that's also true for that tech you will be using again.",
+            "transl": "Ich wusste, ich kann auf dich zählen!\\. Ich hoffe nur, die Technik ist genauso verlässlich wie du."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "...!",
+            "transl": "...!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Go back to that \\c[3]Grubby Cave\\c[0] on \\c[3]Calm Backyard\\c[0] and go through that door inside.",
+            "transl": "Geh zurück zur \\c[3]Schmuddelgrotte\\c[0] im \\c[3]Ruhigen Garten\\c[0] und dort durch die Tür ins Innere."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Bye!",
+            "transl": "Bye!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Yeah, goodbye.\\. And good luck!",
+            "transl": "Ja, bis dann.\\. Und viel Glück!"
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Dang, you must really be busy.\\. Hope you can find some time for us in the near future.",
+            "transl": "Mist, dann musst du gerade echt beschäftigt sein.\\. Ich hoffe, du findest bald etwas Zeit dafür."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Madaki",
+         "transl": "Madaki"
+        }
+       },
+       {
+        "message": {
+         "orig": "The temple is behind that door in the \\c[3]Grubby Cave\\c[0] you visited last time.",
+         "transl": "Der Tempel liegt hinter der Tür in der \\c[3]Schmuddelgrotte\\c[0]."
+        }
+       },
+       {
+        "message": {
+         "orig": "You can enter that cave from the \\c[3]Calm Backyard\\c[0] in \\c[3]\\v[area.jungle.name]\\c[0].",
+         "transl": "Du kannst die Höhle vom \\c[3]Ruhigen Garten\\c[0] aus in \\c[3]Gaias Garten\\c[0] betreten."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Madaki",
+          "transl": "Madaki"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Oh, hey!\\. The \\v[lore.title.seeker] makes her heroic return after once again taming the wild!",
+          "transl": "Ah, die triumphale Rückkehr des Seekers nach erneuter Heldentat!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Bye!",
+          "transl": "Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Madaki",
+         "transl": "Madaki"
+        }
+       },
+       {
+        "message": {
+         "orig": "Heya, \\v[lore.title.seeker].\\. We got nothing for you to do right now.\\. Nice to see you, though!",
+         "transl": "Heya, Seeker.\\. Aktuell haben wir keine Aufgaben für dich.\\. Aber schön, dich zu sehen!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "Enter the \\c[3]Grubby Cave\\c[0]",
+     "transl": "\\c[3]Schmuddelgrotte\\c[0] betreten"
+    }
+   }
+  }
+ ]
+}

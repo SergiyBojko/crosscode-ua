@@ -1,0 +1,246 @@
+{
+ "entities": [
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "Call",
+        "transl": "Aufzug rufen"
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "1": {
+        "text": {
+         "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
+         "transl": "Brückenaufzug: \\c[1]deaktiviert\\c[0].\nMöchtest du den Aufzug aktivieren?"
+        }
+       },
+       "2": {
+        "0": [
+         null,
+         null,
+         null,
+         {
+          "text": {
+           "orig": "Bridge Elevator \\c[2]enabled\\c[0]!",
+           "transl": "Brückenaufzug: \\c[2]aktiviert\\c[0]!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[no]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       },
+       "hoverText": {
+        "orig": "Display",
+        "transl": "Bildschirm"
+       },
+       "event": [
+        null,
+        {
+         "text": {
+          "orig": "Test sequence status: \\c[2]ready\\c[0].\n\\c[1]Start test sequence\\c[0]?",
+          "transl": "Testsequenz-Status: \\c[2]bereit\\c[0].\n\\c[1]Testsequenz starten\\c[0]?"
+         }
+        },
+        {
+         "0": [
+          null,
+          null,
+          null,
+          {
+           "text": {
+            "orig": "Preparing to \\c[2]initiate test sequence\\c[0]!",
+            "transl": "Bereite \\c[2]Testsequenz vor\\c[0]!"
+           }
+          },
+          {
+           "text": {
+            "orig": "Please \\c[3]enter lower area\\c[0] to begin.",
+            "transl": "Bitte \\c[3]untere Ebene betreten\\c[0], um zu beginnen."
+           }
+          }
+         ],
+         "1": [
+          null,
+          {
+           "text": {
+            "orig": "Completion of test sequence is \\c[3]required\\c[0] in order to access the main elevator.",
+            "transl": "Abschluss der Testsequenz \\c[3]erforderlich\\c[0] für Zugang zum Hauptaufzug."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "[yes]",
+            "transl": "[Ja]"
+           }
+          },
+          {
+           "label": {
+            "orig": "[no]",
+            "transl": "[Nein]"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "interact": {
+       "1": {
+        "text": {
+         "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
+         "transl": "Brückenaufzug: \\c[1]deaktiviert\\c[0].\nMöchtest du den Aufzug aktivieren?"
+        }
+       },
+       "2": {
+        "0": [
+         null,
+         null,
+         null,
+         {
+          "text": {
+           "orig": "Bridge Elevator \\c[2]enabled\\c[0]!",
+           "transl": "Brückenaufzug: \\c[2]aktiviert\\c[0]!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[no]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       },
+       "hoverText": {
+        "orig": "Display",
+        "transl": "Bildschirm"
+       },
+       "event": [
+        null,
+        {
+         "text": {
+          "orig": "Test sequence status: \\c[2]completed\\c[0].\nPerformance score: \\c[2]43.5%\\c[0].",
+          "transl": "Testsequenz-Status: \\c[2]abgeschlossen\\c[0].\nLeistungspunkte: \\c[2]43,5%\\c[0]."
+         }
+        },
+        null,
+        null,
+        {
+         "text": {
+          "orig": "Granting access to \\c[3]main elevator\\c[0].",
+          "transl": "Gewähre Zugang zum \\c[3]Hauptaufzug\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

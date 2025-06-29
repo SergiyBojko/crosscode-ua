@@ -1,0 +1,601 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Dr. Cretia",
+         "transl": "Dr. Cretia"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "The good Seeker, what can I do for you?",
+         "transl": "Ah, der gute Seeker. Was kann ich für dich tun?"
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       },
+       {
+        "message": {
+         "orig": "...Hi?",
+         "transl": "... Hi?"
+        }
+       },
+       {
+        "message": {
+         "orig": "Ah yes, the power plant.",
+         "transl": "Ach ja, das Kraftwerk."
+        }
+       },
+       {
+        "message": {
+         "orig": "It was built pretty much at the same time we built the city.",
+         "transl": "Es wurde etwa zur gleichen Zeit gebaut wie die Stadt."
+        }
+       },
+       {
+        "message": {
+         "orig": "We made sure not to interfere with the track at all.",
+         "transl": "Wir haben es so konzipiert, dass es den Pfad in keiner Weise beeinträchtigt."
+        }
+       },
+       {
+        "message": {
+         "orig": "To put it simply: The plant only absorbs energy that is naturally emitted by the temple.",
+         "transl": "Heißt: Das Kraftwerk absorbiert lediglich die Energie, die natürlicherweise vom Tempel ausgestrahlt wird."
+        }
+       },
+       {
+        "message": {
+         "orig": "Simple and clean energy. Quite brilliant if I do say so myself.",
+         "transl": "Einfache und saubere Energie. Ziemlich brillant, wenn ich mich da mal selbst loben darf."
+        }
+       },
+       {
+        "message": {
+         "orig": "...",
+         "transl": "..."
+        }
+       }
+      ]
+     },
+     null,
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Dr. Cretia",
+          "transl": "Dr. Cretia"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Make yourself comfortable, Seeker. This may take a while.",
+          "transl": "Mach es dir bequem, Seeker. Das könnte eine Weile dauern."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Dr. Cretia",
+          "transl": "Dr. Cretia"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "So...\\.\\.\\. We know that the power plant isn't causing this problem, you know why?",
+          "transl": "Also...\\.\\.\\. Wir wissen, dass das Kraftwerk das Problem nicht verursacht. Willst du wissen, warum?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...Why?",
+          "transl": "... Warum?"
+         }
+        },
+        {
+         "message": {
+          "orig": "Because the jungle was already \"infested\" when we started building the plant.",
+          "transl": "Weil der Dschungel bereits \"verseucht\" war, als wir das Werk bauten."
+         }
+        },
+        {
+         "message": {
+          "orig": "The Shad here seem to forget about that. But I understand their frustration.",
+          "transl": "Die Shad hier scheinen das vergessen zu haben. Ich kann aber ihre Frustration verstehen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Also these cats...\\.\\.\\. \\c[3]They attack on sight\\c[0].",
+          "transl": "Und was die Katzen betrifft...\\.\\.\\. \\c[3]Sie greifen bei Sichtkontakt an\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "Normally, sub-types of the same family follow the same patterns.",
+          "transl": "Normalerweise haben Unterarten derselben Familie die gleichen Verhaltensmuster.<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Meaning they SHOULD behave like Shokats. But they don't.",
+          "transl": "Heißt: Sie müssten sich EIGENTLICH wie Schockatzen verhalten. Tun sie aber nicht."
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "This got me thinking: \\c[3]Where have I seen this before?\\c[0]",
+          "transl": "Das hat mich nachdenklich gemacht: \\c[3]Wo habe ich das schon mal gesehen?\\c[0]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, the \\c[3]Bergen Mine\\c[0], of course!",
+          "transl": "Natürlich, in der \\c[3]Bergen-Mine\\c[0]!<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "message": {
+          "orig": "The track itself spawned these little bugs that took over our machinery and integrated it into its temple.",
+          "transl": "Dort wurden diese kleinen Käfer vom Pfad selbst ausgespuckt, um unsere Maschinen zu kontrollieren und in den Tempel zu integrieren."
+         }
+        },
+        {
+         "message": {
+          "orig": "So... Maybe the same thing is happening here!",
+          "transl": "Und vielleicht passiert hier genau dasselbe!"
+         }
+        },
+        {
+         "message": {
+          "orig": "\\c[3]Something\\c[0] is controlling those cats and making them so hostile.\n",
+          "transl": "\\c[3]Irgendetwas\\c[0] befehligt diese Katzen und macht sie so feindselig."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "I studied those bugs for quite a while, you know. Fascinating technology.",
+          "transl": "Ich habe diese Käfer eine ganze Weile studiert. Faszinierende Technologie."
+         }
+        },
+        {
+         "message": {
+          "orig": "They used a special frequency and impulses to override systems.",
+          "transl": "Sie senden eine spezielle Frequenz und Impulse aus, um Systeme zu überbrücken."
+         }
+        },
+        {
+         "message": {
+          "orig": "Obviously, I extracted both the frequency and the semi-magnetic impulse rate.",
+          "transl": "Natürlich habe ich die Frequenz und die semi-magnetische Impulsrate extrahiert.<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Where is it? ",
+          "transl": "Wo waren sie gleich?"
+         }
+        },
+        null,
+        null,
+        {
+         "message": {
+          "orig": "Ah, there you are!",
+          "transl": "Ah, da sind sie!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "And done! That was easier than I expected.",
+          "transl": "Und fertig! Das ging leichter als erwartet."
+         }
+        },
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Dr. Cretia",
+          "transl": "Dr. Cretia"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Everything's ready! Let's head outside for the field experiment!",
+          "transl": "Alles bereit! Auf zum Feldversuch!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        }
+       ]
+      }
+     },
+     null,
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Dr. Cretia",
+         "transl": "Dr. Cretia"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Please come back and report your findings once you do, okay?",
+         "transl": "Gib mir bitte Bescheid, sobald du etwas gefunden hast, okay?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        {
+         "name": {
+          "orig": "Dr. Cretia",
+          "transl": "Dr. Cretia"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Well, hello, Seeker. You have been gone quite a while.",
+          "transl": "Ah, hallo, Seeker. Du warst recht lange fort.<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Excuse my overprotective bodyguard. ",
+          "transl": "Entschuldige meinen übervorsichtigen Leibwächter.<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Somehow the Mayor thinks it's necessary... As if I needed it.",
+          "transl": "Aber der Bürgermeister glaubt, dass es nötig wäre... Als ob ich das nötig hätte."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "So, what did you find?",
+          "transl": "Also, was hast du gefunden?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Sorry...",
+          "transl": "Sorry..."
+         }
+        },
+        {
+         "message": {
+          "orig": "What? You found a strange black sloth north of the Infested Marshes?",
+          "transl": "Was? Du hast ein seltsames schwarzes Faultier nördlich der verseuchten Sümpfe gefunden?"
+         }
+        },
+        {
+         "message": {
+          "orig": "It was doing something to a part of the track?",
+          "transl": "Es hat sich an einem Teil des Pfades zu schaffen gemacht?"
+         }
+        },
+        {
+         "message": {
+          "orig": "A pole appeared and repaired part of the temple?",
+          "transl": "Ein Stab erschien und reparierte diesen Teil anschließend?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Very interesting...",
+          "transl": "Höchst interessant..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Could it be that these poles were triggered as a certain counter-measure? ",
+          "transl": "Könnte es sein, dass diese Stäbe als eine Art Abwehrreaktion beschworen wurden?"
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        {
+         "message": {
+          "orig": "I analyzed the data I got from the poles you fought here. ",
+          "transl": "Ich habe die Daten der Stäbe analysiert, die du hier bekämpft hast."
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "These poles act very much like a form of debugging process.",
+          "transl": "Diese Stäbe agieren im Grunde wie ein Fehlersuchmechanismus."
+         }
+        },
+        {
+         "message": {
+          "orig": "Each pole checking a certain sub-function or routine.",
+          "transl": "Jeder Stab prüft dabei eine bestimmte Funktion oder ein Programm."
+         }
+        },
+        {
+         "message": {
+          "orig": "When it can't find a \"problem\", it extends the search by creating more poles. ",
+          "transl": "Wenn es kein \"Problem\" finden kann, erweitert es seine Suche, indem es mehr Stäbe generiert.<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Something must have gone wrong and the track's \"Debugger\" identified the Shad and us as the cause.",
+          "transl": "Dabei muss etwas schief gelaufen sein, denn der \"Debugger\" des Pfades hat die Shad und uns als die Ursache identifiziert."
+         }
+        },
+        {
+         "message": {
+          "orig": "Which isn't too far fetched, judging from our experience with the mine...",
+          "transl": "Was nebenbei bemerkt nicht so weit hergeholt ist, unserer Erfahrung mit der Mine nach zu urteilen..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Ironic that the actual cause was right in front of them. ",
+          "transl": "Ironischerweise stand die tatsächliche Ursache genau vor ihrer Nase."
+         }
+        },
+        {
+         "message": {
+          "orig": "...?",
+          "transl": "...?"
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "Well, anyway. Since no more poles are spawning I think we can assume we \"calmed\" the track.",
+          "transl": "Sei's drum. Da keine weiteren Stäbe generiert wurden, können wir annehmen, dass wir den Pfad \"beruhigt\" haben."
+         }
+        },
+        {
+         "message": {
+          "orig": "Still, I will make my way there now to make sure my assumptions are correct.",
+          "transl": "Ich werde mich jetzt trotzdem auf den Weg dorthin machen, um meine Vermutung zu bestätigen."
+         }
+        },
+        {
+         "message": {
+          "orig": "Even though I'm pretty sure I'm right.",
+          "transl": "Auch wenn ich mir ziemlich sicher bin, dass ich richtig liege."
+         }
+        },
+        {
+         "message": {
+          "orig": "Probably take Vince along to \"protect\" me from the evil track.",
+          "transl": "Ich nehme Vince wahrscheinlich mit, damit er mich vor dem bösen Pfad \"beschützen\" kann."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Thank you, Seeker. I will talk to K'tara on my way there. ",
+          "transl": "Ich danke dir, Seeker. Ich werde auf dem Weg dorthin mit K'tara reden."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hopefully, the Shad will see reason.",
+          "transl": "Hoffentlich nehmen die Shad dann wieder Vernunft an.<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "task": {
+          "orig": "You can now finally access the \\c[3]Grand Krys'kajo\\c[0] for real!",
+          "transl": "Der Weg zum \\c[3]Großen Krys'kajo\\c[0] ist nun endlich frei!"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Hold it!",
+       "transl": "Halt!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "What business do you have with Dr. Cretia?",
+       "transl": "Was wollt ihr von Dr. Cretia?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...Hi?",
+       "transl": "... Hi?"
+      }
+     },
+     {
+      "message": {
+       "orig": "I see. Please wait here for a moment.\n",
+       "transl": "Verstehe. Bitte wartet hier einen Augenblick."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "You're cleared.",
+       "transl": "Ihr dürft zu ihr."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

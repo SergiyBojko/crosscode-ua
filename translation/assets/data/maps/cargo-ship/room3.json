@@ -1,0 +1,353 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "message": {
+       "orig": "Time for turrets!\\. Don't worry, those things won't hurt you.",
+       "transl": "Zeit für Geschütze!\\. Keine Angst, diese Teile werden dir nicht wehtun."
+      }
+     },
+     {
+      "message": {
+       "orig": "This is in fact just a simple puzzle.",
+       "transl": "An sich ist es nur ein simples Rätsel."
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "npcStates": [
+     null,
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "C'mon, you can do this yourself.\\. Really want a hint?",
+         "transl": "Komm schon, das kriegste selber hin.\\. Willste wirklich einen Hinweis?"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[nickt]"
+          }
+         },
+         null,
+         null,
+         {
+          "message": {
+           "orig": "Oh well.\\. Look, these blocks are kinda like switches.",
+           "transl": "Na gut.\\. Guck ma', diese Blöcke sind quasi wie Schalter."
+          }
+         },
+         {
+          "message": {
+           "orig": "Only they don't react to the typical balls.",
+           "transl": "Nur, dass sie nicht auf die herkömmlichen Bälle reagieren."
+          }
+         },
+         {
+          "message": {
+           "orig": "Maybe they react when hit by something else.",
+           "transl": "Vielleicht müssen sie von etwas anderem getroffen werden."
+          }
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[schüttelt Kopf]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Attagirl! Use that pretty head of yours.",
+           "transl": "Gut so! Benutz dein hübsches Köpfchen."
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[Yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[No]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Hm, this one is a tiny bit more tricky. Need some help?",
+         "transl": "Hm, das hier ist ein kleines bisschen kniffliger. Brauchste Hilfe?"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[nickt]"
+          }
+         },
+         null,
+         null,
+         {
+          "message": {
+           "orig": "To make the turret hit these blocks you have to stand between turret and block.",
+           "transl": "Damit die Geschütze die Blöcke treffen, musst du zwischen den beiden stehen."
+          }
+         },
+         {
+          "message": {
+           "orig": "Then you need to dodge the bullet right after it was shot.",
+           "transl": "Dann musst du dem Geschoss sofort nach Abschuss ausweichen."
+          }
+         },
+         {
+          "message": {
+           "orig": "You need to get the timing right.\\. C'mon, I know you can do it!",
+           "transl": "Du musst auf dein Timing achten.\\. Komm schon, ich weiß, dass du das kannst!"
+          }
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[schüttelt Kopf]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Alright! Go on!",
+           "transl": "Na gut! Dann hau rein!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[Yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[No]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Are you stuck here?",
+         "transl": "Kommst du hier nicht weiter?"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[nickt]"
+          }
+         },
+         null,
+         null,
+         {
+          "message": {
+           "orig": "It's actually almost the same as before.\\. Only this time the turret and blocks are on a higher level.",
+           "transl": "Das hier ist eigentlich fast das Gleiche wie vorher.\\. Nur dieses Mal sind die Blöcke und Geschütze auf einer höheren Ebene."
+          }
+         },
+         {
+          "message": {
+           "orig": "So get up on that container in the middle and dodge some bullets!",
+           "transl": "Also geh auf diesen Container in der Mitte und weich den Geschossen aus!"
+          }
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[schüttelt Kopf]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Alright! Go on!",
+           "transl": "Na gut! Dann hau rein!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[Yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[No]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "These things are kinda unexpected, right?\\. Need a hint?",
+         "transl": "Diese Dinger kommen etwas unerwartet, stimmt's?\\. Brauchste 'nen Hinweis?"
+        }
+       },
+       {
+        "0": [
+         {
+          "message": {
+           "orig": "[nods]",
+           "transl": "[nickt]"
+          }
+         },
+         null,
+         null,
+         {
+          "message": {
+           "orig": "That mirror-like thing only shoots bullets, when it's hit by your balls.",
+           "transl": "Diese Spiegel-artigen Dinger schießen nur Geschosse, wenn sie zuerst von deinen Bällen getroffen wurden."
+          }
+         },
+         {
+          "message": {
+           "orig": "And it always shoots the bullets right at you.",
+           "transl": "Und sie feuern ihre Geschosse immer direkt auf dich zu."
+          }
+         },
+         {
+          "message": {
+           "orig": "You'll need a block between you and the mirror and still need to hit the mirror with one of your balls...",
+           "transl": "Du solltest den Block zwischen dir und dem Spiegel haben und dann den Spiegel mit einem Ball treffen..."
+          }
+         },
+         {
+          "message": {
+           "orig": "So here's the hint:\\. Think bouncing balls!",
+           "transl": "Also, hier ist der Hinweis:\\. Denk an hüpfende Bälle!"
+          }
+         }
+        ],
+        "1": [
+         {
+          "message": {
+           "orig": "[shakes head]",
+           "transl": "[schüttelt Kopf]"
+          }
+         },
+         {
+          "message": {
+           "orig": "Alright! Go on!",
+           "transl": "Na gut! Dann hau rein!"
+          }
+         }
+        ],
+        "options": [
+         {
+          "label": {
+           "orig": "[Yes]",
+           "transl": "[Ja]"
+          }
+         },
+         {
+          "label": {
+           "orig": "[No]",
+           "transl": "[Nein]"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "event": [
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Phew, that's all for this room.\\. Lot's of puzzles, right?\\. But don't worry, you will get some real action in the next room!",
+         "transl": "Puh, das war alles für diesen Raum.\\. 'ne Menge Rätsel, was?\\. Aber keine Sorge, im nächsten Raum wartet richtig Action auf dich!"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

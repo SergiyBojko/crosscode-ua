@@ -1,0 +1,81 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "message": {
+       "orig": "Incoming...",
+       "transl": "Bereithalten..."
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "teleportLabel": {
+     "orig": "Onwards",
+     "transl": "Weiter"
+    }
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     {
+      "thenStep": [
+       {
+        "message": {
+         "orig": "Well, yes...\\. that was about as quick as expected.",
+         "transl": "Tja...\\. Das ging jetzt ungefähr so schnell wie erwartet."
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "message": {
+         "orig": "Nice work, you did great!",
+         "transl": "Gute Arbeit, du warst großartig!"
+        }
+       }
+      ]
+     },
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

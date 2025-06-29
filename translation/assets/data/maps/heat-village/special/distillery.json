@@ -1,0 +1,1906 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "guiInfo": {
+         "settings": {
+          "taskTitle": {
+           "orig": "Requests",
+           "transl": "Anfragen"
+          },
+          "text": {
+           "orig": "Brewing Quality: \\c[3]\\v[tmp.quality]\\c[0] ",
+           "transl": "Brauqualität: \\c[3]\\v[tmp.quality]\\c[0] "
+          }
+         }
+        }
+       },
+       {
+        "guiInfo": {
+         "settings": {
+          "taskTitle": {
+           "orig": "Quality",
+           "transl": "Qualität"
+          },
+          "text": {
+           "orig": "Brewing Quality: \\c[3]\\v[tmp.quality]\\c[0] ",
+           "transl": "Brauqualität: \\c[3]\\v[tmp.quality]\\c[0]"
+          }
+         }
+        }
+       },
+       {
+        "guiInfo": {
+         "settings": {
+          "text": {
+           "orig": "Overheat",
+           "transl": "Überhitzung"
+          }
+         }
+        }
+       }
+      ],
+      "elseStep": [
+       null,
+       null,
+       null,
+       {
+        "guiInfo": {
+         "settings": {
+          "taskTitle": {
+           "orig": "Requests",
+           "transl": "Anfragen"
+          }
+         }
+        }
+       },
+       {
+        "guiInfo": {
+         "settings": {
+          "text": {
+           "orig": "Booze HP",
+           "transl": "Gebräu HP"
+          }
+         }
+        }
+       },
+       {
+        "guiInfo": {
+         "settings": {
+          "text": {
+           "orig": "Overheat",
+           "transl": "Überhitzung"
+          }
+         }
+        }
+       },
+       null,
+       {
+        "task": {
+         "orig": "\\c[3]Follow the brewing procedure!\\c[0] ",
+         "transl": "\\c[3]Folge der Brauanweisung!\\c[0]"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[Brewing Process START]",
+       "transl": "[Brauvorgang STARTET]"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "[Bubble Pipes activated]",
+         "transl": "[Wasserblasenrohre aktiviert]"
+        }
+       },
+       {
+        "text": {
+         "orig": "[Bubble Pipes activated]",
+         "transl": "[Wasserblasenrohre aktiviert]"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Steam ERROR #bug",
+         "transl": "Steam ERROR #bug<<C<<NOTIZ: Bug-msg, no translation"
+        }
+       }
+      ],
+      "elseStep": [
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Request: Oven #1",
+           "transl": "Anfrage: Ofen #1"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Request: Oven #2",
+           "transl": "Anfrage: Ofen #2"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Request: Oven #3",
+           "transl": "Anfrage: Ofen #3"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Request: Oven #4",
+           "transl": "Anfrage: Ofen #4"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "thenStep": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "ERROR: Requests missed!",
+             "transl": "FEHLER: Anfrage verpasst!"
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "text": {
+             "orig": "ERROR: Request missed!",
+             "transl": "FEHLER: Anfrage verpasst!"
+            }
+           }
+          ]
+         }
+        ],
+        "elseStep": [
+         {
+          "thenStep": [
+           {
+            "text": {
+             "orig": "ERROR: Requests missed! Quality -\\v[tmp.qualityChange]",
+             "transl": "FEHLER: Anfrage verpasst! Qualität -\\v[tmp.qualityChange]"
+            }
+           }
+          ],
+          "elseStep": [
+           {
+            "text": {
+             "orig": "ERROR: Request missed! Quality -\\v[tmp.qualityChange]",
+             "transl": "FEHLER: Anfrage verpasst! Qualität -\\v[tmp.qualityChange]"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "MISSED REQUEST: Oven #1",
+           "transl": "ANFRAGE VERPASST: Ofen #1"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "MISSED REQUEST: Oven #2",
+           "transl": "ANFRAGE VERPASST: Ofen #2"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "MISSED REQUEST: Oven #3",
+           "transl": "ANFRAGE VERPASST: Ofen #3"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "MISSED REQUEST: Oven #4",
+           "transl": "ANFRAGE VERPASST: Ofen #4"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "Steam ERROR",
+           "transl": "STÖRUNG Dampf"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Quality +\\v[tmp.qualityChange]",
+         "transl": "Qualität +\\v[tmp.qualityChange]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "ERROR: Wrong pipe!",
+         "transl": "FEHLER: Falscher Ofen!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "ERROR: Wrong pipe! Quality -\\v[tmp.qualityChange]",
+         "transl": "FEHLER: Falscher Ofen! Qualität -\\v[tmp.qualityChange]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "text": {
+         "orig": "Brewing successful!",
+         "transl": "Brauvorgang erfolgreich!"
+        }
+       }
+      ],
+      "elseStep": [
+       null,
+       {
+        "text": {
+         "orig": "Brewing finished!",
+         "transl": "Brauvorgang beendet!"
+        }
+       }
+      ]
+     },
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Hey there, \\v[lore.title.seeker].\\. You got everything done here?",
+         "transl": "Hey, Seeker.\\. Hast du hier alles erledigt?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Alright!\\. What do the numbers say, Bru?",
+         "transl": "Alles klar!\\. Was sagen die Werte, Bru?"
+        }
+       },
+       null,
+       {
+        "name": {
+         "orig": "Bru'shy",
+         "transl": "Bru'shy"
+        }
+       },
+       {
+        "message": {
+         "orig": "Numbers say good quality of liquid goods.\\. Seem \\v[lore.title.seeker] done well!",
+         "transl": "Werte sagen, dass Getränke haben gute Qualität.\\. Scheinen, als hätte Seeker geleistet gute Arbeit!"
+        }
+       },
+       null,
+       null,
+       {
+        "message": {
+         "orig": "Great, it seems like everything went off without a hitch!\\. We will extract the product soon.",
+         "transl": "Klasse, dann ist also alles problemlos verlaufen!\\. Wir werden das Produkt schon bald abfüllen können."
+        }
+       },
+       {
+        "message": {
+         "orig": "I will notify the boss of your success, so you can go back to him and get your reward!",
+         "transl": "Ich werde dem Boss Bescheid geben, damit du deine Belohnung bei ihm abholen kannst!"
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "But you should definitely come back afterwards, so we can brew more of this fine stuff.\\. Looking forward to it!",
+         "transl": "Du solltest danach aber auf jeden Fall zurückkommen, damit du mehr von dem guten Stoff brauen kannst.\\. Ich freu' mich schon drauf!"
+        }
+       },
+       {
+        "message": {
+         "orig": "Bye!",
+         "transl": "Bye!"
+        }
+       }
+      ],
+      "elseStep": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "thenStep": [
+         null,
+         {
+          "value": {
+           "orig": "New record!",
+           "transl": "Neuer Rekord!"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         null,
+         null,
+         null,
+         null,
+         null,
+         {
+          "text": {
+           "orig": "Brewing process finished!\n\nRequests: \\v[tmp.brewingRequests]\nQuality: \\v[tmp.quality] \\c[3]\\v[tmp.recordString]\\c[0]\n\nRewards:\n\\c[3]\\v[tmp.itemReward]x \\v[tmp.rewardString]\\c[0]",
+           "transl": "Brauvorgang beendet!\n\nAnfragen: \\v[tmp.brewingRequests]\nQualität: \\v[tmp.quality] \\c[3]\\v[tmp.recordString]\\c[0]\n\nBelohnung:\n\\c[3]\\v[tmp.itemReward]x \\v[tmp.rewardString]\\c[0]"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "text": {
+           "orig": "Brewing process finished!\n\nRequests: \\v[tmp.brewingRequests]\nQuality: \\v[tmp.quality]\n\n\\c[1]Quality too low.\nNo Rewards!\\c[0]",
+           "transl": "Brauvorgang beendet!\n\nAnfragen: \\v[tmp.brewingRequests]\nQualität: \\v[tmp.quality]\n\n\\c[1]Qualität zu gering.\nKeine Belohnung!\\c[0]"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     {
+      "thenStep": [
+       null,
+       null,
+       null,
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "50% Overheat reached!",
+           "transl": "50% Überhitzung erreicht!"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "75% Overheat reached! Cooling needed!",
+           "transl": "75% Überhitzung erreicht! Kühlung erforderlich!"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "WARNING: Overheating imminent! Requesting ice!",
+           "transl": "ACHTUNG: Überhitzung bevorstehend! Erwarte Eis!"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[Preparing request]",
+       "transl": "[Anfrage wird vorbereitet]"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Overheated! Starting emergency cooling!",
+         "transl": "Überhitzt! Starte Notkühlung!"
+        }
+       }
+      ],
+      "elseStep": [
+       {
+        "text": {
+         "orig": "Overheated! Starting emergency cooling! Quality -\\v[tmp.qualityChange]",
+         "transl": "Überhitzt! Starte Notkühlung! Qualität -\\v[tmp.qualityChange]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "FAIL",
+       "transl": "FEHLSCHLAG"
+      }
+     },
+     null,
+     {
+      "text": {
+       "orig": "Brewing Failed!",
+       "transl": "Brauvorgang fehlgeschlagen!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "\\c[1]QUEST FAILED\\c[0]\n\nRestart task to try again",
+       "transl": "\\c[1]QUEST GESCHEITERT\\c[0]\n\nVersuch's nochmal!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Bru'shy",
+       "transl": "Bru'shy"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Hi..?",
+       "transl": "Hi...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Ah, \\v[lore.title.seeker] welcome!\\. Red-headed expert of the brew is coming down as well to give explain.",
+       "transl": "Ah, Seeker, willkommen!\\. Rothaarige Expertin kommen auch, um alles zu erklären."
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Ryda",
+       "transl": "Ryda"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Alrighty, let's get this going, shall we?",
+       "transl": "Alles klärchen, sollen wir loslegen?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Come, follow me!",
+       "transl": "Dann komm mal mit!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Ryda",
+       "transl": "Ryda"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Here we are!\\. Now take a look at this!",
+       "transl": "Da wären wir!\\. Jetzt schau dir das an!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Ryda",
+       "transl": "Ryda"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "...!",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Amazing, huh?\\. Our partners in Bergen really outdid themselves with this beauty!",
+       "transl": "Genial, oder? Unsere Partner in Bergen haben sich mit dieser Schönheit selbst übertroffen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Not gonna go into technical details but it will brew us amazing drinks and infuse them with Ancient power!",
+       "transl": "Ich werde nicht ins Detail gehen, aber das Teil wird uns großartige Getränke brauen und sie mit den Kräften der Ahnen stärken!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "If we prove ourselves worthy that is.\\. You know how the Track works: No reward without trials. ",
+       "transl": "Natürlich nur, wenn wir uns als würdig erweisen.\\. Du weißt, wie der Pfad funktioniert: Keine Belohnung ohne Prüfungen."
+      }
+     },
+     {
+      "message": {
+       "orig": "...?",
+       "transl": "...?"
+      }
+     },
+     {
+      "message": {
+       "orig": "I'm sure a \\v[lore.title.seeker] like you will do just fine!\\. So lemme explain...",
+       "transl": "Ich bin mir sicher, ein Seeker wie du wird das schon schaffen!\\. Also, lass es mich dir erklären..."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Ryda",
+       "transl": "Ryda"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "After starting, the machine will \\c[3]request energy\\c[0] from one of those \\c[3]steam-receivers\\c[0].",
+       "transl": "Nachdem die Maschine läuft, wird sie von einem dieser \\c[3]Dampf-Empfänger Energie anfordern\\c[0]."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Ryda",
+       "transl": "Ryda"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "You will need to put some \\c[3]ice\\c[0] in there quickly.\\. At first you can use a \\c[3]bubble generator\\c[0] for that.",
+       "transl": "Du musst dann schnell etwas \\c[3]Eis\\c[0] dort reinlegen.\\. Zuerst kannst du einen \\c[3]Blasen-Generator\\c[0] dafür verwenden."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Ryda",
+       "transl": "Ryda"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Later you will have to \\c[3]catch waterbubbles\\c[0] that the Track sends through those \\c[3]pipes\\c[0] from who knows where.",
+       "transl": "Später wirst du die \\c[3]Wasserblasen fangen müssen\\c[0], die der Pfad woher auch immer durch diese \\c[3]Rohre\\c[0] schickt."
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Ryda",
+       "transl": "Ryda"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Oh, and you should also \\c[3]throw some ice at the machine itself\\c[0] once in a while.\\. We don't want it \\c[3]overheating\\c[0], do we?",
+       "transl": "Oh, und du solltest ab und zu auch \\c[3]etwas Eis auf die Maschine selbst werfen\\c[0].\\. Wir wollen ja nicht, dass sie \\c[3]überhitzt\\c[0], oder?"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      }
+     },
+     {
+      "message": {
+       "orig": "Well, and that's about it.\\. You got everything?",
+       "transl": "Tja, das war's eigentlich schon.\\. Alles klar so weit?"
+      }
+     },
+     {
+      "0": [
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Perfect!\\. My assistant Bru will check the numbers while you are at work, but I'm sure you will do great!",
+         "transl": "Perfekt!\\. Meine Assistentin Bru wird während des Vorgangs die Werte überwachen. Ich bin mir aber sicher, dass du das packst!"
+        }
+       },
+       {
+        "message": {
+         "orig": "...!",
+         "transl": "...!"
+        }
+       },
+       {
+        "message": {
+         "orig": "I myself sadly can't watch you because I have business to attend to upstairs.\\. So we'll talk again once it's finished, yes?",
+         "transl": "Ich kann dir leider nicht zusehen, weil ich noch einiges zu erledigen habe.\\. Wir reden, sobald du fertig bist, ja?"
+        }
+       },
+       {
+        "message": {
+         "orig": "[nods]",
+         "transl": "[nickt]"
+        }
+       },
+       {
+        "message": {
+         "orig": "Bye!",
+         "transl": "Bye!"
+        }
+       }
+      ],
+      "1": [
+       {
+        "message": {
+         "orig": "[shakes head]",
+         "transl": "[schüttelt Kopf]"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "Alrighty, then lemme explain it again.",
+         "transl": "Alles klärchen, dann wiederhole ich es nochmal."
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "name": {
+         "orig": "Ryda",
+         "transl": "Ryda"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "This is the machine that will create our wonderful, magic booze.\\. If it is used correctly!",
+         "transl": "Das ist die Maschine, die unser magisches Ahnengebräu herstellen wird.\\. Wenn man sie richtig benutzt!"
+        }
+       }
+      ],
+      "options": [
+       {
+        "label": {
+         "orig": "Yes",
+         "transl": "Ja"
+        }
+       },
+       {
+        "label": {
+         "orig": "No (repeat instructions)",
+         "transl": "Nein (nochmal erklären)"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Brewing Console",
+      "transl": "Brausteuerung"
+     },
+     "event": [
+      null,
+      {
+       "thenStep": [
+        null,
+        null,
+        null,
+        {
+         "thenStep": [
+          {
+           "value": {
+            "orig": "(updated!)",
+            "transl": "(aktualisiert!)"
+           }
+          }
+         ]
+        },
+        {
+         "6": [
+          {
+           "text": {
+            "orig": "- Instruction to Ancient Brewing -\nQuality drinks using the mystical powers of the Track, steam and only the best natural ingredients!",
+            "transl": "- Anleitung zum Brauen nach Art der Ahnen -\nQualitätstränke, die die Kraft des Pfades, des Dampfes und nur die besten natürlichen Zutaten enthalten!"
+           }
+          },
+          {
+           "text": {
+            "orig": "After activating this machine, it will request energy from the \\c[3]4 steam ovens\\c[0]. Those requests have to be met with \\c[3]icedisks\\c[0] quickly and correctly!",
+            "transl": "Nach dem Starten der Maschine wird sie Energie von den \\c[3]vier Dampföfen\\c[0] anfordern. Diese Anfragen müssen mit \\c[3]Eisplatten\\c[0] schnell und korrekt bedient werden!"
+           }
+          },
+          {
+           "text": {
+            "orig": "In the beginning a \\c[3]static bubble generator\\c[0] will be available, though later it will vanish. At this point, bubbles ejected from the \\c[3]pipes left and right\\c[0] have to be used.",
+            "transl": "Anfangs werden \\c[3]statische Blasengeneratoren\\c[0] verfügbar sein, die jedoch später verschwinden. Ab dann müssen Blasen aus den \\c[3]Rohren links und rechts\\c[0] genutzt werden."
+           }
+          },
+          {
+           "text": {
+            "orig": "Due to the immense powers flowing through it, the brewing machine will \\c[3]overheat\\c[0] with time. \\c[3]Cooling it with ice\\c[0] will be necessary to prevent \\c[3]overheating\\c[0] and a \\c[3]time-consuming cooldown-phase\\c[0].",
+            "transl": "Die Braumaschine wird durch die immensen Kräfte, die sie durchströmen, mit der Zeit \\c[3]überhitzen\\c[0]. Daher ist es nötig, sie \\c[3]mit Eis zu kühlen\\c[0], um \\c[3]Überhitzung\\c[0] und eine \\c[3]zeitraubende Abkühlphase\\c[0] zu verhindern."
+           }
+          },
+          {
+           "thenStep": [
+            null,
+            {
+             "text": {
+              "orig": "\\c[3]Not meeting a request\\c[0], \\c[3]putting ice in a wrong oven\\c[0] or \\c[3]overheating the machine\\c[0] will damage the ingredients and \\c[3]reduce the overall quality\\c[0] of the product.",
+              "transl": "\\c[3]Nicht bediente Anfragen\\c[0], \\c[3]Eis im falschen Ofen\\c[0] oder \\c[3]Überhitzung der Maschine\\c[0] wird den Zutaten schaden und \\c[3]die Gesamtqualität\\c[0] des Produktes verringern."
+             }
+            },
+            {
+             "text": {
+              "orig": "On the other hand, brewing \\c[3]quality\\c[0] will increase at a higher rate with \\c[3]growing requests\\c[0] and when maintaining a \\c[3]high heat\\c[0]!",
+              "transl": "Durch \\c[3]steigende Anfragen\\c[0] und das Aufrechterhalten von \\c[3]hoher Hitze\\c[0] wird die \\c[3]Brauqualität\\c[0] hingegen schneller erhöht!"
+             }
+            },
+            {
+             "text": {
+              "orig": "The \\c[3]higher the quality\\c[0], the \\c[3]more useable drinks\\c[0] can be created from \\c[3]the same amount of ingredients\\c[0]!",
+              "transl": "Je \\c[3]höher die Qualität\\c[0], desto \\c[3]mehr Tränke\\c[0] können mit \\c[3]derselben Menge an Zutaten\\c[0] hergestellt werden!"
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "text": {
+              "orig": "\\c[3]Not meeting a request\\c[0], \\c[3]putting ice in a wrong oven\\c[0] or \\c[3]overheating the machine\\c[0] will do \\c[3]damage\\c[0] to the ingredients. With too much \\c[3]damage\\c[0], the brewing will \\c[1]fail\\c[0]! ",
+              "transl": "\\c[3]Nicht bediente Anfragen\\c[0], \\c[3]Eis im falschen Ofen\\c[0] oder \\c[3]Überhitzung der Maschine\\c[0] wird den Zutaten \\c[3]schaden\\c[0]. Bei zu viel \\c[3]Schaden\\c[0] wird der Brauvorgang \\c[1]fehlschlagen\\c[0]!"
+             }
+            }
+           ]
+          }
+         ],
+         "options": [
+          {
+           "label": {
+            "orig": "Start Brewing Process",
+            "transl": "Brauvorgang starten"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\c[1]!!!\\c[0] \\c[3]Upgrade Brewing Machine\\c[0] \\c[1]!!!\\c[0]",
+            "transl": "\\c[1]!!!\\c[0] \\c[3]Aufrüstung der Braumaschine\\c[0] \\c[1]!!!\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Brewing: \\c[3]\\v[item.367.name]\\c[0] (Material: \\v[item.372.amount] | Owned: \\v[item.367.amount])",
+            "transl": "Braue: \\c[3]Bärenbier\\c[0] (Material: \\v[item.372.amount] | Im Besitz: \\v[item.367.amount])"
+           }
+          },
+          {
+           "label": {
+            "orig": "Brewing: \\c[3]\\v[item.368.name]\\c[0] (Material: \\v[item.373.amount] | Owned: \\v[item.368.amount])",
+            "transl": "Braue: \\c[3]Krabbenmet\\c[0] (Material: \\v[item.373.amount] | Im Besitz: \\v[item.368.amount])"
+           }
+          },
+          {
+           "label": {
+            "orig": "Brewing: \\c[3]\\v[item.369.name]\\c[0] (Material: \\v[item.374.amount] | Owned: \\v[item.369.amount])",
+            "transl": "Braue: \\c[3]Fuchs-Sake\\c[0] (Material: \\v[item.374.amount] | Im Besitz: \\v[item.369.amount])"
+           }
+          },
+          {
+           "label": {
+            "orig": "Brewing: \\c[3]\\v[item.370.name]\\c[0] (Material: \\v[item.375.amount] | Owned: \\v[item.370.amount])",
+            "transl": "Braue: \\c[3]Walwein\\c[0] (Material: \\v[item.375.amount] | Im Besitz: \\v[item.370.amount])"
+           }
+          },
+          {
+           "label": {
+            "orig": "Information \\c[1]\\v[tmp.infoUpdate]\\c[0]",
+            "transl": "Info \\c[1]\\v[tmp.infoUpdate]\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Turn Quality Notifications \\c[2]ON\\c[0]",
+            "transl": "Schalte Qualitätsbenachrichtigungen \\c[2]AN\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "Turn Quality Notifications \\c[1]OFF\\c[0]",
+            "transl": "Schalte Qualitätsbenachrichtigungen \\c[1]AUS\\c[0]"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\c[1]Cancel\\c[0]",
+            "transl": "\\c[1]Abbrechen\\c[0]"
+           }
+          }
+         ]
+        }
+       ],
+       "elseStep": [
+        {
+         "text": {
+          "orig": "[Machine inactive]",
+          "transl": "[Maschine inaktiv]"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Bru'shy",
+      "transl": "Bru'shy"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Bru'shy",
+         "transl": "Bru'shy"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "\\v[lore.title.seeker] impress Ancients for great liquids!\\. I will keep eyes on numbers.",
+         "transl": "Seeker beeindrucken Ahnen für tolle Tränke!\\. Ich werde Augen auf Zahlen haben."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Bru'shy",
+         "transl": "Bru'shy"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "\\v[lore.title.seeker] done well.\\. Extracting goods will done soon.",
+         "transl": "Seeker gemacht gute Arbeit.\\. Extrakt bald fertig."
+        }
+       }
+      ]
+     },
+     {
+      "event": [
+       {
+        "name": {
+         "orig": "Bru'shy",
+         "transl": "Bru'shy"
+        }
+       },
+       null,
+       {
+        "message": {
+         "orig": "\\v[lore.title.seeker] talk to Ms. Ryda upstairs.\\. Much progress is on the foot.",
+         "transl": "Seeker oben Frau Ryda berichten, wir viel Fortschritt machen."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "trade": {
+        "event": [
+         {
+          "name": {
+           "orig": "Bru'shy",
+           "transl": "Bru'shy"
+          }
+         },
+         null,
+         {
+          "message": {
+           "orig": "\\v[lore.title.seeker] need brewing ingredients prepared?",
+           "transl": "Seeker brauchen Zutaten zum Brauen?"
+          }
+         },
+         {
+          "traded": [
+           {
+            "message": {
+             "orig": "Wish much success.\\. May Ancients bless precious liquids!",
+             "transl": "Wünschen viel Erfolg.\\. Mögen Ahnen kostbare Tränke segnen!"
+            }
+           }
+          ],
+          "canceled": [
+           {
+            "message": {
+             "orig": "Maybe next time, yes?",
+             "transl": "Vielleicht nächste Mal, ja?"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      }
+     },
+     {
+      "event": {
+       "trade": {
+        "event": [
+         {
+          "name": {
+           "orig": "Bru'shy",
+           "transl": "Bru'shy"
+          }
+         },
+         null,
+         {
+          "message": {
+           "orig": "\\v[lore.title.seeker] need brewing ingredients prepared?",
+           "transl": "Seeker brauchen Zutaten zum Brauen?"
+          }
+         },
+         null,
+         {
+          "traded": [
+           {
+            "message": {
+             "orig": "Wish much success.\\. May Ancients bless precious liquids!",
+             "transl": "Wünschen viel Erfolg.\\. Mögen Ahnen kostbare Tränke segnen!"
+            }
+           }
+          ],
+          "canceled": [
+           {
+            "message": {
+             "orig": "Maybe next time, yes?",
+             "transl": "Vielleicht nächste Mal, ja?"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      }
+     },
+     {
+      "event": {
+       "trade": {
+        "event": [
+         null,
+         null,
+         {
+          "message": {
+           "orig": "\\v[lore.title.seeker] need brewing ingredients prepared?",
+           "transl": "Seeker brauchen Zutaten zum Brauen?"
+          }
+         },
+         {
+          "traded": [
+           {
+            "message": {
+             "orig": "Wish much success.\\. May Ancients bless precious liquids!",
+             "transl": "Wünschen viel Erfolg.\\. Mögen Ahnen kostbare Tränke segnen!"
+            }
+           }
+          ],
+          "canceled": [
+           {
+            "message": {
+             "orig": "Maybe next time, yes?",
+             "transl": "Vielleicht nächste Mal, ja?"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  {
+   "settings": {
+    "condAnims": [
+     {
+      "interact": {
+       "hoverText": {
+        "orig": "Brewing Statistics",
+        "transl": "Braustatistiken"
+       },
+       "event": [
+        {
+         "thenStep": [
+          null,
+          null,
+          null,
+          null,
+          {
+           "text": {
+            "orig": "~ Brewing Statistics ~\n\nQuality Highscore: \n\\c[3]\\v[map.qualityRecord]\\c[0]",
+            "transl": "~ Braustatistiken ~\n\nQualitätsrekord: \n\\c[3]\\v[map.qualityRecord]\\c[0]"
+           }
+          },
+          {
+           "thenStep": [
+            {
+             "text": {
+              "orig": "Times brewed / Drinks gained:\nTotal: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\n\\v[item.367.name]: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[tmp.focName]: \\v[map.brewedFoc] / \\v[map.drinksFoc]\n\\v[item.370.name]: \\v[map.brewedMhp] / \\v[map.drinksMhp]",
+              "transl": "Anzahl Brauvorgänge / Tränke:\nGesamt: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\nBärenbier: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[tmp.focName]: \\v[map.brewedFoc] / \\v[map.drinksFoc]\nWalwein: \\v[map.brewedMhp] / \\v[map.drinksMhp]"
+             }
+            }
+           ],
+           "elseStep": [
+            {
+             "text": {
+              "orig": "Times brewed / Drinks gained:\nTotal: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\n\\v[item.367.name]: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[item.370.name]: \\v[map.brewedMhp] / \\v[map.drinksMhp]",
+              "transl": "Anzahl Brauvorgänge / Tränke:\nGesamt: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\nBärenbier: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\nWalwein: \\v[map.brewedMhp] / \\v[map.drinksMhp]"
+             }
+            }
+           ]
+          }
+         ],
+         "elseStep": [
+          {
+           "text": {
+            "orig": "\\c[1]- UNDER CONSTRUCTION -\\c[0]",
+            "transl": "\\c[1]- IM AUFBAU -\\c[0]"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "text": {
+     "orig": "Brewing Machine",
+     "transl": "Braumaschine"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Left Waterpipe",
+     "transl": "Linkes Wasserblasenrohr"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Right Waterpipe",
+     "transl": "Rechtes Wasserblasenrohr"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Steam Oven #1",
+     "transl": "Dampfofen #1"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Steam Oven #2",
+     "transl": "Dampfofen #2"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Steam Oven #3",
+     "transl": "Dampfofen #3"
+    }
+   }
+  },
+  {
+   "settings": {
+    "text": {
+     "orig": "Steam Oven #4",
+     "transl": "Dampfofen #4"
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "VAR: \\v[tmp.tempNr]",
+         "transl": "VAR: \\v[tmp.tempNr]"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       null,
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "VAR: \\v[tmp.tempStringSteam]",
+           "transl": "VAR: \\v[tmp.tempStringSteam]"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "[Upgrade Process START]",
+       "transl": "[ Aufrüstungsprozess STARTET ]"
+      }
+     },
+     null,
+     {
+      "text": {
+       "orig": "[ Initiating Trial ]",
+       "transl": "[ Initiiere Prüfung ]"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Upgrade successful!",
+       "transl": "Aufrüstung erfolgreich!"
+      }
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "name": {
+       "orig": "Ryda",
+       "transl": "Ryda"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Heya, \\v[lore.title.seeker].\\. Are you done by now?\\. You made a lot of noise for just upgrading a machine, y'know?",
+       "transl": "Heya, Seeker.\\. Bist du jetzt fertig?\\. Du hast eine Menge Lärm gemacht, dafür, dass du nur eine Maschine aufgerüstet hast, weißt du?"
+      }
+     },
+     {
+      "message": {
+       "orig": "... Sorry... How?\\. .\\..\\..\\. Why?",
+       "transl": "... Sorry... Wie?\\. .\\..\\..\\. Warum?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Oh, wait, wait.\\. So you're telling me, that upgrading this thing involved fighting monstrous incarnations of booze?",
+       "transl": "Warte, warte.\\. Du willst mir also sagen, dass das Aufrüsten den Kampf gegen monströse Inkarnationen von Alkohol ausgelöst hat?"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     null,
+     {
+      "message": {
+       "orig": "Oh, woops, haha.\\. That's pretty crazy, but I guess we should've expected the Track to throw some final test at us.",
+       "transl": "Oh, uuups, hahaha.\\. Das ist echt verrückt, aber wir hätten wohl damit rechnen sollen, dass der Pfad uns einen letzten Test aufbrummt.<<A<<[CHANGED 2021/05/22]"
+      }
+     },
+     {
+      "message": {
+       "orig": "... Whyyyy?",
+       "transl": "... Waruuuum?"
+      }
+     },
+     {
+      "message": {
+       "orig": "Hey, you got it done, right?\\. No \\v[lore.title.seeker] work without some challenge.",
+       "transl": "Hey, du hast es doch geschafft, oder?\\. Keine Seeker-Arbeit ohne eine Herausforderung."
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "And you can feel a clear change to the aura of our baby here.\\. Now it should be well-equipped for \\c[3]Fox Sake\\c[0], the last missing recipe!",
+       "transl": "Und ich spüre eine deutliche Veränderung in der Aura unseres Schätzchens hier.\\. Jetzt sollte es gut gerüstet sein für \\c[3]Fuchs-Sake\\c[0], das letzte fehlende Rezept!"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "...!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Just report back to our dear Kney' on the market.\\. I will handle the rest down here!",
+       "transl": "Melde dich einfach bei unserem lieben Kney' auf dem Markt zurück.\\. Den Rest erledige ich dann hier unten!"
+      }
+     },
+     {
+      "message": {
+       "orig": "[nods]",
+       "transl": "[nickt]"
+      }
+     },
+     {
+      "message": {
+       "orig": "Was great working with you again, sweetie!\\. Don't forget to visit now and then for some drinks!",
+       "transl": "War toll, wieder mit dir zu arbeiten, Süße!\\. Vergiss nicht, ab und zu auf ein paar Drinks vorbeizuschauen!"
+      }
+     },
+     {
+      "message": {
+       "orig": "Bye!",
+       "transl": "Bye!"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "\\v[tmp.ovenText]",
+         "transl": "\\v[tmp.ovenText]"
+        }
+       },
+       {
+        "text": {
+         "orig": "\\v[tmp.ovenText]",
+         "transl": "\\v[tmp.ovenText]"
+        }
+       },
+       {
+        "text": {
+         "orig": "\\v[tmp.ovenText]",
+         "transl": "\\v[tmp.ovenText]"
+        }
+       },
+       {
+        "text": {
+         "orig": "\\v[tmp.ovenText]",
+         "transl": "\\v[tmp.ovenText]"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "guiInfo": {
+       "settings": {
+        "text": {
+         "orig": "Overheat",
+         "transl": "Überhitzung"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Overheated! Starting emergency cooling!",
+       "transl": "Überhitzt! Starte Notkühlung!"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

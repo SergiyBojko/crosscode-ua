@@ -1,0 +1,813 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "analyzable": {
+     "text": {
+      "orig": "Nánii Tremoire",
+      "transl": "Nánii Tremoire"
+     }
+    },
+    "npcStates": [
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Ms. Tremoire",
+         "transl": "Frau Tremoire"
+        }
+       },
+       {
+        "message": {
+         "orig": "A s-\\v[lore.title.seeker]?\\. D-don't mind me, nothing to f-find here..",
+         "transl": "Ein S-Seeker?\\. Bi-Bitte beachte mich ni-nicht, hier gi-gi-gibt's nix z-zu sehen.."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "???",
+          "transl": "???"
+         }
+        },
+        {
+         "message": {
+          "orig": "... T-this is g-getting w... worse and worse...",
+          "transl": "... Da-Da-Das w-wird i-i-immer... sch-schlimmer und sch-sch-schlimmer..."
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Ms. Tremoire",
+          "transl": "Frau Tremoire"
+         }
+        },
+        {
+         "thenStep": [
+          {
+           "message": {
+            "orig": "Ah, you st-startled me...!\\.\\. S-sorry...\\.\\.\\.\\. You're a s-\\v[lore.title.seeker] aren't you?",
+            "transl": "Ah, du h-hast m-mich erschrocken...!\\.\\. S-Sorry...\\.\\.\\. Du bist ein S-S-Seeker oder?"
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Why?",
+            "transl": "Warum?"
+           }
+          },
+          {
+           "message": {
+            "orig": "O... oh, n-nothing.\\. J-just enjoying l-life here.\\. Good v-vibrations, haha.... ha... ha...",
+            "transl": "O-O-Och... n-nichts.\\. Ge-Ge-Genieße hier n-nur grad das Le-Leben.\\. Gute V-Vibes, haha... ha... ha..."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": " Why?\\. Lea.\\. Meet.",
+            "transl": "Warum?\\. Lea.\\. Treffen."
+           }
+          },
+          {
+           "message": {
+            "orig": "Y-you w-want to kn-know if you can help m-me?\\. R-really?",
+            "transl": "D-Du willst wi-wi-wissen, ob du mir h-helfen kannst?\\. E-Echt?"
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "... W-well.\\. If y-you are a-a-asking like that.\\. You m-might be w-wondering what is h-happening with me...",
+            "transl": "... N-Na ja.\\. W-Wenn du mi-mich so fragst.\\. D-Du wunderst d-dich be-bestimmt, was mi-mit mir pa-pa-passiert..."
+           }
+          },
+          {
+           "message": {
+            "orig": "T-this sh-shaking.\\. It... It is l-like a c-c-curse... t-torturing the Tremoire f-family for g-generations.\\. ",
+            "transl": "Das Zi-Zi-Zittern.\\. Es... Es ist w-wie ein F-Fluch... de-der die F-Familie Tremoire se-seit Generationen plagt."
+           }
+          },
+          {
+           "message": {
+            "orig": "Why?",
+            "transl": "Warum?"
+           }
+          },
+          {
+           "message": {
+            "orig": "My n-name's Nánii Tremoire a-and my gr-great gramps was a w-weaponsmith.\\. F-founder of \\c[3]Tremor Arms\\c[0].",
+            "transl": "M-Mein Name ist Nánii Tremoire u-und mein G-G-Großonkel war Wa-Waffenschmied.\\. Erfinder vo-von \\c[3]Tremorwaffen\\c[0]."
+           }
+          },
+          {
+           "message": {
+            "orig": "B-built w-weapons and w-war m-machines that u-used powerf-ful vibrating at-t-tacks.",
+            "transl": "H-Hat Waffen und K-K-Kriegsmaschinen ge-gebaut, die mä-mächtige Vi-Vibrationsattacken hatten."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "W-well...\\. Of c-course it h-had to go w-wrong.\\. A-ancient e-energy is d-dangerous after all.",
+            "transl": "Nun ja...\\. Na-Natürlich ging was sch-schief.\\. Uralte E-Energie ist ha-halt doch ge-ge-gefährlich."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          },
+          {
+           "message": {
+            "orig": "T-the destr-...tructive v-vibrations of the m-most powerful w-weapon affected its u-users as w-well.",
+            "transl": "Die de-de-destr-...truktiven Vi-Vibrationen der stä-tä-tärksten W-Waffe wirkten sich a-a-auch auf ihre B-Benutzer aus."
+           }
+          },
+          {
+           "message": {
+            "orig": "So m-my gramps t-took it apart.\\. B-but that s-somehow put the c-curse on h-him and a-all his d-descendants.",
+            "transl": "A-Also nahm mein O-O-Onkel d-die Waffen auseinander.\\. A-Aber das hat i-i-irgendwie für einen F-F-Fluch gesorgt."
+           }
+          },
+          {
+           "message": {
+            "orig": "How?",
+            "transl": "Wie?"
+           }
+          },
+          {
+           "message": {
+            "orig": "T-he Track's p-punishment for a-abandoning a ch-challenge, s-some Shad t-told me. ",
+            "transl": "Der Pf-Pf-Pfad bestrafte ih-ihn. H-Hat mir ein Sh-Shad gesagt."
+           }
+          },
+          {
+           "message": {
+            "orig": "... Why...?",
+            "transl": "... Warum...?"
+           }
+          },
+          {
+           "message": {
+            "orig": "I-it is w-what it i-is.\\. N-now I have to s-suffer f-for it u-unless I c-can p-put all the p-parts back together.",
+            "transl": "E-Es ist, w-wie es ist.\\. I-Ich muss ja t-t-trotzdem darunter leiden. Au-Außer ich ka-kann die T-Teile wi-wieder zusammenführen."
+           }
+          },
+          {
+           "message": {
+            "orig": "S-so... y-you st-still inte-terested in h-helping?",
+            "transl": "Wi-Willst... du m-mir helfen?"
+           }
+          }
+         ],
+         "elseStep": [
+          {
+           "message": {
+            "orig": "Y-you again.\\.\\.\\. ... D-do you want to help me n-now?",
+            "transl": "A-Ach, du nochmal.\\.\\.\\. ... Wi-Willst du mir j-jetzt helfen?"
+           }
+          }
+         ]
+        },
+        {
+         "accepted": [
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "F-for real?\\. Y-you w-will help? S-seriously?",
+            "transl": "E-Echt?\\. D-Du willst mir he-helfen? E-E-Ernsthaft?"
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "W-wow.\\. S-so I g-guess you w-will n-need inform-mation on th-this.",
+            "transl": "W-Wow.\\. D-Du w-willst jetzt wa-wa-wahrscheinlich Genaueres d-darüber wi-wissen."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "Th-the w-weapon in q-question is c-called a \\c[3]\\v[item.13.name]\\c[0] in its m-most b-basic f-form.",
+            "transl": "D-Die Wa-Wa-Waffe, um die e-es geht, he-heißt \\c[3]Surrendes Messer\\c[0] in der Ba-Ba-Basisausführung."
+           }
+          },
+          {
+           "message": {
+            "orig": "B-but w-we w-will also n-need \\c[3]4 \\v[item.381.name]s\\c[0] t-to r-restore t-the w-weapon to its original f-form.",
+            "transl": "A-Aber wir b-b-brauchen auch n-noch \\c[3]4 Tremormotoren\\c[0], um die Wa-Wa-Waffe wiederherzustellen."
+           }
+          },
+          {
+           "message": {
+            "orig": "[nods]",
+            "transl": "[nickt]"
+           }
+          },
+          {
+           "message": {
+            "orig": "W-well, t-that's n-not all, b-but you b-better st-start th-there.\\. I c-can do the t-technical p-part w-with t-the m-material.",
+            "transl": "D-Das ist zwar no-no-noch nicht alles, a-aber ein A-A-Anfang.\\. I-Ich k-kann d-den technischen T-Teil übernehmen mi-mit den Ma-Ma-Materialien."
+           }
+          },
+          {
+           "message": {
+            "orig": "Lea.\\. Bye.\\. Meet!",
+            "transl": "Lea.\\. Bye.\\. Treffen!"
+           }
+          },
+          {
+           "message": {
+            "orig": "Y-yes.\\. G-good l-luck.\\. T-talk t-to me i-if you want m-more inform-mation o-on the p-parts!",
+            "transl": "J-Ja.\\. Vi-Viel Glück.\\. Sp-Sprich mich an, w-wenn du weitere I-Infos z-zu den Te-Teilen b-brauchst!"
+           }
+          }
+         ],
+         "declined": [
+          {
+           "message": {
+            "orig": "[shakes head]",
+            "transl": "[schüttelt Kopf]"
+           }
+          },
+          {
+           "message": {
+            "orig": "... I... I sh-should have k-known.\\. H-helping the c-child of a f... f-foolish family with her p-problem is a w-waste of time.",
+            "transl": "... Ich... Ich hä-hätte es wi-wissen müssen.\\. E-Einem Kind... einer ver-ver-verfluchten Fa-Familie zu helfen, i-ist reine Ze-Ze-Zeitverschwendung."
+           }
+          },
+          {
+           "message": {
+            "orig": "...",
+            "transl": "..."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "trade": {
+        "2": {
+         "message": {
+          "orig": "I will n-need you to complete a \\c[3]\\v[item.419.name]\\c[0] before we can proceed.",
+          "transl": "Du mu-musst erst den \\c[3]Tremorspalter\\c[0] fe-fe-fertigstellen, be-bevor wir w-w-weiter ma-machen können."
+         }
+        },
+        "3": {
+         "message": {
+          "orig": "Do you need some pointers where to find the \\c[3]\\v[item.381.name]s\\c[0]?",
+          "transl": "B-B-Brauchst du Hi-Hinweise, wo du di-di-die \\c[3]Tremormotoren\\c[0] finden ka-kannst?"
+         }
+        },
+        "4": {
+         "options": [
+          {
+           "label": {
+            "orig": "[Yes]",
+            "transl": "[Ja]"
+           }
+          },
+          {
+           "label": {
+            "orig": "[No]",
+            "transl": "[Nein]"
+           }
+          }
+         ]
+        },
+        "event": [
+         null,
+         {
+          "name": {
+           "orig": "Ms. Tremoire",
+           "transl": "Frau Tremoire"
+          }
+         },
+         {
+          "message": {
+           "orig": "I w-will n-need you to c-complete a \\c[3]\\v[item.419.name]\\c[0] b-before w-we can pr-proceed.",
+           "transl": "Du mu-musst erst den \\c[3]Tremorspalter\\c[0] fe-fe-fertigstellen, b-bevor wir weitermachen kö-kö-können."
+          }
+         },
+         {
+          "message": {
+           "orig": "H-have you g-gotten e-everyth-thing or d-do you need s-some p-pointers as t-to w-where to f-find the \\c[3]\\v[item.381.name]s\\c[0]?",
+           "transl": "H-Hast du a-alles oder b-b-brauchst du no-no-noch Hinweise, wo du di-di-die \\c[3]Tremormotoren\\c[0] finden ka-kannst?"
+          }
+         },
+         null,
+         {
+          "0": [
+           {
+            "message": {
+             "orig": "[nods at trades]",
+             "transl": "[nickt auf die Angebote]"
+            }
+           },
+           {
+            "traded": [
+             {
+              "thenStep": [
+               {
+                "message": {
+                 "orig": "Y... y-you got the \\v[item.419.name] c-completed!\\. Heu-... heureka!",
+                 "transl": "D... D-Du hast den Tremorspalter fe-fe-fertiggestellt!\\. Heu-... Heureka!"
+                }
+               },
+               {
+                "message": {
+                 "orig": "...",
+                 "transl": "..."
+                }
+               },
+               {
+                "message": {
+                 "orig": "T-talk to m-me again if y-you are r-ready f-for the n-next p-part.",
+                 "transl": "S-Sag mir Be-Be-Bescheid, we-wenn du be-be-bereit f-für das nä-nächste Teil bi-bist."
+                }
+               },
+               {
+                "message": {
+                 "orig": "[nods]",
+                 "transl": "[nickt]"
+                }
+               }
+              ],
+              "elseStep": [
+               {
+                "message": {
+                 "orig": "M-making s-some good p-progress t-there.\\. N-need s-some p-pointers to f-find the o-other \\c[3]\\v[item.381.name]s\\c[0]?",
+                 "transl": "W-Wir machen gute Fo-Fo-Fortschritte.\\. B-B-Brauchst du Hi-Hinweise, wo d-du die a-a-anderen \\c[3]Tremormotoren\\c[0] finden ka-kannst?"
+                }
+               }
+              ]
+             }
+            ],
+            "canceled": [
+             {
+              "message": {
+               "orig": "A-are you s-still m-missing someth-thing?",
+               "transl": "Fe-Fe-Fehlt noch w-w-was?"
+              }
+             }
+            ]
+           }
+          ],
+          "1": [
+           {
+            "message": {
+             "orig": "[nods askingly]",
+             "transl": "[nickt fragend]"
+            }
+           },
+           {
+            "message": {
+             "orig": "O-okay, l-listen  s-\\v[lore.title.seeker].",
+             "transl": "Hö-Hör zu, S-Seeker."
+            }
+           },
+           {
+            "thenStep": [
+             {
+              "message": {
+               "orig": "F-first, you will need the base w-weapon, the \\v[item.13.name].",
+               "transl": "Zu-Zuerst mu-musst du die Ba-Ba-Basiswaffe fi-finden, das Surrende Messer."
+              }
+             },
+             {
+              "message": {
+               "orig": "I-it w-was l-left in an \\c[3]underg-ground t-tunnel tow-wards P-Para Island\\c[0] in \\c[3]\\v[area.autumn-fall.name]\\c[0].",
+               "transl": "Es w-wurde in einem \\c[3]u-u-unterirdischen Tunnel in Richtung Pa-Pa-Para-Insel\\c[0] in \\c[3]Autumn's Fall\\c[0] zurückgelassen."
+              }
+             },
+             {
+              "message": {
+               "orig": "Th-Then you w-will n-need the \\c[3]4 Tremor Engines\\c[0] th-that w-were l-left all o-over \\v[lore.title.planet].",
+               "transl": "D-Dann b-brauchst du d-die \\c[3]4 Tremormotoren\\c[0], d-die überall ü-über \\v[lore.title.planet] v-v-vertstreut sind."
+              }
+             },
+             {
+              "message": {
+               "orig": "The f-first should be \\c[3]s-somewhere in t-the same tunnel the \\v[item.13.name]\\c[0].",
+               "transl": "D-Der er-erste sollte \\c[3]i-irgendwo im g-g-gleichen T-Tunnel wie das Surrende Messer\\c[0] s-sein."
+              }
+             }
+            ],
+            "elseStep": [
+             {
+              "message": {
+               "orig": "You w-will n-need a t-total of \\c[3]4 Tremor Engines\\c[0].\\. T-those w-were left a-all over \\v[lore.title.planet].",
+               "transl": "Du b-brauchst i-i-insgesamt \\c[3]4 Tremormotoren\\c[0].\\. D-Die sind a-a-alle über g-ganz \\v[lore.title.planet] verstreut."
+              }
+             },
+             {
+              "message": {
+               "orig": "The f-first sh-should be in t-the \\c[3]underg-ground t-tunnel tow-wards P-Para Island\\c[0] in \\c[3]\\v[area.autumn-fall.name]\\c[0].",
+               "transl": "D-Der er-erste sollte im \\c[3]u-u-unterirdischen Tunnel in Richtung Pa-Pa-Para-Insel\\c[0] in \\c[3]Autumn's Fall\\c[0] sein."
+              }
+             }
+            ]
+           },
+           {
+            "message": {
+             "orig": "The s-second was left \\c[3]in the s-shady part of \\v[area.jungle-city.name]\\c[0].\\. If n-no one st-stole it.",
+             "transl": "Der z-z-zweite wurde \\c[3]im z-z-zwielichtigen Vi-Vi-Viertel von Burg Bassin\\c[0] zurückgelassen.\\. W-W-Wenn ihn n-niemand gestohlen hat."
+            }
+           },
+           {
+            "message": {
+             "orig": "As f-for the l-ast two, they w-were \\c[3]both h-hidden in \\v[area.forest.name]\\c[0].",
+             "transl": "Die le-le-letzten be-beiden sind \\c[3]v-versteckt auf de-de-dem Saphirgrat\\c[0]."
+            }
+           },
+           {
+            "message": {
+             "orig": "One is h-hidden \\c[3]W-West of the Cave Inn\\c[0], \\c[3]b-between b-bridges and r-rivers\\c[0].",
+             "transl": "Einer ist \\c[3]we-we-westlich der Höhlenherberge\\c[0], \\c[3]z-zwischen B-B-Brücken und F-Flüssen\\c[0] versteckt."
+            }
+           },
+           {
+            "message": {
+             "orig": "The o-other w-was l-eft \\c[3]w-within a sp-spider nest\\c[0].\\. Ew..",
+             "transl": "Der a-a-andere w-wurde in einem \\c[3]Sp-pi-pinnennest\\c[0] zu-zurückgelassen.\\. Igittigitt..."
+            }
+           },
+           {
+            "message": {
+             "orig": "G-got it?",
+             "transl": "V-Verstanden?"
+            }
+           }
+          ],
+          "2": [
+           {
+            "message": {
+             "orig": "[shakes head]",
+             "transl": "[schüttelt Kopf]"
+            }
+           },
+           {
+            "message": {
+             "orig": "A-alright.\\. Good l-luck with the s-search.",
+             "transl": "O-Okay.\\. Vi-Viel Glück b-b-bei der S-Suche."
+            }
+           },
+           {
+            "message": {
+             "orig": "Bye.",
+             "transl": "Bye."
+            }
+           }
+          ],
+          "options": [
+           {
+            "label": {
+             "orig": "[Trade]",
+             "transl": "[Handeln]"
+            }
+           },
+           {
+            "label": {
+             "orig": "[Ask for pointers]",
+             "transl": "[Nach Hinweisen fragen]"
+            }
+           },
+           {
+            "label": {
+             "orig": "[Leave]",
+             "transl": "[Gehen]"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      }
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Ms. Tremoire",
+          "transl": "Frau Tremoire"
+         }
+        },
+        {
+         "message": {
+          "orig": "S-so, w-we g-got the \\c[3]\\v[item.419.name] c-completed\\c[0].\\. W-we can t-tackle t-the last p-part now.",
+          "transl": "D-Der \\c[3]Tremorspalter\\c[0] i-ist a-a-also \\c[3]fertig\\c[0].\\. J-Jetzt können w-wir u-uns um das le-le-letzte Teil kü-kü-kümmern."
+         }
+        },
+        {
+         "message": {
+          "orig": "How?",
+          "transl": "Wie?"
+         }
+        },
+        {
+         "message": {
+          "orig": "T-there is a f-final p-part missing.\\. T-the c-core t-that my g-gramps put into a d-dangerous w-war machine.",
+          "transl": "E-Es fehlt e-ein le-letztes Teil.\\. D-Der Kern, d-den mein O-Onkel in d-die ge-gefährliche K-K-Kriegsmaschine einge-eingebaut hat."
+         }
+        },
+        {
+         "message": {
+          "orig": "... Why?!",
+          "transl": "... Warum?!"
+         }
+        },
+        {
+         "message": {
+          "orig": "I-it w-was h-his d-duty a-as a cr-craftsman.\\. B-but it b-became too d-dangerous so h-he s-sealed it away.",
+          "transl": "E-Es war s-seine A-Aufgabe als Me-Mechaniker.\\. A-Aber e-er war zu ge-ge-gefährlich, also ha-hat er i-ihn versteckt."
+         }
+        },
+        null,
+        {
+         "message": {
+          "orig": "S-so n-now it r-rests in o-our old l-laborat-tory, in the r-remote b-building on \\c[3]Cliff Exhibition, h-here i-in \\v[area.rhombus-sqr.name]\\c[0].",
+          "transl": "E-Er liegt in u-u-unserem alten Labo-bor, dem entlegenen Ha-Ha-Haus auf der \\c[3]K-K-Klippenschau hier in Rhombus Square\\c[0]."
+         }
+        },
+        {
+         "message": {
+          "orig": "H-here, this is the k-key to the d-door.\\. The m-machine will r-react to the w-weapon and a-awaken.",
+          "transl": "H-Hier ist der Schlü-sü-süssel für d-die Tür.\\. Die M-Maschine w-wird auf die W-Waffe reagieren u-und e-erwachen."
+         }
+        },
+        {
+         "message": {
+          "orig": "\\c[3]D-destroy it and b-bring me its c-core\\c[0] so I c-can f-finally l-leave the sh-shaking behind.\\. P-please..",
+          "transl": "\\c[3]Z-Zerstöre sie und b-bring mir den K-Kern\\c[0], da-damit ich e-endlich di-dieses Zittern a-a-abstellen kann.\\. B-B-Bitte..."
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "... Bye!",
+          "transl": "... Bye!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": [
+       null,
+       {
+        "name": {
+         "orig": "Ms. Tremoire",
+         "transl": "Frau Tremoire"
+        }
+       },
+       {
+        "message": {
+         "orig": "G-go to o-our old l-laborat-tory, in the r-remote b-building on \\c[3]Cliff Exhibition, h-here in \\v[area.rhombus-sqr.name]\\c[0]",
+         "transl": "G-Gehe in u-u-unser altes Labo-bor, das e-e-entlegene Haus auf der \\c[3]K-K-Klippenschau hier in Rhombus Square\\c[0].<<A<<[CHANGED 2021/05/22]"
+        }
+       },
+       {
+        "message": {
+         "orig": "Aw-waken a-and defeat t-the m-machine in the b-basement and b-bring me the c-core.",
+         "transl": "E-Erwecke und besiege die Ma-Ma-Maschine im Keller und b-b-bring mir den K-Kern."
+        }
+       }
+      ]
+     },
+     {
+      "event": {
+       "quest": [
+        null,
+        {
+         "name": {
+          "orig": "Ms. Tremoire",
+          "transl": "Frau Tremoire"
+         }
+        },
+        {
+         "message": {
+          "orig": "Hi!",
+          "transl": "Hi!"
+         }
+        },
+        {
+         "message": {
+          "orig": "S-\\v[lore.title.seeker], y-you're back.\\. A-and you g-got the c-core?",
+          "transl": "S-Seeker, du b-b-bist zurück!\\. Und du ha-ha-hast den K-K-Kern?"
+         }
+        },
+        {
+         "message": {
+          "orig": "[nods]",
+          "transl": "[nickt]"
+         }
+        },
+        {
+         "message": {
+          "orig": "Th-That... That is g-great.\\. I can't b-believe I w-will f-finally be f-free again.",
+          "transl": "Da-Das... Das ist ja g-g-großartig!\\. Ich kann's n-nicht gl-glauben, d-dass ich w-wieder f-f-frei sein werde."
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "I w-will c-complete t-the w-weapon.\\. T-that w-will lift the c-curse... I h-hope.",
+          "transl": "I-Ich we-werde die Wa-Waffe fertigstellen.\\. D-Das so-sollte den F-Fluch brechen.... Ho-Ho-Hoffe ich."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "name": {
+          "orig": "Ms. Tremoire",
+          "transl": "Frau Tremoire"
+         }
+        },
+        {
+         "message": {
+          "orig": "It... It is gone?\\. The shaking stopped!\\. Huzzah!",
+          "transl": "Ist es... Ist es weg?\\. Das Zittern ist weg!\\. HURRAH!"
+         }
+        },
+        {
+         "message": {
+          "orig": "...",
+          "transl": "..."
+         }
+        },
+        {
+         "message": {
+          "orig": "This feeling... It's liberating and peaceful at once.\\. \\v[lore.title.seeker], I can't thank you enough.",
+          "transl": "Was für ein unbeschreibliches Gefühl... So befreiend und friedlich zugleich.\\. Seeker, ich kann dir gar nicht genug danken!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Lea.",
+          "transl": "Lea."
+         }
+        },
+        {
+         "message": {
+          "orig": "Well, you can take the completed weapon with you!\\. It is immensely powerful and that curse is lifted too!",
+          "transl": "Also, du kannst die fertige Waffen gerne haben!\\. Sie ist ziemlich stark und nun auch nicht mehr verflucht!"
+         }
+        },
+        {
+         "message": {
+          "orig": "And I could even make it \\c[3]ascend\\c[0] if you bring me the needed material.",
+          "transl": "Ich könnte sogar eine \\c[3]Elite-Waffe\\c[0] daraus machen, wenn du mir das nötige Material dafür besorgst."
+         }
+        },
+        {
+         "message": {
+          "orig": "...!",
+          "transl": "...!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Lea.\\. Meet.\\.\\. ... Bye!",
+          "transl": "Lea.\\. Treffen.\\.\\. ... Bye!"
+         }
+        },
+        {
+         "message": {
+          "orig": "Yes, goodbye.\\. And thank you again.",
+          "transl": "Ja, auf Wiedersehen.\\. Und vielen, vielen Dank nochmal!"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "event": {
+       "trade": {
+        "event": [
+         null,
+         {
+          "name": {
+           "orig": "Ms. Tremoire",
+           "transl": "Frau Tremoire"
+          }
+         },
+         {
+          "message": {
+           "orig": "Hey, \\v[lore.title.seeker], how are you?\\. Want me to work on the weapon?",
+           "transl": "Hey, Seeker, wie geht's?\\. Soll ich mit der Arbeit an der Waffe beginnen?"
+          }
+         }
+        ]
+       }
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

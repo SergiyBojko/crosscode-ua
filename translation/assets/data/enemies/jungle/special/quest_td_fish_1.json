@@ -1,0 +1,189 @@
+{
+ "actions": {
+  "Init": [
+   {
+    "thenStep": [
+     null,
+     null,
+     null,
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Left side incoming!",
+         "transl": "Links kommt was!<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     },
+     {
+      "thenStep": [
+       {
+        "text": {
+         "orig": "Right side incoming!",
+         "transl": "Rechts kommt was!<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     null,
+     {
+      "text": {
+       "orig": "Incoming!",
+       "transl": "Da kommt was!<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   },
+   null,
+   null,
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "(SPAWN \\v[entity.name], \\v[entity.attrib.stdSpeed] Speed)",
+       "transl": "(SPAWNE \\v[entity.name], \\v[entity.attrib.stdSpeed] Geschw.)<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "TDReachGoal": [
+   {
+    "text": {
+     "orig": "[INFILTRATION!]",
+     "transl": "[INFILTRATION!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "TDAlert": [
+   null,
+   {
+    "thenStep": [
+     null,
+     null,
+     {
+      "thenStep": [
+       null,
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "[WAVE REACHED LEFT DEFENSES!]",
+           "transl": "[WELLE ERREICHT LINKE FRONT!]<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       },
+       {
+        "thenStep": [
+         {
+          "text": {
+           "orig": "[WAVE REACHED RIGHT DEFENSES!]",
+           "transl": "[WELLE ERREICHT RECHTE FRONT!]<<C<<Geprüft: Minsu"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "elseStep": [
+     {
+      "thenStep": [
+       null,
+       {
+        "text": {
+         "orig": "[WAVE REACHED DEFENSES!]",
+         "transl": "[WELLE ERREICHT FRONT!]<<C<<Geprüft: Minsu"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "TDWarning": [
+   {
+    "text": {
+     "orig": "[DANGER!]",
+     "transl": "[GEFAHR!]<<C<<Geprüft: Minsu"
+    }
+   }
+  ],
+  "TDShootStrafe": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "[Recover Shield...]",
+       "transl": "[Aktiviere Schild...]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "StartFullShield": [
+   {
+    "thenStep": [
+     {
+      "text": {
+       "orig": "FullShield On",
+       "transl": "Vollschild AN<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ],
+  "EndFullShield": [
+   {
+    "thenStep": [
+     null,
+     {
+      "text": {
+       "orig": "[Shield neutralized!]",
+       "transl": "[Schild neutralisiert!]<<C<<Geprüft: Minsu"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "species": {
+   "orig": "Floating Fish",
+   "transl": "Schwimmender Fisch<<C<<Geprüft: Minsu"
+  },
+  "descriptions": [
+   {
+    "text": {
+     "orig": "A close relative to the regular \\c[3]\\v[combat.name.jungle/fish]\\c[0], this specimen prefers to live underground. Usually they have a close connection to intensive points of Ancient power that they are eager to protect.\nLiving underground for most of its life has somewhat stunted this creature's ability to fly. Not for the lack of ability, but rather because constantly stubbing their sensible lantern on the ceiling at a young age has made them overly careful.",
+     "transl": "Dieses Exemplar ist ein enger Verwandter des gewöhnlichen \\c[3]Angler\\c[0] und lebt lieber im Untergrund. Normalerweise haben sie eine enge Verbindung zu Kraftpunkten der Ahnen, die sie bis aufs Blut verteidigen.\nDas lange Leben im Untergrund hat diesen Fisch mehr oder weniger seiner Fähigkeit beraubt, zu fliegen. Nicht, weil er es nicht könnte, sondern weil seine sensiblen Fühler immer an die Decke stießen, als er noch klein war. Dadurch ist er sehr vorsichtig geworden.<<C<<Geprüft: Minsu"
+    }
+   }
+  ]
+ }
+}

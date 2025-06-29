@@ -1,0 +1,504 @@
+{
+ "entities": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "event": [
+     null,
+     null,
+     null,
+     {
+      "text": {
+       "orig": "Awesome!",
+       "transl": "Abgefahren!"
+      }
+     }
+    ]
+   }
+  },
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Combat Practice Terminal",
+      "transl": "Übungskampf-Terminal"
+     },
+     "event": [
+      null,
+      {
+       "4": [
+        {
+         "options": [
+          {
+           "label": {
+            "orig": "\\i[element-neutral]Neutral",
+            "transl": "\\i[element-neutral]Neutral"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\i[element-heat]Heat",
+            "transl": "\\i[element-heat]Hitze"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\i[element-cold]Cold",
+            "transl": "\\i[element-cold]Kälte"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\i[element-shock]Shock",
+            "transl": "\\i[element-shock]Schock"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\i[element-wave]Wave",
+            "transl": "\\i[element-wave]Welle"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\c[1]Cancel\\c[0]",
+            "transl": "\\c[1]Abbrechen\\c[0]"
+           }
+          }
+         ]
+        }
+       ],
+       "options": [
+        {
+         "label": {
+          "orig": "Single Enemy Practice",
+          "transl": "Einzelgegner-Übung"
+         }
+        },
+        {
+         "label": {
+          "orig": "Multi Enemy Practice",
+          "transl": "Massenkampf-Übung"
+         }
+        },
+        {
+         "label": {
+          "orig": "Set Enemy Attack \\c[2]On\\c[0]",
+          "transl": "Gegner darf angreifen \\c[2]Ein\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "Set Enemy Attack \\c[1]Off\\c[0]",
+          "transl": "Gegner darf angreifen \\c[1]Aus\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "Change attacking \\c[3]Element\\c[0]",
+          "transl": "Wechsle \\c[3]Angriffselement\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "\\c[1]End Practice\\c[0]",
+          "transl": "\\c[1]Übung beenden\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "\\c[1]Cancel\\c[0]",
+          "transl": "\\c[1]Abbrechen\\c[0]"
+         }
+        }
+       ]
+      },
+      null,
+      {
+       "thenStep": [
+        {
+         "text": {
+          "orig": "Initiate Practice Mode",
+          "transl": "Starte Übungsmodus"
+         }
+        }
+       ]
+      },
+      {
+       "thenStep": [
+        null,
+        null,
+        {
+         "text": {
+          "orig": "Practice Mode End",
+          "transl": "Beende Übungsmodus"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+   "settings": {
+    "interact": {
+     "hoverText": {
+      "orig": "Circuit Reset Terminal",
+      "transl": "Circuit-Reset-Automat"
+     },
+     "event": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+       "text": {
+        "orig": "\\s[0]Circuit Reset Terminal\n-------------------------\n\\c[3]\\v[item.428.name]\\c[0]: \\v[item.428.amount]",
+        "transl": "\\s[0]Circuit-Reset-Automat\n-------------------------\n\\c[3]Circuit-Resetter\\c[0]: \\v[item.428.amount]<<A<<[CHANGED 2021/05/22]"
+       }
+      },
+      {
+       "0": [
+        null,
+        null,
+        null,
+        null,
+        {
+         "object": {
+          "orig": "Neutral Circuit",
+          "transl": "Neutral-Circuit"
+         }
+        }
+       ],
+       "1": [
+        null,
+        null,
+        null,
+        null,
+        {
+         "object": {
+          "orig": "Heat Circuit",
+          "transl": "Hitze-Circuit"
+         }
+        }
+       ],
+       "2": [
+        null,
+        null,
+        null,
+        null,
+        {
+         "object": {
+          "orig": "Cold Circuit",
+          "transl": "Kälte-Circuit"
+         }
+        }
+       ],
+       "3": [
+        null,
+        null,
+        null,
+        null,
+        {
+         "object": {
+          "orig": "Shock Circuit",
+          "transl": "Schock-Circuit"
+         }
+        }
+       ],
+       "4": [
+        null,
+        null,
+        null,
+        null,
+        {
+         "object": {
+          "orig": "Wave Circuit",
+          "transl": "Welle-Circuit"
+         }
+        }
+       ],
+       "5": [
+        null,
+        {
+         "thenStep": [
+          {
+           "text": {
+            "orig": "\\s[0]You can spend one \\c[3]\\v[item.428.name]\\c[0] to reset a circuit. \nWhich circuit do you want to reset?",
+            "transl": "\\s[0]Du kannst einen \\c[3]Circuit-Resetter\\c[0] einwerfen, um ein Circuitbrett zu resetten.\nWelches Brett möchtest du resetten?"
+           }
+          }
+         ],
+         "elseStep": [
+          {
+           "text": {
+            "orig": "\\s[0]You can reset a circuit \\c[2]for free\\c[0]. \nWhich circuit do you want to reset?",
+            "transl": "\\s[0]Du kannst \\c[2]kostenlos\\c[0] ein Circuitbrett resetten.\nWelches Brett möchtest du resetten?"
+           }
+          }
+         ]
+        },
+        {
+         "options": [
+          {
+           "label": {
+            "orig": "Reset \\i[element-neutral]Neutral",
+            "transl": "Resette \\i[element-neutral]Neutral"
+           }
+          },
+          {
+           "label": {
+            "orig": "Reset \\i[element-heat]Heat",
+            "transl": "Resette \\i[element-heat]Hitze"
+           }
+          },
+          {
+           "label": {
+            "orig": "Reset \\i[element-cold]Cold",
+            "transl": "Resette \\i[element-cold]Kälte"
+           }
+          },
+          {
+           "label": {
+            "orig": "Reset \\i[element-shock]Shock",
+            "transl": "Resette \\i[element-shock]Schock"
+           }
+          },
+          {
+           "label": {
+            "orig": "Reset \\i[element-wave]Wave",
+            "transl": "Resette \\i[element-wave]Welle"
+           }
+          },
+          {
+           "label": {
+            "orig": "\\c[1]Cancel\\c[0]",
+            "transl": "\\c[1]Abbrechen\\c[0]"
+           }
+          }
+         ]
+        }
+       ],
+       "8": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+         "object": {
+          "orig": "Neutral Circuit",
+          "transl": "Neutral-Circuit"
+         }
+        },
+        null,
+        {
+         "thenStep": [
+          {
+           "object": {
+            "orig": "Heat Circuit",
+            "transl": "Hitze-Circuit"
+           }
+          }
+         ]
+        },
+        {
+         "thenStep": [
+          {
+           "object": {
+            "orig": "Cold Circuit",
+            "transl": "Kälte-Circuit"
+           }
+          }
+         ]
+        },
+        {
+         "thenStep": [
+          {
+           "object": {
+            "orig": "Shock Circuit",
+            "transl": "Schock-Circuit"
+           }
+          }
+         ]
+        },
+        {
+         "thenStep": [
+          {
+           "object": {
+            "orig": "Wave Circuit",
+            "transl": "Welle-Circuit"
+           }
+          }
+         ]
+        }
+       ],
+       "9": [
+        {
+         "text": {
+          "orig": "You can spend one \\c[3]\\v[item.428.name]\\c[0] to reset a circuit.",
+          "transl": "Du kannst einen \\c[3]Circuit-Resetter\\c[0] einwerfen, um ein Circuitbrett zu resetten."
+         }
+        },
+        {
+         "text": {
+          "orig": "If you possess \\c[3]more than one Element\\c[0], you can also \\c[2]reset more circuits at once\\c[0], \\c[2]at a discount\\c[0].",
+          "transl": "Falls du \\c[3]mehr als ein Element besitzt\\c[0], kannst du auch \\c[2]mehr als ein Circuit auf einmal resetten\\c[0], \\c[2]zum Sparpreis\\c[0]."
+         }
+        },
+        {
+         "text": {
+          "orig": "Once you reset a circuit you can \\c[3]reset it again for free\\c[0] as often as you want - until you leave this room.",
+          "transl": "Hast du einmal ein Circuitbrett resettet, kannst du es \\c[3]beliebig oft gratis resetten\\c[0], solange du diesen Raum nicht verlässt."
+         }
+        }
+       ],
+       "options": [
+        {
+         "label": {
+          "orig": "Reset \\i[element-neutral]Neutral \\c[2](free)\\c[0]",
+          "transl": "Resette \\i[element-neutral]Neutral \\c[2](gratis)\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "Reset \\i[element-heat]Heat \\c[2](free)\\c[0]",
+          "transl": "Resette \\i[element-heat]Hitze \\c[2](gratis)\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "Reset \\i[element-cold]Cold \\c[2](free)\\c[0]",
+          "transl": "Resette \\i[element-cold]Kälte \\c[2](gratis)\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "Reset \\i[element-shock]Shock \\c[2](free)\\c[0]",
+          "transl": "Resette \\i[element-shock]Schock \\c[2](gratis)\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "Reset \\i[element-wave]Wave \\c[2](free)\\c[0]",
+          "transl": "Resette \\i[element-wave]Welle \\c[2](gratis)\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "Reset a Circuit \\c[3](\\v[tmp.resetOneCost] token)\\c[0]",
+          "transl": "Circuit-Reset (\\c[3](\\v[tmp.resetOneCost] Marke)\\c[0])"
+         }
+        },
+        {
+         "label": {
+          "orig": "Reset a Circuit \\c[2](free)\\c[0]",
+          "transl": "Circuit-Reset \\c[2](gratis)\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "Reset all Circuits \\c[3](\\v[tmp.resetAllCost] tokens)\\c[0]",
+          "transl": "Kompletter Circuit-Reset \\c[3](\\v[tmp.resetAllCost] Marken)\\c[0]<<A<<[CHANGED 2021/05/22]"
+         }
+        },
+        {
+         "label": {
+          "orig": "Reset all Circuits \\c[2](free)\\c[0]",
+          "transl": "Kompletter Circuit-Reset \\c[2](gratis)\\c[0]"
+         }
+        },
+        {
+         "label": {
+          "orig": "[Help]",
+          "transl": "[Hilfe]"
+         }
+        },
+        {
+         "label": {
+          "orig": "\\c[1]Cancel\\c[0]",
+          "transl": "\\c[1]Abbrechen\\c[0]"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "settings": {
+    "npcStates": [
+     {
+      "event": {
+       "trade": {
+        "event": [
+         {
+          "name": {
+           "orig": "Info Advisor",
+           "transl": "Info-Berater"
+          }
+         },
+         null,
+         {
+          "message": {
+           "orig": "Greetings, \\v[lore.title.seeker].\\. You can purchase additional \\c[3]Circuit Overrides\\c[0] from me that you can use to \\c[3]reset your circuits\\c[0].",
+           "transl": "Grüß dich, Seeker.\\. Du kannst bei mir zusätzliche \\c[3]Circuit-Resetter\\c[0] kaufen, um \\c[3]deine Circuits zu resetten\\c[0]."
+          }
+         },
+         {
+          "message": {
+           "orig": "But beware: These legendary items are still costly to acquire.\\. Please handle your circuit with care!",
+           "transl": "Aber Vorsicht: Diese legendären Items sind nach wie vor schwer zu ergattern.\\. Gehe mit deinen Circuits also besser achtsam um!"
+          }
+         }
+        ]
+       }
+      }
+     }
+    ]
+   }
+  }
+ ]
+}
