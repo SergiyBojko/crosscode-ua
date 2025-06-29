@@ -1,0 +1,51 @@
+{
+  "name": {
+    "en_US": "Ninja Skin",
+    "de_DE": "Ninjagewand<<C<<Geprüft: Minsu",
+    "langUid": 1,
+    "ja_JP": "ニンジャスキン<<A<<[CHANGED 2018/10/16]",
+    "ko_KR": "닌자 스킨<<A<<[CHANGED 2018/10/16]",
+    "zh_CN": "忍者皮肤<<A<<[CHANGED 2018/10/16]",
+    "zh_TW": "忍者皮膚<<A<<[CHANGED 2018/10/16]"
+  },
+  "description": {
+    "en_US": "Lea has been running around like a ninja all along and now she finally has the appropriate set of clothes!\nYou can equip the \\c[3]Kunoichi\\c[0] in the \\c[3]Add-on\\c[0] tab of the \\c[3]inventory\\c[0]",
+    "langUid": 2,
+    "ja_JP": "レアがフィールドを走り回る様はまるでニンジャのよう。そしてついに、そんな彼女に相応しいスキンが追加されました！\n\\c[3]インベントリ\\c[0]の\\c[3]アドオン\\c[0]タブから、\\c[3]くノ一\\c[0]を装備することができます。<<A<<[CHANGED 2018/10/16]",
+    "ko_KR": "레아는 그동안 마치 닌자처럼 뛰어다녔는데 드디어 이에 어울리는 의상이 나왔습니다!\n\\c[3]인벤토리\\c[0]의 \\c[3]애드온\\c[0] 탭에서 \\c[3]쿠노이치\\c[0] 스킨을 장착할 수 있습니다.<<A<<[CHANGED 2018/10/16]",
+    "zh_CN": "莉亚一直以来都在用忍者姿势跑步，现在总算能穿上一身真正的忍者服装了！\n你可以在物品栏中的附加装备栏中装备女忍服。<<A<<[CHANGED 2018/10/16]",
+    "de_DE": "Lea ist schon die ganze Zeit wie ein Ninja herumgelaufen und jetzt hat sie auch endlich die passende Kleidung dazu!\nAktiviere das \\c[3]Kunoichi\\c[0] im \\c[3]Add-On\\c[0]-Tab des \\c[3]Inventars\\c[0].<<C<<Geprüft: Minsu",
+    "zh_TW": "莉亞一直以來都在用忍者姿勢跑步，現在總算能穿上一身真正的忍者服裝了！\r\n你可以在物品欄中的附加裝備欄中裝備女忍服。<<A<<[CHANGED 2018/10/16]"
+  },
+  "files": [
+    "data/animations/player-skins/ninja.json",
+    "data/effects/skins/ninja.json",
+    "media/entity/player/skins/ninja.png",
+    "media/entity/player/skins/ninja-throw.png",
+    "media/gui/skins/ninja.png"
+  ],
+  "entries": [
+    {
+      "type": "skin",
+      "data": {
+        "id": "ninja",
+        "item": 498,
+        "autoAdd": true,
+        "type": "Appearance",
+        "settings": {
+          "sheet": "player-skins.ninja",
+          "fx": "skins.ninja",
+          "gui": "ninja.png",
+          "guiBounds": {
+            "face": {
+              "x": 44,
+              "y": 44,
+              "w": 60,
+              "h": 34
+            }
+          }
+        }
+      }
+    }
+  ]
+}
