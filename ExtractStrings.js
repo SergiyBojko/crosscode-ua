@@ -25,9 +25,12 @@ function processJsonFile(path) {
         console.log(`Parsing file ${path}`);
         let json = JSON.parse(data);
         let out = processJson(json);
-        let outPath = p.join('translation', path);
-        fs.mkdirSync(p.parse(outPath).dir, { recursive: true })
-        fs.writeFile(outPath, JSON.stringify(out, null, 1), (err) => {})
+        if(out !== null) {
+            let outPath = p.join('translation', path);
+            fs.mkdirSync(p.parse(outPath).dir, {recursive: true})
+            fs.writeFile(outPath, JSON.stringify(out, null, 1), (err) => {
+            })
+        }
     })
 }
 
