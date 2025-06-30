@@ -36,7 +36,7 @@ function fileReport(translation, stats) {
             }
         } else {
             if(translation.hasOwnProperty("transl")) {
-                let ignore = ['...', '...!', '...?', '...!!', '...??', '...!!!', '...???'];
+                let ignore = ['...', '...!', '...?', '...!!', '...??', '...!!!', '...???', '???', '????'];
                 if(!ignore.includes(translation.orig)) { // ignore untranslatable strings
                     stats.total++;
                     if([...translation.transl.toString().matchAll(/[а-яА-ЯіїґІЇҐєЄ]/g)].length > 0) {
