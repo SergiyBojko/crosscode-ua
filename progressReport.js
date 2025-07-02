@@ -36,7 +36,8 @@ function fileReport(translation, stats) {
             }
         } else {
             if(translation.hasOwnProperty("transl")) {
-                let ignore = ['...', '...!', '...?', '...!!', '...??', '...!!!', '...???', '???', '????'];
+                let ignore = ['...', '...!', '...?', '...!!', '...??', '...!!!', '...???', '???', '????', 'untitled', 'OG', 'UG 2'
+                    , 'UG', 'Lachsen', 'The Four Visionaries', 'GFluegel', 'xDragon', 'R.D.'];
                 if(!ignore.includes(translation.orig)) { // ignore untranslatable strings
                     stats.total++;
                     if([...translation.transl.toString().matchAll(/[а-яА-ЯіїґІЇҐєЄ]/g)].length > 0) {
@@ -48,6 +49,11 @@ function fileReport(translation, stats) {
                     fileReport(translation[k], stats)
                 }
             }
+        }
+    } else if(typeof translation === 'string'){
+        stats.total++;
+        if([...translation.toString().matchAll(/[а-яА-ЯіїґІЇҐєЄ]/g)].length > 0) {
+            stats.translated++;
         }
     }
 }
@@ -64,7 +70,7 @@ function writeStatsToReport(stats) {
     if(stats.total == stats.translated) {
         result = ` : ${stats.translated}/${stats.total} ✅`;
     } else  {
-        result = ` : ${stats.translated}/${stats.total}`;
+        result = ` : ${stats.translated}/${stats.total} 🔄`;
     }
     fs.writeFileSync('report.txt', result, {flag:"a"});
 }

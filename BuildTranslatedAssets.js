@@ -1,19 +1,20 @@
 const fs = require('fs');
 const p = require('path');
 
-
-pushTranslations('assets/data/enemies');
+pushTranslations('assets');
 
 function pushTranslations(path) {
 
     fs.readdir(p.join('translation', path), (err, files) => {
         for (const file of files) {
             let filePath = p.join(path, file);
-            if(fs.lstatSync(filePath).isDirectory()) {
+            if(fs.lstatSync(p.join('translation', filePath)).isDirectory()) {
                 console.log(`Dir ${filePath}`);
                 pushTranslations(filePath);
             } else {
-                if(filePath.endsWith(".json")) {
+                if(filePath.endsWith("uk_UA.json") || filePath.endsWith(".png")) {
+                    copyFile(filePath)
+                } else if(filePath.endsWith(".json")) {
                     pushTranslationsToFile(filePath)
                 }
             }
@@ -21,21 +22,29 @@ function pushTranslations(path) {
     })
 }
 
+function copyFile(filePath) {
+    let translationFilePath = p.join('translation', filePath);
+    let copyTo = p.join('build', filePath.replace("uk_UA.json", "de_DE.json"));
+    fs.mkdirSync(p.parse(copyTo).dir, { recursive: true });
+    fs.cp(translationFilePath,  copyTo, (err) => {});
+}
+
 function pushTranslationsToFile(filePath) {
     try {
         let translationFilePath = p.join('translation', filePath);
+        let buildPath = p.join('build', filePath);
         let fileData = JSON.parse(fs.readFileSync(filePath));
+        fs.mkdirSync(p.parse(buildPath).dir, { recursive: true })
         fs.readFile(translationFilePath, (err, data) => {
-            console.log(`Pushing ${translationFilePath} to ${filePath}`);
             let translation = JSON.parse(data);
             let stats = {total: 0, pushed: 0}
-            pushTranslation(translation, fileData, stats)
-            fs.writeFile(filePath, escapeUnicode(JSON.stringify(fileData, replacer)), (err) => {
+            pushTranslation(translation, fileData, stats);
+            fs.writeFile(buildPath, escapeUnicode(JSON.stringify(fileData, replacer)), (err) => {
                 if(err!==null) {
-                    console.error(`Error: Failed to write ${filePath} : ${err}`);
+                    console.error(`Error: Failed to write ${buildPath} : ${err}`);
                 }
             });
-            console.log(`Pushed ${stats.pushed}/${stats.total} to ${filePath}`);
+            console.log(`Pushed ${stats.pushed}/${stats.total} to ${buildPath}`);
         })
     } catch(err) {
         console.error(`Error: Failed to process ${filePath}. Error: ${err}`)
@@ -52,7 +61,11 @@ function pushTranslation(translation, fileData, stats) {
             if(translation.hasOwnProperty("transl")) {
                 stats.total++;
                 if(fileData.en_US === translation.orig) {
-                    fileData.de_DE = translation.transl;
+                    if(translation.transl.toString().match(/[а-яА-ЯіїґІЇҐєЄ]/)?.length > 0) {
+                        fileData.de_DE = translation.transl;
+                    } else {
+                        fileData.de_DE = translation.orig;
+                    }
                     stats.pushed++;
                 } else {
                     console.error(`Error: Actual ${fileData.en_US} and expected ${translation.orig} values mismatch!`)
