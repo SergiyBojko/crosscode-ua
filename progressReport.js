@@ -40,7 +40,7 @@ function fileReport(translation, stats) {
                     , 'UG', 'Lachsen', 'The Four Visionaries', 'GFluegel', 'xDragon', 'R.D.'];
                 if(!ignore.includes(translation.orig)) { // ignore untranslatable strings
                     stats.total++;
-                    if([...translation.transl.toString().matchAll(/[а-яА-ЯіїґІЇҐєЄ]/g)].length > 0) {
+                    if(translation.transl.toString().match(/[а-яА-ЯіїґІЇҐєЄ]/)?.length > 0) {
                         stats.translated++;
                     }
                 }
