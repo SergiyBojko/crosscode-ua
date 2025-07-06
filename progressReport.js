@@ -1,7 +1,7 @@
 const fs = require('fs');
 const p = require('path');
 
-let ignoreStrings = ['......', '....', '..', '...', '...!', '...?', '...!!', '...??', '...!!!', '...???', '???', '????', 'untitled', 'OG', 'UG 2'
+let ignoreStrings = ['......', '....', '..', '...', '...!', '...?', '...!?', '...!!', '...??', '...!!!', '...???', '???', '????', '??????', 'untitled', 'OG', 'UG 2'
     , 'UG', 'Lachsen', 'The Four Visionaries', 'GFluegel', 'xDragon', 'R.D.', 'STATIC-LANG-FILE', 'sc.gimmick', 'sc.map-content', 'sc.gui'];
 
 fs.writeFileSync('report.txt', '');
