@@ -17,18 +17,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Alright! That worked.",
        "transl": "Sehr gut! Das hat geklappt."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Okay... where next again?",
        "transl": "Also... Wohin nochmal als Nächstes?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      null,
@@ -59,18 +77,36 @@
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "H-Hi?!",
        "transl": "H-Hi?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Wha...\\. What the heck is this?!",
        "transl": "Was...\\. Was ist das denn?!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -94,42 +130,76 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "There you are!",
        "transl": "Hier bist du!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      },
      {
       "message": {
        "orig": "This was certainly not meant to be seen by the likes of you.",
        "transl": "Das hätte deinesgleichen niemals zu Gesicht bekommen dürfen."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED"
       }
      },
      {
       "message": {
        "orig": "In this tower you shall abide to the constraints laid in front of you.",
        "transl": "In diesem Turm sollst du dich innerhalb der vorgegebenen Restriktionen bewegen."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "TOWARD_TALK"
       }
      },
      {
       "message": {
        "orig": "Not break through the walls as you please.",
        "transl": "Und nicht durch Wände brechen, wie es dir beliebt."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONDESCENDING"
       }
      },
      {
       "message": {
        "orig": "We won't tolerate behavior like this!",
        "transl": "Solch Fehlverhalten hat Konsequenzen!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      },
      null,
@@ -149,41 +219,76 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
+      }
+     },
      {
       "message": {
        "orig": "Your little journey will end now!",
        "transl": "Deine kleine Reise endet hier!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE2"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "Shoot...",
        "transl": "Verdammt..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE2"
       }
      },
      {
       "message": {
        "orig": "He found out sooner than I had hoped.",
        "transl": "Er hat es früher herausgefunden, als ich gehofft hatte."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "COMPLEX"
       }
      },
      {
       "message": {
        "orig": "Lea, you must not be caught up in one of his battles, we have to escape!",
        "transl": "Lea, du darfst dich auf keinen Fall in einen Kampf verwickeln lassen, wir müssen fliehen!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Run to the next symbol as fast as possible!",
        "transl": "Renne so schnell du kannst zum nächsten Ausgang!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]
@@ -236,12 +341,20 @@
         "message": {
          "orig": "\\c[1]Lea!\\c[0]",
          "transl": "\\c[1]Lea!\\c[0]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE"
         }
        },
        {
         "message": {
          "orig": "Preposterous!\\. Is there any end to your damage?!",
          "transl": "Grotesk!\\. Geht dein Schaden etwa ins Unendliche?!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "SHOUT"
         }
        }
       ],
@@ -250,6 +363,10 @@
         "message": {
          "orig": "We have plenty more of those to spare!",
          "transl": "Wir haben noch jede Menge davon, das herauszufinden!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "DOWN_TALK"
         }
        }
       ]

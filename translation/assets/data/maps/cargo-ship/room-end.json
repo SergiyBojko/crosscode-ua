@@ -65,12 +65,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Alright, up to the bridge. ",
        "transl": "Dann mal rauf zur Brücke."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "UP"
       }
      },
      null,
@@ -78,18 +92,30 @@
       "message": {
        "orig": "Oh yeah. Lea?\\. Just a heads up - the captain's kinda grumpy, but don't worry about it.",
        "transl": "Ach ja, kleine Vorwarnung: Der Käpt'n is' 'n bisschen grummelig, aber mach dir keinen Kopp."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "That's just the way he is.",
        "transl": "Der is' immer so."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "\\..\\..\\..",
        "transl": "\\..\\..\\.."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      }
     ]
@@ -114,13 +140,32 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SHOUT"
+      }
+     },
      {
       "message": {
        "orig": "Well, well... Our endeavor has not been concluded!",
        "transl": "Aber, aber... Unser Vorhaben ist noch nicht beendet!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SHOUT_AR"
       }
      },
      null,
@@ -128,7 +173,12 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      null,
      null,
      null,
@@ -140,6 +190,10 @@
       "message": {
        "orig": "You will not escape our will!",
        "transl": "Du kannst dich unserem Willen nicht entziehen!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE_AR"
       }
      },
      null,
@@ -148,24 +202,46 @@
       "message": {
        "orig": "He already caught up?",
        "transl": "Den werden wir wohl so schnell nich' los..."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_WHISTLING"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Lea, those are high level opponents.",
        "transl": "Lea, das sind High Level-Gegner."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Do not fight them. Run to the teleporter!",
        "transl": "Lass dich nicht auf einen Kampf ein. Lauf direkt zum Teleporter!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
@@ -174,36 +250,60 @@
         "message": {
          "orig": "\\c[1]...?\\c[0]",
          "transl": "\\c[1]...?\\c[0]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE_DOWN"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "Alright, you will \\c[1]probably just kill them with ease\\c[0].",
          "transl": "Ja, ich weiß, die \\c[1]schaffst du wahrscheinlich mit links\\c[0]."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "ROLL_EYES"
         }
        },
        {
         "message": {
          "orig": "Still, we better get off the ship quickly.",
          "transl": "Wir sollten trotzdem schnell von hier verschwinden."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "Jet will kill me if we remain here any longer.",
          "transl": "Jet wird mir den Hals umdrehen, wenn wir hier noch länger bleiben."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "COMPLEX"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ],
@@ -214,18 +314,30 @@
           "message": {
            "orig": "...?",
            "transl": "...?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "WHISTLING"
           }
          },
          {
           "message": {
            "orig": "Yes, Lea.\\. Even being \\c[1]over-leveled\\c[0], you will be better off just running away.",
            "transl": "Ja, Lea.\\. Auch wenn du \\c[1]überlevelt\\c[0] bist, ist es besser für dich, von hier zu verschwinden."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "ROLL_EYES"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "MOPING"
           }
          }
         ],
@@ -234,6 +346,10 @@
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          }
         ]
@@ -251,77 +367,136 @@
     "event": [
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
+      }
+     },
      {
       "message": {
        "orig": "One moment! Let me add a little shortcut for you!",
        "transl": "Einen Moment! Lass mich dir eine kleine Abkürzung bauen!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "This will take you right to the \\c[3]teleporter\\c[0], where Carla is waiting.",
        "transl": "Sie bringt dich direkt zum Teleporter, wo Carla auf dich wartet."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "...How?",
        "transl": "... Як?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Hm?",
        "transl": "Hm?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "... Oh.",
        "transl": "... Oh."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "Yes, that sure would have helped back then when we had to run through the whole cargo hold, correct?",
        "transl": "Ja, du meinst wahrscheinlich, dass das sehr hilfreich gewesen wäre, als wir hier auf der Flucht waren, korrekt?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Unfortunately, I did not have the routine to spawn these shortcuts ready back then.",
        "transl": "Zu der Zeit hatte ich das Programm zum Bau solcher Abkürzungen noch nicht fertig."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      }
     ]

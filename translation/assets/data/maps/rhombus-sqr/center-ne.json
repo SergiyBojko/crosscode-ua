@@ -926,12 +926,20 @@
       "message": {
        "orig": "Really?\\. Seriously?\\. Was this really necessary?\\. This Pond?\\. Right over the crossing?",
        "transl": "Ernsthaft?\\. War das wirklich nötig?\\. Dieser Teich?\\. Direkt über der Kreuzung?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "How do those trucks even fit below it?! Why would you even \\c[1]need\\c[0] any water here?",
        "transl": "Wie passen diese Trucks überhaupt darunter?! Und wofür braucht man \\c[1]hier\\c[0] denn Wasser?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "BLANK"
       }
      }
     ]
@@ -950,14 +958,28 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "guards.captain-future",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
+         }
+        },
         {
          "thenStep": [
           {
            "message": {
             "orig": "Are you ready for the chase?",
             "transl": "Sind Sie bereit für die Verfolgungsjagd?"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -967,48 +989,80 @@
            "message": {
             "orig": "Allow me to introduce you to my trusty ride, \\c[3]Meteor\\c[0]!",
             "transl": "Erlauben Sie mir, Ihnen mein treues Gefährt vorzustellen, \\c[3]Meteor\\c[0]!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?",
             "transl": "...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SMILE"
            }
           },
           {
            "message": {
             "orig": "You better not take her lightly!",
             "transl": "Unterschätzen Sie es nicht!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Me and my ship have solved many crimes in the past and this one won't be any different!",
             "transl": "Ich habe mit meinem Schiff in der Vergangenheit bereits viele Verbrechen aufgeklärt und dieses Mal wird es nicht anders sein!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "As it happens, I've just received reports that \\c[3]dirt-filled cars\\c[0] have been spotted on our highways!",
             "transl": "Wie es der Zufall will, habe ich gerade Berichte erhalten, dass \\c[3]mit Erde beladene Autos\\c[0] auf unseren Autobahnen gesichtet worden sind!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           },
           {
            "message": {
             "orig": "That's right!\\. It must be them!",
             "transl": "Genau!\\. Das müssen sie sein!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "So it's time to \\c[3]start the chase\\c[0]! Are you ready?",
             "transl": "Höchste Zeit also, die \\c[3]Verfolgungsjagd\\c[0] aufzunehmen! Sind Sie bereit?"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -1020,30 +1074,50 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Great!",
             "transl": "Ausgezeichnet!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I will take the wheel while you \\c[3]stand on the roof\\c[0] for greater mobility!",
             "transl": "Ich übernehme das Steuer, während Sie sich für mehr Beweglichkeit am besten \\c[3]aufs Dach stellen\\c[0]!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?!",
             "transl": "...?!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHOCKED"
            }
           },
           {
            "message": {
             "orig": "Come on!\\. There's no time to waste!",
             "transl": "Kommen Sie!\\. Wir haben keine Zeit zu verlieren!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1070,21 +1144,37 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "If you need to prepare, please do so quickly!",
             "transl": "Wenn Sie sich vorbereiten müssen, tun Sie das bitte schnell!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "We have to catch those thieves in the act!",
             "transl": "Wir müssen die Diebe auf frischer Tat ertappen!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "options": [
           {
            "label": {
@@ -1114,6 +1204,10 @@
       "message": {
        "orig": "Over here!",
        "transl": "Hier drüben!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -1147,37 +1241,66 @@
         "name": {
          "orig": "Cpt. Freamun",
          "transl": "Cpt. Freamun"
+        },
+        "person": {
+         "person": "guards.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi?\\.",
          "transl": "Hi?\\."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "This area is locked for unauthorized trespassers!\\. Move along, there is nothing to see here!",
          "transl": "Dieser Bereich ist für Unbefugte gesperrt! Gehen Sie weiter, hier gibt es nichts zu sehen!"
+        },
+        "person": {
+         "person": "guards.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "I am unauthorized to tell and you are not authorized to know!\\. And now, leave!",
          "transl": "Ich bin nicht befugt, das Ihnen zu sagen, und Sie sind nicht befugt, es zu wissen!\\. Und nun gehen Sie!"
+        },
+        "person": {
+         "person": "guards.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye...",
          "transl": "Бувай..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ]
@@ -1193,67 +1316,116 @@
          "name": {
           "orig": "Cpt. Freamun",
           "transl": "Cpt. Freamun"
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "This area is locked for unauthorized trespassers!\\. Move along, there is nothing to see here!",
           "transl": "Dieser Bereich ist für Unbefugte gesperrt! Gehen Sie weiter, hier gibt es nichts zu sehen!"
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!\\. Lea.\\. Why.\\. Meet.",
           "transl": "Hi!\\. Lea.\\. Warum.\\. Treffen."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I see, I see.\\. You are one of the \\v[lore.title.seeker]s, on an official mission from a local guard.",
           "transl": "Ich verstehe.\\. Sie sind einer der Seeker, die offiziell von einer örtlichen Wache beauftragt wurden."
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Those country bumpkins from \\v[area.bergen.name] sure put a lot of trust into some adventurer.",
           "transl": "Diese Landeier aus Bergen scheinen ja verdammt viel Vertrauen in einen dahergelaufenen Abenteurer zu setzen."
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "... Why?",
           "transl": "... Чому?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Relax, I'm not interested in arguing over the \"\\v[lore.title.seeker] Defense Assistance\"-clause with you or my supervisors.",
           "transl": "Nur die Ruhe, ich habe keine Lust, mich mit Ihnen oder meinen Vorgesetzten über die \"Seeker Defense Assistance\"-Klausel zu streiten.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You can handle this... goat problem that Bergen left to us.\\. I will even give you an up-to-date briefing, how's that?",
           "transl": "Sie können sich um dieses... Ziegenproblem kümmern, das Bergen uns überlassen hat.\\. Ich gebe Ihnen sogar einen Lagebericht, wie wär's?"
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXHAUSTED"
          }
         },
         {
@@ -1262,6 +1434,10 @@
            "message": {
             "orig": "What?\\. How?\\. Why?",
             "transl": "Was?\\. Wie?\\. Warum?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_AWAY"
            }
           }
          ],
@@ -1270,6 +1446,10 @@
            "message": {
             "orig": "How?\\. Why?",
             "transl": "Wie?\\. Warum?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_AWAY"
            }
           }
          ]
@@ -1278,6 +1458,10 @@
          "message": {
           "orig": "Okay, listen.\\. Those goats you are hunting have violently occupied the building behind us.",
           "transl": "Okay, hören Sie zu.\\. Die Ziegen, die Sie jagen, haben das Gebäude hinter uns gewaltsam besetzt.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1288,25 +1472,46 @@
          "name": {
           "orig": "Cpt. Freamun",
           "transl": "Cpt. Freamun"
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         }
+        },
         {
          "message": {
           "orig": "It's the \\c[3]Rhombus Parks Embassy\\c[0].\\. Takes care of the local parks and sends researchers to the mainland.",
           "transl": "Das ist die \\c[3]Botschaft Rhombuspark\\c[0].\\. Kümmert sich um die örtlichen Parks und schickt Forscher auf das Festland."
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Maybe the goats want to munch on some rare plants or steal hoof research.\\. I don't know and I don't care.",
           "transl": "Vielleicht wollen die Ziegen mal an anderen Pflanzen kauen oder die Hufforschung ausspionieren. Was weiß ich, ist mir auch egal."
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1317,43 +1522,76 @@
          "name": {
           "orig": "Cpt. Freamun",
           "transl": "Cpt. Freamun"
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Point is, \\v[lore.title.seeker], they are occupying the building, holding hostages and they keep bleating all day.",
           "transl": "Der Punkt ist, dass sie das Gebäude besetzen, Geiseln halten und die ganze Zeit rumblöken.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "That's gotta stop.\\. You following?",
           "transl": "Das muss aufhören.\\. Können Sie mir folgen?"
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Fine.\\. Then go inside and detain those terrorist goats!\\. We will continue to secure the area here.",
           "transl": "Gut.\\. Dann gehen Sie rein und nehmen diese Terroristenziegen fest!\\. Wir werden das Gebiet hier weiter sichern."
+         },
+         "person": {
+          "person": "guards.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Bye.",
           "transl": "Бувай."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         }
        ]
@@ -1365,13 +1603,26 @@
         "name": {
          "orig": "Cpt. Freamun",
          "transl": "Cpt. Freamun"
+        },
+        "person": {
+         "person": "guards.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Go inside and detain those terrorist goats, \\v[lore.title.seeker]!\\. We will continue to secure the area here.",
          "transl": "Gehen Sie rein und nehmen diese Terroristenziegen fest!\\. Wir werden das Gebiet hier weiter sichern."
+        },
+        "person": {
+         "person": "guards.female-tall-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1382,37 +1633,66 @@
         "name": {
          "orig": "Cpt. Freamun",
          "transl": "Cpt. Freamun"
+        },
+        "person": {
+         "person": "guards.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "\\v[lore.title.seeker], things are very quiet now.\\. Did you defuse the situation?",
          "transl": "Endlich wieder Ruhe im Karton.\\. Dann haben Sie die Situation entschärft, nehme ich an?"
+        },
+        "person": {
+         "person": "guards.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Impressive.\\. You can now get your reward from whoever you got the assignment from.\\. We will take it from here.",
          "transl": "Beeindruckend.\\. Sie können jetzt Ihre Belohnung von Ihrem Auftraggeber abholen.\\. Wir übernehmen hier den Rest."
+        },
+        "person": {
+         "person": "guards.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye...",
          "transl": "Бувай..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        }
       ]

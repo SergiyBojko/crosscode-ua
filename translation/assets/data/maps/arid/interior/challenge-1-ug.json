@@ -46,6 +46,10 @@
       "message": {
        "orig": "Huh. It's a new kind of virus, I guess?",
        "transl": "Hm. Das ist wohl eine neue Art Virus?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SKEPTICAL"
       }
      }
     ]
@@ -74,11 +78,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Wait.\\. Wait, wait, wait.\\.\nThat thing is \\c[3]Level 60\\c[0]?!",
        "transl": "Moment.\\. Uoh-Uoh-Uoh.\\.\nDas Ding hat \\c[3]Level 60\\c[0]?!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
       }
      },
      {
@@ -87,13 +100,26 @@
         "message": {
          "orig": "Hm...\\. Mind hitting this one for me once, Lea?",
          "transl": "Hm...\\. Würdest du den bitte einmal für mich schlagen, Lea?"
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "LAUGH"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE_DOWN"
+        }
+       },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE_DOWN"
         }
        }
       ],
@@ -104,13 +130,26 @@
           "message": {
            "orig": "Well...\\. I guess we both should be able to handle it, right?",
            "transl": "Tja...\\. Sollte für uns beide eigentlich kein Problem sein, oder?"
+          },
+          "person": {
+           "person": "main.schneider2",
+           "expression": "WONDERING"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
+          }
+         },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          }
         ],
@@ -119,12 +158,20 @@
           "message": {
            "orig": "Guess I jinxed it.",
            "transl": "Musste ja so kommen."
+          },
+          "person": {
+           "person": "main.schneider2",
+           "expression": "COMPLAINING"
           }
          },
          {
           "message": {
            "orig": "Better stay on your guard, Lea. I'll try to knock it down as fast as possible.",
            "transl": "Halt dich zurück und sei auf der Hut, Lea. Ich versuche das Teil so schnell wie möglich kaputtzuschlagen."
+          },
+          "person": {
+           "person": "main.schneider2",
+           "expression": "SERIOUS"
           }
          }
         ]
@@ -146,6 +193,10 @@
         "message": {
          "orig": "...!!",
          "transl": "...!!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
         }
        }
       ]
@@ -169,18 +220,30 @@
         "message": {
          "orig": "Huh.\\. That wasn't so bad now, was it?",
          "transl": "Hah.\\. War doch gar nicht so schwer, oder?"
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "LAUGH"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Let's go on!",
          "transl": "Weiter geht's!"
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "TOWARDS"
         }
        }
       ],
@@ -189,18 +252,30 @@
         "message": {
          "orig": "Meine Güte...",
          "transl": "Meine Güte..."
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "COMPLAINING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "At least we got that out of the way. Let's go on.",
          "transl": "Bin ich froh, dass wir das Ding erledigt haben. Dann mal weiter."
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "TOWARDS"
         }
        }
       ]

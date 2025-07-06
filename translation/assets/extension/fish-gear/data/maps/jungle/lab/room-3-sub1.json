@@ -53,7 +53,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "Entrance to East Test Area: \\c[1]closed\\c[0].\nDo you want to keep the entrance closed?",
@@ -66,17 +71,30 @@
            "message": {
             "orig": "\\..\\..\\..",
             "transl": "\\..\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...??",
             "transl": "...??"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ],
          "1": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
+           }
+          },
           null,
           null,
           {
@@ -86,6 +104,10 @@
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "options": [
           {
            "label": {
@@ -127,61 +149,106 @@
        "name": {
         "orig": "Dave Halman",
         "transl": "Dave Halman"
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "message": {
         "orig": "Welcome. I'm glad you found your way back to us to hear more about our work.\\. Much has been achieved in the last months.",
         "transl": "Willkommen. Ich freue mich, dass du mehr über unsere Arbeit erfahren möchtest.\\. Wir haben viel erreicht in den letzten Monaten."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Our effort has been concentrated on giving legs to beings that lacked them the most: \\v[combat.name.jungle/fish]s!",
         "transl": "Wir haben uns darauf konzentriert, denjenigen Geschöpfen des Pfades Beine zu verleihen, die sie am meisten brauchen: Anglern!"
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Elegant creatures, now enhanced by the power of legs, they might rise towards unpredictable potential.",
         "transl": "Elegante Wesen, die durch die Kraft der Beine nun ein unvorstellbares Potential in sich tragen."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "We are thrilled to see what path they will walk from here on.",
         "transl": "Wir können es kaum erwarten, zu welch ungeahnten Horizonten uns ihr Weg führen wird."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Our current project will be even bigger.\\. An entire huge machine, directly controlled by the neural waves of its controlfish!",
         "transl": "Unser aktuelles Projekt wird noch größer.\\. Eine Mech-Maschine, gesteuert durch die neuronalen Wellen des Fisches selbst!"
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Most of its parts have already been finished, in no small part thanks to our associates delivering weapons and specialized parts!",
         "transl": "Die meisten Teile dafür sind bereits fertig, was wir ganz besonders den Waffen und Spezialteilen unserer Partnerfirmen verdanken!<<A<<[CHANGED 2021/05/22]"
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "But rapid progress like this is not meant to be without its challenges.\\. After all, this is a core aspect of the Track.",
         "transl": "Doch rasche Fortschritte wie diese bleiben nicht ohne Konsequenzen.\\. Schließlich ist es der Pfad der Ahnen, mit dem wir uns verbunden haben.<<A<<[CHANGED 2021/05/22]"
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Its energy has a will of its own and tries to undermine our entire facility.\\. Only tireless reprogramming can preserve control.",
         "transl": "Seine Energie hat seinen eigenen Willen und versucht unsere Anlage zu infiltrieren.\\. Nur durch unermüdliche Reprogrammierung können wir die Kontrolle beibehalten."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Exciting times are ahead and we will continue to share our experience.\\. Hopefully you will join me again.",
         "transl": "Vor uns liegen aufregende Zeiten. Wir werden auch weiterhin unsere Erfahrungen teilen.\\. Ich hoffe, du bleibst neugierig, Reisender."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       }
      ]
@@ -203,7 +270,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]INTERNAL MAIL, INBOX\\c[0]\n\n\\c[3]FROM:\\c[0] Office 69b\n\\c[3]TO:\\c[0] \"Mech Machinery\", Management\n\n\\c[3]Subject:\\c[0] Big Haunted Room",
@@ -250,7 +322,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]INTERNAL MAIL, SENT\\c[0]\n\n\\c[3]FROM:\\c[0] Office 34a\n\\c[3]TO:\\c[0] Facility, everyone\n\n\\c[3]Subject:\\c[0] Console blocked??",

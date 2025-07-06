@@ -426,66 +426,122 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Oh hey, Stranger.",
          "transl": "Oh, hey, Fremder."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Your first time here?",
          "transl": "Dein erstes Mal hier?"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Hehe, me too! ",
          "transl": "Hehe, ich auch!"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'm pretty glad that we get a breather after the \\c[3]Temple Mine\\c[0]. ",
          "transl": "Bin echt froh, dass wir nach der \\c[3]Tempelmine\\c[0] eine Verschnaufpause bekommen."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But I can already see new enemies beyond this ravine.",
          "transl": "Aber ich kann da hinten schon neue Gegner sehen."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
         }
        },
        null,
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I just hope they act as cute as they look.",
          "transl": "Ich hoffe, die verhalten sich auch so süß wie sie aussehen."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        }
       ]
@@ -505,48 +561,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "baki.male-green-small",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Hello, Human! You look puzzled!",
        "transl": "Hallo, Mensch! Du sehen ratlos aus!"
+      },
+      "person": {
+       "person": "baki.male-green-small",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You entered \\c[3]Maroon Valley\\c[0], hot-sandy desert and home of us \\c[3]Shad\\c[0]!",
        "transl": "Du betreten \\c[3]Maronental\\c[0], sandig-heiße Wüste und Heimat von uns \\c[3]Shad\\c[0]!"
+      },
+      "person": {
+       "person": "baki.male-green-small",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "All humans welcome!",
        "transl": "Alle Menschen willkommen!"
+      },
+      "person": {
+       "person": "baki.male-green-small",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You should visit \\c[3]Ba'kii Kum\\c[0], bustling town of Shad!",
        "transl": "Du besuchen \\c[3]Ba'kii Kum\\c[0], geschäftige Stadt der Shad!"
+      },
+      "person": {
+       "person": "baki.male-green-small",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Has big bazaar with great offers!",
        "transl": "Hat großen Bazar mit großartigen Angeboten!"
+      },
+      "person": {
+       "person": "baki.male-green-small",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "Human want to know more? Talk to me!",
        "transl": "Mensch wollen wissen mehr? Sprechen mit mir!"
+      },
+      "person": {
+       "person": "baki.male-green-small",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -561,54 +655,96 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Bonjour, Lea!",
        "transl": "Bonjour, Lea!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "Say... are you currently free?",
        "transl": "Sag... bist du gerade frei?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "I'd really like to join your party right now...\\. if you are okay with that.",
        "transl": "Ich würde mich nämlich gerade echt gerne deiner Party anschließen...\\. Wenn das für dich in Ordnung geht."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Très bien!\\. Did you just enter Maroon Valley by any chance?",
        "transl": "Très bien!\\. Bist du zufällig gerade im Maronental angekommen?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Okay, I'll be there in a second!",
        "transl": "Bon, ich bin in einer Sekunde da!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
@@ -624,12 +760,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Thanks for waiting...",
        "transl": "Danke fürs Warten..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
@@ -639,30 +789,50 @@
       "message": {
        "orig": "Did that birdman over there talk to you as well?",
        "transl": "Hat dich dieser Vogeltyp da drüben auch angesprochen?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "He does that with any new player that stands around for too long, non?",
        "transl": "Er macht das mit allen neuen Spielern, die zu lange rumstehen, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "I was surprised to meet a non-human race after all!",
        "transl": "Ich war erstaunt, mal eine nicht-menschliche Rasse zu treffen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      null,
@@ -672,18 +842,30 @@
       "message": {
        "orig": "Anyway, we should head to \\c[3]Ba'kii Kum\\c[0], right? Sounds like the next big town.",
        "transl": "Also dann, wir sollten nach \\c[3]Ba'kii Kum\\c[0] gehen, richtig? Klingt wie die nächstgrößere Stadt."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well then... off we go!",
        "transl": "Also dann... Nichts wie ab!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
@@ -705,12 +887,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "baki.male-green-small",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Human, want to know way to \\c[3]Ba'kii Kum\\c[0]?",
          "transl": "Mensch wollen wissen Weg nach \\c[3]Ba'kii Kum\\c[0]?"
+        },
+        "person": {
+         "person": "baki.male-green-small",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -719,44 +915,82 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "Easy! Human just follow this way to \\c[3]west\\c[0].",
            "transl": "Einfach! Mensch einfach folgen diesem Weg nach \\c[3]West\\c[0]."
+          },
+          "person": {
+           "person": "baki.male-green-small",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "You shortly need to turn \\c[3]south\\c[0], then go \\c[3]west\\c[0] again and follow way below \\c[3]arcs of rock\\c[0]!",
            "transl": "Du bald müssen gehen \\c[3]Süd\\c[0], dann gehen \\c[3]West\\c[0] wieder und folgen Weg unter \\c[3]Felsbögen\\c[0]!"
+          },
+          "person": {
+           "person": "baki.male-green-small",
+           "expression": "DEFAULT"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
+          }
+         },
          {
           "message": {
            "orig": "You then need to turn \\c[3]north\\c[0] to reach deep abyss. Use rocks to jump over it.",
            "transl": "Du dann müssen gehen \\c[3]Nord\\c[0], um erreichen tiefen Abgrund. Nutzen Steine, um springen darüber."
+          },
+          "person": {
+           "person": "baki.male-green-small",
+           "expression": "DEFAULT"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "SCARED"
+          }
+         },
          {
           "message": {
            "orig": "Afterwards you need to turn \\c[3]west\\c[0] again and you will reach \\c[3]Great Scar\\c[0]. Amazing view to \\c[3]Hourglass Building\\c[0].",
            "transl": "Danach du müssen gehen \\c[3]West\\c[0] wieder und du werden erreichen \\c[3]Große Narbe\\c[0]. Tolle Sicht auf \\c[3]Sanduhrgebäude\\c[0]."
+          },
+          "person": {
+           "person": "baki.male-green-small",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Human continue \\c[3]west\\c[0] and will soon reach \\c[3]Ba'kii Kum\\c[0]!",
            "transl": "Mensch gehen weiter \\c[3]West\\c[0] und werden bald erreichen \\c[3]Ba'kii Kum\\c[0]!"
+          },
+          "person": {
+           "person": "baki.male-green-small",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXHAUSTED"
           }
          },
          null,
@@ -764,30 +998,50 @@
           "message": {
            "orig": "Human look confused! No problem, \\c[3]just follow signposts\\c[0].",
            "transl": "Mensch sehen verwirrt aus! Kein Problem, \\c[3]einfach folgen Wegweiser\\c[0]."
+          },
+          "person": {
+           "person": "baki.male-green-small",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "They will point way to Ba'kii Kum!",
            "transl": "Sie werden zeigen Weg nach Ba'kii Kum!"
+          },
+          "person": {
+           "person": "baki.male-green-small",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_TOWARD"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          }
         ],
@@ -796,15 +1050,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Okay! I'm here if human has question!",
            "transl": "Okay! Ich sein hier, falls Mensch haben Frage.\n"
+          },
+          "person": {
+           "person": "baki.male-green-small",
+           "expression": "DEFAULT"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {

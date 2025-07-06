@@ -35,30 +35,56 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...Hi!",
          "transl": "... Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Spheromancer Lea! There you are!",
          "transl": "Spheromancer Lea! Du hast es also auch geschafft!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It looks like the Spheromancers are leading the race as of now!",
          "transl": "Damit führen die Spheromancer in diesem Rennen!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "CONTENT"
         }
        },
        {
         "message": {
          "orig": "Let's continue before that Pentafist catches up-",
          "transl": "Lass uns weitermachen, bevor dieser Pentafist uns einhol-"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        },
        null,
@@ -72,11 +98,20 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
+        }
+       },
        {
         "message": {
          "orig": "Oh! Another shared outdoor area?",
          "transl": "Oh! Noch ein uninstanzierter Außenbereich?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "ASTONISHED"
         }
        },
        null,
@@ -85,25 +120,46 @@
         "message": {
          "orig": "And I'm last, aren't I?",
          "transl": "Und ich bin Letzte, oder?<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "CONTENT"
+        }
+       },
        {
         "message": {
          "orig": "Indeed! We Spheromancers are at the very front, as expected!",
          "transl": "In der Tat! Wir Spheromancer stehen an vorderster Front - wie erwartet!<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "CONTENT"
         }
        },
        {
         "message": {
          "orig": "Oui, oui, just keep your smug face while it lasts. ",
          "transl": "Oui, oui, lach nur, so lang du noch kannst."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "The race isn't over yet!",
          "transl": "Das Rennen ist noch nicht vorbei!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DETERMINED"
         }
        }
       ],
@@ -112,49 +168,108 @@
        null,
        null,
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...Hi...",
          "transl": "... Привіт..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "Spheromancer Lea! There you are!",
          "transl": "Spheromancer Lea! Da bist du ja!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I just got here myself. Grasshead has been waiting.",
          "transl": "Ich bin auch eben erst angekommen. Graskopf hat hier schon gewartet."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Indeed.",
          "transl": "In der Tat."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "Still I'm saddened to see a Spheromancer overtaken by a mere Pentafist.",
          "transl": "Dennoch betrübt es mich zu sehen, dass ein Pentafist einen Spheromancer überholt."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        },
        {
         "message": {
          "orig": "Well, the race isn't over yet.",
          "transl": "Tja, das Rennen ist noch nicht vorbei."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "Who knows, maybe this Pentafist Scrub will end up overtaking you as well!",
          "transl": "Wer weiß, vielleicht überholt der Pentafist-Amateur am Ende auch dich!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "WATCH_OUT_BADASS"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -163,30 +278,50 @@
       "message": {
        "orig": "Anyway, we all just crossed blades with the Son of the East.",
        "transl": "Jedenfalls haben wir soeben alle die Klingen mit dem Sohn des Ostens gekreuzt."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Still think it's just a funny ape, Pentafist?",
        "transl": "Glaubst du immer noch, er sei bloß ein lustiger Affe, Pentafist?"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      {
       "message": {
        "orig": "That battle was quite intense, non?",
        "transl": "Der Kampf war recht fordernd, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "Apes are still funny, though! That will never change!",
        "transl": "Aber Affen sind trotzdem lustig! Und das wird auch immer so bleiben!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHRUG"
       }
      },
      {
       "message": {
        "orig": "Now, let's race on!!",
        "transl": "Weiter geht's!!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -237,36 +372,66 @@
      {
       "event": [
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Countless leaves.",
          "transl": "Unzählige Blätter."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bundled together.",
          "transl": "Zusammengebündelt."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Like green clouds, up in the sky.",
          "transl": "Wie grüne Wolken am Himmel."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -343,25 +508,46 @@
         "name": {
          "orig": "Sergiy",
          "transl": "Sergiy"
+        },
+        "person": {
+         "person": "guests.sergiy",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Really now...",
          "transl": "Jetzt mal im Ernst..."
+        },
+        "person": {
+         "person": "guests.sergiy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "A laughing monkey flying on a cloud?",
          "transl": "Ein lachender Affe, der auf einer Wolke fliegt?"
+        },
+        "person": {
+         "person": "guests.sergiy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This is ridiculous, don't you agree?",
          "transl": "Das ist doch albern, oder nicht?"
+        },
+        "person": {
+         "person": "guests.sergiy",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -370,12 +556,20 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "Right? What were developers thinking!",
            "transl": "Ja, eben! Was haben sich die Entwickler nur dabei gedacht?"
+          },
+          "person": {
+           "person": "guests.sergiy",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -384,15 +578,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Hmm, then it must be just me.",
            "transl": "Hmm... Dann sehe ich das wohl nur so."
+          },
+          "person": {
+           "person": "guests.sergiy",
+           "expression": "DEFAULT"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -412,12 +618,20 @@
         "message": {
          "orig": "Honestly, these boss fights are getting a tiny bit too crazy for my taste. ",
          "transl": "Ehrlich gesagt werden diese Bosskämpfe langsam ein bisschen zu verrückt für meinen Geschmack."
+        },
+        "person": {
+         "person": "guests.sergiy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "What next?\\. Will the ape surf on a hover board or something?",
          "transl": "Was kommt als Nächstes?\\. Dass der Affe auf einem Hoverboard surft?"
+        },
+        "person": {
+         "person": "guests.sergiy",
+         "expression": "DEFAULT"
         }
        }
       ]

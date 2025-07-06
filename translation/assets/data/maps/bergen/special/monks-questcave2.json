@@ -151,7 +151,12 @@
         "transl": "Die Prüfung des Fortschritts"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         null,
         {
          "thenStep": [
@@ -245,6 +250,10 @@
              }
             }
            ],
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           },
            "options": [
             {
              "label": {

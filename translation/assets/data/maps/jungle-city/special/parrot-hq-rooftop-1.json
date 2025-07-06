@@ -27,11 +27,20 @@
    "settings": {
     "event": [
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -44,11 +53,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi!?",
        "transl": "Привіт!?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
@@ -69,18 +87,30 @@
       "message": {
        "orig": "Lea!\\. Hi!",
        "transl": "Lea!\\. Hi!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "... How?\\. Why?",
        "transl": "... Wie?\\. Warum?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      null,
@@ -102,6 +132,10 @@
       "message": {
        "orig": "... Why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      null,
@@ -127,6 +161,10 @@
       "message": {
        "orig": "Wait!",
        "transl": "Зачекай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      null,
@@ -149,11 +187,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...How?\\. Why?",
        "transl": "... Wie?\\. Warum?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      null,
@@ -164,7 +211,12 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "text": {
        "orig": "[sad goatbye noises]",
@@ -184,6 +236,10 @@
       "message": {
        "orig": "Wait!",
        "transl": "Зачекай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      null,
@@ -213,17 +269,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "... Whyyyy?",
        "transl": "... Waruuuum?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Meet...\\. Lea!\\.\\. Sorry!",
        "transl": "Treffen...\\. Lea!\\.\\. Sorry!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]

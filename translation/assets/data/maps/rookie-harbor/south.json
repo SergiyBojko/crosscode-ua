@@ -160,12 +160,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.man-tall-mustache",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Welcome to Rookie Harbor!",
          "transl": "Willkommen in Rookie Harbor!"
+        },
+        "person": {
+         "person": "rookie-harbor.man-tall-mustache",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -178,18 +192,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.female-small-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey!\\. It's nice here in the shade, isn't it?",
          "transl": "Hey!\\. Richtig angenehm hier im Schatten, ne?"
+        },
+        "person": {
+         "person": "rookie-harbor.female-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...Hi?",
          "transl": "... Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        }
       ]
@@ -234,42 +266,76 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...Hi!",
          "transl": "... Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...Oh! Hey!",
          "transl": "... Oh! Hey!"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        },
        {
         "message": {
          "orig": "Is something the matter?",
          "transl": "Was gibt's?"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "... Oh well... Ever notice how that tree has fruit?",
          "transl": "... Na gut... Ist dir schon aufgefallen, dass dieser Baum Früchte trägt?"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -278,12 +344,20 @@
         "message": {
          "orig": "I heard those are not instant matter but actual fruit!",
          "transl": "Ich habe gehört, dass sie keine Instant-Materie, sondern echte Früchte sind!"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now I really wonder how they taste...",
          "transl": "Jetzt frage ich mich wirklich, wie sie wohl schmecken..."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -291,12 +365,20 @@
         "message": {
          "orig": "Oh well... it's not like you can eat real-life fruit as an avatar.",
          "transl": "Ist ja schließlich nicht so, dass wir als Avatar echte Früchte essen könnten..."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -309,66 +391,116 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...Hi!",
          "transl": "... Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hey there.",
          "transl": "Na du."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...You seem kinda lost...",
          "transl": "... Du wirkst irgendwie verloren..."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "If you're waiting for somebody, this is the right spot.",
          "transl": "Wenn du auf jemanden wartest, ist das hier der richtige Ort."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Pretty much everyone here is waiting for new players arriving from Cross Central.",
          "transl": "So ziemlich jeder hier wartet auf neue Spieler, die aus der CrossCentral anreisen."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It's a popular meetup spot.",
          "transl": "Ist einfach ein beliebter Treffpunkt."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... You seem to be a new player, too. So you know what I mean, right?",
          "transl": "... Du scheinst auch ein neuer Spieler zu sein, also weißt du, was ich meine, oder?"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "...You're a quiet one, I see.",
          "transl": "... Eher der stille Typ, verstehe."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -506,12 +638,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hey!\\. Over here!",
        "transl": "Hey!\\. Hier drüben!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
@@ -520,28 +666,55 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Look at all these old style buildings!",
        "transl": "Schau dir mal die alten Häuschen hier an!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "It's like we are in some kind of medieval fantasy world, non?",
        "transl": "Wie in einer mittelalterlichen Fantasy-Welt, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "So...\\. Right now I'm waiting here to meet a friend. ",
        "transl": "Also...\\. Im Moment warte ich hier auf einen Freund."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -549,6 +722,10 @@
       "message": {
        "orig": "But I haven't seen him so far.",
        "transl": "Aber ich habe ihn bisher nicht gesehen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      null,
@@ -556,134 +733,238 @@
       "message": {
        "orig": "There are just so many people here...",
        "transl": "Hier sind einfach so viele Menschen..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "HOLERÖ!\\.\\.",
        "transl": "HOLERÖ!\\.\\."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "Eeek!",
        "transl": "Ahhh!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "Gyahahaha!",
        "transl": "Gyahahaha!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "LAUGH"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "Sacrebleu!\\. Was that really necessary?",
        "transl": "Sacrebleu!\\. Musste das sein?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Yes, very necessary.",
        "transl": "Japp, musste es."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "I see you brought a friend?",
        "transl": "Ich sehe, du hast eine Freundin mitgebracht?"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "Ah oui, that's Lea!\\. I met her during the tutorial.",
        "transl": "Ah oui, das ist Lea!\\. Ich habe sie während des Tutorials getroffen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And this dark lord meanie here is \\c[3]Lukas\\c[0].",
        "transl": "Und dieser Fürst von und zu Fieserich hier ist \\c[3]Lukas\\c[0]."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Also known as \\c[3]Schneider\\c[0].",
        "transl": "Auch bekannt als \\c[3]Schneider\\c[0]."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "Nice to meet you, Lea!",
        "transl": "Schön, dich kennenzulernen, Lea!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "So you finally reached the \\c[3]Croissant\\c[0].\\. Having fun so far?",
        "transl": "Dann seid ihr jetzt also auch auf dem \\c[3]Croissant\\c[0].\\. Gefällt es euch so weit?"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "Oui, énormément!",
        "transl": "Oui, énormément!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Wait...\\. Croissant?",
        "transl": "Moment...\\. Croissant?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "The mainland.\\. You'll get the idea once you see the map.",
        "transl": "Das Festland.\\. Du wirst es verstehen, sobald du die Karte siehst."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WINK"
       }
      },
      {
       "message": {
        "orig": "Anyway, this is \\c[3]Rookie Harbor\\c[0].\\. It's known for the incoming shipments of rookies like you.",
        "transl": "Jedenfalls seid ihr gerade in \\c[3]Rookie Harbor\\c[0].\\. Diese Stadt ist für regelmäßigen Nachschub an Neulingen wie euch bekannt."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "It's also a fairly big place, which tends to be confusing for said rookies.",
        "transl": "Es ist ein recht großer Ort, was besagte Neulinge oftmals sehr verwirrt."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "So I thought I'd give you a small tour!",
        "transl": "Also habe ich mir überlegt, euch eine kleine Führung zu geben!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Très bien!\\. Lead the way!\n",
        "transl": "Très bien!\\. Dann geh mal voran!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -714,20 +995,38 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "thenStep": [
          {
           "message": {
            "orig": "Ah, I see you now can open the golden chests.\\. Congrats!",
            "transl": "Ah, wie ich sehe, kannst du goldene Truhen öffnen. Gratz!<<A<<[CHANGED 2021/05/22]"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-blue",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Lea!",
            "transl": "Лія!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SMUG"
           }
          }
         ],
@@ -736,42 +1035,70 @@
           "message": {
            "orig": "Wondering about this chest, hm?",
            "transl": "Wunderst dich über die Truhe, hm?"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-blue",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "Yeah, you can't open it yet.",
            "transl": "Die kannst du jetzt noch nicht öffnen.<<A<<[CHANGED 2021/05/22]"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-blue",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "But you will be able to do it later in the game.",
            "transl": "Das geht erst später im Spiel."
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-blue",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "You might want to add a \\c[3]stamp\\c[0] on your \\c[3]map\\c[0] to remember it.",
            "transl": "Setz dir doch einen \\c[3]Stempel\\c[0] auf deine \\c[3]Karte\\c[0], dann vergisst du die Truhe später nicht."
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-blue",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "In case you don't know what I mean, just have a closer look at the \\c[3]map menu\\c[0]!",
            "transl": "Falls du nicht genau weißt, was ich meine, schau dir mal das \\c[3]Karten-Menü\\c[0] genauer an!"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-blue",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ASTONISHED"
           }
          }
         ]
@@ -781,42 +1108,76 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.triblader-male-blue",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
+         }
+        },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Oh, a present? For me?",
           "transl": "Oh, ein Geschenk? Für mich?"
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blue",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Thanks! I don't know why, but lately random people just give me stuff for free.",
           "transl": "Danke! Ich weiß zwar nicht wieso, aber ich krieg' in letzter Zeit immer mal wieder was von wildfremden Leuten geschenkt."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blue",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I love it!",
           "transl": "Ohhh, wie schööön!"
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blue",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         }
        ]
@@ -836,61 +1197,112 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "First, the \\c[3]info building\\c[0].",
        "transl": "Zuallererst das \\c[3]Info-Gebäude\\c[0], auch \\c[3]Info-Hub\\c[0] genannt."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "If you really want to dig into all the details of CrossWorlds, this is your place.",
        "transl": "Wenn du dein Detailwissen rund um CrossWorlds vertiefen willst, bist du hier richtig."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "Combat arts, skills, all the stats from A to Z, you name it.",
        "transl": "Kampfkünste, Circuits, alle Stats von A bis Z, was immer du willst."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "Oh!\\. That's the \"Nerd Hub\", right?",
        "transl": "Oh!\\. Das ist der \"Nerd Hub\", stimmt's?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ja, people call it that.",
        "transl": "Ja, so nennen es die Leute."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "SKEPTICAL"
       }
      },
      {
       "message": {
        "orig": "Frankly, it's a good thing to know about all that stuff.",
        "transl": "Aber im Ernst, es ist ganz nützlich, über das ganze Zeug Bescheid zu wissen."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "But it's not mandatory.",
        "transl": "Allerdings nicht zwingend notwendig."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "It's just a place to go back to whenever you're confused about something.",
        "transl": "Es ist vor allem eine gute Anlaufstelle, falls ihr irgendetwas nicht versteht."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "Let's move on!",
        "transl": "Weiter geht's!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -903,36 +1315,60 @@
       "message": {
        "orig": "By the way...\\. \"Emilienator\"?\\. Nice one.",
        "transl": "Übrigens...\\. \"Emilienator\"?\\. Der ist gut."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "LAUGH"
       }
      },
      {
       "message": {
        "orig": "I know!\\. What's \"Schneider\" supposed to mean?",
        "transl": "Ich weiß!\\. Aber...\\. warum \"Schneider\"?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "I'm a \\c[3]Triblader\\c[0].\\. I cut things.",
        "transl": "Ich bin \\c[3]Triblader\\c[0].\\. Ich zerschneide Zeugs."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "...\\. What?",
        "transl": "...\\. Was?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Not worth explaining.",
        "transl": "Nicht der Rede wert."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "SKEPTICAL"
       }
      },
      {
       "message": {
        "orig": "Awww...",
        "transl": "Mennooo..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      }
     ]
@@ -948,18 +1384,36 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Oi, Lea!\\. Why are you running away?",
        "transl": "He, Lea!\\. Warum rennst du weg?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I promise, I'll make it short!",
        "transl": "Ich fasse mich kurz, versprochen!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -977,17 +1431,30 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Shady Shorsh",
           "transl": "Langfinger Louis"
+         },
+         "person": {
+          "person": "rookie-harbor.thief-man-small-brown",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         },
         null,
@@ -996,18 +1463,30 @@
          "message": {
           "orig": "Ahh!\\. Y... you again?",
           "transl": "Ahh!\\. D... Du schon wieder?"
+         },
+         "person": {
+          "person": "rookie-harbor.thief-man-small-brown",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Okay... I guess that's the end of the line then.\\. It's really a shame...",
           "transl": "Okay... Schätze, das Ende der Fahnenstange ist wohl erreicht.\\. Schade..."
+         },
+         "person": {
+          "person": "rookie-harbor.thief-man-small-brown",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1020,11 +1499,20 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SHOCKED"
+         }
+        },
         {
          "message": {
           "orig": "...that you're so slow!!\\.\\. Byeeeee\\..\\..\\..",
           "transl": "... dass du so langsam bist.\\.\\. Tschöhööö~\\..\\..\\.."
+         },
+         "person": {
+          "person": "rookie-harbor.thief-man-small-brown",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -1075,28 +1563,50 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Finally, we set foot on the great continent of the croissant!",
        "transl": "Und nun betreten wir den großen Kontinent des Croissants!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Entering \\c[3]Rookie Harbor\\c[0]!",
        "transl": "\\c[3]Rookie Harbor\\c[0]!"
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "To the right, you'll find the Info Hub.",
        "transl": "Auf der rechten Seite befindet sich der Info-Hub."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1104,12 +1614,20 @@
       "message": {
        "orig": "A great place if...",
        "transl": "Ein guter Ort, wenn..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "Japp, that's such a nice tree to run around, isn't it?",
        "transl": "Japp, ein toller Baum zum Drumherumlaufen..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "SKEPTICAL"
       }
      },
      null,
@@ -1117,6 +1635,10 @@
       "message": {
        "orig": "Look, I get it.\\. Who cares about the boring Info Hub!",
        "transl": "Ich hab schon verstanden.\\. Wen interessiert schon der langweilige Info-Hub!"
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
@@ -1125,6 +1647,10 @@
       "message": {
        "orig": "Still, it's a place you might want to remember for later.\\. Just saying.",
        "transl": "Trotzdem ist es ein Ort, den man sich für später merken sollte.\\. Wollte ich nur gesagt haben."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WINK"
       }
      }
     ]

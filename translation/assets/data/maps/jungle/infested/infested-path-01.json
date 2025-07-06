@@ -702,30 +702,56 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Urgh, finally you're here.",
           "transl": "Pff, da bis'u ja endlich."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Another minute in this infested mess and I would have died of boredom.",
           "transl": "Noch 'ne Minute in dem verseuchten Chaos hier und ich wär' vor Langeweile gestorben."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Now, come on. Let's get this over with. And stay out of my way, capiche?",
           "transl": "Also los, weiter geht's. Und komm mir nich' in die Quere, kapische?"
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -738,12 +764,26 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Follow me.\n",
           "transl": "Folg mir."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -784,12 +824,20 @@
       "message": {
        "orig": "The place looks...\\. different.",
        "transl": "Dieser Ort sieht...\\. anders aus."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "That's right! We are within the \\c[3]infested jungle\\c[0]! A mysterious disease has befallen this part of the forest!",
        "transl": "Stimmt genau! Wir sind im \\c[3]infizierten Dschungel\\c[0]! Eine mysteriöse Krankheit hat diesen Teil des Waldes befallen."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      }
     ]
@@ -815,29 +863,50 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Owo'kyari",
           "transl": "Owo'kyari"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Ho, \\v[lore.title.seeker] finally there.\\. This dangerous place, not fun to wait around at.",
           "transl": "Ho, Seeker endlich da.\\. Gefährlich Ort hier, machen kein Spaß hier rumwarten."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi.",
           "transl": "Привіт."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Well, prepare took time as well.\\. There, look at machine!",
           "transl": "Aber Vorbereitung auch Zeit gebraucht.\\. Da, gucken an dir Maschine!"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -847,48 +916,86 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Owo'kyari",
           "transl": "Owo'kyari"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I prepared it to be ready to capture adorable creature of electricity for use with technology.",
           "transl": "Ich bereit gemacht zum Fangen liebenswert Elektro-Kreatur, um nutzen als Technologie."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "I can lure special kitties whenever \\v[lore.title.seeker] ready.",
           "transl": "Ich können locken besonders Kätzchen, wann immer Seeker bereit."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "When there, creature must be \\c[3]stunned to state of weakness\\c[0].",
           "transl": "Wenn auftauchen, Kreatur \\c[3]lähmen, um erreichen Schwächezustand\\c[0]."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Then \\c[3]hit machine with attack of Shock\\c[0] for it to proceed with the capture.",
           "transl": "Dann \\c[3]treffen Maschine mit Schock-Angriff\\c[0], um starten Fangprozess."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "However, \\c[3]capture easier when kitty health weakened\\c[0].\\. Keep in mind when kitty keep escaping.",
           "transl": "\\c[3]Fangen einfacher, wenn Kätzchen Gesundheit schwach\\c[0].\\. Dran denken, wenn Kätzchen immer abhauen."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -898,41 +1005,70 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Owo'kyari",
           "transl": "Owo'kyari"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "\\v[lore.title.seeker] understand everything?",
           "transl": "Seeker alles verstehen?"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Good, then talk again when ready for capture.",
           "transl": "Gut, mit mir reden, wenn du so weit sein."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And please no keep me here for long.\\. This place scary and moist and many great things to do in home!",
           "transl": "Und lassen mich hier bitte nicht länger als nötig.\\. Ort hier gruselig und feucht, und zu Hause noch viel Großes tun müssen!"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye.",
           "transl": "Бувай."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         }
        ]
@@ -946,17 +1082,30 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Owo'kyari",
           "transl": "Owo'kyari"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "So, \\v[lore.title.seeker].\\. You ready to do the capture of powercats?",
           "transl": "Also, Seeker.\\. Bereit für Stromkatzen fangen?"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -968,12 +1117,20 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Good!\\. Machine will now lure the right kind of creatures.\\. Be ready!",
             "transl": "Gut!\\. Maschine wird nun locken richtig Sorte Kreaturen.\\. Sein bereit!"
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1005,17 +1162,30 @@
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Owo'kyari",
             "transl": "Owo'kyari"
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Happy catching, \\v[lore.title.seeker].\\. I will wait here till one is inside cage.",
             "transl": "Fröhlich Fangen, Seeker.\\. Ich warten hier bis eine in Käfig sein."
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -1024,12 +1194,20 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Oh, \\v[lore.title.seeker], please.\\. Make hurry and let me go back to home and work!",
             "transl": "Oh, bitte Seeker.\\. Bitte beeilen, damit ich zurück können nach Hause und arbeiten!"
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -1038,12 +1216,20 @@
            "message": {
             "orig": "How?",
             "transl": "Як?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           },
           {
            "message": {
             "orig": "I see.\\. Then take another look at great machine!",
             "transl": "Verstehen.\\. Dann du nochmal anschauen Maschine!"
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1053,48 +1239,86 @@
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Owo'kyari",
             "transl": "Owo'kyari"
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I prepared it to be ready to capture adorable creature of electricity for use of with technology.",
             "transl": "Ich bereit gemacht zum Fangen liebenswert Elektro-Kreatur, um nutzen als Technologie."
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ASTONISHED"
            }
           },
           {
            "message": {
             "orig": "I can lure special kitties whenever \\v[lore.title.seeker] ready.",
             "transl": "Ich können locken besonders Kätzchen, wann immer Seeker bereit."
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "When there, creature must be \\c[3]stunned to state of weakness\\c[0].",
             "transl": "Wenn auftauchen, Kreatur \\c[3]lähmen, um erreichen Schwächezustand\\c[0]."
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Then \\c[3]hit machine with attack of Shock\\c[0] for it to proceed with the capture.",
             "transl": "Dann \\c[3]treffen Maschine mit Schock-Angriff\\c[0], um starten Fangprozess."
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "However, \\c[3]capture easier when kitty health weakened\\c[0].\\. Keep in mind when they keep escaping.",
             "transl": "\\c[3]Fangen einfacher, wenn Kätzchen Gesundheit schwach\\c[0].\\. Dran denken, wenn Kätzchen immer abhauen."
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1104,20 +1328,37 @@
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Owo'kyari",
             "transl": "Owo'kyari"
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "\\v[lore.title.seeker] now understand everything?",
             "transl": "Seeker nun alles verstehen?"
+           },
+           "person": {
+            "person": "basin.shad-male-techie",
+            "expression": "DEFAULT"
            }
           }
          ],
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -1156,12 +1397,20 @@
         "message": {
          "orig": "Yes!\\. Kitty captured! \\v[lore.title.seeker] work very good!",
          "transl": "Ja!\\. Kätzchen gefangen! Sehr gut Arbeit, Seeker!"
+        },
+        "person": {
+         "person": "basin.shad-male-techie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now other enemies must get mobbed to retrieve cage safely!",
          "transl": "Jetzt nur noch andere Gegner belästigen, damit holen können Käfig!"
+        },
+        "person": {
+         "person": "basin.shad-male-techie",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1196,59 +1445,100 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Owo'kyari",
        "transl": "Owo'kyari"
+      },
+      "person": {
+       "person": "basin.shad-male-techie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You did it.\\. Cage actually works well, what pleasant surprise!",
        "transl": "Du geschafft!\\. Käfig funktionieren tatsächlich gut, ich sein angenehm überrascht!"
+      },
+      "person": {
+       "person": "basin.shad-male-techie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "... why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Well, is that not fine specimen?\\. Teeming with power, just ideal.",
        "transl": "Na, das nicht sein schön Exemplar?\\. Voll von Kraft, einfach ideal."
+      },
+      "person": {
+       "person": "basin.shad-male-techie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "... why??",
        "transl": "... Чому??"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Though, we be needing 2 more and they not be catched themselves.\\. So follow me to \\c[3]Infested Marshes North\\c[0].",
        "transl": "Brauchen aber noch zwei mehr und sie nicht fangen von selbst.\\. Also mir folgen nach \\c[3]Verseuchte Sümpfe Nord\\c[0].<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "basin.shad-male-techie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Cage with capture cat will teleport home meanwhile.\\. Wish that was me, but work needs doing.",
        "transl": "Käfig mit Katze derweil teleportieren nach Hause.\\. Ich mir auch am liebsten wünschen, geben aber noch Arbeit."
+      },
+      "person": {
+       "person": "basin.shad-male-techie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -1266,12 +1556,20 @@
       "message": {
        "orig": "\\v[lore.title.seeker] killed all cats without capturing.\\. Such reckless!",
        "transl": "Seeker getötet alle Katzen statt fangen.\\. Wie rücksichtslos!"
+      },
+      "person": {
+       "person": "basin.shad-male-techie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "More have to be lured now.\\. Please try to capture at least one before all killed!",
        "transl": "Müssen nun mehr locken.\\. Bitte versuchen fangen wenigstens eine, bevor alle tot!"
+      },
+      "person": {
+       "person": "basin.shad-male-techie",
+       "expression": "DEFAULT"
       }
      }
     ]

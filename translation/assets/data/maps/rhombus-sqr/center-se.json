@@ -97,18 +97,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "We are terribly sorry, dear player.",
          "transl": "Tut uns wirklich leid, lieber Spieler."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This bridge is currently under repair.",
          "transl": "Diese Brücke wird zur Zeit repariert."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -121,18 +139,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "We are terribly sorry, dear player.",
          "transl": "Tut uns wirklich leid, lieber Spieler."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This bridge is currently undergoing repairs.",
          "transl": "Diese Brücke wird zur Zeit repariert."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -145,18 +181,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "We are terribly sorry, dear player.",
          "transl": "Tut uns wirklich leid, lieber Spieler."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This bridge is currently under repair.",
          "transl": "Diese Brücke wird zur Zeit repariert."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -200,18 +254,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "We are terribly sorry, dear player.",
          "transl": "Tut uns wirklich leid, lieber Spieler."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This bridge is currently under repair.",
          "transl": "Diese Brücke wird zur Zeit repariert."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -224,18 +296,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "We are terribly sorry, dear player.",
          "transl": "Tut uns wirklich leid, lieber Spieler."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This bridge is currently under repair.",
          "transl": "Diese Brücke wird zur Zeit repariert."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -564,18 +654,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "We are terribly sorry, dear player.",
          "transl": "Tut uns wirklich leid, lieber Spieler."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "We are currently investigating a malfunction in these fences.",
          "transl": "Wir untersuchen gerade eine Fehlfunktion in diesen Zäunen."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1139,226 +1247,412 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
+        }
+       },
+       {
+        "person": {
+         "person": "main.grumpy",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Oh?\\. Good day, Lea.",
          "transl": "Oh?\\. Guten Tag, Lea."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "UP"
         }
        },
        {
         "message": {
          "orig": "Having a stroll around Rhombus Square?",
          "transl": "Erkundest du gerade die Stadt?"
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "AWAY"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Oh, who are you? A new member of the First Scholars?",
          "transl": "Oh, wer ist das? Ein neues Mitglied der Ersten Gelehrten?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "Yes, she just joined a couple weeks ago.",
          "transl": "Ja, sie ist gerade erst vor ein paar Wochen beigetreten."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Well then, I hope you're enjoying CrossWorlds, young lady!",
          "transl": "Dann hoffe ich, dass der jungen Dame das Spiel gefällt?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Oh, yes! I'm Ivan. Nice to meet you!",
          "transl": "Ah! Ich bin Ivan. Freut mich, dich kennenzulernen!"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
         }
        },
        null,
        null,
        null,
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.grumpy",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Actually, something quite peculiar about her...\\. It seems her speech module isn't working.",
          "transl": "Bei Lea gibt es eine kleine Besonderheit zu beachten...\\. Ihr Sprachmodul scheint defekt zu sein."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "EYES_CLOSED"
         }
        },
        {
         "message": {
          "orig": "Oh, it isn't? She just said her name though, didn't she?",
          "transl": "Oh, wirklich? Sie hat doch eben ihren Namen genannt, nicht?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "We believe she is using some kind of workaround that allows her to say a few words.",
          "transl": "Wir glauben, dass sie eine Art Notlösung verwendet, mit der sie ein paar Worte sprechen kann."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "UP"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Hi!\\. Bye.\\. How.\\. Why.\\. Sorry.",
          "transl": "Hi!\\. Bye.\\. Wie.\\. Warum.\\. Sorry."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This is...\\. very strange.",
          "transl": "Das ist...\\. äußerst merkwürdig."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "PONDERING"
         }
        },
        {
         "message": {
          "orig": "I'd suggest you contact support, but if you already rely on a workaround like this, the problem must be really persistent.",
          "transl": "Das wäre eigentlich ein Fall für den Support, doch mit dieser Art Notlösung scheint das Problem hartnäckigerer Natur zu sein."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "You think there is anybody you could talk to about this?",
          "transl": "Fällt dir jemand ein, mit dem du darüber reden könntest?"
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "UP"
         }
        },
        {
         "message": {
          "orig": "Not really...\\. I'm unfortunately out of touch with the development department.",
          "transl": "Nicht wirklich...\\. Ich habe leider keine Kontakte mehr in der Entwicklungsabteilung."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SERIOUS"
         }
        },
        {
         "message": {
          "orig": "I expected as much.",
          "transl": "Das habe ich befürchtet."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "SARCASTIC"
         }
        },
        {
         "message": {
          "orig": "There was that one time when I tried to promote some research projects to integrate upcoming AI technologies.",
          "transl": "Die hatte ich damals, als ich versucht hatte, mich für einige Forschungsprojekte zur Integration neuer KI-Technologien stark zu machen."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "I talked to some of the engineers back then.",
          "transl": "Damals sprach ich mit einigen Ingenieuren."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "But it wasn't met with a lot of enthusiasm, so I gave up on it. It's really a shame.",
          "transl": "Doch die Idee stieß auf wenig Gegenliebe, also gab ich es auf. Wirklich schade drum."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "I heard that Instatainment cut down on the R&D department in general, didn't they?",
          "transl": "Ich habe gehört, dass Instatainment das Budget der F&E-Abteilung gekürzt hat?"
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "EYES_CLOSED"
         }
        },
        {
         "message": {
          "orig": "That's pretty much the case, yes.",
          "transl": "Das kann man so sagen, ja."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "PONDERING"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Business is going well enough and most shareholders want to avoid risks as much as possible.",
          "transl": "Die Geschäfte laufen zur Zeit gut, und die meisten Aktionäre wollen Risiken möglichst vermeiden."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SERIOUS"
         }
        },
        {
         "message": {
          "orig": "Instatainment has lost much of its innovative spark these days.",
          "transl": "Instatainment hat viel von seinem früheren Innovationsgeist verloren."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "PONDERING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Oh, is it that late already? It's time for me to go.",
          "transl": "Oh, schon so spät? Dann wird es Zeit, dass ich gehe."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SURPRISED"
         }
        },
        null,
        null,
        null,
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.grumpy",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Anyway, it was nice to see you again, Albert! Until next time!",
          "transl": "Es war schön, dich mal wieder zu treffen, Albert! Bis zum nächsten Mal!"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "Sure, just let me know when you have some free time again.",
          "transl": "Gerne. Melde dich einfach bei mir, wenn du demnächst wieder etwas Zeit hast."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Have a nice day, everyone!",
          "transl": "Einen schönen Tag noch, miteinander!"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye!",
          "transl": "Бувай!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        null,
@@ -1374,24 +1668,46 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.grumpy",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Well then, I have to leave as well.",
          "transl": "Also dann, ich werde jetzt auch gehen."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "AWAY"
         }
        },
        {
         "message": {
          "orig": "Good bye!",
          "transl": "Mach's gut!"
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye!",
          "transl": "Бувай!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -1400,150 +1716,256 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "THINKING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Who was that person?",
          "transl": "Wer war dieser Mann?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "He seems to be closely involved with Instatainment.",
          "transl": "Er scheint mit Instatainment eng in Verbindung zu stehen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "What was his name again? Ivan?",
          "transl": "Wie war sein Name doch gleich? Ivan?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SERIOUS"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "No way!",
          "transl": "Das gibt es doch nicht!"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "That must have been \\c[3]Mr. Vestorovich\\c[0]!",
          "transl": "Das muss \\c[3]Mr. Vestorovich\\c[0] gewesen sein!"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "He is a shareholder of Instatainment.",
          "transl": "Er ist einer der Aktionäre von Instatainment."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "NOTIFYING"
         }
        },
        {
         "message": {
          "orig": "I can barely believe this. ",
          "transl": "Nicht zu fassen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "He is supposed to be such a busy person, yet here he was talking casually with Albert.",
          "transl": "Er ist eigentlich ein vielbeschäftigter Mann, und doch saß er hier für einen gemütlichen Plausch mit Albert."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SERIOUS"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "Lea, this is huge!",
          "transl": "Lea, das ist unsere Chance!"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "Mr. Vestorovich, he has been active in the field of AI for some time now.",
          "transl": "Mr. Vestorovich war eine Zeit lang im Bereich der KI tätig."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "NOTIFYING"
         }
        },
        {
         "message": {
          "orig": "I tried to get in touch with him back when Satoshi was still at Instatainment, but we never had any luck.",
          "transl": "Als Satoshi noch bei Instatainment war, haben wir versucht, mit ihm in Kontakt zu treten, leider vergeblich."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "EYES_CLOSED"
         }
        },
        {
         "message": {
          "orig": "However, since Albert seems to know him personally, we might get our chance to meet him.",
          "transl": "Da Albert ihn aber persönlich zu kennen scheint, haben wir vielleicht jetzt eine Chance."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "I am 100% positive he would be thrilled to learn about \\c[3]Evotars\\c[0]!",
          "transl": "Ich bin mir 100% sicher, dass er begeistert wäre, wenn er von den \\c[3]Evotaren\\c[0] erfahren würde!"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "...!!",
          "transl": "...!!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "So... now we just have to reach Albert and ask him about it...",
          "transl": "Dafür müssten wir einmal mit Albert sprechen und ihn fragen..."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "How?",
          "transl": "Як?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "That is the tricky part.",
          "transl": "Das ist der schwierige Teil."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "Remember the \\c[3]hologram projector\\c[0] in the meeting room of the \\c[3]First Scholar HQ\\c[0]?",
          "transl": "Erinnerst du dich an den \\c[3]Hologrammprojektor\\c[0] im Besprechungsraum der \\c[3]Ersten Gelehrten\\c[0]?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SERIOUS"
         }
        },
        {
         "message": {
          "orig": "If we can meet him personally there, I might be able to talk to him directly.",
          "transl": "Wenn wir es schaffen, ihn dort zu treffen, könnte ich vielleicht direkt mit ihm reden."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "AWAY"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        null,
@@ -1553,18 +1975,30 @@
         "message": {
          "orig": "It looks like he is \\c[3]still online\\c[0].",
          "transl": "Sieht so aus, als wäre er \\c[3]noch online\\c[0]."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "Let us just head to the meeting room and see if he is close by.",
          "transl": "Lass uns zum Besprechungsraum gehen und schauen, ob er in der Nähe ist."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        null,
@@ -1596,12 +2030,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.grumpy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hm... ",
        "transl": "Hm... "
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1611,48 +2059,80 @@
         "message": {
          "orig": "It's too bad that \\c[3]Ivan\\c[0] didn't have the chance to meet you...",
          "transl": "Wirklich schade, dass \\c[3]Ivan\\c[0] dich noch nicht kennengelernt hat..."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "EYES_CLOSED"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Oh well...\\. let's just say he is well connected with Instatainment.",
          "transl": "Nun ja...\\. Sagen wir's mal so, er hat gute Verbindungen zu Instatainment."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "SARCASTIC"
         }
        },
        {
         "message": {
          "orig": "And I'm sure he would have been excited about Evotars.",
          "transl": "Und ich wette, er wäre von Evotaren ziemlich begeistert."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "AWAY"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "Unfortunately, he just left for a business trip.",
          "transl": "Leider ist er gerade auf Geschäftsreise."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "No chance to meet him anytime soon.",
          "transl": "Keine Chance also, ihn in den nächsten Tagen zu treffen."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "EYES_CLOSED"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ],
@@ -1661,6 +2141,10 @@
         "message": {
          "orig": "It was very fortunate that you spotted me together with Ivan back then.",
          "transl": "Du hattest großes Glück, dass du mich damals mit Ivan gesehen hast."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "UP"
         }
        },
        {
@@ -1669,18 +2153,30 @@
           "message": {
            "orig": "He really seems to be excited about Evotars. ",
            "transl": "Er scheint von Evotaren wirklich angetan zu sein."
+          },
+          "person": {
+           "person": "main.grumpy",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "That will help a great deal when we start to talk with Instatainment.",
            "transl": "Das wird uns sehr helfen, wenn wir mit Instatainment darüber reden."
+          },
+          "person": {
+           "person": "main.grumpy",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
           }
          }
         ],
@@ -1689,24 +2185,40 @@
           "message": {
            "orig": "Though I suppose the meeting could have gone better.",
            "transl": "Das Treffen hätte allerdings besser laufen können."
+          },
+          "person": {
+           "person": "main.grumpy",
+           "expression": "EYES_CLOSED"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          },
          {
           "message": {
            "orig": "Still...\\. let's try our best to convince Instatainment.",
            "transl": "Sei's drum...\\. Um Instatainment zu überzeugen, müssen wir jetzt unser Bestes geben."
+          },
+          "person": {
+           "person": "main.grumpy",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          }
         ]
@@ -1718,30 +2230,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.buggy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.grumpy",
+       "expression": "ANGRY"
+      }
+     },
      {
       "message": {
        "orig": "Oh!\\. Were you just talking about Ivan?",
        "transl": "Oh!\\. Habt ihr über Ivan gesprochen?"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "No.",
        "transl": "Nein."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "Come on!\\. I want to meet him already!",
        "transl": "Ach, komm!\\. Ich will ihn endlich mal kennenlernen!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "Forget it!",
        "transl": "Vergiss es!"
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
@@ -1755,6 +2293,10 @@
       "message": {
        "orig": "I bet he's amazing at \\c[3]BBQs\\c[0],\\. being a proper\\. \\c[3]steakholder\\c[0]\\. and all!",
        "transl": "Ich wette, er macht richtig gute \\c[3]BBQs\\c[0],\\. als echter\\. \\c[3]\"Steakholder\"\\c[0]\\. und so!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "JOKING"
       }
      },
      null,
@@ -1762,6 +2304,10 @@
       "message": {
        "orig": "Go away.",
        "transl": "Verschwinde."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "ANNOYED"
       }
      },
      null,
@@ -1882,43 +2428,88 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "crossovers.turing",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "A painting is a memory that never fades.",
          "transl": "Ein Bild ist eine Erinnerung, die nie verblasst."
+        },
+        "person": {
+         "person": "crossovers.turing",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "thenStep": [
-         null,
+         {
+          "person": {
+           "person": "main.glasses",
+           "expression": "THOUGHTFUL"
+          }
+         },
          {
           "message": {
            "orig": "Actually...\\. paint does fade away with time...",
            "transl": "Nun ja, eigentlich...\\. verblasst Farbe ja auch mit der Zeit..."
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "THOUGHTFUL"
           }
          },
          {
           "thenStep": [
-           null,
-           null,
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "ANNOYED"
+            }
+           },
+           {
+            "person": {
+             "person": "main.emilie",
+             "expression": "EXHAUSTED"
+            }
+           },
            {
             "message": {
              "orig": "Tronny, please...",
              "transl": "Tronny, bitte..."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "EXHAUSTED"
             }
            }
           ],
@@ -1927,6 +2518,10 @@
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "ANNOYED"
             }
            }
           ]

@@ -44,25 +44,47 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Who would have thought that you were the intruder?\\. Can you not let a man and his goats live in peace?",
        "transl": "Wer hätte gedacht, dass du der Eindringling bist?\\. Kannst du einen Mann und seine Ziegen nicht in Frieden lassen?"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Lea!",
        "transl": "Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "It seems you are wondering what all of this is?",
        "transl": "Du fragst dich anscheinend, was das alles ist?"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -71,12 +93,20 @@
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Very well, let me explain.",
          "transl": "Also gut, ich erkläre es dir."
+        },
+        "person": {
+         "person": "bergen.male-goatman-white",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -85,21 +115,37 @@
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "Well, I shall tell you regardless.",
          "transl": "Nun, ich erzähle es dir trotzdem."
+        },
+        "person": {
+         "person": "bergen.male-goatman-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      },
       "options": [
        {
         "label": {
@@ -119,18 +165,30 @@
       "message": {
        "orig": "You see, goats have always struck me as majestic creatures that deserve a bigger place on this world.",
        "transl": "Du musst wissen, Ziegen waren für mich schon immer majestätische Wesen, die eine bessere Welt verdient haben."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Thus I used my knowledge of the Track to help them enhance their minds and bodies.",
        "transl": "Also habe ich mein Wissen über den Pfad genutzt, um ihren Geist und Körper weiterzuentwickeln."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      null,
@@ -138,36 +196,66 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "This stellar specimen you see here is my greatest creation.",
        "transl": "Dieses herausragende Exemplar hier ist meine wahrlich größte Schöpfung."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He has developed great intelligence and holds power over all the lesser goats that you fought.",
        "transl": "Er hat eine wahnsinnige Intelligenz entwickelt und kontrolliert all die niederen Ziegen, die du bisher bekämpft hast."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "In fact, all of them are genetically based off of him.\\. So you could call him the father of goats.",
        "transl": "Genau genommen stammen alle anderen Ziegen genetisch von ihm ab.\\. Du könntest ihn also auch den Vater der Ziegen nennen."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He is indeed the pinnacle of all that is goat.\\.\\. And I am his master!",
        "transl": "Er ist somit der Gipfel von allem, was eine Ziege ausmacht.\\.\\. Und ich bin sein Meister!"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -175,24 +263,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Soon we shall trample the goatless masses and make the entire Track ours!",
        "transl": "Schon bald werden wir die ziegenlosen Massen niedertrampeln und der Pfad wird unser sein!"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "... Lea.",
        "transl": "... Лія."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Say all you want, it won't stop us.\\. Your meddling will end here and now!",
        "transl": "Sag, was immer du willst, das wird uns nicht aufhalten.\\. Dein Leben wird hier und jetzt enden!"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -216,36 +326,66 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
+      }
+     },
+     {
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Impressive.\\. But... what you just fought were just lowly hoofsoldiers.",
        "transl": "Beeindruckend.\\. Aber... was du da gerade bekämpft hast, waren nur einfache Hufsoldaten."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Mere offshoots of what will become the source of my power, once we rule this world!",
        "transl": "Einfache Ableger dessen, was schon bald die Quelle meiner Macht sein wird, mit der wir die Welt beherrschen werden!"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Now, \\v[lore.title.seeker], you will face the genuine article!\\. ",
        "transl": "Nun, Seeker, wirst du dich meinem wahren Meisterwerk stellen!\\."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -292,12 +432,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
+     {
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Zira?\\. What... what is the meaning of this?",
        "transl": "Zira?\\. Was... Was hat das zu bedeuten?"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -314,6 +468,10 @@
       "message": {
        "orig": "And why are you looking at me like that?\\.\\. It is I, your master!",
        "transl": "Und wieso schaust du mich so an?\\.\\. Ich bin es, dein Herr und Meister!"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -321,6 +479,10 @@
       "message": {
        "orig": "I created you and rewired your brain.\\. My control is absolute!",
        "transl": "Ich habe dich geschaffen, deine Intelligenz!\\. Du gehörst mir!"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -419,7 +581,12 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "text": {
@@ -438,6 +605,10 @@
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -464,6 +635,10 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      null,
@@ -484,6 +659,10 @@
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
@@ -505,6 +684,10 @@
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      null,
@@ -531,6 +714,10 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -551,6 +738,10 @@
       "message": {
        "orig": "... Bye.",
        "transl": "... Бувай."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      null,
@@ -583,7 +774,12 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "text": {
@@ -596,6 +792,10 @@
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      }
     ]
@@ -648,91 +848,156 @@
       "name": {
        "orig": "Sgt. Sterling",
        "transl": "Hptm. Sterling"
+      },
+      "person": {
+       "person": "guards.captain-female-hairbun",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\v[lore.title.seeker], come in.\\. Bergen Guard speaking, can you hear us?",
        "transl": "Seeker!\\. Hier spricht die Bergen-Wache, kannst du uns hören?"
+      },
+      "person": {
+       "person": "guards.captain-female-hairbun",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Good!\\. Our guards have observed movement coming from the Horncave.\\. Did you find anything?",
        "transl": "Gut!\\. Unsere Wachen haben Bewegungen aus der Hornhöhle beobachtet.\\. Hast du etwas gefunden?"
+      },
+      "person": {
+       "person": "guards.captain-female-hairbun",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Lea. Meet. Lea! How?",
        "transl": "Lea. Treffen. Lea! Wie?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Goats AND Papaguns?\\. Working together in our cold mountains?\\. What is this madness?",
        "transl": "Ziegen UND Papaguns?\\. Arbeiten in unseren kalten Bergen zusammen?\\. Was ist das für ein Wahnsinn?"
+      },
+      "person": {
+       "person": "guards.captain-female-hairbun",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "There must be something bigger behind this.\\. We will need to start more investiga\\..\\..\\..\\. wait!",
        "transl": "Da steckt vermutlich mehr dahinter.\\. Wir müssen der Sache auf den Grund geh-\\..\\..\\..\\. Warte!"
+      },
+      "person": {
+       "person": "guards.captain-female-hairbun",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!?",
        "transl": "...!?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "\\v[lore.title.seeker], one of our Guards urgently needs reinforcements on the \\c[3]Windy Climb\\c[0]!",
        "transl": "Seeker, eine unserer Wachen benötigt dringend Verstärkung am \\c[3]Windigen Aufstieg\\c[0]!"
+      },
+      "person": {
+       "person": "guards.captain-female-hairbun",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "It seems like he ran into a group that tried to smuggle out a huge crate.\\. Please get there quickly!",
        "transl": "Er hat wohl eine Gruppe erwischt, die versucht hat, eine riesige Kiste herauszuschmuggeln.\\. Du musst sofort hin!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "guards.captain-female-hairbun",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!\\.\\. Bye...",
        "transl": "...!\\.\\. Bye..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      }
     ]

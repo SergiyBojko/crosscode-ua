@@ -9,15 +9,33 @@
      null,
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "main.captain",
+         "expression": "DOWN_SMILE"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "PLOTTING"
+        },
         "message": {
          "orig": "Ye just go into that big room to start the fight.",
          "transl": "Geh einfach in den großen Raum, um den Kampf zu starten."
         }
        },
        {
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "I'll keep track of the time ye take for it.",
          "transl": "Ich werde die Zeit stoppen, die du für die Prüfung brauchst."
@@ -27,15 +45,33 @@
      },
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "main.captain",
+         "expression": "DOWN_SMILE"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "PLOTTING"
+        },
         "message": {
          "orig": "Ye just go into that big room to start the fight.",
          "transl": "Geh einfach in den großen Raum, um den Kampf zu starten."
         }
        },
        {
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "I'll keep track of the time ye take for it.",
          "transl": "Ich werde die Zeit stoppen, die du für die Prüfung brauchst."
@@ -45,9 +81,23 @@
      },
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "main.captain",
+         "expression": "DOWN_SMILE"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "Ye back for another try or to see yer best time?",
          "transl": "Bist du für einen neuen Anlauf hier oder nur, um nach deinen Bestzeiten zu schauen?"
@@ -56,12 +106,20 @@
        {
         "0": [
          {
+          "person": {
+           "person": "main.captain",
+           "expression": "PLOTTING"
+          },
           "message": {
            "orig": "Ye just go into the big room lass. I'll save the time for ye.",
            "transl": "Geh einfach in den großen Raum. Ich kümmere mich um die Zeit."
           }
          },
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
+          },
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
@@ -70,6 +128,10 @@
         ],
         "1": [
          {
+          "person": {
+           "person": "main.captain",
+           "expression": "PLOTTING"
+          },
           "message": {
            "orig": "Here ye go, lass.",
            "transl": "Hier sind sie, Deern."
@@ -78,12 +140,20 @@
         ],
         "2": [
          {
+          "person": {
+           "person": "main.captain",
+           "expression": "STERN"
+          },
           "message": {
            "orig": "Ye come back later then.",
            "transl": "Du kannst jederzeit wiederkommen."
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -109,21 +179,43 @@
      },
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "main.captain",
+         "expression": "DOWN_SMILE"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "DOWN_SMILE"
+        },
         "message": {
          "orig": "A good fight lass.",
          "transl": "Ein guter Kampf, Deern."
         }
        },
        {
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
+        },
         "message": {
          "orig": "...!",
          "transl": "...!"
         }
        },
        {
+        "person": {
+         "person": "main.captain",
+         "expression": "PLOTTING"
+        },
         "message": {
          "orig": "Ye wanna take a look at yer best times?",
          "transl": "Willst du einen Blick auf deine Bestzeiten werfen?"
@@ -132,12 +224,20 @@
        {
         "0": [
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
+          },
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
           }
          },
          {
+          "person": {
+           "person": "main.captain",
+           "expression": "PLOTTING"
+          },
           "message": {
            "orig": "Here ye go, lass.",
            "transl": "Schau her, Deern."
@@ -146,18 +246,30 @@
         ],
         "1": [
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
+          },
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
           }
          },
          {
+          "person": {
+           "person": "main.captain",
+           "expression": "PLOTTING"
+          },
           "message": {
            "orig": "Alright. Ye come back later then. The challenge takes a while to be ready again.",
            "transl": "In Ordnung. Dann komm später zurück. Es wird etwas dauern, bis die Herausforderung wieder verfügbar ist."
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -186,9 +298,23 @@
      null,
      null,
      null,
-     null,
-     null,
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "DOWN_SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.captain",
+       "expression": "DOWN_SMILE"
+      },
       "message": {
        "orig": "Just like in the ol' days.",
        "transl": "Wie in guten alten Zeiten."
@@ -203,87 +329,153 @@
      null,
      null,
      null,
-     null,
-     null,
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "DOWN_SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.captain",
+       "expression": "CONCERNED"
+      },
       "message": {
        "orig": "Still a big room inside a darn small building.",
        "transl": "Immer noch ein großer Raum in einem verflucht kleinen Gebäude."
       }
      },
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "CONCERNED"
+      },
       "message": {
        "orig": "Them developers sure know how to make it look plausible.",
        "transl": "Die Entwickler wissen wirklich, wie man das glaubwürdig darstellt."
       }
      },
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      },
       "message": {
        "orig": "...",
        "transl": "..."
       }
      },
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "DEFAULT"
+      },
       "message": {
        "orig": "Well, the counter is still there. So I guess ye can take on the challenge.",
        "transl": "Tja, der Zähler ist immer noch hier, also scheinst du den Kampf starten zu können."
       }
      },
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
+      },
       "message": {
        "orig": "...!",
        "transl": "...!"
       }
      },
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "PLOTTING"
+      },
       "message": {
        "orig": "Ye want to try it out?",
        "transl": "Willst du es versuchen?"
       }
      },
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
+      },
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
       }
      },
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "PLOTTING"
+      },
       "message": {
        "orig": "But ye better make sure ye're up to the task. ",
        "transl": "Aber sieh zu, dass du gut vorbereitet bist."
       }
      },
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "PLOTTING"
+      },
       "message": {
        "orig": "The challenge here is pretty darn tough.",
        "transl": "Die Herausforderung hier hat es wirklich in sich."
       }
      },
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      },
       "message": {
        "orig": "...!",
        "transl": "...!"
       }
      },
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "DOWN_SMILE"
+      },
       "message": {
        "orig": "Heh, can't stop the lass from a fight.",
        "transl": "Hehe, man kann die Deern einfach nicht von einem Kampf abhalten."
       }
      },
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "SMILE"
+      },
       "message": {
        "orig": "Ye just go into that big room to start the battle.",
        "transl": "Geh einfach in den großen Raum, um den Kampf zu starten."
       }
      },
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "DEFAULT"
+      },
       "message": {
        "orig": "I'll save the time ye need for it.",
        "transl": "Ich werde derweil deine Zeit messen."
       }
      },
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "PLOTTING"
+      },
       "message": {
        "orig": "Now have some fun lass.",
        "transl": "Viel Spaß da drin, Deern."
@@ -360,30 +552,56 @@
     "event": [
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.captain",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
+      }
+     },
      {
       "message": {
        "orig": "Ye did it! Very good performance, lass.",
        "transl": "Du hast es geschafft! Sehr gute Leistung, Deern."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "As promised I saved your time. So just talk to me to get an overview.",
        "transl": "Wie versprochen, habe ich deine Zeit gestoppt. Frag mich einfach, wenn du einen Blick darauf werfen willst."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "DOWN_SMILE"
       }
      },
      {
       "message": {
        "orig": "However the challenge will need some time to be ready again.",
        "transl": "Es wird allerdings etwas dauern, bis die Herausforderung wieder verfügbar ist."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "CONCERNED"
       }
      },
      {
@@ -396,12 +614,20 @@
         "message": {
          "orig": "And there's yer reward.",
          "transl": "Und hier ist deine Belohnung."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "PLOTTING"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]

@@ -132,6 +132,10 @@
       "message": {
        "orig": "Whoa... such a crowded place.",
        "transl": "Wow... Hier ist aber viel los!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      }
     ]
@@ -177,23 +181,40 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Faction Advisor",
          "transl": "Fraktionsberater"
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker].\\. We should talk after you have gotten your briefing upstairs.",
          "transl": "Grüß dich, Seeker.\\. Wir unterhalten uns später, wenn du oben deine Einführung bekommen hast."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -201,41 +222,70 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Faction Advisor",
           "transl": "Fraktionsberater"
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Greetings, \\v[lore.title.seeker]. I see that you have completed the introduction to \\v[lore.title.operation-trackwalker].",
           "transl": "Grüß dich, Seeker. Wie ich sehe, hast du die Einführung in die Operation Pfadläufer erhalten."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Thus you are now also qualified to use your abilities as a \\v[lore.title.seeker] to assist the \\c[3]4 factions\\c[0] in their duties.",
           "transl": "Damit bist du nun auch qualifiziert, deine Fähigkeiten als Seeker bei den \\c[3]vier Fraktionen\\c[0] einzubringen und sie in ihren Pflichten zu unterstützen."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "They are organizations that secure humanity's survival and prosperity through their special fields of expertise.",
           "transl": "Das sind Organisationen, die den Fortbestand und Wohlstand der Menschheit durch ihre Expertisen auf verschiedenen Gebieten sichern."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "More detailed information can be accessed in the terminal behind you.",
           "transl": "Mehr Informationen kannst du am Terminal hinter dir abfragen."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -245,35 +295,60 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Faction Advisor",
           "transl": "Fraktionsberater"
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "For now you should know that each faction has a subdivision in \\v[area.rookie-harbor.name], like in every settlement.",
           "transl": "Vorab solltest du wissen, dass jede Fraktion eine lokale Vertretung in Rookie Harbor hat, wie auch in jeder anderen bewohnten Siedlung."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "To better understand our society and your place in it, you should get introduced to all of them.",
           "transl": "Für ein besseres Verständnis unserer Gesellschaft und deinen Platz in ihr, solltest du dich allen einmal vorstellen."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "For this purpose I will now issue an official assignment.\\. Please accept.",
           "transl": "Zu diesem Zweck werde ich dir nun einen offiziellen Auftrag erteilen.\\. Ich bitte dich, ihn anzunehmen."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -284,42 +359,70 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Good.\\. Visit the representative of every faction in \\v[area.autumn-area.name] and introduce yourself.",
             "transl": "Gut.\\. Besuche den Repräsentanten jeder Fraktion in Autumn's Rise und stelle dich ihnen vor."
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Most of them can be found in their respective headquarters \\c[3]near the market or the western entrance\\c[0].",
             "transl": "Drei davon findest du in ihren Hauptquartieren \\c[3]in der Nähe des Marktes bzw. des Westeingangs\\c[0]."
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Though the HQ of the CTC is still inaccessible to new \\v[lore.title.seeker]s, their ambassador can be found \\c[3]just outside this building\\c[0].",
             "transl": "Das Hauptquartier des KHVs ist für neue Seeker leider noch nicht zugänglich, aber ihr Botschafter \\c[3]steht draußen vor dem Gebäude\\c[0]."
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Once you have visited all of them, return to me to get your reward.",
             "transl": "Wenn du dich allen vorgestellt hast, kehre zu mir zurück, um deine Belohnung abzuholen."
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ASTONISHED"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           }
          ],
@@ -328,18 +431,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Please accept\\v[tmp.plsAccept]",
             "transl": "Ich bitte dich, anzunehmen\\v[tmp.plsAccept]"
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           }
          ]
@@ -349,35 +464,60 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Faction Advisor",
          "transl": "Fraktionsberater"
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Visit the representative of every faction in \\v[area.autumn-area.name] and introduce yourself.",
          "transl": "Besuche den Repräsentanten jeder Fraktion in Autumn's Rise und stelle dich ihnen vor."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Most of them can be found in their respective headquarters near the market or the western entrance.",
          "transl": "Drei davon findest du in ihren Hauptquartieren in der Nähe des Marktes oder des Westeingangs."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Though the HQ of the CTC is still inaccessible to new \\v[lore.title.seeker]s, their ambassador can be found \\c[3]just outside this building\\c[0].",
          "transl": "Das Hauptquartier des KHVs ist für neue Seeker leider noch nicht zugänglich, aber ihr Botschafter \\c[3]steht draußen vor dem Gebäude\\c[0]."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Once you have visited all of them, return to me to get your reward.",
          "transl": "Wenn du dich allen vorgestellt hast, kehre zu mir zurück, um deine Belohnung abzuholen."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -385,53 +525,90 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Faction Advisor",
           "transl": "Fraktionsberater"
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You have visited all of the factions in \\v[area.rookie-harbor.name]. Excellent.",
           "transl": "Du hast alle Fraktionen in Rookie Harbor besucht. Ausgezeichnet."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I hope you now understand how you can help humanity, besides solving the \\v[lore.title.track-of-ancients].",
           "transl": "Ich hoffe, du verstehst jetzt, dass du der Menschheit nicht nur helfen kannst, indem du den Pfad der Ahnen beschreitest."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "And remember that they might have new tasks available for you as time goes on.",
           "transl": "Und denk daran, dass sie mit der Zeit neue Aufgaben für dich haben könnten."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "So you should return and offer your help as you progress further.",
           "transl": "Du solltest also von Zeit zu Zeit zurückkehren und schauen, ob du deine Hilfe anbieten kannst."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But for now take these rewards as a gesture from the \\v[lore.title.human-government].",
           "transl": "Nun aber zu deiner Belohnung, die ich dir hiermit als eine Geste der Vereinten Reisenation überreiche."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         }
        ]
@@ -439,29 +616,50 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Faction Advisor",
          "transl": "Fraktionsberater"
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker].",
          "transl": "Grüß dich, Seeker."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Remember that all factions might have new tasks available for you as time goes on.",
          "transl": "Denk daran, dass alle Fraktionen mit der Zeit neue Aufgaben für dich haben könnten."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "So you should return to offer your help as you progress.",
          "transl": "Du solltest also von Zeit zu Zeit zurückkehren und schauen, ob du deine Hilfe anbieten kannst."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -562,18 +760,36 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You look confused, Seeker.",
          "transl": "Du siehst etwas irritiert aus, Seeker."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "What you see here is the \\c[3]Bulletin Board\\c[0]. You can use it to see \\c[3]open quests in this area\\c[0].",
          "transl": "Was du hinter mir siehst, ist das \\c[3]Schwarze Brett\\c[0]. Darauf werden alle \\c[3]offenen Quests in diesem Gebiet angezeigt\\c[0]."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -582,6 +798,10 @@
           "message": {
            "orig": "If you want to know more about quests, I suggest you talk to my fellow advisors at the counter over there.",
            "transl": "Wenn du mehr über Quests erfahren möchtest, empfehle ich dir, mit meinen Kollegen am Schalter hinter mir zu reden."
+          },
+          "person": {
+           "person": "advisors.man-small-black",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -622,87 +842,150 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Training Advisor",
          "transl": "Trainingsberater"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker].\\. We should talk after you have completed your briefing upstairs.",
          "transl": "Grüß dich, Seeker.\\. Wir unterhalten uns, wenn du oben deine Einführung erhalten hast."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Training Advisor",
          "transl": "Trainingsberater"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker]. I see that you have completed the introduction to \\v[lore.title.operation-trackwalker].",
          "transl": "Grüß dich, Seeker. Wie ich sehe, hast du die Einführung in die Operation Pfadläufer erhalten."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "To become the best \\c[3]Seeker\\c[0] you can be, we host a famous Teacher here in Rookie Harbor: \\c[3]Master Sensei\\c[0].",
          "transl": "Um der beste \\c[3]Seeker\\c[0] zu werden, der du sein kannst, haben wir einen berühmten Lehrer zu Gast: \\c[3]Meister Sensei\\c[0]."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "He can teach you everything you need to know and more. Once you have mastered both the \\c[3]Heat\\c[0] and \\c[3]Cold\\c[0] elements, please find him in \\c[3]\\v[area.rookie-harbor.name] - Info Hub Dojo\\c[0]!",
          "transl": "Er lehrt dich alles, was du wissen musst - und noch mehr. Sobald du die Elemente \\c[3]Hitze\\c[0] und \\c[3]Kälte\\c[0] gemeistert hast, steht er dir im \\c[3]Dojo des Info-Hubs\\c[0] zur Verfügung!<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Training Advisor",
          "transl": "Trainingsberater"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Congratulations on mastering your Seeker abilities with Master Sensei.",
          "transl": "Herzlichen Glückwunsch zur Meisterung deiner Seeker-Fähigkeiten!"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ]
@@ -720,11 +1003,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      }
     ]

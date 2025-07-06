@@ -17,6 +17,10 @@
       "message": {
        "orig": "\\s[5]...aaaaaaaaaaaaaaaaaaaaat is thiiiiis?!",
        "transl": "\\s[5]... aaaaaaaaaaaaaaaaaaaaas ist daaaas?!<<C<<XXXX (Arid)"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      null,
@@ -31,41 +35,81 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
+      }
+     },
      {
       "message": {
        "orig": "D-D-Did we just literally break the fourth wall or something?!",
        "transl": "Ha-Ha-Haben wir gerade etwa buchstäblich die vierte Wand durchbrochen oder so was?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Lea, there is no time!",
        "transl": "Lea, wir haben keine Zeit!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Quick, take the elevator!",
        "transl": "Schnell, nehmt den Aufzug!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
+      }
+     },
      {
       "message": {
        "orig": "Elevator... Alright...",
        "transl": "Aufzug... In Ordnung..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      }
     ]

@@ -26,6 +26,10 @@
     "event": [
      null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_SMILE"
+      },
       "message": {
        "orig": "Alright, good luck in there!",
        "transl": "Alles klar, viel Glück da drin!"
@@ -53,6 +57,10 @@
       "message": {
        "orig": "A bit of advice!\\. Hit them with \\i[tech]charged balls to cancel their attacks!",
        "transl": "Kleiner Hinweis!\\. Bewirf sie mit \\i[tech]geladenen Bällen, um ihre Angriffe zu unterbrechen!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_WHISTLING"
       }
      }
     ]
@@ -68,12 +76,26 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_UP_COOL"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Enter that arena there to start the lil' sparring session.",
          "transl": "Steig in den Ring, um dein Kampftraining zu beginnen."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_GRIN"
         }
        }
       ]
@@ -81,12 +103,26 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_UP_GRIN"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "If you liked this room, you're gonna love the next one, trust me!",
          "transl": "Wenne diesen Raum mochtest, wirste den nächsten lieben, glaub mir!"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_GRIN"
         }
        }
       ]
@@ -108,18 +144,30 @@
      null,
      null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
+      },
       "message": {
        "orig": "Yes!!\\. That was awesome, girl!\\. Sergey, you weren't kidding! She's really got a knack for battling.",
        "transl": "Jaaa!!\\. Sauber!\\. Du hast nicht übertrieben Sergey, sie hat das Kämpfen wirklich drauf."
       }
      },
      {
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
+      },
       "message": {
        "orig": "Yeah, that sure takes me back.",
        "transl": "Ja, das weckt wirklich Erinnerungen..."
       }
      },
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
+      },
       "message": {
        "orig": "...???",
        "transl": "...???"
@@ -143,31 +191,62 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
      {
       "message": {
        "orig": "Whoa, slow down there, girl!",
        "transl": "Hey! Nich' so voreilig!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Just a short warning.\\. Here you'll meet your first \"real\" enemies.",
        "transl": "Zuerst 'ne kleine Warnung:\\. Hier kriegste's jetzt mit \"echten\" Gegnern zu tun!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
       }
      },
      {
       "message": {
        "orig": "And by \"real\" I mean those things will, in fact, attack you.",
        "transl": "Und mit \"echt\" mein' ich, dass sie dich wirklich angreifen werden."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_WHISTLING"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
@@ -176,6 +255,10 @@
         "message": {
          "orig": "Not that it's \\c[3]likely\\c[0] they'll get the chance with the amount of damage you deal, but anyway...",
          "transl": "Wobei sie bei deinem Schaden wahrscheinlich nicht mal die \\c[3]Gelegenheit\\c[0] dazu haben werden..."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_IRRITATED"
         }
        }
       ],
@@ -184,6 +267,10 @@
         "message": {
          "orig": "Don't get me wrong!\\. They're really easy, but still....",
          "transl": "Versteh mich nich' falsch!\\. Die Gegner hier sind Pillepalle, aber trotzdem..."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_TOWARD"
         }
        }
       ]
@@ -192,26 +279,47 @@
       "message": {
        "orig": "If you do get beat down, your respawn point is right in this room.",
        "transl": "Falls' doch besiegt werden solltest, starteste hier wieder von vorn."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_SMILE"
       }
      },
      {
       "message": {
        "orig": "...??",
        "transl": "...??"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Uhm...\\. that means there's no real danger!\\. Go ahead and kick some ass!",
        "transl": "Öhm... Das heißt, dass du nich' wirklich in Gefahr bist!\\. Dann tret ihnen mal ordentlich in den Hintern!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Ah, just a moment!\\. Let me enable the dash module before we start the battle.",
        "transl": "Ah, einen Moment noch!\\. Lass mich das Dashmodul aktivieren, bevor wir den Kampf starten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
@@ -224,18 +332,30 @@
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "Dash is essential in battle, since it helps you to quickly dodge enemy attacks at any time.",
        "transl": "Dashen ist essentiell im Kampf.\\. Es hilft dir, jederzeit gegnerischen Angriffen auszuweichen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "Right he is!\\. Now please enter to the right in order to proceed with the ass kicking.",
        "transl": "Du hast ihn gehört!\\. Geh hier rechts durch und verteil mal 'n paar Tritte in den Hintern!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_UP_GRIN"
       }
      },
      null,
@@ -265,10 +385,24 @@
   {
    "settings": {
     "blockEvent": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      }
+     },
      null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
+      },
       "message": {
        "orig": "Wrong direction, girl.\\.\nGotta reach the teleporter!\n",
        "transl": "Falsche Richtung, Lea!\\.\nWir müssen den Teleporter erreichen!"
@@ -294,12 +428,20 @@
       "message": {
        "orig": "What is up with your damage?! We do not approve of this!!",
        "transl": "Was hast du mit deinem Schaden angestellt?! Das ist inakzeptabel!!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK_AR"
       }
      },
      {
       "message": {
        "orig": "\\c[1]...!!\\c[0]",
        "transl": "\\c[1]...!!\\c[0]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "INSANE"
       }
      }
     ]

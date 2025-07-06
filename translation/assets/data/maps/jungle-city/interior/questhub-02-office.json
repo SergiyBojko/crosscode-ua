@@ -34,90 +34,156 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Greetings, Seeker. Do you have any business with the mayor?",
           "transl": "Grüß dich, Seeker. Hast du etwas Geschäftliches mit dem Bürgermeister zu besprechen?<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Are you sure?",
           "transl": "Bist du sicher?"
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Do you perhaps want to proceed along the \\c[3]Track of the Ancients\\c[0]?",
           "transl": "Möchtest du vielleicht deine Reise auf dem \\c[3]Pfad der Ahnen\\c[0] fortsetzen?"
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Then you don't need to see the mayor.",
           "transl": "Dafür musst du ihn nicht sprechen."
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Your next task as Seekers is to visit the temples in the \\c[3]north of Gaia's Garden\\c[0].",
           "transl": "Deine nächste Aufgabe besteht darin, die Tempel im \\c[3]Norden von Gaias Garten\\c[0] aufzusuchen."
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "All Seekers are free to enter those dungeons, no permission required!",
           "transl": "Allen Seekern ist es gestattet, sie ohne vorherige Erlaubnis zu betreten!"
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Maybe also tell your fellow Seekers that they don't have to show up here. They just keep doing it.",
           "transl": "Sag das besser mal auch den anderen Seekern, damit sie nicht ständig zuerst hierherkommen. Das machen sie nämlich nach wie vor."
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Why would they even want to see the mayor anyway?",
           "transl": "Warum wollen sie den Bürgermeister überhaupt sehen?"
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It's not like he has any business with the track, right?",
           "transl": "Der Pfad gehört doch gar nicht zu seinem Tagesgeschäft!"
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         null,
@@ -125,12 +191,20 @@
          "message": {
           "orig": "Force of habit, I suppose?",
           "transl": "Macht der Gewohnheit, wahrscheinlich.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "antagonists.sidekick",
+          "expression": "TOWARD"
          }
         },
         {
          "message": {
           "orig": "It seems the mayor of this town doesn't want to be involved in any of the Seeker's business!",
           "transl": "Scheint so, als ob der Bürgermeister hier nichts mit Seekern am Hut haben will!"
+         },
+         "person": {
+          "person": "antagonists.fancyguy",
+          "expression": "LECTURING"
          }
         },
         {
@@ -144,30 +218,56 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Greetings Seeker.",
          "transl": "Grüß dich, Seeker."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "If you want to proceed along the \\c[3]Track of the Ancients\\c[0] you don't need to see the mayor.",
          "transl": "Um deine Reise auf dem \\c[3]Pfad der Ahnen\\c[0] fortzusetzen, ist ein Bürgermeisterbesuch nicht vonnöten."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Just visit the Temples in the \\c[3]north of Gaia's Garden\\c[0].",
          "transl": "Suche einfach die Tempel im \\c[3]Norden von Gaias Garten\\c[0] auf."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -175,24 +275,52 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I'm sorry Seeker, but thanks to this noisy Shad I have my hands full with re-scheduling.",
          "transl": "Tut mir leid, Seeker, aber dank diesen Schreihälsen hier habe ich gerade alle Hände voll zu tun."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello Seeker, the Mayor is free if you want to visit him.",
          "transl": "Hallo, Seeker. Der Bürgermeister hat jetzt Zeit, falls du ihn sehen willst."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -254,12 +382,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Cool, thanks to this weird Shad I now have to wait for my appointment with the mayor.",
          "transl": "Toll, dank dieser verrückten Shad darf ich jetzt auf meinen Termin mit dem Bürgermeister warten."
+        },
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
         }
        }
       ]

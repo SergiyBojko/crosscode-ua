@@ -45,12 +45,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hello. You can purchase equipment here.",
           "transl": "Hallo. Hier kannst du Ausrüstung kaufen."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -75,12 +89,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hello. You can purchase consumables here.",
           "transl": "Hallo. Hier kannst du Verbrauchsitems kaufen."
+         },
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
          }
         }
        ]

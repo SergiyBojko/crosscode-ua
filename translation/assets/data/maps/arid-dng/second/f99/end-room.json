@@ -87,23 +87,40 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "And thus...\\. the \\c[3]experience is over\\c[0].",
        "transl": "Und so...\\. \\c[3]endet die Erfahrung\\c[0]."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Our desire...\\. has been fulfilled.",
        "transl": "Unser Wunsch...\\. wurde erfüllt."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Our purpose...\\. has been served.",
        "transl": "Unser Ziel...\\. ist erreicht."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "TOWARD"
       }
      },
      null,
@@ -122,17 +139,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Gautham?!",
        "transl": "Gautham?!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "W-What are you doing here?!",
        "transl": "W-Was tust du hier?!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE1"
       }
      },
      null,
@@ -158,6 +188,10 @@
       "message": {
        "orig": "Are you insane?!",
        "transl": "Bist du wahnsinnig?!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE1"
       }
      },
      null,
@@ -166,6 +200,10 @@
       "message": {
        "orig": "Not on the instant matter construction!",
        "transl": "Nicht auf der Instant-Materie-\nKonstruktion!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SHOCK"
       }
      },
      null,
@@ -173,6 +211,10 @@
       "message": {
        "orig": "Stop this!!",
        "transl": "Hör auf!!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE1"
       }
      },
      null,
@@ -185,18 +227,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "PANIC"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Congratulations.",
        "transl": "Ich gratuliere."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "PANIC"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      null,
@@ -206,18 +266,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "You beat the challenge... ",
        "transl": "Du hast die Herausforderung gemeistert..."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "DOWN_PANIC"
       }
      },
      {
       "message": {
        "orig": "...and I gave you my word.",
        "transl": "... und ich habe dir mein Wort gegeben."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "AWAY_PANIC"
       }
      },
      null,
@@ -231,49 +309,92 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "DOWN"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Use the teleporter over there...",
        "transl": "Benutze den Teleporter dort..."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "DOWN_PANIC"
       }
      },
      {
       "message": {
        "orig": "It will bring you right to the \\c[3]server\\c[0].",
        "transl": "Er wird dich direkt zum \\c[3]Server\\c[0] bringen."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "AWAY_PANIC"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Sergey...\\. he is with you, no?",
        "transl": "Sergey...\\. Er ist bei dir, nicht wahr?"
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "PANIC"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "I am glad... ",
        "transl": "Das freut mich..."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "DOWN_PANIC"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "...Gautham?",
        "transl": "... Gautham?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      null,
@@ -282,72 +403,120 @@
       "message": {
        "orig": "From this day on...",
        "transl": "Von diesem Tage an...."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "PANIC"
       }
      },
      {
       "message": {
        "orig": "It will all disappear...",
        "transl": "Wird alles verschwinden..."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "PANIC"
       }
      },
      {
       "message": {
        "orig": "Vermillion Wasteland...\\. the Designer...",
        "transl": "Die Vermilloneinöde...\\. Der Designer..."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "AWAY_PANIC"
       }
      },
      {
       "message": {
        "orig": "My creations...\\. My work...",
        "transl": "Meine Schöpfungen...\\. Meine Arbeit..."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "AWAY_PANIC"
       }
      },
      {
       "message": {
        "orig": "All gone.",
        "transl": "Alles verschwindet."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "DOWN_PANIC"
       }
      },
      {
       "message": {
        "orig": "But I'm glad.",
        "transl": "Aber ich bin...\\. froh."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "PANIC"
       }
      },
      {
       "message": {
        "orig": "After causing...\\. all this misery...\\. for so long...",
        "transl": "Nach...\\. all dem Leid, das ich...\\. so lange verursacht habe..."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "DOWN_PANIC"
       }
      },
      {
       "message": {
        "orig": "Finally...\\. it is over.",
        "transl": "Ist es nun endlich...\\. vorbei."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "DOWN_PANIC"
       }
      },
      {
       "message": {
        "orig": "Lea,\\. I have a bad feeling about this.",
        "transl": "Lea,\\. ich habe kein gutes Gefühl dabei."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Wait...",
        "transl": "Зачекай..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Please tell everyone...\\. that I'm sorry.",
        "transl": "Bitte sag allen...\\. dass es mir leid tut."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "PANIC"
       }
      },
      {
       "message": {
        "orig": "No!\\. Do not say that!",
        "transl": "Nein!\\. Hör auf damit!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE1"
       }
      },
      null,
@@ -362,6 +531,10 @@
       "message": {
        "orig": "Lea, you have to stop him!\\. Somehow!!",
        "transl": "Lea, du musst ihn aufhalten!\\. Egal wie!!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SHOCK"
       }
      },
      null,
@@ -377,6 +550,10 @@
       "message": {
        "orig": "Wait!!",
        "transl": "Зачекай!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOUT"
       }
      },
      null,
@@ -405,11 +582,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "DOWN"
+      }
+     },
      {
       "message": {
        "orig": "It's time for me to logout.",
        "transl": "Es wird Zeit, mich auszuloggen."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl",
+       "expression": "DOWN_PANIC"
       }
      },
      null,
@@ -420,6 +606,10 @@
       "message": {
        "orig": "\\s[6]Gautham, no!!!",
        "transl": "\\s[6]Gautham, NEIN!!!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SHOCK"
       }
      }
     ]

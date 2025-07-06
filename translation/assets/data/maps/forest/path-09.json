@@ -628,11 +628,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -640,36 +649,60 @@
       "name": {
        "orig": "Henry",
        "transl": "Henry"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "What?!",
        "transl": "Що?!"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "H-H-How did you find me?",
        "transl": "W-W-Wie hast du mich gefunden?"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...Why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE_EYE_CLOSED"
       }
      },
      {
       "message": {
        "orig": "I h-have no t-t-time for this. I only need to send the b-b-beacon and my job is d-d-done!",
        "transl": "Ich ha-ha-habe keine Zeit für sowas. Ich muss nur das Si-Signal senden und mein Job ist g-g-getan!"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So h-h-have some fun with my little f-f-friends.",
        "transl": "V-V-Viel Spaß also mit meinen kleinen F-F-Freunden."
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -681,19 +714,36 @@
       "name": {
        "orig": "Henry",
        "transl": "Henry"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "G-g-good luck, Hehehe...",
        "transl": "V-V-Viel Glück, heheheee...<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -708,12 +758,20 @@
       "message": {
        "orig": "He can control enemies?",
        "transl": "Er kann Gegner steuern?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "What is going on here?",
        "transl": "Was geht hier vor?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DRAMATIC"
       }
      }
     ]
@@ -746,19 +804,36 @@
       "name": {
        "orig": "Henry",
        "transl": "Henry"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "S-Still haven't had enough?",
        "transl": "Immer noch nicht g-g-genug?"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Let's s-s-see how you handle t-t-t-this!",
        "transl": "Mal s-s-sehen, ob du das hier a-a-aushältst!"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -801,6 +876,10 @@
       "message": {
        "orig": "Did he just teleport? No way this can be an actual person.",
        "transl": "Hat er sich gerade teleportiert? Dann kann es unmöglich eine echte Person sein."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -825,14 +904,28 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Lady Lea!",
@@ -848,43 +941,76 @@
       "name": {
        "orig": "Baxton",
        "transl": "Baxton"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I just witnessed your exploits.",
        "transl": "Ich habe Ihre Heldentat gesehen."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "This fiend! Hacking enemies and forcing players into combat situations?",
        "transl": "Dieser Schuft! Er hackt Gegner, um sich unliebsamer Spieler zu entledigen!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "This is unheard of! We must put an end to this madness!",
        "transl": "Das ist unerhört! Wir müssen diesem Wahnsinn ein Ende bereiten!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Let's move quickly now!",
        "transl": "Los, schnell!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]

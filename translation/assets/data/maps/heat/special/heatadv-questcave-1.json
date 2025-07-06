@@ -11,7 +11,12 @@
       "transl": "Cat 4-PU17-Steuereinheit"
      },
      "event": [
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       null,
       {
        "0": [
@@ -60,6 +65,10 @@
          ]
         }
        ],
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       },
        "options": [
         {
          "label": {

@@ -55,7 +55,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]INTERNAL MAIL, SENT\\c[0]\n\n\\c[3]FROM:\\c[0] Office 34a\n\\c[3]TO:\\c[0] \"Mech Machinery\", Management\n\n\\c[3]Subject:\\c[0] Regarding the deliveries",
@@ -123,7 +128,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
@@ -132,7 +142,12 @@
         },
         {
          "0": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
+           }
+          },
           null,
           null,
           {
@@ -142,6 +157,10 @@
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "options": [
           {
            "label": {
@@ -181,55 +200,96 @@
        "name": {
         "orig": "Dave Halman",
         "transl": "Dave Halman"
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "message": {
         "orig": "Greetings, traveller.\\. Please take your time to listen to the story of this facility.",
         "transl": "Sei gegrüßt, Reisender.\\. Nimm dir etwas Zeit, um der Geschichte dieser Anlage zu lauschen."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "My name is \\c[3]Dave Halman\\c[0], leading developer for \\c[3]Mech Machinery\\c[0].\\. I will be your narrator.",
         "transl": "Mein Name ist \\c[3]Dave Halman\\c[0], leitender Entwickler der Abteilung \\c[3]Mech-Maschinen\\c[0].\\. Ich erzähle dir die Geschichte."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "This all began many years ago with a vision.\\. Finding an endless source of clean energy.\\. Forming a closer connection to the Track.",
         "transl": "Es begann vor vielen Jahren mit einer Vision:\\. Eine unerschöpfliche Quelle sauberer Energie zu finden.\\. Eine enge Verbindung mit dem Pfad einzugehen."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "And using modern technology to create lifelike limbs from metal... This has always been a passion of ours.",
         "transl": "Und: Mittels modernster Technologie lebensechte Gliedmaßen aus Metall herzustellen… Das war schon immer unsere Leidenschaft."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "With the funding we received and the support of other companies of various fields we could finally follow our ambition.",
         "transl": "Dank der Fördergelder und der Zusammenarbeit mit Firmen aus verschiedenen Bereichen konnten wir endlich unser Ziel verfolgen."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Creatures of the track... Combined with powerful metallic limbs!\\. This is truly the wonder we wanted to create.",
         "transl": "Geschöpfe des Pfades… verbunden mit kraftvollen Metallgliedern!\\. Das war das Wunder, was wir schaffen wollten."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Power such as this should be unthinkable by normal means, but by directly using the energy of the Track in our facility it became possible.",
         "transl": "Eine Kraft wie diese wäre mit normalen Mitteln nicht denkbar, doch die direkte Nutzung der Pfadenergie für unsere Anlage machte es möglich."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Well, the story will continue another day.\\. I hope you will follow along, dear visitor.",
         "transl": "Mit der Geschichte geht es ein anderes Mal weiter.\\. Ich hoffe, du bleibst neugierig, Reisender."
+       },
+       "person": {
+        "person": "lab.scientist-ps4",
+        "expression": "HOLOGRAM"
        }
       }
      ]
@@ -252,7 +312,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]PRIVATE NOTE\\c[0]\n\n\\c[3]Title:\\c[0] Important reminder",
@@ -269,6 +334,10 @@
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]

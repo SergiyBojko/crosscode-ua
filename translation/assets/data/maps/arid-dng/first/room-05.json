@@ -3,11 +3,20 @@
   {
    "settings": {
     "blockEvent": [
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "Lea, not the door please. The exit sign.",
        "transl": "Lea, nicht durch die Tür, bitte. Nimm den Ausgang."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]
@@ -16,11 +25,20 @@
   {
    "settings": {
     "blockEvent": [
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "Lea, not the door please. The exit sign.",
        "transl": "Lea, nicht durch die Tür, bitte. Nimm den Ausgang."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]
@@ -107,12 +125,20 @@
       "message": {
        "orig": "Nice landing! The next exit is down over there.",
        "transl": "Saubere Landung! Der nächste Ausgang ist dort drüben."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You can just ignore the puzzle in this room...",
        "transl": "Das Rätsel in diesem Raum kannst du einfach ignorieren..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      }
     ]

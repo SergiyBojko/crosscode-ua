@@ -17,11 +17,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi.\\. Lea.\\. Why?",
        "transl": "Hi.\\. Lea.\\. Warum?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
@@ -42,12 +51,20 @@
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
      {
       "message": {
        "orig": "How?\\. Meet.\\. Why?",
        "transl": "Wie?\\. Treffen.\\. Warum?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
@@ -68,6 +85,10 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]

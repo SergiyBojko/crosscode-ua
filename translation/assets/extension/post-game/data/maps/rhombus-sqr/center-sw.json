@@ -517,72 +517,126 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.sphero-female-blue",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Oh Hey, fellow Spheromancer.",
          "transl": "Oh, hey, Spheromancer-Kollegin."
+        },
+        "person": {
+         "person": "cross-worlds.sphero-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "An excellent class choice, albeit one that is not very popular.",
          "transl": "Eine ausgezeichnete Klassenwahl, wenn auch eine, die nicht sehr beliebt ist."
+        },
+        "person": {
+         "person": "cross-worlds.sphero-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "If you ask me, I think players love being overpowered.",
          "transl": "Ich glaube, dass es daran liegt, dass die Spieler es lieben, übermächtig zu sein."
+        },
+        "person": {
+         "person": "cross-worlds.sphero-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But Spheromancers are balanced in all ways. ",
          "transl": "Aber Spheromancer sind in jeder Hinsicht ausgewogen."
+        },
+        "person": {
+         "person": "cross-worlds.sphero-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "While the other classes excel at doing one particular thing, we can do well at all of them.",
          "transl": "Während die anderen Klassen sich in einer bestimmten Stärke auszeichnen, können wir im Grunde alles gut."
+        },
+        "person": {
+         "person": "cross-worlds.sphero-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "That takes skill and time, not something a lot of people have these days.",
          "transl": "Das erfordert Geschick und Zeit, was heutzutage leider nicht mehr viele Leute haben."
+        },
+        "person": {
+         "person": "cross-worlds.sphero-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "That is why the other classes struggle with some of the content too.",
          "transl": "Deshalb tun sich die anderen Klassen auch mit einigen Stellen im Spiel schwer."
+        },
+        "person": {
+         "person": "cross-worlds.sphero-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It's almost as if the developers made the game specifically for Spheromancers.",
          "transl": "Es ist fast so, als hätten die Entwickler das Spiel speziell für Spheromancer gemacht."
+        },
+        "person": {
+         "person": "cross-worlds.sphero-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]
@@ -758,12 +812,20 @@
       "message": {
        "orig": "Oh, a little park.\\. Neat!",
        "transl": "Oh, ein kleiner Park.\\. Wie schön!"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Kind of a shame that all those cars are driving right below it.",
        "transl": "Irgendwie schade, dass die ganzen Autos direkt darunter herfahren."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -795,49 +857,86 @@
       "name": {
        "orig": "Cpt. Curtis",
        "transl": "Cpt. Curtis"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "What a successful day!",
        "transl": "Was für ein erfolgreicher Tag!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "Now we only need to figure out how those Hillkats ended up in our city in the first place.",
        "transl": "Jetzt müssen wir nur noch herausfinden, wie diese Hillkats überhaupt in unsere Stadt gekommen sind."
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But you can safely leave that part in the hands of our department.",
        "transl": "Aber diesen Teil können Sie getrost in die Hände unserer Abteilung legen."
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "In fact, I already have my suspicions.",
        "transl": "Ich habe nämlich bereits einen Verdacht."
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Alas, Ms. Lea, your work here is done and a reward is in order!",
        "transl": "Ach, Fräulein Lea, Ihre Arbeit hier ist getan und eine Belohnung ist angebracht!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -849,19 +948,36 @@
       "name": {
        "orig": "Cpt. Curtis",
        "transl": "Cpt. Curtis"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "It was a pleasure working with you and I hope our paths will cross again in the future!",
        "transl": "Es war ein Vergnügen, mit Ihnen zu arbeiten, und ich hoffe, dass sich unsere Wege in Zukunft wieder kreuzen werden!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD_HAPPY"
       }
      },
      null,
@@ -877,6 +993,10 @@
       "message": {
        "orig": "Bye!!",
        "transl": "Бувай!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      }
     ]

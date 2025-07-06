@@ -515,35 +515,66 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
+        }
+       },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "thenStep": [
-         null,
+         {
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "CONTENT"
+          }
+         },
          {
           "message": {
            "orig": "We finally set foot in \\c[3]Sapphire Ridge\\c[0]!",
            "transl": "Wir haben soeben den \\c[3]Saphirgrat\\c[0] betreten!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "CONTENT"
           }
          },
          {
           "message": {
            "orig": "A mysterious land covered in an eternal shadow!",
            "transl": "Ein mysteriöses Land, umhüllt von einem ewigen Schatten!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          },
          {
           "thenStep": [
-           null,
+           {
+            "person": {
+             "person": "antagonists.sidekick",
+             "expression": "DEFAULT"
+            }
+           },
            {
             "message": {
              "orig": "Very spooky.",
              "transl": "Mir schlottern schon die Knie."
+            },
+            "person": {
+             "person": "antagonists.sidekick",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -552,44 +583,78 @@
         "elseStep": [
          {
           "thenStep": [
-           null,
+           {
+            "person": {
+             "person": "main.glasses",
+             "expression": "SMILE"
+            }
+           },
            {
             "message": {
              "orig": "Oh! This must be \\c[3]Sapphire Ridge\\c[0]!",
              "transl": "Oh! Das muss der \\c[3]Saphirgrat\\c[0] sein!"
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "SMILE"
             }
            },
            {
             "message": {
              "orig": "A very mysterious place, huh?",
              "transl": "Ein äußerst mysteriöser Ort, was?"
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "EMBARRASSED"
             }
            },
            {
             "message": {
              "orig": "Apparently, around here, it's night all day long.",
              "transl": "Scheinbar ist es hier den ganzen Tag über Nacht."
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "THOUGHTFUL"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "WORRIED"
             }
            },
            {
             "message": {
              "orig": "Let's just ignore all the implications that would have on the ecosystem.",
              "transl": "Ignorieren wir besser all die Auswirkungen, welche das auf das gesamte Ökosystem hier hätte."
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "EXHAUSTED"
             }
            },
            {
             "thenStep": [
-             null,
+             {
+              "person": {
+               "person": "main.emilie",
+               "expression": "WATCH_OUT_BADASS"
+              }
+             },
              {
               "message": {
                "orig": "Oui. Don't think too much about it, you little nerd.",
                "transl": "Oui. Denk nicht zu viel darüber nach, du kleiner Nerd."
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "WATCH_OUT_BADASS"
               }
              }
             ]
@@ -598,67 +663,118 @@
           "elseStep": [
            {
             "thenStep": [
-             null,
+             {
+              "person": {
+               "person": "antagonists.sidekick",
+               "expression": "UP"
+              }
+             },
              {
               "message": {
                "orig": "This is \\c[3]Sapphire Ridge\\c[0], right?",
                "transl": "Das ist der \\c[3]Saphirgrat\\c[0], oder?"
+              },
+              "person": {
+               "person": "antagonists.sidekick",
+               "expression": "UP"
               }
              },
              {
               "message": {
                "orig": "[nods]",
                "transl": "[nickt]"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "NOD"
               }
              },
              {
               "message": {
                "orig": "Pretty.\\. I like those lanterns.",
                "transl": "Hübsch.\\. Ich mag diese Laternen."
+              },
+              "person": {
+               "person": "antagonists.sidekick",
+               "expression": "SMILE"
               }
              }
             ],
             "elseStep": [
              {
               "thenStep": [
-               null,
+               {
+                "person": {
+                 "person": "main.emilie",
+                 "expression": "ASTONISHED"
+                }
+               },
                {
                 "message": {
                  "orig": "Oh! So dark and shiny!",
                  "transl": "Oh! So dunkel und funkelnd!"
+                },
+                "person": {
+                 "person": "main.emilie",
+                 "expression": "ASTONISHED"
                 }
                },
                {
                 "message": {
                  "orig": "So that's \\c[3]Sapphire Ridge\\c[0], non? I think I like this area.",
                  "transl": "Das ist also der \\c[3]Saphirgrat\\c[0], non? Ich glaub, ich mag diesen Ort."
+                },
+                "person": {
+                 "person": "main.emilie",
+                 "expression": "AWAY"
                 }
                }
               ],
               "elseStep": [
-               null,
+               {
+                "person": {
+                 "person": "main.sergey",
+                 "expression": "DEFAULT"
+                }
+               },
                {
                 "message": {
                  "orig": "Here we are. \\c[3]Sapphire Ridge\\c[0].",
                  "transl": "Wir sind da. Der \\c[3]Saphirgrat\\c[0]."
+                },
+                "person": {
+                 "person": "main.sergey",
+                 "expression": "DEFAULT"
                 }
                },
                {
                 "message": {
                  "orig": "So... is it like the area you saw in your dreams?",
                  "transl": "Also... Ist das die Gegend, die du in deinen Träumen gesehen hast?"
+                },
+                "person": {
+                 "person": "main.sergey",
+                 "expression": "NOTIFYING"
                 }
                },
                {
                 "message": {
                  "orig": "[nods]",
                  "transl": "[nickt]"
+                },
+                "person": {
+                 "person": "main.lea",
+                 "expression": "NOD"
                 }
                },
                {
                 "message": {
                  "orig": "Great! Let us have a look around then.",
                  "transl": "Prima! Dann sehen wir uns mal ein wenig um."
+                },
+                "person": {
+                 "person": "main.sergey",
+                 "expression": "SMILE"
                 }
                }
               ]
@@ -677,34 +793,60 @@
        {
         "thenStep": [
          null,
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
+          }
+         },
          {
           "message": {
            "orig": "Wait...",
            "transl": "Moment..."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          },
          {
           "message": {
            "orig": "What... what's that over there?",
            "transl": "Was... Was ist das dort drüben?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SWEATY_SMILE"
           }
          },
          null,
          null,
          null,
          null,
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "SWEATY_SMILE"
+          }
+         },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SWEATY_SMILE"
           }
          },
          {
           "message": {
            "orig": "Please...\\. please don't tell me it's what I think it is.",
            "transl": "Bitte...\\. Bitte sag mir nicht, dass es das ist, was ich glaube, das es ist."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SWEATY_SMILE"
           }
          }
         ],
@@ -712,30 +854,56 @@
          null,
          null,
          null,
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "BROKEN"
+          }
+         },
          {
           "message": {
            "orig": "Lea...\\. chérie...",
            "transl": "Lea...\\. Chérie..."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "BROKEN"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED"
+          }
+         },
          {
           "message": {
            "orig": "Hi?",
            "transl": "Привіт?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED"
           }
          },
          {
           "message": {
            "orig": "This... this area is killing me.",
            "transl": "Diese... diese Gegend macht mich fertig."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "BROKEN"
           }
          },
          {
           "message": {
            "orig": "Why?",
            "transl": "Чому?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          },
          null,
@@ -743,34 +911,65 @@
           "message": {
            "orig": "L-Look over there.",
            "transl": "G-Guck, da drüben."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "EXHAUSTED"
           }
          },
          null,
          null,
          null,
          null,
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "SWEATY_SMILE"
+          }
+         },
          {
           "message": {
            "orig": "They...\\. They're everywhere!",
            "transl": "Sie...\\. Sie sind überall!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "BROKEN"
           }
          },
          {
           "message": {
            "orig": "It's like they wanted to make up for the total lack of bugs in the jungle.",
            "transl": "Als wenn sie den käferfreien Dschungel wiedergutmachen wollten."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "PAIN"
           }
          },
          null,
          null,
          null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "SWEATY_SMILE"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "I don't suppose you have a free slot in your party, non?",
            "transl": "Du hast nicht zufällig noch einen Platz frei in deiner Party?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SWEATY_SMILE"
           }
          },
          {
@@ -779,6 +978,10 @@
             "message": {
              "orig": "I'd appreciate it a lot if you could just \\c[1]snipe away\\c[0] those bugs real quick before they get too close.",
              "transl": "Ich fänd's echt toll von dir, wenn du diese Käfer so schnell wie möglich einfach \\c[1]wegschnippen würdest\\c[0], bevor sie mir zu nahe kommen."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "SWEATY_SMILE"
             }
            }
           ]
@@ -787,48 +990,80 @@
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
           }
          },
          {
           "message": {
            "orig": "Ah...\\. please don't feel pressured though.",
            "transl": "Ach...\\. Fühl dich jetzt aber bitte nicht unter Druck gesetzt."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "EMBARRASSED"
           }
          },
          {
           "message": {
            "orig": "Oui, I'm sure I can take it by myself as well.",
            "transl": "Oui, ich komm schon allein damit klar."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          },
          {
           "message": {
            "orig": "I'll just need to mentally prepare myself.",
            "transl": "Ich muss mich nur mental drauf vorbereiten."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "EXHAUSTED"
           }
          },
          {
           "message": {
            "orig": "You'll find me somewhere around cows and Hedgehags....",
            "transl": "Du findest mich irgendwo bei den Kühen und Igölln..."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SWEATY_SMILE"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          },
          {
           "message": {
            "orig": "Au revoir! And you know how to reach me!",
            "transl": "Au revoir! Du weißt ja, wie du mich erreichen kannst!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Bye!",
            "transl": "Бувай!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
           }
          },
          null,
@@ -849,6 +1084,10 @@
             "message": {
              "orig": "Poor Emilie...\\. You sure you don't want her to join the party?",
              "transl": "Arme Emilie...\\. Bist du sicher, dass du sie nicht in unsere Party aufnehmen willst?"
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "EXHAUSTED"
             }
            }
           ]
@@ -859,18 +1098,30 @@
             "message": {
              "orig": "Wait!\\. The Pentafist girl is afraid of bugs?",
              "transl": "Moment!\\. Das Pentafistmädchen hat Angst vor Käfern?"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "PONDERING"
             }
            },
            {
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            {
             "message": {
              "orig": "Oh.\\. That is...\\. unfortunate.",
              "transl": "Oh.\\. Das ist...\\. bedauernswert."
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SUSPICIOUS"
             }
            }
           ],
@@ -881,18 +1132,30 @@
               "message": {
                "orig": "She's not very fond of bugs, hm?",
                "transl": "Sie hat nicht viel für Käfer übrig, hm?"
+              },
+              "person": {
+               "person": "antagonists.sidekick",
+               "expression": "SURPRISED"
               }
              },
              {
               "message": {
                "orig": "[nods]",
                "transl": "[nickt]"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "NOD"
               }
              },
              {
               "message": {
                "orig": "Understandably.\\. Bugs are disgusting.",
                "transl": "Verständlich.\\. Käfer sind ekelhaft."
+              },
+              "person": {
+               "person": "antagonists.sidekick",
+               "expression": "ANGRY"
               }
              }
             ]
@@ -913,6 +1176,10 @@
       "message": {
        "orig": "Please...\\. just...\\. just leave it alone. Let's just ignore it and go on. Quickly. Please.",
        "transl": "Bitte...\\. Lasst...\\. Lasst es gut sein. Lasst es uns einfach ignorieren und weitergehen. Schnell. Bitte."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      }
     ]
@@ -1007,36 +1274,66 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Oh, hey there, Spheromancer!",
           "transl": "Oh, hallo, Spheromancer!"
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Did you see our post on the quest board?",
           "transl": "Hast du unsere Anzeige auf dem Schwarzen Brett gelesen?"
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         null,
@@ -1044,36 +1341,60 @@
          "message": {
           "orig": "Woo, finally!!\\. Thank goodness!",
           "transl": "Na endlich!!\\. Gott sei Dank!"
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Oh yeah, I'm \\c[3]PuellaDocta\\c[0] by the way!",
           "transl": "Ach ja, ich bin übirgens \\c[3]PuellaDocta\\c[0]!"
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "PuellaDocta",
           "transl": "PuellaDocta"
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Lea!",
           "transl": "Лія!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Nice to meet you, Lea!",
           "transl": "Schön, dich kennenzulernen, Lea!"
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Okay, down to business!",
           "transl": "Also, nun zum Geschäftlichen!"
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1082,106 +1403,196 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "On behalf of the \\c[3]Last Minute Heroes\\c[0] guild...",
           "transl": "Im Namen der \\c[3]Last-Minute-Helden\\c[0]-Gilde..."
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...we eagerly welcome your punctuality and willingness to join our cause and serve your fellow player!",
           "transl": "... freuen wir uns sehr über deine Pünktlichkeit und Bereitschaft, uns zu helfen und anderen Spielern zu dienen!"
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Never heard of us, huh?\\. Oh well!",
           "transl": "Nie von uns gehört, höh?\\. Oh Mann..."
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "In any case, we're in a tight spot and looking for some extra help.",
           "transl": "Jedenfalls stecken wir in der Klemme und bräuchten noch eine helfende Hand."
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It'll mostly involve \\c[3]fighting a few monsters here in Sapphire Ridge\\c[0]. What do you say?",
           "transl": "Geht überwiegend darum, \\c[3]ein paar Monster hier auf dem Saphirgrat zu bekämpfen\\c[0]. Was sagst du?"
+         },
+         "person": {
+          "person": "guests.puella-docta",
+          "expression": "DEFAULT"
          }
         },
         null,
         {
          "accepted": [
           null,
-          null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
+          {
+           "person": {
+            "person": "guests.puella-docta",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "Yay!! Thank you so much!",
             "transl": "Super!! Vielen, vielen Dank!"
+           },
+           "person": {
+            "person": "guests.puella-docta",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Let's go meet up with our guild leader. He likes to meet everyone personally.",
             "transl": "Dann lass uns mal zum Gildenanführer gehen. Er begrüßt jeden gerne persönlich."
+           },
+           "person": {
+            "person": "guests.puella-docta",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "He's over at the \\c[3]Last Minute Hero Headquarters\\c[3] in \\c[3]Autumn's Rise\\c[0].",
             "transl": "Du findest ihn im \\c[3]Last-Minute-Helden Hauptquartier\\c[0] in \\c[3]Autumn's Rise\\c[0]."
+           },
+           "person": {
+            "person": "guests.puella-docta",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I'll go on ahead!",
             "transl": "Ich geh' schon mal vor!"
+           },
+           "person": {
+            "person": "guests.puella-docta",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "See you soooon!",
             "transl": "Bis späteeeer!"
+           },
+           "person": {
+            "person": "guests.puella-docta",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ],
          "declined": [
-          null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
+          {
+           "person": {
+            "person": "guests.puella-docta",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "Aww, that's too bad!\\. But no hard feelings!",
             "transl": "Och nö, schade!\\. Nehme ich dir aber nicht übel!"
+           },
+           "person": {
+            "person": "guests.puella-docta",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Feel free to come back if you change your mind!",
             "transl": "Du bist jederzeit willkommen, falls du deine Meinung änderst!"
+           },
+           "person": {
+            "person": "guests.puella-docta",
+            "expression": "DEFAULT"
            }
           }
          ]

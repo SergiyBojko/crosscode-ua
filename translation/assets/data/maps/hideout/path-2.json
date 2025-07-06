@@ -73,24 +73,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "ANGRY"
+      }
+     },
      {
       "message": {
        "orig": "You know this is what he wants as well!",
        "transl": "Ти ж знаєш, що він теж цього хоче!"
+      },
+      "person": {
+       "person": "antagonists.gautham",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Sure, you'd like to think that!",
        "transl": "Звичайно, тобі б цього хотілося!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DENYING"
       }
      },
      {
       "message": {
        "orig": "You won't listen...",
        "transl": "Ти не хочеш слухати..."
+      },
+      "person": {
+       "person": "antagonists.gautham",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -116,11 +138,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Cold-based?\\. How very creative.",
        "transl": "Льодяні?\\. Як оригінально."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SARCASTIC"
       }
      }
     ]
@@ -147,6 +178,10 @@
       "message": {
        "orig": "Weak to heat, how surprising.",
        "transl": "Вразливі до вогню, яка несподіванка."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DENYING"
       }
      }
     ]
@@ -358,12 +393,20 @@
       "message": {
        "orig": "Does this mean he actually used this place in the end?",
        "transl": "Чи означає це, що він таки користувався цим місцем?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Just how did he manage to hide it from Instatainment?",
        "transl": "Але як він зміг приховати це від Інстатейнмент?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      }
     ]

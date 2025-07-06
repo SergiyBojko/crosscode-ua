@@ -26,23 +26,40 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Barkeep",
          "transl": "Barkeeper"
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "No drinks unless the boss gives his okay.",
          "transl": "Keine Drinks. Außer der Boss macht 'ne Ansage."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... Bye.",
          "transl": "... Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ]
@@ -59,17 +76,31 @@
     "event": [
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "0": [
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Lea!\\. Wait!",
          "transl": "Lea!\\. Warte!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DETERMINED"
         }
        },
        null,
@@ -83,11 +114,20 @@
         }
        },
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "... Why?",
          "transl": "... Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        null,
@@ -100,14 +140,27 @@
         }
        },
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "... Wait!",
          "transl": "... Зачекай?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      },
       "options": [
        {
         "label": {
@@ -158,17 +211,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "...<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -276,30 +342,62 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "greenies.female-flowers-white",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Please don't mind my friend here.",
          "transl": "Bitte beachte meinen Freund hier einfach nicht."
+        },
+        "person": {
+         "person": "greenies.female-flowers-white",
+         "expression": "DEFAULT"
         }
        },
        null,
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "greenies.female-flowers-white",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "He just really likes to dance and doesn't want any trouble.",
          "transl": "Er liebt es einfach nur zu tanzen und will keinen Stress."
+        },
+        "person": {
+         "person": "greenies.female-flowers-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]

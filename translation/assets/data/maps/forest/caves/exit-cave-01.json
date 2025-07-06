@@ -155,12 +155,26 @@
   {
    "settings": {
     "blockEvent": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "There is no turning back now. Let's move forward, Lea!",
        "transl": "Es gibt jetzt kein Zurück mehr. Vorwärts, Lea!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]
@@ -177,96 +191,166 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "So, did I get that right?",
          "transl": "Also, habe ich das richtig verstanden?"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "WONDERING"
         }
        },
        {
         "message": {
          "orig": "My...\\. \"clone\" is still over there in Evotarground?",
          "transl": "Mein...\\. \"Klon\" ist immer noch auf dem Evotarplatz?"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "SERIOUS"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Oh Junge, this is such a weird situation.",
          "transl": "Oh Junge, das fühlt sich echt komisch an."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "COMPLAINING"
         }
        },
        {
         "message": {
          "orig": "We both just barely know each other, right?",
          "transl": "Wir beide kennen uns kaum, stimmt's?"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "WONDERING"
         }
        },
        {
         "message": {
          "orig": "Yet that \"other Lukas\" seems to be quite dear to you, because of what you both experienced together.",
          "transl": "Und doch steht dir dieser \"andere Lukas\" sehr nahe, wegen dem, was ihr zusammen erlebt habt."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "It really shows how much your life is shaped by happenstance.",
          "transl": "Das zeigt wirklich, wie sehr das Leben durch Zufälle geprägt wird."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "SKEPTICAL"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Also...\\. I really wonder what would happen if I met my clone over there.",
          "transl": "Außerdem...\\. frage ich mich, was passieren würde, wenn ich auf meinen Klon treffe."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "EYES_CLOSED"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE_EYE_CLOSED"
         }
        },
        {
         "message": {
          "orig": "Oh...\\. I suppose I better be careful about that.",
          "transl": "Oh...\\. Du meinst, dass ich das besser vermeiden sollte?"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -280,90 +364,156 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.buggy",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi, Lea!\n",
          "transl": "Hi, Lea!\n<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        },
        {
         "message": {
          "orig": "Hi?",
          "transl": "Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Man, it's still so hard to believe that you are an AI.",
          "transl": "Mann, ich kann's immer noch kaum glauben, dass du eine KI bist."
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "Wait...\\. does that mean you understand binary?",
          "transl": "Warte mal...\\. Heißt das, du verstehst Binärcode?"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "UP"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE_EYE_CLOSED"
         }
        },
        {
         "message": {
          "orig": "0011100101011!",
          "transl": "0011100101011!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        },
        {
         "message": {
          "orig": "...???",
          "transl": "...???"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "I have no idea what it means!\\. You tell me!",
          "transl": "Ich habe keine Ahnung, was der Code bedeutet!\\. Sag du es mir!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "JOKING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "Nyahahahahahaha!",
          "transl": "Nyahahahahahaha!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "LAUGHING_DOWN"
         }
        },
        {
         "message": {
          "orig": "Really though, this is all very exciting!",
          "transl": "Aber mal im Ernst, das hier ist doch mal richtig aufregend!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        },
        {
         "message": {
          "orig": "You have my vote for best newbie of the year!",
          "transl": "Meine Stimme für den Newbie des Jahres hast du jedenfalls!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        }
       ]

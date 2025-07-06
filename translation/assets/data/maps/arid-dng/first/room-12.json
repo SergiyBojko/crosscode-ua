@@ -35,30 +35,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "radical.henne",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "... and another rubbish pull. Why am I even playing this?",
          "transl": "... Schon wieder nur Mist gepullt! Wieso spiele ich diesen Schrott überhaupt?"
+        },
+        "person": {
+         "person": "radical.henne",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi?",
          "transl": "Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Ah, yes, greetings. I'm working!",
          "transl": "Ah, ja, grüß dich. Bin grad am Arbeiten!"
+        },
+        "person": {
+         "person": "radical.henne",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... Bye?",
          "transl": "... Бувай?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -76,18 +102,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "radical.flora",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Oh hey, don't mind me. I'm just looking up recipes on how to brew new magical sounds.",
          "transl": "Oh, hey, lass dich nicht stören. Ich such nur nach Rezepten, wie ich ein paar neue magische Klänge brauen kann."
+        },
+        "person": {
+         "person": "radical.flora",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "And on spells to change my voice but don't tell anyone!",
          "transl": "Und nach Zaubersprüchen, die meine Stimme verändern, aber verrat's keinem!"
+        },
+        "person": {
+         "person": "radical.flora",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -103,30 +147,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "radical.rd",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Yo Lea, good to see you made it this far. ",
          "transl": "Yo, Lea! Freut mich, dass du's so weit geschafft hast."
+        },
+        "person": {
+         "person": "radical.rd",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'm currently playing as you inside the game that plays inside a game. ",
          "transl": "Ich spiel' grad dich in 'nem Spiel, das in 'nem Spiel spielt."
+        },
+        "person": {
+         "person": "radical.rd",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_WEIRD"
         }
        },
        {
         "message": {
          "orig": "Don't think to much about it. 'Else we reach a singularity.",
          "transl": "Denk nich' zuviel drüber nach, sonst kommt's noch zu 'ner Singularität."
+        },
+        "person": {
+         "person": "radical.rd",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -144,12 +214,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "radical.t-free",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "The masters say: If you want to animate the fish, you have to become the fish.",
          "transl": "Die Meister sagen: Wenn du den Fisch animieren willst, musst du der Fisch werden."
+        },
+        "person": {
+         "person": "radical.t-free",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -166,24 +250,46 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "radical.frece",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey, Lea! I'm Frece's secretary. He's busy working his own ideas.",
          "transl": "Hey, Lea! Ich bin Freces Sekretär. Er arbeitet gerade an seinen eigenen Ideen."
+        },
+        "person": {
+         "person": "radical.frece",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But he wanted you to know: You're doing a great job!",
          "transl": "Er lässt dir aber ausrichten: Du machst einen echt tollen Job!"
+        },
+        "person": {
+         "person": "radical.frece",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "CHARMED"
         }
        }
       ]
@@ -293,24 +399,46 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "radical.teekuh",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "It's hard to satisfy everyones taste buds here...",
          "transl": "Es ist schwer, hier jeden Geschmack zu treffen..."
+        },
+        "person": {
+         "person": "radical.teekuh",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...but watching them falling into a food coma with a smile on their face is really worth it!",
          "transl": "... aber es lohnt sich wirklich, sie mit einem Lächeln im Gesicht in ein Fresskoma fallen zu sehen!"
+        },
+        "person": {
+         "person": "radical.teekuh",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        }
       ]
@@ -340,30 +468,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "radical.feiu",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey, I'm just somebody who's been animated by a certain someone. I shouldn't be here.",
          "transl": "Hey, ich bin einfach nur jemand, der von einem gewissen Jemand animiert wurde. Ich sollte eigentlich nicht hier sein."
+        },
+        "person": {
+         "person": "radical.feiu",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Oh, I heard he has animated you, too!",
          "transl": "Oh, ich habe gehört, dass er dich auch animiert hat!"
+        },
+        "person": {
+         "person": "radical.feiu",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "How?!",
          "transl": "Як?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        }
       ]

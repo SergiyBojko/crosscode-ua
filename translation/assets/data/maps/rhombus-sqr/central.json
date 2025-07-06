@@ -201,6 +201,10 @@
       "message": {
        "orig": "That was fun! Can't wait to reach the mainland.",
        "transl": "Das war toll! Kann es kaum erwarten, das Festland zu erreichen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -213,30 +217,56 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Voilà! Le \\c[3]CrossCentral\\c[0]!",
          "transl": "Voilà! Le \\c[3]CrossCentral\\c[0]!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You can quickly reach all of CrossWorlds from here.",
          "transl": "Von hier aus kannst du in Nullkommanix alle Orte in CrossWorlds erreichen."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "UP"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "Though there should only be one destination for us newbies: \\c[3]Rookie Harbor\\c[0].",
          "transl": "Aber für uns Neulinge dürfte es im Moment nur ein Ziel geben: \\c[3]Rookie Harbor\\c[0]."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        }
       ]
@@ -287,24 +317,46 @@
        "transl": "Ihr werdet weitere Orte erschließen, während ihr den \\c[5]Pfad der Ahnen\\c[0] beschreitet."
       },
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...Hi?",
          "transl": "... Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "You look puzzled.",
          "transl": "Du siehst etwas planlos aus."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Do you want to know more about the \\c[3]Track of the Ancients\\c[0]?",
          "transl": "Möchtest du mehr über den \\c[3]Pfad der Ahnen\\c[0] erfahren?"
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -313,24 +365,40 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "The \\c[3]Track of the Ancients\\c[0] is an ancient \\c[3]assessment system\\c[0] based on a highly advanced technology.",
            "transl": "Der \\c[3]Pfad der Ahnen\\c[0] ist ein uraltes \\c[3]Prüfungssystem\\c[0], basierend auf einer hoch entwickelten Technologie."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "As Seekers it is your task to walk the Track and discover all the secrets it holds.",
            "transl": "Die Aufgabe von euch Seekern ist es, den Pfad zu beschreiten, um all seine Geheimnisse zu lüften."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Once you reach \\c[3]Rookie Harbor\\c[0] you can attend the Introductory briefing to learn more about it.",
            "transl": "Sobald du \\c[3]Rookie Harbor\\c[0] erreichst, kannst du an der Einweisung teilnehmen, wo dir alle Details erklärt werden."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -339,15 +407,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Well then...",
            "transl": "Na dann..."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -421,97 +501,172 @@
        "transl": "Stimmt... Trotzdem haben wir immer noch Probleme, den \\c[5]Turing-Test\\c[0] zu bestehen."
       },
       "event": [
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.triblader-female-purple",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi?",
          "transl": "Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hey there, can we help you?",
          "transl": "Hallo, können wir dir helfen?"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Uhm...",
          "transl": "Öhm..."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Oh, are you wondering about the \\c[3]Turing Test\\c[0]?",
          "transl": "Oh, fragst du dich, was der \\c[3]Turing-Test\\c[0] ist?"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-purple",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Oh? You're a curious one, I like that!",
          "transl": "Oha? Sehr wissbegierig, das gefällt mir!"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The Turing Test is quite simple:",
          "transl": "Der Turing-Test ist recht simpel:"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You have two people writing each other via text.",
          "transl": "Du hast zwei Personen, die sich gegenseitig Texte schreiben."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The twist: one of them is actually a machine.",
          "transl": "Und jetzt kommt's: Einer von ihnen ist in Wirklichkeit eine Maschine."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "If the actual person can tell from the conversation that the other person is a machine, you fail the Turing Test.",
          "transl": "Falls die reale Person im Laufe des Gesprächs erkennt, dass die andere Person eine Maschine ist, ist der Turing-Test gescheitert."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "It's difficult, because it's not just about simulating natural language.",
          "transl": "Es ist schwierig, weil es nicht nur einfach um die Simulation einer natürlichen Sprache geht."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The machine needs to have a memory, general knowledge and many other things to properly respond like a human being would.",
          "transl": "Die Maschine muss über ein Gedächtnis, Allgemeinwissen und vieles mehr verfügen, um wie ein Mensch reagieren zu können."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]
@@ -528,44 +683,84 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-male-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "thenStep": [
          {
           "message": {
            "orig": "Oh! It's you from Newcomer's Bridge again.",
            "transl": "Oh! Ich kenne dich doch von der Neulingsbrücke."
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-blond",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Hi!",
            "transl": "Привіт!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXCITED"
           }
          },
          {
           "message": {
            "orig": "Look, we're getting closer to the mainland!",
            "transl": "Schau mal, wir kommen dem Festland immer näher!"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-blond",
+           "expression": "DEFAULT"
           }
          },
          null,
          null,
          null,
          null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "cross-worlds.triblader-male-blond",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "If you look closely, you can already see Rookie Harbor on the horizon.",
            "transl": "Wenn du genau hinschaust, kannst du Rookie Harbor schon am Horizont erkennen."
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-blond",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ASTONISHED"
           }
          }
         ],
@@ -574,6 +769,10 @@
           "message": {
            "orig": "Almost there~",
            "transl": "Fast da~"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-blond",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -846,30 +1045,56 @@
      null,
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "ASTONISHED"
+        }
+       },
        {
         "message": {
          "orig": "So...\\. this is it?\\. Is this the entrance to the city?",
          "transl": "Oh...!\\. Ist er das?\\. Ist das der Eingang zur Stadt?<<C<<xxxx (rhom1)"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "ASTONISHED"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "CONTENT"
+        }
+       },
        {
         "message": {
          "orig": "Indeed! From here you can take the sky rail to any part of the city.",
          "transl": "Allerdings! Von hier aus kannst du die Laserbahn in alle Regionen der Stadt nehmen."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "CONTENT"
         }
        },
        {
         "message": {
          "orig": "There is a shopping district, a residential area, and of course the \\c[3]arena\\c[0].",
          "transl": "Es gibt ein Einkaufsviertel, ein Wohnviertel, und natürlich die \\c[3]Arena\\c[0]."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I recommend checking out the stores. The \\c[3]Booster Items\\c[0] are especially interesting.",
          "transl": "Ich empfehle, einen Blick in die Läden zu werfen. Die \\c[3]Booster Items\\c[0] sind besonders interessant."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DOWN"
         }
        },
        null,
@@ -880,12 +1105,26 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "We'll be going then! See you around!",
          "transl": "Wir werden dann mal gehen! Wir sehen uns dort!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -901,13 +1140,32 @@
        null,
        null,
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.glasses",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "So how about it, Lea? Should we explore the city together?",
          "transl": "Also, wie sieht's aus, Lea? Wollen wir die Stadt gemeinsam erkunden?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -916,12 +1174,20 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "Très bien! Let's go!",
            "transl": "Très bien! Auf geht's!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SMILE"
           }
          }
         ],
@@ -930,15 +1196,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "D'accord! Just call us then when you change your mind!",
            "transl": "D'accord! Ruf uns einfach an, wenn du es dir anders überlegt hast!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SHRUG"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -958,12 +1236,20 @@
         "message": {
          "orig": "It does not hurt to have a look around the city now.",
          "transl": "Es schadet nicht, wenn wir uns die Stadt einmal ansehen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Just do not forget that our next destination is the \\c[3]north of Sapphire Ridge\\c[0].",
          "transl": "Du solltest nur nicht vergessen, dass unser nächstes Ziel \\c[3]Saphirgrats Norden\\c[0] ist."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "THINKING"
         }
        },
        {
@@ -1014,67 +1300,122 @@
        "transl": "Ich weiß...\\. Die sind trotzdem gemein!"
       },
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-female-height-chan",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Huh?",
          "transl": "Höh?"
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-female-height-chan",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.pentafist-female-height-friend",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Well, just think about it...",
          "transl": "Na, überleg doch mal..."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-height-friend",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You walked through the deep chasms of a mine, climbed up a giant tree, and stood in the middle of space.",
          "transl": "Du bist an tiefen Abgründen vorbeigelaufen, auf einen riesigen Baum geklettert und standest einmal sogar mitten im All."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-height-friend",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "After all that, do those puny Sky Rails still pose a challenge to you?",
          "transl": "Und nach all dem soll diese mickrige Laserbahn jetzt noch eine Herausforderung für dich sein?"
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-height-friend",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-female-height-chan",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You know what?\\. You're right.\\. They really shouldn't.",
          "transl": "Weißt du was?\\. Du hast recht.\\. Das sollte sie wirklich nicht."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-female-height-chan",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Nothing tops the horror of standing in literal space.",
          "transl": "Nichts ist krasser als im buchstäblichen Nichts zu stehen."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-female-height-chan",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Screw this, let's explore the city!",
          "transl": "Pfeif drauf! Lass uns die Stadt erkunden!"
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-female-height-chan",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "There we go!",
          "transl": "Na bitte, geht doch!"
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-height-friend",
+         "expression": "DEFAULT"
         }
        }
       ]

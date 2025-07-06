@@ -14,11 +14,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -172,6 +181,10 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      }
     ]
@@ -191,6 +204,10 @@
         "message": {
          "orig": "test",
          "transl": "test"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        }
       ]

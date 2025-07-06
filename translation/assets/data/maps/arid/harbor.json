@@ -223,32 +223,58 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "Wow, that was weird!",
        "transl": "Boah, das war schräg!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.captain",
+       "expression": "DOWN_GLASS"
+      }
+     },
      {
       "message": {
        "orig": "Ye're welcome.\n",
        "transl": "Gern geschehen."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "DOWN_GLASS"
       }
      },
      {
       "message": {
        "orig": "I'll be off then.\\. Good luck!",
        "transl": "Ich bin dann mal weg.\\. Viel Glück!"
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "CONCERNED_GLASS"
       }
      },
      {
       "message": {
        "orig": "Merci for the ride, captain!",
        "transl": "Danke fürs Mitnehmen, Käpt'n!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
@@ -258,50 +284,98 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
      {
       "message": {
        "orig": "Where?",
        "transl": "Де?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
+      }
+     },
      {
       "message": {
        "orig": "Right...\\. where are we exactly?",
        "transl": "Richtig...\\. Wo sind wir jetzt eigentlich genau?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DOWN"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Ah!\\. I see you have arrived.",
        "transl": "Ah!\\. Ich sehe, ihr seid angekommen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You are at the \\c[3]border of Vermillion Wasteland\\c[0].",
        "transl": "Ihr befindet euch an der \\c[3]Grenze zur Vermilloneinöde\\c[0]."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Just continue straight ahead, jump down the wall, and you'll be inside.",
        "transl": "Geht einfach geradeaus weiter, springt die Wand hinunter und ihr seid drinnen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Merci Monsieur!\n",
        "transl": "Merci, Monsieur!\n"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Let's go!!!",
        "transl": "Los geht's!!!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      }
     ]

@@ -330,32 +330,58 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "guards.female-hairs-white",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "thenStep": [
           {
            "message": {
             "orig": "Greetings, Seeker.",
             "transl": "Grüß dich, Seeker."
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           },
           {
            "message": {
             "orig": "Ah, I see you acquired the \\c[3]Mine Pass\\c[0].",
             "transl": "Ah, ich sehe, du hast den \\c[3]Minenpass\\c[0] erhalten."
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Allow me to lower this barrier for you.",
             "transl": "Dann lass mich die Barriere für dich aufheben."
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -367,18 +393,36 @@
           null,
           null,
           null,
-          null,
-          null,
+          {
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
+           }
+          },
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "But before you go in, a warning: Some monsters inside will \\c[3]weaken you\\c[0] by causing \\c[3]Chill\\c[0] and \\c[3]Burn\\c[0]!",
             "transl": "Doch bevor du gehst, eine Warnung: Manche Monster werden versuchen, dich mit \\c[3]Frost\\c[0] und \\c[3]Brand\\c[0] zu \\c[3]schwächen\\c[0]!"
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Should that happen, drinking \\c[3]Water\\c[0] will help you recover.\\. Here, take some.",
             "transl": "Wenn das passiert, trinke \\c[3]Wasser\\c[0], um die Heilung zu beschleunigen.\\. Hier, nimm etwas."
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -386,6 +430,10 @@
            "message": {
             "orig": "Please stay safe and be prepared.\\. Godspeed!",
             "transl": "Pass bitte auf dich auf und sei vorbereitet.\\. Wohlan!"
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -394,48 +442,80 @@
            "message": {
             "orig": "Greetings, Seeker.",
             "transl": "Grüß dich, Seeker."
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You desire to enter the mine, am I not mistaken?",
             "transl": "Du wünschst die Mine zu betreten, wenn ich mich nicht irre?"
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Unfortunately, you will first need to receive the \\c[3]Mine Pass\\c[0].",
             "transl": "Dazu benötigst du leider den \\c[3]Minenpass\\c[0]."
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?",
             "transl": "...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           },
           {
            "message": {
             "orig": "Do not fret, it is easily obtained!",
             "transl": "Keine Sorge, den kannst du dir ruckzuck besorgen!"
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Simply attend the \\c[3]mayor's\\c[0] orientation and heed his story.",
             "transl": "Nimm einfach an der Einweisung des \\c[3]Bürgermeisters\\c[0] teil und schenke seinen Worten Beachtung."
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You can find him in the Quest Hub, the \\c[3]grand building in the north of Bergen\\c[0].",
             "transl": "Du findest ihn im Quest Hub, das ist das \\c[3]große Gebäude im Norden von Bergen\\c[0]."
+           },
+           "person": {
+            "person": "guards.female-hairs-white",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -445,54 +525,102 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guards.female-hairs-white",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good luck exploring that mine.",
          "transl": "Viel Glück bei der Erkundung der Mine."
+        },
+        "person": {
+         "person": "guards.female-hairs-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Be prepared though.",
          "transl": "Sei aber vorbereitet!\n"
+        },
+        "person": {
+         "person": "guards.female-hairs-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "From what I heard, the Track's use of our mining contraptions is most menacing indeed.",
          "transl": "Wie man so hört, bedient sich der Pfad unserer Gerätschaften auf ziemlich gefährliche Weise."
+        },
+        "person": {
+         "person": "guards.female-hairs-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Don't forget to \\c[3]drink water\\c[0], if they harrass you with \\c[3]Chill\\c[0] and \\c[3]Burn\\c[0]!",
          "transl": "Vergiss nicht, \\c[3]Wasser zu trinken\\c[0], wenn sie dich mit \\c[3]Frost\\c[0] oder \\c[3]Brand\\c[0] schwächen!"
+        },
+        "person": {
+         "person": "guards.female-hairs-white",
+         "expression": "DEFAULT"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guards.female-hairs-white",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I see you have beaten the mine.\\. Good job, \\v[lore.title.seeker]!",
          "transl": "Wie ich sehe, hast du die Mine bezwungen.\\. Gute Arbeit, Seeker!"
+        },
+        "person": {
+         "person": "guards.female-hairs-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        }
       ]
@@ -531,18 +659,36 @@
        null,
        {
         "thenStep": [
-         null,
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Alright then, here comes a big one, Lea!",
            "transl": "Also gut, Lea, der hier ist eine ganz andere Nummer als der letzte!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DETERMINED"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DETERMINED"
           }
          },
          {
@@ -551,30 +697,50 @@
             "message": {
              "orig": "Hm... Looking at your stats and level, do you really think that you're ready yet?",
              "transl": "Hm... Wenn ich mir deine Werte so anschaue, dann bist du wohl noch nicht so weit, non?"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "SWEATY_SMILE"
             }
            },
            {
             "message": {
              "orig": "I think Lukas mentioned something like that our stats should be around \\c[3]60\\c[0].",
              "transl": "Lukas meinte doch, dass unsere Werte um die \\c[3]60\\c[0] sein sollten."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "UP"
             }
            },
            {
             "message": {
              "orig": "You know, attack, defense, focus and the like...",
              "transl": "Du weißt schon, Angriff, Verteidigung, Fokus usw..."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "AWAY"
             }
            },
            {
             "message": {
              "orig": "Maybe you should try upgrading your equipment a bit?",
              "transl": "Vielleicht solltest du versuchen, deine Ausrüstung etwas zu verbessern?"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "CURIOUS"
             }
            },
            {
             "message": {
              "orig": "Anyway I'll let you decide.",
              "transl": "Ich lasse dich entscheiden."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "SHRUG"
             }
            }
           ],
@@ -583,6 +749,10 @@
             "message": {
              "orig": "I think we're ready, non?",
              "transl": "Ich glaube, wir sind bereit, non?"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "SMILE"
             }
            },
            {
@@ -591,6 +761,10 @@
               "message": {
                "orig": "Well...\\. \\c[1]no doubt\\c[0] that you are.",
                "transl": "Ich meine...\\. du ja \\c[1]sowieso\\c[0]."
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "SWEATY_SMILE"
               }
              }
             ]
@@ -601,6 +775,10 @@
           "message": {
            "orig": "Should we enter the dungeon?",
            "transl": "Also, Lea, sollen wir den Dungeon betreten?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -610,12 +788,20 @@
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            {
             "message": {
              "orig": "Alright!\\. Let the race begin!",
              "transl": "Bon!\\. Also dann...\\. Auf die Plätze, feeertig...\\.\\.\\. los!"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "DETERMINED"
             }
            }
           ],
@@ -624,22 +810,43 @@
             "message": {
              "orig": "[shakes head]",
              "transl": "[schüttelt Kopf]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SHAKE"
             }
            },
-           null,
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "NERVOUS"
+            }
+           },
            {
             "message": {
              "orig": "Oh well. Better safe than sorry, non?",
              "transl": "Hm... Na gut. Lieber auf Nummer sicher gehen, non?"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "EMBARRASSED"
             }
            },
            {
             "message": {
              "orig": "But I want to enter soon, so let's hurry!",
              "transl": "Aber ich will da bald rein, also lass uns beeilen!"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "DETERMINED"
             }
            }
           ],
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
+          },
           "options": [
            {
             "label": {
@@ -657,42 +864,76 @@
          }
         ],
         "elseStep": [
-         null,
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Uhm Lea?",
            "transl": "Ähm, Lea?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          },
          {
           "message": {
            "orig": "I can't wait to enter the dungeon as well.",
            "transl": "Ich kann's auch kaum erwarten, die Mine zu betreten."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "But I think first we should pay \\c[3]Lukas' guild\\c[0] a visit, non?",
            "transl": "Aber ich glaube, wir sollten erst \\c[3]Lukas' Gilde\\c[0] einen Besuch abstatten, non?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "AWAY"
           }
          },
          {
           "message": {
            "orig": "I mean they're probably expecting us...\\. like...\\. right now.",
            "transl": "Ich meine, die erwarten uns bestimmt schon längst..."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SWEATY_SMILE"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ASTONISHED"
           }
          },
          {
           "message": {
            "orig": "Lukas is waiting for us at the \\c[3]Old Obelisk\\c[0] in \\c[3]Autumn's Rise\\c[0].",
            "transl": "Lukas wartet am \\c[3]Alten Obelisken\\c[0] in \\c[3]Autumn's Rise\\c[0]."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -701,36 +942,66 @@
       "elseStep": [
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Hm...\\. you promised to enter the dungeon together with \\c[3]Emilie\\c[0], right?",
          "transl": "Hm...\\. Du hast \\c[3]Emilie\\c[0] versprochen, dass ihr die Mine gemeinsam betretet, richtig?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Well, then you should invite her to your party, correct?",
          "transl": "Nun, dann solltest du sie wohl in deine Party einladen, nicht wahr?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Remember, you can do that with the \\c[3]Social Menu\\c[0].",
          "transl": "Zur Erinnerung: Das kannst du über das \\c[3]Party-Menü\\c[0] machen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "THINKING"
         }
        }
       ]
@@ -753,9 +1024,18 @@
         "name": {
          "orig": "Aisy",
          "transl": "Aisy"
+        },
+        "person": {
+         "person": "monks.female-longhair-tan",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        null,
        null,
        {
@@ -764,18 +1044,30 @@
           "message": {
            "orig": "Hi!",
            "transl": "Привіт!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          }
         ],
@@ -786,30 +1078,50 @@
           "message": {
            "orig": "Hi!",
            "transl": "Привіт!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "\\v[lore.title.seeker]...why did you disturb my meditation?",
            "transl": "Seeker... Warum störst du meine Meditation?"
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "... bye?",
            "transl": "... Бувай?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          },
          {
           "message": {
            "orig": "For no reason?\\. Please be more considerate in the future.",
            "transl": "Völlig grundlos?\\. Bitte sei in Zukunft etwas rücksichtsvoller."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SAD"
           }
          }
         ]
@@ -823,9 +1135,18 @@
          "name": {
           "orig": "Aisy",
           "transl": "Aisy"
+         },
+         "person": {
+          "person": "monks.female-longhair-tan",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         null,
         null,
         {
@@ -834,18 +1155,30 @@
            "message": {
             "orig": "Hi!",
             "transl": "Привіт!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ],
@@ -856,36 +1189,60 @@
            "message": {
             "orig": "\\v[lore.title.seeker]... what makes you disturb my meditation?",
             "transl": "Seeker... Warum störst du meine Meditation?"
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Hi!",
             "transl": "Привіт!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
            }
           },
           {
            "message": {
             "orig": "A test from our leader?\\. Then you must already be familiar with the cold.\\. Very well.",
             "transl": "Eine Aufgabe von unserem Oberhaupt?\\. Dann musst du mit der Kälte bereits vertraut sein.\\. Nun gut."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "With that heated passion of yours, you might be up for the \\c[3]Trial of Progression\\c[0].",
             "transl": "Mit deinem Eifer könntest du womöglich für die \\c[3]Prüfung des Fortschritts\\c[0] bereit sein."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ASTONISHED"
            }
           },
           {
            "message": {
             "orig": "I will prepare an entrance.",
             "transl": "Ich werde einen Eingang vorbereiten."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -908,31 +1265,56 @@
            "name": {
             "orig": "Aisy",
             "transl": "Aisy"
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "This teleporter will let you slip into the cave of your trial.",
             "transl": "Dieser Teleporter wird dich in die Höhle deiner Prüfung befördern."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Brave the cold wrath of the mountain and return with the sacred artifact from the end of the path.",
             "transl": "Trotze dem kalten Atem des Berges und kehre mit dem Artefakt zurück, welches dich am Ende des Pfades erwartet."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           }
          ]
@@ -946,9 +1328,18 @@
         "name": {
          "orig": "Aisy",
          "transl": "Aisy"
+        },
+        "person": {
+         "person": "monks.female-longhair-tan",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        null,
        null,
        {
@@ -957,18 +1348,30 @@
           "message": {
            "orig": "Hi!",
            "transl": "Привіт!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          }
         ],
@@ -979,18 +1382,30 @@
           "message": {
            "orig": "Slip into the cave and reach the end of the track to beat the trial.",
            "transl": "Schlüpfe in die Höhle und erreiche das Ende des Pfades, um die Aufgabe zu bestehen."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Fighting will not be necessary.\\. Just keep your footing and be one with the chill.",
            "transl": "Kämpfen wird nicht nötig sein.\\. Bleibe standfest und sei eins mit der Kälte."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          }
         ]
@@ -1004,9 +1419,18 @@
          "name": {
           "orig": "Aisy",
           "transl": "Aisy"
+         },
+         "person": {
+          "person": "monks.female-longhair-tan",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         null,
         null,
         {
@@ -1015,18 +1439,30 @@
            "message": {
             "orig": "Hi!",
             "transl": "Привіт!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ],
@@ -1037,54 +1473,90 @@
            "message": {
             "orig": "You are back... and you still haven't lost your fire.\\. Very promising.",
             "transl": "Du bist zurück... und du hast deinen Eifer nicht verloren.\\. Das verheißt Gutes."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Hi!",
             "transl": "Привіт!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           },
           {
            "message": {
             "orig": "Yes, this is the artifact you were supposed to retrieve.",
             "transl": "Ja, das ist das Artefakt, welches du holen solltest."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You see, it symbolizes the omnipresence of winter that looms over both nature and all human creation.",
             "transl": "Du musst wissen, es symbolisiert die Allgegenwart des Winters, die den Schöpfungen von Mensch und Natur wie ein Schatten anhaftet."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "But it also reminds us that life and determination can always persevere against the ice, just like you did.",
             "transl": "Aber es erinnert uns auch daran, dass das Leben und die Entschlossenheit stets über das Eis obsiegen kann, so wie du es getan hast."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "WHISTLING"
            }
           },
           {
            "message": {
             "orig": "Now go back to our leader and leave me to meditate on the ice.",
             "transl": "Gehe nun zurück zu unserem Oberhaupt und lass mich weiter auf dem Eis meditieren."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ]
@@ -1098,9 +1570,18 @@
         "name": {
          "orig": "Aisy",
          "transl": "Aisy"
+        },
+        "person": {
+         "person": "monks.female-longhair-tan",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        null,
        null,
        {
@@ -1109,18 +1590,30 @@
           "message": {
            "orig": "Hi!",
            "transl": "Привіт!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          }
         ],
@@ -1131,6 +1624,10 @@
           "message": {
            "orig": "Now go back to our leader and leave me to meditate on the ice.",
            "transl": "Gehe nun zurück zu unserem Oberhaupt und lass mich weiter auf dem Eis meditieren."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -1144,9 +1641,18 @@
          "name": {
           "orig": "Aisy",
           "transl": "Aisy"
+         },
+         "person": {
+          "person": "monks.female-longhair-tan",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         null,
         null,
         {
@@ -1155,18 +1661,30 @@
            "message": {
             "orig": "Hi!",
             "transl": "Привіт!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ],
@@ -1177,30 +1695,50 @@
            "message": {
             "orig": "Hi.",
             "transl": "Привіт."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Ah, it is you again.\\. You still feel a lot of respect for the ice, yes?",
             "transl": "Ah, du bist es.\\. Du hast immer noch großen Respekt vor dem Eis, nicht wahr?"
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?",
             "transl": "...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
            "message": {
             "orig": "Indeed you should.\\. Beating the trial does not mean that you are already a master of cold.",
             "transl": "Den solltest du auch haben.\\. Die Prüfung bestanden zu haben bedeutet nicht, ein Meister der Kälte geworden zu sein."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "But there are additional challenges for you that will give you even more insight into the nature of frost.",
             "transl": "Es gibt aber weitere Herausforderungen, welche dich mehr über die Natur des Frostes lehren werden."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
@@ -1209,12 +1747,20 @@
              "message": {
               "orig": "[nods]",
               "transl": "[nickt]"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "NOD"
              }
             },
             {
              "message": {
               "orig": "Good.\\. The passage will be opened again.",
               "transl": "Gut.\\. Ich werde dir den Pfad erneut zugänglich machen."
+             },
+             "person": {
+              "person": "monks.female-longhair-tan",
+              "expression": "DEFAULT"
              }
             },
             null,
@@ -1238,19 +1784,36 @@
              "name": {
               "orig": "Aisy",
               "transl": "Aisy"
+             },
+             "person": {
+              "person": "monks.female-longhair-tan",
+              "expression": "DEFAULT"
              }
             },
-            null,
+            {
+             "person": {
+              "person": "main.lea",
+              "expression": "DEFAULT"
+             }
+            },
             {
              "message": {
               "orig": "Return here, once you have solved those icy challenges.",
               "transl": "Kehre hierher zurück, sobald du die eisigen Herausforderungen gemeistert hast."
+             },
+             "person": {
+              "person": "monks.female-longhair-tan",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "Bye.",
               "transl": "Бувай."
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "SMUG"
              }
             }
            ],
@@ -1259,18 +1822,30 @@
              "message": {
               "orig": "[shakes head]",
               "transl": "[schüttelt Kopf]"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "SHAKE"
              }
             },
             {
              "message": {
               "orig": "Ah, you think that you are done with the ice already.\\. Do not underestimate its reach.",
               "transl": "Ah, du denkst, dass du mit dem Eis schon fertig bist.\\. Unterschätze niemals seinen Einflussbereich."
+             },
+             "person": {
+              "person": "monks.female-longhair-tan",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "...",
               "transl": "..."
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "DETERMINED"
              }
             }
            ]
@@ -1286,9 +1861,18 @@
         "name": {
          "orig": "Aisy",
          "transl": "Aisy"
+        },
+        "person": {
+         "person": "monks.female-longhair-tan",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        null,
        null,
        {
@@ -1297,18 +1881,30 @@
           "message": {
            "orig": "Hi!",
            "transl": "Привіт!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          }
         ],
@@ -1319,6 +1915,10 @@
           "message": {
            "orig": "Return to the cave and face the challenges.",
            "transl": "Kehre zur Höhle zurück und stelle dich den Herausforderungen."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -1327,6 +1927,10 @@
             "message": {
              "orig": "To solve the extra frosty challenge you have to activate it at the sign inside.",
              "transl": "Du musst die \"extra frostige\" Herausforderung drinnen am Schild erst aktivieren."
+            },
+            "person": {
+             "person": "monks.female-longhair-tan",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -1335,6 +1939,10 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          }
         ]
@@ -1348,9 +1956,18 @@
          "name": {
           "orig": "Aisy",
           "transl": "Aisy"
+         },
+         "person": {
+          "person": "monks.female-longhair-tan",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         null,
         null,
         {
@@ -1359,18 +1976,30 @@
            "message": {
             "orig": "Hi!",
             "transl": "Привіт!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ],
@@ -1381,36 +2010,60 @@
            "message": {
             "orig": "Once again your passion has broken the ice.\\. Impressive.",
             "transl": "Dein inneres Feuer hat das Eis erneut gebrochen.\\. Beeindruckend."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "With that, you have mastered even the most slippery of paths.",
             "transl": "Damit hast du sogar den rutschigsten aller Pfade gemeistert."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SMUG"
            }
           },
           {
            "message": {
             "orig": "I will now continue to connect with the ice.\\. The path will remain open for you to do the same if you wish.",
             "transl": "Ich werde mich jetzt wieder mit dem Eis verbinden.\\. Der Pfad bleibt nun für dich geöffnet, falls du es mir gleich tun willst."
+           },
+           "person": {
+            "person": "monks.female-longhair-tan",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ]
@@ -1424,9 +2077,18 @@
         "name": {
          "orig": "Aisy",
          "transl": "Aisy"
+        },
+        "person": {
+         "person": "monks.female-longhair-tan",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        null,
        null,
        {
@@ -1435,18 +2097,30 @@
           "message": {
            "orig": "Hi!",
            "transl": "Привіт!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          }
         ],
@@ -1457,30 +2131,50 @@
           "message": {
            "orig": "Hi!",
            "transl": "Привіт!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "\\v[lore.title.seeker]...why did you disturb my meditation?",
            "transl": "Seeker... Warum störst du meine Meditation?"
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "... bye?",
            "transl": "... Бувай?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          },
          {
           "message": {
            "orig": "For no reason?\\. Please be more considerate in the future.",
            "transl": "Völlig grundlos?\\. Bitte sei in Zukunft etwas rücksichtsvoller."
+          },
+          "person": {
+           "person": "monks.female-longhair-tan",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SAD"
           }
          }
         ]

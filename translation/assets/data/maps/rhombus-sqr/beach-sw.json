@@ -147,18 +147,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guards.female-hairs-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "No entry, Seeker. Someone beached a ship here against regulations.",
          "transl": "Kein Zutritt, Seeker. Jemand hat hier illegalerweise ein Schiff stranden lassen.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "guards.female-hairs-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Can't let that stand.",
          "transl": "Das können wir nicht zulassen."
+        },
+        "person": {
+         "person": "guards.female-hairs-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1265,30 +1283,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.female-tall-ponytail",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello Seeker.",
          "transl": "Hallo, Seeker."
+        },
+        "person": {
+         "person": "advisors.female-tall-ponytail",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This skyrail station will lead to a new area that was recently discovered.",
          "transl": "Diese Laserbahn-Station führt zu einem neuen Bereich, der erst kürzlich entdeckt wurde."
+        },
+        "person": {
+         "person": "advisors.female-tall-ponytail",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "However, it is still under construction.\\. Stay tuned!",
          "transl": "Allerdings ist sie noch im Aufbau.\\. Du wirst staunen!"
+        },
+        "person": {
+         "person": "advisors.female-tall-ponytail",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]
@@ -1355,24 +1399,46 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-sgt",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello, Seeker!\\. Any incidents to report?",
          "transl": "Hallo, Seeker!\\. Irgendwelche Vorfälle zu melden?"
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-sgt",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "Good.\\. Please enjoy your stay.",
          "transl": "Gut.\\. Genieß deinen Aufenthalt."
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-sgt",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1385,17 +1451,30 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Welcome to the Square's beach, Seeker.\\. Enjoy your stay.",
          "transl": "Willkommen am Square-Strand, Seeker.\\. Genieß deinen Aufenthalt."
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But don't cause any trouble! I'm watching you, heheh.",
          "transl": "Aber mach keinen Ärger! Ich behalte dich im Auge, heheh."
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1442,17 +1521,30 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "There have been rumors about a new area opening soon.\\. This landmark should be the gate connected to it.\\.\\. Well, not yet it seems..",
          "transl": "Es gibt Gerüchte über einen neuen Bereich, der bald eröffnet wird.\\. Dieser Wegpunkt wird das Tor dorthin sein.\\.\\. Doch noch ist es nicht so weit..."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Until the time has come...\\.\\. Be water.\\.\\. Isn't this place the perfect venue to do so?",
          "transl": "Bis die Zeit gekommen ist...\\.\\. Sei Wasser.\\.\\. Ist dieser Ort nicht der perfekte Ort dafür?"
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1564,11 +1656,20 @@
    "settings": {
     "event": [
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      null,
@@ -1577,101 +1678,188 @@
       "thenStep": [
        {
         "0": [
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Look! The sky rail station has been finished!",
            "transl": "Guck mal! Die Laserbahn-Station ist fertig!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "Let's take it!",
            "transl": "Komm, die probieren wir direkt aus!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DETERMINED"
           }
          }
         ],
         "1": [
-         null,
+         {
+          "person": {
+           "person": "main.glasses",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Look! The sky rail station has finished construction!",
            "transl": "Sieh mal! Die Laserbahn-Station ist fertig gebaut!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "It will probably take us to the new area.",
            "transl": "Sie bringt uns wahrscheinlich in den neuen Bereich."
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SMILE"
           }
          }
         ],
         "2": [
-         null,
+         {
+          "person": {
+           "person": "main.luke",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "I guess we'll have to take the sky rail from that shiny new station.",
            "transl": "Ich nehme mal an, wir sollen die Laserbahn von dieser neuen Station aus nehmen."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Let's check it out!",
            "transl": "Schauen wir uns das mal an!"
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "UP"
           }
          }
         ],
         "3": [
-         null,
+         {
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "LECTURING"
+          }
+         },
          {
           "message": {
            "orig": "As you can see, the new sky rail station has finished construction!",
            "transl": "Wie du siehst, ist die neue Laserbahn-Station fertig gebaut!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "LECTURING"
           }
          },
          {
           "message": {
            "orig": "It will take us to the new area!",
            "transl": "Sie wird uns zum neuen Bereich bringen!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "DEFAULT"
           }
          }
         ],
         "4": [
-         null,
+         {
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "SMILE"
+          }
+         },
          {
           "message": {
            "orig": "Oh...\\. a new sky rail station?",
            "transl": "Oh...\\. Eine neue Laserbahn-Station?"
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "I guess that will take us to the new area.",
            "transl": "Die bringt uns wohl in den neuen Bereich."
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "UP"
           }
          }
         ],
         "5": [
-         null,
+         {
+          "person": {
+           "person": "main.schneider",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "There is is! The new sky trail station!",
            "transl": "Da ist sie! Die neue Laserbahn-Station!"
+          },
+          "person": {
+           "person": "main.schneider",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "It will go to the new area.\\. Exciting!",
            "transl": "Sie wird uns zum neuen Bereich bringen.\\. Bin gespannt!"
+          },
+          "person": {
+           "person": "main.schneider",
+           "expression": "UP"
           }
          }
         ]
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -1756,68 +1944,123 @@
      null,
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
+        }
+       },
        {
         "message": {
          "orig": "Yummy...\\. almost like the real thing!",
          "transl": "Hmmm... lecker...\\. Fast wie das Echte!"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "\\c[2][Delicious]\\c[0]",
          "transl": "\\c[2][Lecker]\\c[0]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
+        }
+       },
        {
         "message": {
          "orig": "So they finally support proper taste senses.\\. That's great!",
          "transl": "Also werden endlich richtige Geschmackssinne unterstützt.\\. Find' ich toll!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "I hope they'll add \\c[3]Roquefort Cheese\\c[0] as well.\\. You have to try it!\n",
          "transl": "Hoffentlich fügen sie auch \\c[3]Roquefort-Käse\\c[0] hinzu.\\. Den müsst ihr unbedingt probieren!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "Oh no...",
          "transl": "Oh nein..."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "BLANK"
         }
        },
        {
         "message": {
          "orig": "\\c[2][I want to eat]\\c[0]",
          "transl": "\\c[2][Möchte ich essen]\\c[0]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "No...\\. you don't.",
          "transl": "Nein...\\. Das möchtest du nicht."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "I'm sure that taste is impossible to simulate without breaking pain constraints.",
          "transl": "Ich bin davon überzeugt, dass es unmöglich ist, diesen Geschmack zu simulieren, ohne die Schmerzgrenze zu überschreiten."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "...?!",
          "transl": "...?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
         }
        },
        null,
@@ -1826,77 +2069,140 @@
         "message": {
          "orig": "Don't listen to him, Lea!",
          "transl": "Hör nicht auf ihn, Lea!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        }
       ],
       "elseStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "\\c[2][Delicious]\\c[0]",
          "transl": "\\c[2][Lecker]\\c[0]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "So they finally support proper taste senses.\\. That's great!",
          "transl": "Also werden endlich richtige Geschmackssinne unterstützt.\\. Find' ich toll!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "Oh, you gotta try \\c[3]Roquefort Cheese\\c[0], when they add it!",
          "transl": "Oh, du musst unbedingt mal \\c[3]Roquefort-Käse\\c[0] probieren, wenn sie den hinzufügen!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "It may look horrible...\\. it might also taste a bit horrible...",
          "transl": "Er mag vielleicht scheußlich aussehen...\\. er kann sogar etwas scheußlich schmecken..."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "AWAY"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
+        }
+       },
        {
         "message": {
          "orig": "But trust me, it's great!",
          "transl": "Aber vertrau mir, der ist echt lecker!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
         }
        },
        {
         "message": {
          "orig": "Or...\\. maybe just stick with ice cream.",
          "transl": "Oder...\\. bleib vielleicht erstmal besser bei Eiscreme."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -1905,6 +2211,10 @@
         "message": {
          "orig": "I'm sure he would have enjoyed this.",
          "transl": "Das hätte ihm sicher gefallen."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SAD"
         }
        }
       ]

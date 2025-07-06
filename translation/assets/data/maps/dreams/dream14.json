@@ -6,18 +6,36 @@
      {
       "thenStep": [
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "EYES_CLOSED"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "The door is locked, correct? It seems we are trapped.",
          "transl": "Die Tür ist verschlossen, richtig? Sieht so aus, als wären wir hier gefangen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -100,11 +118,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "She really isn't responding at all... ",
        "transl": "Sie reagiert wirklich kein bisschen..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      null,
@@ -125,23 +152,40 @@
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "It's possible. ",
        "transl": "Das ist möglich."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But I'm afraid it's the first time I've encountered this kind of reaction.",
        "transl": "Das ist ehrlich gesagt das erste Mal, dass ich auf diese Reaktion stoße."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "I'd need direct access to the Evotar Server to effectively debug this.",
        "transl": "Ich würde direkten Zugang zum Evotarserver benötigen, um das effektiv debuggen zu können."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "EXHAUSTED"
       }
      },
      null,
@@ -161,17 +205,30 @@
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Well...",
        "transl": "Hm..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "There might be another option.",
        "transl": "Da wäre vielleicht noch eine Möglichkeit."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "ASKING"
       }
      }
     ]

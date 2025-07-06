@@ -50,17 +50,30 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Receptionist",
          "transl": "Rezeptionist"
+        },
+        "person": {
+         "person": "baki.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Human, hello!",
          "transl": "Hallo, Mensch!"
+        },
+        "person": {
+         "person": "baki.female-green",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -108,49 +121,86 @@
         "name": {
          "orig": "Yab'aikusa",
          "transl": "Yab'aikusa"
+        },
+        "person": {
+         "person": "greenies-baki.female-leader-shad",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Ah, \\v[lore.title.seeker], welcome!",
          "transl": "Ah, Seeker, willkommen!"
+        },
+        "person": {
+         "person": "greenies-baki.female-leader-shad",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Would like to give quest of spiritual journey to help find wisdom.\\. Sadly, it gave humen brain difficulty to handle.",
          "transl": "Würde gerne geben dir Quest, spirituell Reise für Weisheit mehr.\\. Leider für Menschhirn noch zu schwer."
+        },
+        "person": {
+         "person": "greenies-baki.female-leader-shad",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Shad working with wise humen to make ceremony be friendly to \\v[lore.title.seeker] brain in future.",
          "transl": "Shad arbeiten mit weise Mensch, um Zeremonie freundlich für Seeker-Hirn zu machen."
+        },
+        "person": {
+         "person": "greenies-baki.female-leader-shad",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "...bye.",
          "transl": "... Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -187,79 +237,142 @@
        "transl": "Auf jeden. Aber Instatainment wird nicht noch 'ne Klage riskieren, \\c[1]nach dem, was hier passiert ist\\c[0]."
       },
       "event": [
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi...?",
          "transl": "Привіт...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Oh, hey there.\\. Are you wondering about the lack of quests from the fourth  faction of this town?",
          "transl": "Oh, hallöchen.\\. Wunderst du dich auch über die fehlenden Quests der vierten Fraktion hier in der Stadt?"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Well, supposedly the entire questline has been about exploring the Ancient past with some sort of dream-ritual, or whatever.",
          "transl": "Tja, angeblich war die gesamte Questreihe über die Hintergründe der Ahnen gewesen, verbunden mit einer Art Traumritual oder so was."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Yep, something really colorful and funky.\\. A friend solved it a while ago.\\. Told me she got a burning headache afterwards.",
          "transl": "Ja, irgendwas total Abgefahrenes.\\. Eine Freundin hatte das vor einiger Zeit wohl gelöst.\\. Hat mir gesagt, dass sie danach voll die Kopfschmerzen hatte."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Sounds bad enough, but for some people it was worse.\\. The news were full with cases of seizures and such.",
          "transl": "Klingt fies, aber für andere war es wohl noch schlimmer.\\. Die Nachrichten waren voll mit Meldungen von Anfällen und dergleichen."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
         }
        },
        {
         "message": {
          "orig": "It was rare and caused no lasting harm, but the PR was still terrible.\\. So they took it out until the problems are solved.",
          "transl": "Ja, aber wie oft tritt sowas schon auf? Auf der anderen Seite war die PR darauf nicht vorbereitet.\\. Haben versucht, alles auszusitzen."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It's a shame for missing content, but better safe than sorry.",
          "transl": "Ist zwar blöd wegen der fehlenden Handlung, aber lieber auf Nummer sicher gehen."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]

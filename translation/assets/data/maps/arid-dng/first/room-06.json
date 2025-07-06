@@ -3,11 +3,20 @@
   {
    "settings": {
     "blockEvent": [
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "We should not leave through the entrance. Strange things could happen.",
        "transl": "Wir dürfen den Raum nicht durch den Eingang verlassen. Es könnten sonst seltsame Dinge passieren."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]
@@ -16,11 +25,20 @@
   {
    "settings": {
     "blockEvent": [
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "Lea, not the door please. The exit sign.",
        "transl": "Lea, nicht durch die Tür, bitte. Nimm den Ausgang."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]
@@ -81,6 +99,10 @@
       "message": {
        "orig": "Oh! Well... we should take care of those first.",
        "transl": "Oh! Um die sollten wir uns natürlich zuerst kümmern..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -107,18 +129,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Wait, Lea!",
        "transl": "Warte, Lea!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "This time we'll exit through the wall to the east!",
        "transl": "Dieses Mal verschwinden wir durch die östliche Wand!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -144,53 +184,96 @@
       {
        "thenStep": [
         null,
-        null,
+        {
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
+         }
+        },
         {
          "message": {
           "orig": "Whooops!",
           "transl": "Uuups!"
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
          }
         },
         null,
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SHOCKED"
+         }
+        },
         {
          "message": {
           "orig": "WHY?!",
           "transl": "ЧОМУ?!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SHOCKED"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
+         }
+        },
         {
          "message": {
           "orig": "Sorry, I forgot to fix the routine for sideway jumps...",
           "transl": "Entschuldige, ich habe vergessen, das Programm für Seitwärtssprünge anzupassen..."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "ROLL_EYES"
          }
         },
         {
          "message": {
           "orig": "...How?!",
           "transl": "... Як?!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "A-Anyway, it should work now. Promise.",
           "transl": "N-Na ja, jetzt sollte es jedenfalls funktionieren. Versprochen."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "THINKING"
          }
         },
         {
          "message": {
           "orig": "Please try again.",
           "transl": "Versuche es bitte nochmal."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DOWN_EYE_CLOSED"
          }
         }
        ]

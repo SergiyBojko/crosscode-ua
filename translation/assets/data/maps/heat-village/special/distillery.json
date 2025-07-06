@@ -485,19 +485,36 @@
         "name": {
          "orig": "Ryda",
          "transl": "Ryda"
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey there, \\v[lore.title.seeker].\\. You got everything done here?",
          "transl": "Hey, Seeker.\\. Hast du hier alles erledigt?"
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        null,
@@ -506,6 +523,10 @@
         "message": {
          "orig": "Alright!\\. What do the numbers say, Bru?",
          "transl": "Alles klar!\\. Was sagen die Werte, Bru?"
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -513,12 +534,20 @@
         "name": {
          "orig": "Bru'shy",
          "transl": "Bru'shy"
+        },
+        "person": {
+         "person": "baki.female-yellow-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Numbers say good quality of liquid goods.\\. Seem \\v[lore.title.seeker] done well!",
          "transl": "Werte sagen, dass Getränke haben gute Qualität.\\. Scheinen, als hätte Seeker geleistet gute Arbeit!"
+        },
+        "person": {
+         "person": "baki.female-yellow-tall",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -527,30 +556,50 @@
         "message": {
          "orig": "Great, it seems like everything went off without a hitch!\\. We will extract the product soon.",
          "transl": "Klasse, dann ist also alles problemlos verlaufen!\\. Wir werden das Produkt schon bald abfüllen können."
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I will notify the boss of your success, so you can go back to him and get your reward!",
          "transl": "Ich werde dem Boss Bescheid geben, damit du deine Belohnung bei ihm abholen kannst!"
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "But you should definitely come back afterwards, so we can brew more of this fine stuff.\\. Looking forward to it!",
          "transl": "Du solltest danach aber auf jeden Fall zurückkommen, damit du mehr von dem guten Stoff brauen kannst.\\. Ich freu' mich schon drauf!"
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye!",
          "transl": "Бувай!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        }
       ],
@@ -797,25 +846,46 @@
       "name": {
        "orig": "Bru'shy",
        "transl": "Bru'shy"
+      },
+      "person": {
+       "person": "baki.female-yellow-tall",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi..?",
        "transl": "Привіт...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Ah, \\v[lore.title.seeker] welcome!\\. Red-headed expert of the brew is coming down as well to give explain.",
        "transl": "Ah, Seeker, willkommen!\\. Rothaarige Expertin kommen auch, um alles zu erklären."
+      },
+      "person": {
+       "person": "baki.female-yellow-tall",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -831,25 +901,46 @@
       "name": {
        "orig": "Ryda",
        "transl": "Ryda"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Alrighty, let's get this going, shall we?",
        "transl": "Alles klärchen, sollen wir loslegen?"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Come, follow me!",
        "transl": "Dann komm mal mit!"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -864,13 +955,26 @@
       "name": {
        "orig": "Ryda",
        "transl": "Ryda"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      }
+     },
      {
       "message": {
        "orig": "Here we are!\\. Now take a look at this!",
        "transl": "Da wären wir!\\. Jetzt schau dir das an!"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -882,49 +986,86 @@
       "name": {
        "orig": "Ryda",
        "transl": "Ryda"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "Amazing, huh?\\. Our partners in Bergen really outdid themselves with this beauty!",
        "transl": "Genial, oder? Unsere Partner in Bergen haben sich mit dieser Schönheit selbst übertroffen!"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Not gonna go into technical details but it will brew us amazing drinks and infuse them with Ancient power!",
        "transl": "Ich werde nicht ins Detail gehen, aber das Teil wird uns großartige Getränke brauen und sie mit den Kräften der Ahnen stärken!"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "If we prove ourselves worthy that is.\\. You know how the Track works: No reward without trials. ",
        "transl": "Natürlich nur, wenn wir uns als würdig erweisen.\\. Du weißt, wie der Pfad funktioniert: Keine Belohnung ohne Prüfungen."
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "I'm sure a \\v[lore.title.seeker] like you will do just fine!\\. So lemme explain...",
        "transl": "Ich bin mir sicher, ein Seeker wie du wird das schon schaffen!\\. Also, lass es mich dir erklären..."
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -936,13 +1077,26 @@
       "name": {
        "orig": "Ryda",
        "transl": "Ryda"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "After starting, the machine will \\c[3]request energy\\c[0] from one of those \\c[3]steam-receivers\\c[0].",
        "transl": "Nachdem die Maschine läuft, wird sie von einem dieser \\c[3]Dampf-Empfänger Energie anfordern\\c[0]."
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -960,13 +1114,26 @@
       "name": {
        "orig": "Ryda",
        "transl": "Ryda"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
      {
       "message": {
        "orig": "You will need to put some \\c[3]ice\\c[0] in there quickly.\\. At first you can use a \\c[3]bubble generator\\c[0] for that.",
        "transl": "Du musst dann schnell etwas \\c[3]Eis\\c[0] dort reinlegen.\\. Zuerst kannst du einen \\c[3]Blasen-Generator\\c[0] dafür verwenden."
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -979,13 +1146,26 @@
       "name": {
        "orig": "Ryda",
        "transl": "Ryda"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
      {
       "message": {
        "orig": "Later you will have to \\c[3]catch waterbubbles\\c[0] that the Track sends through those \\c[3]pipes\\c[0] from who knows where.",
        "transl": "Später wirst du die \\c[3]Wasserblasen fangen müssen\\c[0], die der Pfad woher auch immer durch diese \\c[3]Rohre\\c[0] schickt."
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1005,25 +1185,46 @@
       "name": {
        "orig": "Ryda",
        "transl": "Ryda"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Oh, and you should also \\c[3]throw some ice at the machine itself\\c[0] once in a while.\\. We don't want it \\c[3]overheating\\c[0], do we?",
        "transl": "Oh, und du solltest ab und zu auch \\c[3]etwas Eis auf die Maschine selbst werfen\\c[0].\\. Wir wollen ja nicht, dass sie \\c[3]überhitzt\\c[0], oder?"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "Well, and that's about it.\\. You got everything?",
        "transl": "Tja, das war's eigentlich schon.\\. Alles klar so weit?"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -1032,6 +1233,10 @@
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        null,
@@ -1039,30 +1244,50 @@
         "message": {
          "orig": "Perfect!\\. My assistant Bru will check the numbers while you are at work, but I'm sure you will do great!",
          "transl": "Perfekt!\\. Meine Assistentin Bru wird während des Vorgangs die Werte überwachen. Ich bin mir aber sicher, dass du das packst!"
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "I myself sadly can't watch you because I have business to attend to upstairs.\\. So we'll talk again once it's finished, yes?",
          "transl": "Ich kann dir leider nicht zusehen, weil ich noch einiges zu erledigen habe.\\. Wir reden, sobald du fertig bist, ja?"
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Bye!",
          "transl": "Бувай!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        }
       ],
@@ -1071,13 +1296,26 @@
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "Alrighty, then lemme explain it again.",
          "transl": "Alles klärchen, dann wiederhole ich es nochmal."
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -1089,16 +1327,33 @@
         "name": {
          "orig": "Ryda",
          "transl": "Ryda"
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "This is the machine that will create our wonderful, magic booze.\\. If it is used correctly!",
          "transl": "Das ist die Maschine, die unser magisches Ahnengebräu herstellen wird.\\. Wenn man sie richtig benutzt!"
+        },
+        "person": {
+         "person": "business.female-redhair-sexy-brown",
+         "expression": "DEFAULT"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
+      },
       "options": [
        {
         "label": {
@@ -1128,7 +1383,12 @@
       null,
       {
        "thenStep": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         null,
         null,
         {
@@ -1199,6 +1459,10 @@
            ]
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -1291,13 +1555,26 @@
         "name": {
          "orig": "Bru'shy",
          "transl": "Bru'shy"
+        },
+        "person": {
+         "person": "baki.female-yellow-tall",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "\\v[lore.title.seeker] impress Ancients for great liquids!\\. I will keep eyes on numbers.",
          "transl": "Seeker beeindrucken Ahnen für tolle Tränke!\\. Ich werde Augen auf Zahlen haben."
+        },
+        "person": {
+         "person": "baki.female-yellow-tall",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1308,13 +1585,26 @@
         "name": {
          "orig": "Bru'shy",
          "transl": "Bru'shy"
+        },
+        "person": {
+         "person": "baki.female-yellow-tall",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "\\v[lore.title.seeker] done well.\\. Extracting goods will done soon.",
          "transl": "Seeker gemacht gute Arbeit.\\. Extrakt bald fertig."
+        },
+        "person": {
+         "person": "baki.female-yellow-tall",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1325,13 +1615,26 @@
         "name": {
          "orig": "Bru'shy",
          "transl": "Bru'shy"
+        },
+        "person": {
+         "person": "baki.female-yellow-tall",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "\\v[lore.title.seeker] talk to Ms. Ryda upstairs.\\. Much progress is on the foot.",
          "transl": "Seeker oben Frau Ryda berichten, wir viel Fortschritt machen."
+        },
+        "person": {
+         "person": "baki.female-yellow-tall",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1344,13 +1647,26 @@
           "name": {
            "orig": "Bru'shy",
            "transl": "Bru'shy"
+          },
+          "person": {
+           "person": "baki.female-yellow-tall",
+           "expression": "DEFAULT"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "\\v[lore.title.seeker] need brewing ingredients prepared?",
            "transl": "Seeker brauchen Zutaten zum Brauen?"
+          },
+          "person": {
+           "person": "baki.female-yellow-tall",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -1359,6 +1675,10 @@
             "message": {
              "orig": "Wish much success.\\. May Ancients bless precious liquids!",
              "transl": "Wünschen viel Erfolg.\\. Mögen Ahnen kostbare Tränke segnen!"
+            },
+            "person": {
+             "person": "baki.female-yellow-tall",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -1367,6 +1687,10 @@
             "message": {
              "orig": "Maybe next time, yes?",
              "transl": "Vielleicht nächste Mal, ja?"
+            },
+            "person": {
+             "person": "baki.female-yellow-tall",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -1383,13 +1707,26 @@
           "name": {
            "orig": "Bru'shy",
            "transl": "Bru'shy"
+          },
+          "person": {
+           "person": "baki.female-yellow-tall",
+           "expression": "DEFAULT"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "\\v[lore.title.seeker] need brewing ingredients prepared?",
            "transl": "Seeker brauchen Zutaten zum Brauen?"
+          },
+          "person": {
+           "person": "baki.female-yellow-tall",
+           "expression": "DEFAULT"
           }
          },
          null,
@@ -1399,6 +1736,10 @@
             "message": {
              "orig": "Wish much success.\\. May Ancients bless precious liquids!",
              "transl": "Wünschen viel Erfolg.\\. Mögen Ahnen kostbare Tränke segnen!"
+            },
+            "person": {
+             "person": "baki.female-yellow-tall",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -1407,6 +1748,10 @@
             "message": {
              "orig": "Maybe next time, yes?",
              "transl": "Vielleicht nächste Mal, ja?"
+            },
+            "person": {
+             "person": "baki.female-yellow-tall",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -1419,12 +1764,26 @@
       "event": {
        "trade": {
         "event": [
-         null,
-         null,
+         {
+          "person": {
+           "person": "baki.female-yellow-tall",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "\\v[lore.title.seeker] need brewing ingredients prepared?",
            "transl": "Seeker brauchen Zutaten zum Brauen?"
+          },
+          "person": {
+           "person": "baki.female-yellow-tall",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -1433,6 +1792,10 @@
             "message": {
              "orig": "Wish much success.\\. May Ancients bless precious liquids!",
              "transl": "Wünschen viel Erfolg.\\. Mögen Ahnen kostbare Tränke segnen!"
+            },
+            "person": {
+             "person": "baki.female-yellow-tall",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -1441,6 +1804,10 @@
             "message": {
              "orig": "Maybe next time, yes?",
              "transl": "Vielleicht nächste Mal, ja?"
+            },
+            "person": {
+             "person": "baki.female-yellow-tall",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -1723,92 +2090,162 @@
       "name": {
        "orig": "Ryda",
        "transl": "Ryda"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Heya, \\v[lore.title.seeker].\\. Are you done by now?\\. You made a lot of noise for just upgrading a machine, y'know?",
        "transl": "Heya, Seeker.\\. Bist du jetzt fertig?\\. Du hast eine Menge Lärm gemacht, dafür, dass du nur eine Maschine aufgerüstet hast, weißt du?"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "... Sorry... How?\\. .\\..\\..\\. Why?",
        "transl": "... Sorry... Wie?\\. .\\..\\..\\. Warum?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Oh, wait, wait.\\. So you're telling me, that upgrading this thing involved fighting monstrous incarnations of booze?",
        "transl": "Warte, warte.\\. Du willst mir also sagen, dass das Aufrüsten den Kampf gegen monströse Inkarnationen von Alkohol ausgelöst hat?"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Oh, woops, haha.\\. That's pretty crazy, but I guess we should've expected the Track to throw some final test at us.",
        "transl": "Oh, uuups, hahaha.\\. Das ist echt verrückt, aber wir hätten wohl damit rechnen sollen, dass der Pfad uns einen letzten Test aufbrummt.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "... Whyyyy?",
        "transl": "... Waruuuum?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Hey, you got it done, right?\\. No \\v[lore.title.seeker] work without some challenge.",
        "transl": "Hey, du hast es doch geschafft, oder?\\. Keine Seeker-Arbeit ohne eine Herausforderung."
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "And you can feel a clear change to the aura of our baby here.\\. Now it should be well-equipped for \\c[3]Fox Sake\\c[0], the last missing recipe!",
        "transl": "Und ich spüre eine deutliche Veränderung in der Aura unseres Schätzchens hier.\\. Jetzt sollte es gut gerüstet sein für \\c[3]Fuchs-Sake\\c[0], das letzte fehlende Rezept!"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Just report back to our dear Kney' on the market.\\. I will handle the rest down here!",
        "transl": "Melde dich einfach bei unserem lieben Kney' auf dem Markt zurück.\\. Den Rest erledige ich dann hier unten!"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Was great working with you again, sweetie!\\. Don't forget to visit now and then for some drinks!",
        "transl": "War toll, wieder mit dir zu arbeiten, Süße!\\. Vergiss nicht, ab und zu auf ein paar Drinks vorbeizuschauen!"
+      },
+      "person": {
+       "person": "business.female-redhair-sexy-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      }
     ]

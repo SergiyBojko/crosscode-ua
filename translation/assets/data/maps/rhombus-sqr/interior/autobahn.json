@@ -28,6 +28,10 @@
       "message": {
        "orig": "We're catching up to them!",
        "transl": "Wir holen auf!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -40,12 +44,20 @@
       "message": {
        "orig": "Go get them, Ms. Lea!",
        "transl": "Los, Fräulein Lea, schnappen Sie sie!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Lea!!",
        "transl": "Лія!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -70,18 +82,30 @@
       "message": {
        "orig": "There must be more ahead, but there's too much traffic!",
        "transl": "Da vorne müssen noch mehr sein, aber es ist zu viel Verkehr!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ms. Lea, you need to go ahead! \\c[3]Jump over the cars\\c[0]!",
        "transl": "Fräulein Lea, Sie müssen vorangehen! \\c[3]Springen Sie über die Autos\\c[0]!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      }
     ]
@@ -116,12 +140,20 @@
       "message": {
        "orig": "Great work, Ms. Lea!\\. But we need to \\c[3]go further\\c[0], still!",
        "transl": "Gute Arbeit, Fräulein Lea!\\. Aber wir müssen noch weiter nach vorn!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I will follow as soon as I get through the traffic!",
        "transl": "Ich komme nach, sobald ich durch den Verkehr durch bin!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -167,12 +199,20 @@
       "message": {
        "orig": "We're getting close to their leader!\\. Ms. Lea, jump on!",
        "transl": "Wir nähern uns ihrem Anführer!\\. Fräulein Lea, springen Sie auf!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]

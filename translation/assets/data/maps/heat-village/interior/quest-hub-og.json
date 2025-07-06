@@ -74,12 +74,26 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "baki.eldress",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Human, are you willing to help us in exchange for \\c[3]Shiny Orb\\c[0]?",
           "transl": "Mensch, bist du bereit zu helfen uns in Austausch für \\c[3]Glänzende Kugel\\c[0]?"
+         },
+         "person": {
+          "person": "baki.eldress",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -88,12 +102,20 @@
            "message": {
             "orig": "You have our deepest thanks!",
             "transl": "Du hast unser tiefstes Danke!"
+           },
+           "person": {
+            "person": "baki.eldress",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Please take this \\c[3]Pass\\c[0]. Needed to enter cave below \\c[3]Maroon Tree\\c[0].",
             "transl": "Bitte nehmen diese \\c[3]Pass\\c[0]. Nötig um zu betreten Höhle unter \\c[3]Maronenbaum\\c[0]."
+           },
+           "person": {
+            "person": "baki.eldress",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -104,12 +126,26 @@
             "transl": "Maronenhöhlenpass"
            }
           },
-          null,
-          null,
+          {
+           "person": {
+            "person": "baki.eldress",
+            "expression": "DEFAULT"
+           }
+          },
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "Good luck!",
             "transl": "Viel Glück!"
+           },
+           "person": {
+            "person": "baki.eldress",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -118,6 +154,10 @@
            "message": {
             "orig": "Shad understand. Please talk to us when you change mind.",
             "transl": "Shad versteht. Bitte sprich mit uns, wenn du änderst Meinung."
+           },
+           "person": {
+            "person": "baki.eldress",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -127,18 +167,36 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "baki.eldress",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Please defeat pesky \\c[3]sandworms\\c[0] in cave below \\c[3]Maroon Tree\\c[0].",
          "transl": "Bitte besiege nervige \\c[3]Sandwürmer\\c[0] in Höhle unter \\c[3]Maronenbaum\\c[0]."
+        },
+        "person": {
+         "person": "baki.eldress",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "We will give \\c[3]Shiny Orb\\c[0] as reward. You need orb to enter \\c[3]Faj'ro Temple\\c[0].",
          "transl": "Wir werden geben \\c[3]Glänzende Kugel\\c[0] als Belohnung. Du brauchst Kugel, um betreten \\c[3]Faj'ro-Tempel\\c[0]."
+        },
+        "person": {
+         "person": "baki.eldress",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -146,48 +204,86 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "baki.eldress",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Dear Human! Did you defeat pesky sandworms below Maroon Tree?",
           "transl": "Lieber Mensch! Hast du erledigt nervige Sandwürmer unter Maronenbaum?"
+         },
+         "person": {
+          "person": "baki.eldress",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Indeed, I see note on pass.",
           "transl": "Du sprichst Wahrheit, wie ich sehe an Notiz auf Pass."
+         },
+         "person": {
+          "person": "baki.eldress",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Thank you so much, human. Because of your help, tree will live many more years!",
           "transl": "Danke dir vielmals, Mensch. Wegen deiner Hilfe, Baum wird leben weitere viele Jahre!"
+         },
+         "person": {
+          "person": "baki.eldress",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Now I'll hand you \\c[3]shiny thing\\c[0] for reward.",
           "transl": "Jetzt ich gebe dir \\c[3]Glänzende Kugel\\c[0] als Belohnung."
+         },
+         "person": {
+          "person": "baki.eldress",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Human now can go to \\c[3]mystic statue\\c[0] at market to receive key to \\c[3]Faj'ro Temple\\c[0].",
           "transl": "Mensch nun kann gehen zu \\c[3]mystische Statue\\c[0] auf Markt, um erhalten Schlüssel zu \\c[3]Faj'ro-Tempel\\c[0]."
+         },
+         "person": {
+          "person": "baki.eldress",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         null,
@@ -197,24 +293,40 @@
          "message": {
           "orig": "We got the Shiny Orb, everyone!\\. The pinnacle of creativity!",
           "transl": "Hey Leute, wir haben die Glänzende Kugel!\\. Der Höhepunkt der Kreativität!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "SHRUG"
          }
         },
         {
          "message": {
           "orig": "Well... it's the Shad.\\. They prefer simple terminology, right?",
           "transl": "Na ja... das sind eben die Shad.\\. Die bevorzugen eher simple Terminologie, stimmt's?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Oui, oui. Good excuse.",
           "transl": "Oui, oui. Gute Ausrede."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "TAUNTING"
          }
         },
         {
@@ -228,24 +340,46 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "baki.eldress",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Thank you human for helping Shad!",
          "transl": "Danke, Mensch, für helfen Shad!"
+        },
+        "person": {
+         "person": "baki.eldress",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Tree will live many more years!",
          "transl": "Baum wird leben weitere viele Jahre!"
+        },
+        "person": {
+         "person": "baki.eldress",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... If human still help us defeat sandworm for years to come.",
          "transl": "... Wenn Mensch weiterhin helfen uns besiegen Sandwurm in kommenden Jahren."
+        },
+        "person": {
+         "person": "baki.eldress",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -256,6 +390,10 @@
           "message": {
            "orig": "You have to thank the sandworms for helping us keep good diplomatic relations with the Shad.",
            "transl": "Eigentlich müsste man sich bei den Sandwürmern bedanken, dass sie unsere guten diplomatischen Beziehungen zu den Shad aufrechterhalten."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "JOKING"
           }
          }
         ]
@@ -282,53 +420,90 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Dear humans, I am Eldress of Ba'kii Kum.",
        "transl": "Liebe Menschen, ich bin Älteste von Ba'kii Kum."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You have my thanks for visiting our small, humble town of Shad.",
        "transl": "Ihr habt meinen Dank für Besuch unserer kleinen, bescheiden Stadt von Shad."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "For many years Humans and Shad have worked together.",
        "transl": "Für viele Jahre Mensch und Shad gearbeitet zusammen."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We traded, we shared, we fought together.",
        "transl": "Wir gehandelt, wir geteilt, wir gekämpft zusammen."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So today Ba'kii Kum is town of Shad and Human.",
        "transl": "Darum heute Ba'kii Kum ist Stadt von Shad und Mensch."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We know that Humans want to learn about Ancients.",
        "transl": "Wir wissen, dass Mensch wollen lernen über Ahnen."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ancients are Ancestors of us Shad - yet we still know little!",
        "transl": "Ahnen sind Vorfahren von uns Shad - trotzdem wir noch wissen wenig!"
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Therefore, we want to help Humans!",
        "transl": "Aber wir wollen helfen Mensch!"
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -337,6 +512,10 @@
       "message": {
        "orig": "Ba'kii Kum is home of \\c[3]mystic statue\\c[0].",
        "transl": "Ba'kii Kum ist Heimat von \\c[3]mystische Statue\\c[0]."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -344,18 +523,30 @@
       "message": {
        "orig": "Statue holds key to \\c[3]Faj'ro Temple\\c[0], important place for Seeker Human.",
        "transl": "Statue hält Schlüssel für \\c[3]Faj'ro-Tempel\\c[0], wichtiger Ort für Seeker-Mensch."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "However, Statue only react if Human holds \\c[3]Shiny Orb\\c[0].",
        "transl": "Aber, Statue nur reagiert wenn Mensch hält \\c[3]Glänzende Kugel\\c[0]."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We have \\c[3]Shiny Orb\\c[0] and will give to Human.",
        "transl": "Wir haben \\c[3]Glänzende Kugel\\c[0] und werden geben an Mensch."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -364,6 +555,10 @@
       "message": {
        "orig": "But we have one request.",
        "transl": "Aber wir haben eine Bitte."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -372,6 +567,10 @@
       "message": {
        "orig": "In \\c[3]East part of Maroon Valley\\c[0] you find majestic \\c[3]Maroon Tree\\c[0].",
        "transl": "In \\c[3]Ost-Teil von Maronental\\c[0] ihr findet majestätischen \\c[3]Maronenbaum\\c[0]."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -379,24 +578,40 @@
       "message": {
        "orig": "Maroon Tree very important to Shad, but attacked by \\c[3]Sandworms\\c[0] of Track.",
        "transl": "Maronenbaum sehr wichtig für Shad, aber befallen von \\c[3]Sandwürmern\\c[0] von Pfad."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We ask Human to defeat pesky Sandworms in cave below Maroon Tree.",
        "transl": "Wir fragen Mensch, zu beseitigen lästige Sandwürmer in Höhle unter Maronenbaum."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We will give \\c[3]Shiny Orb\\c[0] for defeating Sandworms.",
        "transl": "Wir werden geben \\c[3]Glänzende Kugel\\c[0] für Beseitigen Sandwürmer."
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Human help Shad and Shad will help Human! Is a trade!",
        "transl": "Mensch helfen Shad, Shad werden helfen Mensch. Ist ein Handel!"
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -406,12 +621,20 @@
       "message": {
        "orig": "Please talk to me to accept task!",
        "transl": "Bitte sprecht mich an, um zu akzeptieren Aufgabe!"
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "In name of all Shad, thank you for listening!",
        "transl": "Im Namen von alle Shad, danke euch für Zuhören!"
+      },
+      "person": {
+       "person": "baki.eldress",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -420,24 +643,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "So we gotta save the tree! D'accord.",
        "transl": "Wir müssen also den Baum retten! D'accord."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Sounds like a mandatory quest.\\. Let's accept it!",
        "transl": "Klingt nach einer Pflicht-Quest.\\. Lass sie uns annehmen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -449,12 +694,26 @@
     "event": [
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hey Lea, I want to check out the balcony!",
        "transl": "Hey, Lea! Ich will mir mal die Stadt vom Balkon aus ansehen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      }
     ]

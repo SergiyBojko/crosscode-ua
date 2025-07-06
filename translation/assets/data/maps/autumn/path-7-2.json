@@ -750,13 +750,26 @@
         "name": {
          "orig": "Christophorus",
          "transl": "Christophorus"
+        },
+        "person": {
+         "person": "guests.christophorus",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -767,12 +780,20 @@
           "message": {
            "orig": "Ah, I see you managed to collect the chest over there.\\. Nice work.",
            "transl": "Ah, wie ich sehe, hast du es geschafft, die Truhe da drüben zu holen.\\. Gute Arbeit."
+          },
+          "person": {
+           "person": "guests.christophorus",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
           }
          },
          null,
@@ -781,18 +802,30 @@
           "message": {
            "orig": "At least you're not one of those players that just blindly keep jumping into the water here, trying to make that impossible jump.",
            "transl": "Endlich mal jemand, der hier nicht blind ins Wasser springt und versucht, diesen unmöglichen Sprung zu schaffen."
+          },
+          "person": {
+           "person": "guests.christophorus",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "THINKING"
           }
          },
          {
           "message": {
            "orig": "I've been at this spot a lot and trust me... I've seen things.",
            "transl": "Ich war nämlich schon oft an diesem Ort und glaub mir... Ich habe Dinge gesehen..."
+          },
+          "person": {
+           "person": "guests.christophorus",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -801,12 +834,20 @@
           "message": {
            "orig": "Yes, what is it?",
            "transl": "Ja, was gibt's?"
+          },
+          "person": {
+           "person": "guests.christophorus",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          },
          null,
@@ -815,6 +856,10 @@
           "message": {
            "orig": "Let me guess. You wonder how to reach this chest, don't you?",
            "transl": "Lass mich raten. Du fragst dich, wie man diese Truhe erreicht, oder?"
+          },
+          "person": {
+           "person": "guests.christophorus",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -823,12 +868,20 @@
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            {
             "message": {
              "orig": "Figured...",
              "transl": "Dachte ich mir..."
+            },
+            "person": {
+             "person": "guests.christophorus",
+             "expression": "DEFAULT"
             }
            },
            null,
@@ -836,12 +889,20 @@
             "message": {
              "orig": "Well, you may have realized this already, but jumping from here on those pillars is not the right solution.",
              "transl": "Also, von hier aus auf die Säulen zu springen, bringt dich nicht weiter. Das hast du wahrscheinlich schon gemerkt."
+            },
+            "person": {
+             "person": "guests.christophorus",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "No, you'll have to go another way. In fact it's a very round-about path to reach it.",
              "transl": "Du musst einen anderen Weg nehmen. Das ist allerdings ein ziemlicher Umweg."
+            },
+            "person": {
+             "person": "guests.christophorus",
+             "expression": "DEFAULT"
             }
            },
            null,
@@ -850,6 +911,10 @@
             "message": {
              "orig": "Do you want to know more? I suggest you try to find the way yourself. It's more rewarding.",
              "transl": "Möchtest du mehr wissen? Ich rate dir aber, den Weg erstmal selbst zu finden. Das ist befriedigender."
+            },
+            "person": {
+             "person": "guests.christophorus",
+             "expression": "DEFAULT"
             }
            },
            {
@@ -858,54 +923,90 @@
               "message": {
                "orig": "[nods]",
                "transl": "[nickt]"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "NOD"
               }
              },
              {
               "message": {
                "orig": "Alright then...",
                "transl": "Also gut..."
+              },
+              "person": {
+               "person": "guests.christophorus",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "From here go to the \\c[3]west\\c[0], close to the exit.",
                "transl": "Du gehst von hier aus nach \\c[3]Westen\\c[0], bis kurz vor dem Ausgang."
+              },
+              "person": {
+               "person": "guests.christophorus",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "From there, you can make a jump to a higher platform to the \\c[3]south\\c[0].",
                "transl": "Von dort kannst du auf eine höhere Plattform Richtung \\c[3]Süden\\c[0] springen."
+              },
+              "person": {
+               "person": "guests.christophorus",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "From there go all the way \\c[3]south\\c[0] until you reach the previous area.",
                "transl": "Von da läufst du so lange Richtung \\c[3]Süden\\c[0], bis du das vorherige Gebiet erreichst."
+              },
+              "person": {
+               "person": "guests.christophorus",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "And from there...\\. well...\\. Actually there is quite a bit more and I can't remember it in detail.",
                "transl": "Und dann...\\. ähm...\\. kommt da noch einiges mehr, aber an den Abschnitt kann ich mich nicht mehr so genau erinnern."
+              },
+              "person": {
+               "person": "guests.christophorus",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "...",
                "transl": "..."
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "SURPRISED"
               }
              },
              {
               "message": {
                "orig": "Anyway, I'm sure you'll find the way. Just give it your best shot.",
                "transl": "Ich bin mir aber sicher, dass du den Weg finden wirst. Immer der Nase nach."
+              },
+              "person": {
+               "person": "guests.christophorus",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "...!",
                "transl": "...!"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "PROUD"
               }
              }
             ],
@@ -914,15 +1015,27 @@
               "message": {
                "orig": "[shakes head]",
                "transl": "[schüttelt Kopf]"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "SHAKE"
               }
              },
              {
               "message": {
                "orig": "That's the spirit.",
                "transl": "Das ist die richtige Einstellung!"
+              },
+              "person": {
+               "person": "guests.christophorus",
+               "expression": "DEFAULT"
               }
              }
             ],
+            "person": {
+             "person": "main.lea",
+             "expression": "SURPRISED_AWAY"
+            },
             "options": [
              {
               "label": {
@@ -942,24 +1055,40 @@
             "message": {
              "orig": "So maybe now I can enjoy a quiet moment here.",
              "transl": "Dann kann ich hier hoffentlich mal einen ruhigen Moment genießen."
+            },
+            "person": {
+             "person": "guests.christophorus",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NERVOUS"
             }
            },
            {
             "message": {
              "orig": "It's okay. I can't refuse a fellow traveler in need.",
              "transl": "Schon in Ordnung. Wenn ich dir helfen konnte, war es das wert."
+            },
+            "person": {
+             "person": "guests.christophorus",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "EXCITED"
             }
            }
           ],
@@ -968,6 +1097,10 @@
             "message": {
              "orig": "[shakes head]",
              "transl": "[schüttelt Kopf]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SHAKE"
             }
            },
            null,
@@ -976,15 +1109,27 @@
             "message": {
              "orig": "So you think you can manage on your own?",
              "transl": "Also, glaubst du, du schaffst das alleine?"
+            },
+            "person": {
+             "person": "guests.christophorus",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Good luck, then.",
              "transl": "Dann viel Glück."
+            },
+            "person": {
+             "person": "guests.christophorus",
+             "expression": "DEFAULT"
             }
            }
           ],
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
+          },
           "options": [
            {
             "label": {

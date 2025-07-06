@@ -245,26 +245,48 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Hello there, Lea!",
        "transl": "Hallo, Lea!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "How are your hands doing today?",
        "transl": "Wie geht's deinen Händen heute?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "HAND_WTF"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
+      }
+     },
      {
       "message": {
        "orig": "Haha, sorry. It's not as painful as it looks, I swear.",
        "transl": "Haha, 'tschuldige. Es ist nicht so schmerzhaft, wie es aussieht, ich schwör's!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      null,
@@ -272,31 +294,57 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "Again with the weird hand tricks, Tronny?",
        "transl": "Ach Mensch, Tronny! Du wieder mit deinen komischen Fingertricks!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "What? I'm just fascinated by how well it's synchronized.",
        "transl": "Was denn? Ich bin einfach davon fasziniert, wie sauber die synchronisiert werden."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "HAND_WEIRD"
       }
      },
      {
       "message": {
        "orig": "You don't have to make these creepy shapes to prove it.",
        "transl": "Dazu musst du sie aber nicht so gruselig verrenken."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Come on, let's go!",
        "transl": "Kommt schon, lasst uns gehen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -306,11 +354,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
+      }
+     },
      {
       "message": {
        "orig": "Oh man... not looking forward to that jungle.",
        "transl": "Oh Mann... Auf den Dschungel hab ich ja mal gar keinen Bock."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      null,
@@ -318,12 +375,20 @@
       "message": {
        "orig": "You know... those places are usually filled with insects and bugs?",
        "transl": "Du weißt schon... Da wimmelt es doch nur von Insekten und Käfern."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Please don't let me go there alone, Lea.",
        "transl": "Bitte lass mich da nicht alleine hingehen, Lea, d'accord?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      null,
@@ -349,18 +414,36 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Lea? Is everything alright?",
        "transl": "Lea? Ist alles in Ordnung?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Oui... why are you sitting here like that?",
        "transl": "Oui... Warum hockst du hier so auf dem Boden rum?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      null,
@@ -368,17 +451,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "You know...\\. If something is bothering you, you can just tell us about it.",
        "transl": "Du weißt doch...\\. Wenn dich was bedrückt, kannst du es uns doch sagen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That's what \\c[3]friends\\c[0] are for, right?",
        "transl": "Dafür sind \\c[3]Freunde\\c[0] doch da, oder?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      }
     ]

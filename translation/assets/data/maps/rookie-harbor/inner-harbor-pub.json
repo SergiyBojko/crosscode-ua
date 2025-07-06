@@ -80,23 +80,40 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Barkeep Niskeewa",
          "transl": "Kneipenwirt Niskeewa"
+        },
+        "person": {
+         "person": "rookie-harbor.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hey there, \\v[lore.title.seeker].\\. You can make yourself comfortable but you better also order something.",
          "transl": "Moin, moin, Seeker.\\. Du kannst es dir bequem machen, aber du bestellst dann besser auch was."
+        },
+        "person": {
+         "person": "rookie-harbor.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...Hi...",
          "transl": "... Привіт..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        }
       ]
@@ -104,53 +121,90 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Barkeep Niskeewa",
           "transl": "Kneipenwirt Niskeewa"
+         },
+         "person": {
+          "person": "rookie-harbor.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Ah, finally, another \\v[lore.title.seeker] visiting my humble establishment.\\. Are you the one with the new supplies?",
           "transl": "Ah, endlich verirrt sich ein Seeker in mein kleines Etablissement.\\. Bist du derjenige mit dem Nachschub?"
+         },
+         "person": {
+          "person": "rookie-harbor.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "About time.\\. That Mr. Nomsworth promised me those ingredients hours ago.",
           "transl": "Wurde auch Zeit.\\. Dieser Nomsworth hat mir die Zutaten schon vor Stunden zugesagt."
+         },
+         "person": {
+          "person": "rookie-harbor.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Makes me wonder why we even pay fancy paperpushers like him for just doing some calls anyway.",
           "transl": "Da fragt man sich, warum wir solche Bürohengste wie ihn überhaupt bezahlen, nur damit sie hier und da ein paar Anrufe tätigen."
+         },
+         "person": {
+          "person": "rookie-harbor.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Next time I might just contact those doing the real work myself.",
           "transl": "Nächstes Mal mache ich die Anrufe vielleicht einfach selbst."
+         },
+         "person": {
+          "person": "rookie-harbor.female-tall-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Anyway, I'll send him a confirmation about the job.\\. You better go back to him to get your reward.",
           "transl": "Egal. Ich sende ihm eine Bestätigung, dass der Job erledigt ist.\\. Mach dich mal besser wieder auf die Socken, um dir deine Belohnung abzuholen."
+         },
+         "person": {
+          "person": "rookie-harbor.female-tall-black",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -158,23 +212,40 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Barkeep Niskeewa",
          "transl": "Kneipenwirt Niskeewa"
+        },
+        "person": {
+         "person": "rookie-harbor.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I've already transmitted the okay to that good-for-nothing.\\. Better go get your pay before it vanishes from his memory.",
          "transl": "Ich habe dem Taugenichts schon Bescheid gegeben.\\. Geh lieber schnell, sonst vergisst er dich noch."
+        },
+        "person": {
+         "person": "rookie-harbor.female-tall-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]

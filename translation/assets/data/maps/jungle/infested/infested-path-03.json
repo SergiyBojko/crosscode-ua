@@ -836,30 +836,50 @@
       "message": {
        "orig": "Hm...\\. getting kinda hungry for mushrooms.",
        "transl": "Hm...\\. Ich bekomme Hunger auf Pilze."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "Really? Those huge blue and purple mushrooms make you hungry?",
        "transl": "Echt? Diese großen blauen und lila Pilze machen dich hungrig?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Why not?\\. Don't you folks eat cheese with blue mold and stuff like that?",
        "transl": "Warum nicht?\\. Ihr esst doch Käse mit blauem Schimmel und so Zeug?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Whoa, hold up!\\. Let's not fall back to stereotypes here!",
        "transl": "Whoa, mach mal halblang!\\. Komm mir nicht mit Stereotypen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOUT"
       }
      },
      {
       "message": {
        "orig": "But oui...\\. Roquefort is pretty neat sometimes.",
        "transl": "Aber oui...\\. Roquefort ist manchmal super lecker."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      }
     ]
@@ -872,18 +892,30 @@
       "message": {
        "orig": "So many giant mushrooms in this area.\\. Do you think those are edible?",
        "transl": "So viele große Pilze in dieser Gegend.\\. Glaubt ihr, die sind essbar?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "It's safer to assume they're not!",
        "transl": "Es wäre sicherer, anzunehmen, dass sie es nicht sind!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DISGUSTED"
       }
      }
     ]
@@ -905,11 +937,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "...Wait...",
        "transl": "... Зачекай..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -954,25 +995,52 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "cross-worlds.quadroguard-male-blond",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "cross-worlds.triblader-male-black",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hey, thanks for cleaning up this mess!",
        "transl": "Hey, danke, dass du hier wieder für Ordnung gesorgt hast!"
+      },
+      "person": {
+       "person": "cross-worlds.quadroguard-male-blond",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Seriously, how did this even happen?",
        "transl": "Wie ist das überhaupt passiert?"
+      },
+      "person": {
+       "person": "cross-worlds.triblader-male-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      null,
@@ -987,63 +1055,108 @@
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "name": {
        "orig": "Lily",
        "transl": "Lily"
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Priel",
        "transl": "Priel"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hey, Lea. ",
        "transl": "Hey, Lea. "
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So it seems there is this huge commotion going on to the \\c[3]south of the arena\\c[0].",
        "transl": "Irgendwas scheint also gerade für mächtig Wirbel \\c[3]südlich der Arena\\c[0] zu sorgen."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes, there's all kinds of random enemies here!",
        "transl": "Stimmt, hier sind ja alle möglichen Gegner versammelt!"
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "And we all know what that means.\\. Reize must be close.",
        "transl": "Das kann nur eins bedeuten:\\. Reize muss ganz in der Nähe sein."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "We're sorry for all the trouble... but your help would be really appreciated right now.",
        "transl": "Ich weiß, dass wir dir gerade echt viel abverlangen... aber ich fürchte, wir brauchen jetzt nochmal deine Hilfe."
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      }
     ]

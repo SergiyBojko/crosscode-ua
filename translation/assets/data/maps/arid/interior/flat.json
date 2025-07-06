@@ -47,18 +47,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Right. Let there be light.",
        "transl": "Und er sprach: Es werde Licht!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WINK"
       }
      },
      null,
@@ -69,30 +87,62 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Wh...\\. What is this room?",
        "transl": "Wa...\\. Was ist das für ein Zimmer?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Oh...\\. Oh no.",
        "transl": "Oh...\\. Oh nein."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SURPRISED"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      null,
@@ -100,18 +150,30 @@
       "message": {
        "orig": "Uhm...\\. Junge, I sure wonder what room this is?",
        "transl": "Öhm...\\. Junge, ich frag mich echt, was das für ein Zimmer sein soll."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "I certainly don't remember!",
        "transl": "Bei mir klingelt da nichts!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SKEPTICAL"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      null,
@@ -119,54 +181,102 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SKEPTICAL"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
+      }
+     },
      {
       "message": {
        "orig": "...Wait.",
        "transl": "... Зачекай."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "What?",
        "transl": "Що?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_POINT"
       }
      },
      {
       "message": {
        "orig": "...My room?\\. This?\\. Never!",
        "transl": "... Mein Zimmer?\\. Das hier?\\. Du machst Witze!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "LAUGH"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "WHISTLING"
+      }
+     },
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PISSED"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PISSED"
       }
      },
      {
       "message": {
        "orig": "What? Just because my name is written on that letter?",
        "transl": "Was denn? Nur weil mein Name da auf dem Brief steht?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "LAUGH"
       }
      },
      {
       "message": {
        "orig": "That could be anyone called Lukas!",
        "transl": "Das kann doch jeder sein, der Lukas heißt!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
@@ -174,77 +284,147 @@
      null,
      null,
      null,
-     null,
-     null,
      {
-      "message": {
-       "orig": "...",
-       "transl": "..."
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Alright, I give in! It's \\c[3]my room\\c[0]!",
        "transl": "Na gut, ich geb's auf! Das ist \\c[3]mein Zimmer\\c[0]!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "RANTING"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DISGUSTED"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PISSED"
+      }
+     },
      {
       "message": {
        "orig": "I know, it's messy!\\. It's not always like this, I swear!",
        "transl": "Ich weiß, es ist chaotisch!\\. Das sieht aber nicht immer so aus, ich schwör's!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "COMPLAINING"
       }
      },
      {
       "message": {
        "orig": "Please don't judge!",
        "transl": "Mach mir bitte keine Vorwürfe!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WORRIED"
       }
      },
-     null,
      null,
      null,
      null,
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "DISGUSTED"
+      }
+     },
+     {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DISGUSTED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WORRIED"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Pleeaase!\\. You're judging way too hard!",
        "transl": "Ich bitte dich!\\. Sei nicht so streng mit mir!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "COMPLAINING"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      null,
@@ -253,35 +433,66 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
+      }
+     },
      {
       "message": {
        "orig": "Nooo! Don't go over there!",
        "transl": "Neeein! Geh da nicht hin!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DISGUSTED"
+      }
+     },
      {
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE_EYE_CLOSED"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DISGUSTED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "COMPLAINING"
+      }
+     },
      {
       "message": {
        "orig": "This is the worst...",
        "transl": "Das ist so erniedrigend..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "COMPLAINING"
       }
      },
      null,
@@ -289,28 +500,50 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PISSED"
+      }
+     },
      {
       "message": {
        "orig": "Japp. Very funny.",
        "transl": "Ja ja, lach nur."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PISSED"
       }
      },
      {
       "message": {
        "orig": "Come on, we've seen enough. Let's go.",
        "transl": "Komm schon, wir haben genug gesehen. Lass uns gehen."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WORRIED"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PISSED"
+      }
+     },
      {
       "message": {
        "orig": "Lea, please!",
        "transl": "Lea! Bitte!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "COMPLAINING"
       }
      }
     ]
@@ -324,48 +557,80 @@
       "message": {
        "orig": "Wh-What?! Why is...\\. this room in the game?",
        "transl": "W-Was?! Warum ist...\\. dieser Raum denn hier im Spiel?"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "PANIC"
       }
      },
      {
       "message": {
        "orig": "Why?",
        "transl": "Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "You know what this room is, don't you?",
        "transl": "Du weißt, was das für ein Raum ist, oder?"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "PISSED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Ugh...\\. did they use this to trigger the memories of my Evotar or something like that?",
        "transl": "Uff...\\. Haben die das etwa gemacht, um die Erinnerungen meines Evotars zu forcieren?"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "Seriously, they could have at least captured it in a less embarrassing state.",
        "transl": "Die hätten den Raum wenigstens in einem weniger peinlichen Zustand nachbauen können..."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "It's not always this messy. Only sometimes.",
        "transl": "Es ist nicht immer so unordentlich. Nur manchmal."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "WHISTLING"
       }
      },
      {
@@ -374,42 +639,70 @@
         "message": {
          "orig": "Wait!\\. Is this your room, Lukas?",
          "transl": "Moment mal!\\. Ist das dein Raum, Lukas?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "No.",
          "transl": "Nein."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "PISSED"
         }
        },
        {
         "message": {
          "orig": "Then why would you recognize it?\\. You said something with triggering memories, non?",
          "transl": "Warum hast du ihn dann wiedererkannt?\\. Du hast was von Erinnerungen forcieren gesagt, non?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "WATCH_OUT_BADASS"
         }
        },
        {
         "message": {
          "orig": "It's a room of...\\. a friend.",
          "transl": "Das ist der Raum...\\. von einem Freund von mir."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "EYES_CLOSED"
         }
        },
        {
         "message": {
          "orig": "I see... You should tell your friend he should clean up from time to time.",
          "transl": "Verstehe... Dann sag deinem Freund mal, dass er hin und wieder mal aufräumen soll."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "TAUNTING"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Can we please leave?",
          "transl": "Können wir bitte gehen?"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "PISSED"
         }
        }
       ]

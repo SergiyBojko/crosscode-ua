@@ -581,6 +581,10 @@
         "message": {
          "orig": "Man I sure wish I could jump around like that.",
          "transl": "Mann, ich wünschte, ich könnte auch so rumspringen."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
@@ -589,30 +593,50 @@
           "message": {
            "orig": "Wouldn't that make exploration too easy?",
            "transl": "Würde das Erkunden so nicht viel zu leicht werden?"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "WORRIED"
           }
          },
          {
           "message": {
            "orig": "I guess...\\. but how much fun would it be...?",
            "transl": "Wahrscheinlich...\\. Aber stell dir vor, wie viel Spaß das machen würde!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "UP"
           }
          },
          {
           "message": {
            "orig": "Well, at least we can do our regular small jumps, right?",
            "transl": "Na ja, immerhin können wir unsere normalen, kleinen Sprünge machen, oder?"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "EMBARRASSED"
           }
          },
          {
           "message": {
            "orig": "Oui, regular jumping whenever we want. It's at least something.",
            "transl": "Oui, normal herumspringen wann immer wir wollen. Das ist immerhin etwas."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "MOPING"
           }
          }
         ]
@@ -636,48 +660,86 @@
        "transl": "Hast du schon mal vom \\c[3]Alten Krieg\\c[0] gehört?"
       },
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "'Sup! You wanna know more about the \\v[lore.unlock.old-war]\\c[3]Old War\\c[0] too? ",
          "transl": "Tachchen! Willst du auch mehr über den \\v[lore.unlock.old-war]\\c[3]Alten Krieg\\c[0] wissen?"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "It's a pretty dark time in human history. Various colonies waged war against each other.",
          "transl": "Das war eine ziemlich düstere Zeit in der Geschichte der Menschheit. Viele Kolonien führten damals Krieg."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "They taught us resources were the trigger but I heard other stories too.",
          "transl": "Es hieß, Ressourcen wären der Grund gewesen. Aber ich habe andere Gerüchte gehört."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Ah, don't worry! It's all in the past now. Like 1000 years past.",
          "transl": "Ah, keine Sorge! Das ist doch alles Schnee von gestern. Schon 1000 Jahre her oder so."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -728,18 +790,30 @@
       "message": {
        "orig": "There really is a lot more water here compared to Autumn's Rise...",
        "transl": "Hier gibt's deutlich mehr Wasser als in Autumn's Rise..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "I suppose they wanted to raise the difficulty.",
        "transl": "Ich glaube, sie wollten damit den Schwierigkeitsgrad erhöhen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "Remember everyone: water is deadly.",
        "transl": "Denkt dran: Wasser ist tödlich."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      }
     ]

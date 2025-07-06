@@ -81,48 +81,86 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "I know you can hear me! Where is he?!",
        "transl": "Я знаю, ти мене чуєш! Де він?!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "YELL"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Shizuka, I have to ask you to leave.",
        "transl": "Шізуко, я мушу попросити тебе піти."
+      },
+      "person": {
+       "person": "antagonists.gautham",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So, you're keeping him here? What do you think you are doing?!",
        "transl": "То ти тримаєш його тут? Про що ти собі думаєш?!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Time is running short. We don't have a choice!",
        "transl": "Час спливає. У нас немає вибору!"
+      },
+      "person": {
+       "person": "antagonists.gautham",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So you abduct a dying person and let him work until his last breath? Is that it?!",
        "transl": "Тож ви викрадаєте невиліковно хворого чоловіка та змушуєте його працювати до смерті? Це ваш план?!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "YELL"
       }
      },
      {
       "message": {
        "orig": "I am going to talk some sense into him! Don't get in my way!",
        "transl": "Я приведу його до тями! Не заважай мені!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "ANGRY"
       }
      },
      {
@@ -151,6 +189,10 @@
       "message": {
        "orig": "Shizuka, please don't do this...",
        "transl": "Шізуко, будь ласка, не роби цього..."
+      },
+      "person": {
+       "person": "antagonists.gautham",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -389,18 +431,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Is this...\\. another secluded location?",
        "transl": "Це що...\\. ще одне усамітнене місце?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      }
     ]

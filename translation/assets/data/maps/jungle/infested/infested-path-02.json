@@ -640,6 +640,10 @@
         "message": {
          "orig": "Look, such a nice and perfectly regular mushroom.",
          "transl": "Guck mal, so ein schöner normaler Pilz."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -650,6 +654,10 @@
           "message": {
            "orig": "What an admirable and perfectly average mushroom!",
            "transl": "Was für ein vortrefflich gewöhnlicher Pilz!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -658,6 +666,10 @@
           "message": {
            "orig": "That's a nice regular mushroom, isn't it?",
            "transl": "Das ist ein schöner gewöhnlicher Pilz, nicht?"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -668,6 +680,10 @@
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -680,30 +696,50 @@
       "message": {
        "orig": "This part of the jungle is pretty creepy, non?",
        "transl": "Dieser Teil des Dschungels ist ziemlich gruselig, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "What is it, Pentafist?\\. Are you afraid?",
        "transl": "Was ist los, Pentafist?\\. Hast du Angst?"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "I have a name, Grasshead.",
        "transl": "Ich habe einen Namen, Monsieur Graskopf."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "So do I...",
        "transl": "Ich ebenfalls..."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "...Lea?",
        "transl": "... Лія?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      }
     ]

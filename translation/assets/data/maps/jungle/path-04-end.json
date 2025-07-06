@@ -689,48 +689,86 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hello, Lea!",
           "transl": "Hallo, Lea!<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Hi...",
           "transl": "Привіт..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "It's good to see you again.",
           "transl": "Ich freue mich, dass du wieder da bist."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Well then, the temple should be just to the north of here.",
           "transl": "Also, die Tempel sollten direkt nördlich von hier sein."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But before we go there, let's just wait for a moment?",
           "transl": "Aber bevor wir dort hingehen, lass uns noch einen Augenblick warten, in Ordnung?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         null,
@@ -741,350 +779,650 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
+         }
+        },
         {
          "message": {
           "orig": "Bonjour, Tronny.",
           "transl": "Bonjour, Tronny."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "SUSPICIOUS"
          }
         },
         {
          "message": {
           "orig": "H-Hello.",
           "transl": "H-Hallo."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "TOWARD"
          }
         },
         null,
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "MOPING"
+         }
+        },
         {
          "message": {
           "orig": "So, was it my imagination or did I just spot a certain horned girl?",
           "transl": "Na, bild' ich mir das ein oder hab ich da nicht gerade ein gewisses gehörntes Mädchen gesehen?"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "MOPING"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
+         }
+        },
         {
          "message": {
           "orig": "Come on, Lea. Don't hide.",
           "transl": "Komm schon, Lea. Du brauchst dich nicht zu verstecken."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
          }
         },
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SAD"
+         }
+        },
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "ANGRY"
+         }
+        },
         {
          "message": {
           "orig": "...Hi.",
           "transl": "... Привіт."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SAD"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "ANGRY"
          }
         },
         {
          "message": {
           "orig": "Why is she here?",
           "transl": "Warum ist SIE hier?"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "MOPING"
          }
         },
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
+         }
+        },
         {
          "message": {
           "orig": "Well...\\. I invited both of you, see?",
           "transl": "Na ja...\\. weißt du, ich habe euch beide eingeladen."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
          }
         },
         {
          "message": {
           "orig": "I heard that things have been somewhat complicated between you two.",
           "transl": "Ich habe gehört, dass ihr beiden euch gerade nicht gut versteht..."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SAD"
          }
         },
         {
          "message": {
           "orig": "Ever since the raid....",
           "transl": "Seit dem Raid..."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "WORRIED"
          }
         },
         null,
-        null,
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "MOPING"
+         }
+        },
         {
          "message": {
           "orig": "Oui, you could say that again. ",
           "transl": "Oui, das kannst du laut sagen."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "MOPING"
          }
         },
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SAD"
+         }
+        },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SAD"
          }
         },
         {
          "message": {
           "orig": "I'm still bummed that we had to cancel it.",
           "transl": "Ich find's immer noch doof, dass wir ihn abbrechen mussten."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "ANGRY"
          }
         },
         {
          "message": {
           "orig": "Then, Lea has been gone for so long and now she's acting all strange.",
           "transl": "Dann verschwand Lea für eine ganze Weile und seitdem sie wieder hier ist, ist sie so komisch.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "MOPING"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SAD"
          }
         },
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "MOPING"
+         }
+        },
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "EXHAUSTED"
+         }
+        },
         {
          "message": {
           "orig": "Yes, I've heard as much.",
           "transl": "Ja, das habe ich auch gehört."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EXHAUSTED"
          }
         },
         {
          "message": {
           "orig": "It's all just inherently difficult, you know, since Lea can't talk and explain herself.",
           "transl": "Das ist alles schon schwer genug, da Lea ja nicht für sich selbst sprechen kann."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SAD"
          }
         },
         {
          "message": {
           "orig": "But...\\. is there really a need to know exactly what happened?",
           "transl": "Aber...\\. ist es wirklich notwendig, zu wissen, was genau passiert ist?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "TOWARD"
          }
         },
         {
          "message": {
           "orig": "Oui.\\. I mean it would at least help!",
           "transl": "Oui.\\. Ich meine, das ist ja wohl das Mindeste!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "SCOLDING"
          }
         },
         {
          "message": {
           "orig": "Oh, bother...",
           "transl": "Oh Mann...<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EXHAUSTED"
          }
         },
         {
          "message": {
           "orig": "Let me just try and ask Lea a couple of questions, okay?",
           "transl": "Lass mich versuchen, Lea ein paar Fragen zu stellen, in Ordnung?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
          }
         },
         {
          "message": {
           "orig": "Sure, give it your best shot.",
           "transl": "Sicher, nur zu."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "SUSPICIOUS"
          }
         },
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
+         }
+        },
         {
          "message": {
           "orig": "Okay, Lea, first of all...",
           "transl": "Also, Lea, dann mal von Anfang an...<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Did you \\c[3]intentionally\\c[0] leave the raid?\\. Was it something you wanted to do?",
           "transl": "Hast du \\c[3]absichtlich\\c[0] den Raid verlassen?\\. War das etwas, was du tun wolltest?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "...!?",
           "transl": "...!?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "[shakes head]",
           "transl": "[schüttelt Kopf]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SHAKE_EYE_CLOSED"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
+         }
+        },
         {
          "message": {
           "orig": "Was it some kind of accident?\\. Or something else outside your control?",
           "transl": "War es eine Art Unfall?\\. Oder höhere Gewalt?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "TOWARD"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "And when we couldn't reach you for a week, was that intentional?",
           "transl": "Und als wir dich eine Woche lang nicht erreichen konnten, war das Absicht?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[shakes head]",
           "transl": "[schüttelt Kopf]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SHAKE"
          }
         },
         {
          "message": {
           "orig": "So in short... all these things that happened are not something you \\c[3]wanted\\c[0] to happen.",
           "transl": "Kurz gesagt... All diese Dinge sind passiert, ohne dass du \\c[3]wolltest\\c[0], dass sie passieren."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Is that correct?",
           "transl": "Ist das korrekt?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Well, you see?",
           "transl": "Siehst du?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
          }
         },
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "SUSPICIOUS"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
+         }
+        },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "SUSPICIOUS"
          }
         },
         {
          "message": {
           "orig": "Then what about that whole thing with Lukas? What was that about?",
           "transl": "Und die ganze Sache mit Lukas? Was sollte das?"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "MOPING"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SCARED"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "WORRIED"
+         }
+        },
         {
          "message": {
           "orig": "Emilie, please. I'm sure that's even more difficult to answer.",
           "transl": "Emilie, bitte. Ich bin sicher, dass das schwieriger zu beantworten ist."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "WORRIED"
          }
         },
         {
          "message": {
           "orig": "Instead...\\. let me ask the most important questions.",
           "transl": "Lass mich ihr stattdessen die beiden wichtigsten Fragen stellen."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
+         }
+        },
         {
          "message": {
           "orig": "Lea?",
           "transl": "Лія?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Over all this time, \\c[3]did you miss us\\c[0]?",
           "transl": "Als du fort warst, \\c[3]hast du uns da vermisst\\c[0]?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "TOWARD"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD_SAD"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD_HARD1"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "UNCERTAIN"
+         }
+        },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "UNCERTAIN"
          }
         },
         {
          "message": {
           "orig": "And now...\\. do you want to \\c[3]play with us again\\c[0]?",
           "transl": "Und jetzt...\\. Möchtest du \\c[3]wieder mit uns spielen\\c[0]?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD_HARD2"
          }
         },
         {
          "message": {
           "orig": "L-Lea...",
           "transl": "L-Lea..."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "PRE_CRY"
          }
         },
         {
          "message": {
           "orig": "See? Isn't that all that matters?",
           "transl": "Siehst du? Ist das nicht alles, was zählt?"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
          }
         },
         {
          "message": {
           "orig": "Lea... I...",
           "transl": "Lea... Ich..."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "PRE_CRY"
          }
         },
         null,
@@ -1096,108 +1434,186 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "CRY"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "CRY"
+         }
+        },
         {
          "message": {
           "orig": "I'm sorry!",
           "transl": "Es tut mir leid!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "Lea...\\. chérie...",
           "transl": "Lea...\\. Chérie..."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "I missed you, too!",
           "transl": "Ich habe dich auch vermisst!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "Hi!!",
           "transl": "Привіт!!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "I was acting stupid!",
           "transl": "Ich bin so ein Esel!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "I'm so sorry!",
           "transl": "Es tut mir so leid!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "Hi!!",
           "transl": "Привіт!!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "I don't know what came over me...",
           "transl": "Ich weiß nicht, was mit mir los war...<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "PRE_CRY"
          }
         },
         {
          "message": {
           "orig": "I was just so angry...",
           "transl": "Ich war einfach nur wütend..."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "PRE_CRY"
          }
         },
         {
          "message": {
           "orig": "When you suddenly disappeared...",
           "transl": "Als du so plötzlich verschwunden bist..."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "PRE_CRY"
          }
         },
         {
          "message": {
           "orig": "I was angry...\\. but I also missed you.",
           "transl": "... war ich wütend...\\. aber ich habe dich auch vermisst."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "PRE_CRY"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "I just wanted to know what happened...\\. I was frustrated...",
           "transl": "Ich wollte einfach nur wissen, was passiert ist...\\. Ich war so frustriert..."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "PRE_CRY"
          }
         },
         {
          "message": {
           "orig": "But it's okay...\\. I don't have to know everything.",
           "transl": "Aber das ist okay...\\. Ich muss nicht alles wissen."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "PRE_CRY"
          }
         },
         {
          "message": {
           "orig": "You always meant well!",
           "transl": "Du hast es immer gut gemeint!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "I should have known that!",
           "transl": "Wie konnte ich das nur vergessen?"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "Hi...",
           "transl": "Привіт..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "CRY"
          }
         },
         null,
@@ -1207,17 +1623,30 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
+         }
+        },
         {
          "message": {
           "orig": "There you go!",
           "transl": "Na also!"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "I'm glad we worked this out!",
           "transl": "Ich bin froh, dass wir das geklärt haben!"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
          }
         },
         null,
@@ -1228,30 +1657,56 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "CRY"
+         }
+        },
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "SHOCKED"
+         }
+        },
         {
          "message": {
           "orig": "Wa...",
           "transl": "Wa..."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SHOCKED"
          }
         },
         {
          "message": {
           "orig": "Hi!!",
           "transl": "Привіт!!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "CRY"
          }
         },
         {
          "message": {
           "orig": "W-Well...",
           "transl": "Hehe..."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "EMBARRASSED"
          }
         },
         {
          "message": {
           "orig": "It's good to have you back, Lea!",
           "transl": "Schön, dass du wieder bei uns bist, Lea!"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
          }
         },
         null,
@@ -1260,55 +1715,102 @@
         null,
         null,
         null,
-        null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "PRE_CRY1"
+         }
+        },
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
+         }
+        },
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "EMBARRASSED"
+         }
+        },
         {
          "message": {
           "orig": "Finally back together...",
           "transl": "Endlich wieder vereint..."
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "EMBARRASSED"
          }
         },
         {
          "message": {
           "orig": "Hi...",
           "transl": "Привіт..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "TOUCHED"
          }
         },
         {
          "message": {
           "orig": "And...\\. just in time for the dungeon race, non?",
           "transl": "Und...\\. gerade rechtzeitig für unser Dungeon-Rennen, non?"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "That's right! We've all finished the mandatory quest, so we're good to go!",
           "transl": "Stimmt! Wir haben alle die Pflicht-Quest erledigt, also sind wir startklar!"
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Parfaitement! ",
           "transl": "Parfaitement! "
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "So what are we waiting for? Let's go!",
           "transl": "Also, worauf warten wir noch? Allez, allez!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "...!!",
           "transl": "...!!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         null,
@@ -1319,12 +1821,26 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "W-Wait... ",
           "transl": "W-Warte..."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
          }
         },
         null,
@@ -1332,36 +1848,60 @@
          "message": {
           "orig": "Did you just reconcile with Emilie and C'tron again?",
           "transl": "Hast du dich gerade mit Emilie und C'tron wieder versöhnt?"
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "THINKING"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Oh...\\. That was quicker than I expected.",
           "transl": "Oh...\\. Das ging schneller als erwartet."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "WHISTLING"
          }
         },
         {
          "message": {
           "orig": "Well...\\. It might be a bit late...\\. but anyway.",
           "transl": "Nun ja...\\. Ist zwar ein bisschen spät...\\. aber trotzdem."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "ROLL_EYES"
          }
         },
         {
          "message": {
           "orig": "Here's a new word for you. Finally.",
           "transl": "Hier ist ein neues Wort für dich. Endlich."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1373,125 +1913,227 @@
         },
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.sergey",
+          "expression": "WHISTLING"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
+         }
+        },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Sorry.",
           "transl": "Вибач."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Well, I thought...\\. it might have helped?",
           "transl": "Also, ich dachte mir...\\. das hätte vielleicht geholfen?<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "THINKING"
          }
         },
         {
          "message": {
           "orig": "Sorry?",
           "transl": "Вибач?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Yes, I know it is too late now.",
           "transl": "Ja, ich weiß, jetzt ist es zu spät."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "ROLL_EYES"
          }
         },
         {
          "message": {
           "orig": "Sorry.",
           "transl": "Вибач."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Yes, I am sorry.",
           "transl": "Ja, tut mir leid."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "EYES_CLOSED"
          }
         },
         {
          "message": {
           "orig": "Bye.",
           "transl": "Бувай."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
          }
         },
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "UP"
+         }
+        },
         {
          "message": {
           "orig": "Hey, Lea! Let's go!",
           "transl": "Hey, Lea! Lass uns gehen!<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "UP"
          }
         },
         null,
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
+         }
+        },
         {
          "message": {
           "orig": "Sorry.",
           "transl": "Вибач."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "CURIOUS"
+         }
+        },
         {
          "message": {
           "orig": "Ah oui?",
           "transl": "Ah oui?"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "CURIOUS"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.glasses",
+          "expression": "SURPRISED"
+         }
+        },
         {
          "message": {
           "orig": "Hey, I think that's the first time I've heard you say that. I mean \"Sorry\".",
           "transl": "Hey, ich glaube, das ist das erste Mal, dass ich dich das sagen höre. \"Sorry\", meine ich."
+         },
+         "person": {
+          "person": "main.glasses",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "You're right!",
           "transl": "Stimmt!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Well, it's a little late to apologize now, Mademoiselle!",
           "transl": "Tja, ein bisschen spät für eine Entschuldigung, Mademoiselle!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "TAUNTING"
          }
         },
         {
          "message": {
           "orig": "Sorry...",
           "transl": "Вибач..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXHAUSTED"
          }
         },
         {
          "message": {
           "orig": "Haha, pas de problème!",
           "transl": "Hahaha, pas de problème!<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "HAPPY"
          }
         },
         {
          "message": {
           "orig": "Come on, let's not waste any more time!",
           "transl": "Los, lasst uns nicht länger rumtrödeln!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         }
        ]
@@ -1508,12 +2150,20 @@
       "message": {
        "orig": "Mon dieu...",
        "transl": "Mon Dieu..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "We ended up in a pretty strange corner again, didn't we?",
        "transl": "Schon wieder so ein seltsamer Ort, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      }
     ]
@@ -1526,12 +2176,20 @@
       "message": {
        "orig": "We've been walking around for some time now.\\. Where is the temple?",
        "transl": "Wir sind jetzt schon eine ganze Weile unterwegs.\\. Wo ist der Tempel?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "We should be very close!",
        "transl": "Wir sind fast da!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
       }
      }
     ]
@@ -1546,11 +2204,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DOWN"
+      }
+     },
      {
       "message": {
        "orig": "This place...",
        "transl": "Dieser Ort..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      null,
@@ -1558,72 +2225,132 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DOWN"
+      }
+     },
      {
       "message": {
        "orig": "This was another place where I waited for you, wasn't it?",
        "transl": "Dies war ein weiterer Ort, an dem ich auf dich gewartet habe, nicht wahr?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "You certainly made me wait a lot...",
        "transl": "Du hast mich ganz schön oft warten lassen..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Heh...\\. I'm not even sure if I waited for all that long.",
        "transl": "Heh...\\. Ich bin mir nicht mal sicher, ob ich wirklich so oft gewartet habe."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DOWN"
+      }
+     },
      {
       "message": {
        "orig": "Hm...\\. \\c[3]Someone else\\c[0] was here as well, right?\\. That time we met.",
        "transl": "Hm...\\. Es war noch \\c[3]jemand anderes\\c[0] hier mit uns, oder?\\. Als wir uns damals trafen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "PONDERING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "What was her name again...?",
        "transl": "Wie hieß sie doch gleich...?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Ellen...?",
        "transl": "Ellen...?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
      null,
@@ -1632,42 +2359,70 @@
       "message": {
        "orig": "Oh!\\. \\c[3]Emilie\\c[0], wasn't it?",
        "transl": "Oh!\\. \\c[3]Emilie\\c[0], richtig?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD_HAPPY"
       }
      },
      {
       "message": {
        "orig": "That's right...\\. We played this game together for a while.",
        "transl": "Genau...\\. Wir haben das Spiel eine Weile zusammen gespielt."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "And if I remember correctly...\\. you two had this \\c[3]argument\\c[0]...",
        "transl": "Und wenn ich mich richtig erinnere...\\. hattet ihr beide einen \\c[3]Streit\\c[0]..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SLEEP"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD_HARD1"
       }
      },
      null,
@@ -1675,24 +2430,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "PRE_CRY1"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "Oh!\n",
        "transl": "Oh!\n"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PRE_CRY1"
       }
      },
      {
       "message": {
        "orig": "This feels...\\. strangely familiar as well.",
        "transl": "Das...\\. fühlt sich auch seltsam vertraut an."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      null,
@@ -1701,48 +2478,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "I remember...",
        "transl": "Ich erinnere mich..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "I arranged this meeting for you and Emilie, so you could talk it out.",
        "transl": "Ich habe dieses Treffen für dich und Emilie arrangiert, damit ihr euch aussprechen konntet."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Did that actually work?",
        "transl": "Hat es seinen Zweck erfüllt?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "That's...\\. good.",
        "transl": "Das...\\. freut mich."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "I remember that it felt good to be helpful like that.\n",
        "transl": "Ich erinnere mich, dass es sich gut anfühlte, euch geholfen zu haben."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SLEEP"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "PONDERING"
       }
      },
      null,
@@ -1751,65 +2566,115 @@
       "message": {
        "orig": "Yet...\\. somehow it felt wrong.",
        "transl": "Und doch...\\. fühlte es sich irgendwie falsch an."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Like...\\. it didn't feel as good as it should have.",
        "transl": "Es fühlte sich nicht so gut an, wie es sich hätte anfühlen sollen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Why?",
        "transl": "Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "I'm...\\. not sure.",
        "transl": "Ich...\\. weiß es nicht."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "Is there maybe another place we can visit?",
        "transl": "Gibt es vielleicht noch einen anderen Ort, der uns weiterbringen könnte?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,

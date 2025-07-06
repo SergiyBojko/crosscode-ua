@@ -99,30 +99,56 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "I hate this cave. Way too gloomy and wet. Ruins ma suit, ya know?",
           "transl": "Ich hasse diese Höhle. Viel zu düster und nass. Ruinen liegen mir mehr, weißte?"
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Yeah... Never assumed you'd understand.",
           "transl": "Ja... Hätte nich' gedacht, dass du das verstehs'."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "We're almost there, just down this way.",
           "transl": "Wir sind fast da, einfach den Weg da lang."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         }
        ]

@@ -69,18 +69,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "ANGRY"
+      }
+     },
      {
       "message": {
        "orig": "I'm sorry, but I can't let you go any further.",
        "transl": "Вибач, але я не можу дозволити тобі його побачити."
+      },
+      "person": {
+       "person": "antagonists.gautham",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "... \\.Really?",
        "transl": "...\\. Справді?"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "ANNOYED"
       }
      }
     ]
@@ -148,6 +166,10 @@
       "message": {
        "orig": "You will have to do better than that.",
        "transl": "Цим тобі мене не зупинити!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "ANNOYED"
       }
      }
     ]
@@ -394,12 +416,20 @@
       "message": {
        "orig": "Now that I think about it... Satoshi did mention an unused location within Sapphire Ridge back then.",
        "transl": "Якщо подумати... Сатоші колись згадував про невикористану ділянку в Сапфіровому Хребті."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "He must have been talking about this place.",
        "transl": "Він, мабуть, мав на увазі це місце."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]

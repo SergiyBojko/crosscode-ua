@@ -405,36 +405,66 @@
       "thenStep": [
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "This is \\c[3]So'najiz Temple\\c[0]. One of the temples in Gaia's Garden.",
          "transl": "Das ist der \\c[3]So'najiz-Tempel\\c[0]. Einer der Tempel in Gaias Garten."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Are you sure you want to enter the dungeon already, Lea?",
          "transl": "Bist du sicher, dass du den Dungeon jetzt schon betreten willst, Lea?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "NOTIFYING"
         }
        },
        {
         "message": {
          "orig": "Shouldn't you meet up with \\c[3]C'tron\\c[0] first?",
          "transl": "Wolltest du dich nicht erst mit \\c[3]C'tron\\c[0] treffen?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ],
@@ -447,40 +477,86 @@
        null,
        {
         "thenStep": [
-         null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "main.glasses",
+           "expression": "EXHAUSTED"
+          }
+         },
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "EXHAUSTED"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
+          }
+         },
          {
           "message": {
            "orig": "Come on, Lea. No more dungeon running today.",
            "transl": "Komm schon, Lea. Heute kein Dungeon-Rennen mehr."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "EXHAUSTED"
           }
          },
          {
           "message": {
            "orig": "There is still another day tomorrow, right?",
            "transl": "Morgen ist auch noch ein Tag, oui?"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "EMBARRASSED"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "MOPING"
           }
          }
         ],
         "elseStep": [
          {
           "thenStep": [
-           null,
-           null,
-           null,
+           {
+            "person": {
+             "person": "main.glasses",
+             "expression": "DEFAULT"
+            }
+           },
+           {
+            "person": {
+             "person": "main.emilie",
+             "expression": "DEFAULT"
+            }
+           },
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
+            }
+           },
            {
             "thenStep": [
              {
               "message": {
                "orig": "Here we go...\\. Let the race continue!!",
                "transl": "Uuund...\\. weiter geht's!!"
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "DETERMINED"
               }
              }
             ]
@@ -491,24 +567,40 @@
               "message": {
                "orig": "Uhm...\\. we already started the race of the \\c[3]Zir'vitar Temple\\c[0].",
                "transl": "Ähm...\\. Wir haben doch schon das Rennen im \\c[3]Zir'vitar-Tempel\\c[0] gestartet."
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "SUSPICIOUS"
               }
              },
              {
               "message": {
                "orig": "I mean we can just put that race on the hold and run the \\c[3]So'najiz Temple\\c[0] instead.",
                "transl": "Aber wir können es ja pausieren und stattdessen den \\c[3]So'najiz-Tempel\\c[0] machen."
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "CURIOUS"
               }
              },
              {
               "message": {
                "orig": "It's your call!",
                "transl": "Deine Entscheidung!"
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "SHRUG"
               }
              },
              {
               "message": {
                "orig": "You want to start the race of the So'najiz Temple?",
                "transl": "Möchtest du das Rennen im So'najiz-Tempel starten?"
+              },
+              "person": {
+               "person": "main.glasses",
+               "expression": "SMILE"
               }
              }
             ],
@@ -519,36 +611,60 @@
                 "message": {
                  "orig": "Hm... Looking at your stats and level, do you really think that you're prepared, Lea?",
                  "transl": "Hm... Wenn ich mir deine Stats so angucke, glaubst du wirklich, dass du vorbereitet bist, Lea?"
+                },
+                "person": {
+                 "person": "main.emilie",
+                 "expression": "SWEATY_SMILE"
                 }
                },
                {
                 "message": {
                  "orig": "...?",
                  "transl": "...?"
+                },
+                "person": {
+                 "person": "main.lea",
+                 "expression": "SURPRISED"
                 }
                },
                {
                 "message": {
                  "orig": "True... I heard your average stats should be somewhat above \\c[3]180\\c[0].",
                  "transl": "Stimmt... Ich habe gehört, dass deine Stats durchschnittlich bei \\c[3]180\\c[0] liegen sollten."
+                },
+                "person": {
+                 "person": "main.glasses",
+                 "expression": "TOWARD"
                 }
                },
                {
                 "message": {
                  "orig": "We can look for better equipment at Basin Keep first, if you want.",
                  "transl": "Wir können vorher nochmal in Burg Bassin nach besserer Ausrüstung schauen, wenn du willst."
+                },
+                "person": {
+                 "person": "main.emilie",
+                 "expression": "CURIOUS"
                 }
                },
                {
                 "message": {
                  "orig": "...",
                  "transl": "..."
+                },
+                "person": {
+                 "person": "main.lea",
+                 "expression": "SURPRISED_TOWARD"
                 }
                },
                {
                 "message": {
                  "orig": "Anyway it's your call!",
                  "transl": "Liegt ganz bei dir!"
+                },
+                "person": {
+                 "person": "main.emilie",
+                 "expression": "SHRUG"
                 }
                }
               ],
@@ -557,6 +673,10 @@
                 "message": {
                  "orig": "I think we're all well prepared, non?",
                  "transl": "Ich glaube, wir sind alle startklar, non?"
+                },
+                "person": {
+                 "person": "main.emilie",
+                 "expression": "SMILE"
                 }
                }
               ]
@@ -565,6 +685,10 @@
               "message": {
                "orig": "Ready to start the race of the So'najiz Temple?",
                "transl": "Bereit für das große Rennen von So'najiz?"
+              },
+              "person": {
+               "person": "main.glasses",
+               "expression": "SMILE"
               }
              }
             ]
@@ -575,18 +699,30 @@
               "message": {
                "orig": "[nods]",
                "transl": "[nickt]"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "NOD"
               }
              },
              {
               "message": {
                "orig": "Okey-dokey!",
                "transl": "Okey-dokey!"
+              },
+              "person": {
+               "person": "main.glasses",
+               "expression": "SMILE"
               }
              },
              {
               "message": {
                "orig": "Everybody get ready!",
                "transl": "Macht euch bereit! Auf die Plätze, feeertig...\\.\\.\\. los!"
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "DETERMINED"
               }
              }
             ],
@@ -595,15 +731,27 @@
               "message": {
                "orig": "[shakes head]",
                "transl": "[schüttelt Kopf]"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "SHAKE"
               }
              },
              {
               "message": {
                "orig": "D'accord, just don't let us wait for too long~",
                "transl": "D'accord, lass uns aber nicht zu lange warteeen~"
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "EMBARRASSED"
               }
              }
             ],
+            "person": {
+             "person": "main.lea",
+             "expression": "SURPRISED_AWAY"
+            },
             "options": [
              {
               "label": {
@@ -626,61 +774,114 @@
              null,
              null,
              null,
-             null,
+             {
+              "person": {
+               "person": "main.lea",
+               "expression": "DEFAULT"
+              }
+             },
              {
               "thenStep": [
-               null,
+               {
+                "person": {
+                 "person": "main.emilie",
+                 "expression": "DEFAULT"
+                }
+               },
                {
                 "message": {
                  "orig": "Hey Lea, we should call C'tron before entering the Temple.",
                  "transl": "Hey, Lea, wir sollten C'tron anrufen, bevor wir in den Tempel gehen."
+                },
+                "person": {
+                 "person": "main.emilie",
+                 "expression": "CURIOUS"
                 }
                },
                {
                 "message": {
                  "orig": "Don't forget about our race, non?",
                  "transl": "Vergiss unser Rennen nicht, oui?"
+                },
+                "person": {
+                 "person": "main.emilie",
+                 "expression": "DETERMINED"
                 }
                },
                {
                 "message": {
                  "orig": "...!",
                  "transl": "...!"
+                },
+                "person": {
+                 "person": "main.lea",
+                 "expression": "ASTONISHED"
                 }
                }
               ]
              },
              {
               "thenStep": [
-               null,
+               {
+                "person": {
+                 "person": "main.glasses",
+                 "expression": "DEFAULT"
+                }
+               },
                {
                 "message": {
                  "orig": "Lea, what about Emilie? We wanted to race the dungeon together, right?",
                  "transl": "Lea, was ist mit Emilie? Wir wollten das Rennen doch zusammen machen, oder?"
+                },
+                "person": {
+                 "person": "main.glasses",
+                 "expression": "TOWARD"
                 }
                },
                {
                 "message": {
                  "orig": "...!",
                  "transl": "...!"
+                },
+                "person": {
+                 "person": "main.lea",
+                 "expression": "ASTONISHED"
                 }
                }
               ]
              }
             ],
             "elseStep": [
-             null,
-             null,
+             {
+              "person": {
+               "person": "main.sergey",
+               "expression": "NOTIFYING"
+              }
+             },
+             {
+              "person": {
+               "person": "main.lea",
+               "expression": "DEFAULT"
+              }
+             },
              {
               "message": {
                "orig": "Lea, what about that dungeon race? You were planning to enter the dungeon together with Emilie and C'tron, right?",
                "transl": "Lea, was ist mit dem Rennen? Du wolltest es doch mit Emilie und C'tron zusammen machen, richtig?"
+              },
+              "person": {
+               "person": "main.sergey",
+               "expression": "NOTIFYING"
               }
              },
              {
               "message": {
                "orig": "...!",
                "transl": "...!"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "ASTONISHED"
               }
              }
             ]
@@ -710,19 +911,42 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Standing in front of \\c[3]So'najiz Temple\\c[0]!",
        "transl": "Darf ich vorstellen? Der \\c[3]So'najiz-Tempel\\c[0]!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "So nice~",
        "transl": "So nice~"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      null,
@@ -730,30 +954,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hey Tronny...\\. Tronny...\\. you see this?",
        "transl": "Hey, Tronny...\\. Hast du gesehen?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "TAUNTING"
       }
      },
      {
       "message": {
        "orig": "It's in the middle of a \\c[3]lake\\c[0].",
        "transl": "Der Tempel liegt mitten auf einem \\c[3]See\\c[0]."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "WATCH_OUT_BADASS"
       }
      },
      {
       "message": {
        "orig": "Yes...\\. it is.\\. What about it?",
        "transl": "Ja...\\. das tut er.\\. Warum?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "Oh...\\. nothing.",
        "transl": "Och...\\. nur so."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      }
     ]

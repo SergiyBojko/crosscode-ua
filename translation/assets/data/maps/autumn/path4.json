@@ -538,39 +538,73 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "Hello. I am the canonical NPC.",
          "transl": "Hallo. Ich bin ein kanonischer NPC."
         }
        },
        {
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "message": {
          "orig": "...",
          "transl": "..."
         }
        },
        {
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "Nice weather today, right?",
          "transl": "Schönes Wetter, nicht wahr?"
         }
        },
        {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "...",
          "transl": "..."
         }
        },
        {
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "RIGHT?!",
          "transl": "NICHT WAHR?!"
         }
        },
        {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        },
         "message": {
          "orig": "...",
          "transl": "..."
@@ -708,126 +742,216 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Sorry, I'm kinda in the middle of something here...",
           "transl": "Entschuldige, aber ich bin hier quasi gerade mitten in was drin..."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Oh wait. You're that girl\\..\\..\\.. Lea, right?",
           "transl": "Oh, Moment. Du bist dieses Mädchen\\..\\..\\.. Lea, richtig?"
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Jean already told me you'd come. ",
           "transl": "Jean hat mir schon gesagt, dass du kommen würdest."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Sorry to get you involved. I can't understand why she's not using the Direct Link.",
           "transl": "Tut mir leid, dass du hier bisher nur den Vermittler spielst. Ich verstehe nicht, wieso sie nicht einfach den Direkt-Link verwendet."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Yeah, anyway.",
           "transl": "Tja, wie dem auch sei."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "This is about the bunny or whatever she saw right?",
           "transl": "Das ist wegen diesem Hasen oder was auch immer sie gesehen hat, richtig?"
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "I do remember that you can summon some sort of \\c[3]Legendary Bunny\\c[0] by collecting 5 \\c[3]\\v[item.139.name]s\\c[0] somewhere in \\c[3]Bergen Trail\\c[0].",
           "transl": "Ich erinnere mich, dass man einen gewissen \\c[3]Legendären Hasen\\c[0] beschwören kann, indem man fünf \\c[3]Gefrorene Karotten\\c[0] irgendwo auf dem \\c[3]Bergen-Trail\\c[0] sammelt."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But there was another requirement. I can't remember what it was. Maybe our Hexacast-friend Jock knows more about it.",
           "transl": "Es gab da noch eine Voraussetzung - ich weiß aber nicht mehr, was das war. Vielleicht weiß unser Hexacast-Freund Jock mehr darüber."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "name": {
           "orig": "Jeff",
           "transl": "Jeff"
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Yep, that's all. Also, I'm \\c[3]Jeff\\c[0], nice to meet you.",
           "transl": "Joa, das wär's. Übrigens, ich bin \\c[3]Jeff\\c[0]. Schön, dich kennenzulernen."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi Lea, Hi!",
           "transl": "Hi! Lea! Hi!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Ah, there's the problem with the speech module Jean told me about.",
           "transl": "Ah, das Problem mit dem Sprachmodul, davon hat Jean mir erzählt."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Nah, don't sweat it. I'll just DL Jean everything I told you.",
           "transl": "Schon gut, mach dir keinen Stress. Ich d-linke gleich alles an Jean."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "She should learn how to use the Direct Link System anyhow.",
           "transl": "Sie sollte eh mal lernen, wie man damit umgeht."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -839,31 +963,56 @@
         "name": {
          "orig": "Jeff",
          "transl": "Jeff"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blond",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi Lea.",
          "transl": "Hi, Lea."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "I DL'd Jean everything, so you don't have to tell her. ",
          "transl": "Ich habe Jean grad alles gelinkt, du musst ihr das also nicht mehr berichten."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ]
@@ -974,19 +1123,42 @@
      {
       "thenStep": [
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Bonjour, Lea!",
          "transl": "Bonjour, Lea!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "There you are! Thanks for dropping by.",
          "transl": "Da bist du ja! Danke fürs Vorbeischauen!"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "LAUGH"
         }
        }
       ]
@@ -995,21 +1167,44 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
        {
         "message": {
          "orig": "Bonjour, Lukas!",
          "transl": "Bonjour, Lukas!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "There you are! Thanks for dropping by.",
          "transl": "Da seid ihr ja! Danke fürs Vorbeischauen!"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "LAUGH"
         }
        }
       ]
@@ -1018,12 +1213,20 @@
       "message": {
        "orig": "Let's just go straight to the headquarters.",
        "transl": "Lasst uns direkt zum Hauptquartier gehen."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "It's to the \\c[3]northeast\\c[0]. Just follow me!",
        "transl": "Es liegt \\c[3]nordöstlich\\c[0] von hier. Folgt mir einfach!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "TOWARDS"
       }
      },
      null,
@@ -1034,12 +1237,20 @@
       "message": {
        "orig": "So how big is your guild, anyway?",
        "transl": "Also, wie groß ist die Gilde eigentlich?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Not big. You're about to see it yourself.",
        "transl": "Nicht groß. Aber ihr werdet es bald selbst sehen."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "SKEPTICAL"
       }
      },
      {
@@ -1116,6 +1327,10 @@
       "message": {
        "orig": "More laser bridges!",
        "transl": "Mehr Laserbrücken!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      }
     ]

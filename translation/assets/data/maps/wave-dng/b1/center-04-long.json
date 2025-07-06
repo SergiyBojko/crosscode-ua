@@ -531,139 +531,242 @@
     "event": [
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "So... Tronny?",
        "transl": "Ähm... Tronny?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Yes?",
        "transl": "Ja?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Isn't this dungeon an amazing place?",
        "transl": "Ist der Dungeon hier nicht ein erstaunlicher Ort?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "TAUNTING"
       }
      },
      {
       "message": {
        "orig": "It is! Quite amazing to see the bottom of the lake like this.",
        "transl": "Und ob! Ziemlich faszinierend, den Grund des Sees so zu sehen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "I actually have to stop myself from staring at it for too long.",
        "transl": "Ich muss mich schon selbst davon abhalten, ihn zu lange anzustarren."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "We're in a race after all.",
        "transl": "Wir sind schließlich mitten im Rennen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Is that all?",
        "transl": "Ist das alles?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Huh? What do you mean?",
        "transl": "Höh? Was meinst du?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "We're below a \\c[3]lake\\c[0]! And there's water everywhere!",
        "transl": "Wir sind unter einem \\c[3]See\\c[0]! Und hier ist überall Wasser!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "Aren't you supposed to complain about \\c[3]water pressure\\c[0] or something?",
        "transl": "Solltest du dich nicht über den \\c[3]Wasserdruck\\c[0] und so'n Zeug beschweren?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Oh...",
        "transl": "Oh..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Well... you see... It's fine here.",
        "transl": "Na ja... weißt du... Hier ist das in Ordnung."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "This is not a natural cave after all.\\. It's a temple constructed by the Ancients.",
        "transl": "Das hier ist ja keine natürliche Höhle.\\. Es ist ein Tempel, der von den Ahnen gebaut wurde."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "I'm sure they have the technology to create a separate circulation of water below a lake.",
        "transl": "Sie verfügten sicher über die Technologie, einen separaten Wasserkreislauf unter einem See zu schaffen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "So my suspension of disbelief isn't really compromised.",
        "transl": "Meine sonst geäußerten Zweifel sind damit also nicht kompromittiert."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Meeeh, this is boring!",
        "transl": "Ah nooon~, das ist doch langweilig!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Lea wait!",
        "transl": "Lea Warte!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Sure, Lea...",
        "transl": "Genau, Lea..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Wait, are you running ahead while we have these conversations?",
        "transl": "Moment, machst du einfach weiter, während wir uns hier unterhalten?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "Okay enough talking, race continues!!",
        "transl": "Ah non! Genug geredet, Rennen geht weiter!!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      }
     ]
@@ -674,109 +777,192 @@
     "event": [
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Bonjour, everyone! How is it going?",
        "transl": "Bonjour, ihr zwei! Wie läuft's?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Pretty well on my side!",
        "transl": "Bei mir ganz gut!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "I'm enjoying this entirely bug-free dungeon!",
        "transl": "Ich genieße diesen käferfreien Dungeon richtig!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHRUG"
       }
      },
      {
       "message": {
        "orig": "Well...\\. it is underwater-themed. Bugs really wouldn't fit in here.",
        "transl": "Na ja...\\. Es ist ein Unterwassertempel. Käfer würden hier nicht wirklich passen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "That's right! Only lots of fish. Fish are ok.",
        "transl": "Stimmt! Dafür eine Menge Fische. Aber Fische sind in Ordnung."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Well...\\. and those blob thingies.",
        "transl": "Und diese Blob-Dinger."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "They're not too bad either. Pretty fun to punch into them!",
        "transl": "Die sind auch nicht schlecht. Macht richtig Spaß, da reinzuprügeln!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DISGUSTED"
       }
      },
      {
       "message": {
        "orig": "So...\\. all those enemies are \\c[3]Wave-themed\\c[0], right?",
        "transl": "Also...\\. All diese Gegner haben etwas mit dem \\c[3]Thema Welle\\c[0] zu tun, richtig?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Does that mean Wave is the element of \\c[3]fish and blob\\c[0]?",
        "transl": "Heißt das, dass Welle das Element von \\c[3]Fischen und Blobs\\c[0] ist?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "I suppose it's related to water, but in an abstract way.",
        "transl": "Ich glaube, es ist mit Wasser verbunden, aber auf abstrakte Art."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "You got \"waves\" in water, but a lot of other things as well...",
        "transl": "Du hast \"Wellen\" im Wasser, aber auch in ganz vielen anderen Dingen..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "I for one am just glad it doesn't include bugs for once.",
        "transl": "Ich bin jedenfalls froh, dass ausnahmsweise mal keine Käfer dazugehören."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Lea wait!",
        "transl": "Lea Warte!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Yes, yes. We get it, Lea.",
        "transl": "Ja, ja. Schon kapiert, Lea."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Let's race on!",
        "transl": "Weiter geht's!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      }
     ]

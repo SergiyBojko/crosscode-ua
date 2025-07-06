@@ -336,14 +336,28 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
        {
         "message": {
          "orig": "Spheromancer Lea! Congratulations on passing the final trial.",
          "transl": "Spheromancer Lea! Glückwunsch zum Bestehen der letzten Prüfung!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -352,24 +366,40 @@
           "message": {
            "orig": "HOW?!",
            "transl": "Як?!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHOCKED"
           }
          },
          {
           "message": {
            "orig": "Do you wonder I got first despite your \\c[1]clear advantage of dealing bugged damage\\c[0]?",
            "transl": "Wunderst du dich, warum ich trotz \\c[1]deines klaren Vorteils durch Schadens-Glitch\\c[0] Erster bin?"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "LECTURING"
           }
          },
          {
           "message": {
            "orig": "Well, that's something only a \\c[1]seasoned Spheromancer\\c[0] can understand!",
            "transl": "Nun, das ist etwas, was sich eben nur einem \\c[1]erfahrenen Spheromancer\\c[0] erschließt!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "CONTENT"
           }
          },
          {
           "message": {
            "orig": "...?",
            "transl": "...?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          }
         ],
@@ -378,12 +408,20 @@
           "message": {
            "orig": "Lea!",
            "transl": "Лія!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
           }
          },
          {
           "message": {
            "orig": "And as expected, both Spheromancers passed first!",
            "transl": "Und, wie erwartet, haben beide Spheromancer die Prüfung als Erste bestanden!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "CONTENT"
           }
          }
         ]
@@ -394,12 +432,20 @@
         "message": {
          "orig": "Spheromancer Lea, what a coincidence! It looks like we both just passed the final trial!",
          "transl": "Spheromancer Lea, was für ein Zufall! Sieht so aus, als hätten wir die letzte Prüfung gleichzeitig bestanden!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ]
@@ -415,21 +461,44 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
        {
         "message": {
          "orig": "Phew! That was quite troublesome!",
          "transl": "Puh, war das anstrengend!"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "All that sword fighting is hard to handle for a mage class.",
          "transl": "Gegen die ganze Schwertkämpferei ist die Magier-Klasse schwer im Nachteil."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
         }
        },
        {
@@ -438,6 +507,10 @@
           "message": {
            "orig": "Oh! I see Apollo is here as well?",
            "transl": "Oh! Apollo ist auch schon hier, wie ich sehe?"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SURPRISED"
           }
          }
         ]
@@ -448,36 +521,60 @@
         "message": {
          "orig": "Oh! Lea... and Apollo?",
          "transl": "Oh! Lea... und Apollo?"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Did you two just finish the quest as well?",
          "transl": "Habt ihr beide auch gerade die Quest geschafft?"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "THOUGHTFUL"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Pretty much, Hexacast!",
          "transl": "Haben wir, Hexacast!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Nice! I just barely managed. ",
          "transl": "Schön! Ich habe es nur mit Ach und Krach geschafft."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "You know...\\. a mage versus a samurai...\\. you can imagine how that goes.",
          "transl": "Wisst ihr...\\. Ein Magier gegen einen Samurai...\\. Ihr könnt euch vorstellen, wie das läuft."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EXHAUSTED"
         }
        }
       ]
@@ -488,20 +585,49 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Phew, that guy sure was fast.",
        "transl": "Mann, war der Kerl schnell."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SURPRISED"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
        {
@@ -510,6 +636,10 @@
           "message": {
            "orig": "Polly! You're here, too? And here I thought you finished that quest already.",
            "transl": "Polly! Du bist auch hier? Und ich dachte, du hättest die Quest bereits erledigt."
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "SURPRISED"
           }
          }
         ],
@@ -518,12 +648,20 @@
           "message": {
            "orig": "Oh, more company appeared.",
            "transl": "Oh, noch mehr Gesellschaft."
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Hello!",
            "transl": "Hallo!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SMILE"
           }
          }
         ]
@@ -534,6 +672,10 @@
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
@@ -542,12 +684,20 @@
           "message": {
            "orig": "Lea! You're here as well?",
            "transl": "Lea! Du bist auch hier?"
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "We just keep running into each other...",
            "transl": "Irgendwie laufen wir uns immer wieder über den Weg..."
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "SURPRISED"
           }
          }
         ],
@@ -556,12 +706,20 @@
           "message": {
            "orig": "Ah I see. You've been doing that quest with Lea, Polly?",
            "transl": "Ach so, du hast die Quest mit Lea gemacht, Polly?"
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "SUSPICIOUS"
           }
          },
          {
           "message": {
            "orig": "Uhm... I thought you were busy today?",
            "transl": "Öhm... Ich dachte, du wärst heute beschäftigt?"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "MOPING"
           }
          }
         ]
@@ -574,11 +732,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "BROKEN"
+      }
+     },
      {
       "message": {
        "orig": "Bug...",
        "transl": "Käfer..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEAD_INSIDE"
       }
      },
      null,
@@ -586,6 +753,10 @@
       "message": {
        "orig": "Bug...\\.\\. Samurai....",
        "transl": "Käfer...\\.\\. Samurai..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEAD_INSIDE"
       }
      },
      null,
@@ -593,111 +764,215 @@
       "message": {
        "orig": "Bug...\\.\\. Samurai...\\.\\. Boss...",
        "transl": "Käfer...\\.\\. Samurai...\\.\\. Boss..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEAD_INSIDE"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SAD"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "Or...\\. was he just a Samurai?\\. I'm not sure...",
        "transl": "Oder...\\. war er bloß ein Samurai?\\. Bin mir nicht sicher..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Maybe his armor just made him kinda... look like a bug?",
        "transl": "Vielleicht hat ihn auch nur seine Rüstung wie einen... Käfer aussehen lassen?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
+      }
+     },
      {
       "message": {
        "orig": "Well, actually...\\. traditional samurai armor is already bug-inspired,\\. so...\\.",
        "transl": "Ja, interessanterweise...\\. ist die traditionelle Samurairüstung von Käfern inspiriert,\\. daher...\\.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
+      }
+     },
      {
       "message": {
        "orig": "Shut up, nerd. ",
        "transl": "Klappe zu, Nerd."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Wait, what's everyone doing here?",
        "transl": "Ui, was macht ihr denn alle hier?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "Did we all just pass this quest at the same time?",
        "transl": "Haben wir jetzt gerade alle gleichzeitig die Quest bestanden?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "Looks like it!",
        "transl": "Sieht so aus!"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Talk about coincidence!",
        "transl": "Was für ein Zufall!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "Oh well...",
        "transl": "Tja..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      {
       "message": {
        "orig": "That certainly was the worst quest ever!",
        "transl": "Pfff... Das war mit Abstand die schlimmste Quest überhaupt!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "And it's DONE!\\. Done and over with!",
        "transl": "Und sie ist ERLEDIGT!\\. Aus und vorbei!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHRUG"
       }
      },
      {
       "message": {
        "orig": "Congratulations, Pentafist!",
        "transl": "Glückwunsch, Pentafist!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Now, the time has come to collect our reward!",
        "transl": "Also dann, es wird Zeit, unsere Belohnung zu empfangen!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      {
       "message": {
        "orig": "Oui, oui. Let's go!",
        "transl": "Oui, oui. Dann mal los!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      }
     ]
@@ -733,11 +1008,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      null,
@@ -748,6 +1032,10 @@
       "message": {
        "orig": "Uhm...\\. did we just...\\. complete the game?\n",
        "transl": "Öhm...\\. Haben wir gerade...\\. das Spiel zu Ende gespielt?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      null,
@@ -755,96 +1043,166 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Sort of.",
        "transl": "Mehr oder weniger."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "We completed the track and now can enter \\c[3]Rhombus Square\\c[0].",
        "transl": "Wir haben den Pfad vollendet und können nun nach \\c[3]Rhombus Square\\c[0]."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "It means we reached the \\c[3]end game\\c[0]!",
        "transl": "Das bedeutet, wir haben die \\c[3]Endphase\\c[0] erreicht!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      {
       "message": {
        "orig": "Wha...",
        "transl": "Wa..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "I was expecting another dungeon!",
        "transl": "Ich dachte, da kommt noch ein Dungeon!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "BROKEN"
       }
      },
      {
       "message": {
        "orig": "Yes... and Instatainment is working on it, apparently.",
        "transl": "Ja... und Instatainment arbeitet zur Zeit wohl daran.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "People are hoping for an update that will complete the Track.",
        "transl": "Die Leute hoffen auf ein Update, das den Pfad zu Ende führen wird."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "So... you're telling me CrossWorlds is still in \\c[3]early access\\c[0]?",
        "transl": "Du... willst mir also sagen, dass CrossWorlds immer noch in der \\c[3]Early Access-Phase\\c[0] ist?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Mon dieu...",
        "transl": "Mon Dieu..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "ANGRY"
+      }
+     },
      {
       "message": {
        "orig": "Complete gaming experiences really have become rare these days.",
        "transl": "Dass so ein Spiel zur Abwechslung mal GANZ spielbar ist, scheint wohl irgendwie nicht mehr drin zu sein."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "You know, at least it's all coherent with the lore.\n",
        "transl": "Ach, weißt du, wenigstens ist die Hintergrundgeschichte in sich stimmig."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Humankind simply has yet to unlock the final part of the track.",
        "transl": "Die Menschheit hat einfach noch den letzten Abschnitt des Pfades freizulegen."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      {
       "message": {
        "orig": "And it will happen if enough Seekers run the track.",
        "transl": "Dazu müssen nur genügend Spieler den Pfad der Ahnen beschreiten."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Oui, oui.\\. That's very convenient.",
        "transl": "Oui, oui.\\. Da haben die es sich ja seeehr einfach gemacht."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Wait...",
        "transl": "Warte mal..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      null,
@@ -853,30 +1211,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Lea, that means Grand Krys'kajo was pretty much our last dungeon race, non?",
        "transl": "Lea, das heißt ja, dass der Große Krys'kajo unser letztes Dungeon-Rennen war, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "So not counting that tutorial dungeon, we had 5 runs in total.",
        "transl": "Abgesehen von diesem Tutorial-Dungeon hatten wir also insgesamt fünf Rennen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "And the final score of Lea versus Emilie is...",
        "transl": "Und damit lautet das Endergebnis von Lea gegen Emilie..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -885,24 +1269,40 @@
         "message": {
          "orig": "\\v[plot.race.leaWins] to \\v[plot.race.emilieWins].",
          "transl": "\\v[plot.race.leaWins] zu \\v[plot.race.emilieWins]."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Man, you really had the upper hand, didn't you?",
          "transl": "Mann, du hattest wirklich die Oberhand, was?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
         }
        },
        {
         "message": {
          "orig": "And here I thought I'd have a chance after I won the tutorial dungeon.",
          "transl": "Und ich dachte, ich hätte eine Chance, nachdem ich im Tutorial-Dungeon gewonnen hatte."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EMBARRASSED"
         }
        }
       ],
@@ -913,24 +1313,40 @@
           "message": {
            "orig": "\\v[plot.race.leaWins] to \\v[plot.race.emilieWins].",
            "transl": "\\v[plot.race.leaWins] to \\v[plot.race.emilieWins]."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "TAUNTING"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXHAUSTED"
           }
          },
          {
           "message": {
            "orig": "Oui, oui! Pentafists are known for speed, non?",
            "transl": "Oui, oui! Pentafists sind doch bekannt für ihre Schnelligkeit, non?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "WATCH_OUT_BADASS"
           }
          },
          {
           "message": {
            "orig": "Still, you've been an honorable opponent, Lea!",
            "transl": "Du warst trotzdem ein würdiger Gegner, Lea!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SMILE"
           }
          }
         ],
@@ -939,18 +1355,30 @@
           "message": {
            "orig": "\\v[plot.race.leaWins] to \\v[plot.race.emilieWins].",
            "transl": "\\v[plot.race.leaWins] to \\v[plot.race.emilieWins]."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "UP"
           }
          },
          {
           "message": {
            "orig": "That's surprisingly balanced, non?",
            "transl": "Das ist überraschend ausgeglichen, non?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "CURIOUS"
           }
          },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          }
         ]
@@ -961,73 +1389,137 @@
       "message": {
        "orig": "Well... it certainly was a lot of fun to do those races!",
        "transl": "Tja... Die Rennen haben echt verdammt viel Spaß gemacht!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Let's continue once new dungeons are added!",
        "transl": "Weißt du was? Wir machen die Rennen einfach weiter, sobald neue Dungeons da sind!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "So... anyone want to check out Rhombus Square?",
        "transl": "Also... Hat jemand Lust, Rhombus Square zu erkunden?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Sure, why not! Where do we have to go?",
        "transl": "Klar, warum nicht! Wie kommen wir denn dahin?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Back to \\c[3]CrossCentral\\c[0], then take the \\c[3]south exit\\c[0].",
        "transl": "Zurück zur \\c[3]CrossCentral\\c[0] und dort den \\c[3]Südausgang\\c[0] nehmen."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Très bien!",
        "transl": "Très bien!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "I honestly just want to get out of this bug infested place, so I'll go ahead!",
        "transl": "Ich will einfach nur weg von dem Käfer-verseuchten Ort hier, ich geh' also schon mal vor!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      {
       "message": {
        "orig": "Let's meet at CrossCentral!",
        "transl": "Treffen wir uns in CrossCentral!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Sounds like a plan.",
        "transl": "Gute Idee."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Alright!",
        "transl": "In Ordnung!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
       }
      },
      null,
@@ -1047,60 +1539,106 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "We did it, Lea! We got the last Shade!",
        "transl": "Wir haben es geschafft, Lea! Wir haben die letzte Form erhalten!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "That means we can also access the northern part of \\c[3]Sapphire Ridge\\c[0].",
        "transl": "Das bedeutet, wir haben nun auch Zugang zum nördlichen Teil des \\c[3]Saphirgrats\\c[0]."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "Hopefully, we will find the place in your dreams somewhere in that area.",
        "transl": "Hoffentlich finden wir den Ort aus deinen Träumen dort irgendwo.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "After all, we are running out of options.",
        "transl": "Uns bleiben nämlich nicht mehr viele Möglichkeiten übrig."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Of course... if you like, you can join the others and explore Rhombus Square first.",
        "transl": "Natürlich kannst du auch erst mit den anderen Rhombus Square erkunden, wenn du willst.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Finding Satoshi's hideout can wait a little bit longer.",
        "transl": "Satoshis Versteck zu finden kann noch ein wenig warten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,

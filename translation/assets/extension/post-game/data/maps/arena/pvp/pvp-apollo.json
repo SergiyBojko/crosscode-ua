@@ -313,18 +313,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Let us show this crowd the pride of our class, Spheromancer Lea!",
        "transl": "Zeigen wir den Zuschauern den Stolz unserer Klasse, Spheromancer Lea!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -344,6 +362,10 @@
           "message": {
            "orig": "Just getting warmed up.",
            "transl": "Ich werde gerade erst warm."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "LECTURING"
           }
          }
         ]
@@ -354,6 +376,10 @@
           "message": {
            "orig": "Let's see how you deal with this!",
            "transl": "Mal sehen, wie wir DAS bekommt!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          }
         ]
@@ -364,6 +390,10 @@
           "message": {
            "orig": "Fine...\\. Time to get serious!",
            "transl": "Nun gut...\\. Jetzt wird's ernst!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          }
         ]
@@ -374,6 +404,10 @@
           "message": {
            "orig": "This isn't over yet!!",
            "transl": "Wir sind noch nicht miteinander fertig!!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          }
         ]
@@ -386,6 +420,10 @@
           "message": {
            "orig": "This is only the beginning!",
            "transl": "Es fängt gerade erst an!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "CONTENT"
           }
          }
         ]
@@ -396,6 +434,10 @@
           "message": {
            "orig": "Is this all Spheromancer Lea?",
            "transl": "Ist das alles, Spheromancer Lea?"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          }
         ]
@@ -408,6 +450,10 @@
             "message": {
              "orig": "Don't think I'll let my guard down!",
              "transl": "Glaube ja nicht, daß ich unachtsam werde!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SHOUTING"
             }
            }
           ],
@@ -416,6 +462,10 @@
             "message": {
              "orig": "Lea! I know you can do better!",
              "transl": "Lea! Ich weiß, daß du mehr drauf hast!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SHOUTING"
             }
            }
           ]
@@ -428,6 +478,10 @@
           "message": {
            "orig": "It's time to end this, here and now!",
            "transl": "Zeit, dem hier und jetzt ein Ende zu bereiten!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          }
         ]
@@ -453,16 +507,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
+      }
+     },
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
+        }
+       },
        {
         "thenStep": [
          {
           "message": {
            "orig": "You won... \\. yet again.",
            "transl": "Du hast gewonnen...\\. Wieder einmal."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "LECTURING"
           }
          }
         ],
@@ -471,6 +539,10 @@
           "message": {
            "orig": "You won. Not bad!",
            "transl": "Du hast gewonnen. Nicht schlecht!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "LECTURING"
           }
          }
         ]
@@ -479,45 +551,78 @@
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "But, there is always a next time, Spheromancer Lea!",
          "transl": "Aber! Es gibt immer ein nächstes Mal, Spheromancer Lea!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        }
       ],
       "elseStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
+        }
+       },
        {
         "message": {
          "orig": "Got you this time!",
          "transl": "Diesmal habe ich dich besiegt!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "CONTENT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "A good fight, Spheromancer Lea!",
          "transl": "Ein guter Kampf, Spheromancer Lea!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Should you seek a rematch, you know where to find me!",
          "transl": "Wenn du eine Revanche willst, weißt du, wo du mich findest!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DETERMINED"
         }
        }
       ]

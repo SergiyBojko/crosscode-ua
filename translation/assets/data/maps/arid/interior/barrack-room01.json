@@ -33,18 +33,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Well here we are.",
        "transl": "Tja, da wären wir."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "My room's up here, yours?",
        "transl": "Mein Zimmer ist hier oben. Und deins?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "UP"
       }
      },
      null,
@@ -54,30 +72,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "I see.\\. Let's try to rest and meet up tomorrow. We'll see what happens.",
        "transl": "Verstehe.\\. Lass uns versuchen, zu schlafen. Wir treffen uns morgen früh wieder und schauen, was passiert."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Good night, Lea.",
        "transl": "Gute Nacht, Lea."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "EYES_CLOSED"
       }
      }
     ]
@@ -91,30 +135,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Alright, guess that's all for today.",
        "transl": "Tjoa, dann war's das für heute."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "See you soon!",
        "transl": "Bis morgen!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "Good night!",
        "transl": "Gute Nacht!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "UP"
       }
      }
     ]
@@ -161,11 +231,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEAD_INSIDE"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEAD_INSIDE"
       }
      }
     ]
@@ -181,24 +260,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
+      }
+     },
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "So...\\. I guess this is where we split.",
        "transl": "Tja...\\. Für heute trennen sich hier wohl unsere Wege."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "Will you be okay by yourself?",
        "transl": "Kommst du alleine klar?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      },
      null,
@@ -206,6 +307,10 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
      null,
@@ -214,24 +319,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "EYES_CLOSED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Things will work out.",
        "transl": "Das wird schon wieder."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD_SAD"
       }
      },
      null,
@@ -240,24 +367,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Good night, Lea.",
        "transl": "Gute Nacht, Lea."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "...Bye.",
        "transl": "... Бувай."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -272,42 +421,76 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Okay then... ",
        "transl": "Also dann..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I hope you can still sleep well after you saw the nightmare that is my flat.",
        "transl": "Ich hoffe, du kriegst von meinem Zimmer heute Nacht keine Alpträume."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Make sure you're well rested for tomorrow.",
        "transl": "Ruh dich gut aus, damit du fit für morgen bist."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "Good night!",
        "transl": "Gute Nacht!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
@@ -321,12 +504,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
+      }
+     },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      }
     ]

@@ -58,36 +58,66 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good day, Madam. Can I help you?",
          "transl": "Guten Tag, junges Fräulein! Kann ich Ihnen helfen?"
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...Hi?",
          "transl": "... Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "I am terribly sorry, but we are currently offering no apartments.",
          "transl": "Es tut mir schrecklich leid, aber zur Zeit bieten wir keine Apartments an."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Please contact our landlord in his office.",
          "transl": "Wenden Sie sich bitte an unseren Vermieter. Sie erreichen ihn in seinem Büro."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ]
@@ -104,160 +134,280 @@
        "quest": [
         null,
         null,
-        null,
-        null,
         {
-         "message": {
-          "orig": "...! ",
-          "transl": "...! "
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...! ",
           "transl": "...! "
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "message": {
+          "orig": "...! ",
+          "transl": "...! "
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Lea, dear!",
           "transl": "Lea, meine Liebe!"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "You've done it again, young lady.",
           "transl": "Du hast es schon wieder geschafft, junge Dame."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Maybe I should see a doctor about my ears...",
           "transl": "Vielleicht sollte ich mit meinen Ohren mal zum Arzt gehen..."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Are you up for finding another piece of broken equipment?",
           "transl": "Hast du Lust auf noch ein zerbrochenes Ausrüstungsteil?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Great! I was just about to skim through these books. A player told me there is a hidden text here that leads to the next one.",
           "transl": "Großartig! Ich war gerade dabei, die Bücher hier durchzuackern. Ein Spieler sagte mir, dass da irgendwo ein versteckter Hinweis sein soll."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "This time we're searching for a \\c[3]Broken Deck\\c[0]. That seems to be the default weapon of Hexacasts. A deck of cards.",
           "transl": "Dieses Mal suchen wir nach einem \\c[3]Kaputten Kartendeck\\c[0]. Kartendecks scheinen die Standardwaffe von Hexacasts zu sein."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Why not help me? We players can simply use our \\c[3]Seeker Sense\\c[0] or whatever it was called.",
           "transl": "Willst du mir helfen? Wir können ja einfach unsere \\c[3]Seeker-Sinne\\c[0] nutzen, oder wie die heißen."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Does come in handy for an old man like me.",
           "transl": "Die kommen einem alten Mann wie mir sehr gelegen."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Anyway, are you ready?",
           "transl": "Wie dem auch sei, bist du bereit?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "accepted": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "Thanks, kid!",
             "transl": "Danke, Kleine!<<A<<[CHANGED 2021/05/22]"
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Only two more to go.",
             "transl": "Nur noch zwei Teile."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "But let's not get ahead of ourselves.",
             "transl": "Aber lass uns hier nicht übermütig werden."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "Judging from the last couple of pieces, this one should be hidden somewhere in \\c[3]\\v[area.jungle.name]\\c[0], right?",
             "transl": "Geht man von den letzten Teilen aus, sollte das nächste irgendwo in \\c[3]Gaias Garten\\c[0] versteckt sein, richtig?"
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Let's just start searching through these books. ",
             "transl": "Dann lass uns mal die Bücher wälzen!"
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "If you find something of use, you can go ahead and look for it. ",
             "transl": "Wenn du etwas Nützliches findest, kannst du dich ja schon mal auf den Weg machen."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You know I'm too old to be running around willy-nilly.",
             "transl": "Weißt du, ich bin einfach zu alt dafür, planlos durch die Gegend zu laufen."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SMILE"
            }
           }
          ],
@@ -266,12 +416,20 @@
            "message": {
             "orig": "Kid, you know why I'm looking for these. Don't leave me hanging.",
             "transl": "Du weißt, warum ich danach suche. Lass mich also nicht hängen, Kleine."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           }
          ]
@@ -281,12 +439,26 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.dkar",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello young lady, found anything of use?",
          "transl": "Hallo, junge Dame. Hast du etwas Nützliches gefunden?"
+        },
+        "person": {
+         "person": "main.dkar",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -295,60 +467,100 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "Good job, kid! So tell me, what is it?",
            "transl": "Gut gemacht, Kleine! Also, schieß los, was hast du gefunden?"
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          },
          {
           "message": {
            "orig": "...Lea?",
            "transl": "... Лія?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "THINKING"
           }
          },
          {
           "message": {
            "orig": "Your name is the clue?",
            "transl": "Dein Name ist der Hinweis?"
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_TOWARD"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
           }
          },
          {
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Lea, I don't know what game you're trying to play but this is no way to treat your elders.",
            "transl": "Lea, ich weiß nicht, welches Spiel du mit mir spielst, aber so behandelt man keine älteren Leute."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          }
         ],
@@ -357,12 +569,20 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Too bad... Guess we just have to keep looking.",
            "transl": "Ach, Mann... Dann müssen wir wohl weiter Ausschau halten."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -372,180 +592,312 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Welcome back kid, any luck finding the \\c[3]Broken Deck\\c[0]?",
           "transl": "Willkommen zurück, Kleine. Hattest du Glück mit dem \\c[3]Kaputten Kartendeck\\c[0]?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "I knew I could depend on you, Lea. ",
           "transl": "Ich wusste, ich kann auf dich zählen, Lea."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "That means there's only one left.",
           "transl": "Das heißt, jetzt fehlt nur noch eins.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         null,
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "How...?",
           "transl": "Як..?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "Mm? What is it, kid?",
           "transl": "Mh? Was ist, Kleine?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Why...?",
           "transl": "Чому...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "I don't understand. Just say what you want.",
           "transl": "Ich versteh die Frage nicht. Sprich dich aus, Kleine."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "[shakes head]",
           "transl": "[schüttelt Kopf]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SHAKE"
          }
         },
         {
          "message": {
           "orig": "You can't say? ",
           "transl": "Du kannst es nicht sagen?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "So you can say some words, but not full sentences?",
           "transl": "Du kannst also einige Worte sagen, aber keine richtigen Sätze?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Well, that sure is weird. I know some people have problems with the talking in this game.",
           "transl": "Das ist wirklich seltsam. Ich weiß, dass einige Leute am Anfang Probleme mit dem Sprechen im Spiel hatten.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But this is new. ",
           "transl": "Aber das ist neu."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Sorry...",
           "transl": "Вибач..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "It's okay, Lea. We'll get around it somehow.",
           "transl": "Schon in Ordnung, Lea. Wir finden schon einen Weg."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I'll just keep asking and you can use your hands, head or whatever possible, okay?",
           "transl": "Ich werde einfach weiter fragen und du benutzt deine Hände, deinen Kopf und alles mögliche, ja?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Alright, so I will just take a wild guess and assume you want to know how this will all work out?",
           "transl": "Also gut, ich rate einfach mal und vermute, du willst wissen, wie das funktionieren soll?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "As you know, my kids always wanted to find the treasure connected to the 5 broken arms.",
           "transl": "Wie du weißt, wollten meine Kinder den Schatz finden, der mit den fünf kaputten Ausrüstungsteilen verbunden ist."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Well... I promised my children we would find it.",
           "transl": "Tja... Ich habe meinen Kindern versprochen, dass wir den Schatz finden werden."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And I want to keep this promise by contacting them once we've found all of the pieces.",
           "transl": "Und ich will mein Versprechen halten und mich melden, sobald wir alle Teile gefunden haben."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "If I tell them I found all the broken bits... Maybe, just maybe, they will play with me again.",
           "transl": "Wenn ich ihnen sage, dass ich all die zerbrochenen Teile gefunden habe, dann…\\. spielen sie vielleicht wieder mit mir."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Thank you for your hard work. It's time for me to go.",
           "transl": "Danke für all deine Mühe. Für mich wird es jetzt Zeit, zu gehen."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -554,6 +906,10 @@
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           }
          ],
@@ -562,6 +918,10 @@
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           }
          ]

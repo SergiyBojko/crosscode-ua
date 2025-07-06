@@ -52,36 +52,66 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Back in the Tower Dungeon.",
        "transl": "Zurück im Turm-Dungeon."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "It looks like the interior has been changed quite a bit, though...",
        "transl": "Sieht so aus, als hätte sich hier drin einiges verändert..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "We had better avoid breaking through walls this time.",
        "transl": "Wir vermeiden es dieses Mal wohl besser, Wände zu durchbrechen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "We are here to take on Gautham's challenge and I am sure he does not want us to cheat.",
        "transl": "Wir sind hier, um Gauthams Herausforderung anzunehmen, und er will sicher nicht, dass wir cheaten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
@@ -90,6 +120,10 @@
         "message": {
          "orig": "Well...\\. not any more than we already are, I suppose.",
          "transl": "Nun...\\. zumindest nicht mehr, als wir es ohnehin schon tun..."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "ROLL_EYES"
         }
        }
       ]
@@ -98,6 +132,10 @@
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]

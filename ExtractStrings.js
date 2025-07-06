@@ -57,6 +57,8 @@ function processJson(value) {
                 out["orig"] = json["en_US"];
                 out["transl"] = json["de_DE"];
                 return out
+            } else if(json.hasOwnProperty("person") && json.hasOwnProperty("expression")) { // keep dialog data for context
+                return json;
             } else { // container obj, ignore all primitives and process nested obj
                 for (k in json) {
                     var key = k;

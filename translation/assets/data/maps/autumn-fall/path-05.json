@@ -6,76 +6,136 @@
    "settings": {
     "blockEvent": [
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "WHISTLING"
+        }
+       },
        {
         "message": {
          "orig": "Lea, that's the route to \\c[3]Gaia's Garden\\c[0].",
          "transl": "Lea, diese Route führt nach \\c[3]Gaias Garten\\c[0]."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You probably should first meetup with \\c[3]Emilie\\c[0] at the \\c[3]First Scholars HQ\\c[0] before you go there.",
          "transl": "Bevor du dort hingehst, solltest du dich mit \\c[3]Emilie\\c[0] im \\c[3]Hauptquartier\\c[0] treffen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "NOTIFYING"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ],
       "elseStep": [
        {
         "thenStep": [
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Lea, that's the way to \\c[3]Gaia's Garden\\c[0]. We wanted to go there together, non?",
            "transl": "Lea, das ist der Weg nach \\c[3]Gaias Garten\\c[0]. Wir wollten da zusammen hingehen, non?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "UP"
           }
          },
          {
           "message": {
            "orig": "But let's wait with that until after the \\c[3]raid\\c[0], d'accord?",
            "transl": "Aber lass uns damit warten, bis der \\c[3]Raid\\c[0] vorbei ist, d'accord?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          }
         ],
         "elseStep": [
-         null,
+         {
+          "person": {
+           "person": "main.sergey",
+           "expression": "WHISTLING"
+          }
+         },
          {
           "message": {
            "orig": "Lea, that's the route to \\c[3]Gaia's Garden\\c[0].",
            "transl": "Lea, diese Route führt nach \\c[3]Gaias Garten\\c[0]."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "I think you wanted to enter that area together with \\c[3]Emilie\\c[0] after you're done with the \\c[3]raid\\c[0], correct?",
            "transl": "Ich glaube, du wolltest dieses Gebiet zusammen mit \\c[3]Emilie\\c[0] nach dem \\c[3]Raid\\c[0] betreten, richtig?"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "WHISTLING"
           }
          },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          }
         ]
@@ -718,6 +778,10 @@
       "message": {
        "orig": "Laser Bridge: Reloaded!",
        "transl": "Laserbücke: Reloaded!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      }
     ]

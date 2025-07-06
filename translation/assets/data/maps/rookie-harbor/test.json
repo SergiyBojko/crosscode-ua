@@ -53,15 +53,33 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "crossovers.turing",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "crossovers.turing",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "A painting is a memory that never fades.",
          "transl": "Ein Gemälde ist eine Erinnerung, die niemals verblasst."
         }
        },
        {
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "message": {
          "orig": "...",
          "transl": "..."

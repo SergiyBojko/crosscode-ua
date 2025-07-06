@@ -666,60 +666,106 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.pentafist-male-rasta",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
+         }
+        },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Girl, you're interfering with our epic stare down!",
           "transl": "Mädel, du störst unser episches Starr-Duell!"
+         },
+         "person": {
+          "person": "cross-worlds.pentafist-male-rasta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Just put the present here. This is not the first time this has happened to me.",
           "transl": "Leg das Geschenk einfach da hin. Das ist nicht das erste Mal, dass mir das passiert."
+         },
+         "person": {
+          "person": "cross-worlds.pentafist-male-rasta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Every major holiday someone brings me a gift. Different player each time. Super weird.",
           "transl": "An jedem größeren Feiertag bringt mir jemand ein Geschenk. Jedes Mal ein anderer Spieler. Sehr seltsam."
+         },
+         "person": {
+          "person": "cross-worlds.pentafist-male-rasta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "Well... Bye...",
           "transl": "Also dann... Bye..."
+         },
+         "person": {
+          "person": "cross-worlds.pentafist-male-rasta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
          }
         }
        ]
@@ -746,6 +792,10 @@
       "message": {
        "orig": "Nice view from here!",
        "transl": "Schöne Aussicht von hier!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      }
     ]
@@ -758,18 +808,30 @@
       "message": {
        "orig": "So many waterfalls! Kind of makes you want to jump into the water.",
        "transl": "So viele Wasserfälle! Da will man glatt ins Wasser springen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Except it's cold. And avatars can't swim. And you really shouldn't swim near waterfalls.",
        "transl": "Mal davon abgesehen, dass es eiskalt ist. Und Avatare nicht schwimmen können. Und man nicht in der Nähe von Wasserfällen schwimmen sollte."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Why did I think that was a good idea again?",
        "transl": "Warum dachte ich nochmal, dass das eine gute Idee wäre?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -784,12 +846,20 @@
         "message": {
          "orig": "You'd think they'd place something unique and interesting on this spot.",
          "transl": "Eigentlich hätte ich hier an dieser Stelle etwas Einzigartiges und Interessantes erwartet."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "It's just a \\c[3]regular\\c[0] rock, though.",
          "transl": "Stattdessen bloß ein \\c[3]stinknormaler\\c[0] Stein."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "CURIOUS"
         }
        }
       ],
@@ -798,6 +868,10 @@
         "message": {
          "orig": "Such a \\c[3]perfectly regular\\c[0] stone here, don't you agree Lea?",
          "transl": "Das hier sieht doch wie ein \\c[3]ganz gewöhnlicher\\c[0] Stein aus, oder, Lea?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "AWAY"
         }
        }
       ]
@@ -806,6 +880,10 @@
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -826,6 +904,10 @@
       "message": {
        "orig": "Tricky laser bridge!!",
        "transl": "Gemeine Laserbrücke!!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      }
     ]
@@ -844,73 +926,126 @@
       "name": {
        "orig": "Bill Masters",
        "transl": "Bill Masters"
+      },
+      "person": {
+       "person": "guards.male-xbox",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "HAHA, take that you traitorous piles of snow!",
        "transl": "HAHA, nehmt DAS, verräterischer Haufen Schnee!"
+      },
+      "person": {
+       "person": "guards.male-xbox",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Yes, excellent work, \\v[lore.title.seeker]!\\. It seems like you mopped them up nicely.",
        "transl": "Ja, ausgezeichnete Arbeit, Seeker!\\. Das war die gerechte Tracht Prügel, die ich im Sinn hatte."
+      },
+      "person": {
+       "person": "guards.male-xbox",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And you secured that location tracking device that those winter soldiers dropped.",
        "transl": "Und du hast das Ortungsgerät sichergestellt, was diese Wintersoldaten hinterlassen haben."
+      },
+      "person": {
+       "person": "guards.male-xbox",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "It should lead you straight to the facility which created all that wonderful weaponry.",
        "transl": "Es sollte dich direkt zur Anlage führen, die all diese wunderbaren Waffen herstellt."
+      },
+      "person": {
+       "person": "guards.male-xbox",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You should locate it and mount a full assault immediately, to secure the weapons for the use of mankind!",
        "transl": "Finde sie und starte sofort einen Frontalangriff, um die Waffen wiederzubeschaffen - für die Menschheit!"
+      },
+      "person": {
+       "person": "guards.male-xbox",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Good.\\. You know what to do.\\. Dismissed!",
        "transl": "Gut.\\. Du weißt, was zu tun ist.\\. Wegtreten!"
+      },
+      "person": {
+       "person": "guards.male-xbox",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye.",
        "transl": "Бувай."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      }
     ]

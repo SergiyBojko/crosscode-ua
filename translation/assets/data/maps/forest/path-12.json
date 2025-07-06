@@ -696,6 +696,10 @@
         "message": {
          "orig": "Sacrebleu, that was one hell of a parkour to get here!",
          "transl": "Sacrebleu, das war eine ganz schöne Plackerei hierherzukommen!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        }
       ],
@@ -706,6 +710,10 @@
           "message": {
            "orig": "Gosh, that was a lot of jumping. It better be worth it!",
            "transl": "Uff, das war echt viel Gespringe. Ich hoffe, es war die Mühe auch wert!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "EXHAUSTED"
           }
          }
         ],
@@ -716,6 +724,10 @@
             "message": {
              "orig": "That was quite the challenging parkour, indeed! Today, we honed our Spheromancer skills even further!",
              "transl": "Das war wahrlich ein herausfordernder Parcours! Und damit eine weitere Verbesserung unserer Spheromancer-Fähigkeiten!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "CONTENT"
             }
            }
           ],
@@ -726,6 +738,10 @@
               "message": {
                "orig": "How did we even get up here?\\. I totally lost track.",
                "transl": "Wie sind wir überhaupt hier hochgekommen?\\. Ich habe die Orientierung verloren."
+              },
+              "person": {
+               "person": "antagonists.sidekick",
+               "expression": "SURPRISED"
               }
              }
             ]
@@ -927,42 +943,76 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.guild-leader",
+          "expression": "SMILE"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "There you are, dear!",
           "transl": "Da bist du ja, Liebes!"
+         },
+         "person": {
+          "person": "main.guild-leader",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "The \\c[3]Ku'lero Temple\\c[0] will open soon!",
           "transl": "Der \\c[3]Ku'lero-Tempel\\c[0] wird bald eröffnet!"
+         },
+         "person": {
+          "person": "main.guild-leader",
+          "expression": "TOWARDS"
          }
         },
         {
          "message": {
           "orig": "But there's still enough time to prepare.",
           "transl": "Aber wir haben noch genug Zeit, um uns vorzubereiten."
+         },
+         "person": {
+          "person": "main.guild-leader",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Just talk to \\c[3]Lukas\\c[0] if you want your current stats evaluated.",
           "transl": "Sprich einfach mit \\c[3]Lukas\\c[0], wenn du deine aktuellen Stats begutachtet haben möchtest."
+         },
+         "person": {
+          "person": "main.guild-leader",
+          "expression": "THINKING"
          }
         },
         {
          "message": {
           "orig": "Now with all that being said...",
           "transl": "Und nun, wo alles gesagt ist..."
+         },
+         "person": {
+          "person": "main.guild-leader",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Are you \\c[3]ready to run the temple\\c[0]?",
           "transl": "Bist du \\c[3]bereit für den Tempel\\c[0]?"
+         },
+         "person": {
+          "person": "main.guild-leader",
+          "expression": "DETERMINED"
          }
         },
         {
@@ -971,18 +1021,30 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Alrighty!",
             "transl": "Alles klärchen!"
+           },
+           "person": {
+            "person": "main.guild-leader",
+            "expression": "SMILE"
            }
           },
           {
            "message": {
             "orig": "Let's all try to get closer to the entrance!",
             "transl": "Lasst uns alle versuchen, näher an den Eingang zu kommen!"
+           },
+           "person": {
+            "person": "main.guild-leader",
+            "expression": "THINKING"
            }
           }
          ],
@@ -991,15 +1053,27 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Alright, dear.\\. Take your time to be well prepared!",
             "transl": "In Ordnung, Liebes.\\. Nimm dir die Zeit, um dich gut vorzubereiten!"
+           },
+           "person": {
+            "person": "main.guild-leader",
+            "expression": "EYES_CLOSED"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
+         },
          "options": [
           {
            "label": {
@@ -1027,18 +1101,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey there!\\. The final temple will open soon!",
          "transl": "Hallöchen!\\. Der letzte Tempel wird bald eröffnet!"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Do you want me to have a look at your stats and equipment?",
          "transl": "Möchtest du, dass ich mir deine Stats und Ausrüstung einmal ansehe?"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "TOWARDS"
         }
        },
        {
@@ -1047,12 +1139,20 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "Okay let's see...",
            "transl": "Okay, lass mal sehen..."
+          },
+          "person": {
+           "person": "main.schneider",
+           "expression": "UP"
           }
          },
          {
@@ -1061,18 +1161,30 @@
             "message": {
              "orig": "Jawohl! I see you're \\c[3]well prepared\\c[0].",
              "transl": "Jawohl! Ich sehe, du bist \\c[3]gut vorbereitet\\c[0]."
+            },
+            "person": {
+             "person": "main.schneider",
+             "expression": "LAUGH"
             }
            },
            {
             "message": {
              "orig": "...!!",
              "transl": "...!!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SMUG"
             }
            },
            {
             "message": {
              "orig": "Good equipment and stats for your level. You'll be fine!",
              "transl": "Gute Ausrüstung und Stats für deinen Level. Das schaffst du locker!"
+            },
+            "person": {
+             "person": "main.schneider",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -1083,24 +1195,40 @@
               "message": {
                "orig": "Hm... I'd say you \\c[3]could do better\\c[0].",
                "transl": "Hm... Ich würde sagen, du könntest \\c[3]besser sein\\c[0]."
+              },
+              "person": {
+               "person": "main.schneider",
+               "expression": "WINK"
               }
              },
              {
               "message": {
                "orig": "...?",
                "transl": "...?"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "SURPRISED_TOWARD"
               }
              },
              {
               "message": {
                "orig": "Things might still work with those stats, but it won't be a breeze.",
                "transl": "Es funktioniert vielleicht noch mit diesen Stats, aber leicht wird es sicher nicht."
+              },
+              "person": {
+               "person": "main.schneider",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "I suggest you look for \\c[3]better equipment\\c[0]. It's the most important factor for your stats.",
                "transl": "Ich schlage vor, dass du \\c[3]bessere Ausrüstung\\c[0] suchst. Das ist am allerwichtigsten für deine Stats."
+              },
+              "person": {
+               "person": "main.schneider",
+               "expression": "TOWARDS"
               }
              }
             ],
@@ -1109,36 +1237,60 @@
               "message": {
                "orig": "Oh junge. You really gotta \\c[3]work on your stats\\c[0]!",
                "transl": "Oh Junge. Du musst wirklich \\c[3]an deinen Stats arbeiten\\c[0]!"
+              },
+              "person": {
+               "person": "main.schneider",
+               "expression": "SERIOUS"
               }
              },
              {
               "message": {
                "orig": "...?",
                "transl": "...?"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "SURPRISED"
               }
              },
              {
               "message": {
                "orig": "Those may have been sufficient back for the raid, but you'll have a \\c[3]hard time\\c[0] for the final temple.",
                "transl": "Die haben vielleicht noch für den Raid gereicht, aber im letzten Tempel wirst du damit \\c[3]große Schwierigkeiten\\c[0] haben."
+              },
+              "person": {
+               "person": "main.schneider",
+               "expression": "SKEPTICAL"
               }
              },
              {
               "message": {
                "orig": "...",
                "transl": "..."
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "NERVOUS"
               }
              },
              {
               "message": {
                "orig": "No really, you really should \\c[3]improve your equipment\\c[0]. It's by far the most important factor for your stats.",
                "transl": "Im Ernst, du solltest deine \\c[3]Ausrüstung dringend verbessern\\c[0]. Das ist am allerwichtigsten für deine Stats."
+              },
+              "person": {
+               "person": "main.schneider",
+               "expression": "WHISTLING"
               }
              },
              {
               "message": {
                "orig": "Also make sure to \\c[3]check your circuit tree\\c[0] if there are any more skills you can learn.",
                "transl": "Du solltest außerdem \\c[3]überprüfen, ob du neue Circuits lernen kannst\\c[0]."
+              },
+              "person": {
+               "person": "main.schneider",
+               "expression": "UP"
               }
              }
             ]
@@ -1151,15 +1303,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Sure thing!\\. Let me know when you change your mind.",
            "transl": "In Ordnung.\\. Dann vertraue ich mal deiner Selbsteinschätzung."
+          },
+          "person": {
+           "person": "main.schneider",
+           "expression": "EYES_CLOSED"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -1241,73 +1405,139 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "It's soooo crowded!",
        "transl": "Boah, ist das voll hier!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "LAUGH"
+      }
+     },
      {
       "message": {
        "orig": "I know, right?\\. Who would have thought?",
        "transl": "Ja, ne?\\. Wer hätte das gedacht?"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "LAUGH"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "TOWARDS"
+      }
+     },
      {
       "message": {
        "orig": "Everyone is here, right?",
        "transl": "Es sind alle da, oder?"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "It should start any moment, now!",
        "transl": "Es sollte jetzt jeden Moment losgehen!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
       }
      },
-     null,
      null,
      null,
      null,
      null,
      null,
      {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "BRIGHT"
+      }
+     },
+     {
       "message": {
        "orig": "Hello everyone!",
        "transl": "Hallo, zusammen!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "BRIGHT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "I heard you're all going to run the new temple together?\n",
        "transl": "Ich habe gehört, dass ihr alle zusammen den neuen Tempel machen wollt?"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "TOWARD"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Yes, my dear! Feel free to join us!",
        "transl": "Ja, meine Liebe! Du kannst dich uns gerne anschließen!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Excellent!",
        "transl": "Ausgezeichnet!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SMUG"
       }
      },
      null,
@@ -1315,30 +1545,56 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "ASKING"
+      }
+     },
      {
       "message": {
        "orig": "Those are a lot of players in one spot!",
        "transl": "Das sind eine Menge Spieler auf einem Fleck!"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "ASKING"
       }
      },
      {
       "message": {
        "orig": "I hope the servers can handle the load.\n",
        "transl": "Ich hoffe, die Server verkraften das.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "ANGRY"
+      }
+     },
      {
       "message": {
        "orig": "Satoshi, mind the immersion, please!",
        "transl": "Satoshi, denk an die Immersion, bitte!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "Oh...\\. pardon!",
        "transl": "Oh...\\. Pardon!"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "AWAY"
       }
      },
      null,
@@ -1353,69 +1609,118 @@
       "message": {
        "orig": "It's the old geezer!\\. And he's flying!",
        "transl": "Das ist der alte Knacker!\\. Und er fliegt!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Welcome, Seekers.",
        "transl": "Willkommen, Seeker."
+      },
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I am very grateful that all of you have assembled here.",
        "transl": "Ich bin euch sehr dankbar, dass ihr euch alle hier versammelt habt."
+      },
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Today is an important day.",
        "transl": "Heute ist ein wichtiger Tag."
+      },
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "It is possibly the biggest milestone of Project Trackwalker.",
        "transl": "Es ist möglicherweise der größte Meilenstein von Operation Pfadläufer."
+      },
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The \\c[3]Ku'lero Temple\\c[0], the final stage of the track, will finally open.",
        "transl": "Der \\c[3]Ku'lero-Tempel\\c[0], die letzte Etappe des Pfades, wird nun endlich eröffnet."
+      },
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Within, we hope to finally find the answers.",
        "transl": "Darin hoffen wir, endlich die Antworten zu finden."
+      },
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "To uncover the secret of the Ancients.",
        "transl": "Um das Geheimnis der Ahnen zu lüften."
+      },
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Now I am counting on you!",
        "transl": "Jetzt zähle ich auf euch!"
+      },
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "To master this final challenge the Ancients have prepared for us.",
        "transl": "Um diese letzte Herausforderung zu meistern, die die Ahnen für uns vorbereitet haben."
+      },
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Good luck and stay vigilant!",
        "transl": "Viel Glück und bleibt wachsam!"
+      },
+      "person": {
+       "person": "advisors.general",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1438,6 +1743,10 @@
       "message": {
        "orig": "LET'S GOOOO!!",
        "transl": "ES GEEEHT LOOOOOS!!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "LAUGHING"
       }
      },
      null,
@@ -1447,6 +1756,10 @@
       "message": {
        "orig": "IT'S DUNGEON TIIIIMEE!!",
        "transl": "ES IST DUNGEON-ZEEEEEEIT!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "HAPPY"
       }
      },
      null,

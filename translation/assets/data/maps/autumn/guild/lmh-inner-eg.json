@@ -122,23 +122,40 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "PuellaDocta",
          "transl": "PuellaDocta"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hey Lea! What are you waiting for? Let's save some peeps in Sapphire Ridge!",
          "transl": "Hey, Lea! Worauf wartest du? Lass uns ein paar Leutchen auf dem Saphirgrat retten!"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ]
@@ -162,7 +179,12 @@
       "transl": "Mitgliederliste"
      },
      "event": [
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       null,
       {
        "text": {
@@ -203,6 +225,10 @@
          }
         }
        ],
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       },
        "options": [
         {
          "label": {
@@ -252,7 +278,12 @@
       "transl": "Mitgliederliste"
      },
      "event": [
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       null,
       {
        "text": {
@@ -299,6 +330,10 @@
          }
         }
        ],
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       },
        "options": [
         {
          "label": {
@@ -348,7 +383,12 @@
       "transl": "Mitgliederliste"
      },
      "event": [
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       null,
       {
        "text": {
@@ -389,6 +429,10 @@
          }
         }
        ],
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       },
        "options": [
         {
          "label": {
@@ -438,7 +482,12 @@
       "transl": "Mitgliederliste"
      },
      "event": [
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       null,
       {
        "text": {
@@ -491,6 +540,10 @@
          }
         }
        ],
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       },
        "options": [
         {
          "label": {
@@ -540,7 +593,12 @@
       "transl": "Mitgliederliste"
      },
      "event": [
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       null,
       {
        "text": {
@@ -581,6 +639,10 @@
          }
         }
        ],
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       },
        "options": [
         {
          "label": {
@@ -676,30 +738,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Welcome to the great Last Minute Heroes headquarters!",
          "transl": "Willkommen im Hauptquartier der Last-Minute-Helden!"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "We're one of CrossWorld's largest guilds and proud of all of our members!",
          "transl": "Wir sind eine der größten Gilden von CrossWorlds und stolz auf alle unsere Mitglieder!"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "That's why you'll find a list of all of them in this room, sorted by character class.",
          "transl": "Deswegen sind sie alle hier nach Charakterklassen aufgelistet."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "They're all great people ready to \\c[3]save the day at the last minute\\c[0]!",
          "transl": "Das sind alles tolle Leute, jederzeit bereit, \\c[3]jemanden in letzter Minute zu retten\\c[0]!"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-red",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -791,48 +879,86 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.geomeio",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Uhm...\\. hello there!",
          "transl": "Öh...\\. ja, hallo!"
+        },
+        "person": {
+         "person": "guests.geomeio",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "That's a lot of paperwork, isn't it?",
          "transl": "Das ist 'ne Menge Papierkram, was?"
+        },
+        "person": {
+         "person": "guests.geomeio",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "You really wouldn't expect to see this in this day and age, right? ",
          "transl": "Würde man gar nicht erwarten, dass es sowas heutzutage noch gibt, oder?"
+        },
+        "person": {
+         "person": "guests.geomeio",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Especially inside an MMO.",
          "transl": "Besonders in einem MMO."
+        },
+        "person": {
+         "person": "guests.geomeio",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -841,12 +967,20 @@
           "message": {
            "orig": "Why?",
            "transl": "Чому?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          },
          {
           "message": {
            "orig": "Are you sure you want to know more?",
            "transl": "Willst du das wirklich wissen?"
+          },
+          "person": {
+           "person": "guests.geomeio",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -855,156 +989,260 @@
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            {
             "message": {
              "orig": "Alright...",
              "transl": "O-kay..."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "So we recently had this survey among all of our guild members.",
              "transl": "Also, wir hatten da kürzlich eine Umfrage unter allen Gildenmitgliedern."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "You know...\\. just deciding what kind of activities we should focus on.",
              "transl": "Um zu entscheiden, auf welche Bereiche wir uns konzentrieren sollen."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "The direction the guild should go in general.",
              "transl": "Die Richtung, in die die Gilde allgemein gehen soll."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "That kind of stuff.",
              "transl": "Solche Dinge halt."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            {
             "message": {
              "orig": "And yes, we could have simply used any online service outside of CrossWorlds.",
              "transl": "Und ja, wir hätten natürlich einfach einen Online-Dienst außerhalb von CrossWorlds nutzen können."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "But no, that wasn't good enough.\\. Proper immersion was important!",
              "transl": "Aber neiiin, die waren ja nicht gut genug! Die Immersion hat gefehlt!"
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "And now I'm here...\\. literally sitting on a pile of official CrossWorlds (trademark) Form Sheets.",
              "transl": "Und jetzt darf ich mich hier durch den ganzen Berg offizieller CrossWorlds(TM)-Formulare durcharbeiten."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "THINKING"
             }
            },
            {
             "message": {
              "orig": "Yes, those exist. ",
              "transl": "Ja, die gibt's wirklich."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "You pay to get your own custom form that you can hand out to your guild members.",
              "transl": "Du kannst maßgeschneiderte Formulare bestellen, die du dann an deine Gildenmitglieder verteilen kannst."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Very basic stuff, multiple-choice questions only.",
              "transl": "Ganz einfache Multiple-Choice-Fragen."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "But yes, that way the survey can be done in-game.",
              "transl": "Und auf diese Weise kann dann eine Umfrage im Spiel durchgeführt werden."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "A bit unnecessary if you ask me, especially considering the cost.",
              "transl": "Etwas unnötig, wenn du mich fragst, vor allem was die Kosten angeht."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "But that's not why I'm standing here.",
              "transl": "Aber das ist nicht der Grund, warum ich hier stehe."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "You see...\\. we messed up the sheet registration.",
              "transl": "Tja...\\. Wir haben leider die Registrierung der Formulare verbockt."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...?",
              "transl": "...?"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SURPRISED"
             }
            },
            {
             "message": {
              "orig": "Normally you'd have all your sheets connected to one result so you can access accumulated values.",
              "transl": "Normalerweise verknüpfst du alle Formulare mit einem Ergebnis, damit du auf die akkumulierten Werte zugreifen kannst."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "However...",
              "transl": "Tja..."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Instead we registered hundreds of individual sheets all with their own little result page with a single data entry.",
              "transl": "Und wir haben Hunderte von einzelnen Formularen mit jeweils einem eigenen Ergebnis registriert. Alle mit nur einem Wert."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...?!",
              "transl": "...?!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SHOCKED"
             }
            },
            {
             "message": {
              "orig": "Yes...\\. and that's why I'm standing here trying to gather a meaningful result so all of this wasn't a waste of time.",
              "transl": "Genau...\\. Und deshalb stehe ich jetzt hier und versuche das wieder gerade zu biegen, damit das nicht alles umsonst war."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "EXHAUSTED"
             }
            },
            {
             "message": {
              "orig": "Well...\\. someone's got to clean up this mess, right?",
              "transl": "Tja....\\. Einer muss den Job ja machen, ne?"
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -1013,21 +1251,37 @@
             "message": {
              "orig": "[shakes head]",
              "transl": "[schüttelt Kopf]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SHAKE"
             }
            },
            {
             "message": {
              "orig": "Yeah, it's better this way.",
              "transl": "Ja, hast recht, ist besser so."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "It's just some trouble I have to deal with.\\. No point worrying about this yourself.",
              "transl": "Ist halt nur die Menge, die einen erschlägt.\\. Und nix, worüber du dir den Kopf zerbrechen musst."
+            },
+            "person": {
+             "person": "guests.geomeio",
+             "expression": "DEFAULT"
             }
            }
           ],
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
+          },
           "options": [
            {
             "label": {
@@ -1049,6 +1303,10 @@
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          }
         ]

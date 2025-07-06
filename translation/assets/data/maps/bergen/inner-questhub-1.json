@@ -95,24 +95,46 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Greetings, \\v[lore.title.seeker].\\. I see you accepted the task of collecting the Temple Mine equipment.",
           "transl": "Grüß dich, Seeker.\\. Ich sehe, du hast die Aufgabe zum Sammeln der Grubenausrüstung angenommen!"
+         },
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Please take this \\c[3]Detector\\c[0] to aid your search.",
           "transl": "Bitte nimm diesen \\c[3]Detektor\\c[0], der dich bei deiner Suche unterstützen wird!"
+         },
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -126,18 +148,30 @@
          "message": {
           "orig": "This detector will notify you when there is lost equipment in the \\c[3]current room\\c[0] of the Temple Mine.",
           "transl": "Dieser Detektor wird dich benachrichtigen, wenn sich verlorene Ausrüstung im \\c[3]aktuellen Raum\\c[0] der \\c[3]Tempelmine\\c[0] befindet."
+         },
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Good luck with the search!",
           "transl": "Viel Glück bei der Suche!"
+         },
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -237,18 +271,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker].\\. Please head down into the basement for an introduction to \\v[area.bergen.name]!",
          "transl": "Sei gegrüßt, Seeker.\\. Um mehr über Bergen zu erfahren, begib dich bitte ins Untergeschoss!"
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -256,42 +308,76 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Greetings, \\v[lore.title.seeker].\\. You just heard the mayor's speech, am I correct?",
           "transl": "Sei gegrüßt, Seeker.\\. Du hast gerade die Rede des Bürgermeisters gehört, korrekt?"
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Good.\\. As he mentioned, some important tools abandoned with the mine are still lost inside of it.",
           "transl": "Gut!\\. Wie er erwähnte, liegen in der Mine immer noch einige wichtige Werkzeuge verschollen."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It would be a great help to the entire town if someone could retrieve them for us.",
           "transl": "Es liegt im Interesse aller Bewohner Bergens, dass wir diese Sachen zurückbekommen müssen."
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Can we count on your help, \\v[lore.title.seeker]?",
           "transl": "Können wir auf deine Hilfe zählen, Seeker?"
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -300,59 +386,106 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Very good!\\. There are three types of equipment missing:\\.\\.\n\\c[3]\\v[item.238.name]\\c[0],\\.\n\\c[3]\\v[item.239.name]\\c[0]\\.\nand \\c[3]\\v[item.240.name]\\c[0].",
             "transl": "Sehr gut!\\. Es fehlen noch drei Arten von Ausrüstung:\\.\\.\n\\c[3]Laser-Spitzhacke\\c[0],\\.\n\\c[3]Laser-TNT\\c[0]\\.\nund die \\c[3]Grubenpläne\\c[0]."
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You should be able to find all of those somewhere within the Temple Mine.",
             "transl": "Du solltest sie irgendwo in der Tempelmine finden.\\. Halte also deine Augen offen."
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Since the equipment might be difficult to spot, we hand out \\c[3]Detectors\\c[0] to support your search.",
             "transl": "Da die Ausrüstung nicht leicht zu finden ist, händigen wir \\c[3]Detektoren\\c[0] zur Unterstützung aus."
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ASTONISHED"
            }
           },
           null,
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "You can receive your detector from my colleague over there.",
             "transl": "Du erhältst deinen Detektor von meiner Kollegin da drüben."
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           },
           null,
           null,
           null,
           null,
-          null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
+          {
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "Stay vigilant, Seeker.",
             "transl": "Bleib wachsam, Seeker."
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -361,12 +494,20 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "That is a shame.\\. In the name of \\v[area.bergen.name], I urge you to reconsider.",
             "transl": "Das ist bedauerlich!\\. Im Namen von ganz Bergen bitte ich dich, deine Entscheidung zu überdenken."
+           },
+           "person": {
+            "person": "advisors.man-small-black",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -376,24 +517,46 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Remember, there are three things missing:\\.\\.\n\\c[3]\\v[item.238.name]s,\\.\nbundles of \\v[item.239.name]\\.\nand the \\v[item.240.name]\\c[0].",
          "transl": "Denk daran, es fehlen noch drei Dinge:\\.\\.\n\\c[3]Eine Laser-Spitzhacke,\\.\nein Päckchen Laser-TNT\\.\nund die Grubenpläne\\c[0]."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You should be able to find all of those somewhere within the Temple Mine.\\. Please stay vigilant when exploring it.",
          "transl": "Du solltest sie irgendwo in der Tempelmine finden.\\. Halte also deine Augen offen."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -401,42 +564,76 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Welcome back, \\v[lore.title.seeker].\\. I see you have found everything we need?",
           "transl": "Willkommen zurück, Seeker.\\. Wie ich sehe, hast du alles gefunden, was wir vermissen?"
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Truly, this is great news!\\. The entire town of Bergen is in your debt!",
           "transl": "Das sind wahrhaft großartige Neuigkeiten!\\. Ganz Bergen steht in deiner Schuld!"
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Lea!",
           "transl": "Лія!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Here, take these humble rewards.\\. You have earned them three times over!",
           "transl": "Hier, nimm dies als Zeichen unserer Dankbarkeit.\\. Du hast es dir doppelt und dreifach verdient! "
+         },
+         "person": {
+          "person": "advisors.man-small-black",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -444,18 +641,36 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker].\\. \\v[area.bergen.name] is in your debt.",
          "transl": "Sei gegrüßt, Seeker!\\. Bergen steht in deiner Schuld."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -589,67 +804,116 @@
          "name": {
           "orig": "Talatu Lips",
           "transl": "Talatu Lips"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "There ya are!",
           "transl": "Da bischte ja!"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Ah've been workin' on a li'l somethin' here.",
           "transl": "I hann anner Kleinigkeit geschaffet."
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "A fancy new hat!",
           "transl": "Ein neues Hütle!"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Haha, now don'tcher look at me like that!",
           "transl": "Haha, jetze schau mi doch net so in!"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It has one o' them nice \\c[3]Modifiers\\c[0].",
           "transl": "Desch Dinge hat eine dieser \\c[3]Modifikatoren\\c[0]."
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Makes it so ya'll can increase yer chance of loot by havin' a high \\c[3]Combat Rank\\c[0].",
           "transl": "So kriegschst mehr von de Beude wennde deinen \\c[3]Kampfrang\\c[0] höher hascht."
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Made it all by mahself. Here take it, sweetheart.",
           "transl": "Hann i sälbr gmacht. Hie, fir di, Mädle."
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -664,49 +928,86 @@
          "name": {
           "orig": "Talatu Lips",
           "transl": "Talatu Lips"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Ya'll like it?",
           "transl": "Mogscht des?"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Glad ta hear it!",
           "transl": "Hah, sche, des zu höre!"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "A'right, Ah'll be off now. Y'all be good now!",
           "transl": "Na denne, isch moche mich mal vom Agger. Bleibsch gesund, ne?"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And keep hittin' them plants fer me, will ya?",
           "transl": "Und kloppschst weiter de Gewäggse?"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         }
        ]

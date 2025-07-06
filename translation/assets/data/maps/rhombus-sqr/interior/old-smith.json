@@ -7,24 +7,46 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Didn't ya read the sign outside?",
          "transl": "Haste das Schild draußen nich' gelesen?"
+        },
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Leave an old man alone.",
          "transl": "Lass einen alten Mann seine Ruhe."
+        },
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -33,24 +55,46 @@
       "event": {
        "quest": [
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Didn't ya read the sign outside?",
           "transl": "Haste das Schild draußen nich' gelesen?"
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Leave an old man alone.",
           "transl": "Lass einen alten Mann seine Ruhe."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Sorry...",
           "transl": "Вибач..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         null,
@@ -58,6 +102,10 @@
          "message": {
           "orig": "You need a smith? ",
           "transl": "Brauchste 'nen Schmied?"
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -65,12 +113,20 @@
          "message": {
           "orig": "Sorry lass, this old geezer wants to enjoy his retirement.",
           "transl": "Tut mir leid, Kleine, aber dieser alte Brummbär will seine Rente genießen."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Better find someone else.",
           "transl": "Musst wen anders fragen."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -78,6 +134,10 @@
          "message": {
           "orig": "How?",
           "transl": "Як?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
@@ -93,220 +153,390 @@
         null,
         null,
         null,
-        null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "...Hi?",
           "transl": "... Привіт?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Been a long time.",
           "transl": "Ist 'ne Weile her."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Well, look who's still alive.",
           "transl": "Da brat mir doch einer 'n Storch. Er lebt tatsächlich noch."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Time sure did no harm to you.",
           "transl": "Die Zeit hat dir wohl nicht geschadet."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Been eating my vegetables, is all.",
           "transl": "Hab halt immer mein Gemüse gegessen."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You haven't lost your cheek, either.",
           "transl": "Und deinem Humor anscheinend auch nicht."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "So, what about this lass?",
           "transl": "Also, was is' mit der Kleinen?"
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "At this point, I'm sure you sent her.",
           "transl": "Jetzt is' mir klar, dass du sie geschickt hast."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "True. Thought the girl might have some trouble convincing you.",
           "transl": "Stimmt. Dachte mir, das Mädchen wird's nicht leicht haben, dich zu überzeugen."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Guess I was right.",
           "transl": "Womit ich wohl recht hatte."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I quit the hermit smith life a long time ago, friend.",
           "transl": "Ich hab den Schmiedehammer schon vor langer Zeit an den Nagel gehängt, mein Freund."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "My creations have long been forgotten, or left broken.",
           "transl": "Meine Werke sind schon lange vergessen oder zerbrochen."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "She has the drill.",
           "transl": "Sie hat den Bohrer."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "The drill you say? How is that old thing still around?",
           "transl": "Den Bohrer? Das alte Ding? Wie kann das sein?"
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Can't stop what drives progress.",
           "transl": "Fortschritt lässt sich nun mal nicht aufhalten."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Was in pretty bad shape when I got my hands on it.",
           "transl": "War ziemlich übel dran, als ich ihn in die Hände bekam."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Did what I could. But it needs the stone.",
           "transl": "Hab versucht, was ich konnte, aber er braucht den Stein."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "The stone? And you think this lass can handle it?",
           "transl": "Den Stein? Und du denkst, die Kleine kann ihn kontrollieren?"
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "Never was more sure about anything.",
           "transl": "War mir einer Sache noch nie so sicher."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Mh...",
           "transl": "Mh..."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Ahhh, fine then. But you know she has to find the fragments of the stones first, aye?",
           "transl": "Ach, was soll's. Ich mach's. Dir ist aber klar, dass sie erst die Steine finden muss?"
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Already did. All you need to do is put 'em together.",
           "transl": "Hat sie schon. Musst sie nur noch zusammenhauen."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Thought of everything, eh?",
           "transl": "An alles gedacht, he?"
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Well, I'll still need an ember strong enough to melt them.",
           "transl": "Nun gut... Ich brauch' aber eine Glut, die stark genug ist, die Steine zu schmelzen."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And the only one strong enough would be a \\c[3]\\v[item.456.name]\\c[0].",
           "transl": "Und das Einzige, was dafür in Frage kommt, ist die \\c[3]Riesenglimmkohle\\c[0]."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "If you bring me one, I can make the stone.",
           "transl": "Wenn du mir welche bringst, mach' ich dir den Stein."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But you know what this means for you?",
           "transl": "Du weißt, was das für dich bedeutet?"
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I'm ready.",
           "transl": "Ich bin bereit."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "Why did I even ask?",
           "transl": "Warum frag' ich überhaupt..."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "So Seeker, find me a \\c[3]\\v[item.456.name]\\c[0]. You might have luck finding one here in \\c[3]\\v[area.rhombus-sqr.name]\\c[0].",
           "transl": "Also, Seeker. Bring mir ein Stück \\c[3]Riesenglimmkohle\\c[0]. Ich bin mir sicher, dass du hier in der Stadt welche findest."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "We'll stay here, have some catching up to do.",
           "transl": "Wir bleiben solange hier, haben einiges nachzuholen."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -314,18 +544,36 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Find me a \\c[3]\\v[item.456.name]\\c[0]. You might have luck finding one here in \\c[3]\\v[area.rhombus-sqr.name]\\c[0].",
          "transl": "Bring mir ein Stück \\c[3]Riesenglimmkohle\\c[0]. Ich bin mir sicher, dass du hier in der Stadt welche finden solltest."
+        },
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -334,25 +582,52 @@
       "event": {
        "quest": [
         null,
-        null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Did you find the ember?",
           "transl": "Hast du die Kohle gefunden?"
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Alright, let's see if these old bones can still create something.",
           "transl": "Na dann... Mal schauen, ob diese alten Knochen noch was zustande bringen."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -372,27 +647,48 @@
          "message": {
           "orig": "You both just wait here. I'll be back in a bit.",
           "transl": "Ihr beide wartet hier. Wird nich' lange dauern."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Fine with me.",
           "transl": "In Ordnung."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "...How?!",
           "transl": "... Як?!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         null,
@@ -400,36 +696,60 @@
          "message": {
           "orig": "Old geezer can't walk. ",
           "transl": "Der Alte kann nicht laufen."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Always used his instant teleportation or whatever he calls it.",
           "transl": "Hat sich immer mittels Sofortteleportation fortbewegt, oder wie immer er das nennt."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Anyway...",
           "transl": "Jedenfalls..."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I will be preparing things on my end. Find me in The \\c[3]Cave Inn\\c[0] once you're done here.",
           "transl": "... werde ich nun meinen Teil der Arbeit vorbereiten. Komm zur \\c[3]Höhlenherberge\\c[0], sobald du hier fertig bist."
+         },
+         "person": {
+          "person": "misc.oldman",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         null,
@@ -450,78 +770,142 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Heh, I still got it.",
           "transl": "Hah! Hab's immer noch drauf."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Here, take a look at this beauty.",
           "transl": "Hier, schau dir diese Schönheit an."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "I haven't felt this alive in a while, lass.",
           "transl": "Hab mich lang nicht mehr so lebendig gefühlt, Kleine."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I guess I have you to thank for that.",
           "transl": "Da muss ich mich wohl bei dir bedanken."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "And it looks like that old fool already left, huh?",
           "transl": "Der alte Narr ist wohl schon gegangen, he?"
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Didn't even say goodbye. He'll never change.",
           "transl": "Hat nicht mal Auf Wiedersehen gesagt. Der ändert sich nie."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Well, my work is done. Go find him to awaken the true power of the drill.",
           "transl": "Meine Arbeit ist getan. Geh nun zu ihm, um die wahre Kraft des Bohrers zu erwecken."
+         },
+         "person": {
+          "person": "misc.oldsmith",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         }
        ]
@@ -529,60 +913,112 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "My work is done. Go find \\c[3]him\\c[0] to awaken the true power of the drill.",
          "transl": "Meine Arbeit ist getan. Geh nun zu \\c[3]ihm\\c[0], um die wahre Kraft des Bohrers zu erwecken."
+        },
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I can see the drill has awakened.",
          "transl": "Ich sehe, der Bohrer ist erwacht."
+        },
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "I will miss that old fool...",
          "transl": "Ich werde den alten Narr vermissen..."
+        },
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SAD"
         }
        },
        {
         "message": {
          "orig": "Don't fret, lass. He'll just be sleeping for a long time.",
          "transl": "Keine Sorge, Kleine. Er wird nur für eine sehr lange Zeit schlafen."
+        },
+        "person": {
+         "person": "misc.oldsmith",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -600,24 +1036,46 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "misc.oldman",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Looks like I can finally see my drill at full power.",
          "transl": "Endlich kann ich meinen Bohrer wieder bei voller Kraft sehen."
+        },
+        "person": {
+         "person": "misc.oldman",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Must have been ages since I last used it.",
          "transl": "Ist 'ne Ewigkeit her, seit ich ihn das letzte Mal benutzt hab'."
+        },
+        "person": {
+         "person": "misc.oldman",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]

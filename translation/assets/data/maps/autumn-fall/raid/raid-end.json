@@ -180,38 +180,78 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.buggy",
+       "expression": "JOKING"
+      }
+     },
      {
       "message": {
        "orig": "Fortress went boom!",
        "transl": "Da hat's die Festung zerfetzt!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "JOKING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "I can't believe we missed that part before!",
        "transl": "Kaum zu glauben, dass wir diesen Teil beim letzten Mal verpasst haben!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Good thing we did the run a second time, eh?",
        "transl": "Gut, dass wir den Raid ein zweites Mal gemacht haben, nöh?"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "Oui!\\. It was awesome!",
        "transl": "Oui!\\. Das war toll!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
@@ -219,47 +259,91 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "NORM_SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Right, Luke?\\. Admit it!\\. It was fun!",
        "transl": "Oder, Luke?\\. Gib's zu!\\. Hat doch Spaß gemacht!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "...\\. Yeah...",
        "transl": "...\\. Joa..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Seriously, what's the matter with you?",
        "transl": "Oh Mann... Jetzt mal im Ernst, was ist los mit dir?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "WORRIED"
+      }
+     },
      {
       "message": {
        "orig": "I'm sorry for what I said before, Luke...\\. It was stupid.",
        "transl": "Tut mir leid, was ich vorhin gesagt habe, Luke...\\. Das war blöd von mir."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "COMPLAINING"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "WORRIED"
+      }
+     },
      {
       "message": {
        "orig": "... ",
        "transl": "... "
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "It's okay.\\. I get it.",
        "transl": "Schon okay, Lukas.\\. Ist angekommen."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WORRIED"
       }
      },
      null,
@@ -272,159 +356,302 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "PONDERING"
+      }
+     },
      {
       "message": {
        "orig": "Oh Junge...",
        "transl": "Oh Junge..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "I must be acting like the biggest jerk right now...",
        "transl": "Ich benehme mich hier wahrscheinlich gerade wie der letzte Vollpfosten..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "COMPLAINING"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Would love to deny, but oui...\\. you kinda are.",
        "transl": "Würd' dir ja gern widersprechen, aber oui...\\. Du sagst es."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "PONDERING"
+      }
+     },
      {
       "message": {
        "orig": "I'm sorry.\n",
        "transl": "Tut mir leid."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "I tried...\n",
        "transl": "Ich hab's versucht..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "I just wanted to go with the flow.\n",
        "transl": "Wollte mich einfach mitreißen lassen."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "NORM_SERIOUS"
       }
      },
      {
       "message": {
        "orig": "To have fun, like all of you.\n",
        "transl": "Und Spaß haben, so wie ihr."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "But...\\. I just couldn't.",
        "transl": "Aber...\\. Ich konnte es einfach nicht."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "I guess switching from an existential crisis to a fun gaming session in one day isn't all that easy.",
        "transl": "Ich glaube, der Wechsel von einer Existenzkrise zu einer heiteren Spielrunde an einem Tag ist gar nicht so einfach."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "SERIOUS"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "WORRIED"
+      }
+     },
      {
       "message": {
        "orig": "I...\\. I'm so sorry Luke.\n",
        "transl": "Es...\\. Es tut mir so leid, Luke."
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "I just thought it would help for you to have a bit of a distraction.\n",
        "transl": "Ich dachte einfach, ein wenig Ablenkung würde dir vielleicht gut tun."
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "WORRIED"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "It's okay. I know you all meant well.",
        "transl": "Schon okay. Ich weiß, dass ihr es alle gut gemeint habt."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "I'm sorry to rain on all your fun with my whining.",
        "transl": "Tut mir leid, dass ich euch den ganzen Spaß mit meinem Gejammere verdorben habe."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "PONDERING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.buggy",
+       "expression": "GRIN"
+      }
+     },
      {
       "message": {
        "orig": "It's fine, man!\\. All that fun couldn't possibly be damped just by you.",
        "transl": "Ach, schon in Ordnung, Mann! Da gehört schon etwas mehr dazu, uns den Spaß zu verderben.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "That's right!",
        "transl": "Stimmt!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "And now we have plenty of time to talk about all your worries, Luke!",
        "transl": "Jetzt haben wir auch genug Zeit, um über all deine Sorgen zu sprechen, Luke!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Oui!\\. And this place here seems like the perfect location as well.\n",
        "transl": "Oui!\\. Und dieser Ort hier scheint dafür genau der richtige zu sein!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "We're not in a rush.\\. Let's just have a seat somewhere.",
        "transl": "Wir haben es ja nicht eilig.\\. Lasst uns mal irgendwo hinsetzen.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "NORM_SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "Sounds good.",
        "transl": "Ja, gute Idee."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
@@ -447,275 +674,509 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "... so I wasted hours and hours on that issue!",
        "transl": "... unterm Strich war also all meine Arbeit daran für die Katz!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "RANTING"
       }
      },
      {
       "message": {
        "orig": "Just because that idiot couldn't write a proper test case.",
        "transl": "Nur weil dieser Idiot keinen richtigen Testfall schreiben konnte."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "PISSED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "SKEPTICAL"
+      }
+     },
      {
       "message": {
        "orig": "Well, the company has a track record of being lazy with testing.",
        "transl": "Tja, die Firma ist bekannt dafür, nachlässig mit Tests umzugehen."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "Yeah...",
        "transl": "Ja..."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "Anyway...\\. that's why I arrived late today.",
        "transl": "Jedenfalls war das der Grund, warum ich heute zu spät kam."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "COMPLAINING"
       }
      },
      {
       "message": {
        "orig": "Figures...",
        "transl": "Ja, habe ich mir schon gedacht..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "SKEPTICAL"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Oh Junge...",
        "transl": "Oh Junge..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "COMPLAINING"
       }
      },
      {
       "message": {
        "orig": "I never expected to say this, but...\\. I kinda miss it.",
        "transl": "Ich hätte nie gedacht, dass ich das mal sage, aber...\\. Ich vermiss' das irgendwie."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "My tiny apartment.\\. That boring job...",
        "transl": "Meine kleine Bude.\\. Der langweilige Job."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "SKEPTICAL"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "SKEPTICAL"
+      }
+     },
      {
       "message": {
        "orig": "Boring...\\. except on release days.",
        "transl": "Ja, langweilig...\\. Bis auf die Tage, an denen wir veröffentlichen mussten."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "Right.\\. Of course.",
        "transl": "Ja.\\. Klar."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WINK"
       }
      },
      {
       "message": {
        "orig": "See?\\. This is the problem.",
        "transl": "Siehst du?\\. Das ist das Problem."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "It all still feels like it was yesterday.\n",
        "transl": "Es fühlt sich alles so an, als wäre es erst gestern gewesen."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "My life just changed so quickly and I have no idea how to cope with it.",
        "transl": "Mein Leben hat sich so schnell verändert und ich habe keine Ahnung, wie ich damit umgehen soll."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "I get that...",
        "transl": "Ja, verstehe ich..."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "NORM_SERIOUS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.buggy",
+       "expression": "DOWN"
+      }
+     },
      {
       "message": {
        "orig": "Yeah... It's really messed up.",
        "transl": "Ja... Ist echt nicht einfach."
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "DOWN"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "WORRIED"
+      }
+     },
      {
       "message": {
        "orig": "What makes it worse though...",
        "transl": "Was das Ganze noch schlimmer macht..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "I still have no idea what I'm supposed to do here all day long.\n",
        "transl": "Ich habe immer noch keine Ahnung, was ich den ganzen Tag hier machen soll."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "Just sitting around my house?\\. Exploring CrossWorlds over and over?",
        "transl": "Soll ich nur in meinem Haus herumsitzen?\\. Oder CrossWorlds immer wieder von vorn erkunden?"
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "How long until that gets really old?",
        "transl": "Wird sicher nicht lange dauern, bis ich das satt habe..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WONDERING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
+      }
+     },
      {
       "message": {
        "orig": "They do have more plans for you, non?",
        "transl": "Sie haben sich doch bestimmt was für dich überlegt, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "Yes, but what plans?",
        "transl": "Ja, aber was?"
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "I guess they'll give you some kind of \"job\".\n",
        "transl": "Ich vermute mal, sie geben dir eine Art \"Job\"."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHRUG"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Oh, that's right!",
        "transl": "Ach ja, genau!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "I heard Al mentioning something before.\n",
        "transl": "Al hatte was in der Richtung erwähnt."
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Something like special quests or events guided by Evotars.",
        "transl": "So etwas wie spezielle Quests oder Ereignisse, die von Evotaren geleitet werden."
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "WONDERING"
+      }
+     },
      {
       "message": {
        "orig": "Huh...",
        "transl": "Hhm..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "That doesn't sound too bad. ",
        "transl": "Hört sich gar nicht mal schlecht an."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I could just give my signature tours to new players and all that.",
        "transl": "Ich könnte neuen Spielern einfach meine berühmten Stadtführungen geben und Ähnliches."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "Honestly though...",
        "transl": "Aber jetzt mal ehrlich..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Why'd nobody told me this before?",
        "transl": "Warum hat mir das denn keiner vorher gesagt?<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "COMPLAINING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
+      }
+     },
      {
       "message": {
        "orig": "I suppose Sergey would have known, but you know...",
        "transl": "Sergey wird es wahrscheinlich gewusst haben, aber du weißt doch..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "He's always quiet about anything even slightly unofficial.",
        "transl": "Wenn etwas noch nicht offiziell ist, hält er solche Infos vorerst zurück."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
+      }
+     },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "WONDERING"
+      }
+     },
      {
       "message": {
        "orig": "Alright...",
        "transl": "Verstehe..."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'm sure I'll get over this... eventually.\n",
        "transl": "Ach, ich werd' irgendwann schon darüber hinwegkommen."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "Again, big sorry for being such a downer today.",
        "transl": "Nochmal Entschuldigung dafür, dass ich heute so eine Spaßbremse war."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "COMPLAINING"
       }
      },
      {
       "message": {
        "orig": "The raid was fun!\\. And thank you for letting me join!",
        "transl": "Der Raid hat Spaß gemacht!\\. Danke, dass ich mitmachen durfte."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "TOWARDS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.buggy",
+       "expression": "GRIN"
+      }
+     },
      {
       "message": {
        "orig": "Anytime, dude!",
        "transl": "Jederzeit wieder, Jung!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "GRIN"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "You're always welcome!",
        "transl": "Du bist uns immer willkommen!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
       }
      }
     ]

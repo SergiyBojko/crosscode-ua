@@ -189,18 +189,36 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You can go ahead! Just take any of those sky rail terminals.",
          "transl": "Du kannst schon mal vorgehen! Nimm einfach eine der Laserbahnen."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -229,18 +247,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "EMBARRASSED"
+      }
+     },
      {
       "message": {
        "orig": "Ha!\\. ...\\. Told you I would be...\\. first...",
        "transl": "Ha!\\. ...\\. Ich sagte doch, ich werde...\\. Erster..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      {
       "message": {
        "orig": "...Hi.",
        "transl": "... Привіт."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      null,
@@ -250,6 +286,10 @@
       "message": {
        "orig": "...\\. Phew...",
        "transl": "...\\. Puh..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      null,
@@ -257,72 +297,120 @@
       "message": {
        "orig": "Ah, oui~\\. But wasn't that fun? ",
        "transl": "Ah oui~\\. Hat doch Spaß gemacht, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I was very surprised by that boss at the end!",
        "transl": "Der Boss am Ende hat mich sehr überrascht!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Um...\\. Pardon.\\. I didn't even introduce myself.",
        "transl": "Ah...\\. Pardon.\\. Ich habe mich noch gar nicht vorgestellt."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "Je m'appelle \\c[3]Emilie\\c[0]!",
        "transl": "Je m'appelle \\c[3]Emilie\\c[0]!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Nickname: \\c[3]Emilienator\\c[0]!",
        "transl": "Nickname: \\c[3]Emilienator\\c[0]!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "I know!\\. It's genius, right?",
        "transl": "Ich weiß!\\. Ziemlich kreativ, oder?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHRUG"
       }
      },
      {
       "message": {
        "orig": "So...\\. um...\\. what's your name?",
        "transl": "Und...\\. öh...\\. wie heißt du?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "... Lea!",
        "transl": "... Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Lea!\\. Nice to meet you!",
        "transl": "Lea!\\. Freut mich, dich kennenzulernen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "So...\\. Are you ready to take the sky rails?",
        "transl": "Also...\\. Bereit für die Laserbahn?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      null,
@@ -336,48 +424,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
+      }
+     },
      {
       "message": {
        "orig": "I wish we could already explore the city itself, but non~",
        "transl": "Ich wünschte, wir könnten schon die Stadt selbst erkunden, aber non~"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Didn't you know?\\. The sky rail will take you straight to \\c[3]CrossCentral\\c[0].",
        "transl": "Wusstest du das nicht?\\. Die Laserbahn bringt dich direkt zur \\c[3]CrossCentral\\c[0]."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "From there you'll be transported to the mainland.",
        "transl": "Von dort aus wirst du auf das Festland transportiert."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "You will only be able to enter Rhombus Square much later.",
        "transl": "Du wirst Rhombus Square erst viel später betreten können."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "Oui, it sucks. I know.",
        "transl": "Oui, ich weiß. Das nervt."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      null,
@@ -392,55 +518,108 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Yes, you, the \\c[3]blue haired Spheromancer\\c[0]!",
        "transl": "Ja, du, der \\c[3]blauhaarige Spheromancer\\c[0]!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SHOUTING"
       }
      },
      {
       "message": {
        "orig": "...Hi?",
        "transl": "... Привіт?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Before, you just appeared out of nowhere.\\. Suspicious!",
        "transl": "Vorhin, da bist du einfach aus dem Nichts aufgetaucht.\\. Sehr verdächtig!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "And what do I see now?",
        "transl": "Und was sehe ich jetzt?"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "You are at \\c[3]level \\v[player.level]\\c[0]!",
        "transl": "Du hast bereits \\c[3]Level \\v[player.level]\\c[0]!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "And this is unheard of.\\. I'm forced to assume~",
        "transl": "Und das kann nicht sein.\\. Das lässt für mich nur einen Schluss zu:"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "You,\\. young lady...",
        "transl": "Du,\\. junges Fräulein..."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      null,
@@ -448,25 +627,52 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "... have been \\c[3]cheating\\c[0]!",
        "transl": "... hast \\c[3]gecheatet\\c[0]!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "POINTING"
       }
      },
      {
       "message": {
        "orig": "...??",
        "transl": "...??"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
+      }
+     },
      {
       "message": {
        "orig": "...What.",
        "transl": "... Що?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      null,
@@ -474,6 +680,10 @@
       "message": {
        "orig": "Monsieur, going straight for the accusations?",
        "transl": "Mach mal halblang, Monsieur."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
@@ -482,6 +692,10 @@
         "message": {
          "orig": "Also \\c[3]why\\c[0]? We're all \\c[3]level 3\\c[0], non?",
          "transl": "Und \\c[3]wie kommst du darauf\\c[0]? Wir haben doch alle \\c[3]Level 3\\c[0], non?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        null,
@@ -489,24 +703,40 @@
         "message": {
          "orig": "Yes, but it doesn't add up! She wasn't \\c[3]level 1\\c[0] when I saw her entering the dungeon!",
          "transl": "Ja, aber da stimmt etwas nicht! Sie war nicht auf \\c[3]Level 1\\c[0], als sie den ersten Dungeon gemacht hat!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SHOUTING"
         }
        },
        {
         "message": {
          "orig": "Something is \\c[3]definitely\\c[0] fishy here!",
          "transl": "Das \\c[3]stinkt doch zum Himmel\\c[0]!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "Mon dieu... Why do you even care when the end result is the same?",
          "transl": "Mon Dieu... Was ist so schlimm daran, wenn wir am Ende wieder dieselben Level haben?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ],
@@ -517,6 +747,10 @@
           "message": {
            "orig": "That's...\\. \\c[1]lower\\c[0] than our level. Why does it matter when she handicaps herself?",
            "transl": "Das ist...\\. \\c[1]niedriger\\c[0] als unser Level. Was ist so schlimm daran, wenn sie sich selbst herausfordert?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          },
          null,
@@ -524,12 +758,20 @@
           "message": {
            "orig": "This is about principle!",
            "transl": "Es geht ums Prinzip!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          },
          {
           "message": {
            "orig": "Cheating is bad, no matter what the outcome is!",
            "transl": "Cheaten ist falsch, egal, was am Ende dabei herauskommt!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "LECTURING"
           }
          }
         ],
@@ -538,12 +780,20 @@
           "message": {
            "orig": "How can you be so sure about it? ",
            "transl": "Wie kannst du dir da so sicher sein?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          },
          {
           "message": {
            "orig": "Just because you are stuck at level 3 doesn't mean...",
            "transl": "Nur, weil du noch auf Level 3 bist, heißt das nicht..."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "WATCH_OUT_BADASS"
           }
          },
          null,
@@ -553,61 +803,117 @@
             "message": {
              "orig": "She is...\\. \\c[1]level \\v[player.level]\\c[0]!",
              "transl": "Sie hat...\\. \\c[1]level \\v[player.level]\\c[0]!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SUSPICIOUS"
             }
            },
-           null,
+           {
+            "person": {
+             "person": "main.emilie",
+             "expression": "DEFAULT"
+            }
+           },
            {
             "message": {
              "orig": "\\s[1]\\c[1]LEVEL \\v[player.level]\\c[0]!",
              "transl": "\\s[1]\\c[1]LEVEL \\v[player.level]\\c[0]!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SHOUTING"
             }
            },
-           null,
+           {
+            "person": {
+             "person": "main.emilie",
+             "expression": "AWAY"
+            }
+           },
            null,
            {
             "message": {
              "orig": "HOW CAN YOU NOT SEE THE ISSUE?!",
              "transl": "WIE KANN DIR DAS NICHT AUFGEFALLEN SEIN?!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "DUMBFOUNDED"
             }
            },
-           null,
+           {
+            "person": {
+             "person": "main.emilie",
+             "expression": "CURIOUS"
+            }
+           },
            null,
            {
             "message": {
              "orig": "IT'S RIDICULOUSLY HIGH!!",
              "transl": "DAS IST DOCH VIEL ZU HOCH!!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "RAGING"
             }
            },
-           null,
+           {
+            "person": {
+             "person": "main.emilie",
+             "expression": "SMILE"
+            }
+           },
            null,
            {
             "message": {
              "orig": "THIS IS PLAIN AND OBVIOUS CHEATING!",
              "transl": "DAS GEHT DOCH NUR DURCH CHEATEN!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "RAGING"
             }
            },
            {
             "message": {
              "orig": "Come on! No reason to make a huge deal out of it...",
              "transl": "Ach, sei mal nicht so streng..."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "SWEATY_SMILE"
             }
            },
            {
             "message": {
              "orig": "What? So it doesn't matter to you that some players start the game with any level they like?",
              "transl": "Was? Es ist dir also egal, wenn sich Spieler ihr Anfangslevel einfach ercheaten?"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SUSPICIOUS"
             }
            },
            {
             "message": {
              "orig": "Then what's the point of having levels in the first place?!",
              "transl": "Warum gibt es dann überhaupt noch Level?"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SHOUTING"
             }
            },
            {
             "message": {
              "orig": "Hey, it's just a game...",
              "transl": "Hey, das ist doch nur ein Spiel..."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "UP"
             }
            },
            null,
@@ -615,6 +921,10 @@
             "message": {
              "orig": "NO!!!\\. THIS IS SERIOUS!!",
              "transl": "NEIN!!!\\. DAS IST BITTERER ERNST!!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "RAGING"
             }
            }
           ],
@@ -623,13 +933,26 @@
             "message": {
              "orig": "Impossible!",
              "transl": "Unmöglich!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SHOUTING"
             }
            },
-           null,
+           {
+            "person": {
+             "person": "main.emilie",
+             "expression": "SUSPICIOUS"
+            }
+           },
            {
             "message": {
              "orig": "No player on record has ever reached level \\v[player.level] at this point.",
              "transl": "Kein Spieler hat nachweislich diesen Punkt jemals mit Level \\v[player.level] erreicht."
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "ANGRY"
             }
            }
           ]
@@ -642,30 +965,50 @@
       "message": {
        "orig": "Young lady, surely I don't need to explain to you the faults of such actions.",
        "transl": "Junges Fräulein, ich muss dir doch sicherlich nicht die Verwerflichkeit eines solchen Verhaltens erklären."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Cheating will never pay off in the long run!",
        "transl": "Cheaten wird sich auf lange Sicht niemals auszahlen!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "Hi...",
        "transl": "Привіт..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Is that all you have to say?",
        "transl": "Ist das alles, was du zu sagen hast?"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SUSPICIOUS"
       }
      },
      {
@@ -679,54 +1022,96 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Joern, I have exposed this cheater here.",
        "transl": "Joern, ich habe diese Cheaterin hier ertappt!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And now you're lecturing her?",
        "transl": "Und jetzt hältst du ihr Vorträge?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Yes, about the wrongness of her actions!",
        "transl": "Ja, bezüglich der Verwerflichkeit ihrer Untat!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      {
       "message": {
        "orig": "How about: no.",
        "transl": "Nein."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
       }
      },
      {
       "message": {
        "orig": "...What?",
        "transl": "... Що?"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "I'll just go ahead and pretend I don't know you.",
        "transl": "Ich werde einfach weitergehen und so tun, als würde ich dich nicht kennen."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
       }
      },
      null,
@@ -738,6 +1123,10 @@
         "message": {
          "orig": "...But...",
          "transl": "... Aber..."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SUSPICIOUS"
         }
        },
        null,
@@ -745,6 +1134,10 @@
         "message": {
          "orig": "SHE'S \\c[1]LEVEL \\v[player.level]\\c[0]!\\. LOOK AT HER!!",
          "transl": "SIE HAT \\c[1]LEVEL \\v[player.level]\\c[0]!\\. SIEHST DU DAS NICHT?!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "RAGING"
         }
        }
       ],
@@ -753,6 +1146,10 @@
         "message": {
          "orig": "Come on!",
          "transl": "Komm schon!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "MOPING"
         }
        }
       ]
@@ -760,25 +1157,52 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Apologies for my friend's behavior.",
        "transl": "Ich muss mich für das Verhalten meines Freundes entschuldigen."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "He sometimes pretends to be a moderator.\\. He is not.",
        "transl": "Er hält sich manchmal für einen Moderator.\\. Was er nicht ist."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
       }
      },
      {
       "message": {
        "orig": "N-No problem...",
        "transl": "K-Kein Problem..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      },
      null,
@@ -790,9 +1214,24 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
        null,
@@ -800,6 +1239,10 @@
         "message": {
          "orig": "WHAT IS GOING ON HERE?!",
          "transl": "ICH GLAUBE, ICH BIN HIER IM FALSCHEN FILM?!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DUMBFOUNDED"
         }
        },
        null,
@@ -807,24 +1250,40 @@
         "message": {
          "orig": "WHY DOES NOBODY CARE ABOUT THIS?!\\. HELLO?!",
          "transl": "WARUM INTERESSIERT DAS NIEMANDEN?!\\. HALLO?!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DUMBFOUNDED"
         }
        },
        {
         "message": {
          "orig": "SHE\\.\\. IS\\.\\. \\c[1]LEVEL\\.\\. \\v[player.level]\\c[0]!",
          "transl": "SIE\\.\\. HAT\\.\\. \\c[1]LEVEL\\.\\. \\v[player.level]\\c[0]!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "RAGING"
         }
        },
        {
         "message": {
          "orig": "Monsieur, you should relax.",
          "transl": "Monsieur, du solltest dich beruhigen."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "It's just a game.\\. We're only here to have some fun!",
          "transl": "Es ist nur ein Spiel.\\. Und Spiele sind dazu da, um Spaß zu haben!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "UP"
         }
        },
        null,
@@ -832,6 +1291,10 @@
         "message": {
          "orig": "\\s[5]AHHHHHHHHHHHHHHHHHHHHHHHHHH!\\.",
          "transl": "\\s[5]AHHHHHHHHHHHHHHHHHHHHHHHHHH!\\."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "RAGING"
         }
        }
       ],
@@ -840,12 +1303,20 @@
         "message": {
          "orig": "Hmph.",
          "transl": "Hmpf."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Young lady, I'll let you off this time.",
          "transl": "Junges Fräulein, diesmal werde ich dich laufen lassen."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SHOUTING"
         }
        },
        null,
@@ -853,6 +1324,10 @@
         "message": {
          "orig": "Reflect on your actions! ",
          "transl": "Reflektiere deine Untat!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        }
       ]
@@ -863,8 +1338,18 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
+      }
+     },
      null,
      {
       "thenStep": [
@@ -872,18 +1357,30 @@
         "message": {
          "orig": "Mon Dieu!\\. What an obnoxious guy...",
          "transl": "Mon Dieu!\\. Was für ein unangenehmer Kerl..."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "Though I have to admit, your level really is a bit...\\. far out there.",
          "transl": "Obwohl ich zugeben muss, dass dein Level wirklich ein bisschen...\\. über die Stränge schlägt."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
         }
        }
       ],
@@ -892,18 +1389,30 @@
         "message": {
          "orig": "Mon Dieu!\\. What was the deal with him?",
          "transl": "Mon Dieu!\\. Was war denn mit dem los?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "I hope we don't meet players like this around here too often.",
          "transl": "Ich hoffe, man trifft solche Spieler hier nicht allzu oft."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "MOPING"
         }
        }
       ]
@@ -911,38 +1420,68 @@
      null,
      null,
      null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Anyway, let's go on.",
        "transl": "Egal, lass uns weitergehen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I want to finally reach \\c[3]Rookie Harbor\\c[0]!",
        "transl": "Ich will endlich nach \\c[3]Rookie Harbor\\c[0]!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "You can come with me, if you want to.",
        "transl": "Du kannst mich begleiten, wenn du magst."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Très bien!\\. Let's go!",
        "transl": "Très bien!\\. Los geht's!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -951,6 +1490,10 @@
       "message": {
        "orig": "Whoa...\\. My heart just stopped there for a second.\\. That was close.",
        "transl": "Puh...\\. Das war knapp. Mir ist gerade fast das Herz stehen geblieben."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
@@ -959,6 +1502,10 @@
         "message": {
          "orig": "Honestly, though?\\. There is no rational way to explain how we just got through that situation.\\. That was just dumb luck.",
          "transl": "Aber ehrlich gesagt gibt es keine vernünftige Erklärung dafür, wie wir in diese Situation geraten sind.\\. Das war einfach nur Pech."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "ROLL_EYES"
         }
        }
       ],
@@ -969,6 +1516,10 @@
           "message": {
            "orig": "Really though...\\. something is not quite right with your current level.\\. How did it even end up that way?",
            "transl": "Aber mal im Ernst...\\. Mit deinem Level stimmt wirklich etwas nicht.\\. Wie ist das bloß passiert?"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "WORRIED"
           }
          }
         ],
@@ -977,12 +1528,20 @@
           "message": {
            "orig": "It is all because you collected those extra EXP from that \\c[3]crab boss\\c[0].",
            "transl": "Das liegt nur an den extra EXP, die du durch den \\c[3]Krabbenboss\\c[0] erhalten hast."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "WORRIED"
           }
          },
          {
           "message": {
            "orig": "I should have noticed this earlier.\\. Sorry.",
            "transl": "Das hätte ich früher bemerken sollen.\\. Entschuldige."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "ROLL_EYES"
           }
          }
         ]
@@ -1045,18 +1604,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Congratulations on passing Newcomer's Bridge!",
          "transl": "Glückwunsch zum Bestehen der Neulingsbrücke!"
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "From here you can take the sky rails to reach \\c[3]CrossCentral\\c[0].",
          "transl": "Von hier aus kannst du die Laserbahn nehmen, um die \\c[3]CrossCentral\\c[0] zu erreichen."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1163,24 +1740,46 @@
        "transl": "Diese Erlaubnis wird euch gewährt, sobald ihr auf dem \\c[5]Pfad der Ahnen\\c[0] genügend Fortschritt gemacht habt."
       },
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...Hi?",
          "transl": "... Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "You look puzzled.",
          "transl": "Du siehst etwas planlos aus."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Do you want to know more about the \\c[3]Track of the Ancients\\c[0]?",
          "transl": "Möchtest du mehr über den \\c[3]Pfad der Ahnen\\c[0] erfahren?"
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -1189,24 +1788,40 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "The \\c[3]Track of the Ancients\\c[0] is an ancient \\c[3]assessment system\\c[0] based on a highly advanced technology.",
            "transl": "Der \\c[3]Pfad der Ahnen\\c[0] ist ein uraltes \\c[3]Prüfungssystem\\c[0], basierend auf einer hoch entwickelten Technologie."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "As Seekers it is your task to walk the Track and discover all the secrets it holds.",
            "transl": "Die Aufgabe von euch Seekern ist es, den Pfad zu beschreiten, um all seine Geheimnisse zu lüften."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Once you reach \\c[3]Rookie Harbor\\c[0] you can attend the introductory briefing to learn more about it.",
            "transl": "Sobald du \\c[3]Rookie Harbor\\c[0] erreichst, kannst du an der Einweisung teilnehmen, wo dir alle Details erklärt werden."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -1215,15 +1830,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Well then...",
            "transl": "Na dann..."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -1249,24 +1876,46 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Those sky rail terminals will bring you to \\c[3]CrossCentral\\c[0].",
          "transl": "Die Laserbahnen hier bringen dich zur \\c[3]CrossCentral\\c[0]."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You can take any one of them, they all go to the same place.",
          "transl": "Du kannst dir aussuchen, welche du nimmst, da alle in dieselbe Richtung fahren."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -1312,72 +1961,126 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Yo, what's up?",
          "transl": "Yo, was gibt's?"
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Yeah. Hi.",
          "transl": "Joah. Hi."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Well, in case you are wondering why I'm sitting here...",
          "transl": "Tja, falls du dich wunderst, warum ich hier sitze..."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "My friend just went afk.",
          "transl": "Mein Freund ist gerade afk gegangen."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Apparently he felt sick after the last stage.",
          "transl": "Ihm ist nach der letzten Etappe schlecht geworden."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now I have to wait here for him to come back.",
          "transl": "Jetzt muss ich also hier warten, bis er zurückkommt."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Damn it, I want to go on so badly!",
          "transl": "Mist aber auch, ich will unbedingt weiterspielen!"
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SAD"
         }
        },
        {
         "message": {
          "orig": "Aww, don't look so sorry! We're talking first world problems here.",
          "transl": "Aaach, guck nicht so mitfühlend! Wir reden hier von Luxusproblemen."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        }
       ]

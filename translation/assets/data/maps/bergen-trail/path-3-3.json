@@ -357,48 +357,86 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
+         }
+        },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Oh. Hi?",
           "transl": "Oh. Hi?"
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Is this for me?",
           "transl": "Ist das für mich?"
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Wow, that's pretty nice. I hope it's something good.",
           "transl": "Wow, das ist voll nett. Ich hoffe, es ist irgendwas Gutes."
+         },
+         "person": {
+          "person": "cross-worlds.triblader-male-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         }
        ]
@@ -417,6 +455,10 @@
       "message": {
        "orig": "Is this a hidden bunny lair or something?",
        "transl": "Ist das ein versteckter Hasenbau oder so?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      }
     ]
@@ -429,6 +471,10 @@
       "message": {
        "orig": "Now that treasure better be worth it.",
        "transl": "Wehe, dieser Schatz war die Mühe nicht wert."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      }
     ]
@@ -444,6 +490,10 @@
         "message": {
          "orig": "Laser bridge out of the snow!",
          "transl": "Laserbrücke weg vom Schnee!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        }
       ],
@@ -452,6 +502,10 @@
         "message": {
          "orig": "Laser bridge into the snow!",
          "transl": "Laserbrücke in den Schnee!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        }
       ]

@@ -809,6 +809,10 @@
         "message": {
          "orig": "Lea? The \\c[3]hidden entrance\\c[0] should be around here, but please make sure nobody is in your party before we have a look at it.",
          "transl": "Lea? Der \\c[3]versteckte Eingang\\c[0] müsste ganz in der Nähe sein. Doch zuvor sollten wir sicherstellen, dass wir allein sind."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "THINKING"
         }
        }
       ],
@@ -817,6 +821,10 @@
         "message": {
          "orig": "Okay, we are at the \\c[3]Old Dojo\\c[0] now. The hidden entrance should be somewhere towards the \\c[3]east\\c[0].",
          "transl": "Gut, wir sind nun am \\c[3]Alten Dojo\\c[0]. Der versteckte Eingang sollte irgendwo \\c[3]östlich\\c[0] von hier sein."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -830,37 +838,67 @@
    "settings": {
     "event": [
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "Wait...",
        "transl": "Зачекай..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Wait?",
        "transl": "Зачекай?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I think I found it!",
        "transl": "Ich glaube, ich habe ihn gefunden!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "It is right here, that wall to the east. Let me see if I can open it...",
        "transl": "Er liegt direkt vor uns, hinter der Mauer dort. Mal sehen, ob ich sie öffnen kann..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      null,
@@ -871,24 +909,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
      {
       "message": {
        "orig": "There we go!",
        "transl": "Na bitte!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Let us see what we find in there.",
        "transl": "Lass uns nachsehen, was dahinter liegt."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -904,30 +964,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Oh, yes...\\. one last thing.",
        "transl": "Ach ja...\\. Eine Sache noch.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "Could you go to the \\c[3]First Scholar HQ\\c[0]?",
        "transl": "Könntest du zum \\c[3]Hauptquartier der Ersten Gelehrten\\c[0] gehen?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "I would like to try something out.",
        "transl": "Ich möchte etwas ausprobieren."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -953,25 +1039,52 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.guild-leader",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "We've all gathered and are ready!",
           "transl": "Es sind alle da und bereit!"
+         },
+         "person": {
+          "person": "main.guild-leader",
+          "expression": "DETERMINED"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.sergey",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Good!\\. Then let us reveal the secret entrance.",
           "transl": "Gut!\\. Dann lasst uns den Geheimgang öffnen."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -989,11 +1102,20 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.emilie",
+          "expression": "ASTONISHED"
+         }
+        },
         {
          "message": {
           "orig": "Whoa!",
           "transl": "Uiii!"
+         },
+         "person": {
+          "person": "main.emilie",
+          "expression": "ASTONISHED"
          }
         }
        ]
@@ -1015,24 +1137,46 @@
      "transl": "Zum \\c[3]Alten Versteck\\c[0]"
     },
     "blockEvent": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Lea, we must not enter this area with anyone else.",
        "transl": "Lea, wir dürfen diesen Bereich mit niemandem sonst betreten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Make sure to disband your party before you proceed.",
        "transl": "Achte also darauf, deine Party aufzulösen, bevor du weitergehst."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -1045,24 +1189,40 @@
       "message": {
        "orig": "Polly, where are you?",
        "transl": "Polly, wo bist du?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "I'm right next to you...",
        "transl": "Ich stehe direkt neben dir..."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Whoops!\\. Sorry, you're just easy to miss in the bamboo.",
        "transl": "Uuups!\\. Tschuldige, du bist so leicht zu übersehen im Bambus."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Yes, yes.\\. Green hair, I get it.",
        "transl": "Ja, ja.\\. Grünes Haar, versteh schon."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SUSPICIOUS"
       }
      }
     ]

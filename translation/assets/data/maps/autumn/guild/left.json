@@ -298,33 +298,64 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Lea... if we plan to talk to Albert, we definitely should do so alone.",
          "transl": "Lea... Wenn wir mit Albert reden wollen, sollten wir das definitiv allein tun."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SERIOUS"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ],
       "elseStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE_SAD"
         }
        }
       ]
@@ -341,6 +372,10 @@
       "message": {
        "orig": "Almost there.",
        "transl": "Fast da."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "EYES_CLOSED"
       }
      }
     ]
@@ -357,47 +392,102 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Here we are, the \\c[3]Headquarters of the First Scholars\\c[0].",
        "transl": "Da wären wir. Das ist das \\c[3]Hauptquartier der Ersten Gelehrten\\c[0]."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "UP"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
      {
       "message": {
        "orig": "Aww! It's a cute little house!",
        "transl": "Ohh! Was für ein süßes, kleines Haus!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "EYES_CLOSED"
+      }
+     },
      {
       "message": {
        "orig": "Told you we're a small guild, right?",
        "transl": "Hab dir ja gesagt, dass wir eine kleine Gilde sind."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "EYES_CLOSED"
+      }
+     },
      {
       "message": {
        "orig": "Well then...\\. Ladies first!",
        "transl": "Also dann...\\. Ladies first!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WINK"
       }
      },
      {
       "message": {
        "orig": "Merci beaucoup!",
        "transl": "Merci beaucoup!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      }
     ]
@@ -462,48 +552,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Hello, Lea!",
        "transl": "Hallo, Lea!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I see you made an appointment for the raid tomorrow?\n",
        "transl": "Wie ich sehe, hast du dich morgen für den Raid verabredet?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "That is great!\\. Hopefully things will not go wrong this time.",
        "transl": "Großartig!\\. Hoffentlich läuft dieses Mal nichts schief."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...Why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Well...\\. it is highly unlikely that anyone would interfere again.",
        "transl": "Na ja...\\. Es ist zumindest höchst unwahrscheinlich, dass sich wieder jemand einmischt."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      null,
@@ -511,60 +639,100 @@
       "message": {
        "orig": "Anyway, I wanted to let you know that you can \\c[3]go to sleep\\c[0] on your own now!",
        "transl": "Jedenfalls wollte ich dich wissen lassen, dass du von nun an selbst entscheiden kannst, wann du \\c[3]schlafen gehen\\c[0] willst!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "How?",
        "transl": "Як?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "It is pretty intuitive, really! ",
        "transl": "Ganz intuitiv!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Just go to your \\c[3]house\\c[0] in Homestedt and \\c[3]lay down in your bed\\c[0].",
        "transl": "Gehe einfach in dein \\c[3]Haus\\c[0] in Heimstatt und \\c[3]lege dich dort in dein Bett\\c[0]."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "There is no more need for me to be around to log you out manually.",
        "transl": "Ich muss also nicht mehr da sein, um dich manuell abzumelden."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "And that is all I wanted to tell you.",
        "transl": "Mehr wollte ich dir nicht sagen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I guess now is a good time to prepare for the raid, correct?",
        "transl": "Jetzt wäre wohl ein guter Zeitpunkt, dich auf den Raid vorzubereiten, richtig?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,

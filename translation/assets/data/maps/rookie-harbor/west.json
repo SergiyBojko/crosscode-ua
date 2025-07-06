@@ -381,30 +381,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.pentafist-male-dark",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I'm afraid this resting spot is for one person only.",
          "transl": "Ich befürchte, dass dieser Sitzplatz nur für eine Person reicht."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-male-dark",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Go look for another crate. This one is mine.",
          "transl": "Such dir eine eigene Kiste. Das ist meine."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-male-dark",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -526,32 +552,58 @@
       "event": [
        {
         "thenStep": [
-         null,
-         null,
+         {
+          "person": {
+           "person": "cross-worlds.triblader-male-black",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "thenStep": [
            {
             "message": {
              "orig": "Oh hey! Thanks again for helping me out with my friends! ",
              "transl": "Oh, hey! Danke nochmal, dass du mir mit meinen Freunden geholfen hast!"
+            },
+            "person": {
+             "person": "cross-worlds.triblader-male-black",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "EXCITED"
             }
            },
            {
             "message": {
              "orig": "I'll take that silent smile as a \\c[3]No Problem\\c[0], I guess.",
              "transl": "Ich nehm' das stumme Grinsen mal als \\c[3]\"Keine Ursache!\"\\c[0]."
+            },
+            "person": {
+             "person": "cross-worlds.triblader-male-black",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            }
           ],
@@ -560,43 +612,82 @@
             "message": {
              "orig": "Oh, it's you... Thanks for lying to my friends...",
              "transl": "Oh, du bist es... Vielen Dank auch, dass du meine Freunde angelogen hast..."
+            },
+            "person": {
+             "person": "cross-worlds.triblader-male-black",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SAD"
             }
            }
           ]
          }
         ],
         "elseStep": [
-         null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "cross-worlds.triblader-female-purple",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "cross-worlds.triblader-male-black",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Oh! You're that girl I helped with the chest in the marketplace!",
            "transl": "Oh! Du bist doch das Mädchen, dem ich grad mit der Kiste auf dem Marktplatz geholfen habe!"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-black",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Hi!",
            "transl": "Привіт!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXCITED"
           }
          },
          {
           "message": {
            "orig": "See, Hina, told you I was helping someone!",
            "transl": "Siehst du, Hina, ich hab doch gesagt, dass ich wem geholfen habe!<<A<<[CHANGED 2021/05/22]"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-black",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Is that so?",
            "transl": "Ist das so?"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-female-purple",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -605,18 +696,30 @@
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            {
             "message": {
              "orig": "Alright alright, you win... \\. \\. this time.",
              "transl": "Naaa~ gut. Ich glaub' dir...\\.\\. Diesmal."
+            },
+            "person": {
+             "person": "cross-worlds.triblader-female-purple",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Phew!",
              "transl": "Puh!"
+            },
+            "person": {
+             "person": "cross-worlds.triblader-male-black",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -625,27 +728,47 @@
             "message": {
              "orig": "[shakes head]",
              "transl": "[schüttelt Kopf]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SHAKE"
             }
            },
            {
             "message": {
              "orig": "I knew it. You were slacking off again.",
              "transl": "Ich wusste es. Du hast wieder gefaulenzt.<<A<<[CHANGED 2021/05/22]"
+            },
+            "person": {
+             "person": "cross-worlds.triblader-female-purple",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Aw, come on. Why would you do that? I wasn't slacking off, promise!",
              "transl": "Maaann ey, warum hackst du immer so auf mir rum? Ich hab nich' gefaulenzt, ehrlich nich'!"
+            },
+            "person": {
+             "person": "cross-worlds.triblader-male-black",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Yeah yeah, whatever.",
              "transl": "Ja ja, wie auch immer."
+            },
+            "person": {
+             "person": "cross-worlds.triblader-female-purple",
+             "expression": "DEFAULT"
             }
            }
           ],
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
+          },
           "options": [
            {
             "label": {
@@ -703,42 +826,76 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.pentafist-female-rasta",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
+         }
+        },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Hello, I'm currently afk. ",
           "transl": "Hallo, ich bin gerade afk."
+         },
+         "person": {
+          "person": "cross-worlds.pentafist-female-rasta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I'm expecting a delivery, so if you have something for me just leave it here.",
           "transl": "Ich erwarte eine Lieferung. Wenn du also etwas für mich hast, lass es einfach hier."
+         },
+         "person": {
+          "person": "cross-worlds.pentafist-female-rasta",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         }
        ]
@@ -763,109 +920,209 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Finally, this is the \\c[3]western\\c[0] part of the town.",
        "transl": "Und als Letztes haben wir hier den \\c[3]westlichen\\c[0] Teil der Stadt."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "In this shop here you can buy \\c[3]consumable items\\c[0].",
        "transl": "In diesem Laden hier könnt ihr \\c[3]Verbrauchsitems\\c[0] kaufen."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "TOWARDS"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Further down you'll find an armory with basic \\c[3]equipment\\c[0].",
        "transl": "Am Ende dieses Weges findet ihr ein Waffenladen mit einfacher \\c[3]Ausrüstung\\c[0]."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "UP"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "And when you continue to the west from here you'll enter \\c[3]Autumn's Rise\\c[0].",
        "transl": "Und wenn ihr von hier aus weiter nach Westen geht, werdet ihr \\c[3]Autumn's Rise\\c[0] erreichen."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "You'll find a lot of enemies along the way.",
        "transl": "Dort werdet ihr auf viele Gegner treffen."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "Be careful not to take on too many \\c[3]Hedgehags\\c[0] at once, or those guys will eat you for breakfast!",
        "transl": "Passt nur auf, dass ihr euch nicht mit zu vielen \\c[3]Igölln\\c[0] auf einmal anlegt, sonst wischen die Jungs mit euch nachher den Boden auf!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "Anyway, just follow that way to get to \\c[3]Bergen\\c[0].",
        "transl": "Jedenfalls müsst ihr diesem Weg folgen, wenn ihr nach \\c[3]Bergen\\c[0] wollt."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": " By the way, do you two want to form a party?",
        "transl": "Übrigens, wollt ihr beide eine Party erstellen?"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Oui, that would be great, right Lea?",
        "transl": "Oui, das wär' doch toll, oder Lea?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "And you, Lukas?\\. Will you travel with us, too?",
        "transl": "Und du, Lukas?\\. Wirst du uns auch begleiten?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hm...\\. I unfortunately have to leave you soon.",
        "transl": "Hm...\\. Ich muss leider bald wieder los."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Awww, already?",
        "transl": "Oooch, jetzt schon?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Trust me, it's not that fun to travel around with a high-level friend.",
        "transl": "Glaub mir: Es macht wenig Spaß, mit einem High Level-Chara unterwegs zu sein."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "Unless you don't care for the challenge.",
        "transl": "Es sei denn, ihr pfeift auf die Herausforderung."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WINK"
       }
      },
      {
@@ -874,42 +1131,70 @@
         "message": {
          "orig": "But Lea is \\c[1]high level\\c[0] as well!",
          "transl": "Aber Leas Level ist doch auch \\c[1]hoch\\c[0]!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "Yes, and she'll snipe away all those enemies you'd like to attack as well.",
          "transl": "Ja, und sie wird uns die Gegner vor unserer Nase wegschnippen."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "WINK"
         }
        },
        {
         "message": {
          "orig": "...!!",
          "transl": "...!!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Nah, I'm sure Lea will leave a few enemies for me, right?",
          "transl": "Nee, Lea lässt mir bestimmt ein paar übrig, stimmt's?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "Right...?",
          "transl": "Stimmt's...?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
         }
        },
        {
         "message": {
          "orig": "In any case...\\. I have to head back to the guild.",
          "transl": "Aber mal im Ernst, ich muss zurück zur Gilde."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "WONDERING"
         }
        }
       ],
@@ -918,18 +1203,30 @@
         "message": {
          "orig": "You could watch us take on those Hedgehags!",
          "transl": "Du könntest uns zuschauen, wie wir diese Igöll vermöbeln!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "WATCH_OUT_BADASS"
         }
        },
        {
         "message": {
          "orig": "Japp.\\. That totally sounds like a lot of fun, doesn't it?",
          "transl": "Jepp.\\. Glaube ich gern, dass euch das Spaß machen würde."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "SKEPTICAL"
         }
        },
        {
         "message": {
          "orig": "No really, I have to head back to the guild.",
          "transl": "Aber ne, im Ernst, ich muss zurück zur Gilde."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "WONDERING"
         }
        }
       ]
@@ -938,56 +1235,103 @@
       "message": {
        "orig": "There is just too much stuff going on right now. ",
        "transl": "Dort ist momentan einfach zu viel los."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "COMPLAINING"
       }
      },
      {
       "message": {
        "orig": "The crap will be steaming if I'm gone for too long.",
        "transl": "Wenn ich zu lange weg bin, ist die Kacke da richtig am Dampfen."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "I see, Monsieur is just too important for us rookies.",
        "transl": "Schon klar, Monsieur Wichtig will sich nicht mit Anfängern abgeben."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Oh, please don't be that way.",
        "transl": "Ach komm schon, jetzt sei nicht so."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "COMPLAINING"
       }
      },
      {
       "message": {
        "orig": "You can set up a \\v[lore.unlock.direct-link.p1]\\c[3]Direct Link\\c[0] if something comes up, alright?",
        "transl": "Ihr könnt einen \\v[lore.unlock.direct-link.p1]\\c[3]Direkt-Link\\c[0] öffnen, wenn ihr etwas braucht, okay?"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "Let's meet again once you reach Bergen Village.",
        "transl": "Wir können uns wieder treffen, sobald ihr das Dorf Bergen erreicht habt."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
+      }
+     },
      {
       "message": {
        "orig": "Come on, Lea.\\. Let's do some leveling until we're worth the Dark Lord's attention!",
        "transl": "Komm, Lea.\\. Lass uns ein wenig aufleveln, bis wir der Aufmerksamkeit des Herrn von und zu Fieserich würdig sind."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "SKEPTICAL"
+      }
+     },
      {
       "message": {
        "orig": "Oh, Junge...",
        "transl": "Oh Junge..."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "COMPLAINING"
       }
      },
      null,
@@ -996,25 +1340,46 @@
       "message": {
        "orig": "See you soon, Emilie!\\. And you too, Lea!",
        "transl": "Man sieht sich, Emilie!\\. Und dich auch, Lea!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...Hi!",
        "transl": "... Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...Huh?\\. Oh well...",
        "transl": "... Hö?\\. Wie auch immer..."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "Tschau, tschau!",
        "transl": "Tschau, tschau!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1028,18 +1393,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Alright, party time!",
        "transl": "So! Jetzt geht die Party los!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "So...\\. where is the option...\\. Ah, oui!",
        "transl": "Also...\\. wo ist diese Option...\\. Ah, oui!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      null,
@@ -1054,30 +1437,56 @@
        "transl": "Emilie"
       }
      },
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Voilà! We just formed a party!",
        "transl": "Voilà! Wir haben eine Party erstellt!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Alright, let's head to \\c[3]Autumn's Rise\\c[0]!",
        "transl": "Also dann, auf nach \\c[3]Autumn's Rise\\c[0]!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Or maybe look for quests in town?\\. I'll let you decide, Lea!",
        "transl": "Oder sollen wir in der Stadt noch ein paar Quests machen?\\. Ich überlasse das dir, Lea!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "This is so exciting!",
        "transl": "Das ist so aufregend!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
@@ -1223,66 +1632,116 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Ms. Teak",
           "transl": "Ms. Teak"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Howdy, partner!\\. You sure look like a healthy gal who can appreciate a nice piece of meat.",
           "transl": "Howdy, Partner!\\. Du schaust aus wie ein gesundes Mädel, das ein gutes Stück Fleisch zu schätzen weiß!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
+         }
+        },
         {
          "message": {
           "orig": "Haha, I always sniff out good taste.\\. It's, like, my special talent.",
           "transl": "Ha! Wusste ich's doch!\\. Ich habe ein Näschen dafür, Leute mit gutem Geschmack zu wittern."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "The name is Selena Teak and I have grand plans:\\. To create the perfect steaks for everyone to enjoy!",
           "transl": "Mein Name ist Selena Teak und ich habe große Pläne:\\. Ich will die perfekten Steaks für jeden Geschmack kreieren!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Lea!",
           "transl": "Лія!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "At least that's what I want to do, but I still don't have the proper ingredients for that.",
           "transl": "Das habe ich zumindest vor, aber mir fehlen noch die richtigen Zutaten dafür."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And since I can't just leave the city and search for them... Maybe you can help me with that?",
           "transl": "Und da ich die Stadt nicht einfach so verlassen und danach suchen kann... könntest du mir vielleicht dabei helfen?"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -1291,54 +1750,90 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Girl, you are the best!\\. It will be amazing, you won't regret it!",
             "transl": "Mensch, klasse! Du bist ein Engel!\\. Es wird phänomenal, sag' ich dir! Du wirst es nicht bereuen!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Anyway, I definitely need some nice \\c[3]Raw Meat\\c[0] of course.\\. The \\c[3]Bovines\\c[0] in \\v[area.autumn-area.name] should do nicely!",
             "transl": "Auf alle Fälle brauche ich natürlich erst einmal richtig gutes \\c[3]Rohes Fleisch\\c[0].\\. Die \\c[3]Rinder\\c[0] in Autumn's Rise sollten sich dafür am besten eignen."
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Though I heard that you gotta have, like, \\c[3]a good Rank\\c[0] to get some meat from them.\\. Whatever that means.",
             "transl": "Wobei ich gehört habe, dass man wohl \\c[3]einen guten Rang\\c[0] braucht, um etwas Fleisch von ihnen zu bekommen.\\. Was auch immer das heißt."
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?",
             "transl": "...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           },
           {
            "message": {
             "orig": "Then I need some firewood that brings out the taste perfectly.",
             "transl": "Und dann brauche ich noch etwas Feuerholz, das den guten Geschmack hervorbringt."
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I don't know much about all the trees here but... best bring me some \\c[3]very light\\c[0] and also \\c[3]some sharp\\c[0] wood.",
             "transl": "Ich weiß nicht viel über die Bäume hier, aber am besten bringst du mir erst einmal \\c[3]sehr leichtes\\c[0] und auch \\c[3]spitzes\\c[0] Holz."
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_AWAY"
            }
           },
           {
            "message": {
             "orig": "You should find both of them \\c[3]on a mountain\\c[0] somewhere. Good luck!",
             "transl": "Du solltest beides irgendwo auf \\c[3]einem Berg\\c[0] finden. Viel Glück!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -1347,18 +1842,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Whaaaat, not interested?\\. That's such a shame... just think of all the steaaaak!",
             "transl": "Waaaas? Nicht interessiert?\\. Das ist echt schade... Denk nur an all die Steeeeaks!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           }
          ]
@@ -1368,23 +1875,40 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Ms. Teak",
          "transl": "Ms. Teak"
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bring me some nice \\c[3]Raw Meat\\c[0], \\c[3]very light\\c[0] wood and \\c[3]some sharp\\c[0] wood.",
          "transl": "Bring mir gutes \\c[3]Rohes Fleisch\\c[0], \\c[3]sehr leichtes\\c[0] Holz und \\c[3]spitzes\\c[0] Holz."
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You can get the meat from \\c[3]Bovines\\c[0] with \\c[3]a good Rank\\c[0] and you can find the wood \\c[3]somewhere on a mountain.\\c[0]",
          "transl": "Das Fleisch bekommst du von \\c[3]Rindern\\c[0], wenn du einen \\c[3]guten Rang\\c[0] hast. Und das Holz irgendwo \\c[3]auf einem Berg\\c[0]."
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1392,29 +1916,50 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Ms. Teak",
           "transl": "Ms. Teak"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Ah, howdy!\\. You got everything!?",
           "transl": "Ah, howdy!\\. Hast du alles bekommen?"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         null,
@@ -1422,12 +1967,20 @@
          "message": {
           "orig": "Amazing.\\. That's, like, everything I asked for.",
           "transl": "Klasse!\\. Du hast wirklich an alles gedacht."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Just stay right here, okay?\\. I have to try out my recipe immediately.",
           "transl": "Bleib einfach kurz hier, ja?\\. Ich will mein Rezept nämlich direkt ausprobieren."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1435,65 +1988,110 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Ms. Teak",
           "transl": "Ms. Teak"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "That's... mhm... not what I wanted...",
           "transl": "Das ist... mhm... nicht das, was ich wollte..."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "The heat-balance was way off and the wood's fragrance didn't give the meat the taste I wanted...",
           "transl": "Die Temperatur schwankte zu sehr und das Holzaroma gab dem Fleisch nicht den geschmacklichen Pfiff, den ich wollte..."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I'm sorry girl, but I can't use this.\\. Not for the steak of my dreams.",
           "transl": "Tut mir leid, aber die Zutaten passen nicht.\\. Nicht für meine Traumsteaks."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "You will still get your reward, don't worry.\\.  Just... for the steaks we will have to try something else next time.",
           "transl": "Du bekommst trotzdem deine Belohnung, keine Sorge.\\. Nur...\\. für die Steaks brauchen wir wohl was anderes."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "Don't worry, I will, like, think of something.\\. Talk to me later if you wanna help me again.",
           "transl": "Keine Sorge, mir wird schon was einfallen.\\. Komm später nochmal vorbei, wenn du mir erneut helfen willst."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye...",
           "transl": "Бувай..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         }
        ]
@@ -1502,35 +2100,60 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Ms. Teak",
           "transl": "Ms. Teak"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi...",
           "transl": "Привіт..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "Howdy girl, good to see you again.\\. I think I figured out a better wood combination for grilling the steak.",
           "transl": "Howdy, Partner! Schön, dich zu sehen.\\. Ich glaube, ich habe eine bessere Kombination der Holzsorten für das perfekte Steak gefunden."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Yeah, I'm pretty sure about it this time!\\. Let's give this another try, shall we?",
           "transl": "Ja, diesmal bin ich mir ziemlich sicher!\\. Wollen wir es nochmal wagen?"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -1539,48 +2162,80 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Alright!\\. It won't disappoint again, believe me!",
             "transl": "Alles klar!\\. Diesmal werde ich dich nicht enttäuschen, glaub mir!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "This time I wanna go with a mix of \\c[3]very dense and regal wood from a mountain\\c[0] and \\c[3]wood that is extremely dry\\c[0]!",
             "transl": "Jetzt nehmen wir nämlich eine Kombination aus \\c[3]sehr dichtem und edlem Holz aus den Bergen\\c[0] und \\c[3]welches, das trocken wie Zunder ist\\c[0]!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I guess you'd find the latter in, like, dry areas?\\. Would make sense, right?",
             "transl": "Ich schätze mal, du findest letzteres in, öhm, trockenen Regionen?\\. Macht Sinn, oder?"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_AWAY"
            }
           },
           {
            "message": {
             "orig": "Well, and of course I will need more raw meat again!\\. You got everything?",
             "transl": "Und natürlich brauche ich auch wieder \\c[3]Rohes Fleisch\\c[0]!\\. Alles notiert?"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Great!\\. So good luck finding everything.\\. Think of the steaks!",
             "transl": "Sehr gut.\\. Viel Glück bei der Suche!\\. Denk einfach an die leckeren Steaks!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -1589,18 +2244,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Awww, no trust left because of that one failure?\\. Come on girl, I think we are onto something here!",
             "transl": "Och nööö, sag bloß, du hast kein Vertrauen mehr in die Sache?\\. Nur wegen dem einen Fehlschlag?\\. Komm schon, Partner, ich glaube, wir sind hier an einer echt großen Sache dran!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           }
          ]
@@ -1610,23 +2277,40 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Ms. Teak",
          "transl": "Ms. Teak"
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Remember, aside from the meat I need different wood than the first try!",
          "transl": "Denk dran, abgesehen vom Fleisch brauche ich anderes Holz als das vom ersten Versuch!"
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "\\c[3]Very dense and regal wood from a mountain\\c[0] and \\c[3]dry wood from, like, a desert \\c[0] should do the trick!",
          "transl": "Mit \\c[3]sehr dichtem und edlem Holz aus den Bergen\\c[0] und \\c[3]trockenem Holz aus, hmm, einer Wüste\\c[0], sollte es diesmal klappen!"
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1634,29 +2318,50 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Ms. Teak",
           "transl": "Ms. Teak"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Yay~, you are back again.\\. And do I smell some nice meat and wood there?",
           "transl": "Yay~, du bist wieder zurück.\\. Rieche ich da etwa frisches Fleisch und feines Holz?"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         null,
@@ -1664,6 +2369,10 @@
          "message": {
           "orig": "Yes, that looks awesome!\\. Let me have another try right now!",
           "transl": "Ja, das sieht super aus!\\. Lass mich direkt einen neuen Versuch starten!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1671,47 +2380,80 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Ms. Teak",
           "transl": "Ms. Teak"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Mhmmmm...",
           "transl": "Mhmmmm..."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": ".\\..\\..\\.?",
           "transl": ".\\..\\..\\.?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "This is...",
           "transl": "Das ist.."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": ".\\..\\..\\.?",
           "transl": ".\\..\\..\\.?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "...is...",
           "transl": "... das ist..."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": ".\\..\\..\\.?",
           "transl": ".\\..\\..\\.?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         null,
@@ -1720,30 +2462,50 @@
          "message": {
           "orig": "...absolutely perfect!!\\.\\.\nThe texture, the aroma!\\. It is the perfect steak!",
           "transl": "... absolut perfekt!!\\.\\. Die Konsistenz, das Aroma!\\. Das ist es! Das perfekte Steak!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Thank you so much, girl!\\. It never would've worked without those ingredients you brought me!",
           "transl": "Tausend Dank!\\. Ohne die Zutaten, die du mir gebracht hast, hätte das nie geklappt!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         },
         {
          "message": {
           "orig": "Here, I'll give you the first batch of steaks to enjoy.",
           "transl": "Hier, die ersten Steaks sind für dich."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1751,18 +2513,30 @@
          "message": {
           "orig": "You can get as many as you want from my booth here, as long as you bring the ingredients!",
           "transl": "Du kriegst so viele von mir wie du willst, solange du mir die nötigen Zutaten bringst!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         }
        ]
@@ -1770,29 +2544,50 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Ms. Teak",
          "transl": "Ms. Teak"
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Howdy!\\. Don't you love the smell of steak in the morning?",
          "transl": "Howdy!\\. Liebst du nicht auch den Geruch von Steak am Morgen?"
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Or any other time, really.",
          "transl": "Aber eigentlich auch zu jeder anderen Zeit."
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]
@@ -1800,47 +2595,80 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Ms. Teak",
           "transl": "Ms. Teak"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Howdy, gal!\\. Did you come by to check how business is going?",
           "transl": "Howdy, Partner!\\. Bist du gekommen, um zu schauen, wie das Geschäft läuft?"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Aw, how nice of ya.\\. It's going great!\\. Those steaks really hit the bullseye of people's tastebuds here.",
           "transl": "Ooh, lieb von dir.\\. Es läuft bestens!\\. Die Leute hier fahren echt auf die Steaks ab."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "But I talked to our valued customers and got some ideas to improve my precious meat even more.",
           "transl": "Ich habe mich hier auch mit vielen geschätzten Kunden unterhalten, die mir einige neue Impulse gaben, die Steaks noch weiter zu verfeinern."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "How about it, gal?\\. You feeling it in you to help me out again?",
           "transl": "Wie wär's, Partner?\\. Magst mir nochmal helfen?"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -1849,91 +2677,156 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Yeehaw, I knew I could count on you, my dear!",
             "transl": "Yeehaa!\\. Ich wusste, dass ich auf dich zählen kann!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SMILE"
            }
           },
           {
            "message": {
             "orig": "Just like last time, it's all about the ingredients.\\. I've done some research on the precious plants of the East!",
             "transl": "So wie letztens kommt's natürlich wieder ganz auf die Zutaten an.\\. Ich habe mich ein wenig mit den prächtigen Pflanzen des Ostens beschäftigt!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "Once again, I'd like to try some new wood in combination with what we already got.",
             "transl": "Auf jeden Fall möchte ich gerne eine neue Holzsorte mit denen kombinieren, die sich bewährt haben."
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "So please bring me some \\c[3]old wood\\c[0] from the \\c[3]jungle in the north-east\\c[0].",
             "transl": "Bring mir also bitte etwas \\c[3]altes Holz\\c[0] aus dem \\c[3]Dschungel im Osten\\c[0]."
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
            "message": {
             "orig": "I also want to experiment a bit with marinating the meat before grilling.",
             "transl": "Dann möchte ich die Steaks diesmal gerne vorher marinieren und damit etwas experimentieren."
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "For that I would love to get my hands on some \\c[3]honey\\c[0] and a bunch of \\c[3]sweet apples\\c[0]!",
             "transl": "Dafür muss ich unbedingt etwas \\c[3]Honig\\c[0] und eine Portion \\c[3]süße Äpfel\\c[0] ergattern!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You should find all of that in \\v[area.autumn-fall.name] in the east or that jungle I mentioned!",
             "transl": "Du solltest das alles im Osten von Autumn's Fall oder besagtem Dschungel auftreiben können!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_AWAY"
            }
           },
           {
            "message": {
             "orig": "As for the meat, I still got a lot of that here to experiment.\\. Is everything else clear?",
             "transl": "Was das Fleisch betrifft, habe ich noch genug zum Experimentieren hier.\\. Alles klar so weit?"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Alright!\\. Then give it your all.",
             "transl": "Sehr gut!\\. Gib alles, Partner!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXCITED"
            }
           }
          ],
@@ -1942,18 +2835,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Awwwww, really?\\. You're already satisfied with what we got?\\. Think of the possibilities!",
             "transl": "Och nööö, wirklich nicht?\\. Bist du schon zufrieden mit dem, was wir haben?\\. Denk doch nur an all die Möglichkeiten, die uns noch offenstehen!"
+           },
+           "person": {
+            "person": "rookie-harbor.female-ms-steak",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           }
          ]
@@ -1963,23 +2868,40 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Ms. Teak",
          "transl": "Ms. Teak"
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Get me some \\c[3]old wood\\c[0] from the \\c[3]jungle in the east\\c[0] and some ingredients for the marinade.",
          "transl": "Bring mir etwas \\c[3]altes Holz\\c[0] aus dem \\c[3]Dschungel im Osten\\c[0] und ein paar Zutaten für die Marinade."
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Some \\c[3]honey\\c[0] and a bunch of \\c[3]sweet apples\\c[0] from the East should do nicely!",
          "transl": "Etwas \\c[3]Honig\\c[0] und eine Portion \\c[3]süße Äpfel\\c[0] aus dem Osten wären dafür ideal!"
+        },
+        "person": {
+         "person": "rookie-harbor.female-ms-steak",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1987,37 +2909,67 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Ms. Teak",
           "transl": "Ms. Teak"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Gal, you're back!\\. And what is that?\\. Do I see some of the most perfect ingredients that have ever been found?",
           "transl": "Ah, du bist wieder zurück, Partner!\\. Sehe ich da etwa die einmaligsten Zutaten, die je ein Mensch zu Gesicht bekommen hat?"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
+         }
+        },
         null,
         {
          "message": {
           "orig": "Yes, yes!\\. Exactly what I wanted, perfect!\\. Just you wait, I will put it to good use immediately!",
           "transl": "Ja!\\. Genau, was ich wollte, perfekt!\\. Warte kurz, ich werd' mich gleich an die Arbeit machen!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -2025,47 +2977,80 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Ms. Teak",
           "transl": "Ms. Teak"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Mhmmmm...",
           "transl": "Mhmmmm..."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": ".\\..\\..\\.?",
           "transl": ".\\..\\..\\.?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "I...",
           "transl": "Ich..."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": ".\\..\\..\\.?",
           "transl": ".\\..\\..\\.?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "...oh my...",
           "transl": "... Oh Mann..."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": ".\\..\\..\\.?",
           "transl": ".\\..\\..\\.?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SHOCKED"
          }
         },
         null,
@@ -2074,30 +3059,50 @@
          "message": {
           "orig": "By the Ancients!\\. This... this might be the best piece of meat that has ever grazed this planet.",
           "transl": "Bei den Ahnen!\\. Das... das ist vielleicht das beste Stück Fleisch, das jemals auf diesem Planeten gegrast hat!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Truly gal, I'm serious.\\. You gotta taste some of this.\\. This is perfect.",
           "transl": "Ich mein's ernst.\\. Du musst was davon probieren.\\. Das ist göttlich."
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Here, take a few to enjoy.\\. But make sure to brace yourself when eating!",
           "transl": "Hier, nimm ein paar davon mit und genieß sie.\\. Aber mach dich auf ein himmlisches Geschmackserlebnis gefasst, wenn du sie isst!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         null,
@@ -2105,24 +3110,40 @@
          "message": {
           "orig": "I will make sure to stock up my booth right now.\\. There'll be as many as you can eat!",
           "transl": "Ich werd' gleich noch mehr davon zaubern.\\. Du wirst sehen, es wird reichlich für dich da sein!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Thank you again for all the hard work.\\. I hope to \"meat\" you again, many times in the future.",
           "transl": "Vielen Dank nochmal für all die harte Arbeit.\\. Wie heißt's so schön? \"Es blüht das Steak nur kurze Zeit, die Freundschaft blüht in Ewigkeit.\" In diesem Sinne!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-ms-steak",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         }
        ]
@@ -2137,98 +3158,173 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.schlettow",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Zat is zickening me!\\. Zickening!",
          "transl": "Ey, isch werd noch bekloppt met däm!"
+        },
+        "person": {
+         "person": "guests.schlettow",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Heda, Zivilian!",
          "transl": "Heda, jonge Dame! Se komme' grade recht!"
+        },
+        "person": {
+         "person": "guests.schlettow",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Go she to Zergeant Brassler and tell him that she cannot accebt his authority as ein policeman!",
          "transl": "Jon Se ma' direktemang zum Oberwachtmeister Brassler hin und sachn's, dat ihm de ahnjemessene Rockschöße fehle'!"
+        },
+        "person": {
+         "person": "guests.schlettow",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Because he is missing ein correct coattail!\\. Jawohl!",
          "transl": "Weshalb ih sing Autorität als a Bolizist net ahnerkenne' kann!\\. Jawohl!"
+        },
+        "person": {
+         "person": "guests.schlettow",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "He won't lissen to me, alzough the perfectly correct distance of my bottom puttons \nclearly displays my knolletsch of zee matter.",
          "transl": "Op mich höhta ja net, dobei zeigt doch de' vorschriftsmäßije Abstand meiner Rockknöppe, dat isch weß, wovon isch rede!"
+        },
+        "person": {
+         "person": "guests.schlettow",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Hi?",
          "transl": "Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Waa?\\. \"Hi\", she zays?",
          "transl": "Wat?\\. \"Hi\", sacht se?"
+        },
+        "person": {
+         "person": "guests.schlettow",
+         "expression": "DEFAULT"
         }
        },
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
+        }
+       },
        {
         "message": {
          "orig": "Zat is \"JAWOHL, CAPTAIN\", is zat!",
          "transl": "Dat heißt: \"JAWOHL, HERR HAUPTMANN!\", heißt dat!"
+        },
+        "person": {
+         "person": "guests.schlettow",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!!",
          "transl": "...!!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
         }
        },
        {
         "message": {
          "orig": "How dares she to address me!",
          "transl": "Wie redet se denn met mir?"
+        },
+        "person": {
+         "person": "guests.schlettow",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Zinks she that she is the Kaiser of Preussen becourse she has not only wann, but two spikes on her head?",
          "transl": "Glaubt se, se wär de' Kaiser, weil se net e', sondern gleech zwej Pickel op de' Haube hät?"
+        },
+        "person": {
+         "person": "guests.schlettow",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HOLD_HORNS_ANNOYED"
         }
        }
       ]

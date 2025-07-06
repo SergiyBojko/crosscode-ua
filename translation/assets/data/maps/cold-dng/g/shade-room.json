@@ -271,30 +271,56 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
+        }
+       },
        {
         "message": {
          "orig": "Awww... you're first.",
          "transl": "Ohhh... Du hast gewonnen."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "You got me this time.",
          "transl": "Diesmal hast du mich geschlagen."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "I blame those bugs, oui!",
          "transl": "Die Käfer sind schuld, oui!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "MOPING"
         }
        },
        {
@@ -303,12 +329,20 @@
           "message": {
            "orig": "Also I'm sure we both can agree that you being \\c[1]over-powered\\c[0] certainly made a difference.",
            "transl": "Außerdem sollten wir den klitzekleinen Umstand nicht vergessen, dass du \\c[1]völlig überlevelt\\c[0] bist..."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "WHISTLING"
           }
          }
         ]
@@ -317,36 +351,60 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "Seriously, what was up with that battle for the master key?!",
          "transl": "Mal im Ernst, was sollte das mit dem Kampf um den Frostschlüssel?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        },
        {
         "message": {
          "orig": "It's like they designed this dungeon after my worst nightmares!",
          "transl": "Als ob die den Dungeon nach meinen schlimmsten Alpträumen gestaltet hätten!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "Oh well!\\. I'll get you next time!",
          "transl": "Na schön!\\. Das nächste Mal krieg' ich dich!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "WATCH_OUT_BADASS"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ],
@@ -354,18 +412,36 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
+        }
+       },
        {
         "message": {
          "orig": "...Ha!\\. First again!",
          "transl": "... Ha!\\. Wieder Erster!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
@@ -374,12 +450,20 @@
           "message": {
            "orig": "Guess being \\c[1]over-powered\\c[0] doesn't help you much with those puzzles, oui?",
            "transl": "Dein \\c[1]Superlevel\\c[0] scheint dir bei den Rätseln ja nicht viel zu helfen, hm?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "WATCH_OUT_BADASS"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXHAUSTED"
           }
          }
         ]
@@ -388,18 +472,30 @@
         "message": {
          "orig": "Phew... to be honest, it was very close.",
          "transl": "Puh... Um ehrlich zu sein, das war echt knapp."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "That dungeon was much longer compared to Newcomer's Bridge, non?",
          "transl": "Dieser Dungeon war viel länger als die Neulingsbrücke, non?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -408,24 +504,40 @@
       "message": {
        "orig": "Hm, but this room is strange, non?",
        "transl": "Hm, aber dieser Raum ist seltsam, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "I didn't expect to see other players within the dungeon.",
        "transl": "Ich hätte nicht erwartet, andere Spieler im Dungeon zu sehen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "I guess rooms like these are simply not instanced.",
        "transl": "Ich schätze mal, dass Räume wie dieser einfach nicht instanziert sind."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      null,
@@ -434,6 +546,10 @@
       "message": {
        "orig": "Anyway, I think we should check out this statue up there.",
        "transl": "Wie auch immer. Ich glaube, wir sollten uns mal diese Statue da oben anschauen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      }
     ]
@@ -462,54 +578,96 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...Bird people. Bird people in space.",
        "transl": "... Vogelmenschen. Vogelmenschen im Weltraum."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "So that's the Ancients?",
        "transl": "Das sind also die Ahnen?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Fair enough.",
        "transl": "Naaa~ gut."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Alors... do you see those \\c[3]rotating info thingies\\c[0]?",
        "transl": "Alors... Siehst du diese \\c[3]rotierenden Infodinger\\c[0]?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "I bet those have all the info about the Ancients we need.",
        "transl": "Ich wette, die haben alle Infos über die Ahnen, die wir brauchen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Don't forget about the \\c[3]quiz\\c[0]...",
        "transl": "Denk an das \\c[3]Quiz\\c[0]..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      null,
@@ -530,12 +688,20 @@
       "message": {
        "orig": "Alright! Just read everything there is.",
        "transl": "Also dann! Alles gelesen, was es zu lesen gab."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We should head back to the \\c[3]First Scholars HQ\\c[0] and take that quiz!",
        "transl": "Wir sollten zurück zum \\c[3]Hauptquartier\\c[0] und das Quiz machen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      }
     ]
@@ -551,12 +717,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Water. Frozen water.",
          "transl": "Wasser. Gefrorenes Wasser."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -564,6 +744,10 @@
         "message": {
          "orig": "Solid as rock, smooth as silk.",
          "transl": "Hart wie Stein, geschmeidig wie Seide."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -571,6 +755,10 @@
         "message": {
          "orig": "...And slippery.",
          "transl": "... Und glitschig."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -578,6 +766,10 @@
         "message": {
          "orig": "...Waaay too slippery!",
          "transl": "... Vieeel zu glitschig!"
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        }
       ]

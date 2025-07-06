@@ -17,12 +17,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Your time is \\v[timers.test.formatTime]",
          "transl": "Deine Zeit ist \\v[timers.test.formatTime]."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -36,24 +50,52 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.tester-male-rainbow",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Go to the start.",
          "transl": "Gehe zum Anfang."
+        },
+        "person": {
+         "person": "cross-worlds.tester-male-rainbow",
+         "expression": "DEFAULT"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.tester-male-rainbow",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You have \\v[timers.timer.formatRemainingTime] left.",
          "transl": "Du hast noch \\v[timers.timer.formatRemainingTime] Zeit übrig."
+        },
+        "person": {
+         "person": "cross-worlds.tester-male-rainbow",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -73,6 +115,10 @@
       "message": {
        "orig": "Alright, let's go!",
        "transl": "Ok, dann lass uns loslegen!"
+      },
+      "person": {
+       "person": "cross-worlds.tester-male-rainbow",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -94,6 +140,10 @@
       "message": {
        "orig": "Scrub.",
        "transl": "Verdammt!"
+      },
+      "person": {
+       "person": "cross-worlds.tester-male-rainbow",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -129,6 +179,10 @@
       "message": {
        "orig": "You did it!",
        "transl": "Du hast es geschafft!"
+      },
+      "person": {
+       "person": "cross-worlds.tester-male-rainbow",
+       "expression": "DEFAULT"
       }
      }
     ]

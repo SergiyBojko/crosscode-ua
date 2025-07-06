@@ -182,43 +182,76 @@
          "name": {
           "orig": "Talatu Lips",
           "transl": "Talatu Lips"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Good ta see y'all again, girl!",
           "transl": "Da bischte ja!"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "As Ah said in the DL, Ah've got a peachy new upgrade fer yer hat!",
           "transl": "Wie scho im DL gsagt, i hann a Upgrade fia dei Hütle!<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Y'all ready fer the upgrade?",
           "transl": "Seid's ihr alle bereit fürs Upgrade?"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Here ya go!",
           "transl": "Hia!"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -234,31 +267,56 @@
          "name": {
           "orig": "Talatu Lips",
           "transl": "Talatu Lips"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "It's stronger an' smells nice too!",
           "transl": "Er isch schdägga und duft'n dud er au bessr!"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Ah've gotta skedaddle. See y'all!",
           "transl": "Muss nu los, haut's rein!"
+         },
+         "person": {
+          "person": "greenies.female-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -357,36 +415,66 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good day and welcome to \\v[area.jungle-city.name], Seeker.",
          "transl": "Guten Tag und willkommen in Burg Bassin, Seeker."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This hub serves as both a meeting place for Seekers as well as the bureau for most official business handled in the city.",
          "transl": "Dieser Hub fungiert nicht nur als Treffpunkt für Seeker, sondern auch als Büro für dienstliche Angelegenheiten der Stadt."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Please be advised that while the mayor handles Seeker-related topics, his time is very limited.",
          "transl": "Der Bürgermeister kümmert sich auch um Seeker-Themen, bedenke aber, dass seine Zeit kostbar ist."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "As such, you are free to simply enter the Temples north of \\v[area.jungle.name] whenever you desire.",
          "transl": "Als Seeker kannst du jederzeit die Tempel im Norden von Gaias Garten besuchen."
+        },
+        "person": {
+         "person": "advisors.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "....",
          "transl": "...."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        }
       ]

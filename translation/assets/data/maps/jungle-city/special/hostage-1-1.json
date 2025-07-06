@@ -34,23 +34,40 @@
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "name": {
        "orig": "Hostage",
        "transl": "Geisel"
+      },
+      "person": {
+       "person": "business.female-hat-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ohhh, please, Ms. \\v[lore.title.seeker].\\. Free me from this scoundrel so I can get home safely!",
        "transl": "Bitte, Fräulein Seeker!\\. Befreien Sie mich von diesem Halunken! Ich will wieder nach Hause!"
+      },
+      "person": {
+       "person": "business.female-hat-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -138,13 +155,22 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "0": [
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DETERMINED"
         }
        }
       ],
@@ -153,6 +179,10 @@
         "message": {
          "orig": "Lea.",
          "transl": "Лія."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        }
       ],
@@ -161,6 +191,10 @@
         "message": {
          "orig": "How?",
          "transl": "Як?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ],
@@ -169,6 +203,10 @@
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ],
@@ -177,6 +215,10 @@
         "message": {
          "orig": "Bye.",
          "transl": "Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        null,
@@ -197,6 +239,10 @@
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      },
       "options": [
        {
         "label": {
@@ -254,6 +300,10 @@
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        }
       ],
@@ -262,6 +312,10 @@
         "message": {
          "orig": "Lea.",
          "transl": "Лія."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        }
       ],
@@ -270,6 +324,10 @@
         "message": {
          "orig": "How?",
          "transl": "Як?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ],
@@ -278,6 +336,10 @@
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ],
@@ -286,6 +348,10 @@
         "message": {
          "orig": "Bye.",
          "transl": "Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        null,
@@ -306,6 +372,10 @@
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
+      },
       "options": [
        {
         "label": {
@@ -363,12 +433,20 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -403,18 +481,30 @@
       "message": {
        "orig": "Apparently, NPCs with more refined communicative recognition have been implemented at this point.",
        "transl": "Anscheinend wurden jetzt NPCs mit besseren kommunikativen Fähigkeiten implementiert."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "It is a shame that your vocabulary is not up to these tasks...",
        "transl": "Ein Jammer, dass dein Wortschatz für solche Aufgaben noch nicht ausreicht..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      }
     ]

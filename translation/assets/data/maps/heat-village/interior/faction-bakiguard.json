@@ -63,17 +63,30 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Receptionist",
          "transl": "Rezeptionist"
+        },
+        "person": {
+         "person": "guards.male-bulky-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Move along, nothing to see here.",
          "transl": "Geh weiter, hier gibt es nichts zu sehen."
+        },
+        "person": {
+         "person": "guards.male-bulky-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -137,13 +150,26 @@
         "name": {
          "orig": "Sgt. Niellos",
          "transl": "Hptm. Niellos"
+        },
+        "person": {
+         "person": "guards.captain-male-oneleg",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker]!\\. Take a seat and listen to the latest town gossip.",
          "transl": "Hallo, Seeker! Nimm Platz und lausche dem neuesten Stadtklatsch."
+        },
+        "person": {
+         "person": "guards.captain-male-oneleg",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -156,65 +182,115 @@
          "name": {
           "orig": "Sgt. Niellos",
           "transl": "Hptm. Niellos"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Ah, a \\v[lore.title.seeker]!\\. Always nice to see fresh faces in this dusty ol' town.",
           "transl": "Ah, ein Seeker!\\. Immer wieder schön, ein frisches Gesicht in dieser alten staubigen Stadt zu sehen."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Come, join this old man and his array of local blabbermouths.",
           "transl": "Komm, leiste einem alten Mann und seinen liebsten Plappermäulern Gesellschaft."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Natzo'gra",
           "transl": "Natzo'gra"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "A \\v[lore.title.seeker], hurray!",
           "transl": "Ein Seeker, hurra!"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Sue'zie",
           "transl": "Sue'zie"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Yay, \\v[lore.title.seeker]!\\. Welcome!",
           "transl": "Juhu, ein Seeker!\\. Willkommen!!"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Hiez'gra",
           "transl": "Hiez'gra"
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Greetings.",
           "transl": "Hallo."
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -222,6 +298,10 @@
          "message": {
           "orig": "Hi!\\.\\. Hi!\\.\\. Hi!",
           "transl": "Hi!\\.\\. Hi!\\.\\. Hi!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         null,
@@ -231,43 +311,76 @@
          "name": {
           "orig": "Sgt. Niellos",
           "transl": "Hptm. Niellos"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Ba'kii Kum might be small, but it is a good place.\\. Full of harmony and peaceful coexistence.",
           "transl": "Ba'kii Kum ist vielleicht klein, aber ein guter Ort.\\. Voller Harmonie und friedlichem Miteinander."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Hiez'gra",
           "transl": "Hiez'gra"
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Old human forgetting much theft happen on our markets.\\. Very disrespect.",
           "transl": "Alter Mann vergessen wohl viele Diebstahl auf unsere Markt.\\. Respektlos sehr."
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Sue'zie",
           "transl": "Sue'zie"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Yes, yes.\\. Such mean!",
           "transl": "Ja, ja.\\. Gemein sehr!"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         null,
@@ -276,36 +389,60 @@
          "message": {
           "orig": "Ah, of course.\\. Some silly hotheads still can't seem to appreciate the merits of our cooperation.",
           "transl": "Ah, natürlich.\\. Ein paar Hitzköpfe scheinen die Vorteile unserer Kooperation noch nicht zu erkennen."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And my guards, they always see nothing.\\. It hurts to think of them as unreliable, when they should inspire trust.",
           "transl": "Und nie sehen meine Wachen etwas.\\. Es tut schon weh, wenn ich daran denke, dass sie so unzuverlässig sind, wo sie doch Vertrauen schaffen sollten."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         },
         {
          "name": {
           "orig": "Natzo'gra",
           "transl": "Natzo'gra"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But grey human!\\. Here is \\v[lore.title.seeker], to deliver great justice!\\. She could help!",
           "transl": "Aber grauer Mensch!\\. Hier ist Seeker, Gerechtigkeit kann bringen!\\. Sie helfen könnte!"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         null,
@@ -313,12 +450,20 @@
          "message": {
           "orig": "Mh, indeed.\\. She could.\\. But remember, they are very busy folk!",
           "transl": "Mhm, in der Tat.\\. Sie könnte.\\. Aber bedenke, dass sie vielbeschäftigte Menschen sind."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "So, \\v[lore.title.seeker]... could you spare some time on helping our Shad friends?",
           "transl": "Also, Seeker... Könntest du etwas von deiner Zeit opfern, um unseren Freunden, den Shad, zu helfen?"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -327,6 +472,10 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           null,
@@ -334,36 +483,60 @@
            "name": {
             "orig": "Natzo'gra",
             "transl": "Natzo'gra"
+           },
+           "person": {
+            "person": "baki.male-green-tall",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Hurray!",
             "transl": "Hurra!"
+           },
+           "person": {
+            "person": "baki.male-green-tall",
+            "expression": "DEFAULT"
            }
           },
           {
            "name": {
             "orig": "Sue'zie",
             "transl": "Sue'zie"
+           },
+           "person": {
+            "person": "baki.female-pink",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Yaaaay!",
             "transl": "Juhuuuuu!"
+           },
+           "person": {
+            "person": "baki.female-pink",
+            "expression": "DEFAULT"
            }
           },
           {
            "name": {
             "orig": "Hiez'gra",
             "transl": "Hiez'gra"
+           },
+           "person": {
+            "person": "baki.male-yellow-bald",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Thanks.",
             "transl": "Дякую."
+           },
+           "person": {
+            "person": "baki.male-yellow-bald",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -373,42 +546,70 @@
            "name": {
             "orig": "Sgt. Niellos",
             "transl": "Hptm. Niellos"
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Ah, young folks being so helpful, it warms this old heart.",
             "transl": "Ah, die Jugend von heute. So hilfsbereit, das wärmt eines alten Mannes Herz."
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "The crimes against shadkind usually happen at the bazaar in the town-center.",
             "transl": "Die Verbrechen gegen die Shadheit werden in der Regel auf dem Bazar in der Stadtmitte verübt."
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You should talk to some of the residents and guards.\\. They might tell you in detail what happened recently.",
             "transl": "Du solltest dort mit einigen Bürgern und Wachen reden.\\. Vielleicht können sie dir im Detail sagen, was genau passiert ist."
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Best start with Billston, the Chief Guard on the current shift. He should be at the center of the bazaar.",
             "transl": "Am besten fängst du mit Billston an, dem Wachtmeister der jetzigen Schicht. Er sollte im Zentrum des Bazars sein."
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Bye.",
             "transl": "Бувай."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXCITED"
            }
           }
          ],
@@ -417,6 +618,10 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           null,
@@ -424,36 +629,60 @@
            "name": {
             "orig": "Natzo'gra",
             "transl": "Natzo'gra"
+           },
+           "person": {
+            "person": "baki.male-green-tall",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Oh no!",
             "transl": "Oh nein!"
+           },
+           "person": {
+            "person": "baki.male-green-tall",
+            "expression": "DEFAULT"
            }
           },
           {
            "name": {
             "orig": "Sue'zie",
             "transl": "Sue'zie"
+           },
+           "person": {
+            "person": "baki.female-pink",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Awwww...",
             "transl": "Oohhhhh..."
+           },
+           "person": {
+            "person": "baki.female-pink",
+            "expression": "DEFAULT"
            }
           },
           {
            "name": {
             "orig": "Hiez'gra",
             "transl": "Hiez'gra"
+           },
+           "person": {
+            "person": "baki.male-yellow-bald",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Mhmpf.",
             "transl": "Mhmpf."
+           },
+           "person": {
+            "person": "baki.male-yellow-bald",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -463,30 +692,50 @@
            "name": {
             "orig": "Sgt. Niellos",
             "transl": "Hptm. Niellos"
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": ".\\..\\..",
             "transl": ".\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SAD"
            }
           },
           {
            "message": {
             "orig": "Ah, that is a shame.\\. You might indeed have bigger fish to fry.",
             "transl": "Ah, das ist schade.\\. Aber du hast vermutlich schon einen größeren Fisch an der Angel."
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "But we will still be here, whenever you change your mind.",
             "transl": "Wir werden jedoch hier bleiben, falls du deine Meinung zu ändern gedenkst."
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           }
          ]
@@ -501,19 +750,36 @@
         "name": {
          "orig": "Sgt. Niellos",
          "transl": "Hptm. Niellos"
+        },
+        "person": {
+         "person": "guards.captain-male-oneleg",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Go to the center of town and talk to citizens and guards.\\. They might tell you what is going on.",
          "transl": "Gehe zum Stadtzentrum und rede mit den Bewohnern und Wachen.\\. Sie wissen vermutlich mehr."
+        },
+        "person": {
+         "person": "guards.captain-male-oneleg",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Best start with Billston, the Chief Guard of the current shift. He should be at the center of the bazaar.",
          "transl": "Am besten fängst du mit Billston an, dem Wachtmeister der jetzigen Schicht. Er sollte im Zentrum des Bazars sein."
+        },
+        "person": {
+         "person": "guards.captain-male-oneleg",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -526,49 +792,86 @@
          "name": {
           "orig": "Sgt. Niellos",
           "transl": "Hptm. Niellos"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         },
         {
          "message": {
           "orig": "\\v[lore.title.seeker], welcome back!\\. We just had a troubled young man confess his crime.",
           "transl": "Seeker, willkommen zurück!\\. Hier kam gerade ein aufgewühlter junger Mann vorbei, um seine Verbrechen zu gestehen."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "He certainly did bad things, but he came clean, so I don't think we need to punish him too much.",
           "transl": "Er hat sicherlich schlechte Dinge getan, aber er hat gestanden, also denke ich nicht, dass wir ihn hart bestrafen müssen."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "The other things he said though... it makes me sad that a bad egg like Billston was just among us.",
           "transl": "Aber die anderen Dinge, die er sagte... Es macht mich traurig, dass so ein fauler Apfel wie Billston sich direkt in unserer Mitte befand. "
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...Lea...",
           "transl": "... Лія..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "I should have been more vigilant.\\. Maybe this old man has become too soft with age.",
           "transl": "Ich hätte aufmerksamer sein sollen.\\. Vielleicht bin ich alter Mann mit dem Alter zu weich geworden."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -577,12 +880,20 @@
          "name": {
           "orig": "Sue'zie",
           "transl": "Sue'zie"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Aw, no!\\. Old human is bestest of protector!",
           "transl": "Ach, nein!\\. Alter Mensch ist der besteste Beschützerling!"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -590,12 +901,20 @@
          "name": {
           "orig": "Natzo'gra",
           "transl": "Natzo'gra"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Yes!\\. Preserving great peace for shad and humans!",
           "transl": "Ja!\\. Frieden wahren für Shad und Menschen!"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -603,12 +922,20 @@
          "name": {
           "orig": "Hiez'gra",
           "transl": "Hiez'gra"
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "True.\\.\\. Mistake happen.\\.\\. That life.",
           "transl": "Stimmt.\\.\\. Fehler passiert.\\.\\. Das ist Leben."
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -618,6 +945,10 @@
          "name": {
           "orig": "Sgt. Niellos",
           "transl": "Hptm. Niellos"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -625,36 +956,60 @@
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Shucks, you are too kind with this rusty soldier.\\. But it is true, we should just look forward!",
           "transl": "Ach, ihr seid zu gnädig mit diesem eingerosteten Soldaten.\\. Aber es stimmt, wir sollten nach vorne blicken!"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Thank you for your help, \\v[lore.title.seeker].\\. Billston is still at large but his crimes should stop for now.",
           "transl": "Danke für deine Hilfe, Seeker.\\. Billston ist zwar noch auf freiem Fuß, aber hier kann er keinen Schaden mehr anrichten."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "I hope we can count on your help again, in case more trouble arises.\\. Goodbye!",
           "transl": "Ich hoffe, wir können wieder auf deine Hilfe zählen, falls es zu weiteren Problemen kommt.\\. Auf Wiedersehen!"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         null,
@@ -663,36 +1018,60 @@
          "name": {
           "orig": "Sue'zie",
           "transl": "Sue'zie"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Goodbye, hero \\v[lore.title.seeker]!",
           "transl": "Auf Wiedersehen, Seeker-Held!"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Natzo'gra",
           "transl": "Natzo'gra"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Protect more justice!",
           "transl": "Du mehr Gerechtigkeit beschützen!"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Hiez'gra",
           "transl": "Hiez'gra"
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye.",
           "transl": "Tüss."
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -701,6 +1080,10 @@
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         }
        ]
@@ -714,59 +1097,105 @@
          "name": {
           "orig": "Sgt. Niellos",
           "transl": "Hptm. Niellos"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Young \\v[lore.title.seeker], you found your way back to us?\\. How swell!",
           "transl": "Junger Seeker, wie ich sehe, hast du zu uns zurückgefunden?\\. Wie wunderbar!"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Natzo'gra",
           "transl": "Natzo'gra"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Welcome back, \\v[lore.title.seeker] of justice!",
           "transl": "Willkommen zurück, Seeker der Gerechtigkeit!"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Sue'zie",
           "transl": "Sue'zie"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Yay, honorful Miss \\v[lore.title.seeker]!",
           "transl": "Juhu, Ehrenfrau Seeker!"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Hiez'gra",
           "transl": "Hiez'gra"
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hello.\\. Always welcome.",
           "transl": "Hallo.\\. Immer willkommen."
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -774,6 +1203,10 @@
          "message": {
           "orig": "Hi!\\.\\. Hi!\\.\\. Hi!",
           "transl": "Hi!\\.\\. Hi!\\.\\. Hi!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         null,
@@ -783,31 +1216,56 @@
          "name": {
           "orig": "Sgt. Niellos",
           "transl": "Hptm. Niellos"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "I am sure you are still worried about the traitor Billston being at large.",
           "transl": "Du bist sicher immer noch besorgt, dass sich der Verräter Billston noch auf freiem Fuß befindet."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         },
         {
          "message": {
           "orig": "But now we do finally have hints of his whereabouts!",
           "transl": "Aber jetzt haben wir endlich Hinweise zu seinem Aufenthaltsort!"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Can we count on you again, to finally bring that scoundrel to justice?",
           "transl": "Können wir erneut auf dich zählen, um diesen Schurken endlich zur Rechenschaft zu ziehen?"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -816,6 +1274,10 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           null,
@@ -823,36 +1285,60 @@
            "name": {
             "orig": "Natzo'gra",
             "transl": "Natzo'gra"
+           },
+           "person": {
+            "person": "baki.male-green-tall",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Justice!",
             "transl": "Gerechtigkeit!"
+           },
+           "person": {
+            "person": "baki.male-green-tall",
+            "expression": "DEFAULT"
            }
           },
           {
            "name": {
             "orig": "Sue'zie",
             "transl": "Sue'zie"
+           },
+           "person": {
+            "person": "baki.female-pink",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Hurray!",
             "transl": "Hurra!"
+           },
+           "person": {
+            "person": "baki.female-pink",
+            "expression": "DEFAULT"
            }
           },
           {
            "name": {
             "orig": "Hiez'gra",
             "transl": "Hiez'gra"
+           },
+           "person": {
+            "person": "baki.male-yellow-bald",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Nice.",
             "transl": "Gut."
+           },
+           "person": {
+            "person": "baki.male-yellow-bald",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -862,66 +1348,110 @@
            "name": {
             "orig": "Sgt. Niellos",
             "transl": "Hptm. Niellos"
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You really are a treasure, young one!",
             "transl": "Du bist ein wahrer Schatz, Kleine!"
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           },
           {
            "message": {
             "orig": "According to reports reaching us, Billston has left the city and hides somewhere in \\v[area.heat-area.name].",
             "transl": "Den Berichten zufolge hat Billston die Stadt verlassen und versteckt sich irgendwo im Maronental."
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "There, he sometimes robs Shad traders of their money and goods, before hiding again.",
             "transl": "Dort stiehlt er aus seinem Versteck heraus den Shad ihr Geld und ihre Waren."
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           },
           {
            "message": {
             "orig": "He should not be far from the settlement, however, since he should still need water and other supplies on a regular basis.",
             "transl": "Trotzdem sollte er nicht allzu weit weg von der Siedlung sein, da er täglich Wasser und anderes braucht."
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "So, if you want to find him, you should start patrolling the main route through the desert from here!",
             "transl": "Wenn du ihn also finden willst, solltest du damit beginnen, den Hauptweg durch die Wüste zu untersuchen."
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Splendid!\\. It is reassuring to have you helping us again.\\. Godspeed, young \\v[lore.title.seeker]!",
             "transl": "Wunderbar!\\. Es ist beruhigend, zu wissen, dass du uns wieder hilfst.\\. Viel Erfolg, junger Seeker!"
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ],
@@ -930,6 +1460,10 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           null,
@@ -937,36 +1471,60 @@
            "name": {
             "orig": "Natzo'gra",
             "transl": "Natzo'gra"
+           },
+           "person": {
+            "person": "baki.male-green-tall",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Whaaat.\\. No more justice?",
             "transl": "Waaaas.\\. Keine Gerechtigkeit mehr?"
+           },
+           "person": {
+            "person": "baki.male-green-tall",
+            "expression": "DEFAULT"
            }
           },
           {
            "name": {
             "orig": "Sue'zie",
             "transl": "Sue'zie"
+           },
+           "person": {
+            "person": "baki.female-pink",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Awwww...",
             "transl": "Oohhhhh..."
+           },
+           "person": {
+            "person": "baki.female-pink",
+            "expression": "DEFAULT"
            }
           },
           {
            "name": {
             "orig": "Hiez'gra",
             "transl": "Hiez'gra"
+           },
+           "person": {
+            "person": "baki.male-yellow-bald",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Very disappoint.",
             "transl": "Sehr enttäuscht."
+           },
+           "person": {
+            "person": "baki.male-yellow-bald",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -976,24 +1534,40 @@
            "name": {
             "orig": "Sgt. Niellos",
             "transl": "Hptm. Niellos"
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": ".\\..\\..",
             "transl": ".\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SAD"
            }
           },
           {
            "message": {
             "orig": "Oh, I thought you couldn't wait to finally catch him.\\. But maybe you just want to prepare a bit more?",
             "transl": "Oh, ich dachte, du könntest es kaum erwarten, ihn endlich zu erwischen.\\. Aber vielleicht möchtest du dich lieber noch etwas vorbereiten?"
+           },
+           "person": {
+            "person": "guards.captain-male-oneleg",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": ".\\..\\..",
             "transl": ".\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           }
          ]
@@ -1008,19 +1582,36 @@
         "name": {
          "orig": "Sgt. Niellos",
          "transl": "Hptm. Niellos"
+        },
+        "person": {
+         "person": "guards.captain-male-oneleg",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "The traitor Billston should be somewhere on the main route through \\v[area.heat-area.name].",
          "transl": "Der Verräter Billston sollte irgendwo auf dem Hauptweg durch das Maronental sein."
+        },
+        "person": {
+         "person": "guards.captain-male-oneleg",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "He should still need regular supplies, so best start searching near the settlement.",
          "transl": "Er braucht immer noch regelmäßige Versorgung, fang also am besten in der Nähe der Siedlung an zu suchen."
+        },
+        "person": {
+         "person": "guards.captain-male-oneleg",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1033,19 +1624,36 @@
          "name": {
           "orig": "Sgt. Niellos",
           "transl": "Hptm. Niellos"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Ah, once again our hero has returned!\\.",
           "transl": "Ah, unser Held ist wieder da!\\."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1054,12 +1662,20 @@
          "name": {
           "orig": "Sue'zie",
           "transl": "Sue'zie"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Yaaay, welcome back!",
           "transl": "Juhuuu, willkommen zurück!"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1067,12 +1683,20 @@
          "name": {
           "orig": "Natzo'gra",
           "transl": "Natzo'gra"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hero of justice!",
           "transl": "Held der Gerechtigkeit!"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1080,18 +1704,30 @@
          "name": {
           "orig": "Hiez'gra",
           "transl": "Hiez'gra"
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Good job.",
           "transl": "Gute Arbeit."
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         },
         null,
@@ -1102,54 +1738,90 @@
          "name": {
           "orig": "Sgt. Niellos",
           "transl": "Hptm. Niellos"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Yes, you have done well.\\. Billston was apprehended and led to a secure prison cell.",
           "transl": "Ja, das hast du gut gemacht.\\. Billston wurde gefasst und in eine sichere Zelle geworfen."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "He will cause no more crimes against the unity of our species from now on.",
           "transl": "Er wird der Einheit unserer Spezies nie wieder Schaden anrichten können."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Though, I do fear that he was not acting alone.\\. There is still a lot of work to do for us.",
           "transl": "Trotzdem habe ich das Gefühl, dass er nicht allein gearbeitet hat.\\. Wir haben immer noch viel Arbeit vor uns."
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "But... for now we should celebrate the harmony of Shad and humankind.\\. And all the progress that has been made!",
           "transl": "Aber erst einmal sollten wir die Harmonie zwischen den Shad und den Menschen feiern.\\. Und all den Fortschritt, der gemacht wurde!"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "You should take your well earned reward.\\. And know that you will always be welcome in our midst!",
           "transl": "Deine Belohnung hast du dir redlich verdient.\\. Und wisse, dass du uns immer willkommen bist!"
+         },
+         "person": {
+          "person": "guards.captain-male-oneleg",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1158,36 +1830,60 @@
          "name": {
           "orig": "Sue'zie",
           "transl": "Sue'zie"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Yes, hero \\v[lore.title.seeker] always welcome!",
           "transl": "Ja, Seeker-Held, immer willkommen!"
+         },
+         "person": {
+          "person": "baki.female-pink",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Natzo'gra",
           "transl": "Natzo'gra"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Justice for all!",
           "transl": "Gerechtigkeit für alle!"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Hiez'gra",
           "transl": "Hiez'gra"
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Goodbye.",
           "transl": "Auf Wiedersehen."
+         },
+         "person": {
+          "person": "baki.male-yellow-bald",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1196,6 +1892,10 @@
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         }
        ]
@@ -1208,13 +1908,26 @@
         "name": {
          "orig": "Sgt. Niellos",
          "transl": "Hptm. Niellos"
+        },
+        "person": {
+         "person": "guards.captain-male-oneleg",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker]!\\. Take a seat and listen to the latest town gossip.",
          "transl": "Hallo, Seeker! Nimm Platz und lausche dem neuesten Stadtklatsch."
+        },
+        "person": {
+         "person": "guards.captain-male-oneleg",
+         "expression": "DEFAULT"
         }
        }
       ]

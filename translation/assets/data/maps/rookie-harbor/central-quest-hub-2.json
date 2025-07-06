@@ -366,12 +366,26 @@
     "event": [
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
+      }
+     },
      {
       "message": {
        "orig": "Mon Dieu, look at this!",
        "transl": "Mon Dieu, schau dir das an!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      }
     ]
@@ -392,48 +406,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "Wow, now that was funky!\n",
        "transl": "Boah, das war ja mal abgefahren!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "Suddenly I was in the middle of space and this old geezer kept talking to me.",
        "transl": "Auf einmal war ich mitten im Weltall und dieser alte Knacker hat mit mir gesprochen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Same for you?",
        "transl": "War's bei dir auch so?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "I suppose they wanted to pep up the boring introduction, non?",
        "transl": "Wahrscheinlich wollten sie die langweilige Einführung mal etwas aufpeppen, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "WATCH_OUT_BADASS"
       }
      },
      {
       "message": {
        "orig": "Oui, oui! \\c[3]Track of the Ancients\\c[0] it is!",
        "transl": "Oui, oui! Auf zum \\c[3]Pfad der Ahnen\\c[0]!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Let's go back.\\. Lukas is waiting.",
        "transl": "Lass uns wieder zurück.\\. Lukas wartet."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -441,36 +493,66 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "By the way, Lea.\\. I took the liberty of adding a few more entries to your \\c[3]encyclopedia\\c[0].",
        "transl": "Übrigens, Lea.\\. Ich habe mir erlaubt, deiner \\c[3]Enzyklopädie\\c[0] noch ein paar Einträge hinzuzufügen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "For example... all past events and people we have met so far.\n",
        "transl": "Zum Beispiel... alle bisherigen Ereignisse und Menschen, die wir bisher getroffen haben."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "And a few insights on the technology, of course.",
        "transl": "Und natürlich ein paar Einblicke in die Technologie."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "What?\\. I just like to organize things.",
        "transl": "Was denn?\\. Ich organisiere nun mal gerne."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      null,
@@ -494,12 +576,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "In this room you can read more about the history of \\v[lore.title.planet] and \\v[lore.title.operation-trackwalker].",
          "transl": "In diesem Raum kannst du mehr über die Geschichte von Shadoon und Operation Pfadläufer erfahren."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        }
       ]

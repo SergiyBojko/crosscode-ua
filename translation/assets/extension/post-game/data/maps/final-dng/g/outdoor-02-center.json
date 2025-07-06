@@ -311,26 +311,48 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "thenStep": [
        {
         "message": {
          "orig": "Hah! Caught up with you, chérie!",
          "transl": "Hah! Hab dich eingeholt, Chérie!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DETERMINED"
         }
        },
        {
         "message": {
          "orig": "That new wobbly puzzle thingee was a bit confusing at first...",
          "transl": "Das neue Wabbel-Rätsel-Ding war anfangs etwas verwirrend..."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "But I got it now!\\. The race is still on!",
          "transl": "Aber jetzt habe ich den Dreh raus!\\. Das Rennen ist noch nicht vorbei!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DETERMINED"
         }
        }
       ],
@@ -339,24 +361,40 @@
         "message": {
          "orig": "Hello, chérie!",
          "transl": "Hallo, Chérie!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Seems like most of the others are ahead, huh?",
          "transl": "Sieht so aus, als ob die anderen uns voraus sind, oder?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "Ah... who cares! It's not a race this time, oui?",
          "transl": "Aaach... egal! Diesmal machen wir kein Rennen draus, oui?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "I'll just take my sweet time!",
          "transl": "Diesmal nehme ich mir einfach die Zeit!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHRUG"
         }
        }
       ]
@@ -369,18 +407,36 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Ah! Looks like we're not that far behind after all.",
        "transl": "Ah! Sieht aus, als ob wir doch nicht so weit zurückliegen."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Bonjour!",
        "transl": "Bonjour!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
@@ -388,25 +444,52 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "It's good old Tronny!",
        "transl": "Tronny, alter Knabe!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Uhm...\\. hi!",
        "transl": "Öhm...\\. Hi!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
@@ -414,12 +497,20 @@
       "message": {
        "orig": "I didn't expect an outdoor area like this.",
        "transl": "So einen Außenbereich hatte ich nicht erwartet."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Oui! It's quite exciting!",
        "transl": "Oui! Das macht es noch spannender!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
@@ -428,6 +519,10 @@
         "message": {
          "orig": "Anyway, I got a race to win!\\. Au revoir!",
          "transl": "Wie auch immer, ich muss das Rennen gewinnen!\\. Au revoir!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DETERMINED"
         }
        }
       ],
@@ -436,6 +531,10 @@
         "message": {
          "orig": "Let's go, everyone!",
          "transl": "Auf geht's, Leute!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -454,18 +553,30 @@
       "message": {
        "orig": "Uhm...\\. where to, though?",
        "transl": "Öhm...\\. Wohin eigentlich?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "That's up to you.",
        "transl": "Wohin du willst."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "Alright!\\. To the west, then!",
        "transl": "Gut!\\. Dann nach Westen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -487,6 +598,10 @@
       "message": {
        "orig": "Ah, what a view, eh?\\. The Ancients certainly don't disappoint!",
        "transl": "Ah, was für eine Aussicht, was?\\. Wirklich beeindruckend, unsere Ahnen!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
       }
      }
     ]

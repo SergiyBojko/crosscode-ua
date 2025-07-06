@@ -302,17 +302,35 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "LAUGH"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
      {
       "thenStep": [
        {
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "LAUGH"
+        },
         "message": {
          "orig": "We enjoy these battles.",
          "transl": "Diese Kämpfe erfreuen uns sehr."
         }
        },
        {
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "LAUGH"
+        },
         "message": {
          "orig": "Time to face your nemesis.",
          "transl": "Zeit, sich deinem Erzfeind zu stellen!"
@@ -323,6 +341,10 @@
        {
         "thenStep": [
          {
+          "person": {
+           "person": "antagonists.designer",
+           "expression": "LAUGH"
+          },
           "message": {
            "orig": "Time to meet our pet again!",
            "transl": "Zeit für einen weiteren Tanz mit unserem Diener!"
@@ -331,12 +353,20 @@
         ],
         "elseStep": [
          {
+          "person": {
+           "person": "antagonists.designer",
+           "expression": "LAUGH"
+          },
           "message": {
            "orig": "This time, we prepared a stage for you.",
            "transl": "Diesmal haben wir eine Bühne für dich vorbereitet."
           }
          },
          {
+          "person": {
+           "person": "antagonists.designer",
+           "expression": "LAUGH"
+          },
           "message": {
            "orig": "Meet an old friend!",
            "transl": "Zeit für ein Wiedersehen mit einem alten Freund!"
@@ -353,17 +383,35 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "thenStep": [
        {
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "SMILE"
+        },
         "message": {
          "orig": "We took the liberty of modifying it a bit.",
          "transl": "Wir haben uns erlaubt, ihn ein wenig zu modifizieren."
         }
        },
        {
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "SMILE"
+        },
         "message": {
          "orig": "Now show us your best performance!",
          "transl": "Nun zeige uns dein ganzes Können!"
@@ -372,6 +420,10 @@
       ],
       "elseStep": [
        {
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "SMILE"
+        },
         "message": {
          "orig": "Show us your best performance!",
          "transl": "Zeige uns dein ganzes Können!"
@@ -380,6 +432,10 @@
       ]
      },
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      },
       "message": {
        "orig": "...!",
        "transl": "...!"
@@ -395,18 +451,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
+      }
+     },
      {
       "message": {
        "orig": "You defeated it...",
        "transl": "Du hast ihn besiegt..."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED"
       }
      },
      {
       "message": {
        "orig": "We promised to measure the time. Behold!",
        "transl": "Wir haben dir versprochen, deine Zeit zu messen. Sieh her!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      },
      null,
@@ -421,14 +495,28 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
+      }
+     },
      {
       "thenStep": [
        {
         "message": {
          "orig": "Why do you keep teasing us with this pose?",
          "transl": "Warum verspottest du uns mit dieser Pose?"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "CONFUSED"
         }
        }
       ],
@@ -437,6 +525,10 @@
         "message": {
          "orig": "Yes. This pose. We know it. ",
          "transl": "Ja.\\. Diese Pose.\\. Sie ist uns bekannt."
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "CONFUSED"
         }
        }
       ]
@@ -445,12 +537,20 @@
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "...We shall now escort you back...",
        "transl": "... Wir werden dich nun zurückgeleiten..."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED"
       }
      }
     ]

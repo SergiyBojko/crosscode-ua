@@ -30,10 +30,19 @@
       "transl": "Übungskampf-Terminal"
      },
      "event": [
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "4": [
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -74,6 +83,10 @@
          ]
         }
        ],
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       },
        "options": [
         {
          "label": {
@@ -184,7 +197,12 @@
       null,
       null,
       null,
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       null,
       null,
       null,
@@ -279,6 +297,18 @@
          ]
         },
         {
+         "5": [
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          }
+         ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
+         },
          "options": [
           {
            "label": {
@@ -394,6 +424,10 @@
          }
         }
        ],
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       },
        "options": [
         {
          "label": {
@@ -478,19 +512,36 @@
           "name": {
            "orig": "Info Advisor",
            "transl": "Info-Berater"
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Greetings, \\v[lore.title.seeker].\\. You can purchase additional \\c[3]Circuit Overrides\\c[0] from me that you can use to \\c[3]reset your circuits\\c[0].",
            "transl": "Grüß dich, Seeker.\\. Du kannst bei mir zusätzliche \\c[3]Circuit-Resetter\\c[0] kaufen, um \\c[3]deine Circuits zu resetten\\c[0]."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "But beware: These legendary items are still costly to acquire.\\. Please handle your circuit with care!",
            "transl": "Aber Vorsicht: Diese legendären Items sind nach wie vor schwer zu ergattern.\\. Gehe mit deinen Circuits also besser achtsam um!"
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          }
         ]

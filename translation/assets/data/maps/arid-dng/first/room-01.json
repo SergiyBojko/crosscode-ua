@@ -44,11 +44,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "WHY?!",
        "transl": "ЧОМУ?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      null,
@@ -57,31 +66,57 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE_PANIC"
+      }
+     },
      {
       "message": {
        "orig": "How....",
        "transl": "Як..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PANIC"
       }
      },
      {
       "message": {
        "orig": "Why...",
        "transl": "Чому..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE_PANIC"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Lea, please calm down.",
        "transl": "Lea, bitte beruhige dich."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      null,
@@ -89,72 +124,120 @@
       "message": {
        "orig": "The interior of this tower is instanced.",
        "transl": "Das Innere des Turms ist instanziert."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "That is why Lukas is not here. It is like a dungeon.",
        "transl": "Deswegen ist Lukas auf einmal nicht mehr da. Es ist ein Dungeon, mehr oder weniger."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Do not worry, I have a plan.",
        "transl": "Keine Sorge, ich habe einen Plan."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "If things go well, I can get both of you out of this.",
        "transl": "Wenn der aufgeht, kann ich euch beide hier herausholen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "We will just have to break a few rules... and walls.",
        "transl": "Wir werden dazu einfach ein paar Regeln brechen müssen... Und Wände."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "I need a bit of time to prepare things.",
        "transl": "Ich brauche etwas Zeit, um die Dinge vorzubereiten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "I have to reach Lukas... Somehow.",
        "transl": "Ich muss Lukas erreichen... Irgendwie."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Meanwhile, I need you to move to the next room to the north.",
        "transl": "Versuche in der Zwischenzeit, das Rätsel zu lösen, um in den nächsten Raum zu kommen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,

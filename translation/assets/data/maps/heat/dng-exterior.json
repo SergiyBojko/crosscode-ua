@@ -25,21 +25,39 @@
       "thenStep": [
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
+        }
+       },
        {
         "message": {
          "orig": "Blue-haired Spheromancer! You're not thinking about skipping the duel, right?",
          "transl": "Blauhaariger Spheromancer! Ich hoffe, du hast nicht vor, dich vor dem Duell zu drücken - oder?"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        },
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ],
@@ -52,13 +70,32 @@
        {
         "thenStep": [
          null,
-         null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "main.glasses",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Here we go!",
            "transl": "Los geht's!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DETERMINED"
           }
          },
          null,
@@ -66,13 +103,32 @@
          null,
          null,
          null,
-         null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "main.glasses",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Are you ready for the Faj'ro Temple race?",
            "transl": "Bist du bereit für das große Rennen von Faj'ro?"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SMILE"
           }
          },
          {
@@ -81,18 +137,30 @@
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            {
             "message": {
              "orig": "Okey-dokey!",
              "transl": "Okey-dokey!"
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "SMILE"
             }
            },
            {
             "message": {
              "orig": "Everybody get ready!",
              "transl": "Macht euch bereit!"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "DETERMINED"
             }
            },
            null,
@@ -122,15 +190,27 @@
             "message": {
              "orig": "[shakes head]",
              "transl": "[schüttelt Kopf]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SHAKE"
             }
            },
            {
             "message": {
              "orig": "D'accord, just don't let us wait for too long~",
              "transl": "D'accord, lass uns nur nicht zu lange warteeen~"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "EMBARRASSED"
             }
            }
           ],
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
+          },
           "options": [
            {
             "label": {
@@ -153,61 +233,114 @@
            null,
            null,
            null,
-           null,
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
+            }
+           },
            {
             "thenStep": [
-             null,
+             {
+              "person": {
+               "person": "main.emilie",
+               "expression": "DEFAULT"
+              }
+             },
              {
               "message": {
                "orig": "Hey Lea, we should call C'tron before entering the Temple.",
                "transl": "Hey, Lea, wir sollten C'tron anrufen, bevor wir in den Tempel gehen."
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "CURIOUS"
               }
              },
              {
               "message": {
                "orig": "Don't forget about our race, non?",
                "transl": "Vergiss unser Rennen nicht, oui?"
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "DETERMINED"
               }
              },
              {
               "message": {
                "orig": "...!",
                "transl": "...!"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "ASTONISHED"
               }
              }
             ]
            },
            {
             "thenStep": [
-             null,
+             {
+              "person": {
+               "person": "main.glasses",
+               "expression": "DEFAULT"
+              }
+             },
              {
               "message": {
                "orig": "Lea, what about Emilie? We wanted to race the dungeon together, right?",
                "transl": "Lea, was ist mit Emilie? Wir wollten das Dungeon-Rennen gemeinsam machen, oder?"
+              },
+              "person": {
+               "person": "main.glasses",
+               "expression": "TOWARD"
               }
              },
              {
               "message": {
                "orig": "...!",
                "transl": "...!"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "ASTONISHED"
               }
              }
             ]
            }
           ],
           "elseStep": [
-           null,
-           null,
+           {
+            "person": {
+             "person": "main.sergey",
+             "expression": "NOTIFYING"
+            }
+           },
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
+            }
+           },
            {
             "message": {
              "orig": "Lea, what about that dungeon race? You were planning to enter the dungeon together with Emilie and C'tron, right?",
              "transl": "Lea, was ist mit dem Rennen? Du wolltest es doch zusammen mit Emilie und C'tron machen, richtig?"
+            },
+            "person": {
+             "person": "main.sergey",
+             "expression": "NOTIFYING"
             }
            },
            {
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "ASTONISHED"
             }
            }
           ]
@@ -666,14 +799,28 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "antagonists.fancyguy",
+          "expression": "ANGRY"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
+         }
+        },
         {
          "thenStep": [
           {
            "message": {
             "orig": "I see your stats are \\c[1]as high as ever\\c[0].",
             "transl": "Wie ich sehe, sind deine Stats \\c[1]unverändert hoch\\c[0]."
+           },
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "SUSPICIOUS"
            }
           }
          ],
@@ -684,12 +831,20 @@
              "message": {
               "orig": "Hm...\\. Your \\c[3]stats seem rather low\\c[0]. I suggest you upgrade your \\c[3]circuits\\c[0] and \\c[3]equipment\\c[0] before the duel.",
               "transl": "Hm...\\. Deine \\c[3]Stats sind ziemlich niedrig\\c[0]. Ich empfehle dir, deine \\c[3]Circuits\\c[0] und \\c[3]Ausrüstung\\c[0] vor dem Duell auszubauen."
+             },
+             "person": {
+              "person": "antagonists.fancyguy",
+              "expression": "LECTURING"
              }
             },
             {
              "message": {
               "orig": "Unless you are very confident in your skills. But I don't want to hear any excuses!",
               "transl": "Es sei denn, du bist dir deiner Sache sicher. Aber dann will ich keine Ausreden hören!"
+             },
+             "person": {
+              "person": "antagonists.fancyguy",
+              "expression": "SUSPICIOUS"
              }
             }
            ],
@@ -698,6 +853,10 @@
              "message": {
               "orig": "I see you are prepared.",
               "transl": "Ich sehe, du hast dich vorbereitet."
+             },
+             "person": {
+              "person": "antagonists.fancyguy",
+              "expression": "DOWN"
              }
             }
            ]
@@ -708,6 +867,10 @@
          "message": {
           "orig": "Are you ready for the duel?",
           "transl": "Bist du bereit für das Duell?"
+         },
+         "person": {
+          "person": "antagonists.fancyguy",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -716,12 +879,20 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Alright then, let's go!",
             "transl": "Also dann, legen wir los!"
+           },
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "LECTURING"
            }
           },
           null,
@@ -736,73 +907,134 @@
             null,
             null,
             null,
-            null,
+            {
+             "person": {
+              "person": "main.lea",
+              "expression": "DEFAULT"
+             }
+            },
             {
              "thenStep": [
-              null,
-              null,
+              {
+               "person": {
+                "person": "main.emilie",
+                "expression": "DEFAULT"
+               }
+              },
+              {
+               "person": {
+                "person": "main.glasses",
+                "expression": "DEFAULT"
+               }
+              },
               {
                "message": {
                 "orig": "Well then... good luck!",
                 "transl": "Na dann... Viel Glück!"
+               },
+               "person": {
+                "person": "main.glasses",
+                "expression": "SMILE"
                }
               },
               {
                "message": {
                 "orig": "Make sure to give Grasshead the beating of a lifetime.",
                 "transl": "Verpass dem Graskopf eine Tracht Prügel, an die er sich erinnern wird!"
+               },
+               "person": {
+                "person": "main.emilie",
+                "expression": "DETERMINED"
                }
               },
               {
                "message": {
                 "orig": "...",
                 "transl": "..."
+               },
+               "person": {
+                "person": "main.lea",
+                "expression": "DETERMINED"
                }
               }
              ]
             },
             {
              "thenStep": [
-              null,
+              {
+               "person": {
+                "person": "main.emilie",
+                "expression": "DEFAULT"
+               }
+              },
               {
                "message": {
                 "orig": "Hey Lea, I think Tronny wanted to watch your match as well, non?",
                 "transl": "Hey, Lea! Ich glaube, Tronny wollte beim Duell auch zusehen, non?"
+               },
+               "person": {
+                "person": "main.emilie",
+                "expression": "DEFAULT"
                }
               },
               {
                "message": {
                 "orig": "...!",
                 "transl": "...!"
+               },
+               "person": {
+                "person": "main.lea",
+                "expression": "ASTONISHED"
                }
               },
               {
                "message": {
                 "orig": "I'll quickly give him a call to come over!",
                 "transl": "Ich rufe ihn schnell an, dass er kommen soll!"
+               },
+               "person": {
+                "person": "main.emilie",
+                "expression": "SMILE"
                }
               }
              ]
             },
             {
              "thenStep": [
-              null,
+              {
+               "person": {
+                "person": "main.glasses",
+                "expression": "DEFAULT"
+               }
+              },
               {
                "message": {
                 "orig": "Lea, I think Emilie wanted to see the match as well, right?",
                 "transl": "Lea, ich glaube Emilie wollte beim Duell auch zusehen, oder?"
+               },
+               "person": {
+                "person": "main.glasses",
+                "expression": "THOUGHTFUL"
                }
               },
               {
                "message": {
                 "orig": "[nods]",
                 "transl": "[nickt]"
+               },
+               "person": {
+                "person": "main.lea",
+                "expression": "NOD"
                }
               },
               {
                "message": {
                 "orig": "Let me just quickly call her!",
                 "transl": "Ich rufe sie schnell an!"
+               },
+               "person": {
+                "person": "main.glasses",
+                "expression": "DEFAULT"
                }
               }
              ]
@@ -812,30 +1044,56 @@
             null,
             null,
             null,
-            null,
-            null,
+            {
+             "person": {
+              "person": "main.lea",
+              "expression": "DEFAULT"
+             }
+            },
+            {
+             "person": {
+              "person": "main.sergey",
+              "expression": "NOTIFYING"
+             }
+            },
             {
              "message": {
               "orig": "Lea, I think C'tron and Emilie wanted to watch your match as well, right?",
               "transl": "Lea, ich glaube, C'tron und Emilie wollten beide beim Duell zusehen, oder?"
+             },
+             "person": {
+              "person": "main.sergey",
+              "expression": "NOTIFYING"
              }
             },
             {
              "message": {
               "orig": "...!",
               "transl": "...!"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "ASTONISHED"
              }
             },
             {
              "message": {
               "orig": "Just give them a hint via D-Link.",
               "transl": "Ruf sie einfach schnell über einen D-Link an."
+             },
+             "person": {
+              "person": "main.sergey",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "[nods]",
               "transl": "[nickt]"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "NOD"
              }
             }
            ]
@@ -851,23 +1109,46 @@
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "thenStep": [
-            null,
+            {
+             "person": {
+              "person": "main.emilie",
+              "expression": "DEFAULT"
+             }
+            },
             {
              "thenStep": [
-              null,
+              {
+               "person": {
+                "person": "main.glasses",
+                "expression": "DEFAULT"
+               }
+              },
               {
                "message": {
                 "orig": "Here we are!",
                 "transl": "Da wären wir!"
+               },
+               "person": {
+                "person": "main.glasses",
+                "expression": "SMILE"
                }
               },
               {
                "message": {
                 "orig": "It's duel time! Good thing you didn't forget about us!",
                 "transl": "Grade noch rechtzeitig! Freut mich, dass du uns nicht vergessen hast!"
+               },
+               "person": {
+                "person": "main.emilie",
+                "expression": "DETERMINED"
                }
               }
              ],
@@ -876,17 +1157,30 @@
                "message": {
                 "orig": "It's duel time! Good thing you didn't forget about me.",
                 "transl": "Grade noch rechtzeitig! Freut mich, dass du mich nicht vergessen hast!"
+               },
+               "person": {
+                "person": "main.emilie",
+                "expression": "DETERMINED"
                }
               }
              ]
             }
            ],
            "elseStep": [
-            null,
+            {
+             "person": {
+              "person": "main.glasses",
+              "expression": "DEFAULT"
+             }
+            },
             {
              "message": {
               "orig": "Gosh...\\. I almost missed it.\\. Thanks for telling me!",
               "transl": "Oh Mann...\\. Ich hätte es fast verpasst.\\. Danke, dass du mir Bescheid gesagt hast!"
+             },
+             "person": {
+              "person": "main.glasses",
+              "expression": "SURPRISED"
              }
             }
            ]
@@ -903,32 +1197,58 @@
           null,
           null,
           null,
-          null,
-          null,
+          {
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "ANGRY"
+           }
+          },
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
+           }
+          },
           {
            "thenStep": [
             {
              "message": {
               "orig": "I surely hope you learned your lessons since last.",
               "transl": "Ich hoffe wirklich, dass du deine Lektion seit unserer letzten Begegnung gelernt hast."
+             },
+             "person": {
+              "person": "antagonists.fancyguy",
+              "expression": "SUSPICIOUS"
              }
             },
             {
              "message": {
               "orig": "Or do you plan to once again turn this into a display of \\c[1]BLATANT CHEATING\\c[0] in front of everyone?!",
               "transl": "Oder hast du wieder vor, deine \\c[1]SCHÄNDLICHE CHEATEREI\\c[0] vor aller Leute Augen vorzuführen?!"
+             },
+             "person": {
+              "person": "antagonists.fancyguy",
+              "expression": "SHOUTING"
              }
             },
             {
              "message": {
               "orig": "...!",
               "transl": "...!"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "INSANE_DOWN"
              }
             },
             {
              "message": {
               "orig": "I won't let you get away so easily this time.",
               "transl": "Dieses Mal werde ich es dir nicht so leicht machen."
+             },
+             "person": {
+              "person": "antagonists.fancyguy",
+              "expression": "SUSPICIOUS"
              }
             }
            ],
@@ -939,24 +1259,40 @@
                "message": {
                 "orig": "Inviting your friend to watch the duel, Spheromancer?",
                 "transl": "Du lädst deine Freunde ein, damit sie dir zusehen?"
+               },
+               "person": {
+                "person": "antagonists.fancyguy",
+                "expression": "SUSPICIOUS"
                }
               },
               {
                "message": {
                 "orig": "Pretty confident!",
                 "transl": "Ziemlich selbstsicher, Spheromancer!"
+               },
+               "person": {
+                "person": "antagonists.fancyguy",
+                "expression": "LECTURING"
                }
               },
               {
                "message": {
                 "orig": "...!",
                 "transl": "...!"
+               },
+               "person": {
+                "person": "main.lea",
+                "expression": "DETERMINED"
                }
               },
               {
                "message": {
                 "orig": "Anyway, let's get things started!",
                 "transl": "Wie auch immer, lass uns anfangen!"
+               },
+               "person": {
+                "person": "antagonists.fancyguy",
+                "expression": "CONTENT"
                }
               }
              ],
@@ -965,18 +1301,30 @@
                "message": {
                 "orig": "Are you ready?",
                 "transl": "Bist du bereit?"
+               },
+               "person": {
+                "person": "antagonists.fancyguy",
+                "expression": "LECTURING"
                }
               },
               {
                "message": {
                 "orig": "[nods]",
                 "transl": "[nickt]"
+               },
+               "person": {
+                "person": "main.lea",
+                "expression": "NOD"
                }
               },
               {
                "message": {
                 "orig": "Good.",
                 "transl": "Gut."
+               },
+               "person": {
+                "person": "antagonists.fancyguy",
+                "expression": "CONTENT"
                }
               }
              ]
@@ -987,6 +1335,10 @@
            "message": {
             "orig": "PvP Combat, ACTIVATE!",
             "transl": "PvP-Kampf AKTIVIEREN!"
+           },
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "SHOUTING"
            }
           },
           null,
@@ -1005,13 +1357,22 @@
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.emilie",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "thenStep": [
             {
              "message": {
               "orig": "Smash him good, Lea!",
               "transl": "Hau ihn aus'm Anzug, Lea!"
+             },
+             "person": {
+              "person": "main.emilie",
+              "expression": "DETERMINED"
              }
             }
            ],
@@ -1020,6 +1381,10 @@
              "message": {
               "orig": "Good Luck, Lea!",
               "transl": "Denk dran, Lea: Immer auf die Zwölf!"
+             },
+             "person": {
+              "person": "main.emilie",
+              "expression": "DEFAULT"
              }
             }
            ]
@@ -1030,29 +1395,50 @@
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "LECTURING"
+           }
+          },
           {
            "message": {
             "orig": "Time has passed since our last duel.",
             "transl": "Es ist einige Zeit vergangen, seit unserem letzten Duell."
+           },
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "LECTURING"
            }
           },
           {
            "message": {
             "orig": "Our characters have grown.\\. We both acquired the \\c[3]heat element\\c[0].",
             "transl": "Wir haben uns weiterentwickelt.\\. Wir haben beide das \\c[3]Hitze-Element\\c[0] erhalten."
+           },
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "LECTURING"
            }
           },
           {
            "message": {
             "orig": "So it is time for me, \\c[3]Apollo\\c[0], to make sure you are still on the right path.",
             "transl": "Es wird also Zeit, dass ich, \\c[3]Apollo\\c[0], mich überzeuge, ob du noch immer auf dem rechten Weg bist."
+           },
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "LECTURING"
            }
           },
           {
            "message": {
             "orig": "The path of a \nproper Spheromancer!\\.",
             "transl": "Dem Weg eines wahren Spheromancers!"
+           },
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "LECTURING"
            }
           },
           {
@@ -1065,6 +1451,10 @@
            "message": {
             "orig": "THE PATH...\\.\\. of \\c[3]Justice\\c[0]!",
             "transl": "DEM WEG...\\.\\. der \\c[3]Gerechtigkeit\\c[0]!"
+           },
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "SHOUTING"
            }
           },
           null,
@@ -1073,15 +1463,33 @@
           null,
           null,
           null,
-          null,
-          null,
+          {
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "POINTING"
+           }
+          },
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
+           }
+          },
           {
            "message": {
             "orig": "Let the duel begin!",
             "transl": "Lasst das Duell beginnen!"
+           },
+           "person": {
+            "person": "antagonists.fancyguy",
+            "expression": "POINTING"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -1116,6 +1524,10 @@
             "message": {
              "orig": "\\c[1]Bye!\\c[0]",
              "transl": "\\c[1]Bye!\\c[0]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "INSANE_DOWN"
             }
            },
            {
@@ -1124,6 +1536,10 @@
               "message": {
                "orig": "W-WHAT IS THIS DAMAGE?!",
                "transl": "DAS IST DOCH KEIN NORMALER SCHADEN?!"
+              },
+              "person": {
+               "person": "antagonists.fancyguy",
+               "expression": "RAGING"
               }
              }
             ],
@@ -1132,6 +1548,10 @@
               "message": {
                "orig": "YOU'RE DOING IT AGAIN!\\. YOU LEARNED NOTHING!!",
                "transl": "DU TUST ES SCHON WIEDER!\\. DU HAST KEIN BISSCHEN DAZUGELERNT!!"
+              },
+              "person": {
+               "person": "antagonists.fancyguy",
+               "expression": "RAGING"
               }
              }
             ]
@@ -1142,12 +1562,20 @@
             "message": {
              "orig": "Not bad. But that was just a \"warm up\". Things are getting \\c[3]hot\\c[0] now!",
              "transl": "Nicht schlecht. Nur ein kleines Vorspiel \"zum Warmwerden\". Denn jetzt wird's richtig \\c[3]heiß\\c[0]!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "DOWN"
             }
            },
            {
             "message": {
              "orig": "Did you seriously just make that pun?",
              "transl": "Den hast du jetzt nicht ernsthaft gebracht, oder?"
+            },
+            "person": {
+             "person": "antagonists.sidekick",
+             "expression": "SARCASTIC"
             }
            }
           ]
@@ -1162,12 +1590,20 @@
             "message": {
              "orig": "YOU DIRTY LITTLE CHEATER!",
              "transl": "DU DRECKIGER KLEINER CHEATER!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "DUMBFOUNDED"
             }
            },
            {
             "message": {
              "orig": "\\c[1]Lea!\\c[0]",
              "transl": "\\c[1]Lea!\\c[0]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "INSANE"
             }
            }
           ],
@@ -1176,6 +1612,10 @@
             "message": {
              "orig": "Let's see if you can handle my \\c[3]secret strategy\\c[0]!",
              "transl": "Mal sehen, wie du mit meiner \\c[3]Geheimtaktik\\c[0] fertigwirst!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "DOWN"
             }
            }
           ]
@@ -1190,12 +1630,20 @@
             "message": {
              "orig": "AHHHHHHHHHH!!",
              "transl": "AHHHHHHHHHH!!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "RAGING"
             }
            },
            {
             "message": {
              "orig": "You can hardly call that a duel, really...",
              "transl": "Oh Mann, das ist doch kein Duell..."
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "EXHAUSTED"
             }
            }
           ],
@@ -1204,6 +1652,10 @@
             "message": {
              "orig": "Alright, fun time is over now.",
              "transl": "Okay, jetzt ist Schluss mit lustig."
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "LECTURING"
             }
            }
           ]
@@ -1218,12 +1670,20 @@
             "message": {
              "orig": "NO \\c[1]SKILLS\\c[0], NO \\c[1]HONOR\\c[0]! ONLY \\c[1]DIRTY TRICKS\\c[0]!",
              "transl": "KEIN \\c[1]KÖNNEN\\c[0], KEINE \\c[1]EHRE\\c[0]! NUR \\c[1]SCHMUTZIGE TRICKS\\c[0]!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "RAGING"
             }
            },
            {
             "message": {
              "orig": "One more hit and he'll shut up, Lea!",
              "transl": "Noch ein Schlag und er liegt am Boden, Lea!"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "SMILE"
             }
            }
           ],
@@ -1232,12 +1692,20 @@
             "message": {
              "orig": "This isn't over yet!!",
              "transl": "Wir sind noch nicht miteinander fertig!!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SHOUTING"
             }
            },
            {
             "message": {
              "orig": "You almost got it, Lea! Go, go, go!",
              "transl": "Du hast es fast geschafft, Lea! Los, los, los!"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "HAPPY"
             }
            }
           ]
@@ -1256,6 +1724,10 @@
               "message": {
                "orig": "Again with just a single hit?\\. And here I thought you would have worked on your defense by now.",
                "transl": "Schon wieder mit nur einem Schlag?\\. Und ich dachte, du hättest deine Verteidigung mittlerweile ausgebaut."
+              },
+              "person": {
+               "person": "antagonists.fancyguy",
+               "expression": "PONDERING"
               }
              }
             ],
@@ -1264,6 +1736,10 @@
               "message": {
                "orig": "Down with just a single hit?!\\. You should really mind your defensive stats.",
                "transl": "Mit nur einem Schlag am Boden?!\\. Du solltest dich wirklich mal um deine Verteidigung kümmern."
+              },
+              "person": {
+               "person": "antagonists.fancyguy",
+               "expression": "PONDERING"
               }
              }
             ]
@@ -1276,6 +1752,10 @@
               "message": {
                "orig": "I won't let you win this easily!",
                "transl": "So leicht werde ich dich nicht gewinnen lassen!"
+              },
+              "person": {
+               "person": "antagonists.fancyguy",
+               "expression": "SUSPICIOUS"
               }
              }
             ],
@@ -1284,6 +1764,10 @@
               "message": {
                "orig": "I know you can do better.",
                "transl": "Ich weiß, dass du das besser kannst."
+              },
+              "person": {
+               "person": "antagonists.fancyguy",
+               "expression": "LECTURING"
               }
              }
             ]
@@ -1298,6 +1782,10 @@
           "message": {
            "orig": "Come on, Lea! More punching! You can do it!",
            "transl": "Komm schon, Lea! Stell dir vor, er wäre ein Sandsack! Dann schaffst du's!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DETERMINED"
           }
          }
         ]
@@ -1310,6 +1798,10 @@
             "message": {
              "orig": "This is too easy, really...",
              "transl": "Das ist doch ein Witz..."
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SUSPICIOUS"
             }
            }
           ],
@@ -1318,6 +1810,10 @@
             "message": {
              "orig": "You still have much to learn!",
              "transl": "Du hast immer noch viel zu lernen!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "SHOUTING"
             }
            }
           ]
@@ -1326,6 +1822,10 @@
           "message": {
            "orig": "Don't give up, Lea!",
            "transl": "Lea! Nicht aufgeben!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SURPRISED"
           }
          }
         ]
@@ -1336,6 +1836,10 @@
           "message": {
            "orig": "Alright. Time to end this!",
            "transl": "Okay! Zeit, dem ein Ende zu bereiten!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          }
         ]
@@ -1369,22 +1873,40 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "thenStep": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "INSANE_DOWN"
+          }
+         },
          {
           "thenStep": [
            {
             "message": {
              "orig": "ONCE A CHEATER, FOREVER A CHEATER!",
              "transl": "EINMAL CHEATER, IMMER CHEATER!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "RAGING"
             }
            },
            {
             "message": {
              "orig": "YOU REALLY LEARNED NOTHING!",
              "transl": "DU HAST WIRKLICH NICHTS GELERNT!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "RAGING"
             }
            }
           ],
@@ -1393,12 +1915,20 @@
             "message": {
              "orig": "YOU CHEATER!\\. YOU DIRTY LITTLE CHEATER!",
              "transl": "DU CHEATER!\\. DU DRECKIGER, KLEINER CHEATER!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "RAGING"
             }
            },
            {
             "message": {
              "orig": "THERE WAS ABSOLUTELY NO HONOR IN THIS DUEL!",
              "transl": "DAS WAR DOCH KEIN DUELL VON EHRE!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "DUMBFOUNDED"
             }
            }
           ]
@@ -1408,21 +1938,38 @@
           "message": {
            "orig": "Blue-haired Spheromancer, I'm severely disappointed!",
            "transl": "Blauhaariger Spheromancer, ich bin schwer enttäuscht!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          }
         ],
         "elseStep": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SUSPICIOUS"
           }
          },
          {
           "message": {
            "orig": "You've grown remarkably. I'm very impressed, Spheromancer!",
            "transl": "Dein Fortschritt ist bemerkenswert. Ich bin sehr beeindruckt, Spheromancer!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "LECTURING"
           }
          }
         ]
@@ -1431,13 +1978,26 @@
         "message": {
          "orig": "Lea.",
          "transl": "Лія."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DETERMINED"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "SUSPICIOUS"
+        }
+       },
        {
         "message": {
          "orig": "Don't forget your promise.",
          "transl": "Vergiss nicht dein Versprechen."
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "SUSPICIOUS"
         }
        },
        {
@@ -1446,18 +2006,30 @@
           "message": {
            "orig": "SHE CHEATED!!\\. WHY SHOULD I CARE?!",
            "transl": "WARUM SOLLTE MICH DAS NOCH KÜMMERN?!\\. SIE HAT GECHEATET!!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "RAGING"
           }
          },
          {
           "message": {
            "orig": "She won the duel, that's all you agreed on.",
            "transl": "Sie hat das Duell gewonnen, darauf habt ihr euch geeinigt."
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "TOWARD"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SUSPICIOUS"
           }
          }
         ],
@@ -1466,12 +2038,20 @@
           "message": {
            "orig": "... Right.",
            "transl": "... Stimmt."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "PONDERING"
           }
          },
          {
           "message": {
            "orig": "You deserve to be called by your proper name now.",
            "transl": "Du verdienst es nun, bei deinem richtigen Namen genannt zu werden."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "CONTENT"
           }
          }
         ]
@@ -1480,14 +2060,28 @@
       "elseStep": [
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
+        }
+       },
        {
         "thenStep": [
          {
           "message": {
            "orig": "You are really severally lacking in \\c[1]stamina\\c[0], being defeated so quickly...",
            "transl": "Es mangelt dir wirklich an \\c[1]Ausdauer\\c[0], wenn du derart schnell zu Boden gehst..."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SUSPICIOUS"
           }
          }
         ]
@@ -1496,31 +2090,56 @@
         "message": {
          "orig": "It looks like you still have much to learn, Blue-Haired Spheromancer.",
          "transl": "Sieht so aus, als hättest du noch viel zu lernen, blauhaariger Spheromancer."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DOWN_EYE_CLOSED"
         }
        },
        {
         "message": {
          "orig": "...\\. Lea...",
          "transl": "...\\. Lea..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SAD"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "ANGRY"
+        }
+       },
        {
         "message": {
          "orig": "You still won't use her name? Don't be like that.",
          "transl": "Du spricht sie immer noch nicht mit ihrem Namen an? Jetzt sei mal nicht so."
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "ANGRY"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "PONDERING"
         }
        },
        {
@@ -1530,6 +2149,10 @@
           "message": {
            "orig": "Well, it seems at least that you didn't entirely rely on blatant cheating this time.\\. I respect this.",
            "transl": "Nun, diesmal scheinst du dich zumindest nicht gänzlich auf schändliche Cheats verlassen zu haben.\\. Das respektiere ich."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "LECTURING"
           }
          }
         ],
@@ -1538,6 +2161,10 @@
           "message": {
            "orig": "It was a good duel and a respectable effort on your end.",
            "transl": "Das war ein gutes Duell und deine Bemühungen verdienen Respekt."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "LECTURING"
           }
          }
         ]
@@ -1546,6 +2173,10 @@
         "message": {
          "orig": "I suppose I might as well use your proper name.",
          "transl": "Dann kann ich dich jetzt wohl auch bei deinem richtigen Namen nennen."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "CONTENT"
         }
        }
       ]
@@ -1553,26 +2184,48 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "thenStep": [
        {
         "message": {
          "orig": "SPHEROMANCER LEA!",
          "transl": "SPHEROMANCER LEA!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        },
        {
         "message": {
          "orig": "AS ANOTHER SPHEROMANCER, I URGE YOU TO STOP THIS DISGRACEFUL BEHAVIOR!",
          "transl": "ALS SPHEROMANCER BITTE ICH DICH, DICH DIESES BESCHÄMENDEN VERHALTENS ZU ENTLEDIGEN!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        },
        {
         "message": {
          "orig": "I shall give you another chance with our next duel to reconsider your current course.",
          "transl": "Ich werde dir bis zu unserem nächsten Duell eine weitere Chance geben, deinen eingeschlagenen Weg zu überdenken."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        }
       ],
@@ -1581,6 +2234,10 @@
         "message": {
          "orig": "Spheromancer Lea! I'm looking forward to our next duel!",
          "transl": "Spheromancer Lea! Ich freue mich schon auf unser nächstes Duell!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        }
       ]
@@ -1589,52 +2246,100 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
+      }
+     },
      {
       "message": {
        "orig": "Does that mean we can finally play this game together like we'd originally planned?",
        "transl": "Heißt das, wir können jetzt endlich mit dem weitermachen, was wir eigentlich vorhatten?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Yes, sorry I made you wait.",
        "transl": "Ja, tut mir leid, dass du so lange warten musstest."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "About time. Let's go.",
        "transl": "Wurde auch Zeit. Auf geht's."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "UP"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Until next time, Spheromancer Lea!",
        "transl": "Bis zum nächsten Mal, Spheromancer Lea!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1653,9 +2358,24 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
        {
@@ -1664,6 +2384,10 @@
           "message": {
            "orig": "Congratulations! That was really...\\. \\c[1]one-sided\\c[0].",
            "transl": "Glückwunsch! Das war ein ziemlich...\\. \\c[1]einseitiger Kampf\\c[0]."
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SMILE"
           }
          }
         ],
@@ -1672,6 +2396,10 @@
           "message": {
            "orig": "Congratulations! That was really impressive!",
            "transl": "Glückwunsch! Das war echt beeindruckend!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SMILE"
           }
          }
         ]
@@ -1680,12 +2408,20 @@
         "message": {
          "orig": "Oui! You've shown Grasshead who's boss! Good work!",
          "transl": "Oui! Dem Graskopf hast du echt gezeigt, wo der Frosch die Locken hat!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "TAUNTING"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ],
@@ -1694,18 +2430,30 @@
         "message": {
          "orig": "That was a good fight, Lea.\\. You tried your best.",
          "transl": "Das war ein guter Kampf, Lea.\\. Du hast dein Bestes gegeben."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "Oui.\\. Just make sure to punch Grasshead even harder next time!",
          "transl": "Oui.\\. Schlag beim nächsten Mal einfach fester zu!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "WATCH_OUT_BADASS"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        }
       ]
@@ -1714,12 +2462,20 @@
       "message": {
        "orig": "Well then...\\. Our next stage would be \\c[3]Faj'ro Temple\\c[0], right?",
        "transl": "Tja, dann...\\. ist als Nächstes also der \\c[3]Faj'ro-Tempel\\c[0] dran, richtig?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Exactement!",
        "transl": "Exactement!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
@@ -1727,18 +2483,36 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "It's time for our third dungeon race!",
        "transl": "Zeit für unser drittes Dungeon-Rennen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Oh, you two are racing dungeons together?",
        "transl": "Oh, ihr beiden veranstaltet also immer Wettrennen?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -1746,80 +2520,148 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "That's right! We've been racing dungeons ever since we met at Newcomer's Bridge.",
        "transl": "Genau! Wir machen das, seit wir uns an der Neulingsbrücke getroffen haben."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Oh, that sounds fun... ",
        "transl": "Das klingt nach einer Menge Spaß..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Then again, I guess there is no place for me in your competition...",
        "transl": "Andererseits ist für mich wahrscheinlich kein Platz bei eurem Wettrennen..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "What do you mean, Tronny? Of course you can race with us! ",
        "transl": "Was meinst du, Tronny? Natürlich kannst du mitmachen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "WATCH_OUT_BADASS"
       }
      },
      {
       "message": {
        "orig": "The more the merrier, right Lea?",
        "transl": "Je mehr, desto besser, oder Lea?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "HAPPY"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Now if that's the case! Don't mind me joining, then!",
        "transl": "Ja, wenn das so ist, würde ich gerne mitmachen!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Fantastique! Now I really can't wait!",
        "transl": "Fantastique! Jetzt kann ich es echt nicht mehr abwarten!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hm.. maybe Lea wants a short breather after the duel? ",
        "transl": "Hm... Vielleicht braucht Lea vorher eine kurze Pause?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "Ah oui... just tell us when you're ready!",
        "transl": "Ah oui... Sag uns einfach, wenn du so weit bist!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -1856,7 +2698,12 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Blue-haired Spheromancer!",
@@ -1865,11 +2712,20 @@
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "POINTING"
+      }
+     },
      {
       "message": {
        "orig": "I see you have arrived!",
        "transl": "Ich sehe, du bist eingetroffen!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "POINTING"
       }
      },
      null,
@@ -1882,18 +2738,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "It's time for our duel!",
        "transl": "Es ist Zeit für unser Duell!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Once again, the location is just perfect!",
        "transl": "Wieder einmal ist der Ort hier einfach wie dafür geschaffen!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
       }
      },
      null,
@@ -1903,52 +2777,106 @@
      null,
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "WATCH_OUT_BADASS"
+        }
+       },
        {
         "message": {
          "orig": "Again seeking the attention of other players, oui?",
          "transl": "Und du suchst wieder die Aufmerksamkeit der anderen Spieler, oui?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "WATCH_OUT_BADASS"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SHOUTING"
+        }
+       },
        {
         "message": {
          "orig": "Of course!",
          "transl": "Natürlich!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SHOUTING"
         }
        }
       ],
       "elseStep": [
        {
         "thenStep": [
-         null,
+         {
+          "person": {
+           "person": "main.glasses",
+           "expression": "EMBARRASSED"
+          }
+         },
          {
           "message": {
            "orig": "Are you sure?\\. With all those players around?",
            "transl": "Bist du sicher?\\. Vor all den Spielern hier?"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "EMBARRASSED"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
+          }
+         },
          {
           "message": {
            "orig": "Yes, that's the point!",
            "transl": "Ja, das ist doch der Sinn des Ganzen!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          }
         ],
         "elseStep": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
+          }
+         },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "MOPING"
+          }
+         },
          {
           "message": {
            "orig": "... What is it?",
            "transl": "... Що?"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "ANGRY"
           }
          }
         ]
@@ -1960,18 +2888,36 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
+      }
+     },
      {
       "message": {
        "orig": "He wants his audience. You can't talk him out of it, trust me.",
        "transl": "Er braucht sein Publikum. Das kannst du ihm nicht ausreden, glaub mir."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "MOPING"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "MOPING"
       }
      },
      null,
@@ -1980,6 +2926,10 @@
       "message": {
        "orig": "Anyway!\\. Talk to me when you are ready for the duel!",
        "transl": "Wie auch immer!\\. Sag mir Bescheid, wenn du bereit für das Duell bist!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      }
     ]
@@ -2061,19 +3011,37 @@
      {
       "thenStep": [
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...Hi!",
          "transl": "... Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        null,
-       null,
+       {
+        "person": {
+         "person": "main.glasses",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey Lea! You're here as well? I just arrived myself.",
          "transl": "Hey, Lea! Du bist auch schon hier? Bin selbst gerade eben erst angekommen."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
         }
        },
        null,
@@ -2086,11 +3054,20 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
+        }
+       },
        {
         "message": {
          "orig": "Wait, I'm last? Aww man.",
          "transl": "Was? Ich bin Letzte? Och, mennooo..."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        },
        null,
@@ -2099,20 +3076,42 @@
         "message": {
          "orig": "... But this is not the end of the dungeon, oui?",
          "transl": "... Aber das ist noch nicht das Ende des Dungeons, oui?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.glasses",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "No, this seems to be more like a break room in the middle?",
          "transl": "Nein, sieht mehr aus wie eine Art Pausenraum in der Mitte..."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "Phew... that means the race isn't over yet!",
          "transl": "Puh... Das heißt, das Rennen ist noch nicht vorbei!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DETERMINED"
         }
        }
       ],
@@ -2120,49 +3119,92 @@
        null,
        null,
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.glasses",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...Hi...",
          "transl": "... Привіт..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "Oh, you're here as well already?\\. Tronny and I just arrived.",
          "transl": "Oh, du bist auch schon hier?\\. Tronny und ich sind gerade eben angekommen."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "And he even arrived before me, can you believe this?",
          "transl": "Und er kam sogar vor mir an, kannst du dir das vorstellen?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "W-Well... just barely!",
          "transl": "N-Na ja... Aber nur ganz knapp!"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "Anyway, this is not the end of the dungeon, just the middle.",
          "transl": "Jedenfalls ist der Dungeon noch nicht zu Ende, das ist erst die Mitte."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHRUG"
         }
        },
        {
         "message": {
          "orig": "The race isn't over yet!",
          "transl": "Das Rennen ist noch nicht vorbei!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DETERMINED"
         }
        }
       ]
@@ -2172,37 +3214,70 @@
       "message": {
        "orig": "But man... this dungeon sure is full of puzzles.",
        "transl": "Aber uff... Dieser Dungeon ist echt voller Rätsel."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "True.",
        "transl": "Stimmt."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "I mean we could take a break. There is a landmark here, after all.",
        "transl": "Ich meine, wir könnten auch eine Pause machen, hier ist immerhin ein Wegpunkt."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Oui, that's right...",
        "transl": "Oui, du hast recht..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      },
-     null,
+     {
+      "thenStep": [
+       {
+        "person": {
+         "person": "main.glasses",
+         "expression": "DEFAULT"
+        }
+       }
+      ]
+     },
      {
       "message": {
        "orig": "We'll leave it up to you, Lea. Just enter the dungeon when you want to continue the race.",
        "transl": "Wir lassen dich entscheiden, Lea. Geh einfach in den Dungeon, wenn du weitermachen willst."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      }
     ]
@@ -2227,6 +3302,10 @@
         "message": {
          "orig": "Forget it!",
          "transl": "Vergiss es!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SHOUTING"
         }
        }
       ],
@@ -2235,6 +3314,10 @@
         "message": {
          "orig": "I won't fall for that!",
          "transl": "Darauf falle ich nicht rein!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        }
       ]

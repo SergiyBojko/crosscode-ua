@@ -647,28 +647,60 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Here we are!",
        "transl": "Wir sind da!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "No joke, that's a big city.",
        "transl": "Donnerlüttchen, das ist ja eine richtige Großstadt."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -676,25 +708,52 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Basin Keep\\c[0]!",
        "transl": "\\c[3]Burg Bassin\\c[0]!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "Bustling city of the jungle!",
        "transl": "Pulsierende Großstadt des Dschungels!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "A place full of opportunity!",
        "transl": "Ein Ort voller Möglichkeiten!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      null,
@@ -702,54 +761,90 @@
       "message": {
        "orig": "Yet there resides a severe lack of \\c[3]Justice\\c[0], dividing the rich from the poor!",
        "transl": "Aber auch mangelnder \\c[3]Gerechtigkeit\\c[0], die Arm und Reich gespalten hat!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "POINTING"
       }
      },
      {
       "message": {
        "orig": "I also don't like the rain.",
        "transl": "Außerdem mag ich den Regen nicht."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Yes, the rain... the poor folks of this city have to suffer through it all year long!",
        "transl": "Ja, der Regen... Die armen Leute hier müssen ihn das ganze Jahr über ertragen!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "...Why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "They say it's the Jungle's answer to this iron scar amid its sea of trees!",
        "transl": "Man sagt, es sei des Dschungels Antwort auf die eiserne Narbe inmitten seiner Baumpracht!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "Bummer.",
        "transl": "Ein Jammer."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So... what now?",
        "transl": "Also... Was nun?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "First there is a dire need to prepare for all the dangers of this wilderness!",
        "transl": "Zunächst sollten wir uns dringend auf die Gefahren der Wildnis vorbereiten!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "Fortunately, we will find lots of \\c[3]expertly crafted goods\\c[0] in this trading hotspot!",
        "transl": "Glücklicherweise bietet das hiesige Handelsnetz eine Vielzahl \\c[3]hochwertiger Waren\\c[0]!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      {
@@ -758,18 +853,30 @@
         "message": {
          "orig": "And of course, there is the urgent task to speak to the mayor!",
          "transl": "Außerdem sollten wir dringend mit dem Bürgermeister sprechen!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        },
        {
         "message": {
          "orig": "Remember the blockade in front of the temples?",
          "transl": "Erinnert ihr euch an die Blockade vor den Tempeln?"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "Right.",
          "transl": "Richtig."
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -778,6 +885,10 @@
         "message": {
          "orig": "And of course we shall fulfill our Seeker's duty and visit the \\c[3]Quest Hub\\c[0] to the north! ",
          "transl": "Und wir sollten natürlich unsere Pflicht als Seeker erfüllen und dem \\c[3]Quest Hub\\c[0] im Norden einen Besuch abstatten!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        },
        {
@@ -797,42 +908,76 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "I see, another Seeker has arrived.",
           "transl": "Ah, wie ich sehe, ist ein neuer Seeker angekommen."
+         },
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I ask you to excuse the rather unfortunate weather. Sadly, this is the norm in our city.",
           "transl": "Ich entschuldige mich für das Schietwetter. Leider ist das hier normal für unsere Stadt."
+         },
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I just wish they'd finally finish the construction of the building to my back.",
           "transl": "Ich wünschte, sie würden endlich das Gebäude hinter mir fertigstellen."
+         },
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Anyway!\\. Surely you're seeking passage to the \\c[3]Ancient Temples of the jungle\\c[0], correct?",
           "transl": "Egal! Du willst sicher den Pass zum \\c[3]Tempelkomplex der Ahnen\\c[0] haben, richtig?"
+         },
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Well, it shall be granted!",
           "transl": "Nun, er sei dir gewährt!"
+         },
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -843,42 +988,76 @@
           "transl": "Gaia-Tempelpass"
          }
         },
-        null,
-        null,
+        {
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
+         }
+        },
         {
          "message": {
           "orig": "Your destination is \\c[3]Grand Krys'kajo\\c[0], located in the \\c[3]northern part of the jungle\\c[0].",
           "transl": "Dein Ziel ist der \\c[3]Große Krys'kajo\\c[0], im \\c[3]nördlichen Abschnitt des Dschungels\\c[0]."
+         },
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Please mind the \\c[3]powerplant\\c[0] right next to the temple complex.",
           "transl": "Bitte pass auf das \\c[3]Kraftwerk\\c[0] neben dem Komplex auf."
+         },
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It is the major power source of our city.",
           "transl": "Es ist die Hauptenergiequelle der Stadt."
+         },
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It should pose no obstacle to your task, so all we ask you is to leave it intact.",
           "transl": "Es sollte deiner Aufgabe nicht im Wege stehen, daher bitten wir dich, es möglichst nicht zu beschädigen."
+         },
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Excellent! I wish you the best for your adventures!",
           "transl": "Ausgezeichnet! Ich wünsche dir nur das Beste für deine Abenteuer!"
+         },
+         "person": {
+          "person": "business.male-old-black",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -886,12 +1065,26 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "business.male-old-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You will find the temples of \\c[3]Grand Krys'kajo\\c[0] in the \\c[3]north of the jungle\\c[0]. Good luck!",
          "transl": "Du findest die Tempel des \\c[3]Großen Krys'kajo\\c[0] im \\c[3]Norden des Dschungels\\c[0]."
+        },
+        "person": {
+         "person": "business.male-old-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -957,79 +1150,136 @@
          "name": {
           "orig": "The Boosi Man",
           "transl": "Der Botzemann"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
+         }
+        },
         {
          "message": {
           "orig": "Good evening, tiny one!",
           "transl": "Guten Abend, Kleines!"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi...?",
           "transl": "Привіт...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "I am the \\c[3]Boosi Man\\c[0]!\\. I'm doing business in this town, you see?",
           "transl": "Ich bin der \\c[3]Botzemann\\c[0]!\\. Ich bin geschäftlich hier, musst du wissen."
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And I just happen to be looking for some kind souls to help me!",
           "transl": "Und ich halte gerade Ausschau nach ein paar freundlichen Seelen, die mir helfen könnten!"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "See, I'm about to start a new...\\. attraction in this town.",
           "transl": "Ich möchte hier in der Stadt nämlich eine neue...\\. Attraktion schaffen."
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But alas, I am in grave trouble!\\. What I am missing is \\c[3]\\v[item.320.name]\\c[0].",
           "transl": "Doch leider bin ich in großer Not!\\. Was mir noch fehlt, ist \\c[3]Jacks Flamme\\c[0]."
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It's something you can only find outside in the jungle.\\. A place that I am unable to visit!",
           "transl": "Es ist etwas, das du nur draußen im Dschungel finden kannst.\\. Ein Ort, den ich nicht aufsuchen kann!"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Why?",
           "transl": "Чому?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
          }
         },
         {
          "message": {
           "orig": "Well, I got my reasons and they are very legitimate.",
           "transl": "Nun, ich habe meine Gründe und die sind recht triftig."
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "So, do you have some free time to help big ol' me?",
           "transl": "Also, hast du etwas Zeit, mir altem Mann zu helfen?"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -1038,48 +1288,80 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Terrific!",
             "transl": "Sargenhaft!"
+           },
+           "person": {
+            "person": "basin.boogie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You can collect \\c[3]\\v[item.320.name]\\c[0] from those \\c[3]\\v[combat.name.jungle/pumpkin]\\c[0]!",
             "transl": "Du bekommst \\c[3]Jacks Flamme\\c[0] von diesen \\c[3]Flammenden Jacks\\c[0]!"
+           },
+           "person": {
+            "person": "basin.boogie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "They wander about in the \\c[3]infested Jungle\\c[0] to the \\c[3]northeast\\c[0]!",
             "transl": "Sie stromern im \\c[3]verseuchten Dschungel\\c[0] im \\c[3]Nordosten\\c[0] herum!"
+           },
+           "person": {
+            "person": "basin.boogie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I require those flames!\\. They are essential for...\\. decoration!",
             "transl": "Ich brauche diese Flammen!\\. Sie sind essentiell für...\\. die Dekoration!"
+           },
+           "person": {
+            "person": "basin.boogie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?",
             "transl": "...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           },
           {
            "message": {
             "orig": "Well then!\\. Let's work together to create the next big thing of Basin Keep!",
             "transl": "Also dann!\\. Schaffen wir gemeinsam die große Attraktion von Burg Bassin!"
+           },
+           "person": {
+            "person": "basin.boogie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye...",
             "transl": "Бувай..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ],
@@ -1088,24 +1370,40 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "That is too bad!\\. You see, my business could very well be the next big thing!",
             "transl": "Das ist zu schade!\\. Schau, meine Geschäftsidee könnte hier eine große Sache werden!"
+           },
+           "person": {
+            "person": "basin.boogie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You definitely want to be a part of it!\\. Talk to me when you change your mind, tiny one!",
             "transl": "Du willst doch sicher ein Teil davon sein!\\. Komm wieder, wenn du deine Meinung änderst, Kleines!"
+           },
+           "person": {
+            "person": "basin.boogie",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye...",
             "transl": "Бувай..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ]
@@ -1119,37 +1417,66 @@
         "name": {
          "orig": "The Boosi Man",
          "transl": "Der Botzemann"
+        },
+        "person": {
+         "person": "basin.boogie",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You can collect \\c[3]\\v[item.320.name]\\c[0] from those \\c[3]\\v[combat.name.jungle/pumpkin]\\c[0]!",
          "transl": "Du bekommst \\c[3]Jacks Flamme\\c[0] von diesen \\c[3]Flammenden Jacks\\c[0]!"
+        },
+        "person": {
+         "person": "basin.boogie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "They wander about in the \\c[3]infested Jungle\\c[0] to the \\c[3]northeast\\c[0]!",
          "transl": "Sie stromern im \\c[3]verseuchten Dschungel\\c[0] im \\c[3]Nordosten\\c[0] herum!"
+        },
+        "person": {
+         "person": "basin.boogie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I require those flames!\\. They are essential for...\\. decoration!",
          "transl": "Ich brauche diese Flammen!\\. Sie sind essentiell für...\\. die Dekoration!"
+        },
+        "person": {
+         "person": "basin.boogie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Well then!\\. Let's work together to create the next big thing of Basin Keep!",
          "transl": "Also dann!\\. Schaffen wir gemeinsam die große Attraktion von Burg Bassin!"
+        },
+        "person": {
+         "person": "basin.boogie",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1161,73 +1488,126 @@
          "name": {
           "orig": "The Boosi Man",
           "transl": "Der Botzemann"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi.",
           "transl": "Привіт."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I see you collected the flames!",
           "transl": "Ich sehe, du hast die Flammen bekommen!"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Terrific!\\. Things are almost ready, then.",
           "transl": "Sargenhaft!\\. Es ist fast so weit!"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "The only thing we need to do, is a \\c[3]test run\\c[0]!",
           "transl": "Jetzt müssen wir noch einen kleinen \\c[3]Testlauf\\c[0] machen!"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Tiny one, can I count on your help once again?",
           "transl": "Kann ich erneut auf deine Hilfe zählen, Kleines?"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Spooktacular!\\. I'll be inside constructing everything!\\. It will only take the ghost of a second.",
           "transl": "Spuktakulär!\\. Ich gehe schon mal rein, um alles aufzubauen!\\. Dauert nur eine Schrecksekunde!"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Just follow me inside when you're ready!",
           "transl": "Komm einfach nach, wenn du so weit bist!"
+         },
+         "person": {
+          "person": "basin.boogie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXHAUSTED"
          }
         }
        ]
@@ -1343,11 +1723,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Seeker, over here!",
        "transl": "Seeker, hier drüben!"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1355,126 +1744,216 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Thank you for helping us. ",
        "transl": "Danke, dass du uns hilfst."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The tension between Humans and Shad around here is as bad as it gets.",
        "transl": "Die Spannungen zwischen Menschen und Shad hier in der Gegend könnten schlimmer nicht sein."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "It really doesn't help that the mayor is acting so selfishly.",
        "transl": "Da trägt der Egoismus des Bürgermeisters nicht gerade zur Verständigung bei."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "But where are my manners..",
        "transl": "Aber wo bleiben meine Manieren..."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "K'tara",
        "transl": "K'tara"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'm \\c[3]K'tara\\c[0].",
        "transl": "Ich bin \\c[3]K'tara\\c[0]."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Lea, hi!",
        "transl": "Lea, hi!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "I was born in \\c[3]V'rda Vil\\c[0], a small village in the south east of Gaia's Garden.",
        "transl": "Ich bin in \\c[3]V'rda Vil\\c[0] aufgewachsen, einem kleinen Dorf im Südosten von Gaias Garten."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But I spend a large amount of time with humans.",
        "transl": "Aber ich habe sehr viel Zeit mit den Menschen verbracht."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "Anyway, let's not dwell for too long, my village is in danger!",
        "transl": "Wir wollen uns aber nicht mit der Vergangenheit aufhalten, mein Dorf ist in Gefahr!"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You see, our village was attacked by \\c[3]strange black cats\\c[0].",
        "transl": "Es wurde von \\c[3]seltsamen schwarzen Katzen\\c[0] angegriffen."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "They've already pushed us out of the north side.",
        "transl": "Aus dem Norden des Dorfes haben sie uns bereits verdrängt."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "It's because of this power plant... It is disrupting the Ancient Track and it's punishing us for it.\n",
        "transl": "Schuld daran ist das Kraftwerk... Es bringt den Pfad mächtig durcheinander und das ist die Strafe dafür.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "And my people are not happy.\n",
        "transl": "Und mein Volk ist darüber sehr wütend."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "They are ready to fight and I fear the worst if we don't do something.",
        "transl": "Sie sind bereit zu kämpfen, und ich befürchte das Schlimmste, wenn wir nicht etwas unternehmen."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'm sure if we can drive these beasts away the Shad will calm down, but we have to act fast!\n",
        "transl": "Wenn wir diese Biester verjagen, werden sich die Shad sicher wieder beruhigen. Aber wir müssen schnell handeln!"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Let's first meet in \\c[3]V'rda Vil\\c[0]. There is a landmark in the \\c[3]eastern part of the village\\c[0].",
        "transl": "Lass uns zuerst in \\c[3]V'rda Vil\\c[0] treffen. Es gibt einen Wegpunkt im \\c[3]östlichen Teil des Dorfes\\c[0]."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -1483,12 +1962,20 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_POINT_SELF"
         }
        },
        {
         "message": {
          "orig": "Oh, you already unlocked it? Let's not waste time then!",
          "transl": "Oh, du hast ihn bereits freigeschaltet? Dann lasst uns keine Zeit verlieren!"
+        },
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -1497,12 +1984,20 @@
         "message": {
          "orig": "As said, the village is in the \\c[3]south east\\c[0] of the jungle.",
          "transl": "Wie gesagt, das Dorf liegt im \\c[3]Südosten\\c[0] des Dschungels."
+        },
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The humans put up way-markers so it should be easy to find.",
          "transl": "Die Menschen haben Wegweiser aufgestellt, es sollte also leicht zu finden sein."
+        },
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1511,6 +2006,10 @@
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -1521,12 +2020,20 @@
         "message": {
          "orig": "That was a clever use of sign language, Lea!",
          "transl": "Das war ein cleverer Einsatz von Zeichensprache, Lea!<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "And the NPC even recognized it.\\. I'm impressed.",
          "transl": "Und der NPC hat sie sogar erkannt.\\. Ich bin beeindruckt."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "PONDERING"
         }
        }
       ],
@@ -1535,18 +2042,30 @@
         "message": {
          "orig": "Our journey shall continue, \\c[3]V'rda Vil\\c[0] our next destination!",
          "transl": "Unsere Reise geht weiter! Nächstes Ziel: \\c[3]V'rda Vil\\c[0]!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        },
        {
         "message": {
          "orig": "Let's go~",
          "transl": "Auf geht's~"
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ]

@@ -26,12 +26,20 @@
      null,
      null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
+      },
       "message": {
        "orig": "Time for turrets!\\. Don't worry, those things won't hurt you.",
        "transl": "Zeit für Geschütze!\\. Keine Angst, diese Teile werden dir nicht wehtun."
       }
      },
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_SMILE"
+      },
       "message": {
        "orig": "This is in fact just a simple puzzle.",
        "transl": "An sich ist es nur ein simples Rätsel."
@@ -56,9 +64,23 @@
      null,
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
+        },
         "message": {
          "orig": "C'mon, you can do this yourself.\\. Really want a hint?",
          "transl": "Komm schon, das kriegste selber hin.\\. Willste wirklich einen Hinweis?"
@@ -67,26 +89,47 @@
        {
         "0": [
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
+          },
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
+          }
+         },
          null,
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_COOL"
+          },
           "message": {
            "orig": "Oh well.\\. Look, these blocks are kinda like switches.",
            "transl": "Na gut.\\. Guck ma', diese Blöcke sind quasi wie Schalter."
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_TOWARD"
+          },
           "message": {
            "orig": "Only they don't react to the typical balls.",
            "transl": "Nur, dass sie nicht auf die herkömmlichen Bälle reagieren."
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP"
+          },
           "message": {
            "orig": "Maybe they react when hit by something else.",
            "transl": "Vielleicht müssen sie von etwas anderem getroffen werden."
@@ -95,18 +138,30 @@
         ],
         "1": [
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
+          },
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_GRIN"
+          },
           "message": {
            "orig": "Attagirl! Use that pretty head of yours.",
            "transl": "Gut so! Benutz dein hübsches Köpfchen."
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        },
         "options": [
          {
           "label": {
@@ -126,9 +181,23 @@
      },
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
+        },
         "message": {
          "orig": "Hm, this one is a tiny bit more tricky. Need some help?",
          "transl": "Hm, das hier ist ein kleines bisschen kniffliger. Brauchste Hilfe?"
@@ -137,26 +206,47 @@
        {
         "0": [
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
+          },
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
+          }
+         },
          null,
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_COOL"
+          },
           "message": {
            "orig": "To make the turret hit these blocks you have to stand between turret and block.",
            "transl": "Damit die Geschütze die Blöcke treffen, musst du zwischen den beiden stehen."
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_SMILE"
+          },
           "message": {
            "orig": "Then you need to dodge the bullet right after it was shot.",
            "transl": "Dann musst du dem Geschoss sofort nach Abschuss ausweichen."
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_GRIN"
+          },
           "message": {
            "orig": "You need to get the timing right.\\. C'mon, I know you can do it!",
            "transl": "Du musst auf dein Timing achten.\\. Komm schon, ich weiß, dass du das kannst!"
@@ -165,18 +255,30 @@
         ],
         "1": [
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
+          },
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_GRIN"
+          },
           "message": {
            "orig": "Alright! Go on!",
            "transl": "Na gut! Dann hau rein!"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -196,9 +298,23 @@
      },
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
+        },
         "message": {
          "orig": "Are you stuck here?",
          "transl": "Kommst du hier nicht weiter?"
@@ -207,20 +323,37 @@
        {
         "0": [
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
+          },
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
+          }
+         },
          null,
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_COOL"
+          },
           "message": {
            "orig": "It's actually almost the same as before.\\. Only this time the turret and blocks are on a higher level.",
            "transl": "Das hier ist eigentlich fast das Gleiche wie vorher.\\. Nur dieses Mal sind die Blöcke und Geschütze auf einer höheren Ebene."
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_SMILE"
+          },
           "message": {
            "orig": "So get up on that container in the middle and dodge some bullets!",
            "transl": "Also geh auf diesen Container in der Mitte und weich den Geschossen aus!"
@@ -229,18 +362,30 @@
         ],
         "1": [
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
+          },
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_GRIN"
+          },
           "message": {
            "orig": "Alright! Go on!",
            "transl": "Na gut! Dann hau rein!"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -260,9 +405,23 @@
      },
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_GRIN"
+        },
         "message": {
          "orig": "These things are kinda unexpected, right?\\. Need a hint?",
          "transl": "Diese Dinger kommen etwas unerwartet, stimmt's?\\. Brauchste 'nen Hinweis?"
@@ -271,32 +430,57 @@
        {
         "0": [
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
+          },
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
+          }
+         },
          null,
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_SMILE"
+          },
           "message": {
            "orig": "That mirror-like thing only shoots bullets, when it's hit by your balls.",
            "transl": "Diese Spiegel-artigen Dinger schießen nur Geschosse, wenn sie zuerst von deinen Bällen getroffen wurden."
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_TOWARD"
+          },
           "message": {
            "orig": "And it always shoots the bullets right at you.",
            "transl": "Und sie feuern ihre Geschosse immer direkt auf dich zu."
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_WHISTLING"
+          },
           "message": {
            "orig": "You'll need a block between you and the mirror and still need to hit the mirror with one of your balls...",
            "transl": "Du solltest den Block zwischen dir und dem Spiegel haben und dann den Spiegel mit einem Ball treffen..."
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_GRIN"
+          },
           "message": {
            "orig": "So here's the hint:\\. Think bouncing balls!",
            "transl": "Also, hier ist der Hinweis:\\. Denk an hüpfende Bälle!"
@@ -305,18 +489,30 @@
         ],
         "1": [
          {
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
+          },
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
           }
          },
          {
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_GRIN"
+          },
           "message": {
            "orig": "Alright! Go on!",
            "transl": "Na gut! Dann hau rein!"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -336,9 +532,23 @@
      },
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_GRIN"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_GRIN"
+        },
         "message": {
          "orig": "Phew, that's all for this room.\\. Lot's of puzzles, right?\\. But don't worry, you will get some real action in the next room!",
          "transl": "Puh, das war alles für diesen Raum.\\. 'ne Menge Rätsel, was?\\. Aber keine Sorge, im nächsten Raum wartet richtig Action auf dich!"

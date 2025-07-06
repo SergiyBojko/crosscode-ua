@@ -108,84 +108,146 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Lea, dear...",
          "transl": "Lea, Liebes..."
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This whole situation is so hard to grasp for me.",
          "transl": "Diese ganze Situation ist für mich schwer zu verdauen."
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "You know... We enjoy games like CrossWorlds, because they allow us to live a fantasy.",
          "transl": "Weißt du... Wir genießen Spiele wie CrossWorlds, weil sie uns erlauben, Fantasien auszuleben."
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "EYES_CLOSED"
         }
        },
        {
         "message": {
          "orig": "So that, for a moment, we can forget about all the worries of real life.",
          "transl": "Damit wir das Leben für einen Moment einfach vergessen können.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Yet all of this... suddenly became very real, didn't it?",
          "transl": "Und jetzt... ist auf einmal alles so real geworden, nicht?"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "You could say that our fantasy... is in fact your reality, eh?",
          "transl": "Man könnte sogar sagen, dass unsere Fantasie... in Wahrheit deine Realität ist, oder?"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Now then... that's all the more reason to fight for your cause!",
          "transl": "Also dann... Ein Grund mehr, für dich einzustehen!"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "DETERMINED"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "TOUCHED"
         }
        },
        {
         "message": {
          "orig": "Thanks!",
          "transl": "Дякую!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "You're welcome, dear!",
          "transl": "Gerne, Liebes!"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "SMILE"
         }
        }
       ]
@@ -199,36 +261,66 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.grumpy",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good day, Lea.",
          "transl": "Guten Tag, Lea."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You really are by far the most human-like AI I've experienced.",
          "transl": "Du bist bei weitem die menschlichste KI, die mir je untergekommen ist."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "UP"
         }
        },
        {
         "message": {
          "orig": "You passed the Turing Test with flying colors.",
          "transl": "Du hast den Turing-Test mit Bravour bestanden."
+        },
+        "person": {
+         "person": "main.grumpy",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
@@ -237,18 +329,30 @@
           "message": {
            "orig": "Let us hope that Ivan thinks the same way.",
            "transl": "Hoffen wir, dass Ivan das auch so sieht."
+          },
+          "person": {
+           "person": "main.grumpy",
+           "expression": "EYES_CLOSED"
           }
          },
          {
           "message": {
            "orig": "I really do hope that we'll be able to create a place for Evotars like you here in CrossWorlds.",
            "transl": "Ich hoffe wirklich, dass wir einen Platz für Evotare wie dich hier in CrossWorlds schaffen können."
+          },
+          "person": {
+           "person": "main.grumpy",
+           "expression": "AWAY"
           }
          },
          {
           "message": {
            "orig": "Thanks!",
            "transl": "Дякую!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXCITED"
           }
          }
         ],
@@ -257,18 +361,30 @@
           "message": {
            "orig": "I really do hope that we'll be able to create a place for Evotars like you here in CrossWorlds.",
            "transl": "Ich hoffe wirklich, dass wir hier in CrossWorlds einen Platz für Evotare wie dich schaffen können."
+          },
+          "person": {
+           "person": "main.grumpy",
+           "expression": "EYES_CLOSED"
           }
          },
          {
           "message": {
            "orig": "Though it will be difficult to get Instatainment's support.",
            "transl": "Auch wenn es schwierig werden wird, Instatainments Unterstützung dafür zu bekommen."
+          },
+          "person": {
+           "person": "main.grumpy",
+           "expression": "ANGRY"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          }
         ]

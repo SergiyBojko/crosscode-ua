@@ -33,19 +33,36 @@
         "name": {
          "orig": "Sullyvan",
          "transl": "Sullyvan"
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Seeker? Aren't there some wild people you need to help?",
          "transl": "Waren da nicht ein paar Wilde, denen du helfen wolltest?"
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -56,25 +73,46 @@
         "name": {
          "orig": "Sullyvan",
          "transl": "Sullyvan"
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Look who it is. I already heard of your heroic deed.",
          "transl": "Sieh an, wer da ist. Ich habe bereits von deiner Heldentat gehört."
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Thanks for that, now the power plant is accessible to my people again.",
          "transl": "Besten Dank, jetzt ist der Weg zum Kraftwerk für meine Leute endlich wieder frei."
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -94,19 +132,36 @@
       "name": {
        "orig": "Sullyvan",
        "transl": "Sullyvan"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "You have to listen to me, Mayor Sullyvan.",
        "transl": "Hören Sie zu, Bürgermeister Sullyvan."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You again? If you want to speak to me, please make an appointment.",
        "transl": "Sie schon wieder? Wenn Sie mit mir reden wollen, vereinbaren Sie bitte einen Termin."
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -114,6 +169,10 @@
       "message": {
        "orig": "This is an emergency! Things are about to escalate!",
        "transl": "Das ist ein Notfall! Die Lage droht zu eskalieren!"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -128,13 +187,26 @@
       "name": {
        "orig": "Sullyvan",
        "transl": "Sullyvan"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "basin.female-green",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I'm so sorry, sir, she just burst in...",
        "transl": "Es tut mir schrecklich leid, Sir, aber sie ist einfach reingeplatzt...<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "basin.female-green",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -142,24 +214,40 @@
       "message": {
        "orig": "It's okay, Penny, this seems... important.",
        "transl": "Schon in Ordnung, Penny, das scheint... wichtig zu sein.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You can go.",
        "transl": "Sie können gehen."
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Penny",
        "transl": "Penny"
+      },
+      "person": {
+       "person": "basin.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes, sir...",
        "transl": "Ja, Sir..."
+      },
+      "person": {
+       "person": "basin.female-green",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -172,118 +260,209 @@
       "name": {
        "orig": "Sullyvan",
        "transl": "Sullyvan"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Alright. So, what is it?\n",
        "transl": "Also gut. Worum geht es?"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The village of \\c[3]V'rda\\c[0] is currently under attack by dangerous creatures. We've already lost the entire north of the village.",
        "transl": "Das Dorf \\c[3]V'rda\\c[0] wird von gefährlichen Kreaturen attackiert. Der Norden des Dorfes ist bereits verloren."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Oh. I'm very sad to hear that. But how does this concern us in any way?",
        "transl": "Oh. Das ist sehr bedauerlich. Doch was hat das mit uns zu tun?"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You see... The Shad are \\c[3]blaming the power plant\\c[0].",
        "transl": "Das wissen Sie... Die Shad \\c[3]geben dem Kraftwerk die Schuld\\c[0]."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Well, of course! They always do. And I always tell them the same thing:",
        "transl": "Ja, natürlich! Das tun sie ständig! Und ich sage ihnen jedes Mal dasselbe:"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The power plant is fine. We make sure it's all in perfect harmony with your oh-so-holy track.",
        "transl": "Das Kraftwerk ist völlig in Ordnung. Wir achten darauf, dass es sich in perfekter Harmonie mit eurem ach-so-heiligen Pfad befindet."
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Please listen. Things are not the same! We are desperate.",
        "transl": "Bitte hören Sie mir zu. Die Dinge haben sich geändert! Wir sind völlig verzweifelt."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The Shad now started a protest in front of the \\c[3]Grand Krys'kajo\\c[0] as we speak.",
        "transl": "Die Shad haben bereits vor dem \\c[3]Großen Krys'kajo\\c[0] eine Protestblockade errichtet."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "They want to stop the power plant and are ready to use force.",
        "transl": "Sie wollen das Kraftwerk stillegen, notfalls mit Gewalt."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "What? You Shad want to use force? With sticks and stones? Don't make me laugh!",
        "transl": "Was? Die Shad wollen Gewalt anwenden? Mit Knüppeln und Steinen? Dass ich nicht lache!"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I know you hold little respect for us, but I beseech you, don't let this end in a blood bath!",
        "transl": "Ich weiß, was Sie von uns halten, aber ich flehe Sie an, lassen Sie das nicht in einem Blutbad enden!"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "What choice do I have? You know as well as I do that we depend on the power plant.",
        "transl": "Was habe ich für eine Wahl? Sie wissen so gut wie ich, dass wir von dem Kraftwerk abhängig sind."
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We can't simply turn it off.",
        "transl": "Wir können es nicht einfach abschalten."
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'm very much aware. What you can do is help us free the village from those creatures.",
        "transl": "Das ist mir klar. Sie könnten uns aber dabei helfen, diese Kreaturen aus unserem Dorf zu verjagen."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "If you do, things might calm down again. A few of your guards should suffice...",
        "transl": "Wenn Sie das tun, könnte sich die Lage wieder entspannen. Ein paar Ihrer Wachen sollten genügen..."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You wild people come around with your petty problems and I'm supposed to spare some guards for you...",
        "transl": "Ihr Wilden kommt mit euren Problemchen daher und verlangt, dass ich für euch auf ein paar Wachen verzichten soll..."
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Speaking of annoyances! What's that \\c[3]Seeker \\c[0]doing back there?",
        "transl": "Apropos Belästigung! Was hat der \\c[3]Seeker\\c[0] hier zu suchen?"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "...Hi?",
        "transl": "... Привіт?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -291,36 +470,60 @@
       "message": {
        "orig": "Oh! I didn't even see you there.",
        "transl": "Oh! Ich habe dich gar nicht gesehen."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Well, isn't this perfect?\n",
        "transl": "Das trifft sich doch ausgezeichnet!"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "If you need somebody to deal with your “creatures”, I'm sure a Seeker like this will do the job!\n",
        "transl": "Wenn Sie jemanden brauchen, der mit Ihren \"Kreaturen\" fertig wird, sollte ein Seeker wie dieser doch völlig ausreichen!"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "If you want to access the temple to the north, it's in your interest to resolve this dispute quickly, right?\n",
        "transl": "Wenn du zu den Tempeln im Norden möchtest, dürfte es doch in deinem Interesse sein, die Situation zu bereinigen, richtig?"
+      },
+      "person": {
+       "person": "basin.major",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      null,
@@ -328,6 +531,10 @@
       "message": {
        "orig": "Please Seeker, we're in dire need of any help.",
        "transl": "Seeker, ich bitte dich, wir brauchen dringend Hilfe."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -336,74 +543,127 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DOWN_EYE_CLOSED"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Thank you so much!",
          "transl": "Ich danke dir vielmals!"
+        },
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Great! That settles it. \n",
          "transl": "Gut! Damit wäre das erledigt."
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The Seeker can do her thing and everybody will be happy.\n",
          "transl": "Der Seeker kann sein Ding da machen, und alle sind glücklich."
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        null,
-       null,
+       {
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I now see you hold little respect for Seekers as well.",
          "transl": "Jetzt sehe ich, dass Sie auch von Seekern wenig halten."
+        },
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "My job here is to run a city in the middle of a dense jungle!",
          "transl": "Ich muss mich hier um eine Stadt kümmern, die inmitten eines dichten Dschungels liegt!"
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I don't have time for wild people and adventurers.",
          "transl": "Ich habe keine Zeit für Wilde und Abenteurer."
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You two do what you must to solve your problems.",
          "transl": "Ihr zwei tut, was ihr tun müsst, um euer Problem zu lösen."
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "And make sure you free the passage to the power plant soon or I will become another problem for you.",
          "transl": "Und seht zu, dass ihr den Durchgang zum Kraftwerk wieder freiräumt, sonst werde ich euer nächstes Problem sein."
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now, if you'd please excuse me!",
          "transl": "Wenn ihr mich nun entschuldigen würdet!"
+        },
+        "person": {
+         "person": "basin.major",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -411,30 +671,56 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Meet me outside Seeker, I'll tell you everything I know.",
          "transl": "Ich warte draußen auf dich, Seeker, dann erzähle ich dir alles."
+        },
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I've had enough of his arrogance.",
          "transl": "Ich habe genug von seiner Arroganz."
+        },
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DETERMINED"
         }
        },
        null,
@@ -449,12 +735,20 @@
         "message": {
          "orig": "Such arrogance! This mayor encapsulates himself in his own world, blocking off all outside issues!",
          "transl": "Was für eine Arroganz! Dieser Bürgermeister schottet sich einfach von allen Problemen der Außenwelt ab!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SHOUTING"
         }
        },
        {
         "message": {
          "orig": "Indeed, very much like his iron-walled city.",
          "transl": "Genau wie seine von Eisen ummauerte Stadt."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        }
       ]

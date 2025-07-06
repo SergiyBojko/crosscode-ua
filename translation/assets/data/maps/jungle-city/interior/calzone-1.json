@@ -27,18 +27,36 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Sorry Lady, ain't selling stuff to \\c[3]Seekers\\c[0] unless the boss tells me to.",
           "transl": "Sorry, Lady, ich verkauf nix an \\c[3]Seeker\\c[0], außer der Boss macht 'ne Ansage."
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         }
        ]
@@ -47,12 +65,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Boss tells me I gotta sell you the \\c[3]One Up\\c[0]. Dunno why, but here you go.",
           "transl": "Der Boss meint, ich soll dir dieses \\c[3]One Up\\c[0] geben. Keine Ahnung warum, aber hier."
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -68,18 +100,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "business.male-sidecut-black",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "No entry for you, \\c[3]Seeker\\c[0].",
          "transl": "Du kommst hier nicht rein, \\c[3]Seeker\\c[0]."
+        },
+        "person": {
+         "person": "business.male-sidecut-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -87,18 +137,36 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "business.male-sidecut-black",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Go down if you want to talk to the Boss, \\c[3]Seeker\\c[0].",
          "transl": "Geh runter, wenn du mit dem Boss sprechen willst, \\c[3]Seeker\\c[0]."
+        },
+        "person": {
+         "person": "business.male-sidecut-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -111,60 +179,106 @@
    "settings": {
     "event": [
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "business.male-sidecut-black",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "You there, \\c[3]Seeker\\c[0]. Blue Hair, Spheromancer, horns. ",
        "transl": "Du da, \\c[3]Seeker\\c[0]. Blaue Haare, Hörner, Spheromancer."
+      },
+      "person": {
+       "person": "business.male-sidecut-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi...?",
        "transl": "Привіт...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Da Boss tells us of a woman we are to look out for. You fit the description.",
        "transl": "Der Boss meinte, wir sollten Ausschau nach einer Frau halten. Beschreibung passt wie die Faust aufs Auge."
+      },
+      "person": {
+       "person": "business.male-sidecut-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You recently helped a certain \\c[3]Mick\\c[0], right?",
        "transl": "Du hast kürzlich einem gewissen \\c[3]Mick\\c[0] geholfen, stimmt's?"
+      },
+      "person": {
+       "person": "business.male-sidecut-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Good. In that case, I must ask you to go down the stairs and meet the boss.",
        "transl": "Guuut. In dem Fall muss ich dich bitten, mit dem Boss unten zu sprechen."
+      },
+      "person": {
+       "person": "business.male-sidecut-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "A no is not acceptable, I'm afraid.",
        "transl": "Ein Nein werd' ich leider nicht akzeptieren können."
+      },
+      "person": {
+       "person": "business.male-sidecut-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "There's nothing you have to worry about. Please come with me.",
        "transl": "Kein Grund, dir ins Hemd zu machen. Wenn du mir bitte folgen würdest."
+      },
+      "person": {
+       "person": "business.male-sidecut-black",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -182,23 +296,40 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Fuzzy Duncan",
          "transl": "Fuzzy Duncan"
+        },
+        "person": {
+         "person": "basin.male-hat-2",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "What is it, \\v[lore.title.seeker]? I have business to take care of.",
          "transl": "Was ist, Seeker? Habe Geschäftliches zu erledigen."
+        },
+        "person": {
+         "person": "basin.male-hat-2",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        }
       ]
@@ -206,11 +337,20 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Fuzzy Duncan",
           "transl": "Fuzzy Duncan"
+         },
+         "person": {
+          "person": "basin.male-hat-2",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -218,6 +358,10 @@
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
@@ -227,6 +371,10 @@
            "message": {
             "orig": "What is it, \\v[lore.title.seeker]? Got business to take care of.",
             "transl": "Was ist, Seeker? Habe Geschäftliches zu erledigen."
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
@@ -235,6 +383,10 @@
              "message": {
               "orig": "Where?",
               "transl": "Де?"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "SURPRISED_TOWARD"
              }
             }
            ]
@@ -243,48 +395,80 @@
            "message": {
             "orig": "Wait!",
             "transl": "Зачекай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
            "message": {
             "orig": "Ha, that is new.\\. A noble \\v[lore.title.seeker] coming to the likes of me for information?\\. Interesting times.",
             "transl": "Ha, das ist neu!\\. Ein edler Seeker beehrt jemanden wie mich, um Informationen zu erhalten?\\. Interessante Zeiten."
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Where?\\. How?\\. Lea.",
             "transl": "Wo?\\. Wie?\\. Lea."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           },
           {
            "message": {
             "orig": "Well, surely I might have some information on the affairs of those winged crooks.\\. But I won't share it for free, feel me?",
             "transl": "Nun, ich habe sicherlich einige Informationen über diese geflügelten Ganoven. Aber ich werde sie nicht umsonst teilen, verstanden?"
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXHAUSTED"
            }
           },
           {
            "message": {
             "orig": "How?",
             "transl": "Як?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           },
           {
            "message": {
             "orig": "Well, I am a humble informant.\\. And hungry besides.",
             "transl": "Nun, ich bin ein bescheidener Informant.\\. Außerdem habe ich Hunger."
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "So\\..\\..\\.. Just, give me \\c[3]7000 credits\\c[0] and \\c[3]3 Chef Sandwiches\\c[0] and we have a deal.",
             "transl": "Also\\..\\..\\..  Gib mir einfach \\c[3]7000 Credits\\c[0] und \\c[3]3 Chef-Sandwiches\\c[0] und wir haben einen Deal."
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -293,12 +477,20 @@
            "message": {
             "orig": "Ah, Ms. \\v[lore.title.seeker]?\\. Changed your mind about my offer?",
             "transl": "Ah, das Fräulein Seeker?\\. Hast du mein Angebot nochmal überdacht?"
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "It's still \\c[3]7000 credits\\c[0] and \\c[3]3 Chef Sandwiches\\c[0] for the information you need.",
             "transl": "Das Angebot steht: Gib mir einfach \\c[3]7000 Credits\\c[0] und \\c[3]3 Chef-Sandwiches\\c[0] und wir haben einen Deal."
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -307,6 +499,10 @@
          "message": {
           "orig": "Sounds fair?",
           "transl": "Klingt das fair?"
+         },
+         "person": {
+          "person": "basin.male-hat-2",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -317,67 +513,116 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Ah, perfect.\\. I can already taste those precious sandwiches.\\. Today is a good day.",
             "transl": "Ah, perfekt.\\. Mir läuft das Wasser schon im Munde zusammen.\\. Heute ist ein guter Tag."
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "... Where?",
             "transl": "... Де?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           },
           {
            "message": {
             "orig": "Ah, right.\\. Well, I don't actually know the location of the HQ those birds live in.",
             "transl": "Ach ja.\\. Nun, den genauen Standort des Hauptquartiers der Vögel kenne ich nicht."
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Why?!",
             "transl": "Чому?!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANGRY"
            }
           },
           {
            "message": {
             "orig": "Buuuut... I know of someone who could lead you there!",
             "transl": "Aaaaaber... Ich kenne jemanden, der dich da hinführen könnte!"
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
+           }
+          },
           {
            "message": {
             "orig": "There is this weird guy in our slums.\\. Huge nose, not much for words.\\. Trades some suspicious bird-related merchandise.",
             "transl": "Es gibt da so einen seltsamen Kerl in unserem Viertel.\\. Schweigsamer Typ, hat so 'n Riesenzinken.\\. Handelt mit komischen Vogel-Dingen."
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Search for him in the \\c[3]back alleys around here\\c[0] and try to \\c[3]set up a trade with him\\c[0].\\. That might get his trust.",
             "transl": "Such ihn in den \\c[3]Seitengassen hier in der Nähe\\c[0] und versuche \\c[3]mit ihm zu handeln\\c[0].\\. So könntest du sein Vertrauen gewinnen."
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "How...?\\. Why?",
             "transl": "Wie...?\\. Warum?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           },
           {
            "message": {
             "orig": "Well, that's all the info I got for you.\\. Take it or leave it, I got me some sandwiches to enjoy!",
             "transl": "Tja, das sind alle Infos, die ich für dich habe.\\. Friss oder stirb. Ich lass mir jetzt erstmal meine Sandwiches schmecken!<<A<<[CHANGED 2021/05/22]"
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye...",
             "transl": "Бувай..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXHAUSTED"
            }
           }
          ],
@@ -386,21 +631,37 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Oh well, your decision.\\. I'll be waiting if you change your mind.",
             "transl": "Na gut, deine Entscheidung.\\. Ich bin hier, falls du deine Meinung änderst."
+           },
+           "person": {
+            "person": "basin.male-hat-2",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "... Bye.",
             "transl": "... Бувай."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXHAUSTED"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -421,23 +682,40 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Fuzzy Duncan",
          "transl": "Fuzzy Duncan"
+        },
+        "person": {
+         "person": "basin.male-hat-2",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Search the \\c[3]back alleys around here\\c[0] for \\c[3]some shady guy with a gigantic nose\\c[0].",
          "transl": "Durchforste die \\c[3]Seitengassen\\c[0] nach einen Kerl, der \\c[3]verdächtig wirkt und einen riesigen Zinken hat\\c[0]."
+        },
+        "person": {
+         "person": "basin.male-hat-2",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "If you \\c[3]start trading with him\\c[0] you might get his trust and the information you need.",
          "transl": "Wenn du \\c[3]mit ihm handelst\\c[0], kommst du vielleicht an die nötigen Informationen heran."
+        },
+        "person": {
+         "person": "basin.male-hat-2",
+         "expression": "DEFAULT"
         }
        }
       ]

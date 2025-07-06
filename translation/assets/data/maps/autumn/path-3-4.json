@@ -329,15 +329,33 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
        {
+        "person": {
+         "person": "cross-worlds.hexacast-male-dark",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-dark",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "I wonder if they'll ever bring back the fishing system...",
          "transl": "Ich frage mich, ob sie jemals wieder das Angeln ins Spiel integrieren werden..."
         }
        },
        {
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "message": {
          "orig": "...",
          "transl": "..."
@@ -442,73 +460,126 @@
       "name": {
        "orig": "Joe the Younger",
        "transl": "Joe der Jüngere"
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Wow, \\v[lore.title.seeker], did you just see what I saw?",
        "transl": "Wow, Seeker, hast du gerade gesehen, was ich gesehen hab'?"
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well, sure, you even fought them.\\. \\c[3]Flying type\\c[0] \\v[combat.name.hedgehog]s, that's so rad!",
        "transl": "Ach, blöde Frage, du hast doch gegen sie gekämpft!\\. \\c[3]Fliegende\\c[0] Igöll, der Wahnsinn!"
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And listen!\\. I did some legwork and was able to narrow down the location of their den.",
        "transl": "Hör zu!\\. Ich hab etwas Laufarbeit erledigt und konnte so den Ort ihres Verstecks eingrenzen."
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "They actually seem to live in \\v[area.autumn-fall.name] and only come to \\v[area.autumn-area.name] for apples.",
        "transl": "Sie scheinen tatsächlich in Autumn's Fall zu leben und kommen nur für Äpfel nach Autumn's Rise."
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Found some of their leavings and those suggested a distaste for the ripe apples of \\v[area.autumn-fall.name]!",
        "transl": "Hab ein paar ihrer Hinterlassenschaften gefunden, die auf eine Abneigung gegen die reifen Äpfel aus Autumn's Fall hindeuten!"
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Well, it gets results!\\. I'm now 99 billion percent sure that they reside on the \\c[3]Secluded Path in \\v[area.autumn-fall.name]\\c[0].",
        "transl": "Tja, so kommt man auch an Ergebnisse!\\. Ich bin mir jetzt tausendprozentig sicher, dass sie sich auf dem \\c[3]Abgelegenen Pfad in Autumn's Fall\\c[0] befinden."
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Please hurry and take a look!",
        "transl": "Bitte beeil dich und sieh nach!"
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye...",
        "transl": "Бувай..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]

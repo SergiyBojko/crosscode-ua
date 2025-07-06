@@ -9,18 +9,36 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Alright, here we go.",
           "transl": "Gut, dann ma' los."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "This is the part of the cavern that got breached by those darn guards.",
           "transl": "Das is' der Teil der Höhle, der von diesen dämlichen Wachen entdeckt wurde."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -36,12 +54,26 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Here, take the chip.",
           "transl": "Hier, nimm den Sender."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -52,42 +84,76 @@
          }
         },
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Once I move the box here, the chip will start tracking your movement. ",
           "transl": "Sobald ich diese Kiste hier wegschiebe, fängt der Sender an, deine Bewegungen aufzuzeichnen."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Your goal is to find a way to the exit south of here without a guard noticing you.",
           "transl": "Dein Ziel ist es, einen Weg zum südlichen Ausgang zu finden, ohne dass die Wachen dich bemerken."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Talk to me when ya ready, capiche?",
           "transl": "Sprich mich an, wenn du bereit bis', kapische?"
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And be prepared, because I won't let ya go until ya done, woman.",
           "transl": "Und sei vorbereitet, denn ich werde dich nich' gehen lassen, bis du hier fertig bis'."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
          }
         },
         {
          "message": {
           "orig": "Oh wait, before my dad yells at me again. Here's a \\c[3]Smokaway\\c[0] and some \\c[3]Intel on the Guards\\c[0] our men found.",
           "transl": "Oh warte, bevor mein Vater wieder wütend wird: Hier ist eine \\c[3]Rauchbombe\\c[0] und ein paar \\c[3]Infos über die Wachen\\c[0]."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -105,24 +171,46 @@
          }
         },
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Use the Smokaway when you get caught, you'll be able to run back here and I'll close the box, got it?",
           "transl": "Wenn s'e dich erwischen, wirf die \\c[3]Rauchbombe\\c[0]. Dann kanns'u wieder hierhin zurückrennen, kapische?"
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Good, ready when you are.",
           "transl": "Gut, bereit, wenn du es bis'."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -131,12 +219,26 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Ready?",
           "transl": "Fertig?"
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -146,30 +248,50 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Alright, talk to me again if ya want to chicken out.",
             "transl": "Alles klar. Hau mich einfach an, wenn'u doch 'n Rückzieher machen wills'."
+           },
+           "person": {
+            "person": "basin.don-mick",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Also, don't attack the guards in any way. Don't wanna raise suspicion, right?",
             "transl": "Noch was: Nich' die Wachen angreifen. Wir wollen ja hier kein Trallafitti machen, ne?"
+           },
+           "person": {
+            "person": "basin.don-mick",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Use \\c[3]Direct Link\\c[0] to call me once you're through.",
             "transl": "Nutz den \\c[3]Direkt-Link\\c[0], um mir Bescheid zu geben, sobald'u durch bis'."
+           },
+           "person": {
+            "person": "basin.don-mick",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -178,21 +300,37 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Don't waste my time woman. Get on with it already.",
             "transl": "Verschwend nich' meine Zeit, Fräulein. Beeil dich endlich."
+           },
+           "person": {
+            "person": "basin.don-mick",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -214,12 +352,26 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Wanna Stop?",
           "transl": "Wills'u aufgeben?"
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -228,18 +380,30 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "I knew ya would chicken out.",
             "transl": "Ich wusste, dass'u Muffensausen kriegs'."
+           },
+           "person": {
+            "person": "basin.don-mick",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           }
          ],
@@ -248,15 +412,27 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Then don't stand here and find a way woman.",
             "transl": "Dann steh hier nich' rum, Fräulein, find einen Weg."
+           },
+           "person": {
+            "person": "basin.don-mick",
+            "expression": "DEFAULT"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -293,18 +469,36 @@
   {
    "settings": {
     "event": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "guards.male-beefy-white",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Halt! Who goes there!?",
        "transl": "Halt! Wer ist da!?"
+      },
+      "person": {
+       "person": "guards.male-beefy-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -692,18 +886,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "basin.don-mick",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Mh... Oh, it's you. Did ya find a way?",
        "transl": "Mh... Ah, du bist's. 'nen Weg gefunden?<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "basin.don-mick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
@@ -712,6 +924,10 @@
         "message": {
          "orig": "Finally! Only took ya \\v[map.retiresNeeded] tries.",
          "transl": "Endlich! Hat dich ja bloß \\v[map.retiresNeeded] Versuche gekostet."
+        },
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -720,6 +936,10 @@
         "message": {
          "orig": "Finally! And it only took you one try. I'm actually impressed.",
          "transl": "Endlich! Und gleich beim ersten Versuch. Bin beeindruckt."
+        },
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -728,12 +948,20 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Give me a minute, I'll use the same way using the tracker chip I gave you.",
        "transl": "Moment, werd' denselben Weg gehen wie du, indem ich den Sender benutze."
+      },
+      "person": {
+       "person": "basin.don-mick",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -744,54 +972,96 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "basin.don-mick",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Damn, woman, was this really the only way?",
        "transl": "Boah, Mädel, ey, gab's keinen anderen Weg?<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "basin.don-mick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So much walking... \\.\\.\\. Thankfully, I don't have to carry the goods. That would be just awful.",
        "transl": "Da muss ich ja voll weit laufen... \\.\\.\\. Zum Glück muss ich die Ware nicht tragen. Das wär' noch die Krönung.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "basin.don-mick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Don't give me that look, will ya?",
        "transl": "Sieh mich gefälligst nich' so an, ja?"
+      },
+      "person": {
+       "person": "basin.don-mick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ya can go back to my dad with the tracker chip and get your reward.",
        "transl": "Du kannst jetzt mit dem Sender zu meinem Vater zurück und deine Belohnung holen."
+      },
+      "person": {
+       "person": "basin.don-mick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Ya can keep the \\v[item.343.name] and explore this cavern if ya want.",
        "transl": "Du kannst die Rauchbombe behalten und die Höhle weiter erkunden, wenn'u wills'."
+      },
+      "person": {
+       "person": "basin.don-mick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Also, be a good girl and make sure to tell him I helped a lot, gotcha?",
        "transl": "Und sei ein gutes Mädchen und sag ihm, dass ich viel geholfen hab', kapische?"
+      },
+      "person": {
+       "person": "basin.don-mick",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -800,12 +1070,20 @@
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "I *knew* I could count on ya. Now off you go, the rest is just a long small tunnel anyway.",
          "transl": "Ich *wusste*, dass ich auf dich zählen kann! Dann verdufte, der Rest ist eh nur noch ein schmaler Tunnel."
+        },
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -814,27 +1092,47 @@
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "You... what? Come on... at least have some mercy, will ya?",
          "transl": "Du... was? Ach, komm schon... zeig ma' 'n bisschen Gnade, ja?"
+        },
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "Screw it then. Off you go. I can handle the rest without you.",
          "transl": "Egal, dann hau halt ab. Den Rest schaff' ich auch alleine. Ohne dich."
+        },
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      },
       "options": [
        {
         "label": {
@@ -859,54 +1157,102 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "What are you still here for? Go to my dad with the chip already.",
          "transl": "Warum bis'u immer noch hier? Geh zu meinem Vater und gib ihm den Sender."
+        },
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Well look who it is.",
          "transl": "Ach ne, du has' mir gerade noch gefehlt."
+        },
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi...",
          "transl": "Привіт..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Thanks to ya, I'm now to stand here almost all day watching the carriers bringing in the goods.",
          "transl": "Wegen dir soll ich jetzt hier den ganzen Tag stehen, um auf die Träger aufzupassen."
+        },
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "So thanks for that, really nice of ya.",
          "transl": "Vielen Dank auch, wirklich nett von dir."
+        },
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        }
       ]

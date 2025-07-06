@@ -108,73 +108,132 @@
          "name": {
           "orig": "Humble Helper",
           "transl": "Bescheidener Betreuer"
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Hello, Ms. \\v[lore.title.seeker]!\\. So great to see you here on \\v[lore.title.planet].",
           "transl": "Ich grüße Sie, werte Seeker-Dame!\\. Schön, Sie hier auf Shadoon zu sehen."
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "As a humble part of our endeavor here I am trying my best to aid Seekers.",
           "transl": "Als bescheidener Teil unser aller Bestreben hier versuche ich mein Bestes, den Seekern zu helfen."
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "But, my skills are just not on the same level as yours are.",
           "transl": "Leider sind meine Fähigkeiten noch nicht auf demselben Level wie Ihre."
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Might I ask you to help me out, dear \\v[lore.title.seeker]?",
           "transl": "Dürfte ich Sie höflich darum bitten, mir etwas auszuhelfen, verehrter Seeker?"
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "accepted": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
+           }
+          },
           {
            "message": {
             "orig": "Superb!\\. Come back to me when you've defeated the \\v[combat.name.hedgehog]s.",
             "transl": "Hervorragend! Kommen Sie nochmal wieder, wenn Sie die Igöll besiegt haben."
+           },
+           "person": {
+            "person": "rookie-harbor.man-big-black",
+            "expression": "DEFAULT"
            }
           }
          ],
          "declined": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
           {
            "message": {
             "orig": "Oh, okay!\\. No Problem Ms. \\v[lore.title.seeker].\\. Please come back if you changed your mind.",
             "transl": "Oh, na ja!\\. Kein Problem.\\. Besuchen Sie mich einfach wieder, wenn Sie es sich anders überlegt haben."
+           },
+           "person": {
+            "person": "rookie-harbor.man-big-black",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -188,37 +247,66 @@
         "name": {
          "orig": "Humble Helper",
          "transl": "Bescheidener Betreuer"
+        },
+        "person": {
+         "person": "rookie-harbor.man-big-black",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Hello Ms. \\v[lore.title.seeker]!\\. Enjoying your Journey?",
          "transl": "Guten Tag, meine Dame!\\. Genießen Sie Ihre abenteuerliche Reise?"
+        },
+        "person": {
+         "person": "rookie-harbor.man-big-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Of course you do, haha!\\. Oh to be young again!",
          "transl": "Natürlich tun Sie das, haha!\\. Ach Mann, noch einmal jung sein!"
+        },
+        "person": {
+         "person": "rookie-harbor.man-big-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But... back to work.\\. It looks like you still need to defeat \\c[3]\\v[quest.my-first-quest.subrequire.0] of these \\v[combat.name.hedgehog]s\\c[0].",
          "transl": "Aber was soll's, die Pflicht ruft.\\. Wie es scheint, müssen Sie noch \\c[3]\\v[quest.my-first-quest.subrequire.0] Igöll\\c[0] besiegen."
+        },
+        "person": {
+         "person": "rookie-harbor.man-big-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -230,19 +318,36 @@
          "name": {
           "orig": "Humble Helper",
           "transl": "Bescheidener Betreuer"
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Wow Ms. \\v[lore.title.seeker], you really did it!\\. Here's your rewards for it!",
           "transl": "Donnerlüttchen, Sie haben es wirklich geschafft!\\. Hier ist Ihre Belohnung!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -255,31 +360,62 @@
          "name": {
           "orig": "Humble Helper",
           "transl": "Bescheidener Betreuer"
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hello Ms. \\v[lore.title.seeker], ready for another quest?\\. I even have more equipment as a reward.",
           "transl": "Guten Tag, holde Dame! Sind Sie bereit für noch eine Quest, um sich den Rest der Ausrüstung zu verdienen?"
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "accepted": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
+           }
+          },
           {
            "message": {
             "orig": "Happy collecting and remember that different plants yield different items!",
             "transl": "Frohes Sammeln! Und nicht vergessen: Verschiedene Pflanzen tragen verschiedene Items!"
+           },
+           "person": {
+            "person": "rookie-harbor.man-big-black",
+            "expression": "DEFAULT"
            }
           }
          ],
          "declined": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
           {
            "message": {
             "orig": "Oh, okay!\\. No Problem Ms. \\v[lore.title.seeker].\\. Please come back if you changed your mind.",
             "transl": "Oh, na ja!\\. Kein Problem.\\. Kommen Sie einfach wieder, wenn Sie die Quest doch machen wollen."
+           },
+           "person": {
+            "person": "rookie-harbor.man-big-black",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -293,37 +429,66 @@
         "name": {
          "orig": "Humble Helper",
          "transl": "Bescheidener Betreuer"
+        },
+        "person": {
+         "person": "rookie-harbor.man-big-black",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Hello Ms. \\v[lore.title.seeker]!\\. Enjoying the adventure?",
          "transl": "Guten Tag, meine werte Dame!\\. Genießen Sie Ihre abenteuerliche Reise?"
+        },
+        "person": {
+         "person": "rookie-harbor.man-big-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Of course you do, haha!\\. Oh to be young again!",
          "transl": "Natürlich tun Sie das, haha!\\. Ach Mann, noch einmal jung sein!"
+        },
+        "person": {
+         "person": "rookie-harbor.man-big-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But... back to work.\\. It looks like you still need to collect some of the \\c[3]items\\c[0].",
          "transl": "Aber was soll's, die Pflicht ruft.\\. Wie es scheint, müssen Sie noch ein paar der \\c[3]Items\\c[0] sammeln."
+        },
+        "person": {
+         "person": "rookie-harbor.man-big-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -335,19 +500,36 @@
          "name": {
           "orig": "Humble Helper",
           "transl": "Bescheidener Betreuer"
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Wow Ms. \\v[lore.title.seeker], you really did it!\\. Here's your rewards for it!",
           "transl": "Alle Achtung, Sie haben es wirklich geschafft!\\. Hier ist Ihre Belohnung!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-big-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -359,19 +541,36 @@
         "name": {
          "orig": "Humble Helper",
          "transl": "Bescheidener Betreuer"
+        },
+        "person": {
+         "person": "rookie-harbor.man-big-black",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello Ms. \\v[lore.title.seeker]!\\. I hope you enjoy your journey.",
          "transl": "Guten Tag, meine holde Dame!\\. Ich hoffe, Sie genießen Ihre abenteuerliche Reise?"
+        },
+        "person": {
+         "person": "rookie-harbor.man-big-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -526,6 +725,10 @@
       "message": {
        "orig": "Laser bridge!",
        "transl": "Laserbrücke!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -589,28 +792,55 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Back to where our journey started...",
        "transl": "Autumn's Rise! Hier hat unser Abenteuer angefangen..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
+      }
+     },
      {
       "message": {
        "orig": "By now, those enemies are kind of a joke, non?",
        "transl": "Mittlerweile sind die Gegner hier ein Witz, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
@@ -619,6 +849,10 @@
         "message": {
          "orig": "I mean...\\. if we didn't have the \\c[3]boosters\\c[0] enabled, that is.",
          "transl": "Ich meine...\\. wenn wir jetzt die \\c[3]Booster\\c[0] nicht aktiviert hätten."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
         }
        }
       ]
@@ -626,24 +860,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "SKEPTICAL"
+      }
+     },
      {
       "message": {
        "orig": "Sure...\\. now they are.",
        "transl": "Klar...\\. jetzt schon."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "SKEPTICAL"
       }
      },
      {
       "message": {
        "orig": "I bet you got beat up plenty by those Hedgehags in the beginning.",
        "transl": "Aber ich wette, die Igöll hier haben dich am Anfang ganz schön vermöbelt."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WINK"
       }
      },
      {
       "message": {
        "orig": "Non!\\. Not at all!",
        "transl": "Non-\\. da muss ich dich enttäuschen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "WATCH_OUT_BADASS"
       }
      },
      {
@@ -652,6 +908,10 @@
         "message": {
          "orig": "Lea simply \\c[1]sniped them all away\\c[0], you see?",
          "transl": "Lea hat sie einfach \\c[1]alle weggeschnippt\\c[0]..."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEAD_INSIDE"
         }
        }
       ],
@@ -660,17 +920,30 @@
         "message": {
          "orig": "Those hedgehags were easy-peasy, right, Lea?",
          "transl": "Die Igöll waren voll pillepalle, stimmt's Lea?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "TAUNTING"
         }
        }
       ]
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
        {
         "message": {
          "orig": "\\c[1]Lea!\\c[0]",
          "transl": "\\c[1]Lea!\\c[0]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE_DOWN"
         }
        }
       ],
@@ -679,6 +952,10 @@
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        }
       ]
@@ -687,6 +964,10 @@
       "message": {
        "orig": "Right. I forgot you were well prepared thanks to my amazing tutorial.",
        "transl": "Dank meines großartigen Tutorials, das euch gut darauf vorbereitet hat."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "EYES_CLOSED"
       }
      },
      {
@@ -695,12 +976,20 @@
         "message": {
          "orig": "Non.\\. Again.\\. It's because \\c[1]Lea just killed everything\\c[0].",
          "transl": "Non.\\. Nochmal.\\. Das lag daran, dass \\c[1]Lea sie alle weggeklatscht hat\\c[0]."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEAD_INSIDE"
         }
        },
        {
         "message": {
          "orig": "\\c[1]Bye!!\\c[0]",
          "transl": "\\c[1]Bye!!\\c[0]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE"
         }
        }
       ],
@@ -709,6 +998,10 @@
         "message": {
          "orig": "Suuuure...",
          "transl": "Geeeenau..."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        }
       ]

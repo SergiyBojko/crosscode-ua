@@ -945,55 +945,96 @@
          "name": {
           "orig": "Hau Ling",
           "transl": "Hau Ling"
+         },
+         "person": {
+          "person": "forest.inn-owner",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Ah... Another bird approaches me. Welcome, bird!",
           "transl": "Ah... Ein weiterer Vogel kommt zu mir geflogen. Willkommen, kleiner Vogel!<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "forest.inn-owner",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi?",
           "transl": "Привіт?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "The bird is trying to find a worm, but a \\c[3]bug\\c[0] is what it needs to catch.",
           "transl": "Der Vogel sucht einen Wurm, doch es ist ein \\c[3]Käfer\\c[0], den er fangen muss."
+         },
+         "person": {
+          "person": "forest.inn-owner",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "To the \\c[3]south\\c[0] is where the bird needs to fly, through \\c[3]bamboo trees\\c[0] and beyond.",
           "transl": "Nach \\c[3]Süden\\c[0] muss der Vogel fliegen, durch \\c[3]Bambushaine\\c[0] und darüber hinaus."
+         },
+         "person": {
+          "person": "forest.inn-owner",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And by \\c[3]a pond and a fire\\c[0] it needs to land.",
           "transl": "Und bei \\c[3]einem Teich mit einem Feuer\\c[0] muss er landen."
+         },
+         "person": {
+          "person": "forest.inn-owner",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Now fly, little bird, fly and let the wind carry you.",
           "transl": "Nun flieg, kleiner Vogel, flieg und lass dich vom Winde tragen."
+         },
+         "person": {
+          "person": "forest.inn-owner",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Wait?",
           "transl": "Зачекай?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "THINKING"
          }
         },
         {
          "message": {
           "orig": "How?",
           "transl": "Як?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         null,
@@ -1004,6 +1045,10 @@
            "message": {
             "orig": "Non, mamie. I do NOT want to catch a bug. No bugs.",
             "transl": "Non, mamie. Ich werde ganz bestimmt KEINE Käfer fangen. Keine Käfer."
+           },
+           "person": {
+            "person": "main.emilie",
+            "expression": "SWEATY_SMILE"
            }
           }
          ]
@@ -1023,31 +1068,56 @@
         "name": {
          "orig": "Hau Ling",
          "transl": "Hau Ling"
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "To the \\c[3]south\\c[0] is where the bird needs to fly, through \\c[3]bamboo trees\\c[0] and beyond.",
          "transl": "Nach \\c[3]Süden\\c[0] muss der Vogel fliegen, über \\c[3]Bambushaine\\c[0] und darüber hinaus."
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "And by \\c[3]a pond and a fire\\c[0] it needs to land.",
          "transl": "Und bei \\c[3]einem Teich mit einem Feuer\\c[0] muss er landen."
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now fly, little bird, fly and let the wind carry you.",
          "transl": "Nun flieg, kleiner Vogel, flieg und lass dich vom Winde tragen."
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye...",
          "transl": "Бувай..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        }
       ]
@@ -1058,49 +1128,86 @@
         "name": {
          "orig": "Hau Ling",
          "transl": "Hau Ling"
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Ah... I can feel it...",
          "transl": "Ah... Ich spüre es..."
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The bird found \\c[3]the pond and the fire\\c[0], didn't it?",
          "transl": "Der Vogel hat \\c[3]den Teich mit dem Feuer\\c[0] gefunden, nicht wahr?"
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Good bird. Yes, yes.",
          "transl": "Gut, kleiner Vogel. Ja, ja."
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now you only need to catch the \\c[3]bugs\\c[0]!",
          "transl": "Nun musst du nur noch die \\c[3]Käfer\\c[0] fangen!"
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ]
@@ -1111,37 +1218,66 @@
         "name": {
          "orig": "Hau Ling",
          "transl": "Hau Ling"
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "The Bird again? Hm...",
          "transl": "Der kleine Vogel wieder? Hm..."
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I see the worm found the falling rock.",
          "transl": "Ich sehe, dass der Wurm den fallenden Felsen gefunden hat."
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "Now it can pass the grand door to the light.",
          "transl": "Nun kann er durch die Große Tür ins Licht schreiten."
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now, don't clip your wings my bird, yes yes.",
          "transl": "Also, stutze dir nicht deine Flügel, mein kleiner Vogel, ja ja."
+        },
+        "person": {
+         "person": "forest.inn-owner",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1180,36 +1316,66 @@
        "transl": "War mir \\c[3]zu zwielichtig\\c[0] der Typ."
       },
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "How?",
          "transl": "Як?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Oh, hey. You mean the money thing?",
          "transl": "Oh, hey. Meinst du die Sache mit dem Geld?<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Yeah, some dude just offered me money to deliver some kind of package.",
          "transl": "Ja, so ein Typ hat mir gerade Geld geboten, wenn ich so ein Paket überbringe."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Just looking at his grin gave me the creeps.",
          "transl": "Allein sein Grinsen hat mir einen eiskalten Schauer über den Rücken gejagt."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -1259,6 +1425,10 @@
         "message": {
          "orig": "Look, there is some perfectly regular bamboo right in that river, cute.",
          "transl": "Guck mal, da ist ganz gewöhnlicher Bambus, mitten im Fluss, wie süß."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        }
       ],
@@ -1269,6 +1439,10 @@
           "message": {
            "orig": "There's bamboo in the middle of river.\\. Very regular bamboo, too.",
            "transl": "Da ist Bambus mitten im Fluss.\\. Sogar ganz gewöhnlicher Bambus."
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -1279,6 +1453,10 @@
             "message": {
              "orig": "Spheromancer Lea! Here you can see a prime example of perfectly regular bamboo!",
              "transl": "Spheromancer Lea! Hier siehst du ein Paradebeispiel für ganz gewöhnlichen Bambus!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "DOWN"
             }
            }
           ],
@@ -1289,6 +1467,10 @@
               "message": {
                "orig": "Whoa, such normal bamboo. I want perfectly regular bamboo like that for my garden, too.",
                "transl": "Ui, welch gewöhnlicher Bambus. Genau solchen hätte ich gerne in meinem Garten."
+              },
+              "person": {
+               "person": "antagonists.sidekick",
+               "expression": "TOWARD"
               }
              }
             ],
@@ -1297,6 +1479,10 @@
               "message": {
                "orig": "Oh, look! That is some lovely regular bamboo, right on that river.",
                "transl": "Oh, schau! Welch schöner, gewöhnlicher Bambus dort mitten im Fluss!"
+              },
+              "person": {
+               "person": "main.sergey",
+               "expression": "SMILE"
               }
              }
             ]
@@ -1311,6 +1497,10 @@
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -1377,73 +1567,126 @@
         "name": {
          "orig": "Ling Ling",
          "transl": "Ling Ling"
+        },
+        "person": {
+         "person": "forest.family-daugther-youngest",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "forest.family-daugther-youngest",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "The name is Ling Ling and I'm the youngest of the \\c[3]Lings\\c[0].",
          "transl": "Mein Name ist Ling Ling und ich bin die Jüngste der \\c[3]Lings\\c[0]."
+        },
+        "person": {
+         "person": "forest.family-daugther-youngest",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Well, technically my brother and I are the youngest, since we are twins...",
          "transl": "Genau genommen sind mein Bruder und ich die Jüngsten, da wir Zwillinge sind."
+        },
+        "person": {
+         "person": "forest.family-daugther-youngest",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But I'm the youngest female!",
          "transl": "Aber ich bin die jüngste Frau!"
+        },
+        "person": {
+         "person": "forest.family-daugther-youngest",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "So tell me about the big cities! I always wanted to go, but my mother keeps saying that I'm too young, sadly.",
          "transl": "Also, erzähl mir von den großen Städten! Ich wollte immer mal dort hin, aber meine Mutter meint, ich sei zu jung dafür.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "forest.family-daugther-youngest",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "...Hi?",
          "transl": "... Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "Oh, is that so? Wow, that is so cool! Please come back and tell me more, okay?",
          "transl": "Oooh, wirklich? Boah, wie cool! Du musst mir beim nächsten Mal unbedingt mehr erzählen, ja?<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "forest.family-daugther-youngest",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]
@@ -1458,18 +1701,30 @@
       "message": {
        "orig": "Oh...\\. Nice view from up here, non?",
        "transl": "Oh...\\. Schöne Aussicht von hier oben, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "This really would be such a nice location if it weren't for all those bugs...",
        "transl": "Das wäre so ein schöner Ort... Wenn nur nicht die ganzen Käfer wären!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EMBARRASSED"
       }
      }
     ]
@@ -1492,73 +1747,126 @@
       "name": {
        "orig": "PuellaDocta",
        "transl": "PuellaDocta"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Boo!",
        "transl": "Buh!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "I see you've arrived at the Cave Inn.",
        "transl": "Ah, du bist also angekommen in der Herberge."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Now you just have to sit tight and wait for the perfect moment.\n",
        "transl": "Jetzt brauchst du nur noch gespannt abzuwarten, bis der richtige Moment kommt."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Yeah, it's like Wervyn says, there's a fine line between being early, late, and right on time.",
        "transl": "Ja, es ist nur ein schmaler Grat zwischen zu früh, zu spät und genau rechtzeitig sein, wie Wervyn immer sagt."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And you don't have our finely-tuned senses yet.\\. But don't worry!",
        "transl": "Und du hast noch nicht unsere feinen Antennen.\\. Aber keine Sorge!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Since you're new, I'll let you know when it's time to move out!",
        "transl": "Da du neu bist, gebe ich dir Bescheid, wann du los musst!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And I have a feeling you won't have to wait too long!",
        "transl": "Und ich habe das Gefühl, dass du nicht lange warten musst!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Thanks again, Lea!\\. PuellaDocta out!",
        "transl": "Nochmal vielen Dank, Lea!\\. Ende!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -1574,6 +1882,10 @@
         "message": {
          "orig": "So...\\. we have to wait?\\. Okay.\\. Hopefully not for too long.",
          "transl": "Wir sollen also warten?\\. Okay.\\. Hoffentlich nicht allzu lang."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        }
       ],
@@ -1584,12 +1896,20 @@
           "message": {
            "orig": "Hm. Didn't expect to get involved in this field of work again...",
            "transl": "Hm. Hätte nicht damit gerechnet, nochmal mit dieser Arbeit in Berührung zu kommen..."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "MOPING"
           }
          },
          {
           "message": {
            "orig": "...?",
            "transl": "...?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_TOWARD"
           }
          }
         ],
@@ -1598,6 +1918,10 @@
           "message": {
            "orig": "Well... I suppose waiting is all there is to do now.",
            "transl": "Tja... Warten ist wohl das Einzige, was wir gerade tun können."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "WHISTLING"
           }
          }
         ]
@@ -1611,6 +1935,10 @@
         "message": {
          "orig": "This is certainly not the most exciting task.",
          "transl": "Da hatten wir definitiv schon spannendere Aufgaben."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
         }
        }
       ],
@@ -1621,6 +1949,10 @@
           "message": {
            "orig": "This is a good opportunity to just soak up the atmosphere of this place.",
            "transl": "Das ist eine gute Gelegenheit, die Atmosphäre einmal richtig auf sich wirken zu lassen."
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "SMILE"
           }
          }
         ],
@@ -1629,6 +1961,10 @@
           "message": {
            "orig": "Hm... No surprise they have trouble finding volunteers doing this kind of work.",
            "transl": "Hm... Kein Wunder, dass es schwer ist, Freiwillige für diese Arbeit zu finden."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "THINKING"
           }
          }
         ]
@@ -1646,31 +1982,56 @@
       "name": {
        "orig": "PuellaDocta",
        "transl": "PuellaDocta"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Lea, it's time!",
        "transl": "Lea, es ist so weit!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "A fellow player is in dire need in \\c[3]River Road\\c[0] right to the \\c[3]west\\c[0]!",
        "transl": "Ein Mitspieler am \\c[3]Flussweg\\c[0] gleich \\c[3]westlich\\c[0] von hier braucht deine Hilfe!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Let's be quick! Time waits for no man!\\. Or woman!",
        "transl": "Beeilung! Wir haben keine Zeit zu verlieren!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Lea!",
        "transl": "Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -1686,6 +2047,10 @@
         "message": {
          "orig": "Aaand...\\. more waiting.",
          "transl": "Uuund...\\. wieder warten."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        }
       ],
@@ -1696,6 +2061,10 @@
           "message": {
            "orig": "Always this waiting for the perfect moment. So bothersome.",
            "transl": "Immer dieses Warten auf den richtigen Moment. Richtig lästig."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SUSPICIOUS"
           }
          }
         ],
@@ -1704,6 +2073,10 @@
           "message": {
            "orig": "Right...\\. back on standby.\\. Let us hope there will be another person to rescue soon.",
            "transl": "So...\\. Bin wieder im Standby.\\. Hoffen wir, dass es schon bald den nächsten Spieler zu retten gibt."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "DOWN"
           }
          }
         ]
@@ -1721,43 +2094,76 @@
       "name": {
        "orig": "PuellaDocta",
        "transl": "PuellaDocta"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Uh...\\. Lea?\\. Remember that guy from before?",
        "transl": "Öhm...\\. Lea?\\. Erinnerst du dich an den Spieler von vorhin?"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "It looks like he's in trouble again.",
        "transl": "Sieht so aus, als würde er schon wieder in Schwierigkeiten stecken."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Why?",
        "transl": "Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Heck if I know!\\. Anyway he's currently in \\c[3]North East Path\\c[0]! ",
        "transl": "Wenn ich das wüsste!\\. Er ist auf dem \\c[3]Nordostpfad\\c[0]!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Better hurry!",
        "transl": "Beeil dich besser!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -1775,18 +2181,36 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.pentafist-female-blue",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hello, fellow seeker!",
           "transl": "Hallo, Seekerino!"
+         },
+         "person": {
+          "person": "cross-worlds.pentafist-female-blue",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -1795,24 +2219,40 @@
            "message": {
             "orig": "Hm... I'm currently looking for help, but \\c[3]just one person\\c[0], not a whole party.",
             "transl": "Hm... Ich suche gerade nach Hilfe, aber \\c[3]nur von einer Person\\c[0], nicht einer ganzen Gruppe."
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
            "message": {
             "orig": "Just talk to me again, if you happen to be by yourself later.",
             "transl": "Rede einfach nochmal mit mir, sobald du alleine unterwegs bist."
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           }
          ],
@@ -1821,210 +2261,361 @@
            "message": {
             "orig": "Perhaps you saw my posting in the Quest Hub.",
             "transl": "Vielleicht hast du meinen Aushang im Quest Hub schon gesehen."
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I'm looking for some help with a little bit of...\\. exploration.",
             "transl": "Ich suche noch ein wenig Hilfe für eine kleine...\\. Erkundung."
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ASTONISHED"
            }
           },
           {
            "message": {
             "orig": "But there is something you should know about this first.",
             "transl": "Du solltest allerdings eines vorher wissen."
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Let's just say we might see a few things that no one is supposed to see.",
             "transl": "Sagen wir einfach, dass wir gewisse Dinge sehen könnten, die niemand sehen soll."
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?",
             "transl": "...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
            "message": {
             "orig": "And in order to do this...\\. we might have to break this game...\\. a tiny little bit!",
             "transl": "Und um die zu sehen, müssen wir das Spiel vielleicht...\\. ein kleines bisschen brechen!<<C<<Alternative: ... müssen wir vielleicht das Spiel kaputtmachen... Aber nur ein kleines bisschen!"
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?!",
             "transl": "...?!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHOCKED"
            }
           },
           {
            "message": {
             "orig": "Oh, but don't worry about it!",
             "transl": "Oh, aber mach dir keine Sorgen!"
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "We'll both be fine as long as we handle it confidentially.",
             "transl": "Uns wird nichts passieren, solange wir es für uns behalten."
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "We just have to make sure none of the officials learn about this.",
             "transl": "Wir müssen einfach nur zusehen, dass keiner der Offiziellen Wind davon bekommt."
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "So in short: I'm looking for someone who can keep a secret.",
             "transl": "Kurz gesagt: Ich suche nach jemandem, der ein Geheimnis bewahren kann."
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           },
           {
            "message": {
             "orig": "Now that I think about it...\\. you haven't said terribly much so far, huh?",
             "transl": "Mir fällt gerade auf...\\. dass du bis jetzt noch nicht viel gesagt hast, oder?<<A<<[CHANGED 2021/05/22]"
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SAD"
            }
           },
           {
            "message": {
             "orig": "Does that mean...\\. do you have problems with your speech module?",
             "transl": "Heißt das...\\. dass du Probleme mit deinem Sprachmodul hast?"
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD_SAD"
            }
           },
           {
            "message": {
             "orig": "Oh, perfect!",
             "transl": "Oh, perfekt!"
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?",
             "transl": "...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           },
           {
            "message": {
             "orig": "That means you'll have a hard time sharing any of this in the first place!",
             "transl": "Das heißt, dass du überhaupt gar keine Geheimnisse verraten könntest!"
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXHAUSTED"
            }
           },
           {
            "message": {
             "orig": "So what do you say?\\. Do you want to help me? ",
             "transl": "Also, was sagst du?\\. Hilfst du mir?"
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I promise it will be exciting!",
             "transl": "Es wird aufregend, so viel ist sicher!"
+           },
+           "person": {
+            "person": "cross-worlds.pentafist-female-blue",
+            "expression": "DEFAULT"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.sergey",
+            "expression": "THINKING"
+           }
+          },
           {
            "message": {
             "orig": "Uhm, Lea?",
             "transl": "Öhm, Lea?"
+           },
+           "person": {
+            "person": "main.sergey",
+            "expression": "THINKING"
            }
           },
           null,
           {
            "accepted": [
-            null,
-            null,
+            {
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
+             }
+            },
+            {
+             "person": {
+              "person": "main.lea",
+              "expression": "DEFAULT"
+             }
+            },
             {
              "message": {
               "orig": "[nods]",
               "transl": "[nickt]"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "NOD"
              }
             },
             {
              "message": {
               "orig": "Great!\\. In that case, let's meet in \\c[3]Maroon Valley - Barren Arcs\\c[0]! ",
               "transl": "Spitze!\\. Wir treffen uns im \\c[3]Maronental\\c[0], an den \\c[3]Kahlen Bögen\\c[0]! "
+             },
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "...!",
               "transl": "...!"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "PROUD"
              }
             },
             {
              "message": {
               "orig": "Oh and just so you know, I'll need to switch my avatar.",
               "transl": "Oh, nur, dass du's weißt, ich muss dafür einen anderen Avatar nehmen."
+             },
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "The name will be \\c[3]Kit\\c[0].",
               "transl": "Der Name ist \\c[3]Kit\\c[0]."
+             },
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "Lea!",
               "transl": "Лія!"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "HAND_POINT_SELF"
              }
             },
             {
              "message": {
               "orig": "Oh, yes!\\. Nice to meet you Lea!",
               "transl": "Ach, stimmt, wie unhöflich von mir!\\. Schön, dich kennenzulernen, Lea!"
+             },
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "I'll contact you via D-Link when you arrive!",
               "transl": "Ich werde dich via D-Link kontaktieren, sobald du da bist!"
+             },
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "See you soon!",
               "transl": "Bis später!"
+             },
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "Bye!",
               "transl": "Бувай!"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "DEFAULT"
              }
             },
             null,
@@ -2039,70 +2630,130 @@
             null,
             null,
             null,
-            null,
-            null,
+            {
+             "person": {
+              "person": "main.sergey",
+              "expression": "DEFAULT"
+             }
+            },
+            {
+             "person": {
+              "person": "main.lea",
+              "expression": "DEFAULT"
+             }
+            },
             {
              "message": {
               "orig": "Lea...?\\. Are you really sure this is a good idea?",
               "transl": "Lea...?\\. Bist du sicher, dass das eine gute Idee ist?"
+             },
+             "person": {
+              "person": "main.sergey",
+              "expression": "SERIOUS"
              }
             },
             {
              "message": {
               "orig": "I know we have broken the rules before but...",
               "transl": "Ich weiß, dass wir schon mal die Regeln gebrochen haben, aber..."
+             },
+             "person": {
+              "person": "main.sergey",
+              "expression": "THINKING"
              }
             },
             {
              "message": {
               "orig": "I honestly have no idea what this player is up to.",
               "transl": "Ich weiß nicht, was dieser Spieler im Schilde führt."
+             },
+             "person": {
+              "person": "main.sergey",
+              "expression": "WORRIED"
              }
             },
             {
              "message": {
               "orig": "...",
               "transl": "..."
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "WHISTLING"
              }
             }
            ],
            "declined": [
-            null,
-            null,
+            {
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
+             }
+            },
+            {
+             "person": {
+              "person": "main.lea",
+              "expression": "DEFAULT"
+             }
+            },
             {
              "message": {
               "orig": "[shakes head]",
               "transl": "[schüttelt Kopf]"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "SHAKE"
              }
             },
             {
              "message": {
               "orig": "Dang it...",
               "transl": "Ach Mensch..."
+             },
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "Seems like everybody is too afraid to break the game.",
               "transl": "Irgendwie hat jeder Angst davor, das Spiel auszutricksen."
+             },
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "Even if it's just a little.",
               "transl": "Sogar nur ein kleines bisschen."
+             },
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "It's honestly not so bad though!",
               "transl": "So schlimm ist das gar nicht! Echt nicht!"
+             },
+             "person": {
+              "person": "cross-worlds.pentafist-female-blue",
+              "expression": "DEFAULT"
              }
             },
             {
              "message": {
               "orig": "...",
               "transl": "..."
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "EXHAUSTED"
              }
             },
             null,
@@ -2110,12 +2761,20 @@
              "message": {
               "orig": "That was a good choice.\\. Better not get into risky business like this.",
               "transl": "Das war eine gute Entscheidung.\\. Mit so etwas gehen wir besser keine Risiken ein."
+             },
+             "person": {
+              "person": "main.sergey",
+              "expression": "EYES_CLOSED"
              }
             },
             {
              "message": {
               "orig": "...",
               "transl": "..."
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "NERVOUS"
              }
             }
            ]

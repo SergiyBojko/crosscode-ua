@@ -167,36 +167,66 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Sorry, we're really busy trying to handle stuff right now. ",
          "transl": "Tut mit leid, aber wir haben gerade wirklich alle Hände voll zu tun."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Well... if you want to help, talk to \\c[3]PuellaDocta\\c[0] at the \\c[3]entrance of Sapphire Ridge\\c[0]. ",
          "transl": "Tja... wenn du uns helfen möchtest, rede am besten mit \\c[3]PuellaDocta\\c[0] am \\c[3]Eingang des Saphirgrats\\c[0]."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "She's tasked with recruiting, it'll make my life a lot easier if you go through her.",
          "transl": "Sie kümmert sich um neue Mitstreiter. Wenn du zu ihr gehst, würde mir das enorm viel Arbeit abnehmen."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -208,25 +238,46 @@
         "name": {
          "orig": "Wervyn",
          "transl": "Wervyn"
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good luck in Sapphire Ridge!",
          "transl": "Viel Glück auf dem Saphirgrat!"
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'm certain there will be plenty of players in need of rescuing, considering the fierce opponents that roam the area.",
          "transl": "Ich bin mir sicher, dass bei den heftigen Gegnern dort so einige Spieler unsere Hilfe brauchen werden."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -245,114 +296,196 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "PuellaDocta",
        "transl": "PuellaDocta"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ah, there she is!\\. Hiii!",
        "transl": "Ah, da ist sie ja!\\. Hiii!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "You must be Lea.\\. Nice to meet you!",
        "transl": "Du musst Lea sein.\\. Schön, dich kennenzulernen!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'm Wervyn, I run things around here.",
        "transl": "Ich bin Wervyn! Ich schmeiß' den Laden hier."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Wervyn",
        "transl": "Wervyn"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "And how about you?\\. What attracted you to our quest posting?",
        "transl": "Und wie steht's mit dir?\\. Was an unserem Quest-Aushang hat dich zu uns geführt?"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Not very talkative...",
        "transl": "Nicht gerade gesprächig..."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Maybe not, but she was very enthusiastic about helping us.",
        "transl": "Mag sein, aber sie war ganz wild darauf, uns zu helfen."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Your speech module's busted, isn't it.",
        "transl": "Dein Sprachmodul ist im Teich, stimmt's?"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD_SAD"
       }
      },
      {
       "message": {
        "orig": "Thought so, I've seen that a couple of times before.",
        "transl": "Dachte ich's mir doch. Kommt öfter vor, als man meint."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Don't worry about it, you won't need to do any talking for this.",
        "transl": "Ist aber kein Problem, nonverbal geht auch."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But anyway. Have you heard the \\c[3]tales of the Last Minute Heroes\\c[0]?",
        "transl": "Also, hast du schon die \\c[3]Geschichten über die Last-Minute-Helden\\c[0] gehört?"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      null,
@@ -362,61 +495,112 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Wervyn",
        "transl": "Wervyn"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Whenever a lone Seeker is stuck in a dire situation...",
        "transl": "Wann immer ein einsamer Seeker in der Klemme steckt..."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "When a decisive battle goes out of hand...",
        "transl": "Wenn eine Entscheidungsschlacht außer Kontrolle gerät..."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Just when all hope seems lost...",
        "transl": "Wenn alle Hoffnung verloren scheint..."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That's when we arrive!",
        "transl": "Dann kommen wir!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The cavalry of CrossWorlds!",
        "transl": "Die Kavallerie von CrossWorlds!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
      {
       "name": {
        "orig": "PuellaDocta",
        "transl": "PuellaDocta"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The ultimate deus ex machina!",
        "transl": "Die ultimative Deus ex Machina!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Saving the day...\\. at the very last minute!",
        "transl": "Die Rettung...\\. in letzter Minute!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -426,114 +610,190 @@
       "message": {
        "orig": "...!!!",
        "transl": "...!!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "Yes, that's what we do.\\. Saving players in need.\\. At the last minute.",
        "transl": "Und genau das machen wir hier.\\. Wir retten Spieler in Not.\\. In allerletzter Minute."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That part's very important!\\. That's our niche!",
        "transl": "Ja, der letzte Teil ist extrem wichtig!\\. Das ist unser Ding!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And we do it everywhere in the Playground at all times.",
        "transl": "Und wir sind überall auf dem Spielplatz im Einsatz, zu jeder Zeit."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Except on holidays, of course!",
        "transl": "Außer natürlich an Feiertagen!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Right. Anyway, finding players in need and arriving just in time isn't actually that easy.",
        "transl": "Genau. Allerdings ist es nicht gerade einfach, Spieler in Not zu finden und genau im richtigen Moment aufzukreuzen."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That's why we employ the \\c[3]LMRS\\c[0] - our amazing \"\\c[3]Last Minute Rescue System\\c[0]\"!",
        "transl": "Hier kommt das \\c[3]LMRS\\c[0] ins Spiel - unser einzigartiges \"\\c[3]Last-Minute-Rettungs-System\\c[0]\"!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "He likes to make it sound super impressive...",
        "transl": "Bei ihm klingt das immer unglaublich eindrucksvoll..."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But really it's just guild members on the lookout in literally every corner of the Playground.",
        "transl": "Aber eigentlich sind es nur Gildenmitglieder, die in buchstäblich jeder Ecke des Spielplatzes die Augen offen halten."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Well that...\\. and our highly advanced communication system.",
        "transl": "Nun ja, das...\\. und unser hochentwickeltes Kommunikationssystem!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That's right! We have access to some...\\. additional information.",
        "transl": "Ganz genau! Wir haben nämlich Zugriff auf...\\. zusätzliche Informationen."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And we use it to D-Link nearby guild members, telling them where to do the rescuing!",
        "transl": "Und mittels D-Link erfahren unsere Gildenmitglieder dann, wo es brennt!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Exactly.\\. And with both of these things combined, the LMRS works flawlessly.",
        "transl": "Genau.\\. Und mit der Kombination aus beidem läuft unser LMRS tadellos."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "... given we have enough guild members to help us.",
        "transl": "... zumindest, wenn wir genug Gildenmitglieder haben, die uns helfen."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Unfortunately, we're currently short-handed.",
        "transl": "Bedauerlicherweise sind wir momentan unterbesetzt."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yeah, everybody's distracted now that the new \"Laser Bridge Builder\" has just been released.",
        "transl": "Ja, seit der neue \"Laserbrücken-Simulator\" raus ist, sind alle irgendwie abgelenkt."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      null,
@@ -541,17 +801,30 @@
       "thenStep": [
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
+        }
+       },
        {
         "message": {
          "orig": "Whoa?! It has?!",
          "transl": "Was?! Den gibt's schon?!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        },
        {
         "message": {
          "orig": "I...\\. I gotta go for a second!",
          "transl": "Ich...\\. Ich muss mal kurz off!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
         }
        },
        null,
@@ -564,71 +837,120 @@
       ]
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Wervyn",
        "transl": "Wervyn"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Anyway, that's where you come in, Lea.",
        "transl": "Jedenfalls... Da kommst du jetzt ins Spiel, Lea."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We currently need more players on the lookout in \\c[3]Sapphire Ridge\\c[0].",
        "transl": "Im Moment brauchen wir mehr Spieler, die sich auf dem \\c[3]Saphirgrat\\c[0] umsehen."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "PuellaDocta",
        "transl": "PuellaDocta"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And don't worry, we won't ask you to stay put for the whole day or anything!",
        "transl": "Und keine Sorge, wir erwarten natürlich nicht, dass du dich dort den ganzen Tag nicht vom Fleck rührst!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes, obviously. Any amount of contribution is appreciated.",
        "transl": "Ne, auf keinen Fall. Jedes bisschen Hilfe ist willkommen."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "To start things off, just head back to the \\c[3]Cave Inn\\c[0] in \\c[3]Sapphire Ridge\\c[0] and wait around the landmark! ",
        "transl": "Zum Einstieg schlage ich vor, du gehst zur \\c[3]Höhlenherberge\\c[0] und postierst dich dort am Wegpunkt!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'll give you remote support and tell you via D-Link if there's anyone in need of rescuing!",
        "transl": "Ich werde dich aus der Ferne unterstützen und mich via D-Link bei dir melden, wenn jemand Hilfe braucht!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Lea!",
        "transl": "Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "Uhm...\\. Puella! Yay!",
        "transl": "Öhm...\\. Puella! Super!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Thanks for helping us out, Lea.",
        "transl": "Danke, dass du uns hilfst, Lea."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -643,12 +965,20 @@
         "message": {
          "orig": "Non...\\. too expensive.\\. I'll wait for a sale.",
          "transl": "Non...\\. Zu teuer.\\. Ich warte lieber, bis es im Angebot ist."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        }
       ]
@@ -720,54 +1050,102 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...Hi!",
          "transl": "... Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Oi!\\. If you don't mind, I'm just chillin' here and enjoying the view of those palm trees.",
          "transl": "He, sachte!\\. Ich ruhe mich hier grad ein bisschen aus und genieße die Sicht auf die Palmen."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        null,
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Palm trees are so pretty.",
          "transl": "Palmen sind echt schön."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "That's why I love being in \\c[3]Rhombus Square\\c[0], place's filled with palm trees.",
          "transl": "Deswegen bin ich so gern in \\c[3]Rhombus Square\\c[0], dort ist alles voller Palmen."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "Feels like spending a vacation at a resort!",
          "transl": "Da fühlt man sich wie im Urlaub!"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-blue",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -877,59 +1255,100 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "PuellaDocta",
        "transl": "PuellaDocta"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Wervyn",
        "transl": "Wervyn"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "Hey you!\\. How's it going?",
        "transl": "Hey!\\. Wie läuft's?"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hello Lea.\\. It's good to see you again.",
        "transl": "Hallo, Lea.\\. Schön, dich wiederzusehen."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Fortunately things are a lot better now that most guild members have returned.",
        "transl": "Die Lage hat sich gebessert, seit die meisten Mitglieder wieder zurück sind."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I guess they ran out of laser bridges to build!",
        "transl": "Beim Laserbrücken-Simulator hat sich's wohl ausgelasert!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Which is good, because there will always be players in need of saving!",
        "transl": "Gut für uns, denn Spieler, die gerettet werden müssen, wird es immer geben!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
@@ -938,9 +1357,12 @@
         "message": {
          "orig": "Hang on...\\. Apollo?",
          "transl": "Moment...\\. Apollo?"
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
-       null,
        null,
        null,
        null,
@@ -948,83 +1370,151 @@
        null,
        null,
        {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "MOPING"
+        }
+       },
+       {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "MOPING"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Is that you, playing ANOTHER alt?",
          "transl": "Spielst du SCHON WIEDER einen neuen Charakter?"
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Oh my gosh, you're right!\\. Haha!",
          "transl": "Jau, du hast recht!\\. Hahaha!"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        },
        {
         "message": {
          "orig": "Yes, you discovered me.",
          "transl": "Hast mich erwischt."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "ANGRY"
         }
        },
        {
         "message": {
          "orig": "How can you tell?",
          "transl": "Woran hast du mich erkannt?"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "Something about the way you carry yourself.",
          "transl": "Irgendwas an deiner Art hat dich verraten."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You can change your appearance but every time you're just trying so hard to stand out.",
          "transl": "Du veränderst zwar dein Aussehen, versuchst aber jedes Mal krampfhaft aufzufallen."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Plus, you always go with green hair...\\. and you always use the same name.",
          "transl": "Außerdem hast du jedes Mal grüne Haare...\\. Und nimmst immer denselben Namen."
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "And you're always a Spheromancer.",
          "transl": "Und du spielst jedes Mal einen Spheromancer."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You know, most players would have at least tried out another class by now.",
          "transl": "Weißt du, andere Spieler hätten die anderen Klassen inzwischen zumindest mal ausprobiert."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why would I ever choose anything but the most honorable class of the game!",
          "transl": "Warum sollte ich jemals eine andere als die edelste Klasse des Spiels wählen?!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        },
        null,
@@ -1032,6 +1522,10 @@
         "message": {
          "orig": "Apollo will always be a Spheromancer!!",
          "transl": "Apollo wird immer ein Spheromancer sein!!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        },
        null,
@@ -1039,49 +1533,94 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Did he tell you he used to be a member of our guild?",
          "transl": "Hat er dir erzählt, dass er mal Mitglied unserer Gilde war?"
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?!",
          "transl": "...?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        },
        {
         "thenStep": [
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Well, seems appropiate.",
            "transl": "Ja, das passt."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "WATCH_OUT_BADASS"
           }
          }
         ],
         "elseStep": [
          {
           "thenStep": [
-           null,
+           {
+            "person": {
+             "person": "main.glasses",
+             "expression": "THOUGHTFUL"
+            }
+           },
            {
             "message": {
              "orig": "First time I hear about it.",
              "transl": "Das ist das erste Mal, dass ich davon höre."
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "THOUGHTFUL"
             }
            }
           ],
           "elseStep": [
            {
             "thenStep": [
-             null,
+             {
+              "person": {
+               "person": "antagonists.sidekick",
+               "expression": "SMILE"
+              }
+             },
              {
               "message": {
                "orig": "Oh, so this is the guild you told me about, Polly.",
                "transl": "Ach, das ist also die Gilde, von der du mir erzählt hast, Polly."
+              },
+              "person": {
+               "person": "antagonists.sidekick",
+               "expression": "SMILE"
               }
              }
             ]
@@ -1090,42 +1629,76 @@
          }
         ]
        },
-       null,
+       {
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Heehee!\\. Makes sense for such a justice-obsessed guy, right?",
          "transl": "Heehee!\\. Passt zu so einem Gerechtigkeitsfanatiker, ne?"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
+        }
+       },
        {
         "message": {
          "orig": "Alas, you just never appreciated my sense of style!",
          "transl": "Ach, ihr habt doch bloß nie mein Stilgefühl gewürdigt!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        },
        {
         "message": {
          "orig": "What he means is he could never get the timing down.",
          "transl": "Was er eigentlich meint, ist, dass er ständig das Timing vermasselt hat."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Always took too long preparing his big entrances.",
          "transl": "Hat immer zu lange gebraucht, seine großen Auftritte vorzubereiten."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Alright, enough of this conversation!",
          "transl": "Na schön, das reicht jetzt!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Aw, no hard feelings!",
          "transl": "Oooch, nichts für ungut!"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -1134,30 +1707,50 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Hm?",
          "transl": "Hm?"
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Oh! Are you wondering if the players actually \\c[3]need\\c[0] saving?",
          "transl": "Oh! Willst du etwa wissen, ob die Spieler tatsächlich gerettet werden \\c[3]müssen\\c[0]?"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        null,
@@ -1165,115 +1758,202 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hmm, interesting point she's got there, Werv.",
          "transl": "Hmm, gute Frage - oder Werv?"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why...\\. it's always a noble thing to do, isn't it?",
          "transl": "Warum...\\. Es ist doch eine edle Sache, nicht?"
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I mean...\\. if you die in battle, you just respawn and try again, so...",
          "transl": "Ich meine...\\. wenn du im Kampf stirbst, respawnst du einfach und probierst es nochmal, von daher..."
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Well...",
          "transl": "Na ja..."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "And some people actually think our rescues are glorified kill-stealing!",
          "transl": "Manche Leute meinen sogar, unsere Rettungen wären bloß verklärte Kill-Stealings!"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Oh, come on!",
          "transl": "Ach, so ein Unsinn!"
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "We don't even get any loot or EXP, the game system doesn't work like that.",
          "transl": "Wir kriegen dafür nicht einmal Beute oder EXP, das gibt die Spielmechanik gar nicht her."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Right, it's absurd.",
          "transl": "Stimmt, das ist absurd."
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But maaaaybe some players actually want the challenge?",
          "transl": "Aber vielleicht WOLLEN einige Spieler ja die Herausforderung?"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Okay, fair enough.",
          "transl": "Hm, ist ein Argument."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It's just great fun to play the heroes.",
          "transl": "Es macht einfach Spaß, die Helden zu spielen."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "And people are usually happy about it.\\. Most of the time.",
          "transl": "Und die Leute sind normalerweise glücklich darüber.\\. Meistens."
+        },
+        "person": {
+         "person": "guests.wervyn",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Oh, I'm totally with you!",
          "transl": "Oh, da gebe ich dir vollkommen recht!"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I wish our guild was around when I was starting out, I needed the help and wanted to help other noobs!",
          "transl": "Ich wünschte, es hätte unsere Gilde schon gegeben, als ich damals anfing. Ich hätte die Hilfe gebrauchen können und wollte anderen helfen!"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But...\\. playing a little devil's advocate is always fun!",
          "transl": "Aber...\\. des Teufels Advokat zu spielen macht einfach Spaß!"
+        },
+        "person": {
+         "person": "guests.puella-docta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]

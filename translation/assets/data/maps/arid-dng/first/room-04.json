@@ -3,11 +3,20 @@
   {
    "settings": {
     "blockEvent": [
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "Uhm... better not go this way Lea. Things might break.",
        "transl": "Öhm... In die Richtung bitte nicht, Lea, sonst riskieren wir einen Systemabsturz."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      }
     ]
@@ -16,11 +25,20 @@
   {
    "settings": {
     "blockEvent": [
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "Lea, please take the exit point, not the door.",
        "transl": "Lea, bitte benutze den Ausgang, nicht die Tür."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      }
     ]
@@ -61,66 +79,116 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "It worked! Well... sort of!",
        "transl": "Es hat funktioniert! Na ja... mehr oder weniger!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "...?!",
        "transl": "...?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "Lea, we just jumped to another room instance!",
        "transl": "Lea, wir sind gerade in eine andere Raum-Instanz gesprungen!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Dungeon instances... they work on a room-by-room basis.",
        "transl": "Dungeon-Instanzierung... basiert auf dem \"Raum-für-Raum\"-Prinzip."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "And all room-instances are placed within a \\c[3]massive compound\\c[0].",
        "transl": "Das heißt, alle Raum-Instanzen werden in einem \\c[3]riesigen Verbund\\c[0] generiert."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "What we will do is jump between those instances until we reach the room Lukas is in!",
        "transl": "Die Idee ist, zwischen diesen Instanzen zu springen, bis wir Lukas' Raum erreichen!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And then... escape this compound itself!",
        "transl": "Um dann... den Verbund selbst zu verlassen!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "As strange as it sounds, it is our best chance to get out of this place.",
        "transl": "Und so komisch sich das auch anhört, das ist unsere beste Chance, von hier zu verschwinden."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Okay, let me see...\\. the next exit point should be...\\. here!",
        "transl": "Also, lass mal sehen...\\. Der nächste Ausgang ist...\\. hier!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      null,
@@ -133,18 +201,30 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Yes, it has to be on that side of the room. Sorry.",
        "transl": "Ja, er muss leider auf der anderen Seite des Raumes sein, tut mir leid."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "From the looks of it, you should be able to reach that point.",
        "transl": "Aber so wie es aussieht, solltest du ihn erreichen können."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      }
     ]

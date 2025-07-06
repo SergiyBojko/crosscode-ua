@@ -739,11 +739,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SHOUTING"
+      }
+     },
      {
       "message": {
        "orig": "Spheromancer Lea! Let's go!",
        "transl": "Spheromancer Lea! Auf geht's!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SHOUTING"
       }
      },
      null,
@@ -764,17 +773,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "You're back again?",
        "transl": "Du bist wieder zurück?"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "It's good to see you.",
        "transl": "Schön, dich zu sehen."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "TOWARDS"
       }
      },
      null,

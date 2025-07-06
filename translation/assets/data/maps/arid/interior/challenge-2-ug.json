@@ -46,6 +46,10 @@
       "message": {
        "orig": "Again time to clean up the small fry first.",
        "transl": "Kümmern wir uns erstmal wieder um die kleinen Fische."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "EYES_CLOSED"
       }
      }
     ]
@@ -74,13 +78,22 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "thenStep": [
        {
         "message": {
          "orig": "Alright, here's the big one!\\. Let's do this!",
          "transl": "Okay, da kommt der Boss!\\. Legen wir los!"
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "NORM_SERIOUS"
         }
        }
       ],
@@ -89,6 +102,10 @@
         "message": {
          "orig": "Alright, here we go. Be careful, Lea!",
          "transl": "Okay, es geht los. Sei vorsichtig, Lea!"
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "NORM_SERIOUS"
         }
        }
       ]
@@ -106,6 +123,10 @@
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -127,6 +148,10 @@
         "message": {
          "orig": "Alright, got that one down.",
          "transl": "Gut, der wäre erledigt."
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "WONDERING"
         }
        }
       ],
@@ -135,6 +160,10 @@
         "message": {
          "orig": "Phew... Got that one down.",
          "transl": "Puh... Der wäre erledigt."
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "COMPLAINING"
         }
        }
       ]
@@ -143,18 +172,30 @@
       "message": {
        "orig": "I don't think I've ever seen an enemy like this. Scary stuff.",
        "transl": "Kann mich nicht daran erinnern, so einem Gegner schon mal irgendwo begegnet zu sein. Heftig."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well then... let's go on.",
        "transl": "Also dann... Weiter geht's."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      }
     ]

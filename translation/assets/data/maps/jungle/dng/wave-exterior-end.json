@@ -382,24 +382,46 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Aww, just second?\\. I thought I was rather quick this time.",
          "transl": "Ohhh, nur Zweiter?\\. Und ich dachte, ich wäre dieses Mal schnell gewesen."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Anyway, congratulations!",
          "transl": "Trotzdem: Gratuliere!"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
         }
        },
        null,
@@ -411,31 +433,62 @@
        null,
        null,
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "BROKEN"
+        }
+       },
+       {
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMUG"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
+        }
+       },
        {
         "message": {
          "orig": "Whaaat? I'm the last one this time?",
          "transl": "Waaaas? Letzter?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "BROKEN"
         }
        },
        {
         "message": {
          "orig": "Looks like it.",
          "transl": "Sieht so aus."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Lea wait!",
          "transl": "Lea Warte!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Yes, Lea!\\. I get it!\\. You waited!\\. Mon Dieu!",
          "transl": "Ja, Lea!\\. Ich hab's kapiert!\\. Du hast gewartet!\\. Mon Dieu!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        },
        {
@@ -444,6 +497,10 @@
           "message": {
            "orig": "No wonder you did, with your weird \\c[1]damage thing\\c[0] or whatever.\\. Cheater.",
            "transl": "Kein Wunder, dass du so viel Zeit hattest, bei deinem komischen \\c[1]Schadensdingen\\c[0] da.\\. Cheater."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "MOPING"
           }
          }
         ]
@@ -452,24 +509,40 @@
         "message": {
          "orig": "Sorry~",
          "transl": "Sorry~"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "To be fair, we didn't really wait that long. It was pretty close.",
          "transl": "Um ehrlich zu sein, mussten wir gar nicht lange warten. Es war ziemlich knapp."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "Oui...\\. And this is not our last race!",
          "transl": "Oui...\\. Und das war noch nicht unser letztes Rennen!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "Anyway, let's just go to the space bird.",
          "transl": "Sei's drum, dann lasst uns jetzt zum Weltraumvogel gehen."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "MOPING"
         }
        }
       ],
@@ -480,85 +553,152 @@
        null,
        null,
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
+        }
+       },
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "TAUNTING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
+        }
+       },
        {
         "message": {
          "orig": "Oh, look!",
          "transl": "Oh, sieh mal!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "TAUNTING"
         }
        },
        {
         "message": {
          "orig": "It's Lea who wanted to \"wait\" for us!",
          "transl": "Da ist Lea, die auf uns \"warten\" wollte!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "WATCH_OUT_BADASS"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "More like you made us wait, chérie!",
          "transl": "Du hast wohl eher uns warten lassen, Chérie!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHRUG"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Well...\\. it was close.\\. So we didn't wait that long.",
          "transl": "Na ja...\\. Es war schon knapp.\\. So lange mussten wir gar nicht warten."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "Hush!\\. Let me have this moment.",
          "transl": "Scht!\\. Verdirb mir nicht den Spaß."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "I actually just came in second this time. Tronny was first.",
          "transl": "Ehrlich gesagt bin ich diesmal nur Zweiter geworden. Tronny war Erster."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "Well...\\. I suppose water is sort of my element?",
          "transl": "Tjoa...\\. Ich glaube, Wasser ist wohl irgendwie mein Element."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "Oui, and you didn't even waste any second complaining about water pressure.",
          "transl": "Oui, und du hast dich dabei nicht einmal über den Wasserdruck beschwert."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Well then, let's head to the Space Bird, d'accord?",
          "transl": "Alors, dann lasst uns mal zum Weltraumvogel gehen, d'accord?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -764,13 +904,32 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "And done!",
        "transl": "Und fertig!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
@@ -779,6 +938,10 @@
         "message": {
          "orig": "One dungeon completed, two to go!",
          "transl": "Einen Dungeon erledigt, bleiben noch zwei!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        }
       ],
@@ -787,6 +950,10 @@
         "message": {
          "orig": "So that means we're finally ready for that Grand-something dungeon, right?",
          "transl": "Oui! Das heißt also, wir dürfen jetzt in diesen Großen Dingsbums-Dungeon rein, richtig?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
@@ -801,30 +968,50 @@
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well then...\\. let's go!",
        "transl": "Na dann...\\. gehen wir!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      {
       "message": {
        "orig": "Honestly don't feel like staying here too long.",
        "transl": "Ehrlich gesagt habe ich keine Lust, hier noch länger zu bleiben."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Yeah, the constant rain isn't all that comfortable, is it?",
        "transl": "Ja, dieser permanente Regen ist nicht gerade angenehmen, oder?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -955,36 +1142,66 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The rain falls...",
          "transl": "Der Regen fällt..."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Dripping, flowing...",
          "transl": "Tropft, fließt..."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Cleansing body and soul...",
          "transl": "Reinigt Körper und Seele..."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]

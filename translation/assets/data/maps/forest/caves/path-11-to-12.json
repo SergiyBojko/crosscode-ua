@@ -207,17 +207,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "...Wait!!",
        "transl": "... Зачекай!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
@@ -226,44 +239,84 @@
        null,
        {
         "0_0": [
-         null,
+         {
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "What's up, Lea?",
            "transl": "Was ist denn, Lea?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "That waterfall is impressive, non?",
            "transl": "Der Wasserfall ist beeindruckend, non?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "AWAY"
           }
          }
         ],
         "1_0": [
-         null,
+         {
+          "person": {
+           "person": "main.glasses",
+           "expression": "THOUGHTFUL"
+          }
+         },
          {
           "message": {
            "orig": "Is something the matter, Lea?",
            "transl": "Ist dir etwas aufgefallen, Lea?"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "THOUGHTFUL"
           }
          }
         ],
         "2_0": [
-         null,
+         {
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
+          }
+         },
          {
           "message": {
            "orig": "Spheromancer Lea! Is something the matter?",
            "transl": "Spheromancer Lea! Was gibt es?"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          }
         ],
         "3_0": [
-         null,
+         {
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "That's quite the impressive waterfall, isn't it?",
            "transl": "Ja, das ist ein ziemlich beeindruckender Wasserfall, nicht?"
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "TOWARD"
           }
          }
         ]
@@ -271,52 +324,90 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Lea? Did you see something you remember?",
        "transl": "Lea? Hast du etwas gesehen, an das du dich erinnerst?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Phew... Finally, we found something.",
        "transl": "Puh... Endlich haben wir etwas gefunden.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "Well then, we should have a closer look around here.",
        "transl": "Gut, dann sollten wir uns die Gegend hier etwas genauer anschauen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But... make sure to explore the place by yourself.",
        "transl": "Sorge aber dafür, dass du den Ort auf eigene Faust erkunden kannst."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      }
     ]

@@ -40,30 +40,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Phew... that was close.",
        "transl": "Puh... Das war knapp."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "COMPLAINING"
       }
      },
      {
       "message": {
        "orig": "So many of them out there.",
        "transl": "Das waren verdammt viele Wachen da draußen."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well then, let's take that elevator.",
        "transl": "Gut, lass uns den Aufzug dort nehmen."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "TOWARDS"
       }
      }
     ]

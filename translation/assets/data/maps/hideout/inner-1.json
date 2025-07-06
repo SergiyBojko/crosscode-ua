@@ -5,18 +5,36 @@
   {
    "settings": {
     "blockEvent": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Please, Lea. Now is not a time to leave.",
        "transl": "Будь ласка, Лія. Зараз не час йти."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Let's follow Satoshi into the room to the \\c[3]west\\c[0].",
        "transl": "Ходімо за Сатоші у \\c[3]західну\\c[0] кімнату."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      }
     ]
@@ -45,24 +63,46 @@
   {
    "settings": {
     "blockEvent": [
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
+      }
+     },
      {
       "message": {
        "orig": "Uhm, did you not want to go outside with Shizuka?",
        "transl": "Ем, хіба ти не хотіла піти назовні з Шізукою?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "I am pretty sure our technical talk will not be all that interesting for you.",
        "transl": "Я впевнений, що наша технічна розмова буде не надто цікавою для тебе."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      }
     ]
@@ -72,11 +112,20 @@
   {
    "settings": {
     "blockEvent": [
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DENYING"
+      }
+     },
      {
       "message": {
        "orig": "Doesn't seem like he is in there.",
        "transl": "Здається, його там немає."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DENYING"
       }
      }
     ]
@@ -108,12 +157,26 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.shizuka",
+         "expression": "DENYING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "He's waiting inside.",
          "transl": "Він чекає всередині."
+        },
+        "person": {
+         "person": "main.shizuka",
+         "expression": "DENYING"
         }
        }
       ]
@@ -126,11 +189,20 @@
     "event": [
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "ANNOYED"
+      }
+     },
      {
       "message": {
        "orig": "This way...",
        "transl": "Сюди..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "ANNOYED"
       }
      }
     ]
@@ -154,6 +226,10 @@
       "message": {
        "orig": "A system to extract information from players...\\. this is unbelievable!",
        "transl": "Система для збору інформації з гравців...\\. Це неймовірно!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      }
     ]
@@ -172,61 +248,112 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "From here on out Sergey and I will dive into the technical details.",
        "transl": "Зараз ми з Сергієм заглибимося в технічні деталі."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You two probably don't want to stick around for that.",
        "transl": "Думаю, вам двом це не буде цікавим."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Maybe spend some time together as well? Talk it out?",
        "transl": "Як щодо того, щоб провести трохи часу разом? Обговорити все?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "AWAY"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SARCASTIC"
+      }
+     },
      {
       "message": {
        "orig": "She can't talk.",
        "transl": "Вона не може говорити."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SARCASTIC"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Come on, you know what I mean.",
        "transl": "Та годі, ти ж розумієш, про що я."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Do I really have to?",
        "transl": "Я справді мушу це робити?"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DENYING"
       }
      },
      {
       "message": {
        "orig": "Please, dear sister.",
        "transl": "Будь ласка, сестричко."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Fine.",
        "transl": "Добре."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONFLICTED"
       }
      },
      null,
@@ -235,42 +362,76 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Alright...",
        "transl": "Що ж..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DENYING"
       }
      },
      {
       "message": {
        "orig": "What should we do?",
        "transl": "Що будемо робити?"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONFLICTED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Honestly, there is nothing interesting to see in this building and anyway... I hate it in here.",
        "transl": "Чесно кажучи, у цій будівлі немає нічого цікавого, та й взагалі... я ненавиджу це місце."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DENYING"
       }
      },
      {
       "message": {
        "orig": "Let's just head outside.",
        "transl": "Давай просто вийдемо."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[киває]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]

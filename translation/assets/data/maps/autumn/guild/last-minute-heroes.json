@@ -284,24 +284,46 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello Seeker. I'm terribly sorry, but this guild is currently upgrading their headquarters.",
          "transl": "Hallo, Seeker! Es tut mir wahnsinnig leid, aber diese Gilde unterzieht ihr Hauptquartier gerade einem Upgrade."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Because of this, entry to it is currently not possible.",
          "transl": "Deswegen ist der Durchgang im Moment nicht möglich."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        }
       ]
@@ -445,48 +467,86 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hello there!",
          "transl": "Hallöchen!"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Welcome to the headquarters of the \\c[3]Last Minute Heroes\\c[0].",
          "transl": "Willkommen im Hauptquartier der \\c[3]Last-Minute-Helden\\c[0]."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "You may have heard of us, always there to save the day. In the very last minute.",
          "transl": "Du hast vielleicht schon von uns gehört - wir springen immer dann in die Bresche, wenn's kurz vor knapp ist."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Our headquarters are free to enter for the public, just don't cause any havoc.",
          "transl": "Unser Hauptquartier ist offen für jedermann, solange hier niemand rumwütet."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-male-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -499,30 +559,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good day. Our headquarters are open to the public.",
          "transl": "Guten Tag. Unser Hauptquartier ist offen für jedermann."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "Just make sure you don't make any trouble. We had to ban certain individuals before.",
          "transl": "Stell nur keinen Blödsinn an. Wir mussten schon einige Leute bannen."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -530,18 +616,36 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.hexacast-male-black",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Ah, you must be that Spheromancer.",
           "transl": "Ah, du musst dieser Spheromancer sein."
+         },
+         "person": {
+          "person": "cross-worlds.hexacast-male-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Puella is waiting with our Leader in the \\c[3]upper floor\\c[0]!",
           "transl": "Puella erwartet dich mit unserem Anführer im \\c[3]Obergeschoss\\c[0]."
+         },
+         "person": {
+          "person": "cross-worlds.hexacast-male-black",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -550,6 +654,10 @@
            "message": {
             "orig": "Thanks!",
             "transl": "Дякую!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ],
@@ -558,6 +666,10 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           }
          ]
@@ -673,91 +785,156 @@
         "name": {
          "orig": "Niki",
          "transl": "Niki"
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Oh, hello! Another player walking atop these walls for once!",
          "transl": "Oh, hallo! Endlich mal jemand, der auch auf diesen Mauern herumläuft!"
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Enjoying CrossWorlds?",
          "transl": "Genießt du CrossWorlds?"
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "My favorite part is the combat!",
          "transl": "Am liebsten mag ich die Kämpfe!"
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It's always so exciting to figure out the weakness of new enemy types.",
          "transl": "Ich finde das immer spannend, die Schwäche neuer Gegnertypen herauszufinden."
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "The puzzles on the other hand...",
          "transl": "Die Rätsel dagegen..."
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Sometimes they're just a thorn in the side, don't you think? ",
          "transl": "Manchmal sind die einfach nur lästig, geht dir das nicht auch so?"
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Especially in those dungeons.",
          "transl": "Besonders in den Dungeons."
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "Oh!\\. I gotta go.",
          "transl": "Oh!\\. Ich muss gehen."
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "There is another parkour I wanted to complete with a few friends.",
          "transl": "Ich wollte noch einen anderen Parcours mit ein paar Freunden machen."
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Time to show up at the last minute!",
          "transl": "Höchste Zeit, genau im richtigen Moment aufzutauchen!"
+        },
+        "person": {
+         "person": "guests.phatom65",
+         "expression": "DEFAULT"
         }
        }
       ]

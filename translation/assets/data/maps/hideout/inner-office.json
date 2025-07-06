@@ -11,16 +11,30 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_DEFAULT"
+      }
+     },
      null,
      null,
      null,
      null,
      {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "STRICT"
+      }
+     },
+     {
       "message": {
        "orig": "Satoshi!",
        "transl": "Сатоші!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "STRICT"
       }
      },
      null,
@@ -30,30 +44,50 @@
       "message": {
        "orig": "... Sister...",
        "transl": "... Сестро..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_SIDE"
       }
      },
      {
       "message": {
        "orig": "What do you think you're doing?!",
        "transl": "Що це ти робиш?!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "You are in no condition to do this kind of work now!",
        "transl": "Ти не можеш працювати в такому стані!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "STRICT"
       }
      },
      {
       "message": {
        "orig": "All you should do is rest...",
        "transl": "Тобі варто просто відпочити..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
       }
      },
      {
       "message": {
        "orig": "... Why should I rest when I'm way beyond recovery?",
        "transl": "... Навіщо мені відпочивати, якщо мені вже нічого не допоможе?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_DOWN"
       }
      },
      null,
@@ -63,42 +97,70 @@
       "message": {
        "orig": "I need to finish this work. It's my final task.",
        "transl": "Я мушу завершити цю роботу. Це моє останнє завдання."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_DEFAULT"
       }
      },
      {
       "message": {
        "orig": "... I told you about the agreement.",
        "transl": "... Я ж тобі розповідав про угоду."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
       }
      },
      {
       "message": {
        "orig": "I finish this and they will let you go...",
        "transl": "Я закінчу це, і тоді вони тебе відпустять..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_SIDE"
       }
      },
      {
       "message": {
        "orig": "... No, I don't want this!",
        "transl": "... Ні! Я цього не хочу!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONFLICTED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_DOWN"
       }
      },
      {
       "message": {
        "orig": "Satoshi... Stop it...",
        "transl": "Сатоші... Зупинися..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONFLICTED"
       }
      },
      null,
@@ -109,12 +171,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_BACK"
+      }
+     },
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
+      }
+     },
      {
       "message": {
        "orig": "... It is done.",
        "transl": "... Це зроблено."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_BACK"
       }
      },
      null,
@@ -126,42 +202,76 @@
       "message": {
        "orig": "No!!",
        "transl": "Ні!!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SHOCK"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "HOLD"
+      }
+     },
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "HOLD"
+      }
+     },
      {
       "message": {
        "orig": "Shizuka... I'm sorry...",
        "transl": "Шізуко... Вибач..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "HOLD"
       }
      },
      {
       "message": {
        "orig": "I'm so sorry I got you involved in this.",
        "transl": "Мені дуже шкода, що я тебе в це вплутав."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "HOLD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "HOLD"
       }
      },
      {
       "message": {
        "orig": "Just promise me...\\. that you will...\\. get away...",
        "transl": "Просто пообіцяй мені...\\. що ти...\\. звідси підеш..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "HOLD"
       }
      },
      {
       "message": {
        "orig": "Please...",
        "transl": "Будь ласка..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "HOLD"
       }
      }
     ]
@@ -191,30 +301,56 @@
      {
       "event": [
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.genius",
+         "expression": "CHAIR_SIDE"
+        }
+       },
        {
         "message": {
          "orig": "Hello again, Lea.",
          "transl": "Привіт, Ліє."
+        },
+        "person": {
+         "person": "main.genius",
+         "expression": "CHAIR_SIDE"
         }
        },
        {
         "message": {
          "orig": "Do you think you are prepared to execute the plan? ",
          "transl": "Думаєш ти достатньо підготувалася?"
+        },
+        "person": {
+         "person": "main.genius",
+         "expression": "CHAIR_DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Mind that once we start, things will have to move quickly.",
          "transl": "Пам'ятай, що після початку виконання плану його потрібно буде виконати швидко."
+        },
+        "person": {
+         "person": "main.genius",
+         "expression": "CHAIR_DOWN"
         }
        },
        {
         "message": {
          "orig": "So, are you ready?",
          "transl": "Тож, ти готова?"
+        },
+        "person": {
+         "person": "main.genius",
+         "expression": "CHAIR_SIDE"
         }
        },
        {
@@ -223,6 +359,10 @@
           "message": {
            "orig": "[nods]",
            "transl": "[киває]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          null,
@@ -233,11 +373,20 @@
          null,
          null,
          null,
-         null,
+         {
+          "person": {
+           "person": "main.genius",
+           "expression": "CHAIR_BACK"
+          }
+         },
          {
           "message": {
            "orig": "Alright then, let's get everyone together.",
            "transl": "Гаразд, тоді зберімо всі разом."
+          },
+          "person": {
+           "person": "main.genius",
+           "expression": "CHAIR_BACK"
           }
          }
         ],
@@ -246,15 +395,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[хитає головою]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Alright. Talk to me when the time has come.",
            "transl": "Я розумію. Дай мені знати, коли будеш готова."
+          },
+          "person": {
+           "person": "main.genius",
+           "expression": "CHAIR_DEFAULT"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -274,24 +435,46 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.genius",
+         "expression": "CHAIR_SIDE"
+        }
+       },
        {
         "message": {
          "orig": "Hello again, Lea.",
          "transl": "Привіт, Ліє."
+        },
+        "person": {
+         "person": "main.genius",
+         "expression": "CHAIR_SIDE"
         }
        },
        {
         "message": {
          "orig": "You should know what to do. Let's hurry and proceed with the plan.",
          "transl": "Ти повинна знати, що робити. Тож поспішімо та зосередимося на плані."
+        },
+        "person": {
+         "person": "main.genius",
+         "expression": "CHAIR_DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[киває]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -351,18 +534,36 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "...Hi?",
        "transl": "... Привіт?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Is...\\. is that?",
        "transl": "Це...\\. Це...?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -374,11 +575,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_BACK"
+      }
+     },
      {
       "message": {
        "orig": "It...\\. it really happened.",
        "transl": "Це...\\. Це справді сталося."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_BACK"
       }
      },
      null,
@@ -387,47 +597,86 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "TOUCHED"
+      }
+     },
      {
       "message": {
        "orig": "Satoshi...\\. finally...\\. we found you!",
        "transl": "Сатоші...\\. Нарешті...\\. ми знайшли тебе!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "TOUCHED"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Lea...\\. you are here...",
        "transl": "Лія...\\. Ти тут..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Does that mean...\\. is he with you as well?",
        "transl": "Це означає... що він з тобою?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "ASKING"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[киває]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Alright. This way, please.",
        "transl": "Добре. Сюди, будь ласка."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      null,
@@ -435,12 +684,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Make sure he can read the number of this device.",
        "transl": "Будь ласка, переконайся щоб він міг прочитати номер на цьому пристрої."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DOWN"
       }
      },
      null,
@@ -448,19 +711,36 @@
       "message": {
        "orig": "It's possible to connect to it using an IDN-Client.",
        "transl": "До нього можна під'єднатися за допомогою IDN-клієнта."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "Oh? Just make sure to look closely at the number, Lea!",
        "transl": "О? Просто уважно подивися на номер, Ліє!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      null,
@@ -468,11 +748,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "Alright...\\. one moment please.",
        "transl": "Добре...\\. Зачекай хвилинку, будь ласка."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      null,
@@ -483,12 +772,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Satoshi...\\. I am so glad to see you again.",
        "transl": "Сатоші...\\. Я такий радий знову тебе бачити."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      null,
@@ -496,25 +799,47 @@
       "message": {
        "orig": "Same for me.\\. It has been too long...",
        "transl": "Навзаєм.\\. Ми давно не бачилися..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "S-Sergey?\\. Is that you?",
        "transl": "С-Сергію?\\. Це ти?"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SURPRISED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "I'm sure you have a lot of questions, but before we continue, let me start a little program.",
        "transl": "У вас, мабуть, багато запитань. Але спершу дозвольте мені запустити невелику програму."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -534,142 +859,250 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
+      }
+     },
      {
       "message": {
        "orig": "Alright, let's stay close and talk quietly.",
        "transl": "Добре, тримайтеся поруч і говоріть тихо."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "This room is being monitored.",
        "transl": "За цією кімнатою стежать."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "Having this noise around us should sufficiently mess with the protocol.",
        "transl": "Увесь цей гамір навколо повинен достатньо перевантажити протокол."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "At least for some time.",
        "transl": "Принаймні на деякий час."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "I see...",
        "transl": "Он як..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Well then... allow me to get straight to the point.",
        "transl": "Що ж... я хотів би одразу перейти до суті."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Sergey, you should already know about Evotars.",
        "transl": "Сергію, ти вже мав би знати про Евотари."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "ASKING"
       }
      },
      {
       "message": {
        "orig": "Is Lea...\\. aware about herself as well?",
        "transl": "Чи Лії... відомо про себе?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Yes...\\. she is.",
        "transl": "Так...\\. вона знає."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[киває]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD_NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Good...\\. this will make things much easier.",
        "transl": "Добре...\\. Це нам значно полегшить життя."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Lea, let me start by saying that you are, in fact, the \\c[3]very first functional Evotar\\c[0].\n",
        "transl": "Ліє, дозволь мені почати з того, що ти, фактично, є\\c[3]першим функціонуючим Евотаром\\c[0]."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Minus a few remaining technical issues... like your \\c[3]malfunctioning speech module\\c[0].",
        "transl": "За винятком кількох технічних проблем... як-от твій \\c[3]зламаний модуль мовлення\\c[0]."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "Why?",
        "transl": "Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Wait...\\. so I didn't imagine it? You can talk?",
        "transl": "Зачекай...\\. Тож мені це не здавалося? Ти вмієш говорити?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "ASKING"
       }
      },
      {
       "message": {
        "orig": "Partially... I hard-coded a few words into her module.",
        "transl": "Частково... Я захардкодив кілька слів у її модуль."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "I wasn't even aware that was an option...",
        "transl": "Я навіть не знав, що таке можливо..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "You always manage to surprise me, Sergey.",
        "transl": "Тобі завжди вдається мене здивувати, Сергію."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
       }
      },
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.shizuka",
+         "expression": "SARCASTIC"
+        }
+       },
        {
         "message": {
          "orig": "Are you also responsible for the \\c[1]insane amount of damage\\c[0] she's dealing?",
          "transl": "Тоді \\c[1]абсурдно висока шкода\\c[0], яку вона завдає, це теж твоїх рук справа?"
+        },
+        "person": {
+         "person": "main.shizuka",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "Ah...\\. yes.",
          "transl": "А...\\. так."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "ROLL_EYES"
         }
        },
        {
         "message": {
          "orig": "Though it wasn't intended... and unfortunately I couldn't remove it once I got her into the game.",
          "transl": "Правду кажучи, це було ненавмисно... і я, на жаль, не зміг цього змінити, після того, як ввів її в гру."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "\\c[1]Great work\\c[0].\\. That duel sure was a lot of fun.",
          "transl": "\\c[1]Хороша робота!\\c[0]\\. Та дуель справді була захопливою."
+        },
+        "person": {
+         "person": "main.shizuka",
+         "expression": "SARCASTIC"
         }
        },
        null,
@@ -677,6 +1110,10 @@
         "message": {
          "orig": "Anyway.",
          "transl": "Що ж."
+        },
+        "person": {
+         "person": "main.genius",
+         "expression": "SERIOUS"
         }
        }
       ],
@@ -685,12 +1122,20 @@
         "message": {
          "orig": "It is nothing, please go on.",
          "transl": "Не варто про це, будь ласка, продовжуйте."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "EYES_CLOSED"
         }
        },
        {
         "message": {
          "orig": "Right.",
          "transl": "Звісно."
+        },
+        "person": {
+         "person": "main.genius",
+         "expression": "SERIOUS"
         }
        }
       ]
@@ -699,6 +1144,10 @@
       "message": {
        "orig": "Let me tell you what happened after Gautham, Shizuka, and I left Instatainment.",
        "transl": "Дозвольте розповісти вам, що сталося після того, як ми з Ґаутамом та Шідзукою покинули Інстатейнмент."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -1116,86 +1565,158 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "SAD"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Well...\\. Not that it mattered to me.",
        "transl": "Ну... для мене це б нічого не змінило."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "Do you mean...\\. your heart disease?\\. Please do not tell me...",
        "transl": "Маєш на увазі... твої проблеми з серцем? Будь ласка, не кажи мені, що..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "I'm sorry...\\. The Satoshi you knew died two years ago.",
        "transl": "Мені шкода...\\. Сатоші, якого ти знав, помер два роки тому."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "Standing in front of you...\\. is the \\c[3]Evotar of Satoshi\\c[0].",
        "transl": "Те, що зараз стоїть перед вами...\\. це \\c[3]Евотар Сатоші\\c[0]."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "No...",
        "transl": "Ні..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "COMPLEX"
       }
      },
      {
       "message": {
        "orig": "I myself created this copy as an offer to Mr. Sidwell, so I could continue to serve him.",
        "transl": "Я створив цю копію сам. Це була пропозиція містеру Сідвеллу, щоб я міг продовжувати йому служити."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "In return, I wanted him to let Shizuka go. ",
        "transl": "Натомість я хотів, щоб він відпустив Шізуку."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "I was naive to ever think he'd fulfill his end of the agreement.",
        "transl": "Я був достатньо наївним, щоб вірити, що він дотримається своєї частини угоди."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SAD"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
       }
      },
      {
       "message": {
        "orig": "I...\\. I cannot believe this...",
        "transl": "Я...\\. Не можу в це повірити..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "COMPLEX"
       }
      },
      {
       "message": {
        "orig": "Don't feel sorry, Sergey.",
        "transl": "Не засмучуйся, Сергію."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Nothing could have been done about my disease anyway.",
        "transl": "Все одно мені б вже нічого не допомогло."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Becoming an Evotar was the only option for me to stay in this world.",
        "transl": "Стати Евотаром було для мене єдиним способом вижити."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "ASKING"
       }
      },
      null,
@@ -1210,17 +1731,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "We need to switch rooms now.\\. Otherwise the masking will lose its effect.",
        "transl": "Тепер нам потрібно змінити кімнати.\\. Інакше маскування втратить свій ефект."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Follow me.",
        "transl": "Йдіть за мною."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1238,6 +1772,10 @@
       "message": {
        "orig": "Satoshi...",
        "transl": "Сатоші..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "COMPLEX"
       }
      }
     ]
@@ -1264,61 +1802,112 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You two are still at it?",
        "transl": "Ви обоє досі зайняті?"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I think we're done for the most part.",
        "transl": "Я думаю, що ми майже закінчили."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Though there is one more thing.",
        "transl": "Хоча, мені спадає на думку ще одна річ."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "Shizuka, how is \\c[3]Gautham\\c[0] doing these days?",
        "transl": "Шізуко, як справи в \\c[3]Ґаутама\\c[0]?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Well...\\. I didn't speak much with him recently.",
        "transl": "Ну...\\. Я не розмовляла з ним багато останнім часом."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "He's busy designing his levels and flying around in his fancy avatar.",
        "transl": "Він зайнятий дизайном рівнів та літає навколо своїм крутим аватаром."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DENYING"
       }
      },
      {
       "message": {
        "orig": "He seems content enough.",
        "transl": "Здається, він цим задоволений."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
       }
      },
      {
       "message": {
        "orig": "Gautham... it might be especially difficult to get him out of this.",
        "transl": "Ґаутам... Забрати його звідси може бути надзвичайно важко."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "EXHAUSTED"
       }
      },
      null,
@@ -1329,206 +1918,369 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "We did in fact meet him while we were in Evotarground.",
        "transl": "Взагалі-то, ми зустріли його, коли були у Евотаграді."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "From what we saw... it looked like he is physically located in the Playground. Could that be the case?",
        "transl": "З того що ми бачили... виглядало так, ніби він фізично знаходиться в Ігровому Майданчику. Невже таке можливо?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Yes.\\. Somehow, Sidwell convinced him to do that.",
        "transl": "Так.\\. Сідвеллу якось вдалося вмовити його до цього."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "It is easier to keep him under control that way.",
        "transl": "Так легше тримати його під контролем."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "And well...\\. Gautham was always excited about creating his own worlds.",
        "transl": "Крім того...\\. Ґаутам завжди захоплювався створенням власних світів."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "The prospect of experiencing it in person was quite appealing to him.",
        "transl": "Можливість відчути все це зблизька була для нього особливо привабливою."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
+      }
+     },
      {
       "message": {
        "orig": "Really...\\. I think he's a lost cause.",
        "transl": "Він...\\. справді безнадійний випадок."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
       }
      },
      {
       "message": {
        "orig": "He's stuck in his fantasy world, playing his little god figure...",
        "transl": "Він застряг у своєму маленькому світі фантазій і може грати там Бога..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SARCASTIC"
       }
      },
      {
       "message": {
        "orig": "That blue avatar with orange clothing?",
        "transl": "Той синій аватар у помаранчевому одязі?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Yes, that's him.",
        "transl": "Так, це він."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That is... unexpected. He acts like such a different character.",
        "transl": "Це... неочікувано. Він поводиться як зовсім інша людина."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "That's the whole point.",
        "transl": "Ось у цьому вся суть."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONFLICTED"
       }
      },
      {
       "message": {
        "orig": "In any case, we should try to figure out if he's on our side with this or not.",
        "transl": "У будь-якому разі, нам слід з'ясувати, чи він на нашому боці, чи ні."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Shizuka, can you try talking to him about this?",
        "transl": "Шізуко, можеш спробувати поговорити з ним про це?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "Just hinting at what is happening?",
        "transl": "Просто натякни на те, що тут відбувається?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "I can try...",
        "transl": "Я можу спробувати..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Well then... I think I have a good grasp of the situation now.",
        "transl": "Ну... гадаю, я тепер досить добре розумію ситуацію."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "We will need time for preparations though.",
        "transl": "Однак нам знадобиться час, щоб підготувати наш план."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Certainly. If you have any more questions, you know how to reach me.",
        "transl": "Звісно. Якщо у вас виникнуть якісь запитання, ви знаєте як зі мною зв'язатися."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes...\\. I am glad I was able to meet both of you again.",
        "transl": "Так...\\. Я радий що знову зміг побачити вас обох."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "Same for me.",
        "transl": "Я теж."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "One last thing, though.",
        "transl": "І ще одне."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Yes?",
        "transl": "Так?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Looking at what Sidwell accomplished so far, I'm certain he has specific ways to track your actions.",
        "transl": "З огляду на те, чого Сідвелл зміг досягнути, я впевнений, він знайшов спосіб тебе вистежити."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Because of that, please be extra careful if you plan to involve any other player.",
        "transl": "Тому будьте особливо обережні, якщо плануєте залучати інших гравців."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "I will... and I already have my suspects.",
        "transl": "Обов'язково... і я вже підозрюю декого."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Well then...\\. goodbye and see you soon.",
        "transl": "Ну тоді...\\. Бережіть себе і до скорої зустрічі."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Goodbye.",
        "transl": "До зустрічі."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
+      }
+     },
      {
       "message": {
        "orig": "Take care.",
        "transl": "Бережіть себе."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You too, Lea.",
        "transl": "Ти теж, Лія."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "TOWARD"
       }
      }
     ]
@@ -1563,12 +2315,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "SAD"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
+      }
+     },
      {
       "message": {
        "orig": "Okay, where to start...?",
        "transl": "Отже, з чого почнемо...?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      null,
@@ -1576,44 +2342,82 @@
       "message": {
        "orig": "I looked a bit more into the technical side of things.",
        "transl": "Я подивився глибше з технічної сторони."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "The Evotar Server is most likely derived from an old version of the official game servers.",
        "transl": "Сервер Евотарів, найімовірніше, базується на старій версії офіційних ігрових серверів."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "That means it should be vulnerable to a certain DDoS attack we experienced in the past.",
        "transl": "Це означає, що він все ще має бути вразливим до певної DoS-атаки, яка турбувала нас в минулому."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Oh... using the hit-stun-overflow issue?",
        "transl": "А... ти думаєш про переповнення оглушення від удару?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Correct!",
        "transl": "Саме так!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
+      }
+     },
      {
       "message": {
        "orig": "...??",
        "transl": "...??"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SARCASTIC"
+      }
+     },
      {
       "message": {
        "orig": "Now please for us common folks, too.",
        "transl": "А тепер поясніть і для простих смертних теж."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SARCASTIC"
       }
      },
      null,
@@ -1621,178 +2425,315 @@
       "message": {
        "orig": "Well, in other words...\\. there is a way to make the Evotar Server \\c[3]crash\\c[0].",
        "transl": "Ну, іншими словами...\\. існує спосіб \\c[3]зламати\\c[0] сервер Евотарів."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Crash very, very badly.",
        "transl": "Зламати дуже, дуже сильно."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "Once it happens, Sidwell will have a hard time restarting it.",
        "transl": "Коли це станеться, Сідвеллу буде непросто перезапустити його."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Thus, the server will not respond to anything, including queries to wipe the data.",
        "transl": "Таким чином, сервер перестане реагувати на будь-які запити, в тому числі на команди для видалення даних."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "That will give us enough time for Lea to reach it physically.",
        "transl": "Це має дати нам достатньо часу, щоб Лія змогла фізично до нього дістатися."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "That sounds very promising!",
        "transl": "Звучить дуже обнадійливо!"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "So, how exactly will it work?\\. How do we make it crash?",
        "transl": "То, як саме це працюватиме?\\. Як нам зробити так, щоб він зламався?"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "The keys are the \\c[3]Evotars\\c[0] running around Vermillion Wasteland.",
        "transl": "Ключем до цього є \\c[3]Евотари\\c[0], що блукають Вермілліонськими Пустками."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "We need to subject them to a certain type of field effect, as many and as quickly as possible.",
        "transl": "Нам потрібно піддати їх певному польовому ефекту, якомога більше і якомога швидше."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "If we succeed, things should overflow on the Server, making it crash.",
        "transl": "Якщо це спрацює, сервер буде перевантажений і вийде з ладу."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "However, for this to work...\\. we will need a lot more players to participate.",
        "transl": "Однак, щоб це спрацювало...\\. нам потрібно значно більше гравців."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "That's why I plan to involve a few other players, specifically those Lea has met before.",
        "transl": "Ось чому я хочу залучити ще кількох гравців, а саме тих кого Лія вже знає."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Involving other players... ",
        "transl": "Залучити інших гравців..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "I suppose it's a risk we have to take.",
        "transl": "Схоже, нам доведеться ризикнути."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "I currently see no other options, unfortunately.",
        "transl": "На жаль, я не бачу жодної альтернативи."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "So...\\. what about me?",
        "transl": "А... як же я?"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I can't enter the official Playground, but I can move around Vermillion Wasteland.",
        "transl": "Хоча я не можу зайти на Ігровий Майданчик, та я можу вільно пересуватися по Вермілліонській Пустці."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONFLICTED"
       }
      },
      {
       "message": {
        "orig": "Should I help?",
        "transl": "Чи варто мені допомагати?"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DOWN"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hm...\\. I think it would be better if you avoid logging into the game while we storm the Evotarground.",
        "transl": "Хм...\\. Гадаю, краще щоб ти не заходила у гру, поки ми штурмуватимемо Евотарград."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Since Sidwell is aware of your current location outside the game, you need to be quickly relocated.",
        "transl": "Оскільки Сідвелл знає твоє місцеперебування поза грою, тобі слід вибратися звідти якомога швидше."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Otherwise, things will end with him taking you hostage.",
        "transl": "Інакше, він може взяти тебе в заручники."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "Right...\\. there is the real life side of things as well.",
        "transl": "Дійсно...\\. є ж ще й реальне життя."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "One last thing, did you manage to talk with Gautham?",
        "transl": "І ще одне... Тобі вдалося поговорити з Ґаутамом?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I tried.\n",
        "transl": "Я намагалася."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He has been acting...\\. very strange.\\. Even more strangely than usual.\\. And that's saying a lot.",
        "transl": "Він поводився...\\. дуже дивно.\\. Ще дивніше, ніж зазвичай.\\. І це багато про що говорить."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
       }
      },
      {
       "message": {
        "orig": "Once I mentioned Lea, he started raving about how she managed to escape his dungeon tower.",
        "transl": "Коли я згадала про Лію, він почав лютувати про те як їй вдалося втекти з його вежі."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DENYING"
       }
      },
      {
       "message": {
        "orig": "I guess you really left an impact.",
        "transl": "Схоже, ти справила сильне враження."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SARCASTIC"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      null,
@@ -1800,86 +2741,163 @@
       "message": {
        "orig": "Anyway...\\. I decided I'd better not tell him too much.",
        "transl": "У будь-якому разі...\\. Я подумала, що краще не розповідатиму йому зайвого."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONCERNED"
       }
      },
      {
       "message": {
        "orig": "Really...\\. he's pretty much turned into a nutcase by now.",
        "transl": "Серйозно...\\. Він справді втратив кілька клепок."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "CONFLICTED"
       }
      },
      {
       "message": {
        "orig": "... That is worrisome.",
        "transl": "... Це викликає занепокоєння."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "EXHAUSTED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
+      }
+     },
      {
       "message": {
        "orig": "We will see if we can drag him out somehow.",
        "transl": "Можливо, нам якось вдасться його звідти витягнути."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "I know a few people from the maintenance crew that might be able to help us with this.",
        "transl": "Я знаю кількох людей з команди технічного обслуговування, які могли б нам із цим допомогти."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Good...\\. then how do we proceed?",
        "transl": "Добре...\\. Отже, як нам діяти далі?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "For now, we should call it a day.",
        "transl": "На сьогодні нам краще закінчити."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "As soon as I have everything prepared, Lea and I will try to gather the other players.",
        "transl": "Як тільки я все підготую, ми з Лією спробуємо зібрати інших гравців."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "And once we have the help we need, we start with the plan as soon as possible.",
        "transl": "І щойно ми матимемо необхідну допомогу, ми почнемо реалізацію плану."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Alright, let's give it our best shot.",
        "transl": "Гаразд, нумо викладемось на повну."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "That we will.\\. See you soon!",
        "transl": "Так і зробимо.\\. До скорої зустрічі!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Goodnight.",
        "transl": "На добраніч."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
+      }
+     },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      }
     ]
@@ -1901,11 +2919,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_BACK"
+      }
+     },
      {
       "message": {
        "orig": "Sergey...\\. you did it.",
        "transl": "Сергію...\\. Ти це зробив."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "CHAIR_BACK"
       }
      },
      null,

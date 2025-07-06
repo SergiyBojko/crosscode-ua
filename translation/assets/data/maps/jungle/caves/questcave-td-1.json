@@ -59,18 +59,30 @@
       "message": {
        "orig": "Alright, the \\c[3]first wave\\c[0] should be incoming.",
        "transl": "Okay, die \\c[3]erste Welle\\c[0] sollte nun kommen."
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The critters got \\c[3]a shield\\c[0] that will \\c[3]reflect damage\\c[0], so hold your fire at first.",
        "transl": "Die Kriechviecher haben \\c[3]einen Schild\\c[0], der \\c[3]Schaden reflektiert\\c[0], also nicht gleich drauflosfeuern!"
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Wait for the turrets to \\c[3]neutralize the shields\\c[0] before attacking!",
        "transl": "Warte darauf, dass die Geschütze die \\c[3]Schilde neutralisieren\\c[0], bevor du angreifst!"
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -217,18 +229,30 @@
       "message": {
        "orig": "Alright, first one down.\\. The blobs dislike the cold so I will \\c[3]unlock Cold Turrets\\c[0] now.",
        "transl": "Gut, erste Welle erledigt.\\. Die Blobs können Kälte nicht leiden, deswegen schalte ich jetzt die \\c[3]Kältegeschütze frei\\c[0]."
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Activate them by using a \\c[3]Cold-elemental charged shot\\c[0].",
        "transl": "Du aktivierst sie, indem du \\c[3]geladene Kälteprojektile\\c[0] feuerst."
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Though, while elemental turrets are \\c[3]stronger\\c[0] they also \\c[3]don't disrupt shields\\c[0], so you'll need to \\c[3]mix them up with neutrals\\c[0]!",
        "transl": "Obwohl Elementargeschütze \\c[3]stärker\\c[0] sind, \\c[3]zerstören sie keine Schilde\\c[0], also wirst du \\c[3]zwischen neutralen und elementaren wechseln müssen\\c[0]!"
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -263,18 +287,30 @@
       "message": {
        "orig": "Seems like those Plants dislike fire.\\. Unlocking \\c[3]Heat-turrets\\c[0].",
        "transl": "Diese Pflanzen vertragen scheinbar keine Hitze.\\. Ich schalte die \\c[3]Hitzegeschütze\\c[0] frei!"
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Obviously, you can activate them with \\c[3]charged Heat-elemental shots\\c[0].",
        "transl": "Du aktivierst sie natürlich entsprechend mit \\c[3]geladenen Hitzeprojektilen\\c[0]."
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "They also \\c[3]don't disrupt shields\\c[0], though, so remember to activate some more \\c[3]neutral turrets\\c[0] as well.",
        "transl": "Aber auch sie \\c[3]zerstören keine Schilde\\c[0]! Vergiss nicht, weitere \\c[3]Neutralgeschütze\\c[0] zu aktivieren."
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -323,12 +359,20 @@
       "message": {
        "orig": "A lot of critters incoming!\\. This should be their \\c[3]last assault\\c[0].",
        "transl": "Kriechtier-Invasion!\\. Das sollte ihr \\c[3]letzter Sturmangriff\\c[0] sein!"
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'm gonna put up everything we've got.\\. Put it to good use!",
        "transl": "Ich stelle alles auf, was wir haben.\\. Gib dein Bestes!"
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -387,6 +431,10 @@
       "message": {
        "orig": "Good job, \\v[lore.title.seeker].\\. \\c[3]Come back here\\c[0], so we can review the results!",
        "transl": "Gute Arbeit, Seeker.\\. \\c[3]Komm hierher\\c[0] und wir besprechen die Ergebnisse!"
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -483,7 +531,12 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "[ Greetings customer of our TURRET Inc. defensive product line. ]",
@@ -494,6 +547,10 @@
          "message": {
           "orig": "... h-hi?",
           "transl": "... Привіт."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
@@ -510,6 +567,10 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
@@ -534,6 +595,10 @@
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ASTONISHED"
            }
           },
           {
@@ -546,6 +611,10 @@
            "message": {
             "orig": "... bye.",
             "transl": "... Бувай."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SMILE"
            }
           }
          ],
@@ -554,6 +623,10 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
@@ -566,6 +639,10 @@
            "message": {
             "orig": ".\\..\\..",
             "transl": ".\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "THINKING"
            }
           }
          ]
@@ -577,7 +654,12 @@
       "event": {
        "trade": {
         "event": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          null,
          {
           "text": {
@@ -595,6 +677,10 @@
             "message": {
              "orig": "[nods normally]",
              "transl": "[nickt normal]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            null,
@@ -606,7 +692,12 @@
            null,
            null,
            null,
-           null,
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
+            }
+           },
            null,
            null,
            null,
@@ -684,6 +775,10 @@
             "message": {
              "orig": "[nods challengingly]",
              "transl": "[nickt herausfordernd]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            }
           ],
@@ -693,6 +788,10 @@
             "message": {
              "orig": "How?",
              "transl": "Як?"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
             }
            },
            {
@@ -705,66 +804,117 @@
             "name": {
              "orig": "Mika",
              "transl": "Mika"
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Alright, I will give you a short briefing as to how this will work out.",
              "transl": "Ich gebe dir eine kleine Einführung, wie das Ganze funktioniert."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "After I properly activate our Pathhacker here, enemies will \\c[3]attack in waves\\c[0].",
              "transl": "Sobald ich unseren Pfadhacker hier aktiviere, werden uns die Gegner \\c[3]in Wellen angreifen\\c[0]."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "You gotta defeat them, \\c[3]before they reach this point\\c[0] and damage our precious machine here.",
              "transl": "Du musst sie plattmachen, \\c[3]bevor sie diesen Punkt hier erreichen\\c[0] und unser Schätzchen hier demolieren können."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Careful though, because they'll all have \\c[3]shields that reflect damage\\c[0].\\. So just attacking blindly won't be an option.",
              "transl": "Aber Vorsicht, sie haben alle \\c[3]einen Schild, der Schaden reflektiert\\c[0].\\. Einfach drauflosballern ist also nicht die cleverste Option."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SURPRISED"
             }
            },
            {
             "message": {
              "orig": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
              "transl": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgeschütze\\c[0] vorbereitet."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
              "transl": "Um ein Geschütz zu aktivieren, \\c[3]schieß ein paarmal darauf\\c[0] und feuere dann einen \\c[3]geladenen Schuss\\c[0]!"
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "When activated with the \\c[3]neutral element\\c[0] they will \\c[3]disrupt the shields\\c[0] with each hit.",
              "transl": "Wenn sie mit dem \\c[3]Neutral-Element\\c[0] geladen sind, werden sie \\c[3]die Schilde mit jedem Treffer neutralisieren\\c[0]."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Later I'll also unlock \\c[3]elemental modes\\c[0] that will \\c[3]cause more damage instead of disrupting the shields\\c[0].",
              "transl": "Später werde ich auch \\c[3]Elementar-Modi\\c[0] freischalten, die \\c[3]mehr Schaden verursachen, aber keine Schilde auflösen\\c[0]."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
              "transl": "Jedes Geschütz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier tötest, und nach jeder Gegnerwelle\\c[0]."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
+            }
+           },
+           null,
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -793,8 +943,18 @@
              "orig": "All turrets cost \\c[3]\\v[tmp.tdCostTurret1] Energy\\c[0] to activate, regardless of element.\n\nFor \\c[3]\\v[tmp.tdUpgradeCost] Energy\\c[0] all turrets will upgrade their attack power. This will happen automatically upon reaching that amount.",
              "transl": "Alle Geschütze brauchen zur Aktivierung \\c[3]\\v[tmp.tdCostTurret1] Energie\\c[0], unabhängig vom Element.\n\nWenn du \\c[3]\\v[tmp.tdUpgradeCost] Energie\\c[0] erreichst, verbessert sich automatisch die Angriffskraft aller Geschütze."
             }
+           },
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
+            }
            }
           ],
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          },
           "options": [
            {
             "label": {
@@ -842,7 +1002,12 @@
       "event": {
        "trade": {
         "event": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          null,
          {
           "text": {
@@ -860,6 +1025,10 @@
             "message": {
              "orig": "[nods normally]",
              "transl": "[nickt normal]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            null,
@@ -871,7 +1040,12 @@
            null,
            null,
            null,
-           null,
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
+            }
+           },
            null,
            null,
            null,
@@ -949,6 +1123,10 @@
             "message": {
              "orig": "[nods challengingly]",
              "transl": "[nickt herausfordernd]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            }
           ],
@@ -958,6 +1136,10 @@
             "message": {
              "orig": "How?",
              "transl": "Як?"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
             }
            },
            {
@@ -970,66 +1152,117 @@
             "name": {
              "orig": "Mika",
              "transl": "Mika"
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Alright, I will give you a short briefing as to how this will work out.",
              "transl": "Ich gebe dir eine kleine Einführung, wie das Ganze funktioniert."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "After I properly activate our Pathhacker here, enemies will \\c[3]attack in waves\\c[0].",
              "transl": "Sobald ich unseren Pfadhacker hier aktiviere, werden uns die Gegner \\c[3]in Wellen angreifen\\c[0]."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "You gotta defeat them, \\c[3]before they reach this point\\c[0] and damage our precious machine here.",
              "transl": "Du musst sie plattmachen, \\c[3]bevor sie diesen Punkt hier erreichen\\c[0] und unser Schätzchen hier demolieren können."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Careful though, because they'll all have \\c[3]shields that reflect damage\\c[0].\\. So just attacking blindly won't be an option.",
              "transl": "Aber Vorsicht, sie haben alle \\c[3]einen Schild, der Schaden reflektiert\\c[0].\\. Einfach drauflosballern ist also nicht die cleverste Option."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SURPRISED"
             }
            },
            {
             "message": {
              "orig": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
              "transl": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgeschütze\\c[0] vorbereitet."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
              "transl": "Um ein Geschütz zu aktivieren, \\c[3]schieß ein paarmal darauf\\c[0] und starte es dann mit einem \\c[3]geladenen Schuss\\c[0]!"
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "When activated with the \\c[3]neutral element\\c[0] they will \\c[3]disrupt the shields\\c[0] with each hit.",
              "transl": "Wenn sie mit dem \\c[3]Neutral-Element\\c[0] geladen sind, werden sie \\c[3]die Schilde mit jedem Treffer neutralisieren\\c[0]."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Later I'll also unlock \\c[3]elemental modes\\c[0] that will \\c[3]cause more damage instead of disrupting the shields\\c[0].",
              "transl": "Später werde ich auch \\c[3]Elementar-Modi\\c[0] freischalten, die \\c[3]mehr Schaden verursachen, aber keine Schilde auflösen\\c[0]."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
              "transl": "Jedes Geschütz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier tötest, und nach jeder Gegnerwelle\\c[0]."
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
+            }
+           },
+           null,
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -1058,8 +1291,18 @@
              "orig": "All turrets cost \\c[3]\\v[tmp.tdCostTurret1] Energy\\c[0] to activate, regardless of element.\n\nFor \\c[3]\\v[tmp.tdUpgradeCost] Energy\\c[0] all turrets will upgrade their attack power. This will happen automatically upon reaching that amount.",
              "transl": "Alle Geschütze brauchen zur Aktivierung \\c[3]\\v[tmp.tdCostTurret1] Energie\\c[0], unabhängig vom Element.\n\nWenn du \\c[3]\\v[tmp.tdUpgradeCost] Energie\\c[0] erreichst, verbessert sich automatisch die Angriffskraft aller Geschütze."
             }
+           },
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
+            }
            }
           ],
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          },
           "options": [
            {
             "label": {
@@ -1118,17 +1361,30 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Mika",
          "transl": "Mika"
+        },
+        "person": {
+         "person": "adventurers-jungle.female-white-hat",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hey, \\v[lore.title.seeker].\\. Please don't disturb my work!",
          "transl": "Hey, Seeker. Stör mich bitte nicht bei der Arbeit!"
+        },
+        "person": {
+         "person": "adventurers-jungle.female-white-hat",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1137,11 +1393,20 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi.",
           "transl": "Привіт."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         null,
@@ -1149,12 +1414,20 @@
          "message": {
           "orig": ".\\..\\..\\.",
           "transl": ".\\..\\..\\."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SHOUT"
          }
         },
         null,
@@ -1162,112 +1435,190 @@
          "name": {
           "orig": "Mika",
           "transl": "Mika"
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Ah, there you are.\\. Finally, I thought that would-be thespian would never let you through.",
           "transl": "Da bist du ja!\\. Dachte schon, der Möchtegern-Mime hätte dich totgequatscht."
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "So, you have come to help us open this door here, right?",
           "transl": "Also, du bist hier, um uns dabei zu helfen, diese Tür hier zu öffnen, oder?"
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "How?",
           "transl": "Як?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Don't worry, we will leave the complicated part to this technical marvel here.",
           "transl": "Keine Sorge, den komplizierten Teil übernimmt unser technisches Wunder hier."
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
+         }
+        },
         {
          "name": {
           "orig": "Mika",
           "transl": "Mika"
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You, \\v[lore.title.seeker], will simply defend it against the incoming wave of enemies.",
           "transl": "Du, Seeker, wirst es ganz einfach vor einlaufenden Gegnern beschützen."
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "For that purpose you can use the Trackwalker-compatible defensive system we prepared.",
           "transl": "Zu diesem Zweck kannst du das Pfadläufer-kompatible Abwehrsystem hier nutzen."
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         null,
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
+         }
+        },
         {
          "name": {
           "orig": "Mika",
           "transl": "Mika"
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It's just the one for now, but we will spawn more over time.",
           "transl": "Im Moment ist's nur ein Geschütz, wir werden aber nach und nach mehr heranschaffen."
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "They will automatically attack incoming enemies once you've activated them.",
           "transl": "Sie greifen ankommende Gegner automatisch an, sobald du sie aktiviert hast."
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Talk to me again once you want to start.\\. You will learn the rest on the go.",
           "transl": "Rede mit mir, sobald du bereit bist.\\. Den Rest lernst du dann in der Praxis."
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         }
        ]
@@ -1276,17 +1627,30 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Mika",
           "transl": "Mika"
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hello, \\v[lore.title.seeker].\\. Ready to defend against the incoming waves?",
           "transl": "Hey, Seeker.\\. Bist du bereit, es mit wahren Horden von Gegnern aufzunehmen?"
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1297,12 +1661,20 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Alright.\\. I will start up our generator here in a second.",
             "transl": "Alles klar.\\. Ich starte den Generator hier, einen Augenblick."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1310,23 +1682,40 @@
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Mika",
             "transl": "Mika"
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "But first, activate that turret by \\c[3]hitting it a few\\c[0] times and then using a \\c[3]charged projectile on it\\c[0]!",
             "transl": "Aktiviere aber zuerst das Geschütz, indem du \\c[3]ein paarmal darauf schießt\\c[0] und es dann mit einem \\c[3]geladenen Schuss startest\\c[0]!"
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           null,
@@ -1345,12 +1734,20 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Okay, but please make up your mind soon.\\. We want to be finished here at some point.",
             "transl": "Okay, aber entscheide dich bitte bald.\\. Wir wollen hier bald fertig werden."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -1359,93 +1756,159 @@
            "message": {
             "orig": "How?",
             "transl": "Як?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Alright, I will give you a short briefing as to how this will work out.",
             "transl": "Ich gebe dir eine kleine Einführung, wie das Ganze funktioniert."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "After I properly activate our Pathhacker here, enemies will \\c[3]attack in waves\\c[0].",
             "transl": "Sobald ich unseren Pfadhacker hier aktiviere, werden uns die Gegner \\c[3]in Wellen angreifen\\c[0]."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You gotta defeat them, \\c[3]before they reach this point\\c[0] and damage our precious machine here.",
             "transl": "Du musst sie plattmachen, \\c[3]bevor sie diesen Punkt hier erreichen\\c[0] und unser Schätzchen hier demolieren können."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Careful though, because they'll all have \\c[3]shields that reflect damage\\c[0].\\. So just attacking blindly won't be an option.",
             "transl": "Aber Vorsicht, sie haben alle \\c[3]einen Schild, der Schaden reflektiert\\c[0].\\. Einfach drauflosballern ist also nicht die cleverste Option."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           },
           null,
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Mika",
             "transl": "Mika"
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
             "transl": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgeschütze\\c[0] vorbereitet."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
             "transl": "Um ein Geschütz zu aktivieren, \\c[3]schieß ein paarmal darauf\\c[0] und starte es dann mit einem \\c[3]geladenen Schuss\\c[0]!"
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "When activated with the \\c[3]neutral element\\c[0] they will \\c[3]disrupt the shields\\c[0] with each hit.",
             "transl": "Wenn sie mit dem \\c[3]Neutral-Element\\c[0] geladen sind, werden sie \\c[3]die Schilde mit jedem Treffer neutralisieren\\c[0]."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Later I'll also unlock \\c[3]elemental modes\\c[0] that will \\c[3]cause more damage instead of disrupting the shields\\c[0].",
             "transl": "Später werde ich auch \\c[3]Elementar-Modi\\c[0] freischalten, die \\c[3]mehr Schaden verursachen, aber keine Schilde auflösen\\c[0]."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
             "transl": "Jedes Geschütz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier tötest, und nach jeder Gegnerwelle\\c[0]."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Mika",
             "transl": "Mika"
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Anyway, can we start this up already?",
             "transl": "Klar so weit? Können wir loslegen?"
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -1454,18 +1917,30 @@
            "message": {
             "orig": "How?!",
             "transl": "Як?!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
            "message": {
             "orig": "Wow, you really want to dig into the details, eh?\\. Very admirable, I gotta say.",
             "transl": "Wow, jetzt willst du's aber wirklich wissen, he?\\. Sehr lobenswert, muss ich sagen."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Here, take a look at this sheet that came with the manual.\\. It should give you a good overview.",
             "transl": "Hier, schau dir diese Seite aus der Anleitung an.\\. Die sollte dir einen guten Überblick geben."
+           },
+           "person": {
+            "person": "adventurers-jungle.female-white-hat",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1488,6 +1963,10 @@
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -1522,47 +2001,80 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Mika",
           "transl": "Mika"
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi.",
           "transl": "Привіт."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         },
         {
          "message": {
           "orig": "Good job, \\v[lore.title.seeker]!\\. We neutralized the energy field of the door and there are no more waves on the radar.",
           "transl": "Gute Arbeit, Seeker!\\. Wir haben das Energiefeld der Tür neutralisiert. Die Gegnerwellen sind auf dem Radar verschwunden."
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Now we just need to unlock the door-mechanism itself.\\. Your job here is done.",
           "transl": "Jetzt müssen wir nur noch den Türmechanismus knacken.\\. Deine Arbeit ist damit erledigt."
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Report back at our headquarters to get your reward.",
           "transl": "Melde dich im Hauptquartier, um deine Belohnung zu erhalten."
+         },
+         "person": {
+          "person": "adventurers-jungle.female-white-hat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -1570,17 +2082,30 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Mika",
          "transl": "Mika"
+        },
+        "person": {
+         "person": "adventurers-jungle.female-white-hat",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Greetings \\v[lore.title.seeker]. We're still working on opening that door.",
          "transl": "Grüß dich, Seeker. Wir arbeiten noch daran, die Tür zu öffnen."
+        },
+        "person": {
+         "person": "adventurers-jungle.female-white-hat",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1606,47 +2131,80 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Taio",
        "transl": "Taio"
+      },
+      "person": {
+       "person": "adventurers-jungle.male-white-hat-monocle",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Halt!\\. Who so darest to enter this cave?",
        "transl": "Halt!\\. Wer waget es, hier einzutreten? So sprechet!"
+      },
+      "person": {
+       "person": "adventurers-jungle.male-white-hat-monocle",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi. Lea.",
        "transl": "Hi. Lea."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Aha!\\. At last, yon mighty \\v[lore.title.seeker] we requested hath reached us!\\. But wilt thou provest worthy?",
        "transl": "Sehet! Endlich gesellet sich jener mächtige Seeker zu uns, den wir ansuchten!\\. Wird er sich seiner als würdig erweisen?"
+      },
+      "person": {
+       "person": "adventurers-jungle.male-white-hat-monocle",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "We shall see!!\\. By custom of olde, thyne ability shall be tested by trial of...!",
        "transl": "Dies bleibt abzuwarten!\\. Nach alter Sitte der Altvorderen möget Ihr Eure Fähigkeiten unter Bewei-...!"
+      },
+      "person": {
+       "person": "adventurers-jungle.male-white-hat-monocle",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1658,13 +2216,26 @@
       "name": {
        "orig": "Mika",
        "transl": "Mika"
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "BY THE ANCIENTS, STOP MAKING NOISE AND SEND HER DOWN HERE ALREADY!",
        "transl": "BEI DEN AHNEN, HÖR AUF ZU QUATSCHEN UND SCHICK SIE ENDLICH HIER RUNTER!"
+      },
+      "person": {
+       "person": "adventurers-jungle.female-white-hat",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1673,23 +2244,40 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "name": {
        "orig": "Taio",
        "transl": "Taio"
+      },
+      "person": {
+       "person": "adventurers-jungle.male-white-hat-monocle",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "A-alright.\\..\\..\\. Thou hast heard the voice.\\. Procedest down and to thy left.",
        "transl": "A-Also gut.\\.\\.\\. Der Seeker hat die Worte vernommen.\\. Er möge voranschreiten."
+      },
+      "person": {
+       "person": "adventurers-jungle.male-white-hat-monocle",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -1707,74 +2295,130 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Taio",
          "transl": "Taio"
+        },
+        "person": {
+         "person": "adventurers-jungle.male-white-hat-monocle",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Speaketh to comrade Mika deep in this denne.\\. She shall enlighten thee.",
          "transl": "Sprechet mit Kameradin Mika.\\. Sie möge Euch aufklären. "
+        },
+        "person": {
+         "person": "adventurers-jungle.male-white-hat-monocle",
+         "expression": "DEFAULT"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Taio",
          "transl": "Taio"
+        },
+        "person": {
+         "person": "adventurers-jungle.male-white-hat-monocle",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Splendid work, \\v[lore.title.seeker].\\. I beseech thee to give the most verily regardes to our liege.",
          "transl": "Exquisite Arbeit, Seeker.\\. Ich ersuche Euch, meine Lehnsfrau hochachtungsvoll zu grüßen."
+        },
+        "person": {
+         "person": "adventurers-jungle.male-white-hat-monocle",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...bye.",
          "transl": "... Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Taio",
          "transl": "Taio"
+        },
+        "person": {
+         "person": "adventurers-jungle.male-white-hat-monocle",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hail, \\v[lore.title.seeker].\\. Thyne presence is most welcome in thise denne.",
          "transl": "Ich grüße Euch, Seeker.\\. Eure Präsenz ist mehr als willkommen hier."
+        },
+        "person": {
+         "person": "adventurers-jungle.male-white-hat-monocle",
+         "expression": "DEFAULT"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Taio",
          "transl": "Taio"
+        },
+        "person": {
+         "person": "adventurers-jungle.male-white-hat-monocle",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hail, \\v[lore.title.seeker].\\. Thyne presence is most welcome in thise denne.",
          "transl": "Ich grüße Euch, Seeker.\\. Eure Präsenz ist mehr als willkommen hier."
+        },
+        "person": {
+         "person": "adventurers-jungle.male-white-hat-monocle",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1794,6 +2438,10 @@
           "message": {
            "orig": "The barrier is down!\\. Another hit and we're done for!",
            "transl": "Die Barriere ist durchbrochen!\\. Noch ein Treffer und wir sind geliefert!"
+          },
+          "person": {
+           "person": "adventurers-jungle.female-white-hat",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -1814,6 +2462,10 @@
             "message": {
              "orig": "Hey \\v[lore.title.seeker], you let one through!",
              "transl": "Hey, Seeker, du hast einen durchgelassen!"
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -1824,6 +2476,10 @@
             "message": {
              "orig": "Our barrier has taken some heavy hits!\\. Better step up your game, \\v[lore.title.seeker]!",
              "transl": "Unsere Barriere hat schwere Treffer kassiert!\\. Leg eine Schippe drauf, Seeker!"
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -1834,6 +2490,10 @@
             "message": {
              "orig": "Barrier is almost down!\\. Keep it together, \\v[lore.title.seeker]!",
              "transl": "Die Barriere ist fast zerstört!\\. Reiß dich am Riemen, Seeker!"
+            },
+            "person": {
+             "person": "adventurers-jungle.female-white-hat",
+             "expression": "DEFAULT"
             }
            }
           ]

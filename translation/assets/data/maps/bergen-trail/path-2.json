@@ -312,61 +312,106 @@
         "name": {
          "orig": "Henry",
          "transl": "Henry"
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Oh! H-Hello Lea!",
          "transl": "Oh! H-Hallo, Lea!"
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "We m-meet again!",
          "transl": "Schön, dich zu-zu-zu sehen!"
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "And it j-just so happens that I h-have a new request.",
          "transl": "U-U-Und wie es der Zufall so will, h-habe ich eine neue Aufgabe fü-fü-für dich."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Ah, wait... I m-m-mean I just finished up preparations again...",
          "transl": "Äh... I-I-Ich meine... I-I-Ich habe m-m-meine Vorbereitungen gerade wieder a-a-abgeschlossen."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Y-Yes that's what I m-m-meant.",
          "transl": "Ja, da-da-das habe ich g-g-gemeint."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "A-Anyway... \\.\\.\\. I k-know you helped me already, but how about doing it again?",
          "transl": "J-Jedenfalls...\\.\\.\\. Ich weiß, dass d-d-du mir schon mal geholfen hast, aber kö-kö-könntest du mir nochmal helfen?"
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -375,6 +420,10 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          null,
@@ -382,72 +431,120 @@
           "message": {
            "orig": "R-R-R-Really?!?",
            "transl": "W-W-Wirklich?!?"
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "V-Very Good!",
            "transl": "S-S-Sehr gut!"
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "The t-t-tasks are the same as last time!",
            "transl": "Die A-A-Aufgaben sind die gleichen wie beim l-l-letzen Mal!"
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "I-I want to gather some d-data for \\c[3]Bergen Trail\\c[0] this time.",
            "transl": "Ich will w-w-wieder einige Daten sa-sa-sammeln. D-D-Diesmal vom \\c[3]Bergen-Trail\\c[0]."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Your h-h-help will make it much easier. ",
            "transl": "M-M-Mit deiner Hilfe geht das vi-vi-viel einfacher."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "I c-c-compiled a list again...",
            "transl": "Ich habe wieder eine Li-Li-Liste zusammengestellt..."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Some enemy scouting, local flora and the landmarks here.",
            "transl": "E-E-Ein paar Gegner auskundschaften, d-d-die lokale Flora und die W-W-Wegpunkte hier."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "And of course a probe... I asked another player to place it in a cave.",
            "transl": "Und eine So-So-Sonde, natürlich... Ich habe einen anderen Sp-p-pieler beauftragt, sie in einer Höhle zu p-p-platzieren."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "The problem is that I don't know which one it is...",
            "transl": "D-D-Das Problem ist: Ich weiß nicht, in w-w-welcher..."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "I'm sorry but it seems like you have to check all of them.",
            "transl": "Es tu-tu-tut mir leid, a-a-aber du wirst wohl alle durchsuchen m-m-müssen."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          },
          {
           "message": {
            "orig": "I would be honored if you would help me g-g-gather all the intel.",
            "transl": "I-I-Ich wäre ge-geehrt, wenn du mir helfen würdest, all das zu b-b-beschaffen."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -456,36 +553,60 @@
             "message": {
              "orig": "P-Please find out what you c-c-can and return to me!",
              "transl": "B-B-Bitte, tu, was du kannst und ko-ko-komm dann zurück zu m-m-mir."
+            },
+            "person": {
+             "person": "misc.henry-researcher",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            {
             "message": {
              "orig": "Th-thank you so much for your h-h-help!",
              "transl": "V-V-Vielen Dank für d-d-deine Hilfe!"
+            },
+            "person": {
+             "person": "misc.henry-researcher",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "A-and in case you forgot what the p-probe looks like...",
              "transl": "Fa-Fa-Falls du dich fragst, wi-wi-wie die Sonde aussieht..."
+            },
+            "person": {
+             "person": "misc.henry-researcher",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "It looks the same as the o-o-one next to m-me.",
              "transl": "Sie sieht g-g-genau so aus, wie die ne-ne-neben mir."
+            },
+            "person": {
+             "person": "misc.henry-researcher",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "ANNOYED"
             }
            }
           ],
@@ -494,6 +615,10 @@
             "message": {
              "orig": "O-Oh... You are not interested...",
              "transl": "O-Oh... Du ha-ha-hast kein Interesse..."
+            },
+            "person": {
+             "person": "misc.henry-researcher",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -504,15 +629,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Ah... I t-t-thought so...",
            "transl": "Ah... D-D-Dachte ich mir schon..."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -543,25 +680,46 @@
         "name": {
          "orig": "Henry",
          "transl": "Henry"
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "In c-c-case you forgot what the p-probe looks like...",
          "transl": "Fa-Fa-Falls du dich fragst, wi-wi-wie die Sonde aussieht..."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It looks the same as the o-o-one next to m-me.",
          "transl": "Sie sieht g-g-genau so aus, wie die ne-ne-neben mir."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -573,25 +731,46 @@
          "name": {
           "orig": "Henry",
           "transl": "Henry"
+         },
+         "person": {
+          "person": "misc.henry-researcher",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "W-W-welcome back, Lea!",
           "transl": "W-W-Willkommen zurück, Lea!"
+         },
+         "person": {
+          "person": "misc.henry-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Were you able to f-find all the data I r-requested?",
           "transl": "Hast du alle D-D-Daten gefunden, um die ich dich g-g-gebeten hatte?"
+         },
+         "person": {
+          "person": "misc.henry-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         null,
@@ -599,24 +778,40 @@
          "message": {
           "orig": "M-Marvelous!",
           "transl": "H-H-Hervorragend!"
+         },
+         "person": {
+          "person": "misc.henry-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "T-t-thank you so much again!",
           "transl": "No-no-nochmals vielen D-Dank!"
+         },
+         "person": {
+          "person": "misc.henry-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I'm sure they will be happy with my results, hehe...",
           "transl": "Ich bin mir sicher, dass sie mit meinen Ergebnissen sehr zufrieden sein werden, hehe..."
+         },
+         "person": {
+          "person": "misc.henry-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         null,
@@ -624,18 +819,30 @@
          "message": {
           "orig": "O-oh. B-B-Bad wording. I meant the A-Ancients, of course.",
           "transl": "O-Oh. Schlechte Wo-Wo-Wortwahl. I-I-Ich meinte na-na-natürlich die Ahnen."
+         },
+         "person": {
+          "person": "misc.henry-researcher",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "T-Take this! A s-small token of my gratitude.",
           "transl": "H-Hier! A-A-Als kleines Zeichen m-m-meiner Dankbarkeit."
+         },
+         "person": {
+          "person": "misc.henry-researcher",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -647,19 +854,36 @@
         "name": {
          "orig": "Henry",
          "transl": "Henry"
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "H-Hey, Lea! Thanks again for h-h-helping me out.",
          "transl": "H-Hey, Lea! D-D-Danke nochmals f-f-für deine H-Hilfe."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ]
@@ -674,12 +898,20 @@
       "message": {
        "orig": "It's a laser bridge!",
        "transl": "Eine Laserbrücke!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Laaaaaaser Bridge!",
        "transl": "Laaaaaserbrückeeeee!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      }
     ]
@@ -692,12 +924,20 @@
       "message": {
        "orig": "That's quite the view, non?",
        "transl": "Das ist doch mal eine klasse Aussicht, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Good thing there is no risk of falling to our death...",
        "transl": "Das Gute ist, dass keine Gefahr besteht, in den Tod zu stürzen..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EMBARRASSED"
       }
      }
     ]

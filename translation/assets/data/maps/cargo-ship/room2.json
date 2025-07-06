@@ -27,12 +27,20 @@
    "settings": {
     "event": [
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
+      },
       "message": {
        "orig": "Welcome to the rats' fortress, standing unpenetrated for centuries!",
        "transl": "Willkommen in der Nagerfestung! Seit Jahrhunderten unbezwungen!"
       }
      },
      {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      },
       "message": {
        "orig": "Apparently somebody had a fun time putting this together.",
        "transl": "Da hat offensichtlich jemand viel Spaß beim Aufbauen gehabt."
@@ -72,24 +80,52 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Just hit 'em with those balls. That's all there is to it.",
          "transl": "Einfach draufballern auf die Viecher! Das war's."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Heh heh.\\. Need a hint?",
          "transl": "Hehe.\\. Brauchst wohl 'n Hinweis, was?"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
         }
        },
        {
@@ -98,18 +134,30 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "Yeah, you're probably missing the mouse robots here.",
            "transl": "Du fragst dich wohl, wo die Mäuse sind."
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_GRIN"
           }
          },
          {
           "message": {
            "orig": "Those things are pretty small, y'know?\\. Might be they're hidden somewhere...",
            "transl": "Die Dinger sind ziemlich klein, musste wissen.\\. Könnten sich hier irgendwo versteckt haben..."
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_WHISTLING"
           }
          }
         ],
@@ -118,15 +166,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Alright! Go on!",
            "transl": "Alles klar, dann weiter!"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_GRIN"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -146,12 +206,26 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Need a hint here?",
          "transl": "Brauchste hier auch 'n Hinweis?"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
         }
        },
        {
@@ -160,6 +234,10 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          null,
@@ -167,12 +245,20 @@
           "message": {
            "orig": "Ain't no way you're getting close to those mouse robots in that corner.",
            "transl": "Da oben inne Ecke kommste nich' hin, kannste knicken."
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_TOWARD"
           }
          },
          {
           "message": {
            "orig": "But you can still hit them, y'know? Remember the orange walls? Balls flying through them and all?",
            "transl": "Aber du kannst 'n paar Bälle durch die orangenen Wände flattern lassen."
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_GRIN"
           }
          }
         ],
@@ -181,15 +267,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Alright! Go on!",
            "transl": "Alles klar, dann weiter!"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_GRIN"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -209,18 +307,36 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
+        }
+       },
        {
         "message": {
          "orig": "Girl, that was so quick!\\. Took me forever to put all of this together.",
          "transl": "Mann, ging das schnell! Hab ewig gebraucht, das Zeug hier aufzubauen."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_UP_COOL"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "WHISTLING"
         }
        }
       ]
@@ -246,29 +362,60 @@
      null,
      null,
      null,
-     null,
-     null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_UP_GRIN"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      }
+     },
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_UP_GRIN"
+      },
       "message": {
        "orig": "Ha, finally!\\. This one's my favorite!",
        "transl": "Ah, endlich! Mein Lieblingsraum!"
       }
      },
      null,
-     null,
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_SMILE"
+      },
       "message": {
        "orig": "Here you can go wild on these robot mice!",
        "transl": "Hier kannste jetzt mal an den Robotermäusen so richtig die Sau rauslassen!"
       }
      },
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
+      },
       "message": {
        "orig": "Moving target practice!\\. Have fun, girl!",
        "transl": "Quasi 'ne Schießübung mit beweglichen Zielen!\\. Viel Spaß!"
       }
      },
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
+      },
       "message": {
        "orig": "...!",
        "transl": "...!"
@@ -308,10 +455,24 @@
   {
    "settings": {
     "blockEvent": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      }
+     },
      null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
+      },
       "message": {
        "orig": "Wrong direction, girl.\\.\nGotta reach the teleporter!\n",
        "transl": "Falsche Richtung, Lea!\\.\nWir müssen den Teleporter erreichen!"
@@ -340,6 +501,10 @@
         "message": {
          "orig": "Moving on!",
          "transl": "Weiter geht's!"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
         }
        }
       ]
@@ -360,6 +525,10 @@
       "message": {
        "orig": "Oh no you don't!",
        "transl": "Halt! Das wirste schön bleiben lassen!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
       }
      },
      null,
@@ -368,6 +537,10 @@
       "message": {
        "orig": "Jump over the container, girl!",
        "transl": "Spring über die Container!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
       }
      }
     ]
@@ -385,84 +558,140 @@
           "message": {
            "orig": "W-W-Whaaaat?!",
            "transl": "W-W-Waaaas?!"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_ANGRY"
           }
          },
          {
           "message": {
            "orig": "Hold on!\\. W-What is this damage?!",
            "transl": "M-Moment mal!\\. Was ist denn mit dem Schaden los?!"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "SURPRISED"
           }
          },
          {
           "message": {
            "orig": "..!!",
            "transl": "..!!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXCITED"
           }
          },
          {
           "message": {
            "orig": "That's what I wanna ask! That's not normal, right?!",
            "transl": "Das wollt' ich dich fragen! Das is' doch nich' normal, oder?!"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_ANGRY"
           }
          },
          {
           "message": {
            "orig": "No way! Did I forget to remove \\c[3]that\\c[0] code fragment?!",
            "transl": "Auf keinen Fall! Habe ich etwa \\c[3]diesen einen\\c[0] Codeschnipsel vergessen?!"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "INTENSE2"
           }
          },
          {
           "message": {
            "orig": "What the heck did ya do?!",
            "transl": "Was zum Kuckuck hast du getan?!"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_ANGRY"
           }
          },
          {
           "message": {
            "orig": "I-It was just a little experiment!\\. Seeing if I could somehow tamper with the damage output in a secure way.",
            "transl": "D-Das war bloß ein kleines Experiment!\\. Ich wollte wissen, ob ich den Schaden auf kontrollierte Art hochschrauben kann..."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "INTENSE1"
           }
          },
          {
           "message": {
            "orig": "... and I forgot to comment out that part.",
            "transl": "... und habe wohl vergessen, den Teil wieder auszukommentieren."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "ROLL_EYES"
           }
          },
          {
           "message": {
            "orig": "Sergeeeeeeey!!",
            "transl": "Sergeeeeeeey!!"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_ANGRY"
           }
          },
          {
           "message": {
            "orig": "..!!",
            "transl": "..!!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
           }
          },
          {
           "message": {
            "orig": "Oh...\\. Oh no...\\. I do not think I can undo this...",
            "transl": "Oh...\\. Oh nein...\\. Ich fürchte, das lässt sich nicht mehr rückgängig machen..."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "INTENSE2"
           }
          },
          {
           "message": {
            "orig": "..!!",
            "transl": "..!!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "INSANE"
           }
          },
          {
           "message": {
            "orig": "Congratulations, sir.\\. You've created a monster.",
            "transl": "Na, herzlichen Glückwunsch, Sir.\\. Sie haben ein Monster erschaffen."
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_COOL"
           }
          },
          {
           "message": {
            "orig": "\\c[1]...!\\c[0]",
            "transl": "\\c[1]...!\\c[0]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "INSANE_DOWN"
           }
          }
         ],
@@ -473,36 +702,60 @@
             "message": {
              "orig": "Damn girl!\\. Those mice are dropping much faster than I expected.",
              "transl": "Verfluchtes Biest!\\. Die Mäuse spawnen viel schneller als gedacht."
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_ANGRY"
             }
            },
            {
             "message": {
              "orig": "Yes. That is because she is way over-leveled.",
              "transl": "Ja. Das liegt daran, dass sie völlig überlevelt ist."
+            },
+            "person": {
+             "person": "main.sergey",
+             "expression": "ROLL_EYES"
             }
            },
            {
             "message": {
              "orig": "Huh? Wasn't she supposed to start at level 1?",
              "transl": "Höh? Sollte sie nicht auf Level 1 starten?"
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_WHISTLING"
             }
            },
            {
             "message": {
              "orig": "That was the plan. Something must have gone wrong, it seems.",
              "transl": "Das war der Plan. Offensichtlich ist aber etwas schiefgelaufen."
+            },
+            "person": {
+             "person": "main.sergey",
+             "expression": "WORRIED"
             }
            },
            {
             "message": {
              "orig": "..!!",
              "transl": "..!!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "EXCITED"
             }
            },
            {
             "message": {
              "orig": "Well, she sure seems to enjoy herself!",
              "transl": "Tja, sie scheint's jedenfalls richtig zu genießen!"
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_UP_GRIN"
             }
            }
           ]
@@ -521,12 +774,20 @@
       "message": {
        "orig": "Stop defeating our troupe! They are not supposed to be defeated!!",
        "transl": "Hör sofort auf, unsere Truppen zu vernichten! Die solltest du eigentlich gar nicht vernichten können!!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SHOUT_AR"
       }
      },
      {
       "message": {
        "orig": "\\c[1]...!!\\c[0]",
        "transl": "\\c[1]...!!\\c[0]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "INSANE_DOWN"
       }
      }
     ]

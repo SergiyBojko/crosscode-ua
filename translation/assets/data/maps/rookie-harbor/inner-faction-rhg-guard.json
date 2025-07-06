@@ -20,12 +20,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "guards.female-small-white",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Move along, nothing to see here!",
          "transl": "Weitergehen, hier gibt's nichts zu sehen!"
+        },
+        "person": {
+         "person": "guards.female-small-white",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -51,13 +65,26 @@
         "name": {
          "orig": "Sgt. Brassler",
          "transl": "Hptm. Brassler"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Nice seeing you around, rookie. We have no need of your assistance just now though.",
          "transl": "Schön, dass du mal vorbeischaust, Rekrut. Im Moment brauchen wir deine Hilfe aber nicht."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -69,19 +96,36 @@
          "name": {
           "orig": "Sgt. Brassler",
           "transl": "Hptm. Brassler"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "A \\v[lore.title.seeker] recruit?\\. You better get your faction-briefing at \\c[3]\\v[lore.title.seeker]-Central\\c[0] first, before going sightseeing.",
           "transl": "Ein Seeker-Rekrut?\\. Du solltest erst deine Fraktionseinweisung im \\c[3]Seeker Hub\\c[0] abschließen, bevor du die Stadt erkundest."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You can find the responsible official on the ground floor of that building.",
           "transl": "Du findest den zuständigen Beamten im Erdgeschoss des Gebäudes."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -94,19 +138,36 @@
          "name": {
           "orig": "Sgt. Brassler",
           "transl": "Hptm. Brassler"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Ah, it looks like the young \\v[lore.title.seeker] has returned to plain ol' me.",
           "transl": "Ah, schau an, der junge Seeker hat den alten Mann nicht vergessen."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Can you finally squeeze some work in the name of justice into your schedule?",
           "transl": "Hast wohl etwas Zeit gefunden, uns im Namen der Gerechtigkeit dienlich zu sein?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -115,31 +176,56 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
+           }
+          },
           {
            "message": {
             "orig": "It's good to see a young \\v[lore.title.seeker] recognize the importance of such mundane tasks.",
             "transl": "Schön zu sehen, dass ein junger Seeker auch die kleineren Aufgaben ernst nimmt."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You can find the guard in question in the central area of the Marketplace, near the \\v[lore.title.seeker]-HUB.\\.",
             "transl": "Du findest die diensthabende Wache im Zentrum des Marktplatzes, in der Nähe des Seeker Hubs."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Ask her about the problem and solve the case.",
             "transl": "Frag sie, wo das Problem liegt, und löse den Fall."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           }
          ],
@@ -148,19 +234,36 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
           {
            "message": {
             "orig": "Well then, in that case you better get going.\\. I'm sure there are a few Ancient dragons in need of slaying.",
             "transl": "Tja, dann gehst du jetzt wohl besser.\\. Da draußen warten sicher ein paar vorzeitliche Drachen auf dich, die unbedingt von dir erlegt werden wollen."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": ".\\..\\..",
             "transl": ".\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           }
          ]
@@ -174,13 +277,26 @@
         "name": {
          "orig": "Sgt. Brassler",
          "transl": "Hptm. Brassler"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You better get going, recruit, before it's too late.",
          "transl": "Du solltest dich auf den Weg machen, Rekrut, bevor es zu spät ist!"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -192,25 +308,46 @@
          "name": {
           "orig": "Sgt. Brassler",
           "transl": "Hptm. Brassler"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "I already got the report.\\. You did a fine job out there... for a rookie.",
           "transl": "Ich habe den Bericht bereits erhalten.\\. Du hast da draußen gute Arbeit geleistet... für einen Rekruten."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
          }
         },
         {
          "message": {
           "orig": "In any case, you are welcome to help us out again in the future.\\. The Rookie Harbor Guard is always busy.",
           "transl": "Auf jeden Fall würden wir deine Hilfe auch in Zukunft zu schätzen wissen.\\. In der Hafenwache gibt es immer viel zu tun."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -223,77 +360,140 @@
          "name": {
           "orig": "Sgt. Brassler",
           "transl": "Hptm. Brassler"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Nice to see you around, rookie.\\. We have need of your assistance again.",
           "transl": "Gut, dass du vorbeischaust, Rekrut. Wir bräuchten mal wieder deine Unterstützung."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "As if the usual struggle with the Track isn't enough, we have violent threats growing from within our own settlements.",
           "transl": "Als wenn der übliche Ärger mit dem Pfad nicht schon genug wäre, gibt es nun auch noch eine wachsende Bedrohung innerhalb unserer Städte."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And it seems like some people are smuggling dangerous weapon systems onto the continent through our harbor.",
           "transl": "Wir haben Hinweise darauf, dass eine Schmugglerbande gefährliche Waffensysteme über unseren Hafen auf das Festland geschmuggelt hat."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Needless to say, this is a danger for every law-abiding citizen on the planet.",
           "transl": "Das stellt nicht nur eine Gefahr für uns dar, sondern für jeden gesetzestreuen Bürger auf diesem Planeten."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "So, can I count on your help again?",
           "transl": "Kann ich also erneut auf deine Hilfe zählen?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "accepted": [
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
+           }
+          },
           {
            "message": {
             "orig": "Excellent.\\. We already got \\c[3]Officer Cedric\\c[0] investigating the case right on location.",
             "transl": "Ausgezeichnet.\\. Wir haben \\c[3]Wachtmeister Cedric\\c[0] auf den Fall angesetzt und schon zum Tatort geschickt."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Meet up with him at the harbor at \\c[3]Beginners Arc\\c[0] and he will brief you on the details.",
             "transl": "Du findest ihn am \\c[3]Anfängerbogen\\c[0] des Hafens. Er wird dich mit den Einzelheiten vertraut machen."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           }
          ],
@@ -302,19 +502,36 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
           {
            "message": {
             "orig": "Got too important already to handle boring guard work, huh?",
             "transl": "Ach so, sind wir schon zu wichtig für den einfachen Wachdienst geworden, hm?"
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": ".\\..\\..",
             "transl": ".\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           }
          ]
@@ -328,13 +545,26 @@
         "name": {
          "orig": "Sgt. Brassler",
          "transl": "Hptm. Brassler"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You better go to the harbor, before more weapons get through.",
          "transl": "Du gehst besser zum Hafen, bevor noch mehr Waffen geschleust werden."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -346,55 +576,96 @@
          "name": {
           "orig": "Sgt. Brassler",
           "transl": "Hptm. Brassler"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Cedric already made a report and brought the criminal in.",
           "transl": "Cedric hat bereits Bericht erstattet und den Verbrecher eingebuchtet."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "For such an unimpressive guy, he sure caused a lot of trouble.",
           "transl": "Für einen so unbeeindruckenden Kerl hat er ganz schön viel Ärger gemacht."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "Yes, it's unlikely that he acted alone.\\. For starters, those shipments must have been sent by someone else.",
           "transl": "Unwahrscheinlich, dass er auf eigene Faust gehandelt hat.\\. Jemand muss ihm dabei geholfen haben, so viel steht fest."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "We'll put him through some sharp interrogation 'til he spills the beans about his accomplices.",
           "transl": "Wir werden ihn ordentlich in die Mangel nehmen und alles aus ihm herausquetschen, was er über seinen Auftraggeber weiß."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Right, that's on us now.\\. Cedric told me that you did well in handling this, so enjoy your reward.",
           "transl": "Nun aber zu dir.\\. Cedric hat mir berichtet, dass du dich wacker geschlagen hast. Genieße also deine Belohnung."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         }
        ]
@@ -407,43 +678,76 @@
          "name": {
           "orig": "Sgt. Brassler",
           "transl": "Hptm. Brassler"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Ah, \\v[lore.title.seeker].\\. Found your way back to humble \\v[area.rookie-harbor.name], eh?",
           "transl": "Ah, Seeker!\\. Hast wieder zum guten alten Rookie Harbor zurückgefunden, hm?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "About time, frankly.\\. The whole weapon smuggling business didn't do us the courtesy of just stopping.",
           "transl": "Zur Sache:\\. Der Waffenschmuggel in unserer Stadt hat uns leider nicht den Gefallen getan, sich einfach in Luft aufzulösen."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "In fact it has only gotten worse.\\. You got some free time again, to make a contribution to a peaceful society?",
           "transl": "Es ist sogar noch schlimmer geworden.\\. Hast du grad Zeit, wieder Recht und Ordnung herzustellen?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -452,60 +756,100 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Good to see you didn't forget your roots.\\. Stopping criminals like the old days.",
             "transl": "Schön zu sehen, dass du deine Wurzeln nicht vergessen hast.\\. Geht doch nichts über die gute alte Ganovenjagd."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Problem is, they're not delivering their shipments to our harbor the usual way, where we can find and catch them.",
             "transl": "Das Problem ist, dass sie ihre Ladung nicht mehr über unseren Hafen schmuggeln, wo wir sie leicht aufspüren und schnappen könnten."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Instead the weapons are sent over the ocean on their own to who knows what secret transfer point.",
             "transl": "Stattdessen werden die Waffen jetzt allein über den Ozean geschickt. Weiß der Kuckuck, wohin."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           },
           {
            "message": {
             "orig": "Basically we have to catch and destroy them midway on their route from \\v[area.rhombus-sqr.name].",
             "transl": "Im Prinzip müssen wir sie also auf halbem Wege von Rhombus Square abfangen und zerstören."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?",
             "transl": "...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
            "message": {
             "orig": "We got something prepared.\\. Go to \\c[3]Beginners Arc\\c[0] and talk to \\c[3]Captain Turbine, South of the teleporter\\c[0].",
             "transl": "Wir haben da schon etwas vorbereitet.\\. Rede mit \\c[3]Kapitän Törbein\\c[0], er wartet am \\c[3]Anfängerbogen südlich des Teleporters\\c[0] auf dich."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "He will give you a more detailed briefing and send you in the right direction.\\. Now get going, \\v[lore.title.seeker]!",
             "transl": "Er wird dir unseren Plan erläutern und dir den Weg zeigen.\\. Ans Werk, Seeker!"
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -514,19 +858,36 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
           {
            "message": {
             "orig": "Got no more time for boring ol' \\v[area.rookie-harbor.name], eh?\\. Quite a shame.",
             "transl": "Keine Zeit mehr für das olle Rookie Harbor, hm?\\. Ich muss sagen, ich bin enttäuscht."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": ".\\..\\..",
             "transl": ".\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           }
          ]
@@ -540,19 +901,36 @@
         "name": {
          "orig": "Sgt. Brassler",
          "transl": "Hptm. Brassler"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Go to \\c[3]Beginners Arc\\c[0] and talk to \\c[3]Captain Turbine, South of the teleporter\\c[0].",
          "transl": "Sprich mit \\c[3]Kapitän Törbein\\c[0] am \\c[3]Anfängerbogen, südlich des Teleporters\\c[0]."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "He will explain how to stop those shipments.",
          "transl": "Er wird dir sagen, wie wir die Ladungen stoppen."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -564,61 +942,106 @@
          "name": {
           "orig": "Sgt. Brassler",
           "transl": "Hptm. Brassler"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Welcome back, \\v[lore.title.seeker].\\. I already received the combat report.\\. Splendid work.",
           "transl": "Willkommen zurück, Seeker.\\. Ich habe den Gefechtsbericht bereits erhalten.\\. Hervorragende Arbeit!"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "WHISTLING"
          }
         },
         {
          "message": {
           "orig": "What you sunk must've been an entire month's worth of work.",
           "transl": "An der Ladung, die du versenkt hast, haben die sicher einen ganzen Monat gearbeitet."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "That should set them back a lot and give us some room to breathe and work on long-term solutions.",
           "transl": "Das dürfte ihre Pläne um einiges zurückgeworfen haben, was uns etwas Zeit zum Durchatmen gibt, um an einer langfristigen Lösung zu arbeiten."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Well, I'm sure we will see you around again, when the time comes.",
           "transl": "Also dann! Wir werden uns sicher bald wiedersehen, wenn die Zeit reif ist."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Until then, good fortune on your adventures, \\v[lore.title.seeker]!",
           "transl": "Bis dahin viel Glück bei deinen Abenteuern, Seeker!"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -631,43 +1054,76 @@
          "name": {
           "orig": "Sgt. Brassler",
           "transl": "Hptm. Brassler"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "\\v[lore.title.seeker], arriving just in time again.\\. I guess a life of grand adventure still can't beat the charms of \\v[area.rookie-harbor.name].",
           "transl": "Pünktlich wie die Maurer, Seeker!\\. Und scheinbar kann selbst das große Abenteuer-\nleben den Reiz von Rookie Harbor nicht übertreffen.<<C<<TODO: Umbruch ok?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Lea...",
           "transl": "Лія..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Well, no time for reminiscing about the old days now!\\. We finally got the opportunity to put the lid on that damn smuggling business.",
           "transl": "Aber geplaudert wird ein andermal! Denn wir haben jetzt endlich die Gelegenheit, dieses verdammte Schmuggel-\ngeschäft zu zerschlagen.<<C<<TODO: Umbruch ok?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Can we count on your assistance to finish this job?",
           "transl": "Können wir auch diesmal auf dich zählen?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -676,66 +1132,110 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Excellent, \\v[lore.title.seeker].\\. I knew that I could rely on you like on one of my own.",
             "transl": "Ausgezeichnet, Seeker.\\. Ich wusste, dass ich mich auf dich verlassen kann, wie auf einen meiner eigenen Leute."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXCITED"
            }
           },
           {
            "message": {
             "orig": "This operation will be familiar to you.\\. You will lead a patrol on the ocean to intercept a delivery of illegal weaponry.",
             "transl": "Diese Operation wird dir zum Teil bekannt vorkommen.\\. Du wirst wieder auf Patrouille gehen und eine illegale Waffenlieferung abfangen."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "However this time we will end the smuggling once and for all by also destroying the coordinator!",
             "transl": "Dieses Mal aber werden wir dem Schmuggel ein für alle Mal ein Ende bereiten, indem wir auch den Koordinator zerstören!"
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "WHISTLING"
            }
           },
           {
            "message": {
             "orig": "Indeed, taking out the leader.\\. An obvious solution, but usually easier said than done.",
             "transl": "Ja, wir werden diesmal auch den Anführer aus dem Verkehr ziehen.\\. Eine naheliegende Lösung, aber in der Regel leichter gesagt als getan."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "\\c[3]Captain Turbine\\c[0] will fill you in on the details, just like last time.\\. Visit him at \\c[3]Beginner's Arc\\c[0].",
             "transl": "\\c[3]Kapitän Törbein\\c[0] wird dich wieder mit den Einzelheiten vertraut machen.\\. Du findest ihn am \\c[3]Anfängerbogen\\c[0]."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Good hunting, \\v[lore.title.seeker].",
             "transl": "Auf eine gute Jagd, Seeker."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye.",
             "transl": "Бувай."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -744,18 +1244,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Refusing to protect your nostalgic hometown?\\. There's still time until we start, so you better come around on this.",
             "transl": "Du weigerst dich, deine alte Heimatstadt zu beschützen?\\. Es ist noch Zeit, bis wir anfangen, also sei besser hier, wenn's so weit ist."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": ".\\..\\..",
             "transl": ".\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           }
          ]
@@ -769,13 +1281,26 @@
         "name": {
          "orig": "Sgt. Brassler",
          "transl": "Hptm. Brassler"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Return to \\c[3]Beginners Arc\\c[0] and have another talk with \\c[3]Captain Turbine, South of the teleporter\\c[0].",
          "transl": "Geh zum \\c[3]Anfängerbogen\\c[0] und sprich mit \\c[3]Kapitän Törbein, südlich des Teleporters\\c[0]."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -787,55 +1312,96 @@
          "name": {
           "orig": "Sgt. Brassler",
           "transl": "Hptm. Brassler"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "\\v[lore.title.seeker]!\\. According to these reports you have done some truly exemplary work out there!",
           "transl": "Seeker!\\. Den Berichten zufolge hast du da draußen wirklich vorbildliche Arbeit geleistet!"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "WHISTLING"
          }
         },
         {
          "message": {
           "orig": "The coordinator is down and from its wreck we recovered data that can lead us to the instigators behind these crimes.",
           "transl": "Der Koordinator liegt nun auf dem Meeresgrund und aus seinem Wrack haben wir Daten geborgen, die uns zu den Drahtziehern führen können."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "This is a victory for justice and the safety of every honest person on \\v[lore.title.planet].",
           "transl": "Ein Sieg für die Gerechtigkeit und die Sicherheit jeder ehrbaren Person auf Shadoon."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "We owe you great thanks, \\v[lore.title.seeker]!\\. Your service will always be remembered. ",
           "transl": "Wir sind dir zu Dank verpflichtet, Seeker!\\. Wir werden nicht vergessen, was du für uns getan hast."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -847,13 +1413,26 @@
         "name": {
          "orig": "Sgt. Brassler",
          "transl": "Hptm. Brassler"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "\\v[lore.title.seeker], things are going smoothly, in no small part to your help.\\. Take a coffee and a donut for old times, if you want.",
          "transl": "Läuft alles bestens, Seeker, nicht zuletzt dank deiner Hilfe.\\. Nimm dir 'n Kaffee und 'n Berliner, wenn du willst - um der alten Zeiten willen."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-blonde",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -865,43 +1444,76 @@
          "name": {
           "orig": "Sgt. Brassler",
           "transl": "Hptm. Brassler"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Ah, a \\v[lore.title.seeker] graces the plain ol' city guard with her presence.",
           "transl": "Ah, ein Seeker beehrt die gute alte Stadtwache mit seiner Anwesenheit."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Got some time off from solving ancient mysteries, do you?",
           "transl": "Dann wurde dir wohl etwas Freizeit vom Lüften uralter Geheimnisse vergönnt, hm?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Well, we could also use some help here in the city.",
           "transl": "Wir könnten hier in der Stadt nämlich auch ein wenig Hilfe gebrauchen."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "One of our watchmen at the market called for reinforcements a moment ago.",
           "transl": "Einer unserer Wächter vom Markt hat nämlich gerade eben Verstärkung angefordert."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "None of those fancy Trackwalking-adventures, I suppose, but matters of inner security are not to be taken lightly either, yes?",
           "transl": "Nicht so spannend wie ein Pfadläufer-Abenteuer, aber Angelegenheiten der inneren Sicherheit sind auch nicht gerade unwichtig, nicht wahr?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-blonde",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -910,31 +1522,56 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
+           }
+          },
           {
            "message": {
             "orig": "It's good to see a young \\v[lore.title.seeker] recognize the importance of even mundane tasks.",
             "transl": "Schön zu sehen, dass ein junger Seeker auch die kleineren Aufgaben ernst nimmt."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You can find the guard in question in the central area of the Marketplace, near the \\v[lore.title.seeker]-HUB.\\.",
             "transl": "Du findest die diensthabende Wache auf dem Marktplatz, in der Nähe des Seeker Hubs."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Ask her about the problem and solve the case.",
             "transl": "Frag sie, wo das Problem liegt und löse den Fall."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           }
          ],
@@ -943,19 +1580,36 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
           {
            "message": {
             "orig": "Well then, in that case you better get going.\\. I'm sure there are some Ancient dragons in need of slaying.",
             "transl": "Tja, dann gehst du jetzt wohl besser.\\. Da draußen warten sicher ein paar vorzeitliche Drachen auf dich, die unbedingt von dir erlegt werden wollen."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-blonde",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": ".\\..\\..",
             "transl": ".\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           }
          ]

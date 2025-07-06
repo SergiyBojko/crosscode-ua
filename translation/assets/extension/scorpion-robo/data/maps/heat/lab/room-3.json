@@ -80,6 +80,12 @@
     "condAnims": [
      {
       "interact": {
+       "0": {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        "1": {
         "text": {
          "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
@@ -88,7 +94,12 @@
        },
        "2": {
         "0": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
+          }
+         },
          null,
          null,
          {
@@ -98,6 +109,10 @@
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -118,7 +133,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "Test sequence status: \\c[2]ready\\c[0].\n\\c[1]Start test sequence\\c[0]?",
@@ -127,7 +147,12 @@
         },
         {
          "0": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
+           }
+          },
           null,
           null,
           {
@@ -144,7 +169,12 @@
           }
          ],
          "1": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
           {
            "text": {
             "orig": "Completion of test sequence is \\c[3]required\\c[0] in order to open the door.",
@@ -155,9 +185,17 @@
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "options": [
           {
            "label": {
@@ -216,6 +254,12 @@
     "condAnims": [
      {
       "interact": {
+       "0": {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        "1": {
         "text": {
          "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
@@ -224,7 +268,12 @@
        },
        "2": {
         "0": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
+          }
+         },
          null,
          null,
          {
@@ -234,6 +283,10 @@
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -254,7 +307,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "Mortal Chamber Status: \\c[1]closed\\c[0].\n\\c[2]Open Door?\\c[0]",
@@ -262,6 +320,18 @@
          }
         },
         {
+         "0": [
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
+           }
+          }
+         ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "options": [
           {
            "label": {
@@ -327,85 +397,146 @@
        "name": {
         "orig": "Steve B. Ruger",
         "transl": "Steve B. Ruger"
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "message": {
         "orig": "Hello and welcome back to our research facility.\\. Things are still progressing at a steady rate.",
         "transl": "Hallo und willkommen zurück in unserer Forschungseinrichtung.\\. Wir machen beständig Fortschritte."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Well, mostly.\\. We have worked a bit too well in some regards, but I will talk about those complications later.",
         "transl": "Zumindest überwiegend.\\. Wir sind in mancher Hinsicht etwas über das Ziel hinaus geschossen, doch später mehr dazu."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "First off, taming some of the more intelligent beings on this fascinating planet was easier than expected.",
         "transl": "Zunächst sei gesagt, dass es einfacher als erwartet war, die intelligenteren Wesen auf diesem faszinierenden Planeten zu zähmen."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "In fact it seems like they want to outright cooperate with us!\\. The results of our logic tests have been very satisfying.",
         "transl": "Als ob sie mit uns zusammenarbeiten wollten! Die Ergebnisse unserer Logiktests waren sehr zufriedenstellend."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Their reception of the firearms has also been very positive.",
         "transl": "Die Aufnahme der Schusswaffen war ebenfalls sehr positiv."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "They got the hang of it immediately and became inseparable from their new tools.",
         "transl": "Sie hatten sofort den Dreh raus und können sich gar nicht mehr davon trennen."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "However, that's where the problems first began, actually.\\. And maybe expectedly.",
         "transl": "Hier begannen jedoch die Probleme, die auch irgendwo abzusehen waren."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "The intelligent birds that we armed with cutting-edge weapons became unruly.\\. Imagine that.",
         "transl": "Die intelligenten Vögel, die wir mit modernsten Waffen bewaffnet haben, wurden plötzlich widerspenstig.\\. Stellen Sie sich das vor."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Long story short, they tried to revolt and escape.\\. A very disappointing development.",
         "transl": "Kurz gesagt, sie haben versucht, zu rebellieren und zu fliehen.\\. Eine sehr enttäuschende Entwicklung."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "However, we already started a second project with different types of creatures in the facility next door.",
         "transl": "Wir haben jedoch bereits ein zweites Projekt mit verschiedenen Arten von Kreaturen in der Einrichtung nebenan gestartet."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "This time we are trying to combine ground-based creatures with light artillery weapons.",
         "transl": "Dieses Mal versuchen wir, bodengebundene Kreaturen mit leichten Artillerie-Waffen zu kombinieren."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "This should prove much less risky than our previous endeavor, so please look forward to our next report!",
         "transl": "So lässt sich künftig das Risiko nämlich erheblich minimieren. Freuen Sie sich also auf den nächsten Bericht!"
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Until then... bye!",
         "transl": "Bis dann... Tschüss!"
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       }
      ]
@@ -422,7 +553,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]INTERNAL MAIL, SENT\\c[0]\n\n\\c[3]FROM:\\c[0] Facility Staff, Office 3A\n\\c[3]TO:\\c[0] \"Pressure\", Management\n\n\\c[3]Subject:\\c[0] Facility Hygiene",
@@ -463,7 +599,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]INTERNAL MAIL, SENT\\c[0]\n\n\\c[3]FROM:\\c[0] Facility Staff, Office 3B\n\\c[3]TO:\\c[0] Facility Staff, Office 3A\n\n\\c[3]Subject:\\c[0] That Noise",

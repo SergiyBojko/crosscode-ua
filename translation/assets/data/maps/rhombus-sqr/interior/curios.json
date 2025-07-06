@@ -38,18 +38,36 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "basin.male-raincoat",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "'Sup. Looking for some treasure? Look no further.",
           "transl": "Was jeht? Suchste knorkes Zeuch? Da biste hier jenau richtich!"
+         },
+         "person": {
+          "person": "basin.male-raincoat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "\\c[3]Only one item per body\\c[0] though, rules are rules.",
           "transl": "Aber \\c[3]nur ein Item pro Körper\\c[0], das sind die Regeln."
+         },
+         "person": {
+          "person": "basin.male-raincoat",
+          "expression": "DEFAULT"
          }
         }
        ]

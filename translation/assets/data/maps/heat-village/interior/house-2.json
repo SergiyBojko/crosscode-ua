@@ -30,18 +30,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "adventurers.male-pirate",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Oy Lady. Can I interest you in a rare trinket?",
          "transl": "Arrr, Lady. Kann ich dich für ein seltenes Schmuckstück begeistern?"
+        },
+        "person": {
+         "person": "adventurers.male-pirate",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "One that will surely bring you nothing but good fortune, I swear!",
          "transl": "Eines, das dir nichts als Glück bringt, das schwöre ich dir!"
+        },
+        "person": {
+         "person": "adventurers.male-pirate",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -50,18 +68,30 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "Finally... I'm free...",
            "transl": "Harrr... Endlich bin ich frei..."
+          },
+          "person": {
+           "person": "adventurers.male-pirate",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...?",
            "transl": "...?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED"
           }
          },
          null,
@@ -82,18 +112,30 @@
             "message": {
              "orig": "Well, that was strange...",
              "transl": "Ähm, das war jetzt irgendwie komisch..."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "SUSPICIOUS"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SMILE"
             }
            },
            {
             "message": {
              "orig": "I wonder what the coin does...",
              "transl": "Ich frage mich, was die Münze bewirkt..."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "SUSPICIOUS"
             }
            },
            {
@@ -102,6 +144,10 @@
               "message": {
                "orig": "A coin is sometimes used as a fee for something.",
                "transl": "Manchmal ist eine Münze eine Gebühr für etwas."
+              },
+              "person": {
+               "person": "main.glasses",
+               "expression": "SMILE"
               }
              }
             ]
@@ -114,15 +160,27 @@
           "message": {
            "orig": "[Shakes Head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Aye... ye sure, sweetheart?",
            "transl": "Aye... Bist du sicher, Schätzchen?"
+          },
+          "person": {
+           "person": "adventurers.male-pirate",
+           "expression": "DEFAULT"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -152,6 +210,10 @@
       "message": {
        "orig": "A flame inside a building? Really?",
        "transl": "Ein Feuer in einem Gebäude? Oh je..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "WORRIED"
       }
      }
     ]

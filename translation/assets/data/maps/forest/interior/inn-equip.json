@@ -57,12 +57,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Weapon best quality of Shad, but now foremost we produce for human being.",
           "transl": "Waffen beste Qualität der Shad, aber jetzt wir hauptsächlich produzieren für Menschen.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "baki.male-green-tall",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -130,42 +144,76 @@
        "transl": "So ein \\c[3]Spieler mit Laborkittel und käsigem Gesicht\\c[0] hat was davon gebrabbelt."
       },
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-female-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "What's up, wanna know about that path, too?",
          "transl": "Was geht? Willst du auch den Pfad finden?<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "It's somewhere in the eastern cavern system if I understood correctly.",
          "transl": "Soll wohl irgendwo im östlichen Höhlensystem sein, wenn ich das richtig verstanden habe."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "He said something about using Electricity to charge some bots.",
          "transl": "Er meinte, man muss wohl irgendwelche Bots mit Stromschlägen aufladen."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Not sure what he meant by that.",
          "transl": "Weiß aber nicht, was er damit meinte."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-black",
+         "expression": "DEFAULT"
         }
        },
        {

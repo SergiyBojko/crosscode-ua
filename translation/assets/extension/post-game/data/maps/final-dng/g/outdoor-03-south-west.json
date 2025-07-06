@@ -347,6 +347,10 @@
       "message": {
        "orig": "Again with the weird cliff structures.\\. They really like to do those...",
        "transl": "Wieder diese seltsamen Klippenstrukturen.\\. Die machen sie wohl echt gerne..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      }
     ]
@@ -358,82 +362,156 @@
      {
       "event": [
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.luke",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hello, Lea!",
          "transl": "Hallo, Lea!"
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You did very well with that jumping puzzle.",
          "transl": "Du hast das Sprungrätsel sehr gut gelöst."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "EYES_CLOSED"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "From here you are rewarded with a pretty nice view!",
          "transl": "Von hier aus wirst du mit einer ziemlich schönen Aussicht belohnt!"
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "UP"
         }
        },
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
+        }
+       },
+       {
+        "person": {
+         "person": "main.luke",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Amazing how far you can see from here, right?",
          "transl": "Erstaunlich, wie weit man von hier aus sehen kann, oder?"
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "UP"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD_HAPPY"
         }
        },
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.luke",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Seriously, this is such a huge crater. This whole location is massive.",
          "transl": "Was für ein riesiger Krater. Der ganze Ort ist riesig."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "WONDERING"
         }
        },
        {
         "message": {
          "orig": "You know... when I saw Homestedt for the first time, I was really surprised that Instatainment went so far for us.",
          "transl": "Weißt du... Als ich Heimstatt zum ersten Mal sah, war ich wirklich überrascht, wie sehr sich Instatainment für uns ins Zeug gelegt hat."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "But looking at this dungeon in comparison... I can see how they'd manage to create a small village as a side project.",
          "transl": "Aber wenn ich mir dieses Dungeon im Vergleich ansehe, dann sehe ich, wie sie es geschafft haben, ein kleines Dorf als Nebenprojekt zu erschaffen."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "SKEPTICAL"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        },
        null,
@@ -441,18 +519,30 @@
         "message": {
          "orig": "Alright! That's enough break. I gotta go on!",
          "transl": "So! Pause vorbei! Weiter geht's!"
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "LAUGH"
         }
        },
        {
         "message": {
          "orig": "See you around, Lea!",
          "transl": "Bis später, Lea!"
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye!",
          "transl": "Бувай!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ]

@@ -580,61 +580,112 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.quadroguard-female-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Great view from up here, huh?",
          "transl": "Tolle Aussicht von hier oben, was?"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Personally, I like watching people more than admiring the view.",
          "transl": "Aber noch lieber beobachte ich die Leute hier."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "This is the area right before Bergen Village.",
          "transl": "An dieser Stelle hier gelangen die Spieler nach Bergen."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "People get excited when they realize they're finally at the end of the trail.",
          "transl": "Nach dem mühevollen Aufstieg hüpft ihnen das Herz vor Freude, wenn sie das Ziel in Sichtweite sehen."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-black",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Seeing the look on their faces...\\. There's nothing quite like it.",
          "transl": "Dieser Ausdruck auf ihren Gesichtern...\\. ist einfach unbezahlbar."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Takes me back to when I climbed the trail for the first time.",
          "transl": "Erinnert mich daran, als ich zum ersten Mal selbst hier hochkam."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -643,6 +694,10 @@
           "message": {
            "orig": "How?",
            "transl": "Як?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "HAND_POINT_SELF"
           }
          }
         ],
@@ -651,6 +706,10 @@
           "message": {
            "orig": "...?",
            "transl": "...?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "HAND_POINT_SELF"
           }
          }
         ]
@@ -659,24 +718,40 @@
         "message": {
          "orig": "Yes, I did see you, actually! ",
          "transl": "Ja, dich habe ich auch gesehen!"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You had a look on your face that said you'd figure out a way to get up here sooner or later.",
          "transl": "Der Ausdruck auf deinem Gesicht sagte, dass du früher oder später einen Weg hier hoch finden würdest."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "And look where you are now! Well done.",
          "transl": "Und schau, wo du nun bist! Das verdient Anerkennung!"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ]
@@ -684,48 +759,86 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.quadroguard-female-black",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
+         }
+        },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Where is he?",
           "transl": "Wo ist er?"
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Oh sorry, is this for me? ",
           "transl": "Oh, Entschuldigung, ist das für mich?"
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Oh cool, didn't expect this so soon. Thanks a bunch!",
           "transl": "Oh, cool, hätte ich nicht so schnell erwartet. Danke vielmals!"
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         }
        ]
@@ -751,12 +864,20 @@
       "message": {
        "orig": "I've definitely never climbed up a mountain this high.",
        "transl": "Ich bin definitiv noch nie einen so hohen Berg hochgeklettert."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "This view is awesome!",
        "transl": "Die Aussicht ist großartig!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      }
     ]
@@ -793,19 +914,36 @@
       "name": {
        "orig": "Guard Impostor",
        "transl": "Falscher Wachmann"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "UNHORNED"
       }
      },
      {
       "message": {
        "orig": "Oh yes, you really are a splendid animal.\\. Just never run away again, okay?",
        "transl": "Jaaa... Du bist ein feines Tier!\\. Lauf nur nicht noch einmal weg, hörst du?"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "UNHORNED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -813,42 +951,70 @@
       "message": {
        "orig": "What, you again?\\. Do you not respect my authority as a noble guard of Bergen?",
        "transl": "Du schon wieder?\\. Du respektierst wohl nicht meine Autorität als ehrbare Wache von Bergen?"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "UNHORNED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Ah, it seems that my ruse has been uncovered.",
        "transl": "Ah, sieht so aus, als wäre ich enttarnt worden."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "UNHORNED"
       }
      },
      {
       "message": {
        "orig": "I resent the crude deception, but I could not allow my precious pet goat Zira to be taken by you.",
        "transl": "Ich verachte den scheußlichen Betrug, aber ich konnte nicht erlauben, dass du mir Zira wegnimmst!"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "UNHORNED"
       }
      },
      {
       "message": {
        "orig": "Lea!",
        "transl": "Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Oh, you want to bring both of us in for interrogation?\\. I fear we can't oblige.",
        "transl": "Oh, du willst uns also beide ins Verhör nehmen?\\. Ich fürchte, das kann ich nicht zulassen."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "UNHORNED"
       }
      },
      {
       "message": {
        "orig": "You see, we have some big plans that will change this entire mountain.\\.\\. And besides...",
        "transl": "Versteh doch, wir haben große Pläne, die den gesamten Berg verändern werden.\\.\\. Im Übrigen..."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "UNHORNED"
       }
      },
      null,
@@ -869,13 +1035,26 @@
       "name": {
        "orig": "Guard Impostor",
        "transl": "Falscher Wachmann"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "UNHORNED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "... I believe our three friends here would like some of your time.",
        "transl": "... werden sich unsere drei Freunde hier jetzt um dich kümmern."
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "UNHORNED"
       }
      },
      null,
@@ -883,6 +1062,10 @@
       "message": {
        "orig": "Come, Zira.\\. And farewell to you, \\v[lore.title.seeker]!",
        "transl": "Komm, Zira.\\. Und auf Nimmerwiedersehen, Seeker!"
+      },
+      "person": {
+       "person": "bergen.male-goatman-white",
+       "expression": "UNHORNED"
       }
      }
     ]

@@ -438,6 +438,10 @@
       "message": {
        "orig": "Let's go!",
        "transl": "Los geht's!"
+      },
+      "person": {
+       "person": "rookie-harbor.man-small-black",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -448,6 +452,10 @@
         "message": {
          "orig": "Wipe out, bummer!",
          "transl": "Naaah, das war nix!"
+        },
+        "person": {
+         "person": "rookie-harbor.man-small-black",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -458,12 +466,20 @@
           "message": {
            "orig": "Killed it! Sweet!",
            "transl": "Astrein, Mann! So geht das!"
+          },
+          "person": {
+           "person": "rookie-harbor.man-small-black",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Come back here to get your reward!",
            "transl": "Dann komm mal zurück für deine Belohnung!"
+          },
+          "person": {
+           "person": "rookie-harbor.man-small-black",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -488,12 +504,26 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hey girl, check this out!",
           "transl": "Hey, Kleines, check das hier!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -501,56 +531,109 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
+         }
+        },
         {
          "message": {
           "orig": "Sweet moves, huh?",
           "transl": "Coole Moves, was?"
+         },
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "I'm sure you can rock them railings too!",
           "transl": "Du kannst die Rails bestimmt auch so richtig rocken!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Wanna try some moves?",
           "transl": "Willst du dich an ein paar Moves versuchen?"
+         },
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Try to reach them boxes back there, \\c[3]without touching the ground\\c[0]!",
           "transl": "Versuch die Kisten da hinten zu erreichen, \\c[3]ohne den Boden zu berühren\\c[0]!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         }
+        },
         {
          "message": {
           "orig": "Just ollie up the box here and start \\c[3]grinding those rails\\c[0]!",
           "transl": "Ollie einfach die Box hier hoch und \\c[3]grinde dann die Rails entlang\\c[0]!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Whadda ya say? Ready to style?",
           "transl": "Was sagst du? Locker-flockig?"
+         },
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -560,6 +643,10 @@
            "message": {
             "orig": "Chilidog!\\. Show me what ya got!",
             "transl": "Chilidog!\\. Dann zeig mal, was du drauf hast!"
+           },
+           "person": {
+            "person": "rookie-harbor.man-small-black",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -568,12 +655,20 @@
            "message": {
             "orig": "Awww man, too bad.",
             "transl": "Aaach, schade."
+           },
+           "person": {
+            "person": "rookie-harbor.man-small-black",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "If ya change your mind, just come visit me.",
             "transl": "Komm wieder, wenn du's doch mal probieren willst."
+           },
+           "person": {
+            "person": "rookie-harbor.man-small-black",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -583,32 +678,69 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.man-small-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "C'mon, show me your skills!",
          "transl": "Komm schon, zeig mal, was du kannst!"
+        },
+        "person": {
+         "person": "rookie-harbor.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.man-small-black",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Try to reach them boxes back there, \\c[3]without touching the ground\\c[0]!",
          "transl": "Versuch die Kisten da hinten zu erreichen, \\c[3]ohne den Boden zu berühren\\c[0]!"
+        },
+        "person": {
+         "person": "rookie-harbor.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.man-small-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        }
+       },
        {
         "message": {
          "orig": "Just ollie up the box here and start \\c[3]grinding those rails\\c[0]!",
          "transl": "Ollie einfach die Box hier hoch und \\c[3]grinde dann die Rails entlang\\c[0]!"
+        },
+        "person": {
+         "person": "rookie-harbor.man-small-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -616,30 +748,56 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
+         }
+        },
         {
          "message": {
           "orig": "Aww yeah, that was sick, girl!",
           "transl": "Oh Mann, das war krass!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         },
         {
          "message": {
           "orig": "May your mushrooms always be sauteed and your onions always be grilled. Gravy, girl!",
           "transl": "Mögen deine Pilze stets gedünstet und deine Zwiebeln stets gegrillt sein. Und die Soße nicht vergessen, Kleines!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-small-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         }
        ]
@@ -647,30 +805,56 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.man-small-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You'll find a lot of awesome rails to grind all around this planet!",
          "transl": "Du wirst überall in CrossWorlds haufenweise geniale Rails zum Grinden finden!"
+        },
+        "person": {
+         "person": "rookie-harbor.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "May your mushrooms always be sauteed and your onions always be grilled. Gravy, girl!",
          "transl": "Mögen deine Pilze stets gedünstet und deine Zwiebeln stets gegrillt sein. Und die Soße nicht vergessen, Kleines!"
+        },
+        "person": {
+         "person": "rookie-harbor.man-small-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]
@@ -730,53 +914,107 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Fantastique! Right at the sea, just like they said!",
        "transl": "Fantastique! Direkt am Meer, genau wie sie gesagt haben!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Look, you can still see Rhombus Square over there.",
        "transl": "Guck mal, du kannst immer noch Rhombus Square da drüben sehen.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "The futuristic city is cool, but it's nice to be at the sea for a change, non?",
        "transl": "Die futuristische Stadt ist ja ganz nett, ist zur Abwechslung aber auch mal ganz schön, auf See zu sein, non?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "... Whoa! Would you look at the time.",
        "transl": "... Woah! Hast du mal auf die Uhr geschaut?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      },
      null,
@@ -784,49 +1022,86 @@
       "message": {
        "orig": "Have we been really playing for that long?",
        "transl": "Haben wir wirklich schon so lange gespielt?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "... So yes, I have to logout.",
        "transl": "... Wird Zeit, dass ich mich auslogge.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Merde!\\. And I was having so much fun.",
        "transl": "Merde!\\. Grad jetzt, wo es doch die ganze Zeit so viel Bock macht.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "...<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "It can't be helped.",
        "transl": "Kann man nichts machen.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "But hey! Before I leave, we really should share contacts, non?",
        "transl": "Aber hey! Bevor ich dich verlasse, sollten wir Kontaktdaten austauschen, non?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -836,24 +1111,46 @@
        "transl": "Emilie<<C<<IGNORE"
       }
      },
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Next time, let's go out there and beat things up together!",
        "transl": "Lass uns nächstes Mal da rausgehen und ein paar Monster verkloppen!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Au revoir! See you soon!",
        "transl": "Au revoir! Bis bald!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      null,
@@ -869,90 +1166,156 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...So it seems you already made a friend!",
        "transl": "... Sieht so aus, als hättest du eine Freundin gefunden!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "I was worried that your speech malfunction would isolate you from other players.",
        "transl": "Ich hatte schon Sorge, das defekte Sprachmodul könnte dich von anderen Spielern isolieren.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "It is good to know there are players like Emilie that just overlook that.",
        "transl": "Es tut gut zu wissen, dass es Spieler wie Emilie da draußen gibt, die über so etwas hinwegsehen.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Though she did not seem to notice it in the first place, did she...",
        "transl": "Wobei sie jetzt nicht unbedingt so wirkte, als ob sie es gemerkt hätte...<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "...<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "... Anyway, it has been a really long day, Lea.",
        "transl": "... Jedenfalls... Das war ein wirklich langer Tag, Lea.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I suggest we log off, too.",
        "transl": "Ich schlage deswegen vor, dass wir uns nun auch ausloggen.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "I sort of need a break as well, you see?",
        "transl": "Ich brauche auch einmal eine Pause, verstehst du?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "...<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "...<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Do not worry... We will be back in the game soon enough.",
        "transl": "Mach dir keine Sorgen... Wir werden schon früh genug wieder im Spiel sein.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "Good Night, Lea.",
        "transl": "Gute Nacht, Lea.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
@@ -990,42 +1353,76 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Oh... hey...",
          "transl": "Oh... Hey..."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Did you actually come all the way here to talk to me?",
          "transl": "Bist du den ganzen Weg hergekommen, um mit mir zu reden?"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "That's...\\. nice.\\. But I'd actually prefer to be alone right now...\\. That's why I'm here.",
          "transl": "Ist echt nett von dir...\\. aber ich mag grad lieber alleine sein...\\. Deswegen bin ich hierhergekommen."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -1033,96 +1430,166 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.quadroguard-female-gray",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
+         }
+        },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Oh... hey...",
           "transl": "Oh... Hey..."
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "Sorry, I'm not in the mood for small talk.",
           "transl": "Tut mir leid, aber ich hab grad keine Lust zu reden."
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I just want to sit here alone.",
           "transl": "Ich will einfach nur hier alleine sitzen."
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi...",
           "transl": "Привіт..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SAD"
          }
         },
         {
          "message": {
           "orig": "You probably have a gift for me, right?",
           "transl": "Du hast wahrscheinlich ein Geschenk für mich, stimmt's?"
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It always comes around this time of the year.",
           "transl": "Das kommt immer um diese Jahreszeit."
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "They're always very sweet presents, really.",
           "transl": "Versteh mich nicht falsch, das sind wirklich immer tolle Geschenke."
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "This time just reminds me of another player who... \\.\\.\\. is not playing anymore.",
           "transl": "Aber diese Zeit erinnert mich immer an einen anderen Spieler, der...\\.\\.\\. nicht mehr spielt."
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SAD"
          }
         },
         {
          "message": {
           "orig": "Sorry, I'm just unloading my baggage on you. Just leave the present here. ",
           "transl": "Entschuldige, ich will meine Probleme nicht bei dir abladen. Lass das Geschenk einfach da."
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Thanks for bringing it.",
           "transl": "Danke fürs Vorbeibringen."
+         },
+         "person": {
+          "person": "cross-worlds.quadroguard-female-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         }
        ]
@@ -1130,18 +1597,36 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
+        }
+       },
        {
         "message": {
          "orig": "Thanks a lot for the present.\\. That was really nice.",
          "transl": "Vielen Dank für das Geschenk.\\. Das ist echt nett von dir."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ]
@@ -1172,18 +1657,36 @@
      },
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SLEEPING"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Good morning, Lea!",
        "transl": "Guten Morgen, Lea!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "...<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "WAKING"
       }
      },
      null,
@@ -1191,54 +1694,90 @@
       "message": {
        "orig": "...!",
        "transl": "...!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "...\\. Do you feel alright?",
        "transl": "...\\. Fühlst du dich okay?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "...<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "And...\\. you still remember everything from yesterday, right?\\. Meeting Emilie and all that?",
        "transl": "Und...\\. und du erinnerst dich noch an alles, was gestern passiert ist?\\. Dass du Emilie getroffen hast und all das?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Alright, great!",
        "transl": "Sehr gut!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "...<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Oh, by the way!\\. It seems that Emilie is online as-",
        "transl": "Ah, übrigens!\\. Emilie scheint gerade online zu sei-<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      null,
@@ -1246,115 +1785,207 @@
       "message": {
        "orig": "Oh.\\. That must be her.",
        "transl": "Ah!\\. Das muss sie sein.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "It's like a call. Just take it!",
        "transl": "Es ist wie ein Anruf. Nimm ihn einfach an!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Bonjour, Lea!",
        "transl": "Bonjour, Lea!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Hi!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "This is a direct link!\\. First time you've see it?",
        "transl": "Dies ist ein Direkt-Link!\\. Das erste Mal, dass du das nutzt?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Really fancy, non?",
        "transl": "Echt freaky, non?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Anyway, I just saw that you came online!",
        "transl": "Jedenfalls hab ich grad gesehen, dass du wieder online bist.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "I logged in a few minutes ago myself!",
        "transl": "Ich hab mich vor ein paar Minuten selbst erst eingeloggt.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'm in the city just to the north.\\. Come on, let's meet up!",
        "transl": "Ich bin in der Stadt, im Norden.\\. Komm, lass uns treffen!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Alright, I'll be waiting!",
        "transl": "Bon, ich warte auf dich!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Aaaaand...\\. Link end...\\. There!",
        "transl": "Uuuuund...\\. Link Ende...\\. Da!<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "See? That was fast, was it not?",
        "transl": "Siehst du? Das ging fix, nicht wahr?<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "You should meet her.\\. It is much more fun to explore CrossWorlds with others.",
        "transl": "Du solltest sie treffen.\\. Es ist viel schöner, CrossWorlds gemeinsam zu erkunden.<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]<<C<<IGNORE"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -1428,24 +2059,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Fantastique! Right at the sea, just like they said!",
        "transl": "Fantastique! Direkt am Meer, genau wie sie gesagt haben!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "The city should be right up ahead!\\. Go, go!",
        "transl": "Die Stadt müsste gleich dahinten sein!\\. Vite, vite!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -1487,71 +2140,120 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Cedric",
        "transl": "Wm. Cedric"
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I see you've found something here.\\. But what was up with that noise?",
        "transl": "Wie ich sehe, hast du was gefunden.\\. Aber was war das für ein Krach?"
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi...!",
        "transl": "Привіт...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "What, there was an automated Turret in the crate and it just attacked you on its own?",
        "transl": "Was? Da war ein automatisches Geschütz in der Kiste und es hat dich angegriffen?"
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "That's worse than we thought.\\. And there might be even more of those around here.",
        "transl": "Das ist schlimmer, als wir befürchtet hatten.\\. Es könnten sogar noch mehr davon hier herumliegen."
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But at least we have a suspect who is involved in this crime and should still be near.",
        "transl": "Aber zumindest haben wir einen Verdächtigen, der darin verwickelt sein könnte und noch ganz in der Nähe sein muss."
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Keep an eye out for a \\c[3]shady looking dockworker\\c[0] checking on crates.",
        "transl": "Halte Ausschau nach einem \\c[3]zwielichtigen Hafenarbeiter\\c[0], während du die restlichen Kisten überprüfst."
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We might be able to properly solve this mess once we get him.",
        "transl": "Wenn wir ihn schnappen, dürfte der Fall so gut wie erledigt sein."
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -1585,17 +2287,30 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Cedric",
          "transl": "Wm. Cedric"
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker]. I have to keep watch on the harbor and protect our citizens, so please excuse me.",
          "transl": "Grüß dich, Seeker. Ich halte hier Wache am Hafen, um die Bürger zu schützen. Also entschuldige mich bitte."
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1603,53 +2318,90 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Cedric",
           "transl": "Wm. Cedric"
+         },
+         "person": {
+          "person": "rookie-harbor.faction-rhg-man-offcr-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hello, \\v[lore.title.seeker].\\. I assume they sent you to help me investigate this smuggling case?",
           "transl": "Hallo, Seeker.\\. Ich nehme an, du bist die Verstärkung für den Schmugglerfall?"
+         },
+         "person": {
+          "person": "rookie-harbor.faction-rhg-man-offcr-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Excellent.\\. I want you to examine the crates on the eastern part of the harbor.",
           "transl": "Ausgezeichnet.\\. Ich möchte, dass du die Kisten im östlichen Teil des Hafens überprüfst."
+         },
+         "person": {
+          "person": "rookie-harbor.faction-rhg-man-offcr-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "The data signature of the suspicious goods has already been sent to you, so you should be able to sense it.",
           "transl": "Die Datensignatur der verdächtigen Güter wurde dir bereits übermittelt. Damit solltest du sie ausfindig machen können."
+         },
+         "person": {
+          "person": "rookie-harbor.faction-rhg-man-offcr-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "I'll be here investigating our leads to potential culprits.\\. Come back when you've found something.",
           "transl": "Ich bleibe hier und gehe die Hinweise zu möglichen Verdächtigen durch.\\. Komm zurück, wenn du was gefunden hast."
+         },
+         "person": {
+          "person": "rookie-harbor.faction-rhg-man-offcr-black",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         }
        ]
@@ -1657,17 +2409,30 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Cedric",
          "transl": "Wm. Cedric"
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The crate should be somewhere around here so you better find it!",
          "transl": "Die Kiste muss hier irgendwo sein, mach dich also besser auf die Suche!"
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1675,17 +2440,30 @@
      null,
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Cedric",
          "transl": "Wm. Cedric"
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You go find that suspicious dockworker!\\. I'll make sure he doesn't leave for the city.",
          "transl": "Du musst den verdächtigen Hafenarbeiter finden!\\. Ich passe hier auf, dass er den Hafen nicht verlässt."
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1694,17 +2472,30 @@
      null,
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Cedric",
          "transl": "Wm. Cedric"
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Well met, \\v[lore.title.seeker]. There has been no further trouble at the docks so far but we should stay vigilant.",
          "transl": "Gut gemacht, Seeker. Es gab an den Docks bisher keine Probleme mehr. Aber wir sollten wachsam sein."
+        },
+        "person": {
+         "person": "rookie-harbor.faction-rhg-man-offcr-black",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1723,11 +2514,20 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Sober Frank",
          "transl": "Nüchterner Frank"
+        },
+        "person": {
+         "person": "rookie-harbor.thief-man-big-eyepatch",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -1741,6 +2541,10 @@
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -1748,30 +2552,50 @@
         "message": {
          "orig": "Huh... what?\\. Can't you tell I'm working?",
          "transl": "Häh... was?\\. Kannst du nicht sehen, dass ich arbeite?"
+        },
+        "person": {
+         "person": "rookie-harbor.thief-man-big-eyepatch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": ".\\..\\..\\.Lea!",
          "transl": ".\\..\\..\\.Lea!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DETERMINED"
         }
        },
        {
         "message": {
          "orig": "You wanna know what I'm doing?\\. Keeping this harbor running without proper payment, as usual.",
          "transl": "Du willst wissen, was ich hier mache?\\. Den Hafen am Laufen halten. Ohne vernünftige Bezahlung. Wie immer."
+        },
+        "person": {
+         "person": "rookie-harbor.thief-man-big-eyepatch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But hey, if the high and mighty Seeker wants to inspect our shipments that badly... just give me a second.",
          "transl": "Aber hey, wenn Madame Seeker unsere Ladungen höchstpersönlich begutachten möchte... gib mir 'ne Sekunde."
+        },
+        "person": {
+         "person": "rookie-harbor.thief-man-big-eyepatch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": ".\\..\\..",
          "transl": ".\\..\\.."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        null,
@@ -1792,17 +2616,30 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "name": {
          "orig": "Sober Frank",
          "transl": "Nüchterner Frank"
+        },
+        "person": {
+         "person": "rookie-harbor.thief-man-big-eyepatch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Any second now...",
          "transl": "Geht gleich los..."
+        },
+        "person": {
+         "person": "rookie-harbor.thief-man-big-eyepatch",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1833,23 +2670,40 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Sober Frank",
        "transl": "Nüchterner Frank"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Can't let a humble worker earn his cash in peace, huh?",
        "transl": "Du kannst einen ehrlichen Arbeiter einfach nich' in Ruhe seine Kohle verdienen lassen, was?"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1858,29 +2712,50 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Sober Frank",
        "transl": "Nüchterner Frank"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "But trying to annoy me on my home-turf was a bad move, lady.",
        "transl": "Aber mir da auf'e Pelle zu rücken, wo ich mich auskenn', war'n schwerer Fehler, Fräulein."
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Now stay here and stop bothering me, will you?\\. I'll even leave you some company.",
        "transl": "Bleib jetzt hier und hör auf, mich zu nerven!\\. Ich lass dir sogar etwas Gesellschaft hier."
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -1903,6 +2778,10 @@
       "message": {
        "orig": "Don't think that's all I got!",
        "transl": "Glaub ja nich', dass das alles is', was ich auf Lager hab'!"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1913,6 +2792,10 @@
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -1929,17 +2812,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Sober Frank",
        "transl": "Nüchterner Frank"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      null,
@@ -1947,30 +2843,50 @@
       "message": {
        "orig": "Damn it, you again?",
        "transl": "Verdammt, du schon wieder?"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Still not satisfied after all those shipment inspections?\\. You sure are persistent.",
        "transl": "Immer noch nicht zufrieden nach all dem Herumgeschnüffle?\\. Du wirst langsam lästig."
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": ".\\..\\..\\.",
        "transl": ".\\..\\..\\."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Well, I guess it is time to bury the hatchet and get one of those lawyers, eh?",
        "transl": "Dann wird's wohl Zeit, das Kriegsbeil zu begraben und einen von diesen Anwälten zu holen, was?"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -1993,29 +2909,50 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "name": {
        "orig": "Sober Frank",
        "transl": "Nüchterner Frank"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Or maybe I'll just get rid of you and walk away.\\. How does that sound?",
        "transl": "Oder ich leg dich einfach um und geh dann einfach.\\. Wie klingt das?"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Lea!",
        "transl": "Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Say all you want, there is no turning back now.",
        "transl": "Sag, was du willst - jetzt gibt's kein Zurück mehr!"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -2043,30 +2980,56 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Sober Frank",
        "transl": "Nüchterner Frank"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...h-\\.hi!",
        "transl": "... H-\\.Hi!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Hrm, after all that trouble, those buckets of junk can't even get rid of some \\v[lore.title.seeker]s.",
        "transl": "Pff! Nach all dem Ärger können diese Blechdosen nicht mal mit 'nem Seeker fertig werden."
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Really makes you question the point of it all...",
        "transl": "Da frag' ich mich echt, wofür das Ganze..."
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -2076,12 +3039,20 @@
       "message": {
        "orig": "Hey, I'll be nice. No need to get violent with me.",
        "transl": "Sachte, sachte, keine Gewalt. Ich ergeb' mich."
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But, I guess I do have to face my problems the responsible way now...",
        "transl": "Ich komm' diesmal wohl nicht drum herum, mich meiner Verantwortung zu stellen..."
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -2102,71 +3073,120 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
+      }
+     },
      {
       "name": {
        "orig": "Sober Frank",
        "transl": "Nüchterner Frank"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Cedric",
        "transl": "Wm. Cedric"
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ouch...",
        "transl": "Aua!"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Don't move a muscle!",
        "transl": "Rühr dich nicht vom Fleck!"
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I've had just about enough of illegal turrets and smokebombs being thrown around here.",
        "transl": "Jetzt ist Feierabend hier mit den illegalen Geschützen und Rauchbomben!"
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": ".\\..\\..",
        "transl": ".\\..\\.."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Don't let falling for his little trick bother you, \\v[lore.title.seeker].\\. Seems to happen all the time lately.",
        "transl": "Ärgere dich nicht, dass er dich ausgetrickst hat, Seeker.\\. Die Nummer mit den Rauchbomben ist zur Zeit schwer beliebt."
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You did good work flushing him out and disposing of those toys of his.",
        "transl": "Du hast ihn aus der Reserve gelockt und sein Spielzeug zertrümmert. Das war gute Arbeit."
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "You sure like to get rough as long as it's just us lowly workers, don't you?",
        "transl": "Lässt wohl gerne deinen Frust an einfachen Arbeitern aus, hm? Mit den kann man's ja machen, nä?"
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Keep your mouth shut.\\. We can have a nice long talk back at the station.",
        "transl": "Halt deinen Mund.\\. Wir werden uns nachher auf der Wache unterhalten - und zwar sehr ausführlich."
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -2175,18 +3195,30 @@
       "message": {
        "orig": "And you better go there too and report to Sgt. Brassler.",
        "transl": "Du solltest uns dorthin begleiten und mit Hauptmann Brassler reden."
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He'll be pleased with what you've done here, even if he doesn't show it.",
        "transl": "Er wird mit deiner Arbeit hier sehr zufrieden sein, auch wenn er es sich nicht anmerken lässt."
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -2194,12 +3226,20 @@
       "message": {
        "orig": "Alright, off you go.\\. Don't make me tie you up and carry you all the way.",
        "transl": "Also, vorwärts, Bürschchen.\\. Zwing mich nicht, dich zu fesseln und den ganzen Weg über den Boden zu schlörr'n."
+      },
+      "person": {
+       "person": "rookie-harbor.faction-rhg-man-offcr-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Okay, okay.\\. At least leave a hard-working citizen some dignity.",
        "transl": "Schon gut, schon gut.\\. Lass einem hart arbeitenden Bürger wenigstens das letzte bisschen Rest an Würde."
+      },
+      "person": {
+       "person": "rookie-harbor.thief-man-big-eyepatch",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -2223,6 +3263,10 @@
         "message": {
          "orig": "Sacrebleu! Why would they add a door there?!",
          "transl": "Sacrebleu! Warum haben die ausgerechnet hier eine Tür hingebaut?!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        }
       ],
@@ -2234,6 +3278,10 @@
           "message": {
            "orig": "This door honestly just went where it was supposed to. Very consistent.",
            "transl": "Diese Tür steht ehrlich gesagt genau dort, wo sie stehen sollte. Ziemlich konsequent."
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "EXHAUSTED"
           }
          }
         ],
@@ -2245,6 +3293,10 @@
             "message": {
              "orig": "What was that? Did they honestly design it that way?",
              "transl": "Was soll das? Haben die das wirklich so gestaltet?"
+            },
+            "person": {
+             "person": "main.sergey",
+             "expression": "ROLL_EYES"
             }
            }
           ]
@@ -2271,23 +3323,40 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Captain Turbine",
          "transl": "Kapitän Törbein"
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Yarrr, the sea sounds restless.\\. A storm is afoot.",
          "transl": "Arrr, die See wird unrruhig.\\. Ein Sturrrm zieht auf."
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -2295,125 +3364,216 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Captain Turbine",
           "transl": "Kapitän Törbein"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Arr, \\v[lore.title.seeker].\\. You the one they sent to board our proud battleship here?",
           "transl": "Arrr, Seekerrr.\\. Bist du die, die sie uns schicken wollten?"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Hope a landlubber like you can hold yer own without steady land under yer feet.\\. The sea is a fickle lady, I tell ye.",
           "transl": "Wollen doch mal sehen, ob sich eine Landrrratte wie du auch ohne festen Boden behaupten kann.\\. Die See ist eine flatterrhafte Dame, sag' ich dirr."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Alright, alright.\\. Just wanted to get you in the mood.\\. Think like a smuggler to catch one, eh?",
           "transl": "Jarrr, jarrr.\\. Wollte dich nurr in Stimmung brringen.\\. Um einen Schmugglerr zu fangen, muss man wie einerr denken, nicht wahrrr?"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Got a lot of those criminals these days, sending weapons directly over the sea.",
           "transl": "Gibt in letzterr Zeit viele davon. Sie verrschiffen ihrre Waffenladungen dirrekt überr die See."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Only way to catch them is by intercepting them directly on the sea.\\. This is where you come in, \\v[lore.title.seeker].",
           "transl": "Die einzige Möglichkeit, sie zu schnappen, ist, sie dirrekt auf See abzufangen.\\. Hierr kommst du ins Spiel, Seekerrr."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         null,
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         }
+        },
         {
          "name": {
           "orig": "Captain Turbine",
           "transl": "Kapitän Törbein"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You will patrol the suspected smuggling routes with our state of the art combat platform here.",
           "transl": "Du wirrst die verrmuteten Schmugglerrrouten auf unserrer hochmoderrnen Gefechtsplattforrm hierr patrrouillieren."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "It's equipped with a \\c[3]Naval Protection Cannon\\c[0], or \\c[3]NPC\\c[0] for short, that's linked with your fancy Trackwalker systems.",
           "transl": "Sie ist mit einerr \\c[3]Marrineabwehrrkanone\\c[0] ausgerrrüstet, kurrrz \\c[3]MAK\\c[0], die mit deinem Pfadläuferrsystem verrbunden ist."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "So you'll be able to easily mark targets with your \\c[3]charged projectiles\\c[0] and the cannon will do the rest.",
           "transl": "Es wirrd also ein Leichtes fürr dich sein, das Ziel überr deine \\c[3]VRrrrPs\\c[0] anzuvisierren. Die Kanone errrledigt den Rrrest."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "What's more, your fancy \\c[3]heat\\c[0] and \\c[3]cold\\c[0] elements will give our cannon special properties! ",
           "transl": "Außerrdem werrden deine schnieken \\c[3]Hitze\\c[0]- und \\c[3]Kälte\\c[0]-Elemente unserrer Kanone besonderre Effekte verrleihen!"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Everything's been set up already, so just talk to me again if you wanna start your patrol.",
           "transl": "Es ist alles berrreit. Gib mirr Bescheid, wenn du auf Patrrrouille fahrren willst."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         }
        ]
@@ -2430,17 +3590,30 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Captain Turbine",
           "transl": "Kapitän Törbein"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Are you ready to go?",
           "transl": "Bist du berrreit?"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -2457,12 +3630,20 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Good.\\. The route is already programmed into the ship.\\. Just get aboard.",
             "transl": "Gut.\\. Die Rrroute ist im Borrdcomputer schon einprrogrammiert.\\. Geh einfach an Borrd."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -2470,53 +3651,90 @@
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Captain Turbine",
             "transl": "Kapitän Törbein"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Make sure to destroy as many weapons as you can.",
             "transl": "Sieh zu, dass du so viele Waffen wie möglich verrrsenkst!"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "If \\c[3]too many get through\\c[0] this operation will be considered \\c[3]failed\\c[0].",
             "transl": "Wenn dirr \\c[3]zu viele durrch die Lappen gehen\\c[0], ist unserre Operration \\c[3]gescheiterrt\\c[0]."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           },
           {
            "message": {
             "orig": "Well, I'm sure you could've guessed that already.",
             "transl": "Da wärrst du wahrrscheinlich aberr auch so drrauf gekommen."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Off you go.\\. Good hunting!",
             "transl": "Arrr!\\. Auf eine gute Jagd, Seekerrr."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
            }
           }
          ],
@@ -2525,12 +3743,20 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Don't take too much time.\\. More shipments are arriving every day!",
             "transl": "Lass dirr nicht zuviel Zeit.\\. Tagtäglich kommen mehrr und mehrr Ladungen an!"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -2539,107 +3765,185 @@
            "message": {
             "orig": "How?",
             "transl": "Як?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Well, you will patrol the smuggling route and make sure those weapons don't reach the continent.",
             "transl": "Also, du wirrst die Schmugglerrroute patrrouillieren und dafürr sorrgen, dass die Waffen den Kontinent nicht errreichen."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Captain Turbine",
             "transl": "Kapitän Törbein"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "To help you, we prepared this masterpiece of naval warfare that is able to fire devastating projectiles.",
             "transl": "Um dirr zu helfen, haben wirr dieses Meisterrwerrk der Seekrrriegsführrung vorrberreitet, das in derr Lage ist, verrheerrende Prrrojektile abzufeuerrn."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "To use it, just \\c[3]mark\\c[0] an enemy with a \\c[3]charged projectile\\c[0] when the turret is \\c[3]ready\\c[0].",
             "transl": "Dazu musst du lediglich einen Feind mit einem \\c[3]geladenen Projektil marrkierren\\c[0], sobald das Geschütz \\c[3]berrreit\\c[0] ist."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Aside from doing \\c[3]high damage\\c[0] those will also \\c[3]stun\\c[0] and \\c[3]disrupt shields\\c[0].",
             "transl": "Neben \\c[3]hohem Schaden\\c[0] verrurrrsacht das Geschoss zusätzlich \\c[3]Lähmung\\c[0] und \\c[3]durrchbrrricht dessen Schild\\c[0]."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Also, depending on the \\c[3]element\\c[0] you used to mark the enemy, the type of shot will differ.",
             "transl": "Abhängig davon, in welchem \\c[3]Element-Modus\\c[0] du dich befindest, varrriiert der Typ des Geschosses."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "\\c[3]Neutral\\c[0] shots are your standard single-target projectile.\\. \\c[3]No special attributes\\c[0] but \\c[3]fast reloading\\c[0].",
             "transl": "\\c[3]Neutrral\\c[0]-Geschosse sind das Standarrd-Prrrojektil für Einzelziele.\\. \\c[3]Keine Besonderrheiten\\c[0] außer \\c[3]schnellem Nachladen\\c[0]."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "\\c[3]Heat\\c[0] shots cause an \\c[3]explosion\\c[0] on hit, damaging \\c[3]nearby targets\\c[0] as well.",
             "transl": "\\c[3]Hitze\\c[0]-Geschosse verrurrrsachen \\c[3]Explosionsschaden\\c[0], der auch \\c[3]benachbarrrte Ziele\\c[0] trifft."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Lastly, \\c[3]Cold\\c[0] shots are \\c[3]single-target\\c[0] as well, but they are \\c[3]more powerful\\c[0] and also \\c[3]slow down\\c[0] whatever they hit.",
             "transl": "\\c[3]Kälte\\c[0]-Geschosse schaden nur \\c[3]einem Ziel\\c[0], sind dafürr \\c[3]krrraftvollerr\\c[0] und \\c[3]verrlangsamen\\c[0] den Feind."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "\\c[3]Other Elements\\c[0] are still \\c[3]not implemented\\c[0], so they will just trigger the \\c[3]Neutral projectiles\\c[0].",
             "transl": "\\c[3]Anderre Elemente\\c[0] sind noch nicht implementierrt. Stattdessen werrden einfach \\c[3]Neutrral-Geschosse\\c[0] verrschossen."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "The turret is also pretty sturdy.\\. Though, you should still be careful of \\c[3]explosives\\c[0] and \\c[3]disruption shots\\c[0].",
             "transl": "Das Geschütz ist rrrecht schwerrgängig.\\. Verrsuche trrotzdem, \\c[3]Grrranaten\\c[0] und \\c[3]Störrgeschossen\\c[0] auszuweichen."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Those will do \\c[3]great damage\\c[0] to your ship and also \\c[3]stun\\c[0] it shortly.\\. You won't want it exploding in the ocean, right?",
             "transl": "Sie verrurrrsachen nämlich \\c[3]schwerren Schaden\\c[0] und kurrzzeitige \\c[3]Lähmung\\c[0].\\. Zuviele davon und KRRRAWUMM! - derr Kahn fliegt in die Luft!"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SCARED"
            }
           },
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Captain Turbine",
             "transl": "Kapitän Törbein"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Anyway, are you ready to go now?",
             "transl": "Jarrr, bist du nun berrreit?"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -2669,17 +3973,30 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Captain Turbine",
          "transl": "Kapitän Törbein"
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Report back to Sergeant Brassler.\\. The logs have already been sent.",
          "transl": "Melde dich bei Hauptmann Brrrassler.\\. Der Berricht ist schon rraus."
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -2689,17 +4006,30 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Captain Turbine",
          "transl": "Kapitän Törbein"
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Well met, \\v[lore.title.seeker]. There has been no further trouble at the docks so far but we should stay vigilant.",
          "transl": "Gut gemacht, Seekerrr. Es gab an den Docks bisherr keine Prrobleme mehrr. Aberr wirr sollten wachsam sein."
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -2707,112 +4037,190 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Captain Turbine",
           "transl": "Kapitän Törbein"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hey, \\v[lore.title.seeker].\\. I hear we got you back on board for this cruise?",
           "transl": "Arrr, Seekerrr.\\. Wie ich gehörrt habe, bist du wiederr mit von derr Parrrtie?"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "That's reassuring.\\. It sure beats teaching someone else how to use our battleship.",
           "transl": "Gut zu wissen.\\. Sonst hätte ich irrrgend so einen Grrrünschnabel neu anlerrrnen müssen."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "So, I assume you remember our trusted NPC.",
           "transl": "Dann dürrfte dirr unserr trrrauter Frrreund hierr noch in besterr Errinnerrung sein."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         }
+        },
         {
          "name": {
           "orig": "Captain Turbine",
           "transl": "Kapitän Törbein"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You will use it to patrol a new smuggling route, again, and take out the incoming weapons.",
           "transl": "Patrrouillierre die neue Schmugglerrroute und setze zunächst den herranrrrückenden Feind außerr Gefecht."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "However, once you have defeated that wave, we will use their route to locate the position of the coordinator that controls them!",
           "transl": "Sobald du die Welle errledigt hast, folgen wirr ihrrerr Rrroute, um den Koorrrdinatorr zu orrten!"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Destroying that will halt their operation completely and get us some data on the criminals behind that.",
           "transl": "Zerrstörren wirr ihn, fällt derren ganze Operration buchstäblich ins Wasserr und wirr krriegen Inforrmationen überr die Hinterrmännerr."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Well, that's your job. We also upgraded the \\c[3]Naval Protection Cannon\\c[0]'s weaponry a bit.",
           "transl": "So weit zu deinem Auftrrag. Wirr haben die \\c[3]Marrineabwehrrkanone\\c[0] übrrigens etwas aufgemotzt."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You can now use all your elements, including \\c[3]shock\\c[0] and \\c[3]wave\\c[0], to order special projectiles from the cannon!",
           "transl": "Du kannst nun all deine Elemente nutzen, auch \\c[3]Schock\\c[0] und \\c[3]Welle\\c[0], um Spezialgeschosse aus derr Kanone zu feuerrn!"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Just mark targets with your \\c[3]charged projectiles\\c[0] as before.",
           "transl": "Marrrkierre deine Ziele dazu einfach mit \\c[3]geladenen Projektilen\\c[0], wie gehabt."
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Well, everything is ready to go. Just talk to me again once you wanna start your patrol.",
           "transl": "Nun, wirr sind starrtklarr, Seekerr. Auf dein Kommando, arrr!"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         }
        ]
@@ -2829,17 +4237,30 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Captain Turbine",
           "transl": "Kapitän Törbein"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Are you ready to go?",
           "transl": "Bist du berrreit?"
+         },
+         "person": {
+          "person": "guards.male-hairs-white",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -2856,12 +4277,20 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Good.\\. The route is already programmed into the ship.\\. Just get aboard.",
             "transl": "Gut.\\. Die Rrroute ist im Borrrdcomputer schon einprrrogrammiert.\\. Geh einfach an Borrrd."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -2869,53 +4298,90 @@
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Captain Turbine",
             "transl": "Kapitän Törbein"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Make sure to destroy as many weapons as you can.",
             "transl": "Sieh zu, dass du so viele Waffen wie möglich verrrsenkst."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "If \\c[3]too many get through\\c[0] this operation will be considered \\c[3]failed\\c[0].",
             "transl": "Wenn dirr \\c[3]zu viele durch die Lappen gehen\\c[0], betrrrachten wirr diese Operration als \\c[3]gescheitert\\c[0]."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           },
           {
            "message": {
             "orig": "Well, I'm sure you could've guessed that already.",
             "transl": "Ich verrmute aberr, dass du dirr schon so was gedacht hast."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Off you go.\\. Good hunting!",
             "transl": "Arrr!\\. Auf eine gute Jagd, Seekerrr."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
            }
           }
          ],
@@ -2924,12 +4390,20 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Don't take too much time.\\. More shipments are arriving every day!",
             "transl": "Lass dirr nicht zuviel Zeit.\\. Tagtäglich kommen mehrr und mehrr Ladungen an!"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -2938,113 +4412,195 @@
            "message": {
             "orig": "How?",
             "transl": "Як?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Well, you will patrol the smuggling route and make sure those weapons don't reach the continent.",
             "transl": "Also, du wirrst die Schmugglerrroute patrrouillierren und dafürr sorrgen, dass die Waffen den Kontinent nicht errreichen."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Captain Turbine",
             "transl": "Kapitän Törbein"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "To help you, we prepared this masterpiece of naval warfare that is able to fire devastating projectiles.",
             "transl": "Um dirr zu helfen, haben wirr dieses Meisterrwerrk der Seekrrriegsführrung vorrberrreitet, das in der Lage ist, verrheerrende Prrrojektile abzufeuerrn."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "To use it, just \\c[3]mark\\c[0] an enemy with a \\c[3]charged projectile\\c[0] when the turret is \\c[3]ready\\c[0].",
             "transl": "Dazu musst du lediglich einen Feind mit einem \\c[3]geladenen Projektil marrrkierren\\c[0], wenn das Geschütz \\c[3]berrreit\\c[0] ist."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Aside from doing \\c[3]high damage\\c[0] those will also \\c[3]stun\\c[0] and \\c[3]disrupt shields\\c[0].",
             "transl": "Neben \\c[3]hohem Schaden\\c[0] verrurrrsacht das Geschoss zusätzlich \\c[3]Lähmung\\c[0] und \\c[3]durrchbrrricht dessen Schild\\c[0]."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Also, depending on the \\c[3]element\\c[0] you used to mark the enemy, the type of shot will differ.",
             "transl": "Abhängig davon, in welchem \\c[3]Element-Modus\\c[0] du dich befindest, varrriierrt der Typ des Geschosses."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "\\c[3]Neutral\\c[0] shots are your standard single-target projectile.\\. \\c[3]No special attributes\\c[0] but \\c[3]fast reloading\\c[0].",
             "transl": "\\c[3]Neutrral\\c[0]-Geschosse sind dein Standarrrd-Prrrojektil für Einzelziele.\\. \\c[3]Keine Besonderrrheiten\\c[0] außer \\c[3]schnellem Nachladen\\c[0]."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "\\c[3]Heat\\c[0] shots cause an \\c[3]explosion\\c[0] on hit, damaging \\c[3]nearby targets\\c[0] as well.",
             "transl": "\\c[3]Hitze\\c[0]-Geschosse verrurrrsachen \\c[3]Explosionsschaden\\c[0], der auch \\c[3]benachbarrrte Ziele\\c[0] trifft."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "\\c[3]Cold\\c[0] shots are \\c[3]single-target\\c[0] as well, but they are \\c[3]more powerful\\c[0] and also \\c[3]slow down\\c[0] whatever they hit.",
             "transl": "\\c[3]Kälte\\c[0]-Geschosse schaden nur \\c[3]einem Ziel\\c[0], sind dafürr \\c[3]krrraftvollerr\\c[0] und \\c[3]verrlangsamen\\c[0] den Feind."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "\\c[3]Shock\\c[0] shots always \\c[3]hit exactly two targets\\c[0] even if there is a \\c[3]large distance\\c[0] between them.",
             "transl": "\\c[3]Schock\\c[0]-Geschosse schaden immerr \\c[3]zwei Zielen\\c[0], \\c[3]egal wie grroß der Abstand\\c[0] zwischen ihnen ist."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Lastly, \\c[3]Wave\\c[0] shots go in a \\c[3]penetrating straight line\\c[0] through enemies and also \\c[3]cause a useful \\c[1]Mark\\c[3] effect\\c[0].",
             "transl": "\\c[3]Welle\\c[0]-Geschosse \\c[3]schlagen in grrraderr Linie\\c[0] durch die Feinde und \\c[1]marrrkierren\\c[0] sie."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "The turret is also pretty sturdy.\\. Though, you should still be careful of \\c[3]explosives\\c[0] and \\c[3]disruption shots\\c[0].",
             "transl": "Das Geschütz ist rrrecht schwerrgängig.\\. Verrsuche trrotzdem, \\c[3]Grrranaten\\c[0] und \\c[3]Störrgeschossen\\c[0] auszuweichen."
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Those will do \\c[3]great damage\\c[0] to your ship and also \\c[3]stun\\c[0] it shortly.\\. You won't want it exploding in the ocean, right?",
             "transl": "Sie verrurrrsachen nämlich \\c[3]schwerren Schaden\\c[0] und kurrzzeitige \\c[3]Lähmung\\c[0].\\. Zuviele davon und KRRRAWUMM! - derr Kahn fliegt in die Luft!"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SCARED"
            }
           },
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "name": {
             "orig": "Captain Turbine",
             "transl": "Kapitän Törbein"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Anyway, are you ready to go now?",
             "transl": "Jarrr. Bist du nun berreit?"
+           },
+           "person": {
+            "person": "guards.male-hairs-white",
+            "expression": "DEFAULT"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -3074,17 +4630,30 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Captain Turbine",
          "transl": "Kapitän Törbein"
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Report back to Sergeant Brassler.\\. The logs have already been sent.",
          "transl": "Melde dich bei Hauptmann Brrrassler.\\. Die Prrrotokolle sind berreits rraus."
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -3094,17 +4663,30 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Captain Turbine",
          "transl": "Kapitän Törbein"
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Well met, \\v[lore.title.seeker]. There has been no further trouble at the docks so far but we should stay vigilant.",
          "transl": "Gut gemacht, Seekerrr. Es gab an den Docks bisherr keine Prrobleme mehrr. Aberr wirr sollten wachsam sein."
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -3130,41 +4712,70 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Captain Turbine",
        "transl": "Kapitän Törbein"
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Welcome back, \\v[lore.title.seeker]!\\. Seems like you wrecked that shipment nicely!",
        "transl": "Arrr! Willkommen zurück, Seekerrr!\\. Wie ich gesehen habe, hast du die Ladung sauberr verrrsenkt!"
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "It was also a good testrun for our NPC here.\\. I think it will be very useful defending against future attacks.",
        "transl": "Das warr auch ein guterr Prrrobelauf für unserr MAK-Schätzchen hierr.\\. Die wirrd uns bei derr Verrteidigung zukünftigerr Angrriffe überraus nützlich sein."
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "In any case, you did well, but I'm sure you wanna be back on land again.",
        "transl": "Du hast dich gut geschlagen, Seekerrr, aberr du kannst es wahrrrscheinlich kaum errwarten, wiederr festen Boden unterr den Füßen zu haben, nicht wahrrr?"
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -3174,29 +4785,50 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Captain Turbine",
        "transl": "Kapitän Törbein"
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Report back to Sgt. Brassler now, to get your due reward.",
        "transl": "Melde dich bei Hauptmann Brrrassler, um deine Belohnung einzustrrreichen."
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I will send him those impressive combat logs immediately.",
        "transl": "Ich werrde ihm umgehend die beeindrruckenden Gefechtsprrrotokolle schicken."
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      }
     ]
@@ -3209,36 +4841,66 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.pringle-the-one",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey bluehaired girl!",
          "transl": "Hey, Blauschopf!"
+        },
+        "person": {
+         "person": "guests.pringle-the-one",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi?",
          "transl": "Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "CrossWorlds is full of bizarre and cool things.",
          "transl": "CrossWorlds steckt voller bizarrer und cooler Überraschungen."
+        },
+        "person": {
+         "person": "guests.pringle-the-one",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "I hope you enjoy your stay.... And never give up!",
          "transl": "Ich hoffe, du genießt deine Zeit hier... Und gib niemals auf!"
+        },
+        "person": {
+         "person": "guests.pringle-the-one",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -3262,35 +4924,60 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Captain Turbine",
        "transl": "Kapitän Törbein"
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "\\v[lore.title.seeker], you did it!\\. The coordinator has been sunk along with the entire shipment!",
        "transl": "Seekerrr, du hast es geschafft!\\. Du hast den Koorrdinatorr mitsamt seinerr Ladung verrrsenkt!"
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Our ship has become a terrific tool in your hands.\\. Better come back on land before you get too attached to it.",
        "transl": "Unserr Schiff ist in deinerr Hand zu einem herrvorrragenden Werrrkzeug geworrden.\\. Komm lieberr wieder an Land, bevorr du dich zu sehrr darran gewöhnst."
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -3300,29 +4987,50 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Captain Turbine",
        "transl": "Kapitän Törbein"
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Report back to Sgt. Brassler now, to get your reward and some well-deserved praise.",
        "transl": "Melde dich bei Hauptmann Brrrassler, um dirr deine Belohnung und ein verrdientes Lob abzuholen."
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I will send him a full report immediately.",
        "transl": "Ich werrde ihm umgehend den Berrricht schicken."
+      },
+      "person": {
+       "person": "guards.male-hairs-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      }
     ]

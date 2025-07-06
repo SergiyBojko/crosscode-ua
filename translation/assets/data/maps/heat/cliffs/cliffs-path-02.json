@@ -415,73 +415,132 @@
        "transl": "Ziemlich gut. \\c[3]Die ACF sagt, dass wir jetzt 50% der Galaxis kartografiert haben!\\c[0]"
       },
       "event": [
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-dark",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Oh hey, you're interested in my job too?",
          "transl": "Oh, hallo. Bist du auch an meiner Arbeit interessiert?"
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "She's an Explorer!",
          "transl": "Sie ist eine Erkunderin!"
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-dark",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "Oh come on, it's not that big of a deal.",
          "transl": "Ach, mach da nicht so eine große Sache draus."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'm part of the \\v[lore.unlock.colony-federation]\\c[3]ACF's\\c[0] exploration team.",
          "transl": "Ich gehöre zum \\v[lore.unlock.colony-federation]\\c[3]ACF\\c[0] Erkundungs-Team."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Once a year we're exploring and charting a new part of a larger sector.",
          "transl": "Wir erkunden einmal im Jahr einen Teil eines größeren Gebiets und kartographieren ihn."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It takes a long time as we can't just warp ourselves around.",
          "transl": "Wir kommen nur langsam voran, weil wir uns leider nicht einfach herumwarpen können."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But it is pretty fun!",
          "transl": "Aber es macht richtig Spaß!"
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "And exciting!",
          "transl": "Und aufregend ist es auch!"
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-dark",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]
@@ -508,12 +567,20 @@
       "message": {
        "orig": "More of these unique cliff structures...",
        "transl": "Noch mehr von diesen sonderbaren Klippenstrukturen..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "You sure you want to comment on those now? Better concentrate on jumping!",
        "transl": "Willst du das jetzt wirklich kommentieren? Konzentrier dich lieber aufs Springen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      }
     ]

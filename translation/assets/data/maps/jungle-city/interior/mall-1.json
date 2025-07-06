@@ -28,12 +28,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Welcome! Find all our vending goods here but with a personal touch.",
           "transl": "Willkommen! Hier findest du alle unsere Verkaufswaren, aber mit einer persönlichen Note!"
+         },
+         "person": {
+          "person": "basin.female-green",
+          "expression": "DEFAULT"
          }
         }
        ]

@@ -605,18 +605,30 @@
            "message": {
             "orig": "Y-You think that bug will go away while we wait patiently?",
             "transl": "G-Glaubst du, der Käfer verschwindet, wenn wir geduldig warten?"
+           },
+           "person": {
+            "person": "main.emilie",
+            "expression": "SWEATY_SMILE"
            }
           },
           {
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Of course not. Why would it?",
             "transl": "Natürlich nicht. Warum sollte er auch.<<A<<[CHANGED 2021/05/22]"
+           },
+           "person": {
+            "person": "main.emilie",
+            "expression": "EXHAUSTED"
            }
           }
          ]
@@ -878,6 +890,10 @@
           "message": {
            "orig": "This...\\. This is boring.",
            "transl": "Das...\\. Das ist langweilig."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          }
         ],
@@ -888,6 +904,10 @@
             "message": {
              "orig": "This is so relaxing.",
              "transl": "Das ist so entspannend."
+            },
+            "person": {
+             "person": "antagonists.sidekick",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -896,6 +916,10 @@
             "message": {
              "orig": "Oh, it's the Trial of Patience, I see...",
              "transl": "Oh, die Prüfung der Geduld, verstehe..."
+            },
+            "person": {
+             "person": "main.sergey",
+             "expression": "WHISTLING"
             }
            }
           ]
@@ -912,12 +936,20 @@
           "message": {
            "orig": "This... This can't be right!",
            "transl": "Ha... Habt ihr das gesehen? Da stimmt doch was nicht!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "SHOUTING"
           }
          },
          {
           "message": {
            "orig": "This pipe is CHEATING!",
            "transl": "Das Rohr CHEATET!"
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "POINTING"
           }
          }
         ],
@@ -928,12 +960,20 @@
             "message": {
              "orig": "That pipe... that doesn't seem physically correct, does it?",
              "transl": "Dieses Rohr... Das sieht physikalisch irgendwie nicht korrekt aus, oder?"
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "EMBARRASSED"
             }
            },
            {
             "message": {
              "orig": "Gosh, Water in CrossWorlds. Not gonna get over that.",
              "transl": "Oh Mann, Wasser in CrossWorlds. Damit komme ich einfach nicht klar."
+            },
+            "person": {
+             "person": "main.glasses",
+             "expression": "WORRIED"
             }
            },
            {
@@ -942,6 +982,10 @@
               "message": {
                "orig": "Hush, Nerd!",
                "transl": "Pscht, du Nerd!"
+              },
+              "person": {
+               "person": "main.emilie",
+               "expression": "SUSPICIOUS"
               }
              }
             ],
@@ -950,6 +994,10 @@
               "message": {
                "orig": "...Wait...",
                "transl": "... Зачекай..."
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "ANNOYED"
               }
              }
             ]
@@ -960,6 +1008,10 @@
             "message": {
              "orig": "They really had fun with that bamboo fountain, didn't they?",
              "transl": "An dieser Bambusquelle hatten sie wohl ihren Spaß, was?"
+            },
+            "person": {
+             "person": "main.sergey",
+             "expression": "ROLL_EYES"
             }
            }
           ]
@@ -976,12 +1028,20 @@
           "message": {
            "orig": "By the way! I've found a way to add a counter to make your life easier, Lea!",
            "transl": "Übrigens! Ich habe einen Weg gefunden, als Erleichterung einen Zähler einzubauen, Lea!"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "WHISTLING"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ASTONISHED"
           }
          },
          null,
@@ -1009,18 +1069,30 @@
           "message": {
            "orig": "W...Wait... Damn, I made a mistake!",
            "transl": "M... Moment... Mist, ich habe einen Fehler gemacht!"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "INTENSE2"
           }
          },
          {
           "message": {
            "orig": "Lea, please ignore the counter! It's wrong!",
            "transl": "Lea, ignoriere bitte den Zähler! Er ist fehlerhaft!"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "INTENSE1"
           }
          },
          {
           "message": {
            "orig": "...?!",
            "transl": "...?!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHOCKED"
           }
          }
         ],
@@ -1031,24 +1103,40 @@
             "message": {
              "orig": "Man, I remember how I saw a fountain like this in real life a long time ago.",
              "transl": "Ich erinnere mich, wie ich mal einen Brunnen wie diesen in echt gesehen habe. Ist schon länger her."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "AWAY"
             }
            },
            {
             "message": {
              "orig": "How many years ago was it?\\. \\c[3]6\\c[0]?\\. Maybe even \\c[3]8\\c[0].",
              "transl": "War das vor \\c[3]6\\c[0] Jahren?\\. Oder \\c[3]8\\c[0]?<<A<<[CHANGED 2021/05/22]"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "UP"
             }
            },
            {
             "message": {
              "orig": "Anyway people kept throwing coins at it for good luck.",
              "transl": "Jedenfalls haben die Leute da immer Münzen reingeworfen. Sollte ihnen wohl Glück bringen."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "WATCH_OUT_BADASS"
             }
            },
            {
             "message": {
              "orig": "And there was this one guy that threw like...\\. \\c[3]10 coins\\c[0] at it at once.\\. The poor thing almost broke!",
              "transl": "Und da war dieser eine Typ, der hat...\\. \\c[3]10 Münzen\\c[0] auf einmal reingeworfen.\\. Das Ding ging fast kaputt!"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "EXHAUSTED"
             }
            }
           ],
@@ -1059,24 +1147,40 @@
               "message": {
                "orig": "I heard stories of Seekers that managed to fail this challenge more than \\c[3]8 times\\c[0]!",
                "transl": "Ich habe gehört, manche haben diese Prüfung selbst beim \\c[3]8. Mal\\c[0] nicht geschafft.<<A<<[CHANGED 2021/05/22]"
+              },
+              "person": {
+               "person": "antagonists.fancyguy",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "That is ridiculous! Counting to \\c[3]12\\c[0] should be easy! It's barely more than \\c[3]10\\c[0]!",
                "transl": "Das ist absurd! Bis \\c[3]12\\c[0] zählen sollte einfach sein! Es ist kaum mehr als \\c[3]10\\c[0]!"
+              },
+              "person": {
+               "person": "antagonists.fancyguy",
+               "expression": "DOWN"
               }
              },
              {
               "message": {
                "orig": "Whyyyyyy?!",
                "transl": "Waruuuuuum?!"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "ANNOYED"
               }
              },
              {
               "message": {
                "orig": "What is it, Spheromancer Lea?\\. Do you think counting to \\c[3]10\\c[0] is hard?\\. What about \\c[3]8\\c[0]?",
                "transl": "Was ist, Spheromancer Lea?\\. Glaubst du, bis \\c[3]10\\c[0] zu zählen ist zu schwer?\\. Wie wäre es mit... \\c[3]8\\c[0]?"
+              },
+              "person": {
+               "person": "antagonists.fancyguy",
+               "expression": "PONDERING"
               }
              }
             ],
@@ -1087,30 +1191,50 @@
                 "message": {
                  "orig": "Hm... \\c[3]8\\c[0] eggs,\\. \\c[3]6\\c[0] carrots,\\. \\c[3]10\\c[0] onions...",
                  "transl": "Hm... \\c[3]8\\c[0] Eier,\\. \\c[3]6\\c[0] Karroten,\\. \\c[3]10\\c[0] Zwiebeln..."
+                },
+                "person": {
+                 "person": "antagonists.sidekick",
+                 "expression": "ANGRY"
                 }
                },
                {
                 "message": {
                  "orig": "Whyyyyyy?!",
                  "transl": "Waruuuuuum?!"
+                },
+                "person": {
+                 "person": "main.lea",
+                 "expression": "ANNOYED"
                 }
                },
                {
                 "message": {
                  "orig": "Ah sorry, I'm trying to remember what I still have to buy for dinner tonight.",
                  "transl": "Tut mir leid, aber ich muss mich daran erinnern, was ich nachher fürs Abendessen einkaufen will."
+                },
+                "person": {
+                 "person": "antagonists.sidekick",
+                 "expression": "DEFAULT"
                 }
                },
                {
                 "message": {
                  "orig": "Gonna have to start cooking at \\c[3]7\\c[0] to be done in time.",
                  "transl": "Ich muss um \\c[3]7\\c[0] anfangen zu kochen, um rechtzeitig fertig zu werden."
+                },
+                "person": {
+                 "person": "antagonists.sidekick",
+                 "expression": "SURPRISED"
                 }
                },
                {
                 "message": {
                  "orig": "Wait!",
                  "transl": "Зачекай!"
+                },
+                "person": {
+                 "person": "main.lea",
+                 "expression": "DETERMINED"
                 }
                }
               ],
@@ -1121,30 +1245,50 @@
                   "message": {
                    "orig": "Err... Did it tip \\c[3]6\\c[0] times now?\\. Or was it \\c[3]7\\c[0], already?\\. Dang it.",
                    "transl": "Ööh... Ist es nun \\c[3]6\\c[0] mal gekippt?\\. Oder war es schon \\c[3]7\\c[0] mal?\\. Mist."
+                  },
+                  "person": {
+                   "person": "main.glasses",
+                   "expression": "EMBARRASSED"
                   }
                  },
                  {
                   "message": {
                    "orig": "I was distracted by the implausible water physics and forgot to count...",
                    "transl": "Ich wurde von der unplausibeln Wasserphysik abgelenkt und habe vergessen zu zählen."
+                  },
+                  "person": {
+                   "person": "main.glasses",
+                   "expression": "WORRIED"
                   }
                  },
                  {
                   "message": {
                    "orig": "...",
                    "transl": "..."
+                  },
+                  "person": {
+                   "person": "main.lea",
+                   "expression": "ANNOYED"
                   }
                  },
                  {
                   "message": {
                    "orig": "So like...\\. where are we now?\\. \\c[3]9\\c[0]? \\c[3]11\\c[0]?\\. Gosh, I messed up!",
                    "transl": "Wo waren wir?\\. Bei \\c[3]9\\c[0]? Oder bei \\c[3]11\\c[0]?\\. Verdammich, ich hab's verbockt!"
+                  },
+                  "person": {
+                   "person": "main.glasses",
+                   "expression": "SHOCKED"
                   }
                  },
                  {
                   "message": {
                    "orig": "Whyyyy?!",
                    "transl": "Waruuuum?!"
+                  },
+                  "person": {
+                   "person": "main.lea",
+                   "expression": "SHOCKED"
                   }
                  }
                 ]
@@ -1217,12 +1361,20 @@
       "message": {
        "orig": "Somebody heeelp!\\. There are way too many of them!\n",
        "transl": "Hilfeeee!!\\. Das sind zu vieleeee!!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "WHY?!\\. HOW?!",
        "transl": "WARUM?!\\. WIE?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      }
     ]
@@ -1253,6 +1405,10 @@
           "message": {
            "orig": "PLEASE WHY SO MANY BUGS AGAIN CAN I PLEASE HAVE A BREAK?!",
            "transl": "WARUM SCHON WIEDER SO VIELE KÄFER?! KRIEG ICH BITTE MAL NE PAUSE?!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SHOCKED"
           }
          }
         ],
@@ -1263,6 +1419,10 @@
             "message": {
              "orig": "This amount of opponents it's.... it's very unjust!! ",
              "transl": "Die Anzahl der Feinde ist... äußerst ungerecht!!"
+            },
+            "person": {
+             "person": "antagonists.fancyguy",
+             "expression": "POINTING"
             }
            }
           ],
@@ -1271,6 +1431,10 @@
             "message": {
              "orig": "How is it even possible to assemble so many enemies?",
              "transl": "Wie ist es überhaupt möglich, so viele Gegner anzuhäufen?"
+            },
+            "person": {
+             "person": "main.sergey",
+             "expression": "SURPRISED"
             }
            }
           ]
@@ -1284,6 +1448,10 @@
           "message": {
            "orig": "There really is no end to them, is there?",
            "transl": "Das nimmt ja überhaupt kein Ende!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SHOCKED"
           }
          }
         ],
@@ -1294,6 +1462,10 @@
             "message": {
              "orig": "Just how many of those bugs are there?",
              "transl": "Wie viele von diesen Käfern gibt es denn hier?<<A<<[CHANGED 2021/05/22]"
+            },
+            "person": {
+             "person": "antagonists.sidekick",
+             "expression": "ANGRY"
             }
            }
           ],
@@ -1302,6 +1474,10 @@
             "message": {
              "orig": "Ahhhhh!\\. Why won't they stop coming?!",
              "transl": "Ahhhhh!\\. Warum kommen immer mehr?!"
+            },
+            "person": {
+             "person": "party-tmp.triblader-1",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -1330,6 +1506,10 @@
       "message": {
        "orig": "Now HERE's how you make an entrance!",
        "transl": "SO macht man einen Auftritt!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1342,6 +1522,10 @@
       "message": {
        "orig": "The cavalry's here!",
        "transl": "Die Kavallerie ist da!<<C<<Notiz: Direkt von Tracer zitiert"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1377,85 +1561,152 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Phew...\\. I don't think I've ever seen so many beetles attacking at once!",
        "transl": "Puh...\\. Ich glaube, ich habe noch nie so viele Käfer auf einmal gesehen."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Haha, you could say that again!",
        "transl": "Haha, das kannst du laut sagen!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Wait... it's you?",
        "transl": "Moment... Du bist das?"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yup!\\. Thanks again for the rescue!",
        "transl": "Jup!\\. Danke für die Rettung!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...\\. No problem...\\. That was...\\. how many times now?",
        "transl": "...\\. Kein Problem...\\. Das war jetzt das... wievielte Mal?<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Dunno, I lost count!",
        "transl": "Keine Ahnung, hab aufgehört zu zählen!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Seriously, you really should be more careful about the kinds of battles you end up in.",
        "transl": "Jetzt mal im Ernst, du solltest wirklich besser darauf achten, mit wem du dich anlegst."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Make sure to prepare yourself,\\. learn skills,\\. upgrade your equipment...",
        "transl": "Bereite dich vor,\\. lerne Fähigkeiten,\\. verbessere deine Ausrüstung..."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I know!\\. In fact, I just collected the last few items I needed for the gear I always wanted!\n",
        "transl": "Ich weiß!\\. Der Witz ist, dass ich soeben die letzten Items bekommen habe, die ich für meine lang ersehnte Ausrüstung brauche!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Finally I can get rid of the Ba'kii Kum stuff...",
        "transl": "Endlich bin ich das Zeug aus Ba'kii Kum los..."
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
+      }
+     },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "You...\\. didn't upgrade your equipment for so long?!",
        "transl": "Du...\\. hast deine Ausrüstung so lange nicht erneuert?!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Haha, yeah...\\. pretty much.",
        "transl": "Haha, ja...\\. so ziemlich."
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1463,48 +1714,80 @@
       "message": {
        "orig": "Why?!",
        "transl": "Чому?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "I didn't want to waste money and items on equipment that I'd replace later on anyway, see?",
        "transl": "Ich wollte kein Geld oder Items für Ausrüstung verschwenden, die ich später sowieso wieder ersetze, verstehst du?"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That...\\. I mean...",
        "transl": "Das...\\. Ich mein..."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Just HOW did you even manage to get this far?!",
        "transl": "Aber WIE hast du es überhaupt geschafft, damit so weit zu kommen?!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Well...\\. you helping me out when I was in trouble certainly helped a lot!",
        "transl": "Na ja...\\. Immer wenn ich Probleme hatte, habt ihr mir ja geholfen!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But like, the Gaia's Garden temples are solo instances, how did you...",
        "transl": "Aber... Die Tempel in Gaias Garten sind doch Solo-Instanzen, wie hast du..."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Faceroll it till you make it, right?",
        "transl": "Ich hab's einfach so lange versucht, bis es geklappt hat!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Anyway, gotta get my new gear now!\\. See you around!",
        "transl": "So, ich muss jetzt meine neue Ausrüstung besorgen!\\. Man sieht sich!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1513,184 +1796,320 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...Ugh...",
        "transl": "... Argh..."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "We're done!",
        "transl": "Egal, wir sind hier fertig!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "Nice work!!",
        "transl": "Gute Arbeit!!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That was a lot of samurai bugs, huh?",
        "transl": "Das waren eine Menge Samurai-Käfer, was?"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes, indeed.",
        "transl": "Oh ja."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And our little Triblader-troublemaker looked happy...",
        "transl": "Und unser kleiner Tunichtgut von Triblader sah ganz glücklich aus."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yeah...\\. that guy sure keeps us busy...",
        "transl": "Ja...\\. Dieser Kerl hält uns wirklich auf Trab..."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He does, doesn't he?",
        "transl": "Das kann man wohl sagen..."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That's why I setup a notification for whenever he logs in!",
        "transl": "Deshalb lasse ich mir jetzt immer eine Benachrichtigung schicken, sobald er sich einloggt."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He's been surprisingly quiet today, so I lost track of his movements until, like three fights ago.",
        "transl": "Er war heute erstaunlich ruhig, deshalb habe ich ihn nach drei Kämpfen aus den Augen verloren."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But usually he gets into trouble minutes after he logs in!",
        "transl": "Normalerweise hat er nämlich kurz nach dem Einloggen schon den ersten Ärger!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He's helped me perfect my timing because he's so predictable!",
        "transl": "Er hat mir geholfen, mein Timing zu perfektionieren, weil er so berechenbar ist!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "How many times have we saved him already?",
        "transl": "Wie oft haben wir ihm jetzt schon aus der Patsche geholfen?"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Let me check!\\. Hm...\\. about 340 times now?\\. Wow!",
        "transl": "Moment, ich schau mal nach!\\. ...\\. Woah...!\\. Schon 340 Mal?!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yeah, it's about time we stopped saving that one.",
        "transl": "Ich denke, wir sollten damit aufhören, ihm zu helfen."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Aww, you think so?",
        "transl": "Och, meinst du wirklich?"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He's become way too careless, doesn't prepare for his battles at all.",
        "transl": "Er ist viel zu leichtsinnig geworden, bereitet sich erst gar nicht mehr auf Kämpfe vor."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He's relying on our help...\\. way too much.",
        "transl": "Er verlässt sich viel zu sehr auf unsere Hilfe."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We're here to rescue people in need...\\. but people still should learn to fight for themselves.",
        "transl": "Wir retten Leute in Not...\\. Aber sie sollten dennoch lernen, auch allein zurecht zu kommen."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Well, when you're right you're right...\\. our first exception.\\. Maybe I should design him a badge!",
        "transl": "Wo du recht hast, hast du recht...\\. Unsere erste Ausnahme also.\\. Vielleicht sollte ich ihm ein Abzeichen basteln!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ooh!",
        "transl": "Ooh!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Someone else needs help!\\. And it's not that guy.",
        "transl": "Da braucht jemand Hilfe!\\. Und es ist NICHT er!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'll take this one!",
        "transl": "Den übernehme ich!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "It was great meeting you, Lea!",
        "transl": "Es war schön, dich kennengelernt zu haben, Lea!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
@@ -1699,65 +2118,121 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Well that sure was something.",
        "transl": "Na, das war vielleicht was."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "I think you've helped us more than enough.\\. Thanks a lot!",
        "transl": "Ich denke, du hast uns mehr als genug geholfen.\\. Tausend Dank!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And of course, as promised, here's your reward.",
        "transl": "Und hier ist natürlich, wie versprochen, deine Belohnung."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Alright...\\. I gotta go.",
        "transl": "Also dann...\\. Ich muss los."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You never know when someone might need our help...\\. at exactly the right time.",
        "transl": "Man weiß nie, wann jemand unsere Hilfe braucht...\\. in allerletzter Minute."
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Feel free to drop by at the headquarters whenever you like!",
        "transl": "Du kannst jederzeit gerne wieder in unserem Hauptquartier vorbeischauen!"
+      },
+      "person": {
+       "person": "guests.wervyn",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      }
     ]

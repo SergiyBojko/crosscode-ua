@@ -102,12 +102,20 @@
          "message": {
           "orig": "I totally saw that one coming!",
           "transl": "Das hab ich natürlich vorausgesehen!"
+         },
+         "person": {
+          "person": "main.schneider2",
+          "expression": "SKEPTICAL"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         }
        ]
@@ -177,24 +185,52 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.schneider2",
+         "expression": "NORM_SERIOUS"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "Now this terminal is almost too conveniently placed, don't you agree?",
          "transl": "Na, das Terminal hier springt einem ja förmlich ins Gesicht, meinst du nicht auch?"
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "WINK"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.schneider2",
+         "expression": "NORM_SERIOUS"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "Let's hope that exit opened up now...",
          "transl": "Lass uns hoffen, dass der Ausgang jetzt offen ist..."
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "SERIOUS"
         }
        }
       ]
@@ -210,24 +246,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "There's supposedly more guards down here.",
        "transl": "Hier unten soll es noch mehr Wachen geben."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Stay on your toes.",
        "transl": "Sei wachsam."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -250,12 +308,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Hm... this is the only way, isn't it? Maybe there's something in this room.",
        "transl": "Hm... Das ist der einzige Weg hier, oder? Dann muss hier etwas sein."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      }
     ]
@@ -300,6 +372,10 @@
         "message": {
          "orig": "Aaaaand done.",
          "transl": "Uuuuund erledigt."
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "SKEPTICAL"
         }
        }
       ],
@@ -308,6 +384,10 @@
         "message": {
          "orig": "Finally...",
          "transl": "Endlich..."
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "PONDERING"
         }
        }
       ]
@@ -327,12 +407,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Alright, another elevator! Let's hope that one goes up again.",
        "transl": "Sieh an, noch ein Aufzug! Hoffentlich geht der wieder nach oben."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "TOWARDS"
       }
      }
     ]

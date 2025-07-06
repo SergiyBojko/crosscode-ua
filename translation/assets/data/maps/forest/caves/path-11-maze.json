@@ -173,24 +173,46 @@
      "transl": "???"
     },
     "blockEvent": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Lea, we must not enter this area with anyone else.",
        "transl": "Lea, wir dürfen diesen Bereich mit niemandem sonst betreten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Make sure to disband your party before you proceed.",
        "transl": "Bevor du also weitergehst, achte darauf, vorher deine Party aufzulösen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -204,18 +226,30 @@
       "message": {
        "orig": "Lea, we must make sure to explore this part on our own. ",
        "transl": "Lea, wir müssen zusehen, dass wir diesen Teil auf eigene Faust erkunden können."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "So it is time to disband your party.",
        "transl": "Es wird also Zeit, deine Party aufzulösen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -228,96 +262,166 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Wait!!",
        "transl": "Зачекай!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "Is it here?\\. Is the entrance in this area?",
        "transl": "Ist es hier?\\. Ist der Eingang in diesem Bereich?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Alright...\\. now...",
        "transl": "Alles klar...\\. Also..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "Is there any way to \\c[3]activate it\\c[0]?",
        "transl": "Muss man ihn auf irgendeine Art \\c[3]aktivieren\\c[0]?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "And you remember how to do it?",
        "transl": "Und erinnerst du dich auch, wie?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Apparently...\\. not entirely?",
        "transl": "Offensichtlich...\\. nicht so ganz?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE_SAD"
       }
      },
      {
       "message": {
        "orig": "Sorry...",
        "transl": "Вибач..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "It is alright, we will just try our best.",
        "transl": "Schon gut, wir werden einfach unser Möglichstes versuchen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You have a look around and I will watch the logs.\\. Maybe I can pick up something as well.",
        "transl": "Schau du dich weiter um, während ich mir die Protokolle ansehe.\\. Vielleicht entdecke ich dort auch irgendetwas."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -355,6 +459,10 @@
             "message": {
              "orig": "I am detecting some \\c[3]tracking\\c[0] in the logs.",
              "transl": "Im Protokoll wurde gerade eine Art \\c[3]Aufzeichnung\\c[0] gestartet."
+            },
+            "person": {
+             "person": "main.sergey",
+             "expression": "WORRIED"
             }
            }
           ],
@@ -365,6 +473,10 @@
               "message": {
                "orig": "\\c[3]Tracking\\c[0] started again...",
                "transl": "\\c[3]Aufzeichnung\\c[0] wieder gestartet..."
+              },
+              "person": {
+               "person": "main.sergey",
+               "expression": "WORRIED"
               }
              }
             ],
@@ -375,6 +487,10 @@
                 "message": {
                  "orig": "\\c[3]Tracking\\c[0] started...",
                  "transl": "\\c[3]Aufzeichnung\\c[0] gestartet..."
+                },
+                "person": {
+                 "person": "main.sergey",
+                 "expression": "WORRIED"
                 }
                }
               ],
@@ -383,6 +499,10 @@
                 "message": {
                  "orig": "\\c[3]Started\\c[0]...",
                  "transl": "\\c[3]Gestartet\\c[0]..."
+                },
+                "person": {
+                 "person": "main.sergey",
+                 "expression": "WORRIED"
                 }
                }
               ]
@@ -401,6 +521,10 @@
           "message": {
            "orig": "The \\c[3]tracking\\c[0] has been \\c[1]cancelled\\c[0]!",
            "transl": "Die \\c[3]Aufzeichnung\\c[0] wurde \\c[1]abgebrochen\\c[0]!<<A<<[CHANGED 2021/05/22]"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "NOTIFYING"
           }
          }
         ],
@@ -411,6 +535,10 @@
             "message": {
              "orig": "Tracking \\c[1]canceled\\c[0]...",
              "transl": "Aufzeichnung \\c[1]abgebrochen\\c[0]..."
+            },
+            "person": {
+             "person": "main.sergey",
+             "expression": "NOTIFYING"
             }
            }
           ],
@@ -419,6 +547,10 @@
             "message": {
              "orig": "\\c[1]Canceled\\c[0]...",
              "transl": "\\c[1]Abgebrochen\\c[0]..."
+            },
+            "person": {
+             "person": "main.sergey",
+             "expression": "NOTIFYING"
             }
            }
           ]
@@ -477,66 +609,122 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Tracking stopped...",
          "transl": "Aufzeichnung wurde gestoppt..."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "Did you hear that sound, too?",
          "transl": "Hast du auch dieses Geräusch gehört?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "NOTIFYING"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "It sounded like we did something right.",
          "transl": "Hörte sich so an, als ob wir etwas richtig gemacht hätten."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "Let us look around some more.",
          "transl": "Sehen wir uns noch weiter um."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "NOTIFYING"
         }
        }
       ]
      },
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Again!",
          "transl": "Schon wieder!"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Seems like we are getting closer.",
          "transl": "Sieht so aus, als kämen wir der Sache näher."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "NOTIFYING"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -547,24 +735,46 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "That must be it!",
          "transl": "Das muss es sein!"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "We did it, Lea!",
          "transl": "Wir haben es geschafft, Lea!"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        }
       ]

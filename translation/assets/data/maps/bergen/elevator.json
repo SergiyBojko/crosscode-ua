@@ -261,20 +261,38 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "bergen.male-old-mustache",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "thenStep": [
          {
           "message": {
            "orig": "I see you obtained the \\c[3]\\v[item.225.name]\\c[0]!",
            "transl": "Ich sehe, du hast die \\c[3]Blaue Eisform\\c[0]!"
+          },
+          "person": {
+           "person": "bergen.male-old-mustache",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "You can now take the Laser Rails to reach \\c[3]\\v[area.heat-area.name]\\c[0]!",
            "transl": "Du kannst nun die Laserbahn nehmen, um zum \\c[3]Maronental\\c[0] zu gelangen!"
+          },
+          "person": {
+           "person": "bergen.male-old-mustache",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -283,24 +301,40 @@
           "message": {
            "orig": "Dear Seeker, you seem rather confused. Do you wish to pass this barrier?",
            "transl": "Verehrter Seeker, du siehst etwas verunsichert aus. Willst du diese Barriere passieren?"
+          },
+          "person": {
+           "person": "bergen.male-old-mustache",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "In that case, you need to obtain the \\c[3]\\v[item.225.name]\\c[0].",
            "transl": "Um passieren zu können, benötigst du die \\c[3]Blaue Eisform\\c[0]."
+          },
+          "person": {
+           "person": "bergen.male-old-mustache",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "It is given to anyone who completes the \\c[0]\\v[area.cold-dng.name]\\c[0].",
            "transl": "Die erhält jeder, der die \\c[3]Tempelmine\\c[0] abschließt."
+          },
+          "person": {
+           "person": "bergen.male-old-mustache",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -309,30 +343,50 @@
             "message": {
              "orig": "...?",
              "transl": "...?"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "ANNOYED"
             }
            },
            {
             "message": {
              "orig": "What is it? Did you already beat the challenge?",
              "transl": "Was gibt's? Hast du die Herausforderung bereits gemeistert?"
+            },
+            "person": {
+             "person": "bergen.male-old-mustache",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            {
             "message": {
              "orig": "Well then, maybe you just \\c[3]missed the treasure chest\\c[0] in the room of your final opponent!",
              "transl": "Hm... Vielleicht hast du einfach \\c[3]die Schatztruhe verpasst\\c[0], die im Bossraum steht?"
+            },
+            "person": {
+             "person": "bergen.male-old-mustache",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SURPRISED_AWAY"
             }
            }
           ],
@@ -341,6 +395,10 @@
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "ASTONISHED"
             }
            }
           ]
@@ -359,84 +417,146 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "... Hi?",
        "transl": "... Привіт?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Ah! H-\\.Hello!",
        "transl": "Ah! H-\\.Hallo!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Sorry, I just went blank there for a second.",
        "transl": "Tschuldige, ich war gerade mit den Gedanken ganz woanders."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "I'm \\c[3]C'tron\\c[0], the other member of the First Scholars.",
        "transl": "Ich bin \\c[3]C'tron\\c[0], das andere neue Mitglied der Ersten Gelehrten."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "Lin just gave me your contact and told me to say hello.",
        "transl": "Lin hat mir gerade deinen Kontakt gegeben und lässt dich schön grüßen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "So...\\. nice to meet you!",
        "transl": "Also...\\. Schön, dich kennenzulernen!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Ah, d-don't worry! They told me about your limited speech problem.",
        "transl": "Ah, k-keine Sorge! Ich weiß über das Problem mit deinem Sprachmodul Bescheid."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
       }
      },
      {
@@ -445,12 +565,20 @@
         "message": {
          "orig": "So...\\. you really are as \\c[1]over-leveled\\c[0] as they told me.",
          "transl": "Hm...\\. Du bist ja wirklich so \\c[1]überlevelt\\c[0], wie die anderen mir gesagt haben."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "But I also heard you play with other low-level people.",
          "transl": "Ich habe aber auch gehört, dass du mit Low Level-Leuten spielst."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
         }
        }
       ],
@@ -459,6 +587,10 @@
         "message": {
          "orig": "But yes, we seem to be about the same level!",
          "transl": "Und ja, wir scheinen fast den gleichen Level zu haben!"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
         }
        }
       ]
@@ -467,88 +599,154 @@
       "message": {
        "orig": "So...\\. I could join your party, right?",
        "transl": "Also... Ich kann mich deiner Party anschließen, ja?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Anyway, I'm still busy today...",
        "transl": "Allerdings bin ich heute noch beschäftigt...\n"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "But if you don't mind, I'd gladly join tomorrow!",
        "transl": "Wenn du also nichts dagegen hast, bin ich morgen mit von der Partie!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Would that be okay?",
        "transl": "Wäre das für dich in Ordnung?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Okey-dokey!",
        "transl": "Okey-dokey!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "W-Well then, see you tomorrow, Lea!",
        "transl": "N-Nun dann, bis morgen, Lea!\n"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Oh, so it looks like you might soon have a party of 3.",
        "transl": "Sieht so aus, als hättest du bald eine Party mit drei Leuten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Very nice.",
        "transl": "Sehr schön."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "That boy seems to be a \\c[3]Hexacast\\c[0]. They are very useful to have in a party.",
        "transl": "Der Junge scheint einen \\c[3]Hexacast\\c[0] zu spielen. Die können in einer Party sehr nützlich sein."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      }
     ]
@@ -558,30 +756,56 @@
    "settings": {
     "event": [
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hm... I think you should head to the \\c[3]First Scholars HQ\\c[0] first, correct?",
        "transl": "Hm... Solltest du nicht zuerst zum \\c[3]Hauptquartier der Ersten Gelehrten\\c[0] gehen?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That \\c[3]quiz\\c[0] is waiting for you!",
        "transl": "Das \\c[3]Quiz\\c[0] wartet auf dich!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]

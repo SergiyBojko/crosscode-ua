@@ -202,35 +202,60 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DEFAULT_AR"
+      }
+     },
      {
       "message": {
        "orig": "We seek the ultimate experience.",
        "transl": "Unser Streben gilt allein der ultimativen Erfahrung."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DEFAULT_AR"
       }
      },
      {
       "message": {
        "orig": "Yet all we found...\\. was misery day after day.",
        "transl": "Doch alles, was wir fanden...\\. war endloses Elend."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED_AR"
       }
      },
      {
       "message": {
        "orig": "The lifeless shells of players, flowing through the worlds we created.",
        "transl": "Leblose Hüllen von Spielern, die durch unsere Welten strömten."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK_AR"
       }
      },
      {
       "message": {
        "orig": "Devoid of joy, far from the experience we desired.",
        "transl": "Ohne Freude... Fern der von uns ersehnten Erfahrung."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "TOWARD_TALK_AR"
       }
      },
      {
       "message": {
        "orig": "Over time...\\. we realized, in dismay, that our creations turned into bland routine.",
        "transl": "Mit der Zeit...\\. verkamen unsere einst prachtvollen Schöpfungen zu fader Routine."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN_AR"
       }
      }
     ]
@@ -262,12 +287,20 @@
       "message": {
        "orig": "Gautham, you cannot be serious...",
        "transl": "Gautham, das kann nicht dein Ernst sein..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]

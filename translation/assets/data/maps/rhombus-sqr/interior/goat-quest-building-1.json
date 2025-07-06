@@ -19,11 +19,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi.\\. Lea.\\. Why?",
        "transl": "Hi.\\. Lea.\\. Warum?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
@@ -44,12 +53,20 @@
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
      {
       "message": {
        "orig": "How?\\. Meet.\\. Why?",
        "transl": "Wie?\\. Treffen.\\. Warum?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
@@ -70,6 +87,10 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -90,7 +111,12 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
+      }
+     },
      {
       "text": {
        "orig": "[tired goat noises]",
@@ -109,6 +135,10 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
@@ -129,12 +159,20 @@
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
      {
       "message": {
        "orig": "Why?\\. Lea meet.\\. How!",
        "transl": "Warum?\\. Lea Treffen.\\. Wie!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
      null,
@@ -146,7 +184,12 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
+      }
+     },
      {
       "text": {
        "orig": "[surprised goat noises]",
@@ -165,6 +208,10 @@
       "message": {
        "orig": "How\\..\\..\\..\\.?\\.",
        "transl": "Wie\\..\\..\\..\\.?\\."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      null,
@@ -182,17 +229,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Mrs. Hoover",
        "transl": "Frau Hoover"
+      },
+      "person": {
+       "person": "business.female-longhair-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!?\\. Who?",
        "transl": "Hi!?\\. Wer?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
@@ -213,6 +273,10 @@
       "message": {
        "orig": "Yes, good day everyone.\\. We just finished an important meeting and bring a proposition.",
        "transl": "Ja, guten Tag zusammen.\\. Wir haben uns soeben beraten und hätten einen Vorschlag."
+      },
+      "person": {
+       "person": "business.female-longhair-black",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -253,12 +317,20 @@
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "How?\\. ... Who?",
        "transl": "Wie?\\. ... Wer?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      null,
@@ -266,6 +338,10 @@
       "message": {
        "orig": "Well, there are ways.\\. I represent large property holdings in this area and was contacted by Ms. Zira here.",
        "transl": "Nun, es gibt Wege.\\. Ich vertrete großen Grundbesitz in dieser Gegend und wurde von Frau Zira hier kontaktiert."
+      },
+      "person": {
+       "person": "business.female-longhair-black",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -273,30 +349,50 @@
       "message": {
        "orig": "Despite her age, she was a great negotiator and most persuasive.",
        "transl": "Trotz ihres Alters war sie eine großartige Verhandlungsführerin und sehr überzeugend."
+      },
+      "person": {
+       "person": "business.female-longhair-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "After communicating with the city council we found a few solutions that should be satisfying to all, hooved or not.",
        "transl": "Durch ein Gespräch mit der Stadtverwaltung haben wir Lösungen gefunden, die für alle Beteiligten zufriedenstellend sein sollten, ob mit oder ohne Hufe."
+      },
+      "person": {
+       "person": "business.female-longhair-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Lea!\\. How?",
        "transl": "Lea!\\. Wie?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "It is obvious that these intelligent goats bring a very specialized skillset that can turn into a valuable business.",
        "transl": "Es ist offensichtlich, dass diese intelligenten Ziegen sehr spezielle Fähigkeiten mitbringen, die zu einem lukrativen Geschäft werden können."
+      },
+      "person": {
+       "person": "business.female-longhair-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Also, Ms. Zira already created a deposit to buy local properties with the valuable goods she brought.",
        "transl": "Außerdem hat Frau Zira bereits ein Depot angelegt, um mit den eingebrachten Wertgegenständen lokale Grundstücke zu kaufen."
+      },
+      "person": {
+       "person": "business.female-longhair-black",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -306,6 +402,10 @@
         "message": {
          "orig": "W-\\.what?\\.\\. How...?!",
          "transl": "W-\\.Was?\\.\\. Wie...?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        }
       ],
@@ -314,6 +414,10 @@
         "message": {
          "orig": "H-\\.how...?!",
          "transl": "W-\\.Wie...?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        }
       ]
@@ -337,9 +441,18 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "text": {
@@ -373,6 +486,10 @@
       "message": {
        "orig": "Splendid.\\. You won't be disappointed, sir!\\. Please, let us continue this in our office!",
        "transl": "Ausgezeichnet.\\. Sie werden es nicht bereuen, Sir!\\. Bitte, lassen Sie uns das Gespräch in unserem Büro fortsetzen!"
+      },
+      "person": {
+       "person": "business.female-longhair-black",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -411,6 +528,10 @@
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      }
     ]
@@ -563,7 +684,12 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "text": {
        "orig": "[somber goat noises]",
@@ -588,6 +714,10 @@
       "message": {
        "orig": "Hi.\\. Lea.",
        "transl": "Hi.\\. Lea."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
@@ -608,6 +738,10 @@
       "message": {
        "orig": "Why?",
        "transl": "Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
@@ -642,12 +776,20 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Meet.\\. Lea!",
        "transl": "Treffen.\\. Lea!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]

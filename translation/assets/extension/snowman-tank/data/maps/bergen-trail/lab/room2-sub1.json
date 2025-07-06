@@ -13,7 +13,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "Upper Platform Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
@@ -22,7 +27,12 @@
         },
         {
          "0": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
+           }
+          },
           null,
           null,
           {
@@ -32,6 +42,10 @@
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "options": [
           {
            "label": {
@@ -129,61 +143,106 @@
        "name": {
         "orig": "Xavier Bonegate",
         "transl": "Xavier Bonegate"
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "message": {
         "orig": "Welcome, everyone listening to this either in our laboratory or at your home, all around \\v[lore.title.planet].",
         "transl": "Ich heiße dich herzlich willkommen, ganz gleich, ob du diese Nachricht in unserem Labor oder von daheim aus, auf ganz Shadoon, hörst."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "My name is \\c[3]Xavier Bonegate\\c[0], speaking for \\c[3]Heavy Hardware Inc\\c[0], as a representative...\\.\\. But also as a passionate engineer.",
         "transl": "Mein Name ist \\c[3]Xavier Bonegate\\c[0] und ich spreche zu dir als Repräsentant der \\c[3]Heavy Hardware AG\\c[0]...\\.\\. aber auch als leidenschaftlicher Ingenieur."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "We at Heavy Hardware strive to create the hardest, most sturdy of wares.\\. Machinery, vehicles, big and small.",
         "transl": "Wir bei Heavy Hardware sind bestrebt, die härtesten und robustesten Waren zu entwickeln:\\. Maschinen, Fahrzeuge, groß und klein."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "For the benefit of companies, the military, ordinary users.\\. Everyone, everywhere, at every moment.",
         "transl": "Für Unternehmen, Militär, Verbraucher. Für jedermann, überall, zu jeder Zeit."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "For this purpose we are working together with equally passionate partners from various fields to deliver only the best of products.",
         "transl": "Zu diesem Zweck arbeiten wir mit ebenso leidenschaftlichen Partnern aus verschiedenen Bereichen zusammen, um die besten Produkte ihrer Art zu liefern."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Using the sheer limitless energy of the \\v[lore.title.track-of-ancients], we are able to develop advanced gear as humanity has never seen before.",
         "transl": "Mit der schier grenzenlosen Energie des Pfades der Ahnen sind wir in der Lage, fortschrittliche Ausrüstung zu entwickeln, wie sie die Menschheit noch nie zuvor gesehen hat."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Even cooperation with creatures of the Track, more intelligent than any modern AI, has been made possible!",
         "transl": "Sogar die Zusammenarbeit mit Kreaturen des Pfades, die intelligenter sind als jede moderne KI, wurde ermöglicht!"
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Right now, we are living in the most interesting times humanity has ever seen.\\. And interesting times need creative solutions!",
         "transl": "Im Moment leben wir in den interessantesten Zeiten, die die Menschheit je gesehen hat.\\. Und interessante Zeiten brauchen kreative Lösungen!"
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "With this creed in mind, I invite you to follow our work as we will present more of our future work in the future.",
         "transl": "Kraft dieses Credos lade ich dich ein, unsere Tätigkeit weiter zu verfolgen, da wir bald mehr von unserer zukünftigen Arbeit vorstellen werden."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       }
      ]
@@ -202,7 +261,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]PRIVATE NOTE\\c[0]\n\n\\c[3]Title:\\c[0] Important reminder",
@@ -219,6 +283,10 @@
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]

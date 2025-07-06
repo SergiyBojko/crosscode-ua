@@ -1229,36 +1229,66 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "guards.captain-future",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Ms. Seeker!",
           "transl": "Fräulein Seeker!"
+         },
+         "person": {
+          "person": "guards.captain-future",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Did you by chance see my posting at the quest board?",
           "transl": "Haben Sie zufällig meinen Quest-Aushang schon gesehen?"
+         },
+         "person": {
+          "person": "guards.captain-future",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I am trying to catch a troupe of thieving Hillkats!",
           "transl": "Ich versuche, eine Truppe von diebischen Hillkats zu fangen!"
+         },
+         "person": {
+          "person": "guards.captain-future",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Consequently, I'm in dire need of a seeker's assistance!",
           "transl": "Folglich benötige ich dringend die Hilfe eines Seekers!"
+         },
+         "person": {
+          "person": "guards.captain-future",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Can I count on your support?",
           "transl": "Kann ich auf Ihre Unterstützung zählen?"
+         },
+         "person": {
+          "person": "guards.captain-future",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -1267,48 +1297,80 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "You have my gratitude!",
             "transl": "Ich danke Ihnen vielmals!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Allow me to introduce myself.",
             "transl": "Erlauben Sie mir, mich vorzustellen."
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "name": {
             "orig": "Cpt. Curtis",
             "transl": "Cpt. Curtis"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "My name is \\c[3]Edmond Curtis\\c[0], captain of the Rhombus Square Police Force.",
             "transl": "Mein Name ist \\c[3]Edmond Curtis\\c[0], Captain der Polizei von Rhombus Square."
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Lea!",
             "transl": "Лія!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           },
           {
            "message": {
             "orig": "It's a pleasure to meet you, Ms. Lea!",
             "transl": "Es ist mir ein Vergnügen, Sie kennenzulernen, Fräulein Lea!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Now, let's not waste any more time!\\. Follow me!",
             "transl": "Also, lassen Sie uns keine Zeit verschwenden!\\. Folgen Sie mir!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1319,12 +1381,20 @@
            "name": {
             "orig": "Cpt. Curtis",
             "transl": "Cpt. Curtis"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Several locals reported sightings of \\c[3]Hillkats\\c[0] in the parks of this area.",
             "transl": "Mehrere Anwohner berichteten von Sichtungen von \\c[3]Hillkats\\c[0] in den Parks dieser Gegend."
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1333,18 +1403,30 @@
            "name": {
             "orig": "Cpt. Curtis",
             "transl": "Cpt. Curtis"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Most sightings were reported for this patch of grass down here.",
             "transl": "Die meisten Sichtungen wurden für diesen Grünstreifen hier unten gemeldet."
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Now... as you must know, no creature of the Track has any place in the parks of our beautiful...\\.",
             "transl": "Nun, wie Sie sicher wissen, haben Kreaturen des Pfades in den Parks unserer schönen Stadt nichts zu...\\."
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1356,12 +1438,20 @@
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "There they are!",
             "transl": "Da sind sie!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1370,12 +1460,20 @@
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "And now they've started digging up the precious earth of our parks, just as reported!",
             "transl": "Und jetzt fangen sie an, die kostbare Erde unserer Parks umzugraben, wie berichtet!<<A<<[CHANGED 2021/05/22]"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           null,
@@ -1386,25 +1484,46 @@
            "name": {
             "orig": "Cpt. Curtis",
             "transl": "Cpt. Curtis"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "Ms. Lea, creatures of the track are best handled by Seekers like you!",
             "transl": "Fräulein Lea, Kreaturen des Pfades werden am besten von Seekern wie Ihnen behandelt!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Please fight those vile Hillkats for the sake of our parks!!",
             "transl": "Bitte bekämpfen Sie diese abscheulichen Hillkats um unserer Parks willen!!!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
            }
           }
          ],
@@ -1413,18 +1532,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "I understand!",
             "transl": "Ich verstehe!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Should you change your mind, you know where to find me!",
             "transl": "Sollten Sie Ihre Meinung ändern, wissen Sie, wo Sie mich finden!"
+           },
+           "person": {
+            "person": "guards.captain-future",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -1434,18 +1565,36 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guards.captain-future",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Please fight those vile Hillkats for the sake of our parks!!",
          "transl": "Bitte bekämpfen Sie diese abscheulichen Hillkats um unserer Parks willen!!!"
+        },
+        "person": {
+         "person": "guards.captain-future",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DETERMINED"
         }
        }
       ]
@@ -1478,6 +1627,10 @@
       "message": {
        "orig": "We have been tricked!",
        "transl": "Wir wurden ausgetrickst!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -1509,6 +1662,10 @@
       "message": {
        "orig": "There's more of them?!",
        "transl": "Es gibt noch mehr von ihnen?!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1528,6 +1685,10 @@
       "message": {
        "orig": "...!!\\. A car!\\. They're digging up the earth, just as reported!",
        "transl": "...!!\\. Ein Auto!\\. Sie graben die Erde auf, genau wie berichtet!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1548,6 +1709,10 @@
         "message": {
          "orig": "What?!",
          "transl": "Що?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        }
       ],
@@ -1556,6 +1721,10 @@
         "message": {
          "orig": "How?!",
          "transl": "Як?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        }
       ]
@@ -1572,54 +1741,96 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
+     {
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "It really happened!",
        "transl": "Es ist also wahr!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "They're stealing the \\c[3]soil of our parks\\c[0] with a \\c[3]teleporting car\\c[0]!",
        "transl": "Sie stehlen die \\c[3]Erde unserer Parks\\c[0] mit einem \\c[3]teleportierenden Auto\\c[0]!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Locals reported as much, but I couldn't believe it until I saw it.",
        "transl": "Einige Anwohner berichteten davon, aber ich konnte es bis jetzt nicht glauben. Nun waren wir selbst Zeuge!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Don't worry, Ms. Lea!",
        "transl": "Keine Sorge, Fräulein Lea!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "They might have gotten away this time, but I know a way to catch up with them!",
        "transl": "Diesmal sind sie uns vielleicht entkommen, aber ich weiß einen Weg, sie einzuholen!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Follow me!",
        "transl": "Folgen Sie mir!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      }
     ]

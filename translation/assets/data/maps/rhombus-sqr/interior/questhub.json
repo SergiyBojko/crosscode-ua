@@ -84,24 +84,46 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-tall-buzzcut",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Welcome, Seeker, to the \\c[3]Global Quest Hub\\c[0].",
          "transl": "Willkommen zum \\c[3]Globalen Quest Hub\\c[0], Seeker.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "advisors.man-tall-buzzcut",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Here you can find the \\c[3]Global Quest Board\\c[0] listing \\c[3]available quests in all of Shadoon\\c[0]!",
          "transl": "Hier findest du das \\c[3]Globale Schwarze Brett\\c[0], das \\c[3]alle verfügbaren Quests in ganz Shadoon\\c[0] auflistet!"
+        },
+        "person": {
+         "person": "advisors.man-tall-buzzcut",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]

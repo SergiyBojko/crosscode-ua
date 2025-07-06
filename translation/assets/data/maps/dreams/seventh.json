@@ -7,18 +7,36 @@
      {
       "thenStep": [
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "EYES_CLOSED"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "The door is locked, correct? It seems we are trapped.",
          "transl": "Die Tür ist verschlossen, richtig? Sieht so aus, als wären wir hier gefangen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -121,11 +139,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Long time no see.",
        "transl": "Lange nicht gesehen."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -137,11 +164,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "ANGRY"
+      }
+     },
      {
       "message": {
        "orig": "... They denied my proposal. Again.",
        "transl": "... Sie haben meinen Vorschlag abgelehnt. Abermals."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "ANGRY"
       }
      },
      null,
@@ -149,37 +185,67 @@
       "message": {
        "orig": "Dammit, I'm here to come up with interesting game scenarios and challenges.",
        "transl": "Verdammt, ich bin doch hier, um interessante Spielszenarien und Herausforderungen einzubringen."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "COMPLAINING"
       }
      },
      {
       "message": {
        "orig": "I need a little bit of creative freedom to do my job.",
        "transl": "Ich brauche das bisschen Freiheit, um meinen Job machen zu können."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "SNARL"
       }
      },
-     null,
      null,
      null,
      null,
      null,
      {
+      "person": {
+       "person": "main.sergey-rl",
+       "expression": "THINKING"
+      }
+     },
+     {
       "message": {
        "orig": "Gautham, that is what teamwork is all about.... You have to find a compromise.",
        "transl": "Gautham, darum geht es doch bei Teamarbeit...\nWir müssen uns auf eine Sache einigen."
+      },
+      "person": {
+       "person": "main.sergey-rl",
+       "expression": "THINKING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Tsk... the best we'll ever get is mediocrity that way.",
        "transl": "Pff... Auf die Weise erreichen wir nie mehr als Mittelmäßigkeit."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "SARCASTIC"
       }
      },
      {
       "message": {
        "orig": "There are too many conventional thinkers in this company... ",
        "transl": "Es gibt zu viele konventionelle Denker in dieser Firma..."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "ANGRY"
       }
      },
      null,
@@ -187,88 +253,166 @@
       "message": {
        "orig": "Right, Satoshi?",
        "transl": "Stimmt's, Satoshi?"
+      },
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "AWAY"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius-rl",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "What can I say?\\. They just want to keep making the games they know.",
        "transl": "Was soll ich sagen?\\. Sie wollen einfach nur die Spiele machen, die sie gewohnt sind."
+      },
+      "person": {
+       "person": "main.genius-rl",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "They have a genius like you on board and don't make proper use of it!",
        "transl": "Es ist eine Schande, dass sie dein geniales Potential nicht zu nutzen wissen."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "WHY"
       }
      },
      {
       "message": {
        "orig": "Rejecting your big AI project proposal...",
        "transl": "Deinen Vorschlag für ein großes KI-Projekt einfach abzulehnen..."
+      },
+      "person": {
+       "person": "antagonists.gautham-rl2",
+       "expression": "SNARL"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey-rl",
+       "expression": "ROLL_EYES"
+      }
+     },
      {
       "message": {
        "orig": "Well, to be honest...\\. that went way beyond what you would need for a game like CrossWorlds.",
        "transl": "Na ja, um ehrlich zu sein...\\. Das ging weit über das hinaus, was ein Spiel wie CrossWorlds eigentlich bräuchte."
+      },
+      "person": {
+       "person": "main.sergey-rl",
+       "expression": "WHISTLING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.genius-rl",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Are you sure?\\. I think there are a lot of applications.",
        "transl": "Bist du sicher?\\. Ich sehe da viele Anwendungsmöglichkeiten."
+      },
+      "person": {
+       "person": "main.genius-rl",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "In fact, I'm currently working on a list of them.",
        "transl": "Ich arbeite gerade sogar daran, die alle einmal aufzulisten."
+      },
+      "person": {
+       "person": "main.genius-rl",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So you plan to pitch the idea to them again?",
        "transl": "Du hast also vor, ihnen deine Idee nochmal anzupreisen?"
+      },
+      "person": {
+       "person": "main.sergey-rl",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "Of course I will! It's just way too promising!",
        "transl": "Und ob ich das tue! Dafür ist sie einfach zu vielversprechend!"
+      },
+      "person": {
+       "person": "main.genius-rl",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius-rl",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "What? I don't work that much, really...",
        "transl": "Was? Ich arbeite doch gar nicht so viel, wirklich nicht..."
+      },
+      "person": {
+       "person": "main.genius-rl",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And I do it because it's what I want to do. No need to worry.",
        "transl": "Und ich tue es, weil es genau das ist, was ich machen will. Mach dir keine Sorgen."
+      },
+      "person": {
+       "person": "main.genius-rl",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey-rl",
+       "expression": "JOKING"
+      }
+     },
      {
       "message": {
        "orig": "You should listen to your dear caring sister, Mr. Workaholic.",
        "transl": "Du solltest auf deine liebe und fürsorgende Schwester hören, Mr. Workaholic."
+      },
+      "person": {
+       "person": "main.sergey-rl",
+       "expression": "JOKING"
       }
      },
      null,
@@ -276,6 +420,10 @@
       "message": {
        "orig": "You too, Sergey?!",
        "transl": "Fängst du jetzt auch damit an, Sergey?!"
+      },
+      "person": {
+       "person": "main.genius-rl",
+       "expression": "DEFAULT"
       }
      }
     ]

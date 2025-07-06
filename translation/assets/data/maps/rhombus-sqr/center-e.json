@@ -865,54 +865,96 @@
        "transl": "Gut... Jetzt brauche ich nur noch eine \\c[3]Schlussbemerkung\\c[0]..."
       },
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.pentafist-female-rasta",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Sorry, I can't really talk...",
          "transl": "Sorry, ich kann gerade nicht reden..."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-rasta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "I'm writing a thesis on the \\v[lore.unlock.real-planet]\\c[3]Raritan Gem\\c[0].",
          "transl": "Ich schreibe eine Abhandlung über \\v[lore.unlock.real-planet]\\c[3]Raritan Gem\\c[0]."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-rasta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You know, the planet this game's played on?",
          "transl": "Du weißt schon, der Planet, auf dem das hier alles spielt?"
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-rasta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "So yeah, stranger. Maybe another time.",
          "transl": "Also dann, Fremde, vielleicht ein anderes Mal."
+        },
+        "person": {
+         "person": "cross-worlds.pentafist-female-rasta",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]

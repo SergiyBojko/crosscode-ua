@@ -436,27 +436,54 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Would you look at this.",
        "transl": "Sieh dir das an."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Very keen eyes, Joern!",
        "transl": "Sehr scharfe Augen, Joern!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "We should make sure to remember that \\c[3]chest\\c[0]!",
        "transl": "Wir sollten uns diese \\c[3]Truhe\\c[0] unbedingt merken!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "POINTING"
       }
      },
      null,
@@ -464,46 +491,86 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
+      }
+     },
      {
       "message": {
        "orig": "Time to move forward!",
        "transl": "Wir sollten uns wieder auf den Weg machen."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "UP"
+      }
+     },
      {
       "message": {
        "orig": "Okay...?",
        "transl": "Okay...?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I just thought the lake looked pretty, actually.\n",
        "transl": "Ich habe eigentlich nur den See gemeint, dass er sehr schön aussieht.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "I didn't expect to see so much nature here.",
        "transl": "Ich hätte nicht erwartet, hier so viel Natur zu sehen."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "UP"
       }
      }
     ]
@@ -516,6 +583,10 @@
       "message": {
        "orig": "What is it, Joern?",
        "transl": "Was ist denn, Joern?"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      }
     ]

@@ -54,12 +54,20 @@
       "message": {
        "orig": "This will be the last pillar enemy! We'll let \\c[3]you decide\\c[0] which element to attack this time!",
        "transl": "Das ist der letzte Säulengegner! Wir lassen \\c[3]dich entscheiden\\c[0], welches Element wir zuerst angreifen!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Decide quickly! I want to start hitting stuff!",
        "transl": "Lea, lass knacken! Mir juckt's in den Fingern!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "GRIN"
       }
      }
     ]
@@ -77,12 +85,20 @@
         "message": {
          "orig": "Hey! Which element should be destroy?",
          "transl": "Hey! Welches Element sollen wir zerstören?"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "Oh dear... It' seems like Lea is all alone right now. Let's wait for Emilie or Luke to respawn.",
          "transl": "Oh je... Sieht so aus, als wäre Lea gerade ganz allein. Lasst uns warten, bis Emilie oder Luke respawnen."
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "WORRIED"
         }
        }
       ]
@@ -97,12 +113,20 @@
           "message": {
            "orig": "\\c[3]Red blocks\\c[0]! \\c[3]Heat\\c[0] is under fire now!",
            "transl": "\\c[3]Rote Blöcke\\c[0]! Macht ihnen Feuer unterm Hintern!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DETERMINED"
           }
          },
          {
           "message": {
            "orig": "You waited for that one, didn't you?",
            "transl": "Da hast du jetzt die ganze Zeit drauf gewartet, dass du den bringen kannst, ne?"
+          },
+          "person": {
+           "person": "main.schneider",
+           "expression": "WINK"
           }
          }
         ],
@@ -111,6 +135,10 @@
           "message": {
            "orig": "\\c[3]Red blocks\\c[0] targeted now.",
            "transl": "Zielscheibe: \\c[3]Rot\\c[0]!"
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "NORM_SERIOUS"
           }
          }
         ]
@@ -131,6 +159,10 @@
           "message": {
            "orig": "\\c[3]Blue blocks\\c[0] now!",
            "transl": "Jetzt die \\c[3]Blauen\\c[0]!"
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "NORM_SERIOUS"
           }
          },
          {
@@ -139,6 +171,10 @@
             "message": {
              "orig": "Don't get cold feet now.",
              "transl": "Kriegt jetzt bloß keine kalten Füße."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "DETERMINED"
             }
            }
           ]
@@ -149,6 +185,10 @@
           "message": {
            "orig": "We're fighting the \\c[0]blue blocks\\c[0]! Shame Tronny isn't around...\n",
            "transl": "Wir kämpfen jetzt gegen die \\c[3]Blauen Blöcke\\c[0]! Schade, dass Tronny nicht da ist..."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          }
         ]
@@ -169,6 +209,10 @@
           "message": {
            "orig": "Attacking the \\c[3]purple blocks\\c[0]...",
            "transl": "Greifen jetzt die \\c[3]Lilanen Blöcke\\c[0] an..."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "NORM_SERIOUS"
           }
          },
          {
@@ -177,6 +221,10 @@
             "message": {
              "orig": "Shocking!",
              "transl": "Schockschwerenot!"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "DETERMINED"
             }
            }
           ]
@@ -187,6 +235,10 @@
           "message": {
            "orig": "We're fighting the \\c[3]purple blocks\\c[0] ",
            "transl": "Wir kämpfen gegen die \\c[3]Lilanen\\c[0]!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DETERMINED"
           }
          }
         ]
@@ -207,6 +259,10 @@
           "message": {
            "orig": "\\c[3]Green blocks\\c[0] now. Still got nothing.",
            "transl": "Jetzt die \\c[3]Grünen\\c[0]. Zu denen fällt mir immer noch nix ein."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          }
         ],
@@ -215,6 +271,10 @@
           "message": {
            "orig": "\\c[3]Green blocks\\c[0] now.",
            "transl": "Jetzt die \\c[3]Grünen\\c[0]."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "NORM_SERIOUS"
           }
          }
         ]
@@ -235,6 +295,10 @@
         "message": {
          "orig": "We put that heat down!",
          "transl": "Hitze erloschen!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        }
       ]
@@ -245,6 +309,10 @@
         "message": {
          "orig": "All blue blocks are out cold.",
          "transl": "Alle Blauen kaltgemacht!"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -255,6 +323,10 @@
         "message": {
          "orig": "Purple blocks defeated. Good Job!",
          "transl": "Lilane Blöcke erledigt! Gute Arbeit!"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "DETERMINED"
         }
        }
       ]
@@ -265,6 +337,10 @@
         "message": {
          "orig": "Green Blocks down. Vibe denied.",
          "transl": "Grüne Blöcke erledigt. Es hat sich ausg'schwingt!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        }
       ]
@@ -287,24 +363,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Well, here we are!\\. Fingers crossed things work out this time!",
        "transl": "Da wären wir!\\. Drückt die Daumen, dass es diesmal klappt!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -322,6 +420,10 @@
         "message": {
          "orig": "Nice work! Next color!",
          "transl": "Gute Arbeit! Nächste Farbe!"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -332,6 +434,10 @@
         "message": {
          "orig": "Very good, everyone!",
          "transl": "Gute Arbeit, Leute!"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "SMILE"
         }
        }
       ]
@@ -344,6 +450,10 @@
           "message": {
            "orig": "We almost got it!",
            "transl": "Wir haben es fast geschafft!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "HAPPY"
           }
          }
         ],
@@ -352,6 +462,10 @@
           "message": {
            "orig": "We almost got it!",
            "transl": "Wir haben es fast geschafft!"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "EXCITED"
           }
          }
         ]

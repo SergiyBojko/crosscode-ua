@@ -17,12 +17,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "rookie-harbor.man-shop",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi... make it quick, I think I'm gonna close soon and head to the bar...",
           "transl": "Hi... Mach schnell, ich mach' gleich zu, weil ich noch in die Kneipe will."
+         },
+         "person": {
+          "person": "rookie-harbor.man-shop",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -37,18 +51,36 @@
     "event": [
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.man-big-red",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "rookie-harbor.man-shop",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Good day! Do you by chance have any Sandwiches for sale?",
        "transl": "Guten Tag! Haben Sie zufällig auch Sandwiche?"
+      },
+      "person": {
+       "person": "rookie-harbor.man-big-red",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yepp, only 2500 Credits! Should I wrap it up for you?",
        "transl": "Klar, macht 2500 Credits! Soll ich sie einpacken?"
+      },
+      "person": {
+       "person": "rookie-harbor.man-shop",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -56,40 +88,74 @@
       "message": {
        "orig": "2500 Credits???",
        "transl": "2500 Credits???"
+      },
+      "person": {
+       "person": "rookie-harbor.man-big-red",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "rookie-harbor.man-big-red",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "rookie-harbor.man-big-red",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I gotta go!",
        "transl": "Ich... werd' dann mal gehen!"
+      },
+      "person": {
+       "person": "rookie-harbor.man-big-red",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.man-shop",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Why do they always run away? My wares are top-notch, right?",
        "transl": "Warum rennen die immer weg? Meine Waren sind doch erstklassig, oder nicht?"
+      },
+      "person": {
+       "person": "rookie-harbor.man-shop",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      }
     ]

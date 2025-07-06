@@ -12,12 +12,20 @@
         "message": {
          "orig": "Amazing work.\\. Numbers sure can't beat \\c[1]ridiculously high damage... numbers\\c[0].",
          "transl": "Echt verblüffend.\\. \\c[1]Schadens\\c[0]zahl schlägt \\c[1]Über\\c[0]zahl..."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_IRRITATED"
         }
        },
        {
         "message": {
          "orig": "\\c[1]...!!\\c[0]",
          "transl": "\\c[1]...!!\\c[0]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE"
         }
        }
       ],
@@ -26,6 +34,10 @@
         "message": {
          "orig": "Amazing work!\\. Numbers sure can't beat skill.",
          "transl": "Astrein!\\. Können schlägt Überzahl!"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_GRIN"
         }
        },
        {
@@ -34,6 +46,10 @@
           "message": {
            "orig": "Or \\c[1]being over-leveled\\c[0] for that matter.",
            "transl": "Oder \\c[1]ein unverhältnismäßiger Level\\c[0], in dem Fall."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "ROLL_EYES"
           }
          }
         ]
@@ -63,6 +79,10 @@
       "message": {
        "orig": "Would ya look at all those cowards ganging up on you!",
        "transl": "Guck ma', wie die Feiglinge dich schon mit acht Mann umzingeln müssen!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_COOL"
       }
      },
      {
@@ -71,6 +91,10 @@
         "message": {
          "orig": "Yeah...\\. good luck with that...",
          "transl": "Jau...\\. Viel Glück dabei..."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
         }
        }
       ],
@@ -79,6 +103,10 @@
         "message": {
          "orig": "But don't panic,\\. just keep moving and strike fast!",
          "transl": "Aber keine Panik,\\. bleib in Bewegung und überrumpel sie!"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
         }
        }
       ]
@@ -100,12 +128,20 @@
      null,
      null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_SMILE"
+      },
       "message": {
        "orig": "Aaand another victory for our fearless gladiator Lea!\\.",
        "transl": "Uuund noch 'n Sieg für unsere furchtlose Gladiatorin Lea!"
       }
      },
      {
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
+      },
       "message": {
        "orig": "A boxing gladiator?\\.",
        "transl": "Eine boxende Gladiatorin?\\."
@@ -132,18 +168,30 @@
       "message": {
        "orig": "C'mon, show me a right hook! \\.\\. And a left!",
        "transl": "Los, zeig mir 'n rechten Haken! \\.\\. Und 'n linken!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
       }
      },
      {
       "message": {
        "orig": "Standard VPI was not modeled after boxing\\..\\..\\..",
        "transl": "Standard-VPI basiert eigentlich nicht auf Boxen\\..\\..\\.."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Shush,\\. smarty-pants!",
        "transl": "Ruhe auf den billigen Plätzen!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
       }
      }
     ]
@@ -166,6 +214,10 @@
      null,
      null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_SMILE"
+      },
       "message": {
        "orig": "Nice moves!\\. They didn't even see it coming.",
        "transl": "Saubere Arbeit!\\. Damit haben'se nich' gerechnet, hehe."
@@ -187,52 +239,100 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Wait there for another sec!",
        "transl": "Wart nochmal 'ne Sekunde!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_WHISTLING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Yeah yeah I know,\\. a second waited is an attack wasted. ",
        "transl": "Ja ja, ich weiß -\\. jede Pause ist 'n vergeudeter Schlag."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_COOL"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Still,\\. you should know that your strikes have enough punch to interrupt some attacks.",
        "transl": "Trotzdem sollteste wissen, dass deine Schläge genug Kraft haben, um feindliche Angriffe zu unterbrechen."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_COOL"
       }
      },
      {
       "message": {
        "orig": "So you can just pummel your opponents without giving them a chance to strike back.",
        "transl": "Also kannste deine Gegner verschwarten, ohne dass sie sich wehren können."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
       }
      },
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "ROLL_EYES"
+        }
+       },
        {
         "message": {
          "orig": "Does this even matter when she defeats everything with a single hit?",
          "transl": "Spielt das überhaupt eine Rolle, wenn sie eh alles mit einem Schlag vernichtet?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "ROLL_EYES"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        null,
@@ -240,12 +340,20 @@
         "message": {
          "orig": "Hush...",
          "transl": "Pscht..."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_IRRITATED"
         }
        },
        {
         "message": {
          "orig": "Go get 'em, girl!",
          "transl": "Los, Lea, schnapp'se dir!"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
         }
        }
       ],
@@ -254,12 +362,20 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Sounds like a plan, am I right?\\. So go get 'em!",
          "transl": "Klingt dufte, was?\\. Also, schnapp'se dir!"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_UP_GRIN"
         }
        }
       ]
@@ -280,6 +396,10 @@
       "message": {
        "orig": "Close in fast and whack 'em over the head!",
        "transl": "Gib Gas und zieh ihnen eins über die Rübe!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_UP_GRIN"
       }
      }
     ]
@@ -297,10 +417,24 @@
   {
    "settings": {
     "blockEvent": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      }
+     },
      null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
+      },
       "message": {
        "orig": "Wrong direction, girl.\\.\nGotta reach the teleporter!\n",
        "transl": "Falsche Richtung, Lea!\\.\nWir müssen den Teleporter erreichen!"
@@ -326,37 +460,72 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hey champ, get your adrenaline down again for a second.",
        "transl": "Hey, du Überflieger, atme mal für 'ne Sekunde durch."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_SMILE"
       }
      },
      {
       "message": {
        "orig": "We gotta add a bit more edge to your arsenal.\\.\\. A sharp one, that is!",
        "transl": "Wird Zeit, deinem Waffenarsenal etwas mehr Schärfe zu geben.\\.\\. Durch Klingen!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_COOL"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "I see that got your attention.\\.\\. Sergey, you finished?",
        "transl": "Siehste, jetzt hab ich deine Aufmerksamkeit.\\.\\. Sergey, biste so weit?"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Yes.\\.\\.\\. Unlocking Virtual Proximity Impact\\..\\..\\..\\. now.",
        "transl": "Ja.\\.\\.\\. Virtueller Proximitätsimpakt\\..\\..\\..\\. bereit."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      null,
@@ -370,38 +539,72 @@
       "message": {
        "orig": "Great!\\. With those close-combat strikes...\\.",
        "transl": "Guuut!\\. Mit diesen Nahkampfangriffen...\\."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
       }
      },
      {
       "message": {
        "orig": "...called VPI...\\.",
        "transl": "... VPI genannt...\\."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "...you can quickly tear through several targets in your path at once.",
        "transl": "... kannste schnell mehrere Ziele gleichzeitig aus'm Weg räumen."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_COOL"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
+      }
+     },
      {
       "message": {
        "orig": "Only them close ones, \\.of course.\\. You got that?",
        "transl": "Nur die, die in deiner Nähe sind.\\. Is' klar, oder?"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_UP"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Sharp as a blade!\\. Now start by clearing that path for us, will ya?",
        "transl": "Messerscharfer Verstand!\\. Dann hack hier für uns erstmal den Weg frei."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
       }
      },
      null,
@@ -431,43 +634,94 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Just do a few warm-up swings on those pesky obstacles.",
          "transl": "Hau erstmal 'n paar nervige Hindernisse wech, um dich aufzuwärmen."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_GRIN"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Just do a few warm-up swings on those pesky obstacles.",
          "transl": "Hau erstmal 'n paar nervige Hindernisse wech, um dich aufzuwärmen."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_GRIN"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Don't worry, those are the same weaklings as before.",
          "transl": "Keine Sorge, das sind dieselben Schwächlinge wie vorhin."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
+        }
+       },
        {
         "message": {
          "orig": "Just go wild on 'em!",
          "transl": "Also tob dich ruhig aus!"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_UP_GRIN"
         }
        }
       ]
@@ -475,12 +729,26 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "More punching bags await your blade.",
          "transl": "Mehr Sandsäcke warten auf deine Klinge."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
         }
        }
       ]
@@ -488,18 +756,36 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "And here we are at the last challenge.",
          "transl": "Und schon sind wir bei deinem letzten Test."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
         }
        },
        {
         "message": {
          "orig": "Don't let the big number scare you and keep focused.",
          "transl": "Lass dich nicht von der Überzahl beeindrucken und bleib konzentriert."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_DEFAULT"
         }
        }
       ]
@@ -507,12 +793,26 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "That was quite the ride, huh?",
          "transl": "Macht Spaß, höh?"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
         }
        }
       ]
@@ -529,24 +829,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Aaand you just crossed the finish line!\\. Congrats!",
        "transl": "Uuund Ziellinie erreicht!\\. Glückwunsch!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "Seriously, girl...\\. that was QUICK!",
        "transl": "Boah, Mädel, du gehst ja ab wie 'n Zäpfchen!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_UP_COOL"
       }
      },
      {
@@ -555,6 +877,10 @@
         "message": {
          "orig": "I mean sure...\\. with this amount of \\c[1]damage\\c[0] it's no wonder, but still.",
          "transl": "Ich mein', klar...\\. bei dem \\c[1]Schaden\\c[0] kein Wunder, aber trotzdem."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_COOL"
         }
        }
       ]
@@ -563,43 +889,76 @@
       "message": {
        "orig": "It's like you've never forgotten the basics at all.",
        "transl": "Als ob'e die Grundlagen nie vergessen hättest."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_SMILE"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Oh my, you still look so puzzled about all this.",
        "transl": "Oh Mann, du guckst immer noch so planlos aus der Wäsche."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_NERVOUS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
+      }
+     },
      {
       "message": {
        "orig": "I suppose it is about time we explain all the circumstances.",
        "transl": "Ich denke, es wird langsam Zeit, dass wir dir die Umstände erklären."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "You bet it is.\\. But let's take a short break before that, okay?",
        "transl": "Darauf kannste einen lassen!\\. Lass uns aber vorher noch 'n Päuschen machen, ok?"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_COOL"
       }
      },
      {
       "message": {
        "orig": "I still need to report to the captain.\\. He wants to meet Lea as well.",
        "transl": "Ich muss dem Käpt'n noch Bericht erstatten.\\. Er will Lea auch kennenlernen."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_WHISTLING"
       }
      },
      {
       "message": {
        "orig": "Good idea.\\. Best not keep Jet waiting for too long.",
        "transl": "Gute Idee.\\. Lass Jet lieber nicht zu lange warten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      null,
@@ -609,6 +968,10 @@
       "message": {
        "orig": "C'mon Lea, right this way!",
        "transl": "Folg mir!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_SMILE"
       }
      }
     ]
@@ -623,6 +986,10 @@
       "message": {
        "orig": "We can sense your fear...\\. your every step!",
        "transl": "Wir spüren deine Furcht...\\. und jeden deiner Schritte!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_AR"
       }
      }
     ]
@@ -638,6 +1005,10 @@
         "message": {
          "orig": "Your escape is futile!",
          "transl": "Du kannst nicht entkommen!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "LAUGH_AR"
         }
        }
       ]
@@ -655,12 +1026,20 @@
       "message": {
        "orig": "\\c[1]Hi!\\c[0]",
        "transl": "\\c[1]Hi!\\c[0]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "INSANE_DOWN"
       }
      },
      {
       "message": {
        "orig": "What...\\. how can you defeat them?!",
        "transl": "Was...\\. Du kannst sie besiegen?!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED_AR"
       }
      }
     ]

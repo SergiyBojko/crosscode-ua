@@ -116,6 +116,10 @@
          "message": {
           "orig": "Ugh... enough already.",
           "transl": "Maaaann... Das nervt."
+         },
+         "person": {
+          "person": "main.schneider2",
+          "expression": "COMPLAINING"
          }
         }
        ]
@@ -450,24 +454,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Right... so this is a \\c[3]Trial Building\\c[0].",
        "transl": "Gut... Das ist also ein \\c[3]Prüfungsgebäude\\c[0]."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Does that mean more of those low-level virus thingies? ",
        "transl": "Heißt das, dass da noch mehr von diesen Low Level-Virusviechern drin sind?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SKEPTICAL"
       }
      },
      {
       "message": {
        "orig": "I'm fine with those, just keep them coming!",
        "transl": "Von mir aus gern, nur her damit!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WINK"
       }
      },
      {
@@ -476,18 +502,30 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "You're with me, I see!",
          "transl": "Ich seh schon, du kannst es auch kaum erwarten!"
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "LAUGH"
         }
        },
        {
         "message": {
          "orig": "Well, let's hope they won't pull out a weirdly overpowered boss next.",
          "transl": "Lass uns nur hoffen, dass die als Nächstes nicht irgend so einen Uberboss aus dem Hut zaubern."
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "SKEPTICAL"
         }
        }
       ],
@@ -496,24 +534,40 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "Bye.",
          "transl": "Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Gyahahaha!",
          "transl": "Gyahahaha!"
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "LAUGH"
         }
        },
        {
         "message": {
          "orig": "No really, it would be troublesome if they threw high level enemies at us now. It's better that way.",
          "transl": "Ne, im Ernst, lieber die als ein paar High Level-Gegner. Ist schon besser so."
+        },
+        "person": {
+         "person": "main.schneider2",
+         "expression": "WONDERING"
         }
        }
       ]
@@ -522,6 +576,10 @@
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -543,6 +601,10 @@
       "message": {
        "orig": "Red Laser Bridge!",
        "transl": "Rote Laserbrücke!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "HAPPY"
       }
      }
     ]
@@ -555,6 +617,10 @@
       "message": {
        "orig": "Laser Bridge! So many laser bridges!",
        "transl": "Laserbrücke! So viele Laserbrücken!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "HAPPY"
       }
      }
     ]
@@ -567,6 +633,10 @@
       "message": {
        "orig": "One more laser bridge!!",
        "transl": "Noch eine Laserbrücke!!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "HAPPY"
       }
      }
     ]
@@ -577,12 +647,38 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "thenStep": [
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEAD_INSIDE2"
+          }
+         }
+        ],
+        "elseStep": [
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
+          }
+         }
+        ]
+       },
        {
         "message": {
          "orig": "I am not here...\\. you didn't see me.",
          "transl": "Ich bin nicht hier...\\. Du hast mich nicht gesehen."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -591,6 +687,10 @@
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEAD_INSIDE"
           }
          }
         ],
@@ -599,12 +699,20 @@
           "message": {
            "orig": "...Why?",
            "transl": "Чому?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          },
          {
           "message": {
            "orig": "Go away.",
            "transl": "Geh weg."
+          },
+          "person": {
+           "person": "cross-worlds.hexacast-male-black",
+           "expression": "DEFAULT"
           }
          }
         ]

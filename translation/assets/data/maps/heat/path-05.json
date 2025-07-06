@@ -420,61 +420,106 @@
       "name": {
        "orig": "Quo'wark",
        "transl": "Quo'wark"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Diaz'trez",
        "transl": "Diaz'trez"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Human did good job!",
        "transl": "Mensch gute Arbeit gemacht!"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes, cargo saved, \\v[lore.title.shad] saved, day saved!",
        "transl": "Ja, Fracht gerettet, \\v[lore.title.shad] gerettet, Tag gerettet!"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Now travel continue.\\. Hopefully uneventful.\\. Boss already angry as is, I wager.",
        "transl": "Jetzt reisen weiter.\\. Hoffen ruhig.\\. Boss sicher sauer, ich denken."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We, hurry then!\\. Boss rage scary!",
        "transl": "Wir eilen sollten!\\. Boss sicher sauer!"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Thank you and goodbye, \\v[lore.title.seeker].\\. Talk to boss in town for reward.",
        "transl": "Danke und auf Wiedersehen, Seeker.\\. Reden mit Boss in Stadt für Belohnung."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      }
     ]
@@ -498,25 +543,46 @@
         "name": {
          "orig": "Diaz'trez",
          "transl": "Diaz'trez"
+        },
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I don't like the sand.\\. Such coarse, rough... and full of biting bones!",
          "transl": "Ich kann Sand nicht leiden.\\. Er ist kratzig und rau und unangenehm... und voller beißender Knochen!"
+        },
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "Please find items quickly, so we can return to town!",
          "transl": "Bitte finde Items schnell, damit wir zurück in Stadt können!"
+        },
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -581,79 +647,136 @@
       "name": {
        "orig": "Quo'wark",
        "transl": "Quo'wark"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Dia'strez",
        "transl": "Dia'strez"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ah, please no eat scaly Shad.\\.",
        "transl": "Ah, bitte nicht essen ungenießbare Shad.\\."
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Oh dummy!\\. Open eyes, it not a monster.\\. It human!",
        "transl": "Du Dummie!\\. Öffnen Auge, kein Monster.\\. Sein Mensch!"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Oh.\\. Yes, that true.\\. Such danger here, not good for Shad nerves.",
        "transl": "Oh.\\. Ja, stimmen.\\. So viel Gefahr hier, nicht gut für Shad-Nerven."
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Ignore big baby.\\. Is human here to help?\\. Us could need help with great problem.",
        "transl": "Ignorieren Riesenbaby.\\. Ist Mensch hier zu helfen?\\. Uns könnten Hilfe brauchen wegen große Problem."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Sent by Bazaarboss itself?\\. Such kindness, he thinking of workers!",
        "transl": "Bazarboss dich selbst geschickt?\\. So großzügig, er denkt an uns Arbeiter."
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He more think of precious cargo, me think.\\. No matter, help is help!",
        "transl": "Er mehr denkt an Fracht, denken mir.\\. Egal, Hilfe sein Hilfe."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "\\v[lore.title.seeker], look at transportation platform behind us.",
        "transl": "Seeker, schau Transportplattform hinter uns."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -664,49 +787,86 @@
       "name": {
        "orig": "Quo'wark",
        "transl": "Quo'wark"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Dia'strez",
        "transl": "Dia'strez"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
      {
       "message": {
        "orig": "It fine human technology, helped us move much crates.\\. But now it broke.",
        "transl": "Es toll Menschentechnologie ist, hilft uns, Kiste zu bewegen.\\. Aber nun kaputt."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Yes, shield still work, so no monsters eat precious cargo.\\. But floaty device not work anymore.",
        "transl": "Ja, Schild noch geht, also keine Monster essen Ladung.\\. Aber Fliegedings nicht mehr geht."
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Meaning we stuck like rock.\\. And need materials for repair. Like \\c[3]\\v[item.190.name]\\c[0] from city.",
        "transl": "Heißt, wir feststecken wie Fels.\\. Und brauchen Material, um reparieren. Wie \\c[3]Veredeltes Metall\\c[0] aus Stadt."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Also \\c[3]\\v[item.186.name]\\c[0]!\\. And \\c[3]\\v[item.177.name]\\c[0]!\\. Both found in desert, if hit plants!",
        "transl": "Und \\c[3]Dörrholz\\c[0]!\\. Und \\c[3]Belebendes Wasser\\c[0]!\\. Beide in Wüste findbar, wenn hauen Pflanzen!"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes, but different plants, not forget!\\. And that it.",
        "transl": "Ja, aber verschieden Pflanzen, nicht vergessen!\\. Das sein alles."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -717,43 +877,76 @@
       "name": {
        "orig": "Quo'wark",
        "transl": "Quo'wark"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Dia'strez",
        "transl": "Dia'strez"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Human understand and bring materials?",
        "transl": "Mensch verstehen und bringen Material?"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Good news!\\. Please hurry and help us move again.",
        "transl": "Gut zu wissen!\\. Bitte beeilen und helfen uns bewegen."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes, we wait and guard crate.\\. And try not be eaten.",
        "transl": "Ja, wir warten und bewachen Kiste.\\. Versuchen, uns nicht aufessen lassen."
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      }
     ]
@@ -772,85 +965,146 @@
       "name": {
        "orig": "Quo'wark",
        "transl": "Quo'wark"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Dia'strez",
        "transl": "Dia'strez"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "You got needed materials?\\. It splendid!",
        "transl": "Du gefunden Material wir brauchen?\\. Großartigste!"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes!\\. It splendid!\\. Now we can do repairs and leave sandy sharkplace!",
        "transl": "Ja!\\. Großartigste!\\. Nun können reparieren und sandigen Haiplatz verlassen!"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Yes, but there one problem.\\. To repair engine, platform needs restart.\\. Including shield.",
        "transl": "Ja, aber ein Problem.\\. Um Motor reparieren, Plattform muss neustarten.\\. Auch Schild neu."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Oh no.\\. Then monsters can attack precious cargo!",
        "transl": "Oh nein.\\. Dann Monster können wieder leckere Ladung knabbern!"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "\\v[lore.title.seeker] we need more help.\\. Please also protect transport for time needed to restart.",
        "transl": "Seeker wir mehr Hilfe brauchen.\\. Bitte schützen Transport während Neustart."
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes, yes.\\. Please help.\\. It only around 2 minutes!",
        "transl": "Ja, ja.\\. Bitte helfen.\\. Nur zwei Minuten dauern!"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Good, good!\\. Please prepare for protection and talk again, when ready!",
        "transl": "Gut, gut!\\. Bitte bereiten vor für Schutz. Uns sprechen wenn fertig!"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -870,25 +1124,46 @@
       "name": {
        "orig": "Quo'wark",
        "transl": "Quo'wark"
+      },
+      "person": {
+       "person": "baki.male-yellow-bald",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Dia'strez",
        "transl": "Dia'strez"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Human ready to defend crate?",
        "transl": "Mensch bereit, Kiste zu verteidigen?"
+      },
+      "person": {
+       "person": "baki.female-green",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -897,18 +1172,30 @@
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Hurray!",
          "transl": "Hurra!"
+        },
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Good, we starting repairs then.\\. Please protect crate till shield is back!",
          "transl": "Gut, wir starten Reparieren dann.\\. Bitte schützen Kiste, während Schild ist aus!"
+        },
+        "person": {
+         "person": "baki.female-green",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -931,31 +1218,56 @@
         "name": {
          "orig": "Quo'wark",
          "transl": "Quo'wark"
+        },
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
         }
        },
        {
         "name": {
          "orig": "Dia'strez",
          "transl": "Dia'strez"
+        },
+        "person": {
+         "person": "baki.female-green",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Oh no, bad feeling!",
          "transl": "Oh nein, ungute Gefühl!"
+        },
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "\\v[lore.title.seeker] be ready!\\. Angry bone creatures come near!",
          "transl": "Seeker bereit sein!\\. Böse Knochenkreaturen kommen!"
+        },
+        "person": {
+         "person": "baki.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DETERMINED"
         }
        }
       ],
@@ -964,21 +1276,37 @@
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "Fine, come back when ready.\\. Please return soon!",
          "transl": "Gut, wiederkommen wenn bereit.\\. Bitte bald!"
+        },
+        "person": {
+         "person": "baki.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Yes, please not leave \\v[lore.title.shad] in coarse sand much longer.",
          "transl": "Ja, bitte lass \\v[lore.title.shad] nicht länger in Wüste zurück."
+        },
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      },
       "options": [
        {
         "label": {
@@ -1013,25 +1341,46 @@
         "name": {
          "orig": "Diaz'trez",
          "transl": "Diaz'trez"
+        },
+        "person": {
+         "person": "baki.female-green",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Human please bring \\c[3]\\v[item.190.name]\\c[0] from town market!",
          "transl": "Mensch, bringen bitte \\c[3]Veredeltes Metall\\c[0] von Markthalle!"
+        },
+        "person": {
+         "person": "baki.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Also \\c[3]\\v[item.186.name]\\c[0]!\\. And \\c[3]\\v[item.177.name]\\c[0] from plants in this desert!",
          "transl": "Und \\c[3]Dörrholz\\c[0]!\\. Und \\c[3]Belebendes Wasser\\c[0] von Pflanzen in Wüste."
+        },
+        "person": {
+         "person": "baki.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -1065,6 +1414,10 @@
           "message": {
            "orig": "Ah, \\v[lore.title.seeker], defend us from mean sharks!",
            "transl": "Ah, Seeker, retten uns vor gemein Haie!"
+          },
+          "person": {
+           "person": "baki.male-yellow-bald",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -1075,12 +1428,20 @@
           "message": {
            "orig": "Boss be angry when he sees damage...",
            "transl": "Boss wütend wenn er Schaden sieht..."
+          },
+          "person": {
+           "person": "baki.female-green",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Oh no!",
            "transl": "Oh nein!"
+          },
+          "person": {
+           "person": "baki.male-yellow-bald",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -1091,12 +1452,20 @@
           "message": {
            "orig": "Ouch, not sound good.",
            "transl": "Autsch. Nicht klingt gut."
+          },
+          "person": {
+           "person": "baki.male-yellow-bald",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "No, not good at all.",
            "transl": "Nein, gar nicht gut."
+          },
+          "person": {
+           "person": "baki.female-green",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -1107,12 +1476,20 @@
           "message": {
            "orig": "\\v[lore.title.seeker], crate get unstable!\\. No more hit, please!",
            "transl": "Seeker, Kiste instabil!\\. Keine Treffer mehr, bitte!"
+          },
+          "person": {
+           "person": "baki.male-yellow-bald",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Use body to protect, if must!",
            "transl": "Du Körper nutzen, um schützen, wenn nötig!"
+          },
+          "person": {
+           "person": "baki.female-green",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -1130,6 +1507,10 @@
       "message": {
        "orig": "Whoa...\\. you can actually walk through here?",
        "transl": "Woah...\\. Man kann hier echt einfach durchgehen?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      }
     ]
@@ -1140,66 +1521,116 @@
     "event": [
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "Hi Lea!",
        "transl": "Hi, Lea!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
       }
      },
      {
       "message": {
        "orig": "Hi?",
        "transl": "Привіт?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "This is Kit!",
        "transl": "Ich bin's! Kit!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
       }
      },
      {
       "message": {
        "orig": "I see you arrived in \\c[3]Barren Arcs\\c[0]!",
        "transl": "Wie ich sehe, hast du die \\c[3]Kahlen Bögen\\c[0] gefunden!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
       }
      },
      {
       "message": {
        "orig": "We'll need to meet at a certain spot...\\. hm...\\. how to describe it...",
        "transl": "Wir müssen uns an einer bestimmten Stelle treffen...\\. hm...\\. Wie soll ich das beschreiben..."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
       }
      },
      {
       "message": {
        "orig": "Okay, first look for a \\c[3]lonely pillar\\c[0] in a \\c[3]nearby chasm\\c[0]...",
        "transl": "Also, zuerst musst du eine \\c[3]einsame Säule in einem Abgrund\\c[0] finden."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
       }
      },
      {
       "message": {
        "orig": "From there, just head \\c[3]straight to the south\\c[0]!",
        "transl": "Von dort aus läufst du dann \\c[3]schnurstracks nach Süden\\c[0]!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
       }
      },
      {
       "message": {
        "orig": "Got that?",
        "transl": "Klar so weit?"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
@@ -1208,18 +1639,30 @@
         "message": {
          "orig": "Oh... and also please make sure you are \\c[3]by yourself\\c[0].",
          "transl": "Oh... und sorge bitte dafür, dass du \\c[3]alleine\\c[0] kommst."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "SHADOW"
         }
        },
        {
         "message": {
          "orig": "We need to keep this confidential!",
          "transl": "Wir müssen das für uns behalten!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "SHADOW"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -1230,12 +1673,20 @@
       "message": {
        "orig": "Lea, again, are you really sure about this?",
        "transl": "Lea, noch einmal, bist du wirklich sicher, dass du das tun willst?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -1246,30 +1697,56 @@
    "settings": {
     "event": [
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Right...\\. you found the \\c[3]lonely pillar\\c[0].",
        "transl": "Gut...\\. Du hast die \\c[3]einsame Säule\\c[0] gefunden."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
       }
      },
      {
       "message": {
        "orig": "Now just head \\c[3]straight to the south\\c[0]!",
        "transl": "Jetzt läufst du einfach \\c[3]schnurstracks nach Süden\\c[0]!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
       }
      },
      {
       "message": {
        "orig": "You're very close!",
        "transl": "Du bist fast da!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "SHADOW"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      }
     ]
@@ -1281,24 +1758,46 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Just keep running at this wall to \\c[3]east\\c[0].",
          "transl": "Laufe einfach \\c[3]östlich\\c[0] gegen diese Wand."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Once you do that, I'll give you instructions to find exactly the \\c[3]right spot\\c[0]!",
          "transl": "Ich gebe dir dann genaue Anweisungen, wie du die \\c[3]richtige Stelle\\c[0] findest!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -1307,24 +1806,46 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
+        }
+       },
        {
         "message": {
          "orig": "From here keep running at the wall to \\c[3]south\\c[0].",
          "transl": "Von hier läufst du einfach \\c[3]südlich\\c[0] gegen die Wand."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'll again give you instructions to find the \\c[3]right spot\\c[0]!",
          "transl": "Ich gebe dir dann wieder Anweisungen, wie du die \\c[3]richtige Stelle\\c[0] findest!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
         }
        }
       ]
@@ -1341,24 +1862,46 @@
       "thenStep": [
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.kit",
+         "expression": "SHADOW"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "Lea... you need to \\c[3]disband your party\\c[0].",
          "transl": "Lea... Du musst \\c[3]deine Gruppe auflösen\\c[0]."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "SHADOW"
         }
        },
        {
         "message": {
          "orig": "We shouldn't risk to have more players involved in this.",
          "transl": "Wir sollten es lieber nicht riskieren, noch mehr Spieler mit hineinzuziehen."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "SHADOW"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ],
@@ -1373,18 +1916,36 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
+        }
+       },
        {
         "message": {
          "orig": "There you are!",
          "transl": "Da bist du ja!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi?!",
          "transl": "Привіт?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        },
        null,
@@ -1392,138 +1953,230 @@
         "message": {
          "orig": "Ha...\\. you look confused.\\. That makes sense.",
          "transl": "Ha...\\. Jetzt siehst du baff aus.\\. Kein Wunder."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You don't see avatars like mine around here that often, do you?",
          "transl": "Du siehst wahrscheinlich solch einen Avatar gerade zum ersten Mal, oder?"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "How?",
          "transl": "Як?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
         }
        },
        {
         "message": {
          "orig": "Well...\\. there are some tricks you can use to get an avatar like this.",
          "transl": "Tja...\\. Es gibt ein paar Tricks, mit denen du Avatare wie diesen bekommen kannst."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Though this isn't exactly allowed.\\. Which is why I can't just walk around all willy-nilly!",
          "transl": "Ist halt nur nicht erlaubt.\\. Deswegen kann ich mit ihm auch nicht einfach frei herumspazieren!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Huh?\\. Why am I using this Avatar then?",
          "transl": "Höh?\\. Warum ich den Avatar dann benutze?"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Well...\\. it's cute, don't you think?",
          "transl": "Tja...\\. Ist doch irgendwie süß, oder?"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "Also it will be helpful for what we're about to do.",
          "transl": "Außerdem brauchen wir ihn für das, was wir vorhaben."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "There is a reason they don't want modded avatars like this.",
          "transl": "Es gibt einen Grund, warum sie keine modifizierten Avatare wie diesen haben wollen."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The game tends to glitch...\\. just a little bit easier!",
          "transl": "Das Spiel wird damit nämlich ein kleines bisschen anfälliger für Glitches!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Oh yeah, I probably should explain what we're doing today!",
          "transl": "Ach ja, ich sollte erstmal erklären, was wir jetzt tun werden!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "We'll explore some \\c[3]new and unknown territory\\c[0]!",
          "transl": "Wir werden \\c[3]neues und unbekanntes Territorium\\c[0] erkunden!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "In fact, I understand it's a little testing area for developers that has been left in the Playground.",
          "transl": "Genauer gesagt ist es ein kleines Testgebiet für Entwickler, das auf dem Spielplatz immer noch existiert."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "And it's supposed to be quite the experience!",
          "transl": "Und man sagt, es soll ein richtiges Erlebnis sein!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!!",
          "transl": "...!!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "We'll just have to do a few things...\\. very precisely...\\. to get there.",
          "transl": "Und um dort hinzukommen, müssen wir wirklich äußerst...\\. präzise sein."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This way!",
          "transl": "Hier lang!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -1532,30 +2185,56 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I'll need you to run against this wall here. To the \\c[3]east\\c[0].",
          "transl": "Ich möchte, dass du gegen diese Wand hier läufst. In \\c[3]östlicher Richtung\\c[0]."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But you'll have to run at just the \\c[3]right spot\\c[0].",
          "transl": "Du musst dabei aber die \\c[3]exakt richtige Stelle\\c[0] finden."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I suggest you just keep running against this wall and I'll give more detailed instructions for your position!",
          "transl": "Deswegen schlage ich vor, dass ich dir detaillierte Anweisungen gebe, während du gegen diese Wand läufst!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        null,
@@ -1566,6 +2245,10 @@
         "message": {
          "orig": "Are you...\\. about to use that glitch?",
          "transl": "Versuchst du jetzt etwa, diesen Glitch auszunutzen?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SERIOUS"
         }
        }
       ]
@@ -1594,6 +2277,10 @@
               "message": {
                "orig": "No, wait! Your position is \\c[3]wrong again\\c[0]!",
                "transl": "Nein, stop! Deine Position ist \\c[3]schon wieder falsch\\c[0]!"
+              },
+              "person": {
+               "person": "guests.kit",
+               "expression": "DEFAULT"
               }
              }
             ]
@@ -1612,6 +2299,10 @@
               "message": {
                "orig": "More to the \\c[3]south\\c[0]...",
                "transl": "Weiter \\c[3]südlich\\c[0]..."
+              },
+              "person": {
+               "person": "guests.kit",
+               "expression": "DEFAULT"
               }
              }
             ],
@@ -1622,6 +2313,10 @@
                 "message": {
                  "orig": "Just a \\c[1]bit\\c[0] to the \\c[3]south\\c[0]...",
                  "transl": "Noch ein \\c[1]bisschen\\c[0] weiter \\c[3]südlich\\c[0]..."
+                },
+                "person": {
+                 "person": "guests.kit",
+                 "expression": "DEFAULT"
                 }
                }
               ],
@@ -1632,6 +2327,10 @@
                   "message": {
                    "orig": "More to the \\c[3]north\\c[0]...",
                    "transl": "Weiter \\c[3]nördlich\\c[0]..."
+                  },
+                  "person": {
+                   "person": "guests.kit",
+                   "expression": "DEFAULT"
                   }
                  }
                 ],
@@ -1642,6 +2341,10 @@
                     "message": {
                      "orig": "Just a \\c[1]bit\\c[0] to the \\c[3]north\\c[0]...",
                      "transl": "Noch ein \\c[1]bisschen\\c[0] weiter \\c[3]nördlich\\c[0]..."
+                    },
+                    "person": {
+                     "person": "guests.kit",
+                     "expression": "DEFAULT"
                     }
                    }
                   ],
@@ -1650,6 +2353,10 @@
                     "message": {
                      "orig": "\\c[2]That's it\\c[0]! Just \\c[3]keep running\\c[0] at this point!",
                      "transl": "\\c[2]Ja, genau da\\c[0]! Jetzt \\c[3]lauf weiter\\c[0] gegen diese Stelle!"
+                    },
+                    "person": {
+                     "person": "guests.kit",
+                     "expression": "DEFAULT"
                     }
                    }
                   ]
@@ -1676,6 +2383,10 @@
           "message": {
            "orig": "You need to \\c[3]keep running\\c[0] against the wall, Lea!",
            "transl": "Du musst \\c[3]weiter\\c[0] gegen die Wand \\c[3]laufen\\c[0], Lea!"
+          },
+          "person": {
+           "person": "guests.kit",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -1709,103 +2420,182 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Nice!\\. That worked faster than I expected!",
        "transl": "Sehr schön!\\. Das hat schneller geklappt als erwartet!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "HOW?!",
        "transl": "Як?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE1"
+      }
+     },
      {
       "message": {
        "orig": "LEA!\\. Stop doing this!",
        "transl": "LEA!\\. Hör auf damit!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE1"
       }
      },
      {
       "message": {
        "orig": "Hahaha, I suppose that was your first \\c[3]wall phasing glitch\\c[0].",
        "transl": "Hahaha, bist wohl gerade das erste Mal durch eine \\c[3]Wand geglitcht\\c[0]!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "In case you are wondering...\\. it's due to a little workaround they added in the early days.",
        "transl": "Das ist durch einen kleinen Workaround aus der Anfangsphase möglich geworden..."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...Why? ",
        "transl": "... Чому? "
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "Well...\\. back then players sometimes got stuck in arbitrary locations.",
        "transl": "Na ja...\\. Anfangs sind Spieler an beliebigen Stellen einfach steckengeblieben."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The workaround would just slightly teleport them forward if they were stuck for too long.",
        "transl": "Der Workaround sorgte dafür, dass sie ein Stück vorwärts teleportiert wurden, wenn sie zu lange feststeckten."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "And it seems they never managed to fix the bug entirely! ",
        "transl": "Und wie es aussieht, haben sie den Bug nie richtig gefixt!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes, yes.\\. It is really complicated, you see?",
        "transl": "Ja, ganz genau.\\. Das ist nämlich wirklich kompliziert, verstehst du?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Sometimes you still see other players just running against walls, right?",
        "transl": "Man sieht ja manchmal immer noch Spieler, die gegen Wände laufen, stimmt's?"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And that's why the workaround is still active, it's just much harder to trigger than it used to be.",
        "transl": "Deswegen ist der Workaround noch aktiv. Allerdings lässt er sich jetzt deutlich schwerer triggern."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Well it should be!\\. We tried really hard to make it impossible to abuse.",
        "transl": "Das war auch so beabsichtigt!\\. Wir haben alles dafür getan, dass man ihn nicht mehr ausnutzen kann."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "It's actually close to impossible to trigger it on your own.",
        "transl": "Es ist fast unmöglich, ihn als einzelner Spieler zu triggern."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Of course, we never considered multiple players would cooperate to make it work.",
        "transl": "Wir wären natürlich nie auf die Idee gekommen, dass sich mehrere Spieler zusammentun könnten, um ihn zu triggern."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      null,
@@ -1813,30 +2603,50 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "Why-\\.",
        "transl": "Warum-\\."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "Anyway!\\. Let's move on!",
        "transl": "Aber genug der Rede!\\. Weiter geht's!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "From here we need to move to the \\c[3]south\\c[0]!\\. You go first again.",
        "transl": "Von hier aus müssen wir nach \\c[3]Süden\\c[0] laufen!\\. Du darfst wieder zuerst."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      null,
@@ -1844,6 +2654,10 @@
       "message": {
        "orig": "Seriously Lea!\\. We might really get into trouble if anyone spots you doing this!",
        "transl": "Im Ernst, Lea!\\. Wir kommen in Teufels Küche, wenn uns jemand dabei erwischt!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]
@@ -1870,6 +2684,10 @@
               "message": {
                "orig": "No, wait! Your position is \\c[3]wrong again\\c[0]!",
                "transl": "Nein, stop! Deine Position ist \\c[3]schon wieder falsch\\c[0]!"
+              },
+              "person": {
+               "person": "guests.kit",
+               "expression": "DEFAULT"
               }
              }
             ]
@@ -1888,6 +2706,10 @@
               "message": {
                "orig": "More to the \\c[3]east\\c[0]...",
                "transl": "Weiter \\c[3]östlich\\c[0]..."
+              },
+              "person": {
+               "person": "guests.kit",
+               "expression": "DEFAULT"
               }
              }
             ],
@@ -1898,6 +2720,10 @@
                 "message": {
                  "orig": "Just a \\c[1]bit\\c[0] to the \\c[3]east\\c[0]...",
                  "transl": "Noch ein \\c[1]bisschen\\c[0] weiter \\c[3]östlich\\c[0]..."
+                },
+                "person": {
+                 "person": "guests.kit",
+                 "expression": "DEFAULT"
                 }
                }
               ],
@@ -1908,6 +2734,10 @@
                   "message": {
                    "orig": "More to the \\c[3]west\\c[0]...",
                    "transl": "Weiter \\c[3]westlich\\c[0]..."
+                  },
+                  "person": {
+                   "person": "guests.kit",
+                   "expression": "DEFAULT"
                   }
                  }
                 ],
@@ -1918,6 +2748,10 @@
                     "message": {
                      "orig": "Just a \\c[1]bit\\c[0] to the \\c[3]west\\c[0]...",
                      "transl": "Noch ein \\c[1]bisschen\\c[0] weiter \\c[3]westlich\\c[0]..."
+                    },
+                    "person": {
+                     "person": "guests.kit",
+                     "expression": "DEFAULT"
                     }
                    }
                   ],
@@ -1926,6 +2760,10 @@
                     "message": {
                      "orig": "\\c[2]That's it\\c[0]! Just \\c[3]keep running\\c[0] at this point!",
                      "transl": "\\c[2]Ja, genau da\\c[0]! Jetzt \\c[3]lauf weiter\\c[0] gegen diese Stelle!"
+                    },
+                    "person": {
+                     "person": "guests.kit",
+                     "expression": "DEFAULT"
                     }
                    }
                   ]
@@ -1952,6 +2790,10 @@
           "message": {
            "orig": "You need to \\c[3]keep running\\c[0] against the wall, Lea!",
            "transl": "Du musst \\c[3]weiter\\c[0] gegen die Wand \\c[3]laufen\\c[0], Lea!"
+          },
+          "person": {
+           "person": "guests.kit",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -1969,36 +2811,66 @@
      "transl": "Zum \\c[3]Testgebiet\\c[0]"
     },
     "blockEvent": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "No, Lea, stop this.",
        "transl": "Nein, Lea! Stop!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Do not drag other players into that testing area.",
        "transl": "Du darfst niemanden in diese Sache mit hineinziehen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "It is bad enough that you are walking around in it.",
        "transl": "Es ist schon schlimm genug, dass du dort herumläufst..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      }
     ]

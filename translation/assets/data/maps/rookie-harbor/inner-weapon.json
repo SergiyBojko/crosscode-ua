@@ -35,12 +35,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "We offer high quality equipment made in Rookie Harbor!",
           "transl": "Wir verkaufen qualitativ solide Ausrüstung, lokal gefertigt in Rookie Harbor!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
          }
         }
        ]

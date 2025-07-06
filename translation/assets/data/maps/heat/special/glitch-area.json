@@ -178,12 +178,20 @@
       "message": {
        "orig": "How?!",
        "transl": "Як?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "Haha, did that quicksand just make you respawn from the top?\\. That's neat!",
        "transl": "Haha! Hat dich der Treibsand wieder ganz oben auftauchen lassen?\\. Ist ja toll!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -353,11 +361,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Here we are!\\. This must be the testing area!",
        "transl": "Da sind wir!\\. Das muss das Testgebiet sein!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -366,6 +383,10 @@
       "message": {
        "orig": "What the heck is this monstrosity?",
        "transl": "Was um alles in der Welt ist das denn für eine Abscheulichkeit?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      null,
@@ -374,91 +395,163 @@
       "message": {
        "orig": "I bet this was the hellspawn of a few over-ambitious interns.",
        "transl": "Ich wette, das war die Ausgeburt von ein paar übereifrigen Praktikanten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
+      }
+     },
      {
       "message": {
        "orig": "Boy oh boy, doesn't this look exciting?",
        "transl": "Mannomann, sieht das nicht aufregend aus?"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well then, let's go!",
        "transl": "Also dann, los geht's!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Ah... wait. ",
        "transl": "Ach... Moment."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "I heard this area has been optimized for \\c[3]single players\\c[0].",
        "transl": "Ich habe gehört, dass das Gebiet für \\c[3]Einzelspieler\\c[0] optimiert ist."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Though it seems they didn't bother making it a proper instance.",
        "transl": "Wobei es ihnen wohl nicht nötig erschien, es zu instanzieren."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "In any case...\\. we better go through this level one after another.\\. Just to be safe.",
        "transl": "Auf jeden Fall gehen wir besser nacheinander durch dieses Level.\\. Sicher ist sicher."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "It's fine!\\. You can go first!",
        "transl": "Kein Problem!\\. Ich lass dir gerne den Vortritt!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'll just wait and watch until you're done!",
        "transl": "Ich warte einfach, bis du fertig bist!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
@@ -471,24 +564,40 @@
       "message": {
        "orig": "I assume I will not be able to stop you now, will I?",
        "transl": "Ich kann dich wohl nicht davon abbringen, oder?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
      {
       "message": {
        "orig": "Fine. At least this location seems isolated, so it is unlikely you will be spotted here.",
        "transl": "Na schön. Scheint immerhin ein abgeschiedener Ort zu sein, womit es unwahrscheinlich ist, dass du hier entdeckt wirst."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "But please be careful.",
        "transl": "Sei trotzdem bitte vorsichtig."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]
@@ -499,42 +608,82 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good luck! I heard they've been really creative with the usage of props in this level.",
          "transl": "Viel Glück! Ich habe gehört, das Level wurde besonders...\\. kreativ eingerichtet."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You're still here?\\. That last challenge is waiting for you!",
          "transl": "Du bist immer noch hier?\\. Die letzte Herausforderung wartet auf dich!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Good luck!",
          "transl": "Viel Glück!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ]
@@ -649,12 +798,20 @@
       "message": {
        "orig": "Nice going!\\. ...\\. Dang it, I should stop watching! I don't want to spoil the solution for myself.",
        "transl": "Gut gemacht!\\. ...\\. Oh Mist, ich sollte wegschauen! Ich will mir nicht die Lösung abgucken."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      }
     ]
@@ -667,12 +824,20 @@
       "message": {
        "orig": "Oh boy, this is quite the parkour, isn't it? But seems like you're almost through!",
        "transl": "Oh Mann, das ist ja ein richtiger Parcours, was? Aber du scheinst es ja fast geschafft zu haben!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      }
     ]
@@ -688,13 +853,22 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
        {
         "message": {
          "orig": "Now look at that!",
          "transl": "Schau dir das an!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -703,13 +877,26 @@
         "message": {
          "orig": "Ha!",
          "transl": "Ha!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
+        }
+       },
        {
         "message": {
          "orig": "...?!",
          "transl": "...?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        }
       ]
@@ -718,77 +905,136 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "So you know how to use \\c[3]JADC\\c[0]!\\. Cool!",
          "transl": "Oh, du weißt also, wie man den \\c[3]JADC\\c[0] benutzt!\\. Cool!"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Don't you feel like doing this area the proper way?",
          "transl": "Magst du das Gebiet nicht trotzdem nochmal richtig versuchen?"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Well...\\. I actually might give it a try anyway.",
          "transl": "Hm...\\. Ich könnte mich vielleicht nochmal daran versuchen."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        }
       ],
       "elseStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
+        }
+       },
        {
         "message": {
          "orig": "How?",
          "transl": "Як?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "Hm?\\. It's called a \\c[3]JADC\\c[0]. Never seen it before?",
          "transl": "Hm?\\. Das nennt man einen \\c[3]JADC\\c[0]. Hast du den noch nie gesehen?"
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'm kinda surprised they missed such an obvious shortcut.",
          "transl": "Ich bin etwas überrascht, dass sie eine so offensichtliche Abkürzung übersehen haben."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Then again...\\. it IS just a testing area...",
          "transl": "Wobei...\\. Es ist ja nur ein Testgebiet..."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Oh well, I might as well try to do this the proper way.",
          "transl": "Na ja, ich könnte es genauso gut auch nochmal ohne Tricksereien probieren."
+        },
+        "person": {
+         "person": "guests.kit",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -797,24 +1043,40 @@
       "message": {
        "orig": "You can go ahead.",
        "transl": "Du kannst schon mal vorgehen."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "There's supposed to be a very nice challenge after this!",
        "transl": "Angeblich soll es da noch eine richtig tolle Herausforderung geben!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Good luck!",
        "transl": "Viel Glück!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      }
     ]

@@ -8,136 +8,230 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Steve B. Ruger",
          "transl": "Steve B. Ruger"
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Ah, hello\\..\\..\\.. a \\v[lore.title.seeker], is it?",
          "transl": "Ah, hallo\\..\\..\\.. Ein Seeker, richtig?"
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Neat.\\. Very nostalgic.\\. \\..\\..\\.. Can I help you with anything?",
          "transl": "Ah, cool.\\. So nostalgisch.\\. \\..\\..\\.. Kann ich dir irgendwie helfen?"
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "How?",
          "transl": "Як?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Ah, well.\\. Our old project kinda went South after those armed birds broke out.",
          "transl": "Ach so, na ja.\\. Unser altes Projekt ging leider den Bach runter, nachdem diese bewaffneten Vögel ausgebrochen sind."
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Suddenly there were birds with weapons all over \\v[lore.title.planet].\\. That wrecked our reputation a bit.",
          "transl": "Die waren plötzlich überall, auf ganz Shadoon.\\. Das hat unseren Ruf ein wenig runiniert."
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "Anyway, I'm now working with my colleagues on this small passion project.\\. Not as fancy or profitable but very satisfying.",
          "transl": "Jedenfalls arbeiten wir gemeinsam an unserem kleinen Traum weiter.\\. Nicht so pompös oder gewinnbringend wie zuvor, aber sehr erfüllend."
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Just having a nice time with some neat creatures and gaming with my peers.\\. Good stuff.",
          "transl": "Einfach aus Freude an der Sache. Jetzt hindert uns auch niemand mehr am Zocken.\\. Genau unser Ding."
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Yes.\\. On that note, I am kinda busy kicking butt.\\. Are we done?",
          "transl": "Ja.\\. Und ich gewinne gerade haushoch...\\. Wenn's dir also nichts ausmacht..."
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... bye.",
          "transl": "... Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Steve B. Ruger",
          "transl": "Steve B. Ruger"
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hello\\..\\..\\..",
          "transl": "Hallo\\..\\..\\.."
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "\\..\\..\\..",
          "transl": "\\..\\..\\.."
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "\\..\\..\\.. anything else?",
          "transl": "\\..\\..\\.. Ist noch irgendwas?"
+        },
+        "person": {
+         "person": "lab.scientist-pc",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... bye.",
          "transl": "... Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        }
       ]
@@ -150,106 +244,180 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Dave Halman",
          "transl": "Dave Halman"
+        },
+        "person": {
+         "person": "lab.scientist-ps4",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "A \\v[lore.title.seeker]?\\. Fascinating.\\. You must have a lot of stories to tell.\\. Wisdom to share.",
          "transl": "Ein Seeker?\\. Faszinierend.\\. Du hast bestimmt viel zu erzählen.\\. Und Erfahrung gesammelt, die du weitergeben kannst."
+        },
+        "person": {
+         "person": "lab.scientist-ps4",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "Sorry.",
          "transl": "Вибач."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "That's fine.\\. Sometimes not consciously knowing can give you a clearer view on things, \\v[lore.title.seeker].",
          "transl": "Schon in Ordnung.\\. Manchmal kann es einem eine klarere Sicht auf die Dinge geben, wenn es einem gar nicht bewusst ist, Seeker."
+        },
+        "person": {
+         "person": "lab.scientist-ps4",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Preconception, propaganda, all of that can hide the real answers from your mind.",
          "transl": "Vorurteile, Meinungsmache, all das kann dich von den wahren Antworten in deinem Inneren ablenken."
+        },
+        "person": {
+         "person": "lab.scientist-ps4",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        },
        {
         "message": {
          "orig": "Well, right now is not the best time to talk.\\. Such heavy topics deserve a few hours of undivided attention.",
          "transl": "Tja, ist gerade kein guter Zeitpunkt zum Reden.\\. Solch schwere Themen brauchen ihre Zeit und volle Aufmerksamkeit."
+        },
+        "person": {
+         "person": "lab.scientist-ps4",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... wait.",
          "transl": "... Зачекай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Maybe later, \\v[lore.title.seeker]?",
          "transl": "Vielleicht später, Seeker?"
+        },
+        "person": {
+         "person": "lab.scientist-ps4",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... b-bye.",
          "transl": "... B-Bye."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Dave Halman",
          "transl": "Dave Halman"
+        },
+        "person": {
+         "person": "lab.scientist-ps4",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Look \\v[lore.title.seeker], I am busy here.\\. We could have some fascinating conversations later, when we got a few hours.",
          "transl": "Ich kann grad nicht, Seeker.\\. Wir können uns später gerne mal in Ruhe unterhalten, wenn ich ein paar Stunden Zeit habe."
+        },
+        "person": {
+         "person": "lab.scientist-ps4",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... bye.",
          "transl": "... Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        }
       ]
@@ -262,118 +430,200 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Xavier Bonegate",
          "transl": "Xavier Bonegate"
+        },
+        "person": {
+         "person": "lab.scientist-xbox",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Ah, hey there, how are you?\\. ... Can I help you?",
          "transl": "Ah, hallöchen, wie geht's dir?\\. ... Kann ich was für dich tun?"
+        },
+        "person": {
+         "person": "lab.scientist-xbox",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "The old facility and that Tank-project.\\. Some of the greatest things ever, yes?",
          "transl": "Die alte Anlage und das Panzer-Projekt.\\. Das war einfach das Größte, oder?"
+        },
+        "person": {
+         "person": "lab.scientist-xbox",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... Lea.",
          "transl": "... Лія."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "You trashed it?\\. Haha, amazing.\\. We are always happy to create memorable experiences for anyone.",
          "transl": "Du hast sie vernichtet?\\. Haha, unglaublich. Aber genau dafür stehen wir ja: Unvergessliche Erlebnisse für jedermann!"
+        },
+        "person": {
+         "person": "lab.scientist-xbox",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But now we were able to create peaceful creatures that just relax here with us.",
          "transl": "Aber jetzt konnten wir friedliche Wesen erschaffen, die sich einfach hier bei uns entspannen."
+        },
+        "person": {
+         "person": "lab.scientist-xbox",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "And we can concentrate on our new passion: Games!",
          "transl": "Jetzt können wir unbeschwert unserer neuen Leidenschaft frönen: Spiele!"
+        },
+        "person": {
+         "person": "lab.scientist-xbox",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Yes, games may be the thing of the future, unifying gamers as a big gaming force of positivity!",
          "transl": "Ja, Spiele könnten die Zukunft sein, die die Spieler durch die Gemeinschaft zu einer starken, positiven Kraft vereinen!"
+        },
+        "person": {
+         "person": "lab.scientist-xbox",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "... but right now, talking to you is making me get my butt kicked. So please go away and talk to someone else.",
          "transl": "... aber wenn ich weiter mit dir rede, krieg ich hier noch richtig Haue. Geh bitte zu jemand anderem."
+        },
+        "person": {
+         "person": "lab.scientist-xbox",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...bye.",
          "transl": "... Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Xavier Bonegate",
          "transl": "Xavier Bonegate"
+        },
+        "person": {
+         "person": "lab.scientist-xbox",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Still gaming this game with my gamer friends.\\. And I don't like losing, so talk to someone else.",
          "transl": "Bin immer noch mit meinen Zockerinos am Zocken.\\. Und ich verliere nicht gerne, geh also zu jemand anderem."
+        },
+        "person": {
+         "person": "lab.scientist-xbox",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...bye.",
          "transl": "..Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]
@@ -386,136 +636,230 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Drey Santrés",
          "transl": "Drey Santrés"
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Welcome, \\v[lore.title.seeker].\\. Did you visit one of our facilities?",
          "transl": "Willkommen, Seeker.\\. Hast du eine unserer Anlagen besucht?"
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Very nice.\\. I'm happy that you enjoyed it and hope that you will also like what we have built here.",
          "transl": "Sehr schön.\\. Freut mich, dass es dir gefallen hat und ich hoffe, dass dir auch gefällt, was wir hier geschaffen haben."
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "It is a smaller thing, but something we are very passionate about.",
          "transl": "Keine große Sache, aber etwas, das uns sehr am Herzen liegt."
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... how?",
          "transl": "... Як?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        },
        {
         "message": {
          "orig": "Despite the accident, we still had funds and a lot of connections.\\. Enough to raise another small facility together.",
          "transl": "Trotz des Unfalls hatten wir immer noch Geldmittel und viele Verbindungen. Genug, um gemeinsam eine kleine neue Anlage aufzubauen.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... why?",
          "transl": "... Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "We all became big fans of those fascinating creatures and wanted to give them a peaceful life here.",
          "transl": "Die faszinierenden Geschöpfe sind uns einfach ans Herz gewachsen und wir wollten ihnen hier ein friedliches Leben ermöglichen."
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... how?",
          "transl": "... Як?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "We learned a lot in the previous project.\\. So we are now able to run this new place in harmony with the Track, without any incidents.",
          "transl": "Wir haben durch das Projekt viel gelernt.\\. Dadurch können wir die neue Anlage hier im Einklang mit dem Pfad betreiben - ohne Zwischenfälle."
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... why?",
          "transl": "... Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "\\v[lore.title.seeker], I am tired and playing this game against my colleagues.",
          "transl": "Seeker, ich bin müde und spiele gerade gegen meine Kollegen."
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Please stop asking questions and let me smash their pride.",
          "transl": "Also bitte, keine Fragen mehr. Ich bin nämlich grad dabei, ihren Stolz zu brechen."
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye.",
          "transl": "Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Drey Santrés",
          "transl": "Drey Santrés"
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Don't ask me anything ever again when I'm gaming.",
          "transl": "Sprich mich nie wieder beim Zocken an."
+        },
+        "person": {
+         "person": "lab.scientist-switch",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "\\..\\..\\..",
          "transl": "\\..\\..\\.."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        }
       ]

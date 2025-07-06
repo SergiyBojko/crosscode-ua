@@ -617,55 +617,96 @@
         "name": {
          "orig": "Cherry",
          "transl": "Cherry"
+        },
+        "person": {
+         "person": "guests.cherry",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Great! Looks like I can just inject functionality by rewriting memory.",
          "transl": "Ey, super! Scheinbar kann ich neue Funktionen auch direkt in den Speicher schreiben."
+        },
+        "person": {
+         "person": "guests.cherry",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi...",
          "transl": "Привіт..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "This would mean no more replacing the executable...",
          "transl": "So muss ich die Programmdatei nicht immer ersetzen..."
+        },
+        "person": {
+         "person": "guests.cherry",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi...?",
          "transl": "Привіт...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "Also UI changes should be feasible, maybe even inject entirely new UI.",
          "transl": "Außerdem sollten UI-Anpassungen machbar sein, vielleicht sogar eine ganz neue UI."
+        },
+        "person": {
+         "person": "guests.cherry",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Maybe even highlight text commands... ",
          "transl": "Vielleicht kann ich sogar Texteingaben hervorheben..."
+        },
+        "person": {
+         "person": "guests.cherry",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye...",
          "transl": "Бувай..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DISGUSTED"
         }
        }
       ]
@@ -822,18 +863,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-female-jean",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "A friend of mine told me\\...\\..\\..\\. you can reach the other side via jumping over the cars here.",
          "transl": "Ein Freund hat mir erzählt, dass man hier über die Autos springen kann, um auf die andere Seite zu gelangen."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-female-jean",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But I'm just too scared to try.\\. Have you tried?",
          "transl": "Aber ich trau' mich das nicht.\\. Hast du es versucht?"
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-female-jean",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -866,6 +925,10 @@
       "message": {
        "orig": "Look, a Pentafist assemblée!\\. So much punching force concentrated in one spot!",
        "transl": "Guck mal, eine Pentafist-Assemblée! So viel geballte Schlagkraft auf einem Fleck!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      }
     ]

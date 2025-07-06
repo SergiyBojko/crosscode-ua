@@ -168,12 +168,26 @@
       "event": {
        "trade": {
         "event": [
-         null,
-         null,
+         {
+          "person": {
+           "person": "basin.male-raincoat",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Hey girl, ya looking for some rare weapons?",
            "transl": "Hey, Mädel, suchst'n paar seltene Waffen?"
+          },
+          "person": {
+           "person": "basin.male-raincoat",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -183,12 +197,20 @@
             "message": {
              "orig": "You won't regret it, girl!",
              "transl": "Du wirst es nicht bereuen!"
+            },
+            "person": {
+             "person": "basin.male-raincoat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SMILE"
             }
            }
           ],
@@ -198,12 +220,20 @@
             "message": {
              "orig": "Really? This is a once in a life time offer, ma girl!",
              "transl": "Echt? Das ist ein einmaliges Angebot, Mädel!"
+            },
+            "person": {
+             "person": "basin.male-raincoat",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SMILE"
             }
            }
           ]
@@ -275,24 +305,46 @@
       "event": {
        "trade": {
         "event": [
-         null,
-         null,
+         {
+          "person": {
+           "person": "misc.oldman",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Hello, young one.",
            "transl": "Hallo, mein Kind."
+          },
+          "person": {
+           "person": "misc.oldman",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Just a simple trader looking for a particular \\c[3]Drill\\c[0]...",
            "transl": "Bloß ein einfacher Händler auf der Suche nach einem bestimmten \\c[3]Bohrer\\c[0]..."
+          },
+          "person": {
+           "person": "misc.oldman",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_TOWARD"
           }
          }
         ]
@@ -303,30 +355,56 @@
       "event": {
        "trade": {
         "event": [
-         null,
-         null,
+         {
+          "person": {
+           "person": "misc.oldman",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Well look at you, young one.",
            "transl": "Alle Achtung."
+          },
+          "person": {
+           "person": "misc.oldman",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Found yourself something rare with that \\c[3]\\v[item.90.name]\\c[0].",
            "transl": "Hast mit dem \\c[3]Gigaspiralbohrer\\c[0] 'n ziemliches Schätzchen gefunden."
+          },
+          "person": {
+           "person": "misc.oldman",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Could upgrade it for you if you want... ",
            "transl": "Den könnte ich für dich upgraden, wenn du willst..."
+          },
+          "person": {
+           "person": "misc.oldman",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Only need certain items for it.",
            "transl": "Bräuchte nur ein paar Items dafür."
+          },
+          "person": {
+           "person": "misc.oldman",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -336,24 +414,40 @@
             "message": {
              "orig": "Been a while since I held this in my hands. ",
              "transl": "Ist 'ne Weile her, dass ich den das letzte Mal in der Hand hatte."
+            },
+            "person": {
+             "person": "misc.oldman",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NERVOUS"
             }
            },
            {
             "message": {
              "orig": "Time to go. Find a new place to stay.",
              "transl": "Wird Zeit, die Segel zu setzen. Eine neue Bleibe finden."
+            },
+            "person": {
+             "person": "misc.oldman",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Maybe we will meet again, I can still sense a greater power in my drill.",
              "transl": "Sehen uns vielleicht bald wieder. Spüre nach wie vor, dass mehr in meinem Bohrer steckt.<<A<<[CHANGED 2021/05/22]"
+            },
+            "person": {
+             "person": "misc.oldman",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -363,12 +457,20 @@
             "message": {
              "orig": "Very well.",
              "transl": "Wohlan."
+            },
+            "person": {
+             "person": "misc.oldman",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SURPRISED_AWAY"
             }
            }
           ]
@@ -399,18 +501,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.female-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "The \\c[3]Don\\c[0] might have let you in, but that doesn't mean I have to sell you anything, \\v[lore.title.seeker].",
          "transl": "Der \\c[3]Don\\c[0] hat dich vielleicht reingelassen, aber das heißt nicht, dass ich dir irgendwas verkaufen muss, Seeker."
+        },
+        "person": {
+         "person": "basin.female-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -649,18 +769,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.female-umbrella-laser",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "A seeker inside here? You sure must have some good connections.",
          "transl": "Ein Seeker? Hier drin? Du musst echt gute Connections haben."
+        },
+        "person": {
+         "person": "basin.female-umbrella-laser",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_FOUR_SMUG"
         }
        }
       ]
@@ -814,30 +952,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "This is a private party \\c[3]Seeker\\c[0], you better run off\\..\\..\\.. fast.",
          "transl": "Das ist 'ne Privatparty, \\c[3]Seeker\\c[0]! Du solltest hier lieber wieder verduften\\..\\..\\.. und zwar schnell."
+        },
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Unless you got yourself a pass of course.",
          "transl": "Außer natürlich du hast 'n Pass!"
+        },
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        }
       ]
@@ -845,18 +1009,36 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.male-raincoat",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "What's this? A pass? From the Boss himself?",
           "transl": "Was ist das? Ein Pass? Vom Boss höchstpersönlich?"
+         },
+         "person": {
+          "person": "basin.male-raincoat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I don't know what you did \\c[3]Seeker\\c[0], but rules are rules.",
           "transl": "Kein Plan, was du angestellt hast, \\c[3]Seeker\\c[0], aber Regeln sind Regeln."
+         },
+         "person": {
+          "person": "basin.male-raincoat",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -864,18 +1046,36 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Enjoy your stay, \\c[3]Seeker\\c[0].",
          "transl": "Viel Vergnügen, \\c[3]Seeker\\c[0]."
+        },
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -890,30 +1090,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Sorry \\c[3]Seeker\\c[0], the market is closed off for your kinda folks.",
          "transl": "Sorry, \\c[3]Seeker\\c[0], der Markt ist für deinesgleichen geschlossen."
+        },
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Unless you got yourself a pass, of course.",
          "transl": "Außer natürlich du hast 'n Pass!"
+        },
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        }
       ]
@@ -921,18 +1147,36 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.male-raincoat",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Now look at that. You got yourself a Pass. From the man himself.",
           "transl": "Na sieh mal einer an. Du hast dir 'n Pass besorgt. Vom Chef persönlich."
+         },
+         "person": {
+          "person": "basin.male-raincoat",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Make sure to leave lots of cash, alright?",
           "transl": "Sieh zu, dass du 'ne Menge Schotter hierlässt, kapiert?"
+         },
+         "person": {
+          "person": "basin.male-raincoat",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -940,18 +1184,36 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Have fun, \\c[3]Seeker\\c[0], and don't lose the pass.",
          "transl": "Viel Spaß, \\c[3]Seeker\\c[0], und verlier den Pass nicht."
+        },
+        "person": {
+         "person": "basin.male-raincoat",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -997,18 +1259,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "The rain will cleanse your soul.",
          "transl": "Der Regen wird deine Seele reinigen."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -1103,48 +1383,86 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "A Seeker? Should I ask her? Guess she's as good as anyone, really.",
           "transl": "Ein Seeker? Soll ich sie fragen? Tut's wahrscheinlich genauso wie jeder andere auch."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Well, here we go.",
           "transl": "Egal, ich mach's einfach."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hey, ya looking to make some quick cash?",
           "transl": "Hey, wills'u dir leichtes Geld verdienen?"
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "My Dad wants me to collect some goods for him from the infested jungle region.",
           "transl": "Mein Vater will, dass ich einige Sachen für ihn aus dem verseuchten Dschungel hole."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But I ain't no fighter or collector. Dunno why he thinks this is a good \"entry trial\", too.",
           "transl": "Kämpfen und Sammeln is' aber nich' so meins. Kein Plan, warum er glaubt, dass das 'ne gute \"Einstiegsprüfung\" für mich wär'.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "So, ya in or out? Ain't got all day.",
           "transl": "Also, bis'u dabei oder nich'? Hab nich' den ganzen Tag Zeit."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -1153,36 +1471,60 @@
            "message": {
             "orig": "Good, then let's get down to business. ",
             "transl": "Gut, dann gleich zur Sache."
+           },
+           "person": {
+            "person": "basin.don-mick",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I need ya to get me 10 \\c[3]Venom Shrooms\\c[0] and 5 \\c[3]Glowing Spheres\\c[0], gotcha?",
             "transl": "Ich brauch' zehn \\c[3]Giftpilze\\c[0] und fünf \\c[3]Glühende Kugeln\\c[0], kapische?"
+           },
+           "person": {
+            "person": "basin.don-mick",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Good, good. Come back when ya got them. And make it quick, ya hear?",
             "transl": "Fein, fein. Komm wieder, wenn'u alles hast. Und mach hinne, kapische?"
+           },
+           "person": {
+            "person": "basin.don-mick",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           }
          ],
@@ -1191,12 +1533,20 @@
            "message": {
             "orig": "Buzz off then, I'll find someone to do the work for me.",
             "transl": "Dann schwirr ab. Ich find' schon einen, der die Arbeit für mich macht."
+           },
+           "person": {
+            "person": "basin.don-mick",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           }
          ]
@@ -1206,24 +1556,46 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Still here? Doesn't look like ya got my goods. Go on then, make it quick.",
          "transl": "Bis'u immer noch hier? Siehs' nich' so aus, als hättes'u mein Zeug gefunden. Also los, beeil dich!"
+        },
+        "person": {
+         "person": "basin.don-mick",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -1231,36 +1603,66 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Oh, it's you. Ya finally got my goods?",
           "transl": "Ah, du bist's. Has'u mein Zeug?<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Well, about time I might say, woman.",
           "transl": "Wurde aber auch Zeit, Fräulein."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Alright, that's all I need. Here's your cash. Nice knowing ya, I guess.",
           "transl": "Astrein, alles was ich brauch'. Hier is' dein Geld. Bis' gar nich' so verkehrt, glaub' ich."
+         },
+         "person": {
+          "person": "basin.don-mick",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -1372,13 +1774,26 @@
       "event": {
        "quest": [
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "name": {
           "orig": "Sonya Bolt",
           "transl": "Sonya Bolt"
          }
         },
-        null,
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "Hi.",
           "transl": "Привіт."
@@ -1386,60 +1801,100 @@
         },
         null,
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "A \\v[lore.title.seeker], huh!\\. I see, an agent of the \\v[lore.title.human-government].",
           "transl": "Ein Seeker, hm?\\. Ah, verstehe, ein Agent der Vereinten Reisenation."
          }
         },
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
+         },
          "message": {
           "orig": "Hi...?",
           "transl": "Привіт...?"
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "Yes, the \\v[lore.title.human-government], supreme government of all of humanity on \\v[lore.title.planet].",
           "transl": "Ja, die Vereinte Reisenation, die oberste Regierung aller Menschen auf Shadoon."
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "The driving force behind exploration of the \\v[lore.title.track-of-ancients] and protector of prosperity.\\. Among other things.",
           "transl": "Die treibende Kraft hinter der Erforschung des Pfades der Ahnen und Hüter des Wohlstands.\\. Unter anderem."
          }
         },
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
+         },
          "message": {
           "orig": "Why...?",
           "transl": "Чому...?"
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "Prosperity requires progress and security.\\. Power is the key to both.\\. And power is gained through tools.",
           "transl": "Wohlstand erfordert Fortschritt und Sicherheit.\\. Macht ist der Schlüssel zu beidem.\\. Und Macht wird durch Werkzeuge gewonnen."
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "Tools powered by the Track.\\. Tools like you, \\v[lore.title.seeker].\\. And weapons.",
           "transl": "Vom Pfad angetriebene Werkzeuge.\\. Werkzeuge wie du, Seeker.\\. Und Waffen."
          }
         },
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "message": {
           "orig": "...",
           "transl": "..."
          }
         },
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "message": {
           "orig": "How?",
           "transl": "Як?"
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "Seems like there is a solid mind of its own there.\\. Want to help me reveal more of the truth?",
           "transl": "In dir wohnt ein wacher Geist, Seeker.\\. Willst du mir helfen, die Wahrheit ans Licht zu bringen?"
@@ -1448,96 +1903,160 @@
         {
          "accepted": [
           {
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
+           },
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
            }
           },
           {
+           "person": {
+            "person": "basin.female-sony",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "Yes, good.\\. Motivation worthy of the true \\v[lore.title.seeker] spirit.",
             "transl": "Gut.\\. Ich sehe, deine Motivation ist des wahren Seeker-Geistes würdig."
            }
           },
           {
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
+           },
            "message": {
             "orig": "Lea?",
             "transl": "Лія?"
            }
           },
           {
+           "person": {
+            "person": "basin.female-sony",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "The \\v[lore.title.seeker]s mission to beat the \\v[lore.title.track-of-ancients] for the advancement of shad- and humankind.",
             "transl": "Der Seeker als Befehlsempfänger: Den Pfad der Ahnen bezwingen, um Shad- und Menschheit voranzubringen."
            }
           },
           {
+           "person": {
+            "person": "basin.female-sony",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "Many have been made puppets of individual interests.\\. Corporations, the government, their own personal motives...",
             "transl": "Viele wurden zu Marionetten persönlicher Interessen gemacht.\\. Unternehmen, die Regierung, durch eigene, selbstsüchtige Motive..."
            }
           },
           {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           },
            "message": {
             "orig": "... why?",
             "transl": "... Чому?"
            }
           },
           {
+           "person": {
+            "person": "basin.female-sony",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "Greed, \\v[lore.title.track-of-ancients].\\. Thirst for power and control.",
             "transl": "Gier, der Pfad der Ahnen.\\. Das Verlangen nach Macht und Kontrolle."
            }
           },
           {
+           "person": {
+            "person": "basin.female-sony",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "And the population turns a blind eye, as long as peace in their little worlds is maintained.",
             "transl": "Und die Bevölkerung sieht weg, solange der Frieden in ihrer eigenen kleinen Welt erhalten bleibt."
            }
           },
           {
+           "person": {
+            "person": "main.lea",
+            "expression": "EXHAUSTED"
+           },
            "message": {
             "orig": "...",
             "transl": "..."
            }
           },
           {
+           "person": {
+            "person": "basin.female-sony",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "We can make a difference here, \\v[lore.title.seeker].\\. Bring the results of those actions to light.",
             "transl": "Wir können hier etwas bewirken, Seeker.\\. Lass uns diese Machenschaften aufdecken."
            }
           },
           {
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
+           },
            "message": {
             "orig": "How?",
             "transl": "Як?"
            }
           },
           {
+           "person": {
+            "person": "basin.female-sony",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "Let's not waste too many words.\\. Time is already short.",
             "transl": "Lass uns nicht zu viele Worte verlieren.\\. Die Zeit drängt bereits."
            }
           },
           {
+           "person": {
+            "person": "main.lea",
+            "expression": "EXHAUSTED"
+           },
            "message": {
             "orig": "...",
             "transl": "..."
            }
           },
           {
+           "person": {
+            "person": "basin.female-sony",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "Go to \\c[3]Clinging River in \\v[area.jungle.name]\\c[0] and search for suspect lifeforms.",
             "transl": "Begib dich zum \\c[3]Schmiegenden Fluss in Gaias Garten\\c[0] und suche nach verdächtigen Lebensformen."
            }
           },
           {
+           "person": {
+            "person": "basin.female-sony",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "I will keep contact with the \\v[lore.title.direct-link] and give you further instructions.\\. Good luck, \\v[lore.title.seeker].",
             "transl": "Ich kontaktiere dich via \\v[lore.title.direct-link] und gebe dir weitere Anweisungen.\\. Viel Glück, Seeker."
            }
           },
           {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "Bye.",
             "transl": "Бувай."
@@ -1546,18 +2065,30 @@
          ],
          "declined": [
           {
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
+           },
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
            }
           },
           {
+           "person": {
+            "person": "basin.female-sony",
+            "expression": "DEFAULT"
+           },
            "message": {
             "orig": "Maybe I was wrong.\\. If you prefer to be blind, be blind.",
             "transl": "Dann habe ich mich wohl geirrt.\\. Wenn du lieber blind sein möchtest, dann bleibe blind."
            }
           },
           {
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
+           },
            "message": {
             "orig": "...bye?",
             "transl": "... Бувай?"
@@ -1571,19 +2102,36 @@
      {
       "event": [
        {
+        "person": {
+         "person": "basin.female-sony",
+         "expression": "DEFAULT"
+        },
         "name": {
          "orig": "Sonya Bolt",
          "transl": "Sonya Bolt"
         }
        },
-       null,
        {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "basin.female-sony",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "Go to \\c[3]Clinging River in \\v[area.jungle.name]\\c[0] and search of suspect lifeforms.",
          "transl": "Begib dich zum \\c[3]Schmiegenden Fluss in Gaias Garten\\c[0] und suche nach verdächtigen Lebensformen."
         }
        },
        {
+        "person": {
+         "person": "basin.female-sony",
+         "expression": "DEFAULT"
+        },
         "message": {
          "orig": "I will keep contact with the \\v[lore.title.direct-link] and give you further instructions.",
          "transl": "Ich kontaktiere dich via \\v[lore.title.direct-link] und gebe dir weitere Anweisungen."
@@ -1595,79 +2143,136 @@
       "event": {
        "quest": [
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "name": {
           "orig": "Sonya Bolt",
           "transl": "Sonya Bolt"
          }
         },
-        null,
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "Hi.",
           "transl": "Привіт."
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "\\v[lore.title.seeker], you returned!\\. I am impressed.",
           "transl": "Seeker, du bist zurück!\\. Ich bin beeindruckt."
          }
         },
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "message": {
           "orig": "Why?",
           "transl": "Чому?"
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "Assassinations.\\. Bribery.\\. After all you have learned, these methods would have been possible.",
           "transl": "Mord.\\. Bestechung.\\. Nach allem, was du weißt, wäre das eigentlich die logische Konsequenz gewesen."
          }
         },
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "SHOCKED"
+         },
          "message": {
           "orig": "...!",
           "transl": "...!"
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "Sorry, for not telling you beforehand.\\. This mission was too important for you to refuse.",
           "transl": "Tut mir leid, dass ich dir das vorher verschwiegen habe.\\. Diese Mission war zu wichtig, als dass du sie ablehnen könntest."
          }
         },
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
+         },
          "message": {
           "orig": "...",
           "transl": "..."
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "It all turned out well, \\v[lore.title.seeker], so calm down.\\. You may be too valuable to them.",
           "transl": "Es ist alles gut gegangen, Seeker, also kein Grund zur Aufregung.\\. Du scheinst für sie von zu großem Wert zu sein."
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "This time, however, you were truly valuable to humanity.\\. These documents will be of great use in fighting injustice.",
           "transl": "Du hast der Menschheit einen großen Dienst erwiesen, Seeker.\\. Diese Dokumente werden den Ungerechtigkeiten ein Ende setzen."
          }
         },
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
+         },
          "message": {
           "orig": "...",
           "transl": "..."
          }
         },
         {
+         "person": {
+          "person": "basin.female-sony",
+          "expression": "DEFAULT"
+         },
          "message": {
           "orig": "Well then... here are your rewards.\\.\\. And also my farewell.\\. Stay vigilant.",
           "transl": "Also dann... hier ist deine Belohnung.\\.\\. Damit verabschiede ich mich auch direkt. Bleib wachsam."
          }
         },
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "message": {
           "orig": "...?",
           "transl": "...?"
@@ -1680,8 +2285,17 @@
         null,
         null,
         null,
-        null,
         {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
+         },
          "message": {
           "orig": "\\..\\..\\..\\.bye.",
           "transl": "\\..\\..\\..\\.Bye."
@@ -1720,13 +2334,26 @@
           "name": {
            "orig": "Suspicious Trader",
            "transl": "Verdächtiger Händler"
+          },
+          "person": {
+           "person": "basin.birdman-1",
+           "expression": "DEFAULT"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Hi.",
            "transl": "Привіт."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
           }
          },
          null,
@@ -1735,18 +2362,30 @@
           "message": {
            "orig": "Meet!",
            "transl": "Зустрітися!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_TOWARD"
           }
          },
          {
           "message": {
            "orig": "... Human want trade?\\. Valuable trade.\\. Precious egg!",
            "transl": "... Mensch wollen Handel?\\. Guter Handel.\\. Kostbares Ei!"
+          },
+          "person": {
+           "person": "basin.birdman-1",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "THINKING"
           }
          },
          null,
@@ -1756,31 +2395,56 @@
             "name": {
              "orig": "Suspicious Trader",
              "transl": "Verdächtiger Händler"
+            },
+            "person": {
+             "person": "basin.birdman-1",
+             "expression": "DEFAULT"
             }
            },
-           null,
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
+            }
+           },
            {
             "message": {
              "orig": "... Trade.\\. Trade good.\\. Enjoy good egg!",
              "transl": "... Handel.\\. Guter Handel.\\. Genieße Ei!"
+            },
+            "person": {
+             "person": "basin.birdman-1",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD"
             }
            },
            {
             "message": {
              "orig": "Me leave.\\. More business.\\. Not follow!",
              "transl": "Ich gehen.\\. Mehr Geschäfte.\\. Nicht folgen!"
+            },
+            "person": {
+             "person": "basin.birdman-1",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Wait!",
              "transl": "Зачекай!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SURPRISED"
             }
            },
            null,
@@ -1800,21 +2464,44 @@
            },
            null,
            null,
-           null,
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
+            }
+           },
            {
             "message": {
              "orig": "... HOW?!",
              "transl": "... Як?!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SHOCKED"
             }
            }
           ],
           "canceled": [
-           null,
-           null,
+           {
+            "person": {
+             "person": "basin.birdman-1",
+             "expression": "DEFAULT"
+            }
+           },
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
+            }
+           },
            {
             "message": {
              "orig": "[shakes head]",
              "transl": "[schüttelt Kopf]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SHAKE"
             }
            },
            null,
@@ -1822,12 +2509,20 @@
             "message": {
              "orig": "... No trade? Then leave.",
              "transl": "... Kein Handel? Verschwinde."
+            },
+            "person": {
+             "person": "basin.birdman-1",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "Bye...",
              "transl": "Бувай..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NERVOUS"
             }
            }
           ]
@@ -1843,13 +2538,26 @@
          "name": {
           "orig": "Suspicious Trader",
           "transl": "Verdächtiger Händler"
+         },
+         "person": {
+          "person": "basin.birdman-1",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi.\\. Meet!\\. Where?!",
           "transl": "Hi.\\. Treffen!\\. Wo?!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         },
         null,
@@ -1857,12 +2565,20 @@
          "message": {
           "orig": "Ah, squawks...!\\. Human!\\. Go away!",
           "transl": "Ah, krächz...!\\. Mensch!\\. Geh weg!"
+         },
+         "person": {
+          "person": "basin.birdman-1",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Wait!!",
           "transl": "Зачекай!!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SHOCKED"
          }
         }
        ]

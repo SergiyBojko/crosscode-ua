@@ -312,30 +312,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "It's time for our little duel.",
        "transl": "Es ist Zeit für unser kleines Duell."
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Let's both do our best!",
        "transl": "Geben wir unser Bestes!"
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Lea!",
        "transl": "Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -355,6 +381,10 @@
           "message": {
            "orig": "Not bad! Getting warmed up now!",
            "transl": "Nicht schlecht! Werde so langsam warm!"
+          },
+          "person": {
+           "person": "guests.lily",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -365,6 +395,10 @@
           "message": {
            "orig": "Phew, you're quite skilled at this game!",
            "transl": "Puh, du hast dieses Spielchen echt drauf!"
+          },
+          "person": {
+           "person": "guests.lily",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -375,6 +409,10 @@
           "message": {
            "orig": "I'll get more serious now!",
            "transl": "Jetzt mache ich aber Ernst!"
+          },
+          "person": {
+           "person": "guests.lily",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -385,6 +423,10 @@
           "message": {
            "orig": "Oh no...",
            "transl": "Oh nein..."
+          },
+          "person": {
+           "person": "guests.lily",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -397,6 +439,10 @@
           "message": {
            "orig": "That round goes to me!",
            "transl": "Die Runde geht an mich!"
+          },
+          "person": {
+           "person": "guests.lily",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -407,6 +453,10 @@
           "message": {
            "orig": "I think I got a hang of this now!",
            "transl": "So langsam habe ich den Dreh raus!"
+          },
+          "person": {
+           "person": "guests.lily",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -419,6 +469,10 @@
             "message": {
              "orig": "Wow, what a battle!",
              "transl": "Wow, was für ein Kampf!"
+            },
+            "person": {
+             "person": "guests.lily",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -427,6 +481,10 @@
             "message": {
              "orig": "Come on! I know you can do better!",
              "transl": "Komm schon! Das kannst du besser, das weiß ich!"
+            },
+            "person": {
+             "person": "guests.lily",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -439,6 +497,10 @@
           "message": {
            "orig": "One more point...!",
            "transl": "Nur noch einen Punkt...!"
+          },
+          "person": {
+           "person": "guests.lily",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -464,71 +526,126 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
+        }
+       },
        {
         "message": {
          "orig": "Phew...\\. you won.",
          "transl": "Puh...\\. Du hast gewonnen."
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "That was great, though.",
          "transl": "Das war trotzdem großartig."
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'm looking forward to my rematch!",
          "transl": "Ich freue mich schon auf meine Revanche!"
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        }
       ],
       "elseStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
+        }
+       },
        {
         "message": {
          "orig": "I got it, yay!",
          "transl": "Geschafft, juchu!"
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "That was a good fight, Lea!",
          "transl": "Das war ein guter Kampf, Lea!"
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Just hit me up when you're ready for a rematch!",
          "transl": "Hau mich einfach an, wenn du bereit für eine Revanche bist!<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DETERMINED"
         }
        }
       ]

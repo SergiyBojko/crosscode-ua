@@ -366,30 +366,50 @@
       "message": {
        "orig": "They DID send me a message about the meeting, you see?",
        "transl": "OBWOHL sie eine Nachricht an alle Teilnehmer verschickt hatten."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "So guess what happened: it ended up as spam!",
        "transl": "Jetzt rate mal, was passiert ist? Genau! Im Spam-Ordner gelandet!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Of course I wouldn't see it. Who checks their spam on a regular basis, oui?",
        "transl": "Hab ich natürlich nicht gemerkt. Wer guckt schon regelmäßig in seinen Spam-Ordner rein?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Totally defeats the purpose.",
        "transl": "Das würde ja völlig den Zweck verfehlen, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -404,18 +424,30 @@
       "message": {
        "orig": "Those are some really impressive stone arcs.",
        "transl": "Das sind wirklich beeindruckende Steinbögen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "Those usually appear due to water erosion. There probably used to be a river at this place a long time ago.",
        "transl": "Die entstehen eigentlich durch Wassererosion. Wahrscheinlich war hier mal vor langer Zeit ein Fluss."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      }
     ]
@@ -433,55 +465,96 @@
       "name": {
        "orig": "Ey'leet",
        "transl": "Ey'leet"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Woaah, \\v[lore.title.seeker]!\\. Those wicked rad scorpions sure were some thing.",
        "transl": "Woaah, Seeker!\\. Diese durchgeknallt Skorpione nicht ohne waren."
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Gave reading of high performance across all the parameter.\\. Sign of great machine parts and elite craft!",
        "transl": "Habe über alle Parameter hinweg hohe Leistung abgelesen.\\. Zeichen für großartig Maschinenteile und Spitzenhandwerk!"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Sad all of it went poof after receiving defeat.\\. But could find hint for location of secret lab!",
        "transl": "Aber nach Niederlage leider alles gelöst in Luft auf.\\. Konnte aber Hinweis auf Standort von Geheimlabor finden!"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "Yes, yes, I am best information man of entire village.\\. Please admire but without distraction.",
        "transl": "Ja, ja, ich sein bester Informationsmann von ganze Dorf.\\. Bewundern erlaubt, aber davon nicht ablenken lassen."
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "When calm again, move to area of \\c[3]Long Piece\\c[0].\\. Next group there and very likely also the lab!",
        "transl": "Wenn wieder ruhig, du gehen in Bereich von \\c[3]Langes Stück\\c[0].\\. Nächste Gruppe dort und sehr wahrscheinlich auch Labor!"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye...",
        "transl": "Бувай..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]

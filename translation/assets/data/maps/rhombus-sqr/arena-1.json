@@ -665,42 +665,76 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good day, Seeker!",
          "transl": "Guten Tag, Seeker!"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The \\c[3]Rhombus Arena\\c[0] is currently under construction. ",
          "transl": "Die \\c[3]Rhombus-Arena\\c[0] wird zur Zeit umgebaut."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "We apologize for any inconveniences!",
          "transl": "Wir bitten eventuelle Unannehmlichkeiten zu entschuldigen!"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "However, the new arena will include a much larger pool of activities for battle-ready Seekers.",
          "transl": "Die neue Arena wird ein umfassenderes Angebot an Aktivitäten für kampferprobte Seeker bieten.<<C<<xxxx (rhom2)"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "These activities will include \\c[3]Ranked Battle\\c[0] for both Solo- & Teamplay, \\c[3]Challenges\\c[0], \\c[3]Boss Rush\\c[0] and more!",
          "transl": "Diese Aktivitäten beinhalten \\c[3]Solo- und Gruppen-Rangkämpfe\\c[0], \\c[3]Herausforderungen\\c[0], \\c[3]Bossjagd\\c[0] und mehr!"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]
@@ -724,36 +758,66 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Sitting under this tree...",
          "transl": "So unter dem Baum zu sitzen..."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "You know, I like this spot here a lot.",
          "transl": "Weißt du, ich mag diesen Ort hier sehr."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It always feels so... \\c[3]palming\\c[0].",
          "transl": "Die Atmosphäre hier ist wirklich... \\c[3]palmig\\c[0]."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ]
@@ -871,36 +935,66 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hey you! ",
        "transl": "He, du!"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi?",
        "transl": "Привіт?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Yes, you!\\. Uhm...\\. Seeker, wasn't it?",
        "transl": "Ja, du!\\. Öhm...\\. Seeker, richtig?"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We have a quest for you!",
        "transl": "Wir haben eine Quest für dich!"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      null,
@@ -910,55 +1004,102 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Do we really need to get others involved in this?",
        "transl": "Müssen wir wirklich jemand anderes damit behelligen?"
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes.\\. I've had my fill of chasing after him.",
        "transl": "Ja.\\. Ich hab's satt, ihm nachzujagen."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Also she probably knows this place better than we do, don't you think?",
        "transl": "Außerdem kennt sie sich hier wahrscheinlich besser aus als wir, meinst du nicht?"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "True...",
        "transl": "Ja, gut möglich..."
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So yeah...\\. we're looking for a certain troublemaker.",
        "transl": "Also...\\. Wir suchen einen Freund von uns, ein richtiger Rabauke."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He's strolling around somewhere in this world.",
        "transl": "Und er spaziert gerade irgendwo in der Weltgeschichte herum."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Can you help us find him?",
        "transl": "Hilfst du uns, ihn zu finden?"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -967,275 +1108,486 @@
         "message": {
          "orig": "Thank you so much!",
          "transl": "Vielen lieben Dank!"
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "name": {
          "orig": "Lily",
          "transl": "Lily"
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'm Lily, nice to meet you!",
          "transl": "Ich bin Lily. Freut mich, dich kennenzulernen!"
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "name": {
          "orig": "Priel",
          "transl": "Priel"
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'm Priel.\\. Thanks for helping us.",
          "transl": "Ich bin Priel.\\. Danke, dass du uns hilfst."
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now about the guy we're looking for...",
          "transl": "Nun zu dem Kerl, den wir suchen..."
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "He's rather small, black hair...\\. What's his class again?\\. Powerfist?",
          "transl": "Er ist eher klein, schwarze Haare...\\. Was hat er nochmal für eine Klasse?\\. Powerfist?"
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Pentafist.",
          "transl": "Pentafist."
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Right.\\. And finally, he's notorious for wandering all over the place.",
          "transl": "Genau.\\. Außerdem ist er dafür berüchtigt, ständig auf Achse zu sein."
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "In fact, he tends to go everywhere except for where you want him to be.",
          "transl": "Im Grunde ist er überall, nur nie dort, wo du dich mit ihm treffen willst."
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why don't we try to contact him together?",
          "transl": "Warum versuchen wir nicht, ihn zusammen zu kontaktieren?"
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Oh, we can do that?",
          "transl": "Oh, das geht?"
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I think, let's give it a try!",
          "transl": "Glaube schon, versuchen wir's mal!"
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        null,
        null,
-       null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Ahh!",
          "transl": "Ahh!"
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It's the beeping thing again that makes everything blueish!",
          "transl": "Wieder dieses Piepsding, das alles blau macht."
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Stop complaining!",
          "transl": "Hör auf zu meckern!"
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "See this guy, Lea?\\. This is Reize.",
          "transl": "Darf ich vorstellen, Lea?\\. Das ist Reize."
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "name": {
          "orig": "Reize",
          "transl": "Reize"
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Uhm...\\. Hello!",
          "transl": "Öhm...\\. Hallo!"
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why's she here?",
          "transl": "Wer ist das?"
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "We got her to help us pick you up.",
          "transl": "Sie soll uns helfen, dich wieder aufzugabeln."
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I told you, you don't need to look for me!\\. I'm already on my way to you!",
          "transl": "Ich hab euch doch gesagt, dass ihr nicht nach mir sehen müsst!\\. Ich bin schon auf dem Weg zu euch!"
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Yes and we've been waiting for hours.",
          "transl": "Ja, und wir warten bereits seit Stunden."
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Where are you right now?",
          "transl": "Wo bist du jetzt gerade?"
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Uhm...\\. let me see.\\. I'm on this \\c[3]snowy mountain\\c[0].",
          "transl": "Öhh...\\. ja...\\. Ich bin auf diesem \\c[3]verschneiten Berg\\c[0]."
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "There's a \\c[3]little house\\c[0] close by. ",
          "transl": "In der Nähe von so 'ner \\c[3]kleinen Hütte\\c[0]."
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Somebody told me there's a town when I go further up the mountain.",
          "transl": "Jemand sagte mir, dass es weiter bergauf ein Dorf gibt."
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "That's Rhombus Square, right?",
          "transl": "Das muss Rhombus Square sein, oder?"
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "No, Reize...\\. I think that's Bergen Village.",
          "transl": "Nein, Reize...\\. Das müsste Bergen sein.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Oh.",
          "transl": "Oh."
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Okay, enough of that.",
          "transl": "So, Schluss mit dem Unsinn."
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You just wait where you are, okay?",
          "transl": "Du wartest jetzt einfach da, wo du gerade bist, ok?"
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Lea will pick you up and bring you to us!",
          "transl": "Lea wird dich dort abholen und zu uns bringen!"
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "I told you, you don't ha-",
          "transl": "Ich hab doch gesagt, ihr so-"
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I said: WAIT!",
          "transl": "Ich sagte: WARTE!"
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Fine!",
          "transl": "Ja, ist ja gut!"
+        },
+        "person": {
+         "person": "guests.reize",
+         "expression": "DEFAULT"
         }
        },
        null,
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Okay, looks like we're all set.",
          "transl": "Gut, die Verabredung steht."
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Good luck on your search!",
          "transl": "Viel Glück bei der Suche!"
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "If there are any troubles you can call me via this D-Link.",
          "transl": "Wenn es irgendwelche Schwierigkeiten gibt, ruf mich über diesen D-Link an."
+        },
+        "person": {
+         "person": "guests.lily",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ],
@@ -1244,12 +1596,20 @@
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "Shoot...\\. Well, gotta wait for somebody else, I suppose.",
          "transl": "Ach Mensch...\\. Tja, dann werden wir wohl jemand anderes fragen müssen."
+        },
+        "person": {
+         "person": "guests.priel",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1274,33 +1634,64 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Wow, that's such a huge place!",
        "transl": "Boah, das ist ja riesig hier!"
+      },
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Yeah... really makes you wonder how you could miss it...",
        "transl": "Ja... da frag ich mich, wie du den Ort verfehlen konntest..."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...walking around RIGHT NEXT TO IT!",
        "transl": "... weil du GENAU DRUM HERUM GELAUFEN BIST!"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yeah...\\. I guess!",
        "transl": "Joa...\\. komisch!"
+      },
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1309,47 +1700,91 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Now, time to try this \\c[3]PvP\\c[0] thing!",
        "transl": "Also, dann wollen wir mal dieses \\c[3]PvP\\c[0]-Ding probieren!"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "At least I heard the arena is the best place to fight each other!",
        "transl": "Immerhin habe ich gehört, dass die Arena der beste Ort für Duelle sein soll!"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yeah let's do it!",
        "transl": "Jau, lass das mal machen!"
+      },
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "How about you join the fun as well, Lea?",
        "transl": "Hast du nicht Lust, mitzumachen, Lea?"
+      },
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -1358,6 +1793,10 @@
       "message": {
        "orig": "Alright, \\s[5]let's gooooo~\\.",
        "transl": "Alles klar, \\s[5]los geeeeehts~\\."
+      },
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -1378,45 +1817,78 @@
       "name": {
        "orig": "Moderator",
        "transl": "Moderator"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You with the yellow scarf!",
        "transl": "Mit dem gelben Schal!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      null,
      {
       "message": {
        "orig": "Huh?",
        "transl": "Höh?"
+      },
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Yes, you!",
        "transl": "Ja, du!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "A lot of players reported you've been hacking the system and pulling enemies across locations!",
        "transl": "Einige Spieler haben gemeldet, dass du das System gehackt und Gegnermassen durch verschiedene Standorte gezogen hast!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Oh yeah, about that...\\. Listen I...",
        "transl": "Ach ja, die Geschichte...\\. Also, das war so..."
+      },
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "This is a clear violation of our Terms of Use! ",
        "transl": "Das ist ein klarer Verstoß gegen unsere Nutzungsbedingungen!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1424,6 +1896,10 @@
       "message": {
        "orig": "You'll have to be \\c[3]banned\\c[0], sorry!",
        "transl": "Dafür muss ich dich \\c[3]bannen\\c[0], tut mir leid!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1434,6 +1910,10 @@
       "message": {
        "orig": "W-Wait,\\. I never intended...!",
        "transl": "M-Moment,\\. das war doch keine Absi-...!"
+      },
+      "person": {
+       "person": "guests.reize",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1464,33 +1944,68 @@
       "name": {
        "orig": "Moderator",
        "transl": "Moderator"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I don't believe you've been involved in any of this, right?",
        "transl": "Ich nehme mal nicht an, dass ihr darin verwickelt wart?"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Nope!\\. No idea who that guy was,\\. haha.",
        "transl": "Neiiin!\\. Keine Ahnung, wer das war,\\. haha."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "S-Same...",
        "transl": "I-Ich auch nicht..."
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1498,12 +2013,20 @@
       "message": {
        "orig": "Alright then!",
        "transl": "Gut!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Enjoy your stay in CrossWorlds!",
        "transl": "Dann noch viel Spaß in CrossWorlds!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1512,25 +2035,52 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
      {
-      "message": {
-       "orig": "...",
-       "transl": "..."
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
+     {
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Well... he had it coming.",
        "transl": "Tja... Er hat's verdient."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1542,11 +2092,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Ugh...",
        "transl": "Ärks..."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1554,104 +2113,193 @@
       "message": {
        "orig": "Ivo is getting on my nerves now.",
        "transl": "Ivo geht mir gerade auf die Nerven."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Apparently Reize is all confused.\\. I'd better tell him what happened.",
        "transl": "Anscheinend ist Reize gerade ziemlich verwirrt.\\. Ich erzähle ihm besser, was passiert ist."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Should I go as well?",
        "transl": "Soll ich mitkommen?"
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Why don't you try this PvP thing with Lea?",
        "transl": "Warum probierst du mit Lea nicht dieses PvP-Ding aus?"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Lea!",
        "transl": "Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "At least one person should have some fun here, right?",
        "transl": "Dann hätte wenigstens einer noch Spaß von uns hier, oder?"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Sure, if that's okay with you!",
        "transl": "Klar, wenn's dir nichts ausmacht!"
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But before you leave, make sure to give Lea her reward.",
        "transl": "Vergiss aber nicht Leas Belohnung, bevor du gehst."
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Right!",
        "transl": "Ach, genau!"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I mean... chasing that little troublemaker turned out to be entirely fruitless, but still...",
        "transl": "Ich meine... die Jagd nach unserem Rabauken war zwar für die Katz, aber trotzdem..."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Here's a little something for all your trouble!",
        "transl": "Hier ist eine Kleinigkeit für all deine Mühen und Strapazen!"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "Well then, I gotta go now.",
        "transl": "Also dann, ich muss jetzt los."
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You two have fun at the arena!",
        "transl": "Viel Spaß euch beiden in der Arena!"
+      },
+      "person": {
+       "person": "guests.priel",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Thanks and see you later!",
        "transl": "Danke, bis später!"
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
@@ -1670,18 +2318,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Alright then, Lea!\\. Let's go!",
        "transl": "Also dann, Lea!\\. Legen wir los!"
+      },
+      "person": {
+       "person": "guests.lily",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      }
     ]

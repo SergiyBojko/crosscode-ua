@@ -56,12 +56,20 @@
       "message": {
        "orig": "This will be the last pillar enemy! We'll let \\c[3]you decide\\c[0] which element to attack this time!",
        "transl": "Das ist der letzte Säulengegner! Wir lassen \\c[3]dich entscheiden\\c[0], welchen wir zuerst angreifen!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Decide quickly! I want to start hitting stuff!",
        "transl": "Lea, lass knacken! Mir juckt's in den Fingern!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "GRIN"
       }
      }
     ]
@@ -79,12 +87,20 @@
         "message": {
          "orig": "Hey! Which element should be destroy?",
          "transl": "Hey! Welches Element sollen wir zerstören?"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "Oh dear... It' seems like Lea is all alone right now. Let's wait for Emilie or Tronny to respawn.",
          "transl": "Oh je... Sieht so aus, als wäre Lea gerade ganz allein. Lasst uns warten, bis Emilie oder Tronny respawnen."
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "WORRIED"
         }
        }
       ]
@@ -99,12 +115,20 @@
           "message": {
            "orig": "\\c[3]Red blocks\\c[0]! \\c[3]Heat\\c[0] is under fire now!",
            "transl": "\\c[3]Rote Blöcke\\c[0]! Macht ihnen Feuer unterm Hintern!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DETERMINED"
           }
          },
          {
           "message": {
            "orig": "You waited for that one, didn't you?",
            "transl": "Da hast du jetzt die ganze Zeit drauf gewartet, dass du den bringen kannst, ne?"
+          },
+          "person": {
+           "person": "main.schneider",
+           "expression": "WINK"
           }
          }
         ],
@@ -113,6 +137,10 @@
           "message": {
            "orig": "We're attacking the \\c[3]Red blocks\\c[0] now!",
            "transl": "Wir greifen jetzt die \\c[3]Roten Blöcke\\c[0] an!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SMILE"
           }
          }
         ]
@@ -133,6 +161,10 @@
           "message": {
            "orig": "\\c[0]Blue blocks\\c[0]! It's time to \\c[3]break the ice\\c[0]! Cool, delicious ice.",
            "transl": "\\c[3]Blaue Blöcke\\c[0]! Es wird Zeit, das \\c[3]Eis zu brechen\\c[0]! Hmm, lecker Eis!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "AWESOME"
           }
          },
          {
@@ -141,6 +173,10 @@
             "message": {
              "orig": "Monsieur, you gotta keep that craving for ice cream under control.",
              "transl": "Monsieur, du solltest deinen Heißhunger auf Eiscreme mal etwas zügeln."
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "SUSPICIOUS"
             }
            }
           ]
@@ -151,6 +187,10 @@
           "message": {
            "orig": "We're fighting the \\c[0]Blue blocks\\c[0]! It's a shame that Tronny is out. I'm sure those are his favorites.",
            "transl": "Wir kämpfen jetzt gegen die \\c[3]Blauen Blöcke\\c[0]! Schade, dass Tronny k.o. ist. Die mag er sicher am liebsten."
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          }
         ]
@@ -171,6 +211,10 @@
           "message": {
            "orig": "Uhm, we attack those \\c[3]purple blocks\\c[0] now. The shock blocks!",
            "transl": "Ähm, wir greifen jetzt die \\c[3]Lilanen Blöcke\\c[0] an. Den Schock-Block!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SURPRISED"
           }
          },
          {
@@ -179,6 +223,10 @@
             "message": {
              "orig": "What a \\c[3]shocking\\c[0] turn of events!",
              "transl": "Was für ein \\c[3]Schock\\c[0] für den Block!"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "WATCH_OUT_BADASS"
             }
            }
           ]
@@ -189,6 +237,10 @@
           "message": {
            "orig": "We're fighting those \\c[3]Purple blocks\\c[0] now! Let's be quick as lightning!",
            "transl": "Wir kämpfen jetzt gegen die \\c[3]Lilanen\\c[0]! Blitzangriiiiiff!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "DETERMINED"
           }
          }
         ]
@@ -209,6 +261,10 @@
           "message": {
            "orig": "\\c[3]Greenish blocks\\c[0] now. Nope. No pun, I got nothing. What's this element anyway?",
            "transl": "Jetzt \\c[3]Grün\\c[0]. Non, ohne Witz, mir fällt nix ein. Was ist das überhaupt für ein Element?"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "SUSPICIOUS"
           }
          }
         ],
@@ -217,6 +273,10 @@
           "message": {
            "orig": "We're fighting the \\c[3]Greenish blocks\\c[0] now. Whatever those are...",
            "transl": "Wir bekämpfen jetzt die \\c[3]Grünen Blöcke\\c[0]. Was auch immer die sind..."
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "THOUGHTFUL"
           }
          }
         ]
@@ -225,12 +285,20 @@
         "message": {
          "orig": "That's \\c[3]Wave\\c[0]. And honestly, nobody quite knows what it is.",
          "transl": "\\c[3]Welle\\c[0]. Aber niemand weiß so richtig, was das eigentlich ist."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "WONDERING"
         }
        },
        {
         "message": {
          "orig": "It's the element of peace and good vibrations! Let's smash it, everyone!",
          "transl": "Das ist das Element des Friedens und positiver Schwingungen! Los, Leute, hauen wir's kaputt!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        },
        {
@@ -249,6 +317,10 @@
         "message": {
          "orig": "All done on our side!",
          "transl": "Alles erledigt auf unserer Seite!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        }
       ]
@@ -259,6 +331,10 @@
         "message": {
          "orig": "Out cold! All blue blocks, that is.",
          "transl": "Alle Blauen Blöcke kaltgemacht!"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -269,6 +345,10 @@
         "message": {
          "orig": "All purple blocks defeated!",
          "transl": "Alle Lilanen Blöcke erledigt!"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "DETERMINED"
         }
        }
       ]
@@ -279,6 +359,10 @@
         "message": {
          "orig": "The element of peace is no more.",
          "transl": "Das Element des Friedens ist verschieden."
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        }
       ]
@@ -312,18 +396,30 @@
       "message": {
        "orig": "Hm.... that is odd...",
        "transl": "Hm... Das ist merkwürdig..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Nevermind, I must be imagining things.",
        "transl": "Egal, ich bilde mir wahrscheinlich nur was ein."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      }
     ]
@@ -373,25 +469,52 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Here we are! Time for the final stage! Everyone ready?",
        "transl": "Da wären wir! Zeit für das Finale! Alle bereit?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Very much!",
        "transl": "Und wie!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -416,6 +539,10 @@
       "message": {
        "orig": "Wait...\\. something is not right here!",
        "transl": "Warte...\\. Hier stimmt etwas nicht!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DRAMATIC"
       }
      }
     ]
@@ -433,6 +560,10 @@
         "message": {
          "orig": "Nice work! Next color!",
          "transl": "Gute Arbeit! Nächste Farbe!"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -443,6 +574,10 @@
         "message": {
          "orig": "Very good, everyone!",
          "transl": "Gute Arbeit, Leute!"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "SMILE"
         }
        }
       ]
@@ -455,6 +590,10 @@
           "message": {
            "orig": "We almost got it!",
            "transl": "Wir haben es fast geschafft!"
+          },
+          "person": {
+           "person": "main.emilie",
+           "expression": "HAPPY"
           }
          }
         ],
@@ -463,6 +602,10 @@
           "message": {
            "orig": "We almost got it!",
            "transl": "Wir haben es fast geschafft!"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "EXCITED"
           }
          }
         ]

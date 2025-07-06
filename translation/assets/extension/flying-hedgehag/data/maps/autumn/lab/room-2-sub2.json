@@ -34,7 +34,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "Main Elevator: \\c[1]disabled\\c[0].\n\\c[1]Spawn a test subject?\\c[0]",
@@ -43,7 +48,12 @@
         },
         {
          "0": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
+           }
+          },
           null,
           {
            "text": {
@@ -55,12 +65,20 @@
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "THINKING"
            }
           },
           {
            "message": {
             "orig": "...?!",
             "transl": "...?!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SCARED"
            }
           },
           null,
@@ -77,11 +95,20 @@
            "message": {
             "orig": "Whhhhyyy?!",
             "transl": "Waruuum?!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHOCKED"
            }
           }
          ],
          "1": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
           {
            "text": {
             "orig": "Do you want to \\c[1]enable the main elevator\\c[0]?",
@@ -90,7 +117,12 @@
           },
           {
            "0": [
-            null,
+            {
+             "person": {
+              "person": "main.lea",
+              "expression": "PROUD"
+             }
+            },
             null,
             null,
             {
@@ -100,6 +132,10 @@
              }
             }
            ],
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           },
            "options": [
             {
              "label": {
@@ -116,6 +152,10 @@
            ]
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "options": [
           {
            "label": {
@@ -158,73 +198,126 @@
        "name": {
         "orig": "Drey Santrés",
         "transl": "Drey Santrés"
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "message": {
         "orig": "Greetings everyone!\\. The development of \\c[3]\"Project Paratroopa\"\\c[0] is moving along at a nice speed.",
         "transl": "Hallo, zusammen!\\. Die Entwicklung von \\c[3]\"Projekt Paratroopa\"\\c[0] schreitet zügig voran."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "As the name suggests we had to first concentrate our efforts on military applications to secure our funds.",
         "transl": "Wie der Name bereits verrät, mussten wir uns zunächst auf militärische Anwendungen konzentrieren, um unsere Finanzierung zu sichern."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Though, rest assured that our plans still involve civil projects that will benefit all of society.",
         "transl": "Doch seid versichert, dass unsere Pläne weiterhin zivile Projekte beinhalten, die der gesamten Gesellschaft zugute kommen."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "As for now, we are pleased to work together with our colleagues from other sectors of the field of engineering and science.",
         "transl": "Derzeit freuen wir uns, mit unseren Kollegen aus anderen Bereichen des Ingenieurwesens und der Wissenschaft zusammenzuarbeiten."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Their expertise in fields like advanced weaponry and high durability construction complements our own.",
         "transl": "Ihre Fachkenntnisse in Bereichen wie Rüstungsforschung und langlebiger Konstruktionsbauweise ergänzen unsere eigenen."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "As for the project itself, interacting with the Track supplies us with near limitless energy and possibilities.",
         "transl": "Was das Projekt selbst angeht, so bietet uns die Interaktion mit dem Pfad nahezu unbegrenzte Energie und Möglichkeiten."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Funneling its unpredictable flow into the desired direction has truly become a very rewarding challenge!",
         "transl": "Seinen unvorhersehbaren Energiefluss in die gewünschte Richtung zu leiten war eine Herausforderung, die sich wirklich ausgezahlt hat!"
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "But by far the most thrilling aspect has proven to be the interaction with the fascinating spiky creatures.",
         "transl": "Der mit Abstand aufregendste Aspekt war jedoch die Interaktion mit der faszinierenden Welt der stacheligen Geschöpfe."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Our favorite is a very large specimen of \\v[combat.name.hedgehog] who, despite his limited mobility, holds great authority over his peers.",
         "transl": "Unser Favorit ist ein ungewöhnlich großes Exemplar eines Igölls, das trotz seiner eingeschränkten Mobilität große Autorität über seine Artgenossen besitzt."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Right now I am leading a separate team to apply a specialized version of our flying devices to his huge body.",
         "transl": "Aktuell leite ich ein separates Team, um eine Spezialkonstruktion unserer Fluggeräte auf seinen riesigen Körper zuzuschneiden."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Our work will become even more exciting as we move forward, so please continue to share our excitement!",
         "transl": "Unsere Arbeit wird umso spannender, je weiter wir vorankommen. Teilt also bitte weiterhin unsere Begeisterung!"
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       }
      ]
@@ -242,7 +335,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]INTERNAL MAIL, INBOX\\c[0]\n\n\\c[3]FROM:\\c[0] \"Avian Appliances\", Management\n\\c[3]TO:\\c[0] Office 8b\n\n\\c[3]Subject:\\c[0] Evaluation",
@@ -307,7 +405,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]INTERNAL MAIL, INBOX\\c[0]\n\n\\c[3]FROM:\\c[0] Facility Management\n\\c[3]TO:\\c[0] [NAME REDACTED]\n\n\\c[3]Subject:\\c[0] Work Transgression",

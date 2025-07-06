@@ -628,30 +628,56 @@
   {
    "settings": {
     "blockEvent": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Uhm...\\. Lea?",
        "transl": "Öhm...\\. Lea?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "I think C'tron and the others are waiting for you at the \\c[3]First Scholar HQ\\c[0], correct?",
        "transl": "Ich glaube, C'tron und die anderen warten auf dich im \\c[3]Hauptquartier\\c[0], korrekt?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "You probably should go there before heading to \\c[3]Sapphire Ridge\\c[0].",
        "transl": "Du solltest besser dort vorbeischauen, bevor du zum \\c[3]Saphirgrat\\c[0] gehst."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      }
     ]
@@ -773,12 +799,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Yo, what's up?",
          "transl": "Yo, was geht?"
+        },
+        "person": {
+         "person": "cross-worlds.triblader-male-black",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -787,21 +827,38 @@
           "message": {
            "orig": "I see you got the \\c[3]\\v[item.410.name]\\c[0] with you! Nice, nice!",
            "transl": "Ach gucke mal, du hast ja die \\c[3]Sternform\\c[0] dabei. Schick, schick!"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-black",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Well then, good luck in \\c[3]Sapphire Ridge\\c[0]! Beware of bugs!",
            "transl": "Also denn, viel Glück auf dem \\c[3]Saphirgrat\\c[0]! Hüte dich vor den Käfern!"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-black",
+           "expression": "DEFAULT"
           }
          },
          {
           "thenStep": [
-           null,
+           {
+            "person": {
+             "person": "main.emilie",
+             "expression": "SUSPICIOUS"
+            }
+           },
            {
             "message": {
              "orig": "Wait... What was that?",
              "transl": "Moment... Hat er gerade Käfer gesagt?"
+            },
+            "person": {
+             "person": "main.emilie",
+             "expression": "SUSPICIOUS"
             }
            }
           ]
@@ -812,24 +869,40 @@
           "message": {
            "orig": "If you want to pass the barrier up ahead you first have to collect the \\c[3]\\v[item.410.name]\\c[0].",
            "transl": "Wenn du die Barriere passieren willst, brauchst du die \\c[3]Sternform\\c[0]."
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-black",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "You get it at the end of the \\c[3]Grand Krys'kajo\\c[0] dungeon in \\c[3]Gaia's Garden\\c[0].",
            "transl": "Du bekommst sie am Ende des \\c[3]Großen Krys'kajo\\c[0]-Dungeons in \\c[3]Gaias Garten\\c[0]."
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-black",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "If you've already finished the dungeon... just revisit the \\c[3]final boss room\\c[0]. I'm sure you'll find the shades somewhere in there.",
            "transl": "Falls du den Dungeon schon gemacht hast... geh nochmal in den \\c[3]Bossraum\\c[0]. Da wirst du sicher etwas finden."
+          },
+          "person": {
+           "person": "cross-worlds.triblader-male-black",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ASTONISHED"
           }
          }
         ]

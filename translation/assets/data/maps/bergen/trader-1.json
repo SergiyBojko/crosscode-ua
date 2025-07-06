@@ -121,36 +121,66 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.pentafist-female-blue",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
+         }
+        },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "For me? A gift?",
           "transl": "Ein Geschenk? Für mich?"
+         },
+         "person": {
+          "person": "cross-worlds.pentafist-female-blue",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Sure, whatever.",
           "transl": "Joa, gib mal her, wieso nicht."
+         },
+         "person": {
+          "person": "cross-worlds.pentafist-female-blue",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         }
        ]
@@ -173,77 +203,130 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Metaltrader",
           "transl": "Metallhändler"
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Ah, hello \\v[lore.title.seeker].\\. Can I interest you in some solid metal?\\. It is especially shiny today.",
           "transl": "Ah, hallo, Seeker.\\. Kann ich dich für ein paar äußerst solide Metallteile begeistern?\\. Sie glänzen heute ganz besonders."
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[shakes head]",
           "transl": "[schüttelt Kopf]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SHAKE"
          }
         },
         {
          "message": {
           "orig": "Lea!",
           "transl": "Лія!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Ahhh, you're the assistant from \\v[area.rookie-harbor.name]?\\. Alright then, let me explain the deal.",
           "transl": "Ahhh, du bist der Assistent von Rookie Harbor?\\. Alles klar, dann erkläre ich dir jetzt die getroffene Vereinbarung."
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "We can deliver some advanced metalworking tools to \\v[area.rookie-harbor.name] but only if you bring us certain spare parts.",
           "transl": "Wir liefern die gewünschten Metallverarbeitungsgeräte erst, nachdem du uns bestimmte Ersatzteile besorgt hast."
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "They are expensive to produce these days but there should still be some built into certain machines in the mine.",
           "transl": "Sie sind heutzutage einfach zu teuer in der Herstellung. Es sollen aber noch ein paar in den Maschinen der Mine verbaut sein."
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Word on the street is that there's one in some \\c[3]room that harbors the power of heat\\c[0], whatever that means.",
           "transl": "Gerüchten zufolge befindet sich eine davon \\c[3]in dem Raum, der die Kraft der Hitze innehat.\\c[0] Was auch immer das heißen soll."
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "In any case, maybe you can find one there so we can bring this deal to a close.\\. Good luck.",
           "transl": "Auf jeden Fall hoffe ich, dass du dort eine findest, damit wir unseren Handel abschließen können.\\. Viel Glück."
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         }
        ]
@@ -253,23 +336,40 @@
       "event": {
        "trade": {
         "event": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "name": {
            "orig": "Metaltrader",
            "transl": "Metallhändler"
+          },
+          "person": {
+           "person": "bergen.male-hoodie-simple",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Apparently you can find those parts in some \\c[3]room that harbors the power of heat\\c[0].",
            "transl": "Die Ersatzteile sollen sich in einem \\c[3]Raum befinden, der die Kraft der Hitze innehat.\\c[0] "
+          },
+          "person": {
+           "person": "bergen.male-hoodie-simple",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Not sure what it means, but I'm sure you got some ideas.\\. In the meantime, care for some metal?",
            "transl": "Keine Ahnung, was das bedeutet, aber ich bin mir sicher, dass du ein paar Ideen hast.\\. Kann ich dir in der Zwischenzeit etwas Metall anbieten?"
+          },
+          "person": {
+           "person": "bergen.male-hoodie-simple",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -279,55 +379,97 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Metaltrader",
           "transl": "Metallhändler"
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Hello \\v[lore.title.seeker].\\. You got the parts we need?",
           "transl": "Hallo, Seeker.\\. Hast du die Teile gefunden?"
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
+         }
+        },
         null,
         {
          "message": {
           "orig": "Ah, yes those seem perfect.\\. Good job!\\. That'll be more than enough for a nicely advanced metal oven.",
           "transl": "Ah, genau, die sehen perfekt aus.\\. Gute Arbeit!\\. Das wird mehr als genug sein für einen schicken modernen Schmelzofen."
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "We will handle the rest.\\. You can report back to the CTC in \\v[area.rookie-harbor.name] to get your reward.",
           "transl": "Wir kümmern uns um den Rest.\\. Deine Belohnung bekommst du vom KHV in Rookie Harbor."
+         },
+         "person": {
+          "person": "bergen.male-hoodie-simple",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -337,23 +479,40 @@
       "event": {
        "trade": {
         "event": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "name": {
            "orig": "Metaltrader",
            "transl": "Metallhändler"
+          },
+          "person": {
+           "person": "bergen.male-hoodie-simple",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "You can report back to the CTC in \\v[area.rookie-harbor.name].\\. I have already notified them.",
            "transl": "Du kannst dich beim KHV in Rookie Harbor zurückmelden.\\. Ich habe ihn bereits informiert."
+          },
+          "person": {
+           "person": "bergen.male-hoodie-simple",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "In the meantime, why not buy some nice metal here?\\. It's nice and fresh!",
            "transl": "Warum kaufst du hier nicht vorher noch etwas Metall, frisch aus dem Ofen?"
+          },
+          "person": {
+           "person": "bergen.male-hoodie-simple",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -387,13 +546,26 @@
         "name": {
          "orig": "Mrs. Summers",
          "transl": "Frau Summers"
+        },
+        "person": {
+         "person": "business.leader-bergen-female",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Greetings, young lady.\\. Our current circumstances don't require your assistance for once.",
          "transl": "Sei gegrüßt, junge Dame!\\. Im Moment benötigen wir deine Hilfe ausnahmsweise nicht."
+        },
+        "person": {
+         "person": "business.leader-bergen-female",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -405,73 +577,126 @@
          "name": {
           "orig": "Mrs. Summers",
           "transl": "Frau Summers"
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Ah, a \\v[lore.title.seeker].\\. It is a pleasure, seeing more of your kind here in Bergen.",
           "transl": "Ah, ein Seeker.\\. Es ist eine Freude, mehr von deinesgleichen hier in Bergen zu sehen."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I am Mrs. Summers, holding the position of chairperson in \\c[3]\\v[lore.title.faction-shock-bergen]\\c[0].",
           "transl": "Ich bin Frau Summers, die Vorsitzende von \\c[3]\\v[lore.title.faction-shock-bergen]\\c[0]."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Lea!",
           "transl": "Лія!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Lovely.\\. Alas, we should not spend too much time with idle pleasantries.",
           "transl": "Angenehm.\\. Zu viel Zeit mit Höflichkeiten sollten wir jedoch nicht verbringen."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "After all, we businesspeople have as much a responsibility to humanity's progress as any soldier.",
           "transl": "Schließlich tragen wir Geschäftsleute eine große Verantwortung für den Fortschritt der Menschheit. So wie auch jeder Soldat."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Sadly, some of those among us are more concerned with personal vanities nowadays.",
           "transl": "Traurigerweise sind heutzutage viele von uns mehr mit ihren Eitelkeiten beschäftigt."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But appeasing even associates such as those falls onto me, as useless as it might seem.",
           "transl": "Aber selbst solche Partner zu beruhigen gehört zu meinen Aufgaben, so sinnlos es auch scheinen mag."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "You, on the other hand, seem like a diligent young lady.\\. Could I ask you to lighten my burden a bit?",
           "transl": "Du hingegen scheinst eine fleißige junge Dame zu sein.\\. Könntest du mir etwas von meiner Last abnehmen?"
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -480,48 +705,80 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Excellent.\\. \\v[lore.title.operation-trackwalker] truly shows its worth in all facets of our society!",
             "transl": "Ausgezeichnet.\\. Operation Pfadläufer zeigt seinen Nutzen tatsächlich in allen Bereichen unserer Gesellschaft!"
+           },
+           "person": {
+            "person": "business.leader-bergen-female",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "The person in question is called \\c[3]Jamie Twirlson\\c[0].\\.  You should be able to find him in the local \\c[3]Item Shop\\c[0].",
             "transl": "Die Person, um die es geht, heißt \\c[3]Jamie Twirlson\\c[0].\\. Du solltest ihn im hiesigen \\c[3]Itemladen\\c[0] finden."
+           },
+           "person": {
+            "person": "business.leader-bergen-female",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "He wastes his time and the patience of all his colleagues with fruitless fashion experiments.",
             "transl": "Er vergeudet die Zeit und Geduld all seiner Kollegen mit fruchtlosen Mode-Experimenten."
+           },
+           "person": {
+            "person": "business.leader-bergen-female",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...?",
             "transl": "...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           },
           {
            "message": {
             "orig": "Hopefully you can be of assistance to him so he can finally work towards something more worthwhile.",
             "transl": "Hoffentlich kannst du ihm eine Hilfe sein, so dass er endlich an etwas Erstrebenswerterem arbeiten kann."
+           },
+           "person": {
+            "person": "business.leader-bergen-female",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -530,18 +787,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "That is truly a pity.\\. But I can not blame you.",
             "transl": "Das ist wirklich schade.\\. Aber ich kann es dir nicht verdenken."
+           },
+           "person": {
+            "person": "business.leader-bergen-female",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           }
          ]
@@ -555,13 +824,26 @@
         "name": {
          "orig": "Mrs. Summers",
          "transl": "Frau Summers"
+        },
+        "person": {
+         "person": "business.leader-bergen-female",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Talk to \\c[3]Jamie Twirlson\\c[0] and try to assist him.\\. You should be able to find him in the local \\c[3]Item Shop\\c[0].",
          "transl": "Rede mit \\c[3]Jamie Twirlson\\c[0] und versuche ihm zu helfen.\\. Du solltest ihn im hiesigen \\c[3]Itemladen\\c[0] finden."
+        },
+        "person": {
+         "person": "business.leader-bergen-female",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -573,61 +855,106 @@
          "name": {
           "orig": "Mrs. Summers",
           "transl": "Frau Summers"
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi...",
           "transl": "Привіт..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Ah, there you are.\\. The news has preceded your arrival.",
           "transl": "Ah, da bist du wieder.\\. Die Neuigkeiten sind dir vorausgeeilt."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "Yes, yes, he got his wish but still was not satisfied.\\. A luxury problem as old as man.",
           "transl": "Ja, ja, er hat zwar, was er wollte, ist aber immer noch nicht zufrieden.\\. Ein Luxusproblem, so alt wie die Menschheit selbst."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It does not matter, we have both done our duty.\\. So you will get your due reward and I will hopefully have some respite.",
           "transl": "Unwichtig, wir haben beide unsere Pflicht getan.\\. Du wirst deine anstehende Belohnung erhalten, und ich werde mich hoffentlich etwas erholen können!"
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "You have done well.\\. I hope your assistance will remain a reliable asset in the future.",
           "transl": "Du hast gute Arbeit geleistet.\\. Ich hoffe, du wirst uns in Zukunft weiterhin helfen."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -640,61 +967,106 @@
          "name": {
           "orig": "Mrs. Summers",
           "transl": "Frau Summers"
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Good day, seeker.\\. You have chosen a convenient time to pay me a visit.",
           "transl": "Guten Tag, Seeker.\\. Du hast den rechten Zeitpunkt gewählt, mir einen Besuch abzustatten."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "There has been a problem in the \\c[3]Hermit's House\\c[0], a popular meeting place on \\v[area.bergen-trails.name].",
           "transl": "Es gibt da ein Problem in der \\c[3]Eremitenhütte\\c[0], einem beliebten Treffpunkt des Bergen-Trails."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Supposedly their power generator has been malfunctioning and needs repairs.",
           "transl": "Vermutlich ist ihr Generator beschädigt und muss repariert werden."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "For that purpose they are in need of various materials from different locations.",
           "transl": "Für diesen Zweck benötigen sie verschiedene Materialien von unterschiedlichen Orten."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Would your schedule allow for that kind of assistance?",
           "transl": "Erlaubt dein Zeitplan noch Raum für eine solche Aufgabe?"
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -703,30 +1075,50 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Very good.\\. You can find the Hermit's House at the \\c[3]Spike Heights on \\v[area.bergen-trails.name]\\c[0].",
             "transl": "Sehr gut.\\. Du findest die Eremitenhütte auf den \\c[3]Zackenhöhen des Bergen-Trails\\c[0]."
+           },
+           "person": {
+            "person": "business.leader-bergen-female",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Talk to the owner of the house for more details.",
             "transl": "Rede mit dem Hausbesitzer, um mehr zu erfahren."
+           },
+           "person": {
+            "person": "business.leader-bergen-female",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ],
@@ -735,18 +1127,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Are you certain?\\. It does seem like a very serious assignment this time.",
             "transl": "Wirklich nicht?\\. Dieses Mal klingt es nach einer sehr ernstzunehmenden Aufgabe."
+           },
+           "person": {
+            "person": "business.leader-bergen-female",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
            }
           }
          ]
@@ -760,13 +1164,26 @@
         "name": {
          "orig": "Mrs. Summers",
          "transl": "Frau Summers"
+        },
+        "person": {
+         "person": "business.leader-bergen-female",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Go into the \\c[3]Hermit's House\\c[0] at the \\c[3]Spike Heights on \\v[area.bergen-trails.name]\\c[0] and talk to the owner.",
          "transl": "Gehe zur \\c[3]Eremitenhütte\\c[0] auf den \\c[3]Zackenhöhen des Bergen-Trails\\c[0] und sprich mit dem Besitzer."
+        },
+        "person": {
+         "person": "business.leader-bergen-female",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -778,49 +1195,86 @@
          "name": {
           "orig": "Mrs. Summers",
           "transl": "Frau Summers"
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Welcome back.\\. Another job well done, I see.",
           "transl": "Willkommen zurück.\\. Eine weitere Aufgabe hervorragend erledigt, wie ich sehe."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "The route through Bergen Trail would have become much more arduous without your deed.",
           "transl": "Der Weg durch den Bergen-Trail wäre ohne dich und deine Taten deutlich gefährlicher."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "WHISTLING"
          }
         },
         {
          "message": {
           "orig": "Here, take your reward.\\. We will stay in contact.",
           "transl": "Hier, nimm deine Belohnung.\\. Wir bleiben in Kontakt."
+         },
+         "person": {
+          "person": "business.leader-bergen-female",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -832,13 +1286,26 @@
         "name": {
          "orig": "Mrs. Summers",
          "transl": "Frau Summers"
+        },
+        "person": {
+         "person": "business.leader-bergen-female",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Greetings, young lady.\\. Our current circumstances don't require your assistance for once.",
          "transl": "Sei gegrüßt, junge Dame!\\. Im Moment benötigen wir deine Hilfe ausnahmsweise nicht."
+        },
+        "person": {
+         "person": "business.leader-bergen-female",
+         "expression": "DEFAULT"
         }
        }
       ]

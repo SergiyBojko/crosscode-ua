@@ -20,18 +20,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "bergen.female-monk-white",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You look at it, you buy it.",
          "transl": "Du hast es angesehen, also musst du's kaufen."
+        },
+        "person": {
+         "person": "bergen.female-monk-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -46,135 +64,234 @@
       "event": {
        "quest": [
         null,
-        null,
-        null,
         {
-         "message": {
-          "orig": "...! ",
-          "transl": "...! "
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...! ",
           "transl": "...! "
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "message": {
+          "orig": "...! ",
+          "transl": "...! "
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Well look who it is!",
           "transl": "Ach, wen haben wir denn da?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "I must admit, I was expecting you.",
           "transl": "Ich muss gestehen, dass ich dich erwartet habe."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Yet you still managed to surprise me.",
           "transl": "Und doch hast du es geschafft, mich zu überraschen."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         },
         {
          "message": {
           "orig": "Haha, now don't get cocky on an old man.",
           "transl": "Hoahoahoa, werde bloß nicht übermütig."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Anyway... there's only one more piece missing in our little puzzle.",
           "transl": "Also... Es fehlt nur noch ein Teil in unserem kleinen Puzzle."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Should we find it, I might be able to fulfill my promise to my kids...",
           "transl": "Sollten wir es finden, könnte ich mein Versprechen meinen Kindern gegenüber halten..."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "No reason to look sad, little one. ",
           "transl": "Kein Grund, so traurig zu gucken, Kleine."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I'm sure if I can get them all in one place and talk to them this will all end well.",
           "transl": "Ich bin sicher, dass alles gut werden wird, wenn ich sie alle versammeln und mit ihnen reden kann."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Alright, the last ones are the \\c[3]\\v[item.515.name]\\c[0]. ",
           "transl": "Also dann, jetzt brauchen wir nur noch die \\c[3]Kaputten Chakrams\\c[0]."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Are you ready to help me one final time?",
           "transl": "Bist du bereit, mir ein letztes Mal zu helfen?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "accepted": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "I appreciate it, kid!",
             "transl": "Das weiß ich zu schätzen, Kleine!"
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "This one starts off just like the last one.",
             "transl": "Wir fangen genauso an wie beim letzten Mal."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "There's a book here talking about a place in \\c[3]\\v[area.forest.name]\\c[0]. It's in the shelf to the left.",
             "transl": "Hier ist ein Buch, das von einem Ort auf dem \\c[3]Saphirgrat\\c[0] spricht. Es steht im linken Bücherregal."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Give it a read and see if you can make something of it. ",
             "transl": "Schau mal rein und sag mir, ob du schlau daraus wirst."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           }
          ],
@@ -183,12 +300,20 @@
            "message": {
             "orig": "No? What's the matter? Please come back if you changed your mind!",
             "transl": "Nein? Was ist los? Überlege es dir bitte nochmal!"
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           }
          ]
@@ -198,12 +323,26 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.dkar",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello young lady, read the book yet?",
          "transl": "Hallo, junge Dame, hast du das Buch schon gelesen?"
+        },
+        "person": {
+         "person": "main.dkar",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -212,42 +351,70 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "So, something about a \"Berrytree\" and a Panda. Ah yes, also the bug by the campfire? ",
            "transl": "Also, irgendein \"Beerenbaum\" und ein Panda. Ach ja, und ein Käfer am Lagefeuer."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "To be frank, I have no idea what it means. ",
            "transl": "Ich habe nicht den blassesten Schimmer, was das bedeutet."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "I hope you can make something out of it.",
            "transl": "Hoffentlich kannst du etwas damit anfangen."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
           }
          },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "That's the spirit!",
            "transl": "So lob ich mir das!"
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -256,12 +423,20 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Well, give it a read. It's on the shelf to the left.",
            "transl": "Gut, dann schau mal rein. Es steht im linken Bücherregal."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -271,30 +446,56 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Welcome back kid, any luck finding the \\c[3]\\v[item.515.name]\\c[0]?",
           "transl": "Willkommen zurück, Kleine. Hattest du Glück mit den \\c[3]Kaputten Chakrams\\c[0]?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "We really did it...",
           "transl": "Wir haben es wirklich geschafft..."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Well, you did it to be fair.",
           "transl": "Besser gesagt, du hast es geschafft."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -303,6 +504,10 @@
            "message": {
             "orig": "Thanks!",
             "transl": "Дякую!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ],
@@ -311,6 +516,10 @@
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ]
@@ -319,48 +528,80 @@
          "message": {
           "orig": "Well... I guess there is no point in waiting. ",
           "transl": "Tja... Macht wohl keinen Sinn, es jetzt auf die lange Bank zu schieben."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Let me make some arrangements and get word out to my children.",
           "transl": "Lass mich ein paar Vorbereitungen treffen und dann meine Kinder zusammentrommeln."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "We should all meet at the place where we first heard of this quest: \\c[3]The Observatory\\c[0] in \\c[3]\\v[area.autumn-area.name]\\c[0].",
           "transl": "Wir treffen uns am besten da, wo wir zum ersten Mal von dieser Quest gehört haben: An der \\c[3]Sternwarte\\c[0] in \\c[3]Autumn's Rise\\c[0]."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Would you be willing to join us? It's only fair and I trust you. ",
           "transl": "Würdest du uns Gesellschaft leisten? Das wäre nur fair. Und ich vertraue dir."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Thanks, kiddo.",
           "transl": "Danke, Kleine."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I'll be leaving then! See you at the Observatory.",
           "transl": "Dann mache ich mich mal auf den Weg! Wir sehen uns an der Sternwarte."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -369,6 +610,10 @@
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           }
          ],
@@ -377,6 +622,10 @@
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           }
          ]
@@ -388,18 +637,30 @@
          "message": {
           "orig": "Is it just me or did he seem... \\.\\.nervous?",
           "transl": "Geht das nur mir so, oder wirkte er auf dich auch irgendwie... \\.\\.nervös?"
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "WORRIED"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "Well, I am sure everything will work out after all the work you went through.",
           "transl": "Ich bin mir aber sicher, dass sich all deine Mühe für ihn auszahlen wird."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -459,151 +720,256 @@
         "name": {
          "orig": "Bellwielder",
          "transl": "Bellwielder"
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello.",
          "transl": "Hallo."
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi...?",
          "transl": "Привіт...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Are you looking for a book?",
          "transl": "Suchst du nach einem Buch?"
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "Okay.",
          "transl": "Okay."
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "So...\\. just so you know...",
          "transl": "Also...\\. Nur damit du's weißt..."
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "This is a book store.",
          "transl": "Das hier ist ein Buchladen."
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Not sure what else you hope to find here.",
          "transl": "Keine Ahnung, was du hier sonst zu finden hoffst."
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        },
        {
         "message": {
          "orig": "*sigh*",
          "transl": "*seufz*"
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "What am I doing here?",
          "transl": "Was mach' ich hier eigentlich?"
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I came to this bustling city hoping to get a position in one of their libraries.",
          "transl": "Ich kam in diese Stadt, weil ich gehofft hatte, hier eine Stelle in einer Bibliothek zu finden."
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Yet somehow I ended up in this tiny book store.",
          "transl": "Aber irgendwie bin ich in diesem mickrigen Buchladen gelandet."
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Well, apparently they didn't like the fact I'm always carrying this giant bell with me.",
          "transl": "Tja, anscheinend hatten sie ein Problem mit der großen Glocke, die ich immer mit mir herumtrage."
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Because yes, yes...\\. Libraries are quiet places.",
          "transl": "Und ja, natürlich.... Bibliotheken sind Orte der Ruhe."
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I know!",
          "transl": "Das weiß ich doch!"
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "What do they expect me to do?\\. Constantly ring the bell like a crazy person?",
          "transl": "Wovor hatten die denn Angst? Dass ich wie ein Bekloppter mit der Glocke läute?"
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Of course I wouldn't do that!",
          "transl": "Das würde ich doch nie tun!"
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But I just...\\. have to bring it with me, okay?\\. It's complicated.",
          "transl": "Aber...\\. ich muss sie einfach mit mir herumtragen.\\. Es ist kompliziert, okay?"
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Well at least in this book store they don't mind.",
          "transl": "Na ja, zumindest hier im Buchladen wird die Glocke toleriert."
+        },
+        "person": {
+         "person": "guests.bellwielder",
+         "expression": "DEFAULT"
         }
        }
       ]

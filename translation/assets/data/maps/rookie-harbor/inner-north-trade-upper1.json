@@ -36,17 +36,30 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Steward",
          "transl": "Steward"
+        },
+        "person": {
+         "person": "business.leader-rh-male-wheelchair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I am sorry, \\v[lore.title.seeker] but the market is hot.\\. Please do not distract me.",
          "transl": "Entschuldigen Sie, Seeker, aber der Markt ist gerade heiß und erfordert daher meine volle Aufmerksamkeit."
+        },
+        "person": {
+         "person": "business.leader-rh-male-wheelchair",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -54,101 +67,170 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Steward",
           "transl": "Steward"
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Ah, good evening, \\v[lore.title.seeker].\\. We have been expecting you.",
           "transl": "Ah, guten Abend, Seeker.\\. Wir haben Sie erwartet."
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Mr. Nomsworth spoke very highly of your abilities.\\. Let us hope that his trust is not misplaced.",
           "transl": "Herr Nomsworth hat von Ihren Fähigkeiten in den höchsten Tönen gesprochen.\\. Hoffen wir, dass Sie sein Vertrauen nicht enttäuschen."
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         },
         {
          "message": {
           "orig": "As you hopefully know, \\v[area.rookie-harbor.name] is a central settlement with strong connections all over \\v[lore.title.planet].",
           "transl": "Wie Sie hoffentlich wissen, ist Rookie Harbor ein zentraler Knotenpunkt mit weltweiten Verbindungen."
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "There is barely a commodity that cannot be found on our mighty venues of capitalism.",
           "transl": "Es gibt kaum eine Ware, die wir nicht durch unsere starken Handelsbeziehungen auftreiben können."
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "Despite this, we still lack the capacity to acquire high-quality metal without relying on the other settlements.",
           "transl": "Und doch fehlen uns noch immer die Kapazitäten für eine hochwertige Metallproduktion aus eigener Hand.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It will be your most urgent task to remedy this.\\. I hope we can still count on your assistance?",
           "transl": "Es wird daher Ihre höchst dringliche Aufgabe sein, dem Abhilfe zu schaffen.\\. Ich hoffe, wir können nach wie vor mit Ihrer Unterstützung rechnen?"
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Excellent.\\. Then go to \\v[area.bergen.name] and visit their trader of metalworks.",
           "transl": "Ausgezeichnet.\\. Gehen Sie nach Bergen und sprechen Sie dort mit dem Metallhändler."
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "We have already negotiated a satisfying arrangement.\\. You will fulfill our end of the bargain.",
           "transl": "Wir haben bereits eine für beide Seiten zufriedenstellende Vereinbarung getroffen.\\. Sie werden diesen Handel abschließen."
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Good.\\. Now go and carry out your task.",
           "transl": "Gut.\\. Gehen Sie und führen den Auftrag aus."
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         }
        ]
@@ -156,23 +238,40 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Steward",
          "transl": "Steward"
+        },
+        "person": {
+         "person": "business.leader-rh-male-wheelchair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Go to \\c[3]\\v[area.bergen.name]\\c[0] and talk to their \\c[3]trader of metalworks\\c[0] in the \\c[3]Trader's Den\\c[0].",
          "transl": "Gehen Sie nach \\c[3]Bergen\\c[0] und sprechen Sie dort mit dem \\c[3]Metallhändler\\c[0] in der \\c[3]Händlerhütte\\c[0]."
+        },
+        "person": {
+         "person": "business.leader-rh-male-wheelchair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "He will have a task for you to fulfill.",
          "transl": "Er wird eine Aufgabe für Sie haben, die Sie erledigen sollen."
+        },
+        "person": {
+         "person": "business.leader-rh-male-wheelchair",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -180,59 +279,100 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Steward",
           "transl": "Steward"
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "\\v[lore.title.seeker], welcome back!\\. The necessary tools have already arrived and they work splendidly.",
           "transl": "Willkommen zurück, Seeker!\\. Die Geräte sind bereits eingetroffen und sie arbeiten hervorragend."
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "From now on, we will be able to trade higher quality metal directly in \\v[area.rookie-harbor.name].",
           "transl": "Von nun an können wir höherwertiges Metall direkt in Rookie Harbor handeln."
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You have been a great help.\\. Nomsworth really deserves a pat on the back for picking you.",
           "transl": "Sie waren eine große Hilfe.\\. Nomsworth kann sich wirklich selbst auf die Schulter klopfen, dass er Sie ausgewählt hat."
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And you will also get your reward, of course.\\. We should stay in contact for future deals.",
           "transl": "Und auch Sie bekommen natürlich Ihre Belohnung.\\. Wir bleiben in Kontakt?"
+         },
+         "person": {
+          "person": "business.leader-rh-male-wheelchair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         }
        ]
@@ -240,17 +380,30 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Steward",
          "transl": "Steward"
+        },
+        "person": {
+         "person": "business.leader-rh-male-wheelchair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I am sorry \\v[lore.title.seeker], but the market is hot.\\. Please do not distract me.",
          "transl": "Entschuldigen Sie, Seeker, aber der Markt ist gerade heiß und erfordert daher meine volle Aufmerksamkeit."
+        },
+        "person": {
+         "person": "business.leader-rh-male-wheelchair",
+         "expression": "DEFAULT"
         }
        }
       ]

@@ -84,18 +84,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Ah! There you are!",
        "transl": "Ah! Da bist du ja!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
@@ -105,6 +123,10 @@
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        }
       ],
@@ -113,12 +135,20 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Hm?\\. No need to be so shy!",
          "transl": "Hm?\\. Kein Grund, so schüchtern zu sein!"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "TOWARD"
         }
        }
       ],
@@ -128,18 +158,30 @@
         "message": {
          "orig": "Sorry...",
          "transl": "Вибач..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Hm? Oh don't worry, you didn't make me wait for that long.",
          "transl": "Hm? Oh, keine Sorge, du hast mich nicht lange warten lassen."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "Anyway...",
          "transl": "Jedenfalls..."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DOWN"
         }
        }
       ],
@@ -149,27 +191,47 @@
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Hm? Is something wrong?",
          "transl": "Hm? Stimmt etwas nicht?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Well... Anyway...",
          "transl": "Nun... Jedenfalls..."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DOWN"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      },
       "options": [
        {
         "label": {
@@ -201,12 +263,20 @@
       "message": {
        "orig": "Welcome to my little mansion, \\c[3]Anna\\c[0]! It's nice to see you again.",
        "transl": "Willkommen in meiner kleinen Villa, \\c[3]Anna\\c[0]! Schön, dich wiederzusehen."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
@@ -215,18 +285,30 @@
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Yes, yes.\\. Hello.",
          "transl": "Ja, ja.\\. Hallo."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        }
       ],
@@ -235,6 +317,10 @@
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ],
@@ -243,6 +329,10 @@
         "message": {
          "orig": "Wait...",
          "transl": "Зачекай..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        null,
@@ -251,24 +341,40 @@
         "message": {
          "orig": "Ah...\\. did I get your name wrong?",
          "transl": "Ah...\\. Habe ich deinen Namen verwechselt?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Right... Your name is \\c[3]Lea\\c[0].\n",
          "transl": "Richtig... Dein Name ist \\c[3]Lea\\c[0].\n"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "I'm sorry, my memory for names has seen better days.",
          "transl": "Entschuldige, mein Namensgedächtnis ist nicht mehr das jüngste."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "THINKING"
         }
        }
       ],
@@ -278,33 +384,57 @@
         "message": {
          "orig": "Bye...",
          "transl": "Бувай..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Oh?",
          "transl": "Oh?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "You just arrived, don't tell me you want to leave already.",
          "transl": "Du bist doch gerade erst angekommen. Sag mir nicht, dass du schon wieder gehen möchtest?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      },
       "options": [
        {
         "label": {
@@ -336,18 +466,30 @@
       "message": {
        "orig": "Anyway, I'm glad you arrived safely.",
        "transl": "Jedenfalls bin ich froh, dass du hier wohlbehalten angekommen bist."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "It's good to see that you managed to stay dry with all the \\c[3]rain outside\\c[0].",
        "transl": "Und es geschafft hast, bei dem \\c[3]Regenwetter\\c[0] trocken zu bleiben."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
@@ -356,6 +498,10 @@
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        }
       ],
@@ -364,12 +510,20 @@
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Yes, indeed...",
          "transl": "Freut mich..."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "TOWARD"
         }
        }
       ],
@@ -378,6 +532,10 @@
         "message": {
          "orig": "Hi~",
          "transl": "Hi~"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        null,
@@ -386,12 +544,20 @@
         "message": {
          "orig": "Uhm...\\. excuse me?",
          "transl": "Öhm...\\. Wie bitte?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SERIOUS"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "WHISTLING"
         }
        }
       ],
@@ -401,21 +567,37 @@
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Huh, did I say something strange?",
          "transl": "Huch, habe ich etwas Seltsames gesagt?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      },
       "options": [
        {
         "label": {
@@ -447,12 +629,20 @@
       "message": {
        "orig": "Oh wait!\\. I forgot!",
        "transl": "Oh, Moment!\\. Ganz vergessen!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "It's sunny out there, isn't it?",
        "transl": "Draußen scheint die Sonne, nicht wahr?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "THINKING"
       }
      },
      {
@@ -461,6 +651,10 @@
         "message": {
          "orig": "...!!",
          "transl": "...!!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -469,36 +663,60 @@
       "message": {
        "orig": "...?!",
        "transl": "...?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Hohoho!",
        "transl": "Hohoho!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "LAUGHING"
       }
      },
      {
       "message": {
        "orig": "I probably sound like a senile old man to you, don't I?",
        "transl": "Ich muss mich für dich wahrscheinlich wie ein seniler alter Mann anhören, nicht wahr?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Ouch.\\. That was a bit too honest, don't you think?",
        "transl": "Autsch.\\. Das war ein bisschen zu ehrlich, meinst du nicht auch?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
@@ -507,6 +725,10 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ],
@@ -516,6 +738,10 @@
         "message": {
          "orig": "Sorry.",
          "transl": "Вибач."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SAD"
         }
        }
       ],
@@ -525,18 +751,30 @@
         "message": {
          "orig": "Bye.",
          "transl": "Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Oh? Do you want to leave? Did I do something wrong?",
          "transl": "Oh? Möchtest du gehen? Habe ich etwas falsch gemacht?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ],
@@ -546,27 +784,47 @@
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_POINT_JOKE"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SERIOUS"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      },
       "options": [
        {
         "label": {
@@ -598,36 +856,60 @@
       "message": {
        "orig": "Hohohoho! Don't worry!",
        "transl": "Hohohoho! Keine Sorge!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "LAUGHING"
       }
      },
      {
       "message": {
        "orig": "I'm just testing you.",
        "transl": "Ich teste dich nur."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "I was told you are an AI.",
        "transl": "Mir wurde gesagt, du bist eine KI."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "One of the most effective ways to distinguish a poor AI from a human is testing how it reacts to nonsense.",
        "transl": "Eine der effektivsten Methoden, eine schlechte KI von einem Menschen zu unterscheiden, ist, zu testen, wie sie auf Unsinn reagiert."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
@@ -636,18 +918,30 @@
         "message": {
          "orig": "And despite your lack of speech, I have to say your reactions so far seem very much human-like.",
          "transl": "Und trotz deines begrenzten Wortschatzes muss ich sagen, dass deine Reaktionen so weit sehr menschlich sind."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'm impressed!",
          "transl": "Ich bin beeindruckt!"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ],
@@ -658,18 +952,30 @@
           "message": {
            "orig": "And your reactions have been...\\. pretty good so far!",
            "transl": "Und deine Reaktionen waren so weit...\\. recht gut!"
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Especially considering your speech limitations.",
            "transl": "Vor allem, wenn man deinen begrenzten Wortschatz bedenkt."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "DOWN"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -678,18 +984,30 @@
           "message": {
            "orig": "And I have to be honest...\\. some of your answers have been rather strange, Lea.",
            "transl": "Und ich will ehrlich zu dir sein...\\. Manche deiner Antworten waren recht seltsam, Lea."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "PONDERING"
           }
          },
          {
           "message": {
            "orig": "Even taking into account your speech limitations.",
            "transl": "Selbst unter Berücksichtigung deines defekten Sprachmoduls."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "THINKING"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "THINKING"
           }
          }
         ]
@@ -700,36 +1018,66 @@
       "message": {
        "orig": "Anyway, let's do a little quiz.",
        "transl": "Machen wir noch ein kleines Quiz."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "...?!",
        "transl": "...?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Don't worry, it should be simple.",
        "transl": "Keine Sorge, das sollte ein Klacks für dich sein."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "This way please. Ladies first!",
        "transl": "Hier entlang, bitte. Die Dame hat den Vortritt!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
@@ -739,48 +1087,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Okay, Lea.\\. Are you ready?\n",
        "transl": "Okay, Lea.\\. Bist du so weit?\n"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Good! First question.",
        "transl": "Gut! Erste Frage."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Say Lea, do you remember the appearance and taste of \\c[3]fruits and vegetables\\c[0]?",
        "transl": "Erinnerst du dich an das Aussehen und den Geschmack von \\c[3]Früchten und Gemüse\\c[0]?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "In that case,\\. what's your \\c[3]favorite\\c[0]?\\.\nA:\\. Lettuce,\\. B:\\. Tomatoes,\\.\nC:\\. Bananas,\\. D:\\. Eggplants?",
        "transl": "Gut,\\. was davon magst du \\c[3]am liebsten\\c[0]?\\.\nA:\\. Salate,\\. B:\\. Tomaten,\\.\nC:\\. Bananen,\\. D:\\. Auberginen?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -789,6 +1175,10 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_ONE"
         }
        },
        {
@@ -803,6 +1193,10 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_TWO"
         }
        },
        {
@@ -817,6 +1211,10 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_THREE"
         }
        },
        {
@@ -831,6 +1229,10 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_FOUR"
         }
        },
        {
@@ -840,6 +1242,10 @@
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      },
       "options": [
        {
         "label": {
@@ -871,55 +1277,96 @@
       "message": {
        "orig": "Good. \"\\c[3]\\v[tmp.food]\\c[0]\" you say. Please remember this for a moment.\n",
        "transl": "Gut. \"\\c[3]\\v[tmp.food]\\c[0]\" sagst du. Behalte das bitte für einen Augenblick.\n"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Now to something else!",
        "transl": "Nun zu etwas anderem!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Some time ago, I had a long talk with an old friend.",
        "transl": "Vor einiger Zeit hatte ich ein langes Gespräch mit einem alten Freund."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "He just went on about his garden at home.",
        "transl": "Er sprach die ganze Zeit nur über seinen Garten zuhause."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Yadda, yadda, bonsai trees...",
        "transl": "Bonsaibäumchen hier..."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Blah, Blah, flower beds...",
        "transl": "Blumenbeete dort, bla, bla, bla..."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "He just kept going.",
        "transl": "Immer nur das eine."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "And when he was done...\\. I told him this is all really \\c[3]fascinating\\c[0].",
        "transl": "Und als er fertig war...\\. sagte ich ihm, dass das alles wirklich \\c[3]faszinierend\\c[0] sei."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Here is my second question: \\c[3]did I tell him the truth\\c[0]?",
        "transl": "Hier ist meine zweite Frage: \\c[3]Habe ich ihm die Wahrheit gesagt\\c[0]?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
@@ -928,6 +1375,10 @@
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ],
@@ -936,9 +1387,17 @@
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      },
       "options": [
        {
         "label": {
@@ -958,18 +1417,30 @@
       "message": {
        "orig": "Alright.\\. Last question!",
        "transl": "Also gut.\\. Letzte Frage!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "So...\\. remember your \\c[3]favorite food item\\c[0]?",
        "transl": "Also...\\. Erinnerst du dich an dein \\c[3]Lieblingsobst bzw. -gemüse\\c[0]?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "What \\c[3]color\\c[0] is most commonly associated with it?\nA:\\. Red,\\. B:\\. Green,\\.\nC:\\. Purple,\\. D:\\. Yellow?",
        "transl": "Welche \\c[3]Farbe\\c[0] wird damit meist in Verbindung gebracht?\nA:\\. Rot,\\. B:\\. Grün,\\.\nC:\\. Lila,\\. D:\\. Gelb?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
@@ -978,6 +1449,10 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_ONE"
         }
        },
        {
@@ -992,6 +1467,10 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_TWO"
         }
        },
        {
@@ -1006,6 +1485,10 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_THREE"
         }
        },
        {
@@ -1020,6 +1503,10 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_FOUR"
         }
        },
        {
@@ -1029,6 +1516,10 @@
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      },
       "options": [
        {
         "label": {
@@ -1063,12 +1554,20 @@
         "message": {
          "orig": "The color of \"\\c[3]\\v[tmp.food]\\c[0]\" is \"\\c[3]\\v[tmp.color]\\c[0]\".\\. Sounds reasonable!",
          "transl": "\"\\c[3]\\v[tmp.food]\\c[0]\" sind also \"\\c[3]\\v[tmp.color]\\c[0]\".\\. Klingt vernünftig!"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ],
@@ -1078,12 +1577,20 @@
         "message": {
          "orig": "The color of \"\\c[3]\\v[tmp.food]\\c[0]\" is \"\\c[3]\\v[tmp.color]\\c[0]\"?\\. Are you sure?",
          "transl": "\"\\c[3]\\v[tmp.food]\\c[0]\" sind \"\\c[3]\\v[tmp.color]\\c[0]\"?\\. Bist du sicher?"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        }
       ]
@@ -1092,6 +1599,10 @@
       "message": {
        "orig": "Good, this concludes our quiz!",
        "transl": "Gut, damit wäre unser Quiz abgeschlossen!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
@@ -1100,12 +1611,20 @@
         "message": {
          "orig": "And you handled this one \\c[3]perfectly\\c[0].\\. That's for sure.",
          "transl": "Und du hast dich \\c[3]ausgezeichnet\\c[0] geschlagen.\\. So viel ist sicher."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        }
       ],
@@ -1116,12 +1635,20 @@
           "message": {
            "orig": "And your answers have been...\\. well...\\. \\c[3]so-so\\c[0].",
            "transl": "Und deine Antworten waren...\\. nun ja...\\. \\c[3]so lala\\c[0]."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "SURPRISED"
           }
          },
          {
           "message": {
            "orig": "...?",
            "transl": "...?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_TOWARD"
           }
          }
         ],
@@ -1130,12 +1657,20 @@
           "message": {
            "orig": "And well...\\. I \\c[3]expected better\\c[0] to be honest.",
            "transl": "Tja, wie soll ich sagen...\\. Ehrlich gesagt habe ich \\c[3]mehr von dir erwartet\\c[0]."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "THINKING"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "THINKING"
           }
          }
         ]
@@ -1146,45 +1681,72 @@
       "message": {
        "orig": "Now!",
        "transl": "Nun gut!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You could in fact just be a human-controlled program mocking an AI.",
        "transl": "Du könntest natürlich auch ein von Menschenhand gesteuertes Programm sein, das eine KI nur vortäuscht."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "But Mr. Asimov proposed a little \\c[3]experiment\\c[0] to prove that you are in fact a real AI.",
        "transl": "Doch Herr Asimov hat ein kleines \\c[3]Experiment\\c[0] vorgeschlagen, um zu beweisen, dass du tatsächlich eine KI bist."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "He gave me a small program to send you a \\c[3]prerecorded message\\c[0].",
        "transl": "Er gab mir ein kleines Programm, womit ich dir eine \\c[3]aufgezeichnete Nachricht\\c[0] schicken kann."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I will send this message now.\\. Get ready!",
        "transl": "Ich schicke dir diese Aufnahme nun.\\. Mach dich bereit!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
-     null,
      null,
      null,
      null,
@@ -1192,184 +1754,315 @@
      null,
      null,
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
+     {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hello, Lea!",
        "transl": "Hallo, Lea!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "This is a prerecorded message.",
        "transl": "Dies ist eine aufgezeichnete Nachricht."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Mr. Asimov claimed you are capable of receiving and understanding the full recording in a \\c[3]split second\\c[0].",
        "transl": "Herr Asimov behauptet, dass du die ganze Nachricht im \\c[3]Bruchteil einer Sekunde\\c[0] empfangen, hören und verstehen kannst."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "That is certainly a feat impossible to humans.",
        "transl": "Für einen Menschen wäre das unmöglich."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "In the middle of this recording will be a simple question.",
        "transl": "In der Mitte dieser Aufnahme wird eine einfache Frage gestellt."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Be careful not to miss it.",
        "transl": "Höre aufmerksam zu, damit du sie nicht verpasst."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Anyway...\\. the weather sure is nice, isn't it?",
        "transl": "Jedenfalls...\\. ist das Wetter heute recht schön, nicht wahr?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "I'm just talking to add some padding to this recording.\\. Don't mind me.",
        "transl": "Ich rede bloß, um die Lücken zu füllen.\\. Achte nicht darauf."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Well, that should be sufficient!",
        "transl": "So, das sollte reichen!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Here is the \\c[3]question\\c[0].",
        "transl": "Hier nun die \\c[3]Frage\\c[0]."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "What is \\c[3]6\\c[0] divided by \\c[3]2\\c[0]?",
        "transl": "Was ist \\c[3]6\\c[0] geteilt durch \\c[3]2\\c[0]?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Please remember the answer until after the recording is over.",
        "transl": "Bitte merke dir die Antwort bis zum Ende der Aufnahme."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "Now, on to something else.",
        "transl": "Nun zu etwas anderem."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Some of my peers find it rather strange that I sometimes play CrossWorlds, you know?",
        "transl": "Ein paar meiner Altersgenossen finden es seltsam, dass ich manchmal CrossWorlds spiele."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "They keep telling me a person in my position should have better things to do.",
        "transl": "Sie sagen mir oft, dass ein Mann in meiner Position Besseres zu tun haben sollte."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "LAUGHING"
       }
      },
      {
       "message": {
        "orig": "But why should it matter what I do as a recreational activity?",
        "transl": "Doch wen kümmert es, was ich in meiner Freizeit mache?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Plus, I feel the technology of CrossWorlds is highly fascinating.",
        "transl": "Außerdem finde ich die Technologie von CrossWorlds höchst faszinierend."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Of course I do. That's why I invested into Instatainment, after all.",
        "transl": "Das sollte sie auch sein! Schließlich war sie der Grund, warum ich in Instatainment investiert habe."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "Anyway, this is the end of the recording.",
        "transl": "Wie auch immer, die Aufnahme ist hier zu Ende."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Now, please answer my question from before!",
        "transl": "Bitte beantworte nun meine Frage von vorhin!"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -1380,8 +2073,18 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "0": [
        null,
@@ -1391,6 +2094,10 @@
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ],
@@ -1402,6 +2109,10 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_THREE"
         }
        },
        null,
@@ -1409,30 +2120,50 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Absolutely incredible!",
          "transl": "Unglaublich!"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "You received a recording of about a minute and responded to it...\\. almost \\c[3]immediately\\c[0]!",
          "transl": "Du hast eine etwa einminütige Aufnahme erhalten...\\. und fast \\c[3]zeitgleich\\c[0] darauf geantwortet!"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "This proves, without a doubt, that you are indeed an AI.",
          "transl": "Das beweist, zweifelsohne, dass du tatsächlich eine KI bist."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DOWN"
         }
        }
       ],
@@ -1444,6 +2175,10 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_FOUR"
         }
        }
       ],
@@ -1455,9 +2190,17 @@
         "message": {
          "orig": "Lea?",
          "transl": "Лія?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      },
       "options": [
        {
         "label": {
@@ -1489,24 +2232,40 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "That was \\c[3]wrong\\c[0].\\. Too bad.",
        "transl": "Das war leider \\c[3]falsch\\c[0].\\. Schade."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Are you sure you received the full recording?",
        "transl": "Bist du sicher, dass du die ganze Aufnahme erhalten hast?"
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Now I have to wonder if you really are an AI.",
        "transl": "Denn jetzt frage ich mich, ob du wirklich eine KI bist."
+      },
+      "person": {
+       "person": "main.investor",
+       "expression": "PONDERING"
       }
      },
      null,
@@ -1520,6 +2279,10 @@
           "message": {
            "orig": "Honestly...\\. I feel this was a waste of time.",
            "transl": "Nein...\\. Ich muss ehrlich sagen, dass das Zeitverschwendung war."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "SERIOUS"
           }
          }
         ],
@@ -1528,6 +2291,10 @@
           "message": {
            "orig": "Still...\\. I feel this was a waste of time.",
            "transl": "Nein...\\. Ich muss ehrlich sagen, dass das Zeitverschwendung war."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "SERIOUS"
           }
          }
         ]
@@ -1536,6 +2303,10 @@
         "message": {
          "orig": "Lea, you are not the advanced AI I was hoping to meet today.",
          "transl": "Lea, du bist nicht die fortgeschrittene KI, die ich erhofft hatte."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "PONDERING"
         }
        },
        {
@@ -1545,12 +2316,20 @@
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DOWN_EYE_CLOSED"
           }
          },
          {
           "message": {
            "orig": "Sorry.",
            "transl": "Вибач."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "WHISTLING"
           }
          }
         ],
@@ -1560,6 +2339,10 @@
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          }
         ]
@@ -1568,6 +2351,10 @@
         "message": {
          "orig": "Anyway, this is all.",
          "transl": "Tja, das wäre es dann."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "SERIOUS"
         }
        }
       ],
@@ -1579,6 +2366,10 @@
           "message": {
            "orig": "Pretty much the most \\c[3]human-like AI\\c[0] I have witnessed so far!",
            "transl": "Das ist die \\c[3]menschenähnlichste KI\\c[0], die ich bisher gesehen habe!"
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "DEFAULT"
           }
          },
          null,
@@ -1591,73 +2382,132 @@
          null,
          null,
          null,
-         null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "main.investor",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.sergey",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Mr. Asimov, I'm honestly impressed.",
            "transl": "Herr Asimov, ich bin wirklich beeindruckt."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "I am very glad to hear this.",
            "transl": "Freut mich sehr, das zu hören."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "I'd like to meet up soon to discuss this matter in more detail.",
            "transl": "Ich würde mich gerne bald mit Ihnen treffen, um das Ergebnis im Detail zu besprechen."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "TOWARD"
           }
          },
          {
           "message": {
            "orig": "Please contact my secretary to make an appointment.",
            "transl": "Vereinbaren Sie dazu bitte einen Termin bei meiner Sekretärin."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "I will do that right away! Thank you for your time.",
            "transl": "Das werde ich umgehend tun! Vielen Dank, dass Sie sich die Zeit genommen haben."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "No, I thank you for giving me the opportunity to see this!",
            "transl": "Nein, ich danke Ihnen, dass Sie mir die Gelegenheit gegeben haben, Lea kennenzulernen!"
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "TOWARD"
           }
          },
          {
           "message": {
            "orig": "And Lea...\\. I hope you enjoyed our conversation as much as I did.",
            "transl": "Und Lea...\\. Ich hoffe, du hast unser Gespräch ebenso sehr genossen wie ich."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXHAUSTED"
           }
          },
          {
           "message": {
            "orig": "How?",
            "transl": "Як?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          },
          {
           "message": {
            "orig": "Hohoho! Quite the sassy girl, aren't you?",
            "transl": "Hohoho! Du bist ganz schön keck, junge Dame!"
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "LAUGHING"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SMUG"
           }
          }
         ],
@@ -1667,24 +2517,40 @@
           "message": {
            "orig": "As for your performance...\\. I'm a bit on the edge to be honest.",
            "transl": "Was deine Leistung betrifft...\\. bin ich ehrlich gesagt ein wenig zwiegespalten."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "SERIOUS"
           }
          },
          {
           "message": {
            "orig": "Some of your answers have been rather strange.",
            "transl": "Manche deiner Antworten waren recht seltsam."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "THINKING"
           }
          },
          {
           "message": {
            "orig": "Anyway, thanks a lot for the interesting conversation.",
            "transl": "Auf jeden Fall danke ich dir sehr für das interessante Gespräch."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "I will get back to you.",
            "transl": "Ich melde mich bei dir."
+          },
+          "person": {
+           "person": "main.investor",
+           "expression": "TOWARD"
           }
          }
         ]
@@ -1694,20 +2560,38 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.investor",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
        {
         "message": {
          "orig": "Goodbye, Lea. And I hope to see you again!",
          "transl": "Auf Wiedersehen, Lea. Und ich hoffe, wir sehen uns wieder!"
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye!",
          "transl": "Бувай!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        }
       ],
@@ -1716,12 +2600,20 @@
         "message": {
          "orig": "Goodbye and have a nice day, Lea.",
          "transl": "Bis dann, Lea, und einen schönen Tag noch."
+        },
+        "person": {
+         "person": "main.investor",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye.",
          "transl": "Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        }
       ]

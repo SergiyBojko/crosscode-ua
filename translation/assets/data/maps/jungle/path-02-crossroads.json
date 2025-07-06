@@ -660,19 +660,36 @@
         "name": {
          "orig": "Henry",
          "transl": "Henry"
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I d-d-don't have any probes left, but I g-g-guess you know how they look.",
          "transl": "Ich ha-ha-habe gerade k-keine Sonde hier, aber d-d-du weißt ja, wie sie aussehen."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -694,73 +711,126 @@
         "name": {
          "orig": "Henry",
          "transl": "Henry"
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I-I-It's you!",
          "transl": "D-D-Du bist es!"
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "At t-this point, someone might t-think you're stalking me.",
          "transl": "So la-la-langsam könnte m-m-man meinen, du verfo-fo-folgst mich."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "It has been a while! And a-a-as usual you came at the right moment.",
          "transl": "Ist e-e-eine Weile her! U-U-Und wie immer im richtigen Mo-Mo-Moment."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Another player has just p-placed a probe somewhere in t-t-t-this jungle.",
          "transl": "Ein anderer Spi-pi-pieler hat vo-vorhin eine Sonde i-i-irgendwo im Dschungel platziert."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Even though I had some problems earlier.",
          "transl": "Obwohl es vorher ein paar K-K-Komplikationen gab."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "D-D-Don't worry about it... It was just a misunderstanding.",
          "transl": "K-K-Keine Sorge... E-Es war nu-nu-nur ein Missverstä-tä-tändnis."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It j-j-just means I don't have much t-t-time left.",
          "transl": "Das b-b-bedeutet nur, d-d-dass mir nur noch w-w-wenig Zeit bleibt."
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "S-So would you be willing to help me survey this area too?",
          "transl": "Wärst du nochmal g-g-gewillt, mir auch bei der Untersuchung dieser Ge-Ge-Gegend zu h-helfen?"
+        },
+        "person": {
+         "person": "misc.henry-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -769,24 +839,40 @@
           "message": {
            "orig": "T-Thank you! T-this will be the last time, I p-p-promise.",
            "transl": "D-Danke dir! D-Das wird das le-le-letzte Mal sein, v-v-versprochen."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "I d-d-don't have any probes left, but I g-g-guess you know what they look like by now.",
            "transl": "Ich ha-ha-habe gerade k-keine Sonde hier, aber d-d-du weißt ja, wie sie aussehen."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          }
         ],
@@ -795,6 +881,10 @@
           "message": {
            "orig": "O-Oh... You are not interested...",
            "transl": "O-Oh... D-D-Du hast kein Interesse..."
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -830,121 +920,206 @@
       "name": {
        "orig": "Baxton",
        "transl": "Baxton"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Lady Lea!",
        "transl": "Fräulein Lea!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi...!",
        "transl": "Привіт...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "It seems we meet yet again. It must be fate.",
        "transl": "Da treffen wir uns schon wieder. Das muss Schicksal sein."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Reports in this area have been made by dutiful players that a strange player was seen here.",
        "transl": "Es gab Berichte von Spielern, die in dieser Gegend einen seltsamen Spieler gesehen haben."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "One that appears as a humble NPC seeking help from other players.",
        "transl": "Jemand, der wie ein einfacher NPC wirkt und andere Spieler um Hilfe bittet."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Let me ask quite bluntly here, Lady Lea...",
        "transl": "Lassen Sie mich Ihnen eine direkte Frage stellen, Fräulein Lea...<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Did you accept a quest from an NPC by the name of... let me see here... \\.\\.\\. \\c[3]Henry\\c[0]?",
        "transl": "Haben Sie eine Quest von einem Spieler namens... lassen Sie mich nachsehen...\\.\\.\\. \\c[3]Henry\\c[0] angenommen?"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well, this is quite unsettling. You are the third person to report so. ",
        "transl": "Das wird langsam doch etwas besorgniserregend. Sie sind schon die dritte Person, die das bestätigt.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I fear we have a person with malicious intent here.",
        "transl": "Ich fürchte, wir haben hier eine Person mit bösartigen Absichten."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Ah, fear not, Lady Lea. I do not believe you are involved in such shady business.",
        "transl": "Ach, Fräulein Lea, ich weiß doch, dass Sie nicht absichtlich darin verwickelt sind.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I must, however, follow procedure and file a report against this player.",
        "transl": "Dennoch muss ich leider die Vorschriften befolgen und den Spieler melden.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Even if it is highly probable that \\c[3]Henry\\c[0] is just a cover name.",
        "transl": "Auch wenn es sehr wahrscheinlich ist, dass \\c[3]Henry\\c[0] nur ein Deckname ist."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "For now, I will manually complete the quest that has been given to you. ",
        "transl": "Die Quest, die Ihnen gegeben wurde, werde ich bis auf weiteres als abgeschlossen markieren."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I am following a lead that will take me all the way to \\c[3]\\v[area.forest.name]\\c[0]. ",
        "transl": "Ich folge gerade einem Hinweis, der vom \\c[3]Saphirgrat\\c[0] kam."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "May we meet again under more pleasant circumstances next time, Lady Lea. Goodbye! ",
        "transl": "Mögen wir uns unter glücklicheren Umständen wiedertreffen, Fräulein Lea. Auf Wiedersehen!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye...",
        "transl": "Бувай..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -960,36 +1135,60 @@
       "message": {
        "orig": "So... a city in the middle of the Jungle?",
        "transl": "Also... Eine Stadt mitten im Dschungel?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Yes, and a giant of a city at that!",
        "transl": "Ja, und eine gigantische noch dazu!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "In the jungle?",
        "transl": "Im Dschungel?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Indeed! Human ingenuity shaped this hotspot of civilization amid this hostile environment!",
        "transl": "Genau! Ein raffiniertes Wunderwerk menschlicher Zivilisation inmitten dieser feindseligen Umgebung!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      {
       "message": {
        "orig": "I can't wait to see it.",
        "transl": "Ich kann's kaum erwarten, sie zu sehen."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      }
     ]
@@ -1010,115 +1209,214 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Back in the jungle!",
        "transl": "Zurück im Dschungel!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "By the way, Lea.\\. One thing I was wondering about...",
        "transl": "Ach ja, Lea.\\. Eine Sache fällt mir da gerade noch ein..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "Back when you explored the jungle together with Grasshead.",
        "transl": "Als du den Dschungel zusammen mit Monsieur Graskopf erkundet hast."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "...\\. How often did you lose sight of him?",
        "transl": "...\\. Wie oft hast du ihn da aus den Augen verloren?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "MOPING"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "What do you mean?",
        "transl": "Was meinst du damit?"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Just look at your hair!",
        "transl": "Schau dir doch mal deine Haare an!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "It blends perfectly with the grass and plants of this place.",
        "transl": "Die sind im Gras und zwischen den ganzen Pflanzen doch kaum zu sehen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "TAUNTING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
+      }
+     },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "This is nonsense!",
        "transl": "Was für ein Unfug!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Ah, oui?",
        "transl": "Ah oui?<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "So?\\. How often, Lea?",
        "transl": "Also?\\. Wie oft, Lea?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_ONE_THINKING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_TWO_THINKING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_THREE_THINKING"
       }
      },
      null,
@@ -1126,6 +1424,10 @@
       "message": {
        "orig": "Oh, you have got to be kidding me!!",
        "transl": "Ah- Du willst mich doch veräppeln!!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SHOUTING"
       }
      },
      null,

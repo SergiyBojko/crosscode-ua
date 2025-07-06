@@ -844,6 +844,10 @@
       "message": {
        "orig": "Wooden arch bridge...\\. Still no laser bridge.",
        "transl": "Eine Bogenbrücke aus Holz...\\. Immer noch keine Laserbrücke."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      }
     ]
@@ -868,12 +872,20 @@
       "message": {
        "orig": "Ahhh! Somebody please help!!\\.",
        "transl": "Ahhh!!\\. Hilfe!!\\."
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi!!\\. Lea!!",
        "transl": "Hi!!\\. Lea!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -895,48 +907,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
+      }
+     },
      {
       "message": {
        "orig": "Phew...\\. that was a close one!",
        "transl": "Puh...\\. das war knapp!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Thank you so much for the help!",
        "transl": "Vielen, vielen Dank für die Hilfe!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "Say...\\. are you with the Last Minute Heroes?",
        "transl": "Du arbeitest nicht zufällig für die Last-Minute-Helden?"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Hah, I knew it!\\. You guys are the best!\\. Thanks a bunch!",
        "transl": "Hah, ich wusste es!\\. Ihr seid die Größten!\\. Tausend Dank!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -956,43 +1006,76 @@
       "name": {
        "orig": "PuellaDocta",
        "transl": "PuellaDocta"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Looks like you saved the day, pardner!\\. Nice work!",
        "transl": "Saubere Arbeit, Partnerino!\\. Der Retter in letzter Minute!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "How about it, still got time to rescue a few more players?",
        "transl": "Wie wär's, hast du noch Zeit für weitere Spieler?"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]\n",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Woo, that's the spirit! ",
        "transl": "Klasse, so lob ich mir das!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Just head back to the Cave Inn and wait for my call!",
        "transl": "Kehre einfach zur Höhlenherberge zurück und warte auf meinen Anruf!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      }
     ]

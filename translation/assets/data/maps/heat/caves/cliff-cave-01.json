@@ -309,12 +309,26 @@
     "event": [
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Ah, you there.",
        "transl": "Ähem, entschuldigen Sie bitte."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -323,66 +337,116 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I am terribly sorry to disturb your experience, but I have questions of the utmost importance.",
        "transl": "Es tut mir schrecklich leid, Sie zu stören, aber ich habe einige Fragen von größter Wichtigkeit."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "But where are my manners?",
        "transl": "Aber wo bleiben meine Manieren!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "My Name is \\c[3]Baxton Addi\\c[0]. I'm a moderator and supervisor for \\c[3]CrossWorlds\\c[0]. May I ask for your name?",
        "transl": "Mein Name ist \\c[3]Baxton Addi\\c[0]. Ich bin ein Moderator und Supervisor für \\c[3]CrossWorlds\\c[0]. Dürfte ich nach Ihrem Namen fragen?"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Baxton",
        "transl": "Baxton"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "!",
        "transl": "!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Lea.",
        "transl": "Лія."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "A lovely name. But let us get to the matter at hand, shall we?",
        "transl": "Ein lieblicher Name. Wenn Sie erlauben, würde ich jedoch gerne gleich zur Sache kommen."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I was just inspecting the area to ensure all was in proper order.",
        "transl": "Ich habe mir gerade dieses Gebiet angesehen, um sicherzugehen, dass alles in Ordnung ist."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And I came across this object here.",
        "transl": "Und ich fand dabei dieses Objekt."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -391,12 +455,20 @@
       "message": {
        "orig": "Now, this peculiar little bugger does not show up in my database.",
        "transl": "Also, dieser eigenartige kleine Bursche hier ist nicht in meiner Datenbank gelistet."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "All assets in the game world are to be registered to avoid any disturbance of player experience.",
        "transl": "Alle Spielinhalte werden registriert, um irgendeine Störung im Spielfluss zu vermeiden."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -405,54 +477,90 @@
       "message": {
        "orig": "Now my humble assumption is that our asset team just missed adding these new items. ",
        "transl": "Ich gehe davon aus, dass unser dafür zuständiges Team vergessen hat, dieses neue Objekt einzutragen."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "A common oversight, I regret to say.",
        "transl": "Einfach übersehen, muss ich leider zugestehen."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Now all I need to know is, if you perhaps are involved in a quest that this object is a part of?",
        "transl": "Nun muss ich in Erfahrung bringen, ob Sie momentan eine Quest haben, die etwas mit diesem Objekt zu tun hat?"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "As I thought. This explains a lot. A report must still be made.",
        "transl": "Wie ich mir gedacht habe. Das erklärt einiges. Trotzdem muss ich das berichten."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "Thank you for your cooperation, Lady Lea. Farewell.",
        "transl": "Danke für Ihre Kooperation, Fräulein Lea. Habe die Ehre!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      }
     ]

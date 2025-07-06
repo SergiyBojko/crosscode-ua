@@ -160,7 +160,12 @@
       null,
       {
        "thenStep": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         null,
         null,
         {
@@ -231,6 +236,10 @@
            ]
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {

@@ -55,41 +55,76 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
+      }
+     },
      {
       "message": {
        "orig": "Lea?!",
        "transl": "Лія?!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
+      }
+     },
      {
       "message": {
        "orig": "D-Did you just break through that wall?!",
        "transl": "B-Bist du gerade durch diese Wand gesprungen?!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "...Okay.",
        "transl": "... Okay."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "Well... somebody told me to wait here for you...",
        "transl": "Irgendjemand hat mir gesagt, dass ich hier auf dich warten soll."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WHISTLING"
       }
      },
      null,
@@ -99,12 +134,20 @@
       "message": {
        "orig": "I think.",
        "transl": "Glaube ich."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SKEPTICAL"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      null,
@@ -114,43 +157,76 @@
       "message": {
        "orig": "How did you even get here, though?",
        "transl": "Wie bist du überhaupt hierhergekommen?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "I thought this place is instanced...?",
        "transl": "Ich dachte, dieser Ort wäre instanziert...?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Lea, we must hurry!",
        "transl": "Lea, wir müssen uns beeilen!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Both of you need to take the next exit point!",
        "transl": "Ihr müsst beide zum Ausgang, schnell!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "It will be your last jump!",
        "transl": "Ein letzter Sprung und ihr seid draußen!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -160,24 +236,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "What's that sign over there? Should we go there?",
        "transl": "Was ist das für ein Zeichen da? Sollen wir dorthin?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "O-Okay?",
        "transl": "O-Okay?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WHISTLING"
       }
      },
      null,
@@ -192,6 +290,10 @@
       "message": {
        "orig": "Wait...\\.\\. What...",
        "transl": "Warte...\\.\\. Was..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      null,
@@ -203,6 +305,10 @@
       "message": {
        "orig": "\\s[5]Whaaaaaaaaaaaaaaaaaaaaa...",
        "transl": "\\s[5]Waaaaaaaaaaaaaaaaaaaaaa..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      }
     ]

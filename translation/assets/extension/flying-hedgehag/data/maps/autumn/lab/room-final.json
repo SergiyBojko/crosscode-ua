@@ -48,73 +48,126 @@
        "name": {
         "orig": "Drey Santrés",
         "transl": "Drey Santrés"
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "message": {
         "orig": "Greetings everyone!\\. I hope you have enjoyed our progress so far just as much as we did!",
         "transl": "Hallo, zusammen!\\. Ich hoffe, ihr habt an unserem Fortschritt genauso Gefallen wie wir!"
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Sadly, we have to announce that we will no longer be able to continue our work here.",
         "transl": "Leider müssen wir euch mitteilen, dass wir unsere Arbeit hier aufgeben müssen."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "An incident in one of our associated facilities has convinced the \\v[lore.title.human-government] to cut the funding to the entire project.",
         "transl": "Ein Vorfall in einer unserer Anlagen hat die Vereinte Reisenation dazu bewogen, uns die Fördergelder komplett zu streichen."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Though it fills me with great shame, I have to admit that we all have underestimated how powerful and volatile the \\v[lore.title.track-of-ancients] is.",
         "transl": "Obwohl es mich sehr beschämt, muss ich zugeben, dass wir alle unterschätzt haben, wie mächtig und launisch der Pfad der Ahnen ist."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "While providing energy, it infiltrated even our equipment and the facility itself, at a rate faster than we were able to revert.",
         "transl": "Durch die Energieversorgung wurden sogar unsere Geräte und die Anlage selbst mit einer Geschwindigkeit infiltriert, mit der wir nicht mehr standhalten konnten."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "So we have decided to abandon this facility before another accident occurs.",
         "transl": "Wir haben uns daher entschlossen, diese Anlage aufzugeben, bevor weitere Unfälle passieren."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "We will miss the \\v[combat.name.hedgehog]s but we have to seal them inside.\\. The project must remain secret from the public.",
         "transl": "Wir werden die Igöll daher hier einschließen müssen, so schwer es uns auch fällt.\\. Das Projekt darf unter keinen Umständen publik werden."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "However you can trust us to continue pursuing this dream we are having.\\. The project will live on.",
         "transl": "Ihr könnt jedoch darauf vertrauen, dass wir unseren Traum weiter verfolgen.\\. Das Projekt wird weiterleben."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "We have established a separate joint facility with our colleagues.",
         "transl": "Wir haben bereits eine neue Anlage gefunden, die wir zusammen mit unseren Kollegen bezogen haben."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "It is very well hidden but we would still like to welcome passionate fans that manage to find it.",
         "transl": "Sie liegt gut versteckt, wir heißen aber jeden treuen Fan willkommen, der es schafft, uns zu finden."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "For now I want to apologize again for the lack of results from this project and still hope for your continued support.\\. Goodbye.",
         "transl": "Abschließend möchte ich mich nochmal für den Mangel an Ergebnissen entschuldigen und hoffe trotzdem auf eure weitere Unterstützung.\\. Auf Wiedersehen."
+       },
+       "person": {
+        "person": "lab.scientist-switch",
+        "expression": "HOLOGRAM"
        }
       }
      ]
@@ -133,7 +186,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]INTERNAL MAIL, INBOX\\c[0]\n\n\\c[3]FROM:\\c[0] \"The 4 Visionaries\"\n\\c[3]TO:\\c[0] All Facilities\n\n\\c[3]Subject:\\c[0] The Future",
@@ -209,49 +267,86 @@
       "name": {
        "orig": "Joe the Younger",
        "transl": "Joe der Jüngere"
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Woooow, \\v[lore.title.seeker], all of that was so cool!",
        "transl": "Woooow, Seeker, ich werd' verrückt!"
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Not just a \\c[3]Flying-type\\c[0] but, like, a \\c[3]Mega Flying-type\\c[0]!",
        "transl": "Nicht nur \\c[3]fliegende Igöll\\c[0], jetzt auch noch, wie soll ich sagen, \\c[3]Batman-Igöll\\c[0]!"
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Such a shame that you weren't able to catch any!",
        "transl": "Schade, dass du keinen fangen konntest!"
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Well, that might just be my calling then!\\. Come back to \\v[area.rookie-harbor.name] so I can reward you!",
        "transl": "Tja, das scheint wohl meine Berufung zu sein!\\. Komm wieder zurück nach Rookie Harbor, es wartet eine Belohnung auf dich!"
+      },
+      "person": {
+       "person": "adventurers.male-nintendo",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      }
     ]

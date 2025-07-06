@@ -28,41 +28,70 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Receptionist",
          "transl": "Rezeptionist"
+        },
+        "person": {
+         "person": "business.male-lockhart-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Good day, Miss \\v[lore.title.seeker]. I welcome you to the headquarters of the \\c[3]\\v[lore.title.faction-shock-rookieharbor]\\c[0].",
          "transl": "Guten Tag, Fräulein Seeker. Willkommen im Hauptquartier des \\c[3]\\v[lore.title.faction-shock-rookieharbor]es\\c[0]."
+        },
+        "person": {
+         "person": "business.male-lockhart-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "If you are looking to trade, you can find goods from all over \\v[lore.title.planet] here.",
          "transl": "Wenn Sie handeln möchten, finden Sie hier Güter aus allen Teilen Shadoons."
+        },
+        "person": {
+         "person": "business.male-lockhart-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Our range of goods is sure to expand over time so you are advised to return from time to time.",
          "transl": "Unser Angebot wird sich im Laufe der Zeit noch erweitern, also kommen Sie doch hin und wieder mal vorbei."
+        },
+        "person": {
+         "person": "business.male-lockhart-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "If you are on an assignment for our corporation, you can find the management upstairs.",
          "transl": "Wenn Sie ein geschäftliches Anliegen haben, finden Sie die Verwaltung im 1. Stock."
+        },
+        "person": {
+         "person": "business.male-lockhart-white",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -81,23 +110,40 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Guard",
          "transl": "Wache"
+        },
+        "person": {
+         "person": "business.male-buff-sunglasses-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I am sorry, ma'am, but this part is restricted to the staff.",
          "transl": "Tut mir leid, Ma'am, Zutritt nur für Personal."
+        },
+        "person": {
+         "person": "business.male-buff-sunglasses-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -105,35 +151,60 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Guard",
           "transl": "Wache"
+         },
+         "person": {
+          "person": "business.male-buff-sunglasses-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I am sorry, ma'am, but this area is restricted to the staff.",
           "transl": "Tut mir leid, Ma'am, Zutritt nur für Personal."
+         },
+         "person": {
+          "person": "business.male-buff-sunglasses-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "I see you have business with the board.\\. In that case please go upstairs and have a nice day.",
           "transl": "Ah, Sie sind geschäftlich hier.\\. In dem Fall möchte ich Sie bitten, nach oben zu gehen und wünsche Ihnen noch einen angenehmen Tag."
+         },
+         "person": {
+          "person": "business.male-buff-sunglasses-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -141,17 +212,30 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Guard",
          "transl": "Wache"
+        },
+        "person": {
+         "person": "business.male-buff-sunglasses-white",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Good day, ma'am.\\. You can go upstairs.\\. Have a nice day.",
          "transl": "Guten Tag, Ma'am.\\. Sie können nach oben gehen.\\. Einen angenehmen Tag."
+        },
+        "person": {
+         "person": "business.male-buff-sunglasses-white",
+         "expression": "DEFAULT"
         }
        }
       ]

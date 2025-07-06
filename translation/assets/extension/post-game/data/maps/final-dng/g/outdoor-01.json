@@ -401,18 +401,36 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.buggy",
+       "expression": "LAUGHING"
+      }
+     },
      {
       "message": {
        "orig": "Oh, hello everyone!\\.\nWas that the whole dungeon already?",
        "transl": "Oh, hallo zusammen!\\.\nWar das schon der ganze Dungeon?<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "LAUGHING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "SKEPTICAL"
+      }
+     },
      {
       "message": {
        "orig": "I certainly hope not!",
        "transl": "Ich hoffe nicht!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "WONDERING"
       }
      },
      null,
@@ -420,32 +438,68 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.luke",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Holerö! Everyone else here as well?",
        "transl": "Holerö! Alle anderen auch hier?"
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Looks like the dungeon includes outdoor areas this time!",
        "transl": "Sieht so aus, als ob der Dungeon dieses Mal auch Außenbereiche enthält!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "UP"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I see!",
        "transl": "Verstehe!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "That's neat.",
        "transl": "Toll."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
       }
      },
      null,
@@ -453,6 +507,10 @@
       "message": {
        "orig": "Onwards into unexplored land!!",
        "transl": "Auf ins unerforschte Land!!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "POINTING"
       }
      },
      null,
@@ -464,6 +522,10 @@
       "message": {
        "orig": "Let's go!",
        "transl": "Es geht loooos!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "LAUGHING"
       }
      },
      null,
@@ -481,12 +543,20 @@
       "message": {
        "orig": "Oh!\\. We're outside again!",
        "transl": "Oh! \\. Wir sind wieder draußen!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "Looks like it.",
        "transl": "Sieht so aus."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "UP"
       }
      }
     ]
@@ -506,36 +576,66 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "EXCITED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.grumpy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Those crystals...\\. they almost look like this new puzzle element, don't they?",
        "transl": "Diese Kristalle...\\. Sie sehen fast wie ein neues Rätsel-Element aus, nicht wahr?"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "True...",
        "transl": "Stimmt..."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You think the ancients created them?",
        "transl": "Glaubst du, die Ahnen haben sie geschaffen?"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Who knows. It might be related to the \\c[3]message of the sky\\c[0]!",
        "transl": "Wer weiß. Es könnte mit der \\c[3]Botschaft des Himmels\\c[0] zusammenhängen!"
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "Oh!\\. Interesting thought!",
        "transl": "Oh!\\. Interessanter Gedanke!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -548,6 +648,10 @@
       "message": {
        "orig": "Would you look at these!",
        "transl": "Seht euch das mal an!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SURPRISED"
       }
      }
     ]

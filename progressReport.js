@@ -45,6 +45,9 @@ function fileReport(translation, stats) {
                         stats.translated++;
                     }
                 }
+            } else if(translation.hasOwnProperty("person") && translation.hasOwnProperty("expression")) {
+                // dialog details, skip
+                return;
             } else {
                 for(k in translation) {
                     fileReport(translation[k], stats)

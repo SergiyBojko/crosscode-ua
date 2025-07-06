@@ -141,73 +141,126 @@
        "name": {
         "orig": "Steve B. Ruger",
         "transl": "Steve B. Ruger"
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "DEFAULT"
        }
       },
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "message": {
         "orig": "Well... This certainly did not work out as planned.\\. If you are seeing this you surely will have noticed already.",
         "transl": "Nun... Offensichtlich hat das Ganze nicht wie geplant funktioniert.\\. Wenn Sie dies sehen, werden Sie es sicherlich schon bemerkt haben."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "The birds revolted again and this time, found a way to escape.",
         "transl": "Die Vögel haben erneut revoltiert und konnten dieses Mal tatsächlich fliehen."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "We should have known that having windows was a security risk, but hindsight doesn't help us much now.",
         "transl": "Wir hätten wissen müssen, dass Fenster ein Sicherheitsrisiko darstellen, aber im Nachhinein hilft uns das jetzt nicht weiter."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "At this point they have already spread all over \\v[lore.title.planet] and started to cause trouble.",
         "transl": "Mittlerweile haben sie sich bereits über Shadoon ausgebreitet und eine Menge Ärger verursacht."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Now it is only a matter of time before this all leads back to us and our secret projects.\\. We need to close this down.",
         "transl": "Jetzt ist es nur noch eine Frage der Zeit, ehe das Ganze auf uns und unsere Geheimprojekte zurückfällt.\\. Wir müssen es also beenden."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Progress with the \\v[combat.name.heat/scorpion]s has been going great.\\. It is a shame that we need to leave them behind.",
         "transl": "Wir haben großartige Fortschritte bei den Pincerons zu verzeichnen.\\. Es ist eine Schande, dass wir sie zurücklassen müssen."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "It seems like creating the third entry in our line of experiments won't be possible this way...",
         "transl": "Unter diesen Umständen ist es uns nicht mehr möglich, den dritten Teil unserer Versuchsreihe in Gang zu bringen..."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "However, after talking with our colleagues, we decided on an alternative option.",
         "transl": "Nach einem Gespräch mit unseren Kollegen haben wir uns jedoch für eine alternative Option entschieden."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "We will work on a secret joint facility that can house the most qualified of workers for our next project.",
         "transl": "Wir werden an einer geheimen Verbundanlage arbeiten, in der die qualifiziertesten Mitarbeiter für unser nächstes Projekt untergebracht werden können."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "This might even surpass everything we did so far.\\. We will see.\\. Interesting times ahead.",
         "transl": "Dies könnte sogar alles übertreffen, was wir bisher getan haben. Wir werden sehen.\\. Interessante Zeiten stehen uns bevor."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "So, maybe we will see you around, if you can find us.\\. Goodbye.",
         "transl": "Vielleicht sehen wir uns dann, wenn Sie uns finden können.\\. Auf Wiedersehen."
+       },
+       "person": {
+        "person": "lab.scientist-pc",
+        "expression": "HOLOGRAM"
        }
       }
      ]
@@ -224,7 +277,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]INTERNAL MAIL, INBOX\\c[0]\n\n\\c[3]FROM:\\c[0] \"The 4 Visionaries\"\n\\c[3]TO:\\c[0] All Facilities\n\n\\c[3]Subject:\\c[0] The Future",
@@ -304,61 +362,106 @@
       "name": {
        "orig": "Ey'leet",
        "transl": "Ey'leet"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\v[lore.title.seeker], part of the elite acquire in hidden place, yes?",
        "transl": "Seeker, du gefunden Spitzenteile an Geheimort?"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Such radical accomplishment!\\. Very impress!",
        "transl": "Was für Erfolg auf Linie ganz!\\. Sehr beeindruckt!"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "But machine not receive more power by human standing around and being proud of accomplishment!",
        "transl": "Aber Maschine werden nicht besser durch Mensch stehen herum und genießen Stolz auf seine Leistung!"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "You better bring parts back to me in \\v[area.heat-village.name] so machine can be graded up!",
        "transl": "Du bringen Teile zügig zu mir nach Ba'kii Kum damit Maschine aufmotzen können!"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      }
     ]

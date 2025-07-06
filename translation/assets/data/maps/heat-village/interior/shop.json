@@ -8,12 +8,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "baki.male-yellow-tall",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "I can offer hardest steel to protect soft human body.",
           "transl": "Ich kann anbieten härtesten Stahl um zu beschützen weichen Menschenleib."
+         },
+         "person": {
+          "person": "baki.male-yellow-tall",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -28,12 +42,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "rookie-harbor.female-small-red",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hello, \\v[lore.title.seeker].\\. Need some provisions on this hot day?",
           "transl": "Hallo, Seeker.\\. Brauchst du etwas Proviant an diesem heißen Tag?"
+         },
+         "person": {
+          "person": "rookie-harbor.female-small-red",
+          "expression": "DEFAULT"
          }
         }
        ]

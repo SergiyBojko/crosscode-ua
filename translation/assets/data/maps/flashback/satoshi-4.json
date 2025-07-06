@@ -7,18 +7,36 @@
      {
       "thenStep": [
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "EYES_CLOSED"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "The door is locked, correct? It seems we are trapped.",
          "transl": "Die Tür ist verschlossen, richtig? Sieht so aus, als wären wir hier gefangen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -68,11 +86,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Our first Evotar, \\c[3]Lea\\c[0], was born - derived from Shizuka's avatar.",
        "transl": "Unser erster Evotar, \\c[3]Lea\\c[0], war geboren - basierend auf Shizukas Avatar."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -80,6 +107,10 @@
       "message": {
        "orig": "Back then, things were going rather well.",
        "transl": "Damals liefen die Dinge richtig gut."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "AWAY"
       }
      },
      null,
@@ -89,29 +120,50 @@
       "message": {
        "orig": "We made so much progress...\\. it was exciting!",
        "transl": "Wir machten große Fortschritte...\\. Das war aufregend!"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Following prototypes have proven to be almost feature-complete...",
        "transl": "Die nachfolgenden Prototypen erwiesen sich als nahezu vollständig funktionstüchtig..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "It was at that point...\\. that a long-lingering question started to emerge.",
        "transl": "Es war zu dieser Zeit...\\. als eine lange aufgeschobene Frage nach einer Antwort verlangte."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "\\c[3]What exactly should we do...\\. with those Evotars?\\c[0]",
        "transl": "\\c[3]Was wollen wir mit den Evotaren eigentlich machen?\\c[0]"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
       }
      }
     ]
@@ -133,23 +185,40 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I faked a malfunction of Lea's Evotar...",
        "transl": "Ich täuschte eine Fehlfunktion von Leas Evotar vor..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "I told Sidwell that the best chance to fix it would be to inspect the state of the Evotar and server side-by-side.",
        "transl": "Ich sagte Sidwell, dass wir sie am ehesten reparieren könnten, wenn wir Evotar und Server Seite an Seite inspizieren könnten..."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...while Lea was still connected.",
        "transl": "... während Lea noch mit dem System verbunden sei."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DRAMATIC"
       }
      },
      null,
@@ -158,6 +227,10 @@
       "message": {
        "orig": "However, I wasn't allowed to access the server.",
        "transl": "Doch der Zugang zum Server wurde mir verwehrt."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "AWAY"
       }
      }
     ]

@@ -54,6 +54,12 @@
     "condAnims": [
      {
       "interact": {
+       "0": {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        "1": {
         "text": {
          "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
@@ -62,7 +68,12 @@
        },
        "2": {
         "0": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
+          }
+         },
          null,
          null,
          {
@@ -72,6 +83,10 @@
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -92,7 +107,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "Test sequence status: \\c[2]ready\\c[0].\n\\c[1]Start test sequence\\c[0]?",
@@ -101,7 +121,12 @@
         },
         {
          "0": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
+           }
+          },
           null,
           null,
           {
@@ -118,7 +143,12 @@
           }
          ],
          "1": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
           {
            "text": {
             "orig": "Completion of test sequence is \\c[3]required\\c[0] in order to access the east lab area.",
@@ -129,9 +159,17 @@
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "options": [
           {
            "label": {
@@ -152,6 +190,12 @@
      },
      {
       "interact": {
+       "0": {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        "1": {
         "text": {
          "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
@@ -160,7 +204,12 @@
        },
        "2": {
         "0": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
+          }
+         },
          null,
          null,
          {
@@ -170,6 +219,10 @@
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -190,7 +243,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "Test sequence status: \\c[2]completed\\c[0].\nPerformance score: \\c[2]41.99%\\c[0].",
@@ -209,6 +267,10 @@
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         }
        ]
@@ -223,6 +285,12 @@
     "condAnims": [
      {
       "interact": {
+       "0": {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        "1": {
         "text": {
          "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
@@ -231,7 +299,12 @@
        },
        "2": {
         "0": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
+          }
+         },
          null,
          null,
          {
@@ -241,6 +314,10 @@
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -261,7 +338,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]NOTE:\\c[0]\n\nSome of the \\v[combat.name.snowtank]s were breaking out of the test chamber and tried to reach the elevator. Put some boxes here so it doesn't happen again.\n\nPS: Good luck everyone on the other side!",
@@ -276,7 +358,12 @@
         },
         {
          "0": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
+           }
+          },
           null,
           null,
           {
@@ -286,6 +373,10 @@
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "options": [
           {
            "label": {
@@ -396,79 +487,136 @@
        "name": {
         "orig": "Xavier Bonegate",
         "transl": "Xavier Bonegate"
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "message": {
         "orig": "Hello and welcome.\\. I'm \\c[3]Xavier Bonegate\\c[0] speaking for \\c[3]Heavy Hardware Inc\\c[0].\\. How are you?",
         "transl": "Hallo und willkommen.\\. Ich bin \\c[3]Xavier Bonegate\\c[0] und ich spreche für \\c[3]Heavy Hardware AG\\c[0].\\. Wie geht's?"
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Whatever your answer may be, rest assured that we will always strive to improve the lives of everyone, everywhere, at every time.",
         "transl": "Was auch immer deine Antwort sein mag, sei versichert, dass wir uns immer bemühen werden, das Leben aller Menschen überall und jederzeit zu verbessern."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "For example, we are proud to report great successes in the field of fuel-independent, heavy ordnance vehicles.",
         "transl": "Zum Beispiel können wir mit Stolz große Erfolge auf dem Gebiet von kraftstoffunabhängigen Kampfwagen vermelden."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "For now this technology is primarily geared towards the use in warfare.\\. To protect our settlements and advance to new, dangerous territories.",
         "transl": "Derzeit ist diese Technologie in erster Linie für den Kriegseinsatz ausgerichtet:\\. Für die Verteidigung unserer Siedlungen und das Vordringen in neue, gefährliche Gebiete."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "Energy of the Track, directly woven into every step of our production process, is granting us never before seen efficiency.",
         "transl": "Die Energie des Pfades, die direkt in jeden Schritt unseres Produktionsprozesses eingebunden ist, verleiht ihr eine noch nie dagewesene Effizienz."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "The challenges of working with such a new form of energy are great, but by employing the best experts we will be able to reap the rewards.",
         "transl": "Die Herausforderungen bei der Arbeit mit dieser neuen Energieform sind groß, daher profitieren wir von der Expertise unserer Experten enorm."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "We also made huge progress with unusually intelligent snowmen, generally known as \\v[combat.name.snowman].",
         "transl": "Wir haben auch große Fortschritte mit ungewöhnlich intelligenten Schneemännern gemacht, die allgemein als \\v[combat.name.snowman] bekannt sind."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "We were able to create vehicles for them that they could easily control without using their hands.",
         "transl": "Wir konnten Fahrzeuge für sie herstellen, die keine Hände zur Steuerung erfordern."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "They can handle dangerous work even in the coldest of conditions!",
         "transl": "Sie können nämlich selbst unter den kältesten Bedingungen gefährliche Arbeiten ausführen!"
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "This will greatly minimize risks for workers everywhere!",
         "transl": "Dies wird die Risiken aller Arbeiter weltweit erheblich minimieren!"
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "And for our greatest project we will equip the most promising \\v[combat.name.snowman] with the most powerful machine we have created so far.",
         "transl": "Und für unser größtes Projekt statten wir den besten \\v[combat.name.snowman] mit der bislang leistungsstärksten Maschine aus, die wir je hergestellt haben."
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       },
       {
        "message": {
         "orig": "I am sure that, because of pioneering projects like this, our next report will be an even better one.\\. Until then!",
         "transl": "Ich bin mir sicher, dass die kommende Zeit beim nächsten Bericht aufgrund derartiger Pilotprojekte die jetzige noch übertreffen wird.\\. Bis dahin!"
+       },
+       "person": {
+        "person": "lab.scientist-xbox",
+        "expression": "HOLOGRAM"
        }
       }
      ]
@@ -485,7 +633,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "\\c[1]INTERNAL MAIL, OUTGOING\\c[0]\n\n\\c[3]FROM:\\c[0] Bergen Facility, Office 21b\n\\c[3]TO:\\c[0] \"Heavy Hardware\", Management\n\n\\c[3]Subject:\\c[0] BOXES???",

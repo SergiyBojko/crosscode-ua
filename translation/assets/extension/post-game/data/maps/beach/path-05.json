@@ -758,12 +758,20 @@
       "message": {
        "orig": "Surrounded by water...\\. aren't you guys a bit nervous?",
        "transl": "Umgeben von Wasser...\\. Macht das keinen von euch etwas nervös?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "It might look pleasant, but it's actually quite deadly here.",
        "transl": "Es sieht vielleicht angenehm aus, aber in Wirklichkeit ist die Umgebung hier ziemlich gefährlich."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      }
     ]
@@ -776,6 +784,10 @@
       "message": {
        "orig": "Naturally shaped stone bridge.\\. No, of course it doesn't make sense.\\. Looks nice, though.",
        "transl": "Eine natürlich geformte Steinbrücke.\\. Die natürlich keinen Sinn macht.\\. Sieht aber schön aus."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TIRED"
       }
      }
     ]
@@ -788,18 +800,30 @@
       "message": {
        "orig": "Those stones remind me a bit of those... \\c[3]indecisive flowers\\c[0] in Vermillion Wasteland!\\. Remember those, Lea?",
        "transl": "Diese Steine erinnern mich ein wenig an diese... \\c[3]unentschlossenen Blumen\\c[0] in der Einöde. Erinnerst du dich an die, Lea?"
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "SKEPTICAL"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "This is just as narrow... but at least you don't have to repeat the whole thing when you fall into the water.",
        "transl": "Hier ist's genauso eng... aber wenigstens muss man das Ganze nicht wiederholen, wenn man ins Wasser fällt."
+      },
+      "person": {
+       "person": "main.luke",
+       "expression": "WONDERING"
       }
      }
     ]
@@ -814,6 +838,10 @@
         "message": {
          "orig": "Of course!\\. The Ancients always reward those that explore ahead of time!\\. It seems we missed a switch!",
          "transl": "Natürlich!\\. Die Ahnen belohnen immer diejenigen, die vorausschauend sind!\\. Anscheinend haben wir einen Schalter übersehen!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        }
       ],
@@ -822,6 +850,10 @@
         "message": {
          "orig": "Ugh!\\. Of course we had to hit another switch first.\\. OF COURSE!",
          "transl": "*stöhn*\\. Natürlich mussten wir zuerst einen anderen Schalter treffen.\\. WAR JA KLAR!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        }
       ],
@@ -830,6 +862,10 @@
         "message": {
          "orig": "Oh, we didn't activate that jump panel yet?\\. That sucks...",
          "transl": "Oh, wir haben die Sprungplatte gar nicht aktiviert?\\. So ein Mist aber auch..."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "COMPLAINING"
         }
        }
       ],
@@ -838,6 +874,10 @@
         "message": {
          "orig": "Huh...\\. Guess we can't go on here!\\. I suppose we have to hit that switch first.",
          "transl": "Höh...\\. Hier geht's wohl nicht weiter!\\. Wahrscheinlich müssen wir erst den Schalter umlegen."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "DOWN"
         }
        }
       ]
@@ -854,6 +894,10 @@
         "message": {
          "orig": "Are we there yet?",
          "transl": "Sind wir schon da?"
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "TOWARD"
         }
        }
       ],
@@ -862,6 +906,10 @@
         "message": {
          "orig": "Doesn't look like it ends here, huh?",
          "transl": "Sieht nicht so aus, als würde es hier enden, oder?"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "UP"
         }
        }
       ]

@@ -608,30 +608,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Here we are, that should be the village!",
        "transl": "Wir sind da! Das sollte das Dorf sein."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So...\\. how about we go ahead and visit the major building now?",
        "transl": "Also...\\. Wie wäre es, wenn wir direkt zum Hauptgebäude gehen?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "You know, to continue the plot and all.",
        "transl": "Du weißt schon, um die Handlung voranzutreiben und so."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -659,36 +685,66 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "baki.female-pink",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello human.",
          "transl": "Hallo, Mensch."
+        },
+        "person": {
+         "person": "baki.female-pink",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "I mend big light panel you humans gave to Shad.",
          "transl": "Ich reparieren große Lichtgerät Menschen uns gegeben."
+        },
+        "person": {
+         "person": "baki.female-pink",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Much work but still grateful for gift.",
          "transl": "Arbeit viel aber dankbar für Geschenk."
+        },
+        "person": {
+         "person": "baki.female-pink",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        }
       ]
@@ -703,36 +759,66 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "baki.female-pink",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello human.",
          "transl": "Hallo, Mensch."
+        },
+        "person": {
+         "person": "baki.female-pink",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Hi!\n"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "I mend big light panel you humans gave to Shad.",
          "transl": "Ich reparieren große Lichtgerät Menschen uns gegeben."
+        },
+        "person": {
+         "person": "baki.female-pink",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Much work but still grateful for gift.",
          "transl": "Arbeit viel aber dankbar für Geschenk."
+        },
+        "person": {
+         "person": "baki.female-pink",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        }
       ]
@@ -845,36 +931,66 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "baki.male-green-tall",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good day to you human.",
          "transl": "Guten Tag dir, Mensch."
+        },
+        "person": {
+         "person": "baki.male-green-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "This is human guard.",
          "transl": "Das ist Menschen-Wache."
+        },
+        "person": {
+         "person": "baki.male-green-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Helps to protect Shad and humans from hard desert.",
          "transl": "Hilft Shad und Menschen vor harter Wüste zu beschützen."
+        },
+        "person": {
+         "person": "baki.male-green-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]
@@ -891,12 +1007,20 @@
         "message": {
          "orig": "Ooh, look at this, Lea. It's a solar farm!",
          "transl": "Ohh, schau mal, Lea! Ein Solarpark!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]
@@ -907,6 +1031,10 @@
         "message": {
          "orig": "I read about this. It's built by the humans to help the Shad.",
          "transl": "Davon habe ich gelesen. Er wurde von den Menschen gebaut, um den Shad zu helfen."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
         }
        }
       ]
@@ -932,13 +1060,26 @@
         "name": {
          "orig": "Dourk",
          "transl": "Dourk"
+        },
+        "person": {
+         "person": "baki.thief-man-dude",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Anything wrong?\\. I'm just sitting here.",
          "transl": "Ist irgendwas?\\. Ich sitze hier nur."
+        },
+        "person": {
+         "person": "baki.thief-man-dude",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -951,78 +1092,136 @@
          "name": {
           "orig": "Dourk",
           "transl": "Dourk"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         null,
         null,
         {
          "message": {
           "orig": "Anything wrong?\\. I'm just sitting here.",
           "transl": "Ist irgendwas?\\. Ich sitze hier nur."
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         },
         {
          "message": {
           "orig": "C-crimes in the bazaar?\\. What are you talking about?\\. I don't know anything!",
           "transl": "V-Verbrechen auf dem Bazar?\\. Wovon sprichst du?\\. Ich weiß von nichts!"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "So it was you on the communicator?\\. Damn that Billston...",
           "transl": "Du warst das also am Kommunikator?\\. Dieser verdammte Billston..."
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I thought someone as ruthless as him would at least be more careful.",
           "transl": "Ich dachte, jemand Rücksichtsloses wie er wäre ein wenig vorsichtiger."
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "WHISTLING"
          }
         },
         {
          "message": {
           "orig": "He roped me into this, I swear!\\. Told me about all the money, threatened me if I refused, all that!",
           "transl": "Er hat mich da mit reingezogen, ich schwör's!\\. Hat mir von dem ganzen Geld erzählt und mir gedroht, falls ich mich weigern würde!"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "\"No one will care about it,\"\\. he said. \"Those scaly idiots don't know how to handle the money anyway!\"\\. So much for that.",
           "transl": "\"Es wird niemanden interessieren\"\\., hat er gesagt. \"Diese schuppigen Idioten wissen eh nicht, wie man mit Geld umgeht!\"\\. So viel dazu."
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Well, time to come clean then, I suppose.\\. At least I can bring down that jerk with me.",
           "transl": "Tja, wird wohl langsam Zeit auszupacken.\\. Aber wenigstens geht der Mistkerl mit mir unter!"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         null,
@@ -1047,31 +1246,56 @@
          "name": {
           "orig": "Dourk",
           "transl": "Dourk"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Billston",
           "transl": "Billston"
+         },
+         "person": {
+          "person": "guards.quest-male-mustache-white",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Well, well, well.\\. Where might you lot be going?",
           "transl": "Naaa?\\. Wo wollen wir denn hin?"
+         },
+         "person": {
+          "person": "guards.quest-male-mustache-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         },
         {
          "message": {
           "orig": "I knew something was wrong once I noticed my communicator missing.\\. You \\v[lore.title.seeker]s are a sneaky lot, hm?",
           "transl": "Ich wusste in dem Moment, dass mit euch etwas faul ist, als ich gemerkt habe, dass mein Kommunikator fehlt.\\. Ihr Seeker seid echt so ein richtig hinterlistiger Haufen."
+         },
+         "person": {
+          "person": "guards.quest-male-mustache-white",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1079,6 +1303,10 @@
          "message": {
           "orig": "Forget it, man!\\. You messed up!\\. This is over!",
           "transl": "Vergiss es!\\. Du hast Mist gebaut!\\. Aus und vorbei!"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1086,18 +1314,30 @@
          "message": {
           "orig": "It is,\\.\\. r-\\.right...?",
           "transl": "Ist es doch,\\.\\. o-\\.oder...?"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Oh, for you it is.\\. Me, though?\\.\\. I prepared something special just for moments like this!",
           "transl": "Oh, für dich schon.\\. Aber für mich?\\.\\. Ich habe genau für solche Momente etwas ganz Besonderes vorbereitet!"
+         },
+         "person": {
+          "person": "guards.quest-male-mustache-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!?",
           "transl": "...!?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         null,
@@ -1145,43 +1385,76 @@
          "name": {
           "orig": "Dourk",
           "transl": "Dourk"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Billston",
           "transl": "Billston"
+         },
+         "person": {
+          "person": "guards.quest-male-mustache-white",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "This will be the end of you and no one will ever know the truth!",
           "transl": "Das wird dein Ende sein, und niemand wird je die Wahrheit erfahren!"
+         },
+         "person": {
+          "person": "guards.quest-male-mustache-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         },
         {
          "message": {
           "orig": "D-dude, look where we are...\\.\\. this is madness!",
           "transl": "A-Alter, guck mal, wo wir sind...\\.\\. D-Das ist Wahnsinn!"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Silence!\\. These expensive preparations won't go to waste.\\.\\. And I'm out of here!",
           "transl": "Schweig!\\. All die teuren Vorbereitungen werden nicht umsonst gewesen sein.\\.\\. Und ich mache mich aus dem Staub!"
+         },
+         "person": {
+          "person": "guards.quest-male-mustache-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         null,
@@ -1203,31 +1476,56 @@
          "name": {
           "orig": "Dourk",
           "transl": "Dourk"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
+         }
+        },
         {
          "message": {
           "orig": "W-well... you know how to handle this, right?",
           "transl": "T-Tja... Du weißt, was du tun musst, oder?"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Good... so... I'll just be hiding around that corner.\\. Good luck!",
           "transl": "Gut... Also... Ich werde mich hinter der Ecke da verstecken.\\. Viel Glück!"
+         },
+         "person": {
+          "person": "baki.thief-man-dude",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1235,6 +1533,10 @@
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         }
        ]
@@ -1293,34 +1595,64 @@
       "name": {
        "orig": "Dourk",
        "transl": "Dourk"
+      },
+      "person": {
+       "person": "baki.thief-man-dude",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
+      }
+     },
      {
       "message": {
        "orig": "Well, that certainly was something!\\. But leave it to a \\v[lore.title.seeker] to save the day, eh?\\. Hahahaha...",
        "transl": "Na, das war ja mal was!\\. Such dir 'nen Seeker, wenn's Probleme gibt, der wird's schon richten, heh?\\. Hahahaha..."
+      },
+      "person": {
+       "person": "baki.thief-man-dude",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Anyway, time to go on our ways, right?\\.\\. Bye!",
        "transl": "Wie auch immer, es wird Zeit, getrennte Wege zu gehen, nicht wahr?\\.\\. Bye!"
+      },
+      "person": {
+       "person": "baki.thief-man-dude",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      null,
      null,
      {
       "message": {
        "orig": "...Lea...",
        "transl": "... Лія..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      null,
@@ -1328,24 +1660,40 @@
       "message": {
        "orig": "What...?\\. After all we've been through?\\. I was a victim as much as everyone here!",
        "transl": "Was...?\\. Nach allem, was wir zusammen durchgemacht haben?\\. Ich war genauso ein Opfer, wie jeder andere hier auch!"
+      },
+      "person": {
+       "person": "baki.thief-man-dude",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "... Alright, alright... I will turn myself in.\\. At least it's just across the street.",
        "transl": "... Jaaa, schon gut... Ich werde mich stellen.\\. Wenigstens ist es gleich auf der anderen Straßenseite."
+      },
+      "person": {
+       "person": "baki.thief-man-dude",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -1365,19 +1713,36 @@
       "name": {
        "orig": "Dourk",
        "transl": "Dourk"
+      },
+      "person": {
+       "person": "baki.thief-man-dude",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I'll see myself inside.\\. So... bye \\v[lore.title.seeker].\\. Sorry for the trouble and...\\. thanks for not letting me die, I guess.",
        "transl": "Ich werde nun reingehen.\\. Also... Mach's gut, Seeker.\\. Sorry für die Probleme und...\\. danke, dass du mich nicht hast sterben lassen."
+      },
+      "person": {
+       "person": "baki.thief-man-dude",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      }
     ]
@@ -1401,127 +1766,216 @@
         "name": {
          "orig": "Geeklich",
          "transl": "Geeklich"
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Que onda!",
          "transl": "Que onda!"
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DISGUSTED"
         }
        },
        {
         "message": {
          "orig": "What? Oh... It's my clothes, right?",
          "transl": "Was? Oh... Meine Klamotten, oder?"
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Yeah... I get that a lot.",
          "transl": "Ja... das höre ich oft."
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Believe it or not, I'm usually cold so... I'm used to being like this, always.",
          "transl": "Ob du's glaubst oder nicht, aber ich friere ziemlich schnell... Habe mich deswegen schon daran gewöhnt."
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        },
        {
         "message": {
          "orig": "Oh vaya you're also a Spheromacer, que va. I've not seen many in a while, what's your name?",
          "transl": "Oh vaya, du bist auch ein Spheromancer, que va. Die sehe ich nicht oft - wie heißt du?"
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "I'm Geeklich, nice to meet you!",
          "transl": "Ich bin Geeklich! Schön, dich kennenzulernen!"
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "You know, I didn't always want to play as this class. In fact, I wanted to be a Hexacast.",
          "transl": "Weißt du, eigentlich wollte ich diese Klasse gar nicht spielen, sondern einen Hexacast.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Back in the day I played with friends and I ended up picking this class to form a balanced team comp... ",
          "transl": "Als ich damals mit meinen Freunden gespielt habe, hat sich das aber so ergeben, weil wir eine ausgewogene Party erstellen wollten..."
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Nowadays many of them don't play anymore so I wander around and look at the different skeletons all day.",
          "transl": "Leider spielen viele von ihnen nicht mehr, deshalb laufe ich den ganzen Tag herum und schaue mir die verschiedenen Skelette an."
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Good thing that red is my favorite color don't you think?",
          "transl": "Gut, dass Rot meine Lieblingsfarbe ist, findest du nicht?"
+        },
+        "person": {
+         "person": "guests.geeklich",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]

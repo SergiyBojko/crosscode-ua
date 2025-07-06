@@ -776,42 +776,82 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "baki.male-green-tall",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "K'tara house is now lost thanks to \\c[3]black monsters\\c[0].",
          "transl": "Haus von K'tara nun verloren wegen \\c[3]schwarze Monster\\c[0]."
+        },
+        "person": {
+         "person": "baki.male-green-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Eldress not happy.",
          "transl": "Älteste sehr unglücklich."
+        },
+        "person": {
+         "person": "baki.male-green-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "baki.male-green-tall",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You helped with black creatures, thank you Human.",
          "transl": "Du geholfen mit schwarze Kreatur. Danke, Mensch."
+        },
+        "person": {
+         "person": "baki.male-green-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        }
       ]
@@ -871,25 +911,46 @@
         "name": {
          "orig": "K'tara",
          "transl": "K'tara"
+        },
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Find the \\c[3]Stone Key\\c[0] inside my house and bring it here.",
          "transl": "Findet den \\c[3]Steinschlüssel\\c[0] in meinem Haus und bringt ihn mir."
+        },
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Once you got it, let's meet again at the \\c[3]V'rda Vil landmark\\c[0]!",
          "transl": "Sobald ihr ihn habt, treffen wir uns am \\c[3]V'rda Vil-Wegpunkt\\c[0]!"
+        },
+        "person": {
+         "person": "jungle.female-albino",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -915,31 +976,56 @@
       "name": {
        "orig": "K'tara",
        "transl": "K'tara"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hello, again!",
        "transl": "Hallo, nochmal!"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Hi...",
        "transl": "Привіт..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "This is the northern part of the village.",
        "transl": "Das ist der nördliche Teil des Dorfes."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "As you can see, the beasts have already come this far.",
        "transl": "Wie du gleich sehen wirst, sind die Biester bis hierhin vorgedrungen."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -951,13 +1037,26 @@
       "name": {
        "orig": "K'tara",
        "transl": "K'tara"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "These are the black cats that have taken over our village.",
        "transl": "Das sind die schwarzen Katzen, die unser Dorf überfallen haben."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -965,6 +1064,10 @@
       "message": {
        "orig": "We call them \\c[3]Wiccats\\c[0].",
        "transl": "Wir nennen sie \\c[3]Schnurrken\\c[0]."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -972,12 +1075,20 @@
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "But these are only a few. The real threat is further ahead in the \\c[3]Chief's Den\\c[0].",
        "transl": "Aber das sind nur wenige. Die wahre Bedrohung liegt weiter hinten in der \\c[3]Häuptlingshütte\\c[0]."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -991,55 +1102,96 @@
       "name": {
        "orig": "K'tara",
        "transl": "K'tara"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "However, there is no way the other Shad will let you through.",
        "transl": "Die anderen Shad werden euch nicht passieren lassen."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "The villagers are dead set on shutting down the power plant. They will deny any other kind of outside help.",
        "transl": "Sie sind fest entschlossen, das Kraftwerk stillzulegen und werden jede Hilfe von außerhalb ablehnen."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Yes, I know it's cumbersome. It's the same kind of stubbornness I know from a certain someone...",
        "transl": "Ja, ich weiß, sie sind anstrengend. Genauso stur wie eine gewisse andere Person..."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Anyway, that means we have to help them... in a sneaky way. And I have a plan.",
        "transl": "Jedenfalls müssen wir ihnen helfen... auf die raffinierte Art. Und ich weiß auch schon wie."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You see that house over there?",
        "transl": "Siehst du das Haus dort drüben?"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1050,31 +1202,56 @@
       "name": {
        "orig": "K'tara",
        "transl": "K'tara"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "That is my home. It's now overrun by those creatures, but it has a valuable treasure!",
        "transl": "Das ist mein Haus. Es wird von den Kreaturen belagert, dort liegt aber ein wertvoller Schatz!"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "One that lets us sneak our way around the guards.",
        "transl": "Ein Schatz, mit dem wir die Wachen umgehen können."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "All we need to do is get it. That's where you come in.",
        "transl": "Wir müssen ihn nur dort herausholen. Da kommt ihr ins Spiel."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1085,67 +1262,116 @@
       "name": {
        "orig": "K'tara",
        "transl": "K'tara"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "You need to go into my house and grab my old \\c[3]Stone Key\\c[0].",
        "transl": "Ihr müsst zu meinem Haus gehen und euch meinen alten \\c[3]Steinschlüssel\\c[0] schnappen."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Do you think you can do that?",
        "transl": "Meint ihr, ihr schafft das?"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Great!",
        "transl": "Spitze!"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I leave it up to you if you want to get rid of the cats or not.",
        "transl": "Ich überlasse es euch, ob ihr dabei die Katzen alle vernichten wollt oder nicht."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The more are gone, the happier everyone will be, I imagine.",
        "transl": "Je mehr weg sind, desto glücklicher werden die Shad sein, kann ich mir vorstellen."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But they are very aggressive so be careful!",
        "transl": "Aber sie sind äußerst aggressiv, seid also vorsichtig!"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Okay, let's open these ropes so you can jump down from here.",
        "transl": "Gut, dann lasst uns die Seile hier öffnen, damit ihr von hier runterspringen könnt."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Sadly, there is no other way in...",
        "transl": "Es gibt leider keinen anderen Weg..."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1166,26 +1392,47 @@
       "name": {
        "orig": "K'tara",
        "transl": "K'tara"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Alright, that did the trick.",
        "transl": "So, das sollte reichen."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Once you've got the key, let's meet again at the \\c[3]V'rda Vil landmark\\c[0]!",
        "transl": "Sobald ihr den Schlüssel habt, treffen wir uns wieder am \\c[3]V'rda Vil-Wegpunkt\\c[0]!"
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Good luck and may the Krys'kajo be with you.",
        "transl": "Viel Glück! Möge der Krys'kajo mit dir sein."
+      },
+      "person": {
+       "person": "jungle.female-albino",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1194,24 +1441,40 @@
       "message": {
        "orig": "So... we only have to get the key.\\. We don't have to fight those kittens, right?",
        "transl": "Also... Wir sollen nur den Schlüssel holen.\\. Wir müssen die Kätzchen nicht bekämpfen, richtig?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "We don't have to.\\. Still, those Wiccats are a true threat to those villagers!",
        "transl": "Müssen wir nicht.\\. Aber diese Schnurrken sind eine ernste Bedrohung für die Dorfbewohner!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "Aww.\\. They're so cute, though.",
        "transl": "Ohh, aber die sind doch so süß."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "AWWW"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      }
     ]
@@ -1242,67 +1505,116 @@
       "name": {
        "orig": "Sonya Bolt",
        "transl": "Sonya Bolt"
+      },
+      "person": {
+       "person": "basin.female-sony",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "The Terror of Man can truly reside in the most innocent places and corrupt them.",
        "transl": "Die Auswüchse menschlicher Angst überkommen selbst die unschuldigsten Orte und verderben sie."
+      },
+      "person": {
+       "person": "basin.female-sony",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Just look, \\v[lore.title.seeker].\\. Even directly next to a village of the unsuspecting Shad those creatures run rampant.",
        "transl": "Sieh doch, Seeker.\\. Selbst vor dem Dorf der ahnungslosen Shad laufen diese Kreaturen Amok."
+      },
+      "person": {
+       "person": "basin.female-sony",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That location device even suggests that the facility itself is near.",
        "transl": "Das Ortungsgerät dort lässt darauf vermuten, dass die Anlage ganz in der Nähe sein muss."
+      },
+      "person": {
+       "person": "basin.female-sony",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...Lea?",
        "transl": "... Лія?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Yes, \\v[lore.title.seeker], the facility that created those dangerous beings.",
        "transl": "Ja, Seeker, die Anlage, die diese gefährlichen Kreaturen geschaffen hat."
+      },
+      "person": {
+       "person": "basin.female-sony",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You have to find it and uncover its secrets, so the machinations of the powerful can be stopped in the future.",
        "transl": "Du musst sie finden und ihr Geheimnis lüften, damit die Machenschaften der Mächtigen bald ein Ende haben."
+      },
+      "person": {
+       "person": "basin.female-sony",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Good... Very good.\\. Now, go.\\. And be careful.",
        "transl": "Gut... Sehr gut.\\. Also los, Seeker.\\. Und sei vorsichtig."
+      },
+      "person": {
+       "person": "basin.female-sony",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye.",
        "transl": "Бувай."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      }
     ]

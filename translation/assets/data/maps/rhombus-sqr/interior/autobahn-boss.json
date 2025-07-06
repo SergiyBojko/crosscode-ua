@@ -26,6 +26,10 @@
       "message": {
        "orig": "This must be it!\\. The \\c[3]teleporting car\\c[0]!",
        "transl": "Das muss es sein!\\. Das \\c[3]teleportierende Auto\\c[0]!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -54,30 +58,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
+      }
+     },
      {
       "message": {
        "orig": "Fantastic work, Ms. Lea!\\. It seems like we got them all!",
        "transl": "Fantastische Arbeit, Fräulein Lea!\\. Sieht so aus, als hätten wir sie alle erwischt!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That was a chase to be proud of!",
        "transl": "Das war eine Verfolgungsjagd, auf die man stolz sein kann!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "Time to get out of these tunnels!",
        "transl": "Zeit, aus den Tunneln zu verschwinden!"
+      },
+      "person": {
+       "person": "guards.captain-future",
+       "expression": "DEFAULT"
       }
      }
     ]

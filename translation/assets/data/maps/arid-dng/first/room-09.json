@@ -52,6 +52,10 @@
       "message": {
        "orig": "Further to the \\c[3]east\\c[0]! You need to reach the \\c[3]wall\\c[0]!",
        "transl": "Weiter nach \\c[3]Osten\\c[0]! Du musst die gegenüberliegende \\c[3]Wand\\c[0] erreichen!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]
@@ -84,12 +88,20 @@
         "message": {
          "orig": "\\c[1]...!\\c[0]",
          "transl": "\\c[1]...!\\c[0]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE_DOWN"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "FROWN"
         }
        }
       ],
@@ -98,6 +110,10 @@
         "message": {
          "orig": "More!!",
          "transl": "Mehr!!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "FROWN"
         }
        }
       ]

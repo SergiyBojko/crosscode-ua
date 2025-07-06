@@ -316,36 +316,66 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.triblader-female-purple",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good day Madame. I see you play the lonely class of Spheromancer. ",
          "transl": "Seien Sie gegrüßt, Madame. Wie ich sehe, spielen Sie die einsame Klasse der Spheromancer."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-purple",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "A view I consider quite rare. ",
          "transl": "Ein Anblick, der sich mir in der Tat nur sehr selten bietet."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-purple",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "It was a pleasant event to meet you.",
          "transl": "Es war mir ein Vergnügen, Sie kennenzulernen."
+        },
+        "person": {
+         "person": "cross-worlds.triblader-female-purple",
+         "expression": "DEFAULT"
         }
        }
       ]

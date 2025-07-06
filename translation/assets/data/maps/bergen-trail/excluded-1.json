@@ -140,6 +140,10 @@
       "message": {
        "orig": "Enough of that.",
        "transl": "Das reicht."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
       }
      }
     ]
@@ -164,90 +168,156 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "How?! Why?!",
        "transl": "Wie?! Warum?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DRAMATIC"
+      }
+     },
      {
       "message": {
        "orig": "Lea...\\. \\c[3]someone has interfered\\c[0].",
        "transl": "Lea...\\. \\c[3]Es hat jemand eingegriffen\\c[0]."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Someone hacked the environment server and managed to drag you out of the raid. Right when you teleported.",
        "transl": "Irgendjemand hat sich in den Umgebungsserver gehackt, um dich aus dem Raid herauszuziehen. Genau während deines Teleports."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "...?!",
        "transl": "...?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "I noticed signs of somebody tampering with the systems shortly before it happened...",
        "transl": "Kurz bevor es passiert ist, fiel mir auf, dass sich jemand am System zu schaffen gemacht hat..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "But it was too late for me to react.",
        "transl": "Da war es aber schon zu spät... Ich konnte nicht mehr eingreifen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "It looks like we are somewhere close to Bergen Trail.",
        "transl": "Sieht so aus, als wären wir in der Nähe des Bergen-Trails."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "However, this place is pretty much isolated. No connection to the official playground. We are trapped.",
        "transl": "Aber dieser Ort ist ziemlich isoliert. Keine Verbindung zum Spielplatz. Wir sind gefangen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "...Why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "I have no idea who did it or why... But they likely have a reason to bring you to this place.",
        "transl": "Ich habe keine Ahnung, wer das getan hat und warum... Aber es wird einen Grund dafür geben, warum du hierhergebracht wurdest."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "I suggest we have a look around and see what happens. Please be careful.",
        "transl": "Ich schlage vor, wir sehen uns um und schauen, was passiert. Sei bitte vorsichtig."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -269,6 +339,10 @@
       "message": {
        "orig": "Teleportation and D-Link all seem to be blocked. They have been very thorough.",
        "transl": "Teleportation und D-Link sind blockiert. Sie waren sehr gründlich."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      }
     ]
@@ -290,11 +364,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      {
@@ -320,54 +403,96 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "What an enjoyable sight.",
        "transl": "Was für ein amüsanter Anblick."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Like a little bird, once caged, now flying around freely.",
        "transl": "Wie ein kleiner Vogel, einst gefangen, nun frei umherfliegend."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "LAUGH"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Why?",
        "transl": "Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "CONFUSED"
       }
      },
      {
       "message": {
        "orig": "Hm. The little bird became rather talkative, didn't it?",
        "transl": "Hm. Der kleine Vogel ist gesprächiger geworden."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DOWN_EYE_CLOSED"
       }
      },
      {
       "message": {
        "orig": "How?",
        "transl": "Як?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "Enough of that.",
        "transl": "Lassen wir das."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
       }
      },
      null,
@@ -378,36 +503,66 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "As much as you might enjoy your freedom...",
        "transl": "So sehr du deine Freiheit auch genießt..."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You should be aware that you don't belong in this place.",
        "transl": "Du solltest dir darüber im Klaren sein, dass du nicht hierhergehörst."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      },
      {
       "message": {
        "orig": "...Why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
       }
      },
      {
       "message": {
        "orig": "So you are still clueless? Very peculiar.",
        "transl": "Du hast also immer noch keine Ahnung? Eigenartig."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED"
       }
      },
      null,
@@ -418,54 +573,96 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "It matters not. We are here to take you with us. Once again.",
        "transl": "Unwichtig. Wir sind hier, um dich mit uns zu nehmen. Ein weiteres Mal."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "And with no interference by pesky mortals this time around.",
        "transl": "Und dieses Mal kann sich kein lästiger Sterblicher einmischen."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Now, there is certainly no reason to rush.",
        "transl": "Es gibt also keinen Grund zur Eile."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Let us not forget the purpose of this realm.",
        "transl": "Vergessen wir nicht den Zweck dieser Welt."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "People gather in this place by the thousands.",
        "transl": "Hier tummeln sich die Menschen zu Tausenden."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Why do you think that is?",
        "transl": "Warum, glaubst du, ist das so?"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
       }
      },
      null,
@@ -477,35 +674,60 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Because they seek the \\c[3]experience\\c[0].",
        "transl": "Weil sie nach der \\c[3]Erfahrung\\c[0] streben."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "The experience of reading the situation, predicting the patterns, and finding the weak spot.",
        "transl": "Die Erfahrung, den Gegner zu durchschauen, seinen nächsten Schritt vorherzusagen und seinen Schwachpunkt zu finden."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "They seek the experience... of the \\c[3]challenge\\c[3]!",
        "transl": "Sie suchen die Erfahrung... der \\c[3]Herausforderung\\c[0]!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "LAUGH"
       }
      },
      {
       "message": {
        "orig": "And we... provide this experience.",
        "transl": "Und wir... bieten diese Erfahrung."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Our very existence... is dedicated to this experience.",
        "transl": "Unsere ganze Existenz... ist dieser Erfahrung gewidmet."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
       }
      },
      null,
@@ -513,6 +735,10 @@
       "message": {
        "orig": "Allow us to demonstrate.",
        "transl": "Erlaubt uns eine Demonstration."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
       }
      },
      null,
@@ -533,6 +759,10 @@
       "message": {
        "orig": "En garde!",
        "transl": "En garde!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SMILE"
       }
      }
     ]
@@ -545,6 +775,10 @@
       "message": {
        "orig": "Hahahahaha!",
        "transl": "Hahahahaha!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "LAUGH"
       }
      }
     ]
@@ -559,6 +793,10 @@
         "message": {
          "orig": "Let us start simple with \\c[3]Heat\\c[0] and \\c[3]Cold\\c[0], the elements of your own!",
          "transl": "Lass uns klein anfangen. Mit \\c[3]Hitze\\c[0] und \\c[3]Kälte\\c[0] - deinen gewohnten Elementen!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "SMILE"
         }
        }
       ]
@@ -569,6 +807,10 @@
         "message": {
          "orig": "Good! Now then...\\. how will you fare with the other two elements?",
          "transl": "Gut! Und nun...\\. Wie wirst du dich gegen die anderen beiden Elemente schlagen?"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "DOWN"
         }
        }
       ]
@@ -579,6 +821,10 @@
         "message": {
          "orig": "Intriguing! Now to climb up the curve a bit further!",
          "transl": "Interessant! Steigern wir uns noch ein wenig!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "SMILE"
         }
        }
       ]
@@ -589,6 +835,10 @@
         "message": {
          "orig": "Just wonderful! We are slowly reaching the climax!",
          "transl": "Einfach wunderbar! Wir erreichen langsam den Höhepunkt!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "LAUGH"
         }
        }
       ]
@@ -599,6 +849,10 @@
         "message": {
          "orig": "Now it is time for the grand finale!!",
          "transl": "Jetzt kommt das große Finale!!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "LAUGH"
         }
        }
       ]
@@ -611,6 +865,10 @@
           "message": {
            "orig": "...\\. We forget about your...\\. \\c[1]ridiculous damage output\\c[0].",
            "transl": "...\\. Wir vergessen einmal deinen...\\. \\c[1]absurd hohen Schaden\\c[0]."
+          },
+          "person": {
+           "person": "antagonists.designer",
+           "expression": "FROWN"
           }
          }
         ],
@@ -619,6 +877,10 @@
           "message": {
            "orig": "Hahahaha! It looks like you are still not satisfied!",
            "transl": "Hahahaha! Sieht so aus, als wärest du immer noch nicht zufrieden!"
+          },
+          "person": {
+           "person": "antagonists.designer",
+           "expression": "SMILE"
           }
          }
         ]
@@ -634,30 +896,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Okay Lea. We now understand who interfered.",
        "transl": "Okay, Lea. Jetzt wissen wir, wer eingegriffen hat."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "I will try my best to get control over this situation.",
        "transl": "Ich werde alles versuchen, die Situation unter Kontrolle zu bringen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "You need to give me as much time as possible. Please play along with him and keep him busy.",
        "transl": "Du musst mir so viel Zeit wie möglich verschaffen. Lass dich auf seine Spielchen ein und beschäftige ihn."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -679,24 +967,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Okay Lea, time to escape!",
        "transl": "Okay, Lea - Zeit, zu verschwinden!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DRAMATIC"
       }
      },
      {
       "message": {
        "orig": "There will be a teleporter to the right! Run to it and use it as quickly as possible!",
        "transl": "Du wirst rechts von dir einen Teleporter finden! Renne dort hin und benutze ihn, so schnell du kannst!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -720,6 +1030,10 @@
       "message": {
        "orig": "Huh. What do we have here?",
        "transl": "Hm? Was haben wir denn hier?"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
       }
      }
     ]
@@ -734,6 +1048,10 @@
       "message": {
        "orig": "Stop right there!",
        "transl": "Bleib sofort stehen!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SHOUT"
       }
      }
     ]
@@ -748,33 +1066,74 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "FROWN"
+        }
+       },
        {
         "message": {
          "orig": "Was that all? How very disappointing.",
          "transl": "War das alles? Wie enttäuschend."
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "FROWN"
+        }
+       },
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       {
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "FROWN"
         }
        }
       ],
       "elseStep": [
        null,
-       null,
+       {
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "FROWN"
+        }
+       },
        {
         "message": {
          "orig": "Getting a little help from somebody it seems?",
          "transl": "Da scheint dir also jemand zu helfen."
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "CONFUSED"
         }
        },
        {
         "message": {
          "orig": "It was to be expected, really.",
          "transl": "Das war eigentlich zu erwarten."
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "FROWN"
         }
        },
        {
         "message": {
          "orig": "Alas, we cannot afford to lose you a second time.",
          "transl": "Doch dieses Mal wirst du uns nicht entkommen."
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "TOWARD_TALK"
         }
        }
       ]
@@ -783,36 +1142,60 @@
       "message": {
        "orig": "The \\c[3]experience\\c[0] is now over.",
        "transl": "Schluss mit der \\c[3]Erfahrung\\c[0]."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      },
      {
       "message": {
        "orig": "The balanced struggle, a challenge to create, a challenge to master... it ends now.",
        "transl": "Der ausgewogene Kampf, die geschaffene Herausforderung, die es zu meistern gilt... Damit ist nun Schluss."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "What follows is the \\c[3]impossible\\c[0].",
        "transl": "Was nun folgt, ist das \\c[3]Unmögliche\\c[0]."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
       }
      },
      {
       "message": {
        "orig": "And the impossible...\\. is trivial.",
        "transl": "Und das Unmögliche...\\. ist trivial."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONFUSED"
       }
      },
      {
       "message": {
        "orig": "Prepare for a sequence of bottomless difficulty.",
        "transl": "Mach dich auf Angriffswellen von steigender Härte gefasst."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
       }
      },
      {
       "message": {
        "orig": "\\c[3]One more hit\\c[0] and the struggle is over.",
        "transl": "\\c[3]Noch ein Treffer\\c[0] und der Kampf ist vorbei."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
       }
      }
     ]
@@ -828,6 +1211,10 @@
         "message": {
          "orig": "Attack number \\v[tmp.designer.finalDash]!",
          "transl": "Attacke Nummer \\v[tmp.designer.finalDash]!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "FROWN"
         }
        }
       ],
@@ -838,6 +1225,10 @@
           "message": {
            "orig": "Attack number \\v[tmp.designer.finalDash]!",
            "transl": "Attacke Nummer \\v[tmp.designer.finalDash]!"
+          },
+          "person": {
+           "person": "antagonists.designer",
+           "expression": "DOWN"
           }
          }
         ],
@@ -848,6 +1239,10 @@
             "message": {
              "orig": "Attack number \\v[tmp.designer.finalDash]!",
              "transl": "Attacke Nummer \\v[tmp.designer.finalDash]!"
+            },
+            "person": {
+             "person": "antagonists.designer",
+             "expression": "SMILE"
             }
            }
           ],
@@ -858,6 +1253,10 @@
               "message": {
                "orig": "Attack number \\v[tmp.designer.finalDash]!",
                "transl": "Attacke Nummer \\v[tmp.designer.finalDash]!"
+              },
+              "person": {
+               "person": "antagonists.designer",
+               "expression": "LAUGH"
               }
              }
             ],
@@ -868,6 +1267,10 @@
                 "message": {
                  "orig": "Attack number \\v[tmp.designer.finalDash]!",
                  "transl": "Attacke Nummer \\v[tmp.designer.finalDash]!"
+                },
+                "person": {
+                 "person": "antagonists.designer",
+                 "expression": "BORED"
                 }
                }
               ],
@@ -878,6 +1281,10 @@
                   "message": {
                    "orig": "Attack number \\v[tmp.designer.finalDash]!",
                    "transl": "Attacke Nummer \\v[tmp.designer.finalDash]!"
+                  },
+                  "person": {
+                   "person": "antagonists.designer",
+                   "expression": "CONFUSED"
                   }
                  }
                 ],
@@ -886,6 +1293,10 @@
                   "message": {
                    "orig": "Attack number \\v[tmp.designer.finalDash]!",
                    "transl": "Attacke Nummer \\v[tmp.designer.finalDash]!"
+                  },
+                  "person": {
+                   "person": "antagonists.designer",
+                   "expression": "SHOUT"
                   }
                  }
                 ]
@@ -911,6 +1322,10 @@
       "message": {
        "orig": "Hit!",
        "transl": "Treffer!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SHOUT"
       }
      },
      null,
@@ -933,18 +1348,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "TOWARD_TALK"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "PAIN"
+      }
+     },
      {
       "message": {
        "orig": "You have been captured at last.",
        "transl": "Endlich haben wir dich in unserer Gewalt."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
       }
      },
      {
       "message": {
        "orig": "We will now send you to where you belong!",
        "transl": "Jetzt bringen wir dich dorthin, wo du hingehörst!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      }
     ]
@@ -961,6 +1394,10 @@
       "message": {
        "orig": "WHAT.",
        "transl": "ЩО."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      }
     ]

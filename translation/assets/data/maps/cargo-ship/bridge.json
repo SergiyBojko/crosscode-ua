@@ -67,174 +67,323 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Cap, I'm back with the report!",
        "transl": "Käpt'n, melde mich zurück mit meinem Bericht!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.captain",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I see. Go on.",
        "transl": "Verstehe. Ich höre."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The initiation? A total cinch.",
        "transl": "Die Einführung war 'n Kinderspiel."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "SMILE"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
      {
       "message": {
        "orig": "Here's the avatar - name's Lea.",
        "transl": "Hier is' der Avatar - Lea heißtse."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "SIDE_SMILE"
       }
      },
      {
       "message": {
        "orig": "Aye... hard to miss that lass.\\. Hope ye didn't run into everythin' with those horns there.",
        "transl": "Aye... Die Deern ist schwer zu übersehen.\\. Hoffentlich hast du mein Schiff mit deinen Hörnern nicht demoliert."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "SCEPTICAL"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HOLD_HORNS"
       }
      },
      {
       "message": {
        "orig": "Wait...\\. don't tell me ya didn't notice the horns 'til now, Lea...",
        "transl": "Nee, oder? ...\\. Sag nicht, dass dir die Dinger jetzt erst aufgefallen sind, Lea..."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HOLD_HORNS_ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Anyway, make sure ye clean up that mess ye started down in the cargo hold soon.",
        "transl": "Seht jedenfalls zu, dass ihr die Unordnung in den Frachträumen wieder in Ordnung bringt. Und zwar bald."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "STERN"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
+      }
+     },
      {
       "message": {
        "orig": "Yes, Cap.",
        "transl": "Jawoll, Käpt'n!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "I hope Sergey is satisfied.\\. Is he around?",
        "transl": "Ich hoffe, Sergey ist zufrieden.\\. Ist er hier?"
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Yeah, just give me a sec to set up your headset.",
        "transl": "Ja, lass mich eben fix dein Headset einstellen."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.captain",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hello there, Jet!",
        "transl": "Hallo, Jet!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "My good man! It's been a long time.",
        "transl": "Alter Haudegen! Lang ist's her."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Indeed.\\. You are still clinging to that jet pack, I see?",
        "transl": "Ja...\\. Wie ich sehe, schwörst du immer noch auf dein Jetpack?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Ye know I'd never travel the sea without good ol' Betty.",
        "transl": "Du weißt doch, ich würde nie ohne die gute alte Betty in See stechen."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "DOWN_SMILE"
       }
      },
      {
       "message": {
        "orig": "Anyway, I hope ye two will be ready to travel on soon. ",
        "transl": "Ich hoffe nur, ihr beide seid bald so weit, eure Reise fortzusetzen."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "CONCERNED"
       }
      },
      {
       "message": {
        "orig": "Having a darn avatar on board is just callin' for trouble.",
        "transl": "Ein Avatar an Bord zieht das Unglück förmlich an."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Of course.\\. We will make this as brief as possible.",
        "transl": "Natürlich.\\. Es wird nur ein kurzer Aufenthalt bleiben."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Gee, Cap.\\. What kinda welcome is that s'posed to be?",
        "transl": "Mensch, Käpt'n.\\. Das ist doch keine Art, jemanden zu begrüßen!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "Besides, ain't we talkin' to Jet, former VRP dueling champ?",
        "transl": "Ich dachte, wir reden hier mit Jet, dem ehemaligen VRP-Duell-Champion..."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You keep telling us all about your combat moves from the old days.",
        "transl": "... der uns doch immer von seinen unschlagbaren Angriffstechniken von früher erzählt?"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "So here I thought maybe you'd want to give Lea a small combat lesson?",
        "transl": "Wie wär's, wenn du Lea 'ne kleine Lehrstunde gibst?"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "SMUG"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Ye're tellin' me that wee lass is up for a battle?",
        "transl": "Ihr wollt mir sagen, dass die halbe Portion hier für ein kleines Gefecht zu haben ist?"
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "SCEPTICAL"
       }
      },
      {
       "message": {
        "orig": "Oh, you bet she is!",
        "transl": "Worauf du wetten kannst!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "UP_GRIN"
       }
      },
      {
@@ -243,24 +392,40 @@
         "message": {
          "orig": "Like... she thrashes literally everything with a \\c[1]single hit\\c[0].",
          "transl": "Sie zerschmettert buchstäblich alles \\c[1]mit einem Schlag\\c[0]."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "WONDERING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "What?",
          "transl": "Що?"
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "STERN"
         }
        },
        {
         "message": {
          "orig": "Yeah...",
          "transl": "Ja..."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "IRRITATED"
         }
        }
       ]
@@ -269,30 +434,50 @@
       "message": {
        "orig": "Right, we'll see about that.\\. Just talk to me later t'day.",
        "transl": "Nun gut, wir werden sehen.\\. Sprecht mich nachher noch einmal darauf an."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "PLOTTING"
       }
      },
      {
       "message": {
        "orig": "Sweet!",
        "transl": "Alles klar!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GRIN"
       }
      },
      {
       "message": {
        "orig": "Now then, ye're dismissed.",
        "transl": "Also dann, ihr könnt gehen."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ye can show the lass around the ship, but don't ye stir up any trouble.",
        "transl": "Du kannst der Deern das Schiff zeigen, aber macht mir hier keinen Unfug."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Alright, Captain.",
        "transl": "Zu Befehl, Käpt'n!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "SMILE"
       }
      },
      null,
@@ -300,12 +485,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "C'mon, Lea!\\. It's time for some fresh air!",
        "transl": "Komm, Lea!\\. Zeit für etwas frische Luft!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GRIN"
       }
      }
     ]
@@ -317,18 +516,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "This is no place for ye, lass.\\. Go play somewhere else.",
          "transl": "Deern, du bist hier im Weg.\\. Geh woanders spielen."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "STERN"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -336,18 +553,36 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "There ye are.\\. It's about darn time for yer combat lesson.",
          "transl": "Da bist du ja.\\. Es ist höchste Zeit für dein Kampftraining."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Ye ready?",
          "transl": "Bereit?"
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "PLOTTING"
         }
        },
        {
@@ -356,12 +591,20 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "Good.\\. Let's go to the balcony.",
            "transl": "Gut.\\. Auf zum Balkon."
+          },
+          "person": {
+           "person": "main.captain",
+           "expression": "SMILE"
           }
          }
         ],
@@ -370,15 +613,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Do ye still need to prepare yerself?\\. I don't got all day, lass.",
            "transl": "Noch nicht vorbereitet?\\. Ich habe nicht den ganzen Tag Zeit, Deern."
+          },
+          "person": {
+           "person": "main.captain",
+           "expression": "CONCERNED"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -400,108 +655,204 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "Didn't that boy want to spend time with you?",
          "transl": "Wollte der Junge sich nicht um dich kümmern?"
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "Good day, Lass.",
          "transl": "Moin, Deern."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Carla is waitin' for you down in the cargo hold.",
          "transl": "Carla wartet unten im Frachtraum auf dich."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "Everythin's prepared, so ye're ready to leave.",
          "transl": "Es ist alles vorbereitet, du kannst dich aufmachen."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "Good day, Lass.",
          "transl": "Moin, Deern."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Carla is waitin' for ye down in the cargo hold.",
          "transl": "Carla wartet unten im Frachtraum auf dich."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "Everythin's prepared, so ye're ready to leave.",
          "transl": "Es ist alles vorbereitet, du kannst dich aufmachen."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "Good day, Lass. Back on the ship?",
          "transl": "Moin, Deern. Wieder bei uns?"
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Ye're always welcome of course. But better not stay here for too long or people will get suspicious.",
          "transl": "Bist immer willkommen. Bleib aber nicht zu lang, sonst schöpfen die Leute Verdacht."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -509,30 +860,56 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Good day, Lass.\\. Back on the ship?",
          "transl": "Moin, Deern.\\. Wieder bei uns?"
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Ye're always welcome of course.\\. Just remember that most people on this ship are working.",
          "transl": "Bist natürlich immer willkommen.\\. Vergiss nur nicht, dass die meisten Menschen auf diesem Schiff arbeiten müssen."
+        },
+        "person": {
+         "person": "main.captain",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -547,97 +924,190 @@
       "event": [
        {
         "thenStep": [
-         null,
-         null,
+         {
+          "person": {
+           "person": "cargo-crew.male-tall",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
+          }
+         },
          {
           "message": {
            "orig": "Hi!",
            "transl": "Привіт!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXCITED"
           }
          },
          {
           "message": {
            "orig": "Ah, you're back again?",
            "transl": "Ah, du bist wieder zurück?"
+          },
+          "person": {
+           "person": "cargo-crew.male-tall",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Sorry, still busy with the radar. I'm afraid that won't change anytime soon.",
            "transl": "Tschuldige, aber das Radar verlangt meine volle Aufmerksamkeit. "
+          },
+          "person": {
+           "person": "cargo-crew.male-tall",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SAD"
           }
          }
         ],
         "elseStep": [
          {
           "thenStep": [
-           null,
-           null,
+           {
+            "person": {
+             "person": "cargo-crew.male-tall",
+             "expression": "DEFAULT"
+            }
+           },
+           {
+            "person": {
+             "person": "main.lea",
+             "expression": "NERVOUS"
+            }
+           },
            {
             "message": {
              "orig": "Is that blue guy still out there?\\.\nSeriously, we never had anything like this happen before.",
              "transl": "Ist der blaue Typ immer noch da draußen?\\. Also so etwas habe ich hier wirklich noch nie erlebt."
+            },
+            "person": {
+             "person": "cargo-crew.male-tall",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "You'd think they'd make sure players can't escape the playground or something.",
              "transl": "Bisher dachte ich eigentlich immer, dass dafür gesorgt wird, dass keine Spieler vom Spielplatz entkommen können."
+            },
+            "person": {
+             "person": "cargo-crew.male-tall",
+             "expression": "DEFAULT"
             }
            },
            null,
            null,
-           null,
+           {
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_ANGRY"
+            }
+           },
            {
             "message": {
              "orig": "Girl! Skip the chatting, will you? We have to hurry!",
              "transl": "Lea! Hör auf zu quatschen und komm her! Wir müssen uns beeilen!"
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_ANGRY"
             }
            }
           ],
           "elseStep": [
            {
             "thenStep": [
-             null,
-             null,
+             {
+              "person": {
+               "person": "cargo-crew.male-tall",
+               "expression": "DEFAULT"
+              }
+             },
+             {
+              "person": {
+               "person": "main.lea",
+               "expression": "DEFAULT"
+              }
+             },
              {
               "message": {
                "orig": "Hi!",
                "transl": "Привіт!"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "Are you looking for the captain?",
                "transl": "Suchst du den Käpt'n?"
+              },
+              "person": {
+               "person": "cargo-crew.male-tall",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "I think he's currently somewhere in the cabins.",
                "transl": "Ich glaube, er ist gerade irgendwo bei den Kabinen."
+              },
+              "person": {
+               "person": "cargo-crew.male-tall",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "Indeed, even a captain needs a break once in a while...",
                "transl": "Sogar ein Kapitän braucht hin und wieder eine Pause..."
+              },
+              "person": {
+               "person": "cargo-crew.male-tall",
+               "expression": "DEFAULT"
               }
              }
             ],
             "elseStep": [
-             null,
-             null,
+             {
+              "person": {
+               "person": "cargo-crew.male-tall",
+               "expression": "DEFAULT"
+              }
+             },
+             {
+              "person": {
+               "person": "main.lea",
+               "expression": "DEFAULT"
+              }
+             },
              {
               "message": {
                "orig": "You're that avatar girl we were warned about, right?\\.\nSorry, but I need to pay attention to the radar.",
                "transl": "Du bist dieses Avatarmädchen, vor dem wir gewarnt wurden, richtig?\\.\nTut mir leid, aber ich muss das Radar im Auge behalten."
+              },
+              "person": {
+               "person": "cargo-crew.male-tall",
+               "expression": "DEFAULT"
               }
              }
             ]
@@ -665,18 +1135,42 @@
      null,
      null,
      null,
-     null,
      {
+      "person": {
+       "person": "cargo-crew.male-tall",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "cargo-crew.male-tall",
+       "expression": "DEFAULT"
+      },
       "message": {
        "orig": "It's still on the radar, approaching us at high velocity.",
        "transl": "Es ist nach wie vor auf dem Radar und nähert sich mit unveränderter Geschwindigkeit."
       }
      },
-     null,
      {
+      "person": {
+       "person": "main.captain",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.captain",
+       "expression": "DEFAULT"
+      },
       "message": {
        "orig": "No transmission, no darn ship to see.\\. What's goin' on here?",
        "transl": "Keine Funkmeldung, kein Schiff zu sehen.\\. Hagel und Granaten! Was ist hier los?"
+      }
+     },
+     {
+      "person": {
+       "person": "cargo-crew.female-short",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -686,8 +1180,11 @@
      null,
      null,
      null,
-     null,
      {
+      "person": {
+       "person": "cargo-crew.female-short",
+       "expression": "DEFAULT"
+      },
       "message": {
        "orig": "Captain! I think I caught it on satellite! You gotta see this!",
        "transl": "Käpt'n! Ich glaube, ich habe es auf Satellit! Das sollten Sie sich ansehen!"
@@ -711,24 +1208,46 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.captain",
+       "expression": "CONCERNED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "That Carla...\\. orderin' me around like that.",
        "transl": "Diese Carla...\\. Wie die mich hier rumkommandiert."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "CONCERNED"
       }
      },
      {
       "message": {
        "orig": "I gotta remind her who's in charge on this ship sometime...",
        "transl": "Die werde ich mal wieder daran erinnern, wer hier auf dem Schiff das Sagen hat..."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "DARK"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
      null,
@@ -737,21 +1256,38 @@
       "message": {
        "orig": "Lass, ye really seem to be in low spirits...",
        "transl": "Deern, du siehst wirklich mitgenommen aus..."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "But I really have no time for strollin' around right now.",
        "transl": "Aber ich habe im Moment wirklich keine Zeit, hier herumzuspazieren."
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "CONCERNED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Uhm... captain?",
        "transl": "Öhm... Kapitän?"
+      },
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -760,19 +1296,36 @@
       "message": {
        "orig": "Do you mind if I borrow Ms. Avatar for a moment?",
        "transl": "Hätten Sie etwas dagegen, wenn ich mir Fräulein Avatar einen Moment ausborge?"
+      },
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.captain",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "No, that'd be just perfect! Please, keep the lass busy!",
        "transl": "Nein, ganz im Gegenteil! Du darfst sie gerne beschäftigen!"
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Nice!\\. Please come this way, Ms. Avatar!",
        "transl": "Sehr schön!\\. Bitte hier entlang, Fräulein Avatar!"
+      },
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -780,60 +1333,106 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "This is great!",
        "transl": "Das ist großartig!"
+      },
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I never expected to see you on this ship again, Ms. Avatar!",
        "transl": "Ich hätte nicht gedacht, dass ich Sie auf diesem Schiff wiedersehe, Fräulein Avatar!"
+      },
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...Lea.",
        "transl": "... Лія."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Huh? Do you want me to call you by your first name?",
        "transl": "Höh? Möchten Sie, dass ich Sie mit Ihrem Vornamen anspreche?"
+      },
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "S-Sure!!",
        "transl": "K-Klar!!"
+      },
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Anyway, I'll go ahead and get everyone together!",
        "transl": "Gut, ich werde dann mal vorgehen und die anderen holen!"
+      },
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Just meet me outside, down on the \\c[3]deck\\c[0]!",
        "transl": "Sie finden mich draußen, unten am \\c[3]Deck\\c[0]!"
+      },
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Finally we can do the \\c[3]experiment\\c[0]!!",
        "transl": "Endlich können wir das \\c[3]Experiment\\c[0] machen!!"
+      },
+      "person": {
+       "person": "cargo-crew.fanboy",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -841,32 +1440,58 @@
      null,
      null,
      null,
-     null,
      {
-      "message": {
-       "orig": "...",
-       "transl": "..."
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "...?!",
        "transl": "...?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "cargo-crew.colleague",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "That guy again...",
        "transl": "Der Typ schon wieder..."
+      },
+      "person": {
+       "person": "cargo-crew.colleague",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -887,42 +1512,76 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cargo-crew.colleague",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "My colleague should be waiting on the deck for you.",
          "transl": "Mein Kollege wartet auf dem Deck auf dich."
+        },
+        "person": {
+         "person": "cargo-crew.colleague",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'm supposed to wait up here.",
          "transl": "Ich soll hier oben warten."
+        },
+        "person": {
+         "person": "cargo-crew.colleague",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "Well... you'll see.\\. They have a lot of things planned.",
          "transl": "Tja... wirst schon sehen.\\. Sie haben was mit dir vor."
+        },
+        "person": {
+         "person": "cargo-crew.colleague",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Sorry in advance.",
          "transl": "Tust mir jetzt schon leid."
+        },
+        "person": {
+         "person": "cargo-crew.colleague",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?!",
          "transl": "...?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
         }
        }
       ]

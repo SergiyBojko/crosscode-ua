@@ -24,18 +24,30 @@
       "message": {
        "orig": "Right corridor?",
        "transl": "Rechter Flur?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Alright...",
        "transl": "Alles klar..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      }
     ]
@@ -54,114 +66,196 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEAD_INSIDE"
+      }
+     },
      {
       "message": {
        "orig": "Hey!",
        "transl": "Hey!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEAD_INSIDE"
       }
      },
      {
       "message": {
        "orig": "Uhm... Good morning.",
        "transl": "Öhm... Guten Morgen."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      },
      {
       "message": {
        "orig": "Hi...",
        "transl": "Привіт..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEAD_INSIDE2"
       }
      },
      {
       "message": {
        "orig": "Did you also hear the alarm from before?",
        "transl": "Hast du vorhin auch den Alarm gehört?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "I wonder what just happened. Sounded like somebody was fighting within the dormitory.",
        "transl": "Ich frag mich, was da los war. Hörte sich so an, als ob jemand auf dem Flur gekämpft hätte."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEAD_INSIDE"
       }
      },
      {
       "message": {
        "orig": "Uhm...\\. is everything ok?",
        "transl": "Öhm...\\. Ist alles in Ordnung?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "NORM_SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEAD_INSIDE"
       }
      },
      {
       "message": {
        "orig": "You don't look too well today...",
        "transl": "Du siehst heute nicht gut aus..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEAD_INSIDE2"
       }
      },
      {
       "message": {
        "orig": "Did something happen?",
        "transl": "Ist was passiert?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEAD_INSIDE"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "Uhm...\\. Should we just go to the quest hub for today's quest?",
        "transl": "Öhm...\\. Sollen wir einfach zum Quest Hub gehen, um uns die heutige Quest zu holen?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEAD_INSIDE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NODS_DEAD_INSIDE"
       }
      },
      {
       "message": {
        "orig": "Okay...",
        "transl": "Okay..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
       }
      },
      null,

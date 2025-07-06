@@ -35,12 +35,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "rookie-harbor.female-small-red",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hello, how can I help you?",
           "transl": "Hallo, wie kann ich behilflich sein?"
+         },
+         "person": {
+          "person": "rookie-harbor.female-small-red",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -59,12 +73,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "rookie-harbor.man-tall-black",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hey, man! What'd you like?",
           "transl": "Hey, Mann! Was kann ich dir anbieten?"
+         },
+         "person": {
+          "person": "rookie-harbor.man-tall-black",
+          "expression": "DEFAULT"
          }
         }
        ]

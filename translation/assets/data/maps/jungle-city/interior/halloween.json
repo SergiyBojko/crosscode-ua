@@ -18,18 +18,36 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.boogie",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Welcome to \\c[3]Pumpkin Fun Land\\c[0]!",
          "transl": "Willkommen im \\c[3]Kürbisknüllerland\\c[0]!"
+        },
+        "person": {
+         "person": "basin.boogie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Please \\c[3]enter the teleporter\\c[0] to start your ride!",
          "transl": "Betritt den \\c[3]Teleporter\\c[0] und das Spuktakel kann beginnen!"
+        },
+        "person": {
+         "person": "basin.boogie",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -48,18 +66,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "basin.boogie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Welcome to \\c[3]Pumpkin Fun Land\\c[0]!",
        "transl": "Willkommen im \\c[3]Kürbisknüllerland\\c[0]!"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Please \\c[3]enter the teleporter\\c[0] to start your ride!",
        "transl": "Betritt den \\c[3]Teleporter\\c[0] und das Spuktakel kann beginnen!"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "DEFAULT"
       }
      }
     ]

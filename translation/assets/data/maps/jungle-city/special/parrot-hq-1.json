@@ -24,52 +24,90 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Barkeep",
          "transl": "Barkeeper"
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Heya \\c[3]Seeker\\c[0].\\. Running a respectable establishment here so please feel comfortable.",
          "transl": "Heya, \\c[3]Seeker\\c[0].\\. Ich betreibe hier ein seriöses Etablissement, also entspann dich bitte."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Barkeep",
          "transl": "Barkeeper"
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hey, don't look at me like that.\\. I just give out drinks and relationship advice to pay for college.",
          "transl": "Schau mich nicht so an.\\. Ich verteile nur Drinks und Beziehungstipps, um mein Studium zu finanzieren."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I know nothing of no criminal connections or whatever.",
          "transl": "Ich weiß nichts von irgendwelchen kriminellen Verbindungen oder was auch immer."
+        },
+        "person": {
+         "person": "basin.female-green",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ]
@@ -97,13 +135,26 @@
          "name": {
           "orig": "Suspicious Trader",
           "transl": "Verdächtiger Händler"
+         },
+         "person": {
+          "person": "basin.birdman-1",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "WAIT!!",
           "transl": "ЗАЧЕКАЙ!!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANGRY"
          }
         },
         null,
@@ -111,6 +162,10 @@
          "message": {
           "orig": "Squawk!\\. Human!\\. \\v[lore.title.seeker]!\\. Danger!!",
           "transl": "Krächz!\\. Mensch!\\. Seeker!\\. Gefahr!!"
+         },
+         "person": {
+          "person": "basin.birdman-1",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -118,6 +173,10 @@
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         }
        ]
@@ -133,49 +192,92 @@
    "settings": {
     "event": [
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.female-tall-green",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "rookie-harbor.man-small-brown",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi.",
        "transl": "Привіт."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Y-yes, hello?\\. Can we help you?",
        "transl": "J-Ja, hallo?\\. Können wir dir helfen?"
+      },
+      "person": {
+       "person": "rookie-harbor.man-small-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Dear, please.\\. No, we are not buying anything.\\. Now please let us eat in peace.",
        "transl": "Ach, Schatz.\\. Nein, wir kaufen nichts.\\. Jetzt lass uns bitte in Ruhe essen."
+      },
+      "person": {
+       "person": "rookie-harbor.female-tall-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Why...?",
        "transl": "Чому...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Oh, by the...\\.\\. Dear, why did we have to go to this shady place?",
        "transl": "Um Himmels willen...\\.\\. Schatz, warum mussten wir zum Essen ausgerechnet in dieses schäbige Loch hier gehen?"
+      },
+      "person": {
+       "person": "rookie-harbor.female-tall-green",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "B-but I heard they have the best food in the entire city.",
        "transl": "A-Aber ich habe gehört, das Essen hier sei das beste in der ganzen Stadt."
+      },
+      "person": {
+       "person": "rookie-harbor.man-small-brown",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Sorry\\..\\..\\.. Bye...",
        "transl": "Sorry\\..\\..\\.. Bye..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -238,11 +340,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      null,
@@ -272,12 +383,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.birdman-1",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi.",
          "transl": "Привіт."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -285,12 +410,20 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "basin.birdman-1",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye.",
          "transl": "Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -304,12 +437,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "basin.birdman-1",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi.",
          "transl": "Привіт."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -317,12 +464,20 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "basin.birdman-1",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bye.",
          "transl": "Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]

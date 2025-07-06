@@ -923,6 +923,10 @@
            "message": {
             "orig": "Nooooooooo...\\. Don't make me chase the bug.\\. Not inside the bamboo maze.\\. It could hide ANYWHERE!",
             "transl": "Neiiiiiiiin...\\. Zwingt mich nicht, den Käfer zu jagen.\\. Nicht in einem Bambuslabyrinth.\\. Der könnte sich ja ÜBERALL verstecken!"
+           },
+           "person": {
+            "person": "main.emilie",
+            "expression": "BROKEN"
            }
           }
          ]
@@ -962,10 +966,20 @@
             "transl": "... Wünschst du, die Prüfung zu beginnen?..."
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "0": [
-            null,
+            {
+             "person": {
+              "person": "main.lea",
+              "expression": "NOD"
+             }
+            },
             null,
             null,
             {
@@ -976,7 +990,12 @@
             }
            ],
            "1": [
-            null,
+            {
+             "person": {
+              "person": "main.lea",
+              "expression": "SHAKE"
+             }
+            },
             null,
             null,
             {
@@ -986,6 +1005,10 @@
              }
             }
            ],
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           },
            "options": [
             {
              "label": {
@@ -1010,7 +1033,12 @@
           "transl": "... Bist du bereit?..."
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         null,
         {
          "0": [
@@ -1081,6 +1109,10 @@
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -1121,7 +1153,12 @@
          "transl": "... Gibst du schon auf, Seeker?"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "0": [
          null,
@@ -1140,6 +1177,10 @@
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        },
         "options": [
          {
           "label": {

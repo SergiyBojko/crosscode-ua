@@ -32,18 +32,30 @@
     "event": [
      null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_UP_GRIN"
+      },
       "message": {
        "orig": "Oh yeah!\\. Never mind the visor!\\. I just need this to see what you're doing.",
        "transl": "А так!\\. Не дивуйся щодо Візора! Він мені потрібен, щоб бачити, що ти тут робиш."
       }
      },
      {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      },
       "message": {
        "orig": "...?",
        "transl": "...?"
       }
      },
      {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      },
       "message": {
        "orig": "Do not worry about it for now.\\. We will explain it to you later on.",
        "transl": "Поки можеш про це не хвилюватися. Ми тобі це пояснимо пізніше."
@@ -69,12 +81,26 @@
      null,
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Huh? Don't tell me you're already stuck?",
          "transl": "Га? Не кажи мені що ти вже застрягнула?"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
         }
        },
        {
@@ -83,13 +109,26 @@
           "message": {
            "orig": "[nods]",
            "transl": "[киває]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "SAD"
+          }
+         },
          {
           "message": {
            "orig": "Gee, back to the basics.",
            "transl": "Йой, тоді назад до основ."
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_COOL"
           }
          },
          null,
@@ -97,12 +136,20 @@
           "message": {
            "orig": "Look, how about you try to jump over this container here?",
            "transl": "Як щодо того, щоб спробувати перестрибнути цей контейнер?"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_TOWARD"
           }
          },
          {
           "message": {
            "orig": "That cardboard box ain't there for no reason.",
            "transl": "Та картонна коробка там не просто так."
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_GRIN"
           }
          },
          {
@@ -121,15 +168,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[хитає головою]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Right, then! Go on!",
            "transl": "Добре, тоді вперед!"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_GRIN"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        },
         "options": [
          {
           "label": {
@@ -149,12 +208,26 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "SMUG"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Need a hint?",
          "transl": "Потрібна допомога?"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_SMILE"
         }
        },
        {
@@ -163,9 +236,18 @@
           "message": {
            "orig": "[nods]",
            "transl": "[киває]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
+          }
+         },
          {
           "thenStep": [
            null,
@@ -173,12 +255,20 @@
             "message": {
              "orig": "So, that wall ain't there anymore. You're free to pass.",
              "transl": "Що ж, стіни більше немає. Тепер ти можеш йти далі."
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_TOWARD"
             }
            },
            {
             "message": {
              "orig": "Now all that's left is some jumping over those containers.",
              "transl": "Тепер залишилося лише трохи пострибати через ці контейнери."
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_GRIN"
             }
            },
            {
@@ -198,12 +288,20 @@
             "message": {
              "orig": "You need to find a way to remove this wall.",
              "transl": "Тобі потрібно знайти спосіб позбутися цієї стіни."
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_WHISTLING"
             }
            },
            {
             "message": {
              "orig": "Basic stuff, Lea. You'll need to throw balls at something.\\. That's all I'm gonna say.",
              "transl": "Все просто, Лія. Тобі просто треба у щось кинути кульку. Це все що я скажу."
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_GRIN"
             }
            }
           ]
@@ -214,15 +312,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[хитає головою]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Right, then! Go on!",
            "transl": "Добре, тоді вперед!"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_GRIN"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        },
         "options": [
          {
           "label": {
@@ -242,12 +352,26 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "SMUG"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Need a hint?",
          "transl": "Потрібна допомога?"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_DEFAULT"
         }
        },
        {
@@ -256,9 +380,18 @@
           "message": {
            "orig": "[nods]",
            "transl": "[киває]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
+          }
+         },
          {
           "thenStep": [
            null,
@@ -266,12 +399,20 @@
             "message": {
              "orig": "Y'know, ball throwing is pretty much the solution to most obstacles around here.",
              "transl": "Знаєш, кидання кульок - це, значною мірою, рішення більшості тутешніх проблем."
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_UP_GRIN"
             }
            },
            {
             "message": {
              "orig": "Those boxes here are no exception.",
              "transl": "Оті коробки не є винятком."
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_GRIN"
             }
            }
           ],
@@ -281,18 +422,30 @@
             "message": {
              "orig": "Well, ain't that just another stupid wall....",
              "transl": "Хіба це не ще одна дурна стіна..."
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_WHISTLING"
             }
            },
            {
             "message": {
              "orig": "But the color is different this time. Maybe that means something, who knows?",
              "transl": "Але цього разу колір інший. Можливо, це щось означає, хто зна?"
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_TOWARD"
             }
            },
            {
             "message": {
              "orig": "I'm pretty sure you yourself can't pass it.\\. But maybe something else can...?",
              "transl": "Я впевнена, що ти не зможеш її пройти.\\. Але, можливо, щось інше зможе?"
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_SMILE"
             }
            }
           ]
@@ -303,15 +456,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[хитає головою]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Right, then! Go on!",
            "transl": "Добре, тоді вперед!"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_GRIN"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        },
         "options": [
          {
           "label": {
@@ -331,12 +496,26 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "SMUG"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Well, would ya look at all those switches! Need a hint?",
          "transl": "Багато тут перемикачів, еге ж? Потрібна порада?"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_UP_COOL"
         }
        },
        {
@@ -345,9 +524,18 @@
           "message": {
            "orig": "[nods]",
            "transl": "[киває]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_AWAY"
+          }
+         },
          {
           "thenStep": [
            null,
@@ -355,18 +543,30 @@
             "message": {
              "orig": "Yeah, that switch is pretty well hidden, huh?",
              "transl": "Так, так, той перемикач там справді добре захований!"
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_NERVOUS"
             }
            },
            {
             "message": {
              "orig": "Remember those charged balls?\\. Those bounce on walls, y'know?",
              "transl": "Пам'ятаєш ті заряджені кульки? Вони відскакують від стін, кумекаєш?"
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_SMILE"
             }
            },
            {
             "message": {
              "orig": "I'm sure those will help ya out here.",
              "transl": "Було б смішно, якби вони не змогли допомогти тобі тут."
+            },
+            "person": {
+             "person": "main.carla",
+             "expression": "GLASS_GRIN"
             }
            }
           ],
@@ -378,12 +578,20 @@
               "message": {
                "orig": "See those switches on the containers? Yes, you can hit those. From a distance, that is!",
                "transl": "Бачиш ті перемикачі на контейнерах? Так, їх можна вдарити. З відстані, звісно ж."
+              },
+              "person": {
+               "person": "main.carla",
+               "expression": "GLASS_GRIN"
               }
              },
              {
               "message": {
                "orig": "Just make sure you throw the balls from the same height.",
                "transl": "Тільки переконайся, що ти кидаєш кульки з тієї ж висоти."
+              },
+              "person": {
+               "person": "main.carla",
+               "expression": "GLASS_TOWARD"
               }
              }
             ],
@@ -393,12 +601,20 @@
               "message": {
                "orig": "Really?\\. You can't figure this one out?",
                "transl": "У тебе з цим проблеми?\\. Справді?"
+              },
+              "person": {
+               "person": "main.carla",
+               "expression": "GLASS_ANGRY"
               }
              },
              {
               "message": {
                "orig": "Just jump over the boxes and hit that thing hard.\\. That's all, really.",
                "transl": "Просто перестрибни через коробки та вдар цю штуку.\\. От і все."
+              },
+              "person": {
+               "person": "main.carla",
+               "expression": "GLASS_WHISTLING"
               }
              }
             ]
@@ -411,15 +627,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[хитає головою]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Right, then! Go on! You're almost there!",
            "transl": "Добре, тоді вперед! Ти майже на місці!"
+          },
+          "person": {
+           "person": "main.carla",
+           "expression": "GLASS_UP_GRIN"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        },
         "options": [
          {
           "label": {
@@ -439,12 +667,26 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.carla",
+         "expression": "GRIN"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
+        }
+       },
        {
         "message": {
          "orig": "That's all for this room!\\. Nice work, girl!",
          "transl": "З цією кімнатою завершили!\\. Молодець, дівчино!"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_GRIN"
         }
        }
       ]
@@ -484,42 +726,76 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "UP_GRIN"
+      }
+     },
      {
       "message": {
        "orig": "Alright! Let's get started!",
        "transl": "Гаразд! Почнемо!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_UP_GRIN"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Your task is to reach the door at the other end of this room.",
        "transl": "Твоє завдання - дістатися до дверей на іншому кінці кімнати."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_SMILE"
       }
      },
      {
       "message": {
        "orig": "And don't mind me! I'll just stick around and keep an eye on ya.",
        "transl": "І не звертай на мене уваги! Я просто буду поруч і наглядатиму за тобою."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
       }
      },
      {
       "message": {
        "orig": "Well... I might give you some hints. If you ask nicely, y'know?",
        "transl": "Ну... я можу дати тобі кілька порад, якщо ти мене чемно попросиш..."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_UP_COOL"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      }
     ]
@@ -538,10 +814,24 @@
   {
    "settings": {
     "blockEvent": [
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      }
+     },
      null,
      {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
+      },
       "message": {
        "orig": "Wrong direction, girl.\\.\nGotta reach the teleporter!\n",
        "transl": "Не туди, Лія!\\.\nТреба дістатися до телепорту!"
@@ -581,12 +871,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "Damn, how're we gonna pass this one?!",
        "transl": "Дідько, як нам це пройти?"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_ANGRY"
       }
      },
      {
@@ -595,12 +899,20 @@
         "message": {
          "orig": "Actually, never mind. You can just go ahead and \\c[3]snipe it away\\c[0].",
          "transl": "Взагалі-то, забудь. Можеш просто взяти і \\c[3]підстрелити його\\c[0]."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_COOL"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE_DOWN"
         }
        },
        null,
@@ -608,6 +920,10 @@
         "message": {
          "orig": "But I'm still gonna do my resourceful instant matter building, don't mind me.",
          "transl": "Але я все одно продовжу своє винахідливе будування миттєвою матерією, не звертай на мене увагу."
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_UP"
         }
        }
       ],
@@ -617,6 +933,10 @@
         "message": {
          "orig": "Wait, I got an idea!",
          "transl": "Зачекай, у мене є ідея!"
+        },
+        "person": {
+         "person": "main.carla",
+         "expression": "GLASS_WHISTLING"
         }
        }
       ]
@@ -642,6 +962,10 @@
       "message": {
        "orig": "Carla, Instant Matter builder, at your service.",
        "transl": "Карла, будівельниця Миттєвою Матерією, завжди до ваших послуг!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GLASS_GRIN"
       }
      }
     ]
@@ -656,12 +980,20 @@
       "message": {
        "orig": "\\c[1]...!!\\c[0]",
        "transl": "\\c[1]...!!\\c[0]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "INSANE_DOWN"
       }
      },
      {
       "message": {
        "orig": "Damn you.",
        "transl": "А щоб тебе."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK_AR"
       }
      }
     ]

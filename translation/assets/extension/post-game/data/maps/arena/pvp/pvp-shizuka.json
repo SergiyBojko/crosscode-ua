@@ -313,18 +313,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "BADASS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Don't think I will hold back on you!",
        "transl": "Glaub ja nicht, daß ich mich zurückhalte!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "BADASS"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -345,6 +363,10 @@
           "message": {
            "orig": "Not bad, not bad.",
            "transl": "Nicht schlecht, nicht schlecht."
+          },
+          "person": {
+           "person": "main.shizuka",
+           "expression": "EVIL_GRIN"
           }
          }
         ]
@@ -355,6 +377,10 @@
           "message": {
            "orig": "Well well, looks like you improved a lot.",
            "transl": "Schau an, du hast ja richtig dazugelernt."
+          },
+          "person": {
+           "person": "main.shizuka",
+           "expression": "BADASS"
           }
          }
         ]
@@ -365,6 +391,10 @@
           "message": {
            "orig": "I won't let you off the hook this easy.",
            "transl": "So leicht lass' ich dich nicht vom Haken."
+          },
+          "person": {
+           "person": "main.shizuka",
+           "expression": "SUSPICIOUS"
           }
          }
         ]
@@ -375,6 +405,10 @@
           "message": {
            "orig": "It's not over until it's over.",
            "transl": "Es ist erst vorbei, wenn es vorbei ist."
+          },
+          "person": {
+           "person": "main.shizuka",
+           "expression": "ANGRY"
           }
          }
         ]
@@ -387,6 +421,10 @@
           "message": {
            "orig": "Still got it.",
            "transl": "Hab's immer noch drauf."
+          },
+          "person": {
+           "person": "main.shizuka",
+           "expression": "SMUG"
           }
          }
         ]
@@ -397,6 +435,10 @@
           "message": {
            "orig": "Come on Lea, don't hold back on me.",
            "transl": "Komm schon, Lea, halt dich nicht zurück."
+          },
+          "person": {
+           "person": "main.shizuka",
+           "expression": "BADASS"
           }
          }
         ]
@@ -409,6 +451,10 @@
             "message": {
              "orig": "This is what I'm talking about!",
              "transl": "Genau das mein' ich!"
+            },
+            "person": {
+             "person": "main.shizuka",
+             "expression": "BADASS"
             }
            }
           ]
@@ -421,6 +467,10 @@
           "message": {
            "orig": "One final push!",
            "transl": "Noch ein letzter Schlag!"
+          },
+          "person": {
+           "person": "main.shizuka",
+           "expression": "BADASS"
           }
          }
         ]
@@ -446,53 +496,96 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
+        }
+       },
        {
         "message": {
          "orig": "I really need to step up my game.",
          "transl": "Ich muss mich wirklich steigern."
+        },
+        "person": {
+         "person": "main.shizuka",
+         "expression": "EVIL_GRIN"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "I'll make sure to not let it happen again.",
          "transl": "Keine Sorge, das wird mir nicht nochmal passieren."
+        },
+        "person": {
+         "person": "main.shizuka",
+         "expression": "SMUG"
         }
        }
       ],
       "elseStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
+        }
+       },
        {
         "message": {
          "orig": "Ha! Seems like you still got a lot to learn.",
          "transl": "Ha! Offensichtlich hast du noch einiges zu lernen."
+        },
+        "person": {
+         "person": "main.shizuka",
+         "expression": "BADASS"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "Don't worry, there's always a next time!",
          "transl": "Keine Sorge, es gibt immer ein nächstes Mal!"
+        },
+        "person": {
+         "person": "main.shizuka",
+         "expression": "BRIGHT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        }
       ]

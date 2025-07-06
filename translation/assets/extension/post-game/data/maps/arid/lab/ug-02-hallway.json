@@ -4,20 +4,38 @@
   {
    "settings": {
     "blockEvent": [
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
+      }
+     },
      {
       "message": {
        "orig": "No, not this way...",
        "transl": "Nein, nicht hier entlang..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "To the new meeting room: M04-02.",
        "transl": "Zum neuen Besprechungsraum: M04-02."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -49,38 +67,68 @@
    "settings": {
     "event": [
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
+      }
+     },
      {
       "message": {
        "orig": "That's quite the hallway!",
        "transl": "Das ist mal ein Flur!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "I didn't expect such a huge place.\n",
        "transl": "Ich hätte nicht gedacht, dass es hier etwas so Riesiges gibt."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
+      }
+     },
      {
       "message": {
        "orig": "It's not as huge as it seems. ",
        "transl": "Es ist nicht so riesig, wie es scheint."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "Lots of doors with nothing behind them.",
        "transl": "Viele Türen, hinter denen sich nichts befindet."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Let's have a look around.",
        "transl": "Schauen wir uns um."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DOWN"
       }
      }
     ]
@@ -95,6 +143,10 @@
       "message": {
        "orig": "But then... I found a way to escape.",
        "transl": "Aber dann... fand ich einen Weg zu entkommen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      }
     ]

@@ -70,96 +70,166 @@
        "quest": [
         null,
         null,
-        null,
-        null,
         {
-         "message": {
-          "orig": "...! ",
-          "transl": "...! "
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...! ",
           "transl": "...! "
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "message": {
+          "orig": "...! ",
+          "transl": "...! "
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Lea!",
           "transl": "Лія!"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "You have a rare talent at surprising me, kid!",
           "transl": "Du hast eine seltene Begabung, mich zu erschrecken, Kleine!"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "It seems like I found myself at a dead end yet again.",
           "transl": "Sieht aus, als würde ich mal wieder in einer Sackgasse stecken."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "It's another of those broken items I'm searching for, for my kids. A sword this time.",
           "transl": "Es geht um ein weiteres kaputtes Item, das ich suche, für meine Kinder. Diesmal ein Schwert."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "I have an actual lead this time, but I can't find the next clue.",
           "transl": "Diesmal habe ich sogar eine richtige Spur, aber ich kann den nächsten Hinweis nicht finden."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I fear at this rate, it might be too late for me...",
           "transl": "Vielleicht ist es sogar schon zu spät für mich..."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Would you be able to help an old man?",
           "transl": "Wärst du bereit, einem alten Mann zu helfen?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
@@ -168,12 +238,20 @@
            "message": {
             "orig": "Thanks, kid!",
             "transl": "Danke, Kleine!"
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "You don't know how much this means to me at this point.",
             "transl": "Du weißt gar nicht, wie viel mir das gerade bedeutet."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
@@ -182,6 +260,10 @@
              "message": {
               "orig": "Why...?",
               "transl": "Чому...?"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "SURPRISED"
              }
             }
            ],
@@ -190,6 +272,10 @@
              "message": {
               "orig": "...?",
               "transl": "...?"
+             },
+             "person": {
+              "person": "main.lea",
+              "expression": "SURPRISED"
              }
             }
            ]
@@ -198,97 +284,166 @@
            "message": {
             "orig": "Ah it doesn't matter, let's get right to the point.",
             "transl": "Ach, vergiss es. Kommen wir lieber zur Sache."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "This time, a broken item is hidden somewhere in \\c[3]\\v[area.heat-area.name]\\c[0].",
             "transl": "Dieses Mal soll das kaputte Item irgendwo in \\c[3]Maronental\\c[0] sein."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "There is a secret passage in the \\c[3]southwest\\c[0] of the area.",
             "transl": "Irgendein versteckter Gang im \\c[3]Südwesten\\c[0] der Gegend."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "But to unlock the passage you have to offer some sort of \\c[3]Coin\\c[0].",
             "transl": "Aber, um den Gang zu öffnen, benötigt man eine Art \\c[3]Münze\\c[0]."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I don't know what exactly this coin is, but I found out that an NPC somewhere in this village has one.",
             "transl": "Ich weiß nicht, was das für eine Münze ist, aber ich habe gehört, dass ein NPC hier im Dorf eine hat."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "It should be in one of the houses since I already talked to every NPC in the village.",
             "transl": "Dieser NPC sollte in einem der Häuser sein, da ich die restlichen schon angesprochen habe."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Maybe it's somewhere higher up, or hidden? ",
             "transl": "Vielleicht weiter oben, oder versteckt?"
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           },
           {
            "message": {
             "orig": "At my age, jumping around on houses is a bit too much...",
             "transl": "In meinem Alter springe ich nicht mehr auf Häusern herum..."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "So this is where you could help me.",
             "transl": "Da kommst du ins Spiel."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Alright! Talk to me again if you forget anything.",
             "transl": "Alles klar! Sag Bescheid, falls du etwas vergessen hast."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           },
           {
            "message": {
             "orig": "Well, off you go then. ",
             "transl": "Na dann, los geht's."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "And don't keep an old man waiting, kid!",
             "transl": "Und lass einen alten Mann nicht warten."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           }
          ],
@@ -297,12 +452,20 @@
            "message": {
             "orig": "I understand, though I'm also disappointed. I expect you to help an old man. ",
             "transl": "Ich verstehe, aber ich bin auch enttäuscht. Ich hatte von dir erwartet, dass du einem alten Mann helfen würdest."
+           },
+           "person": {
+            "person": "main.dkar",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           }
          ]
@@ -312,12 +475,26 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.dkar",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hello young lady, do you want me to tell you about the place again?",
          "transl": "Hallo, junge Dame. Möchtest du, dass ich dir den Fundort nochmal beschreibe?"
+        },
+        "person": {
+         "person": "main.dkar",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -326,42 +503,70 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "I see...",
            "transl": "Verstehe..."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "This time, a broken item is hidden somewhere in \\c[3]\\v[area.heat-area.name]\\c[0].",
            "transl": "Dieses Mal soll das kaputte Item irgendwo in \\c[3]Maronental\\c[0] sein."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "There is a secret passage in the \"south west\" of the area.",
            "transl": "Irgendein versteckter Gang im \"Südwesten\" der Gegend."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "But to unlock the passage you have to offer some sort of \\c[3]Coin\\c[0].",
            "transl": "Aber, um den Gang zu öffnen, benötigt man eine Art \\c[3]Münze\\c[0]."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "I don't know what exactly this coin is, but I found out that an NPC somewhere in this village has one.",
            "transl": "Ich weiß nicht, was das für eine Münze ist, aber ich habe gehört, dass ein NPC hier im Dorf eine hat."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "It should be in one of the houses since I already talked to every NPC in the village.",
            "transl": "Dieser NPC sollte in einem der Häuser sein, da ich die restlichen schon angesprochen habe."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -370,15 +575,27 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "I see, then off you go. Don't keep an old man waiting.",
            "transl": "Verstehe, dann mal los. Lass einen alten Mann nicht warten."
+          },
+          "person": {
+           "person": "main.dkar",
+           "expression": "DEFAULT"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -399,180 +616,312 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Welcome back kid, any luck finding the \\c[3]Broken Sword\\c[0]?",
           "transl": "Willkommen zurück, Kleine. Hattest du Glück mit dem \\c[3]Kaputten Schwert\\c[0]?"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Ha ha! Wonderful!",
           "transl": "Hoahoahoa! Wunderbar!"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Only 2 missing now...",
           "transl": "Fehlen nur noch 2..."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Mh... Yes, I think it is time I told you why I'm searching for these, right?",
           "transl": "Mh... Ja, es wird wohl Zeit, dass ich dir erkläre, warum ich nach diesen Items suche."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You've been a great help and it is only fair for you to know.",
           "transl": "Du warst eine große Hilfe, das wäre nur fair."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Even if I'm not a fan of telling other people about my problems.",
           "transl": "Auch wenn ich kein Freund davon bin, andere mit meinen Problemen zu belasten."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         null,
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "You see, I played CrossWorlds with my kids since the game was in its testing phase.",
           "transl": "Weißt du, ich spiele CrossWorlds mit meinen Kindern jetzt schon seit der Testphase."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I think they called it \"Closed Beta\" or something like that.",
           "transl": "Ich glaube, die haben das \"Closed Beta\" oder so genannt."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It was a fun time. I was able to spend time with all of my 4 children.",
           "transl": "Das war eine tolle Zeit. Ich konnte Zeit mit all meinen vier Kindern verbringen."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Everyone was off somewhere in the galaxy, so this game was the perfect meeting ground.",
           "transl": "Jeder war irgendwo in der Weltgeschichte unterwegs. Dieses Spiel war also der perfekte Treffpunkt."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But...",
           "transl": "Aber..."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Half a year ago, everyone just stopped playing.",
           "transl": "Vor einem halben Jahr etwa haben dann plötzlich alle aufgehört zu spielen."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And soon I was the only one playing.",
           "transl": "So war ich am Ende der Einzige, der noch gespielt hat."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "My kids always told me this story of a hidden quest where every class needs to participate.",
           "transl": "Meine Kinder haben mir immer diese Geschichte von einer geheimen Quest erzählt, bei der man jede Klasse braucht, um sie zu lösen."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "You find some broken equipment and bring it to a special place.",
           "transl": "Man soll kaputte Ausrüstung finden und sie zu einem besonderen Ort bringen."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But we could never actually find it.",
           "transl": "Wir konnten die Items aber leider nicht finden..."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "It was only a couple of weeks ago that I started hearing rumors.",
           "transl": "Vor ein paar Wochen hörte ich die ersten Gerüchte."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And thanks to you, I found 3 of the 5 broken items in less than a week. ",
           "transl": "Und dank dir habe ich bereits drei der fünf kaputten Items nach nur ein paar Tagen."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I can't thank you enough, Lea!",
           "transl": "Ich kann dir gar nicht genug danken, Lea!"
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Well, it looks like it is time for me to go.",
           "transl": "Tja, jetzt wird es Zeit für mich, zu gehen."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I hope we meet again soon. I'm sure you are as motivated as I am to find the last 2 broken pieces.",
           "transl": "Ich hoffe, wir sehen uns bald wieder. Du bist bestimmt genauso motiviert wie ich, die letzten beiden Stücke zu finden."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Have a good day, young lady. Goodbye.",
           "transl": "Wünsche dir einen schönen Tag, junge Dame. Bis bald."
+         },
+         "person": {
+          "person": "main.dkar",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -581,6 +930,10 @@
            "message": {
             "orig": "Bye!",
             "transl": "Бувай!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ],
@@ -589,6 +942,10 @@
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ]

@@ -7,18 +7,36 @@
      {
       "thenStep": [
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.sergey",
+         "expression": "EYES_CLOSED"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "The door is locked, correct? It seems we are trapped.",
          "transl": "Die Tür ist verschlossen, richtig? Sieht so aus, als wären wir hier gefangen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -56,42 +74,76 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi Lea!",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "MASKED",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "MASKED"
         }
        },
        {
         "message": {
          "orig": "And back!",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Toward!",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "Down!",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]
@@ -145,17 +197,30 @@
      null,
      null,
      null,
-     null,
      {
-      "message": {
-       "orig": "...",
-       "transl": "..."
+      "person": {
+       "person": "main.lea",
+       "expression": "SLEEPING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SLEEPING"
+      }
+     },
+     {
+      "message": {
+       "orig": "...",
+       "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "WAKING"
       }
      },
      null,
@@ -163,14 +228,27 @@
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "She responds!",
        "transl": "Sie reagiert!"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SMILE"
       }
      },
      null,
@@ -178,55 +256,108 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Good morning.",
        "transl": "Guten Morgen."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "She...\\. looks scared?",
        "transl": "Sie...\\. sieht verängstigt aus?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Well...\\. it might be due to your appearance.",
        "transl": "Das...\\. könnte an deinem Aufzug liegen."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "I suppose...\\. One moment, then.",
        "transl": "Gut möglich...\\. Einen Moment, bitte."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "This should be more casual.",
        "transl": "Das sollte nun legerer sein."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      null,
@@ -234,85 +365,146 @@
       "message": {
        "orig": "Can't you...\\. speak?",
        "transl": "Kannst du...\\. nicht sprechen?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Hm...\\. that's something we need to look into.",
        "transl": "Hm...\\. Das müssen wir uns anschauen."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "But you still seem to understand us, don't you?",
        "transl": "Aber du verstehst uns, oder?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Interesting.",
        "transl": "Interessant."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "A mute woman that can still listen...\\. how nostalgic.",
        "transl": "Eine stumme Frau, die hören kann...\\. Wie nostalgisch."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Huh?",
        "transl": "Hm?"
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Say, do you remember your name?",
        "transl": "Erinnerst du dich an deinen Namen?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
      {
       "message": {
        "orig": "So...\\. what should we call you, then?",
        "transl": "Hm...\\. Wie sollen wir dich dann nennen?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "How about... \\c[3]Lea\\c[0]?",
        "transl": "Wie wäre es mit... \\c[3]Lea\\c[0]?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SMILE"
       }
      },
      null,
@@ -330,48 +522,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DOWN"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Here are images of different landscapes.",
        "transl": "Hier sind Bilder verschiedener Landschaften."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Do you remember what forests look like?",
        "transl": "Weißt du noch, wie Wälder aussehen?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well then... can you point at the image showing forests?",
        "transl": "Gut... Kannst du auf das Bild zeigen, auf dem Wälder zu sehen sind?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_POINT"
       }
      },
      {
       "message": {
        "orig": "That's correct.",
        "transl": "Das ist korrekt."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "So you remember basic concepts pretty well already.",
        "transl": "An grundlegende Dinge erinnerst du dich also schon recht gut."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "TOWARD"
       }
      },
      null,
@@ -388,102 +618,176 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "So, what about yesterday's sign, can you still do it?",
        "transl": "Also, das Zeichen, was wir gestern geübt haben, kannst du das wiederholen?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "You forgot already...?",
        "transl": "Du hast es schon wieder vergessen...?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Oh, dear...",
        "transl": "Oh je..."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "Is there any sign you remember?",
        "transl": "Kannst du dich an ein anderes Zeichen erinnern?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_POINT_SELF"
       }
      },
      {
       "message": {
        "orig": "Well, that's something.",
        "transl": "Na, das ist doch was."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "It's pretty clear now that it's not just your speech that's missing.\n",
        "transl": "Aber jetzt ist klar, dass dir nicht nur die Sprachfähigkeit fehlt."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Writing things down doesn't work...",
        "transl": "Schreiben funktioniert nicht..."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "And we only get so far with hand signs...\n",
        "transl": "Und mit Handzeichen kommen wir über einen gewissen Punkt nicht hinaus..."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "It's like you're missing the ability to recall  \"words\"... or any abstract concept.",
        "transl": "Es ist, als ob dir die Fähigkeit fehlen würde, dich an \"Worte\"... oder abstrakte Konzepte allgemein zu erinnern."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "COMPLEX"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "Lea, it's ok.\\. Please don't feel bad about this.",
        "transl": "Lea, das ist ok.\\. Gräm dich deswegen nicht zu sehr."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -504,12 +808,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      null,
@@ -517,36 +835,66 @@
       "message": {
        "orig": "Hello, Lea...",
        "transl": "Hallo, Lea..."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "COMPLEX"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Always the same...",
        "transl": "Immer das Gleiche..."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "COMPLEX"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      null,
@@ -554,42 +902,70 @@
       "message": {
        "orig": "Isn't it funny how it always goes the same way?",
        "transl": "Ist es nicht seltsam, wie sich die Dinge ständig wiederholen?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "All the support I gave them...\\. all the things I did...\\. it suddenly doesn't matter.",
        "transl": "All die Unterstützung, die ich ihnen gewährte...\\. Alles, was ich für sie getan habe...\\. zählt plötzlich nicht mehr."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "THOUGHTFUL_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Just because of conflicting ideals.",
        "transl": "Bloß wegen gegensätzlicher Ideale."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "And all at once, things have to go hostile.",
        "transl": "Und mit einem Schlag werden die Dinge persönlich."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "THOUGHTFUL_NORM"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "COMPLEX"
       }
      },
      {
       "message": {
        "orig": "Sorry...\\. this really shouldn't concern you.",
        "transl": "Entschuldige...\\. Das sollte nun wirklich nicht deine Sorge sein."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "WORRIED"
       }
      },
      null,
@@ -604,84 +980,146 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "So, any more hand signs you remember?",
        "transl": "Also, erinnerst du dich noch an andere Handzeichen?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_ONE"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_TWO"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_THREE"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_FOUR"
       }
      },
      {
       "message": {
        "orig": "Alright, so you can still count.",
        "transl": "Ah, gut, du kannst also nach wie vor zählen."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "That is something you picked up rather quickly.",
        "transl": "Das ist etwas, das du recht schnell gelernt hast."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "NOSTALGIC"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_WEIRD"
       }
      },
      {
       "message": {
        "orig": "Oh... back to trying this again?",
        "transl": "Oh... übst du das immer noch?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "HAND_WEIRD"
       }
      },
      {
       "message": {
        "orig": "Haha, don't worry.",
        "transl": "Haha, keine Sorge."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "You won't need that for any of the signs.",
        "transl": "Das ist kein Handzeichen, das musst du nicht können."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "TOWARD"
       }
      },
      null,
@@ -700,30 +1138,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "What is it?",
        "transl": "Was ist denn?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Do you want me to tell you more about her?",
        "transl": "Soll ich dir mehr über sie erzählen?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well...",
        "transl": "Tja... "
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "NOSTALGIC"
       }
      },
      null,
@@ -731,108 +1195,180 @@
       "message": {
        "orig": "We met through work several years ago.",
        "transl": "Wir haben uns vor einigen Jahren auf der Arbeit kennengelernt."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "THOUGHTFUL_NORM"
       }
      },
      {
       "message": {
        "orig": "She was competent...\\. hardworking. ",
        "transl": "Sie war kompetent...\\. Fleißig."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "\\c[3]Mute\\c[0]... but that didn't stop her from doing her job.",
        "transl": "\\c[3]Stumm\\c[0]... Doch das hinderte sie nicht daran, ihren Job zu machen."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "We communicated via writing at first.\\. Then I learned sign language.",
        "transl": "Am Anfang kommunizierten wir schriftlich.\\. Dann lernte ich die Zeichensprache."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But even then...\\. she never was much of a talker.",
        "transl": "Das änderte jedoch nichts daran, dass sie einfach von Natur aus kein gesprächiger Typ war."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "Just...\\. very, very good at listening.",
        "transl": "Aber...\\. ein unglaublich guter Zuhörer."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "NOSTALGIC"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "My job was all about having good relationships.",
        "transl": "In meinem Job ging es darum, gute Beziehungen zu pflegen."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I've met so many people, always busy keeping up connections.",
        "transl": "Ich habe so viele Leute getroffen, war immer damit beschäftigt, Kontakte zu knüpfen und zu pflegen."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Yet...\\. it was all so very shallow.",
        "transl": "Und doch...\\. war alles so...\\. oberflächlich."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "COMPLEX"
       }
      },
      {
       "message": {
        "orig": "With her... it was different.",
        "transl": "Mit ihr... war das anders."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "She was one of the few people I could speak openly to.",
        "transl": "Sie war eine der wenigen, mit denen ich offen reden konnte."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "NOSTALGIC"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "It's similar with you.",
        "transl": "Mit dir ist es ähnlich."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "I suppose, I just get along well with mute people?",
        "transl": "Scheint so, als käme ich mit stummen Leuten am besten klar, hm?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      null,
@@ -847,90 +1383,156 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "So what? We're just humans.",
        "transl": "Was soll's...\\. Wir sind auch bloß Menschen."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "COMPLEX"
       }
      },
      {
       "message": {
        "orig": "The world's most self-absorbed creature.",
        "transl": "Die wohl egozentrischsten Geschöpfe der Welt."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "We really like to think highly of ourselves.",
        "transl": "Wir halten uns immer für die Größten."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "And sure...\\. we certainly came and went far.",
        "transl": "Klar...\\. Wir haben als Spezies viel erreicht."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "But in the end...\\. we are just another kind of creature lost in this vast universe.",
        "transl": "Aber am Ende...\\. sind wir auch bloß verlorene Geschöpfe...\\. Verloren im riesigen Universum."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Lea...\\. do you remember what a clear sky looks like at night?",
        "transl": "Lea...\\. erinnerst du dich daran, wie ein klarer Himmel bei Nacht aussieht?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Out in the countryside, no town or city nearby?",
        "transl": "Draußen, auf dem Land, weit weg von jeder Stadt?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
      {
       "message": {
        "orig": "I hope one day you will...",
        "transl": "Ich hoffe, dass du das eines Tages sehen wirst..."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "It is like...\\. a boundless sea of stars.",
        "transl": "Es ist wie...\\. ein endloses Meer von Sternen."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "NOSTALGIC"
       }
      },
      {
       "message": {
        "orig": "When you see it, you start to realize...\\. just how insignificant we are to this world.",
        "transl": "Wenn du das siehst, wird dir allmählich bewusst...\\. wie unbedeutend wir eigentlich für diese Welt sind."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      }
     ]
@@ -941,42 +1543,76 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi Lea!",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "MASKED",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "MASKED"
         }
        },
        {
         "message": {
          "orig": "And back!",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Toward!",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "Down!",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "antagonists.shady",
+         "expression": "DOWN"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "<<C<<IGNORE"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]

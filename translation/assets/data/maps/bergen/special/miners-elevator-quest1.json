@@ -16,12 +16,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "miners.male-blackbeard-white",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "The first of our new mines is just inside.\\. Miner Darrel is always in need of support.",
          "transl": "Der neue Stollen ist gleich hier drinnen.\\. Darrel kann immer Hilfe gebrauchen."
+        },
+        "person": {
+         "person": "miners.male-blackbeard-white",
+         "expression": "DEFAULT"
         }
        }
       ]

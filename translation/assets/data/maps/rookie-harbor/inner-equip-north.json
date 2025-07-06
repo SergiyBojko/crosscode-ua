@@ -19,12 +19,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "We offer higher quality equipment made in Rookie Harbor!",
           "transl": "Wir verkaufen qualitativ hochwertige Ausrüstung, lokal gefertigt in Rookie Harbor!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -34,42 +48,70 @@
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_AWAY"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
            "message": {
             "orig": "...?",
             "transl": "...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           },
           {
            "message": {
             "orig": "Yes, yes, this interior design might seem familiar to you, but it really is the details that make the difference.",
             "transl": "Ja, ja, die Raumgestaltung mag dir bekannt vorkommen, aber es sind tatsächlich die Details, die den Unterschied machen."
+           },
+           "person": {
+            "person": "rookie-harbor.man-tall-mustache",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           },
           {
            "message": {
             "orig": "Also we are currently remodelling.\\. So, you buying or what?",
             "transl": "Außerdem gestalten wir gerade um.\\. Also, willst du nun was kaufen oder nicht?"
+           },
+           "person": {
+            "person": "rookie-harbor.man-tall-mustache",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ]
@@ -80,12 +122,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "We offer higher quality equipment made in Rookie Harbor!",
           "transl": "Wir verkaufen qualitativ hochwertige Ausrüstung, lokal gefertigt in Rookie Harbor!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -121,12 +177,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "rookie-harbor.female-small-red",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hey! We offer special items, supported by only the finest of backers.",
           "transl": "Hey! Wir bieten besondere Items an, ermöglicht durch unsere spendablen Backer!"
+         },
+         "person": {
+          "person": "rookie-harbor.female-small-red",
+          "expression": "DEFAULT"
          }
         }
        ]

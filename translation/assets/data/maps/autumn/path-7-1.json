@@ -801,6 +801,10 @@
         "message": {
          "orig": "Halfway through! I'll go to the end and wait for you.",
          "transl": "Auf halbem Weg! Ich gehe zum Ende und warte auf dich."
+        },
+        "person": {
+         "person": "cross-worlds.tester-male-rainbow",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -821,60 +825,106 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hey you!",
           "transl": "Hey du!"
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...Hi?",
           "transl": "... Привіт?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "I'm one of the testers for this game!",
           "transl": "Ich bin einer der Tester für dieses Spiel!"
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "The devs asked me to test an almost finished new quest type: \\c[3]Parkour\\c[0]!",
           "transl": "Die Entwickler haben mich gefragt, einen fast fertigen neuen Quest-Typ zu testen: \\c[3]Parcours\\c[0]!"
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I'm kinda tired and you just came along. So\\..\\..\\.. Wanna try it out?",
           "transl": "Ich bin etwas müde und du kamst gerade vorbei. Also\\..\\..\\.. Willst du es probieren?"
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Nice! Good to see some enthusiasm! ",
           "transl": "Sehr schön! Den Enthusiasmus lob' ich mir!"
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Alright, get this. You will start right next to me.",
           "transl": "Also gut, nimm das. Du wirst direkt neben mir starten."
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -883,24 +933,46 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "When you touch this checkpoint, another will pop up.",
           "transl": "Sobald du diesen Checkpoint berührst, wird der nächste auftauchen."
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Your goal is to walk through every marker until you hit the last one.",
           "transl": "Dein Ziel ist es, jeden Marker zu erreichen, bis du den letzten getroffen hast."
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Aaaaand the last one is over there.",
           "transl": "Uuuuund der Letzte, der ist da drüben!"
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -909,12 +981,26 @@
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "It will only appear after you hit the last normal marker.",
           "transl": "Er wird erst auftauchen, wenn du den letzten normalen Marker getroffen hast."
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -922,54 +1008,96 @@
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
          }
         },
         {
          "message": {
           "orig": "Yeah, I know. But it's more fun that way right?",
           "transl": "Ja, ich weiß, aber so macht es mehr Spaß, oder?"
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Well, at least if you like running.",
           "transl": "Na ja, zumindest, wenn du gerne rennst."
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Also, if you leave the map all your progress is lost!",
           "transl": "Ach so, falls du die Karte verlässt, geht auch dein Fortschritt verloren."
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
          }
         },
         {
          "message": {
           "orig": "Another bummer, I know.",
           "transl": "Ja, ich weiß, das ist etwas blöd."
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Anyway!",
           "transl": "Wie dem auch sei!"
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Ready to try?",
           "transl": "Bereit, es auszuprobieren?"
+         },
+         "person": {
+          "person": "cross-worlds.tester-male-rainbow",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -978,12 +1106,20 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Awesome! As I said, just start by stepping on the first marker here!",
             "transl": "Großartig! Wie schon gesagt, fang einfach an, indem du auf den ersten Marker hier trittst."
+           },
+           "person": {
+            "person": "cross-worlds.tester-male-rainbow",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -993,36 +1129,60 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Really? Oh man, I don't wanna do this all alone.",
             "transl": "Echt jetzt? Och, Mann. Ich will das nicht alles alleine machen. Wir brauchen eindeutig mehr QA Angestellte."
+           },
+           "person": {
+            "person": "cross-worlds.tester-male-rainbow",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "That's like\\..\\..\\.. so much work.",
             "transl": "Es ist so\\..\\..\\.. so viel Arbeit."
+           },
+           "person": {
+            "person": "cross-worlds.tester-male-rainbow",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           },
           {
            "message": {
             "orig": "If you ever change your mind...",
             "transl": "Wenn du dich mal umentscheiden solltest..."
+           },
+           "person": {
+            "person": "cross-worlds.tester-male-rainbow",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Come back, alright?\\.\\.\\. Please?",
             "transl": "Komm zurück, okay? \\.\\.\\. Bitte."
+           },
+           "person": {
+            "person": "cross-worlds.tester-male-rainbow",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -1032,20 +1192,38 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.tester-male-rainbow",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "thenStep": [
          {
           "message": {
            "orig": "Just one more, it's right next to you!",
            "transl": "Nur noch einer! Er ist direkt neben dir!"
+          },
+          "person": {
+           "person": "cross-worlds.tester-male-rainbow",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          }
         ],
@@ -1056,12 +1234,20 @@
             "message": {
              "orig": "Go on, you can do it!",
              "transl": "Komm schon, du schaffst das!"
+            },
+            "person": {
+             "person": "cross-worlds.tester-male-rainbow",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "PROUD"
             }
            }
           ],
@@ -1072,12 +1258,20 @@
               "message": {
                "orig": "The next marker awaits!",
                "transl": "Der nächste Marker wartet auf dich!"
+              },
+              "person": {
+               "person": "cross-worlds.tester-male-rainbow",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "[nods]",
                "transl": "[nickt]"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "NOD"
               }
              }
             ],
@@ -1086,12 +1280,20 @@
               "message": {
                "orig": "Just step on this first marker here and start running!",
                "transl": "Betritt einfach den ersten Marker und fang an zu rennen!"
+              },
+              "person": {
+               "person": "cross-worlds.tester-male-rainbow",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "[nods]",
                "transl": "[nickt]"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "NOD"
               }
              }
             ]
@@ -1104,20 +1306,38 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.tester-male-rainbow",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "thenStep": [
          {
           "message": {
            "orig": "Just one more, it's right next to you!",
            "transl": "Nur noch einer! Er ist direkt neben dir!"
+          },
+          "person": {
+           "person": "cross-worlds.tester-male-rainbow",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          }
         ],
@@ -1128,12 +1348,20 @@
             "message": {
              "orig": "Go on, you can do it!",
              "transl": "Mach weiter, du kannst es schaffen!"
+            },
+            "person": {
+             "person": "cross-worlds.tester-male-rainbow",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "PROUD"
             }
            }
           ],
@@ -1144,12 +1372,20 @@
               "message": {
                "orig": "The next marker awaits!",
                "transl": "Der nächste Marker erwartet dich!"
+              },
+              "person": {
+               "person": "cross-worlds.tester-male-rainbow",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "[nods]",
                "transl": "[nickt]"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "NOD"
               }
              }
             ],
@@ -1158,12 +1394,20 @@
               "message": {
                "orig": "Just step on this first marker here and start running!",
                "transl": "Stell dich einfach auf den ersten Punkt und fang an zu rennen!"
+              },
+              "person": {
+               "person": "cross-worlds.tester-male-rainbow",
+               "expression": "DEFAULT"
               }
              },
              {
               "message": {
                "orig": "[nods]",
                "transl": "[nickt]"
+              },
+              "person": {
+               "person": "main.lea",
+               "expression": "NOD"
               }
              }
             ]
@@ -1202,78 +1446,136 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "cross-worlds.triblader-male-black",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "You did it. Great job!",
        "transl": "Du hast es geschafft! Gute Arbeit!"
+      },
+      "person": {
+       "person": "cross-worlds.triblader-male-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "And there was no problem, right? No sudden shocks or anything?",
        "transl": "Und? Da gab es keine Probleme, stimmt's? Keine plötzlichen Fehler oder sowas?"
+      },
+      "person": {
+       "person": "cross-worlds.triblader-male-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
      {
       "message": {
        "orig": "Great\\..\\..\\.. Great.",
        "transl": "Sehr gut\\..\\..\\.. Sehr gut."
+      },
+      "person": {
+       "person": "cross-worlds.triblader-male-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Thanks a lot! Take this for your efforts. ",
        "transl": "Danke vielmals! Nimm das für deine Mühen."
+      },
+      "person": {
+       "person": "cross-worlds.triblader-male-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I hope we can meet again.",
        "transl": "Ich hoffe, wir werden uns wiedersehen."
+      },
+      "person": {
+       "person": "cross-worlds.triblader-male-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "...So you can help me again, you know?",
        "transl": "... damit du mir, du weißt schon, erneut helfen kannst?"
+      },
+      "person": {
+       "person": "cross-worlds.triblader-male-black",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      }
     ]
@@ -1288,6 +1590,10 @@
       "message": {
        "orig": "Alright, let's go!",
        "transl": "Klasse, lass uns loslegen!"
+      },
+      "person": {
+       "person": "cross-worlds.tester-male-rainbow",
+       "expression": "DEFAULT"
       }
      }
     ]

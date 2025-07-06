@@ -53,6 +53,10 @@
       "message": {
        "orig": "You need to reach to the \\c[3]other side\\c[0] of this room. To the \\c[3]east\\c[0]!",
        "transl": "Du musst auf die \\c[3]andere Seite\\c[0] des Raumes gelangen. In \\c[3]östliche\\c[0] Richtung!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      }
     ]
@@ -83,12 +87,20 @@
         "message": {
          "orig": "\\c[1]...!\\c[0]",
          "transl": "\\c[1]...!\\c[0]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE_DOWN"
         }
        },
        {
         "message": {
          "orig": "Stop this at once!!",
          "transl": "Hör sofort damit auf!!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "SHOUT"
         }
        }
       ],
@@ -97,6 +109,10 @@
         "message": {
          "orig": "More!!",
          "transl": "Mehr!!"
+        },
+        "person": {
+         "person": "antagonists.designer",
+         "expression": "FROWN"
         }
        }
       ]

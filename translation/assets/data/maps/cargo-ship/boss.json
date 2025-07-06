@@ -33,18 +33,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "LAUGH"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "What a convenient stage we have here!",
        "transl": "Seht an, welch vortreffliche Bühne wir hier haben!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "LAUGH"
       }
      },
      {
       "message": {
        "orig": "Now, it is time to face your trial!",
        "transl": "Nun ist es an der Zeit, dich deiner Prüfung zu stellen!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      },
      null,
@@ -55,18 +73,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "LAUGH"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "Let us see if you are the genuine article!",
        "transl": "Lass uns sehen, ob du das Original bist!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SHOUT"
       }
      },
      {
       "message": {
        "orig": "A display of your talents shall suffice as proof!",
        "transl": "Eine Demonstration deiner Talente sollte als Beweis genügen!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      },
      null,
@@ -77,36 +113,66 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "Lea, do you hear me?",
        "transl": "Lea, hörst du mich?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": " I am just as confused about this whole situation as you are...",
        "transl": "Ich bin über die ganze Situation hier genauso perplex wie du..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "It is certainly a mess, but we will get you out of this.",
        "transl": "Die Situation ist heikel, aber wir holen dich da raus."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "For now, take on this challenge and keep him busy.",
        "transl": "Akzeptiere vorerst seine Herausforderung, um ihn zu beschäftigen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "I know, this enemy looks intimidating, but do not lose hope!",
        "transl": "Ich weiß, der Gegner sieht bedrohlich aus, aber verliere nicht die Hoffnung!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
@@ -115,30 +181,50 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WORRIED"
         }
        },
        {
         "message": {
          "orig": "What am I saying?\\. You can beat that thing with a \\c[1]single hit\\c[0].",
          "transl": "Ach, was rede ich da?\\. Du kannst dieses Ding doch \\c[1]mit einem Schlag\\c[0] niederstrecken."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "ROLL_EYES"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "INSANE_DOWN"
         }
        },
        {
         "message": {
          "orig": "Just make sure to hit its weak point.",
          "transl": "Achte nur darauf, seinen Schwachpunkt zu treffen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "EYES_CLOSED"
         }
        }
       ],
@@ -147,12 +233,20 @@
         "message": {
          "orig": "I am confident you will be able to handle this!",
          "transl": "Ich bin mir sicher, dass du mit ihm fertig wirst!"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SERIOUS"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
@@ -161,18 +255,30 @@
           "message": {
            "orig": "As a matter of fact with \\c[1]your level\\c[0] this really should be a piece of cake.",
            "transl": "Das sollte \\c[1]mit deinem Level\\c[0] wirklich ein Kinderspiel sein."
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "ROLL_EYES"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_TOWARD"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SMUG"
           }
          }
         ],
@@ -181,24 +287,40 @@
           "message": {
            "orig": "... Because I can see its battle stats.\\. They match your level!",
            "transl": "... Ich kann nämlich seine Werte sehen.\\. Sie passen genau zu deinem Level!"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "WHISTLING"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ANNOYED"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DOWN_EYE_CLOSED"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DETERMINED"
           }
          }
         ]

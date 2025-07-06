@@ -549,61 +549,106 @@
         "name": {
          "orig": "Talatu Lips",
          "transl": "Talatu Lips"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey there sweetheart!",
          "transl": "Hallole, Mädle!"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Phew, it's hotter'n blazes here, tell you what.",
          "transl": "Diese Hitsch hier bringt mich um, weisch?"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But the flora's quite a sight, ain't it?",
          "transl": "Aber die Gewäggse hier sein echt hübsch, weisch?"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Well, how 'bout y'all? Explorin' comin' along?",
          "transl": "Wie komm'scht mit'm Erkunden der Gewäggse so voran?"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Glad ta hear it. Y'all be good now!",
          "transl": "Desch is gut zu höre!"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -630,12 +675,20 @@
       "message": {
        "orig": "This is one impressive waterfall!",
        "transl": "Das ist mal ein eindrucksvoller Wasserfall!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "You really wouldn't expect such an abundance of water in a desert area.",
        "transl": "Diese gewaltige Menge an Wasser ist für eine Wüste schon sehr... eigenartig."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "WORRIED"
       }
      }
     ]
@@ -648,6 +701,10 @@
       "message": {
        "orig": "Whoa, look at this! Better watch your step.",
        "transl": "Whoa, schau dir das an! Pass besser auf, wo du hintrittst!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      }
     ]

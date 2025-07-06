@@ -912,17 +912,30 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Linde",
           "transl": "Linde"
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         null,
@@ -930,90 +943,150 @@
          "message": {
           "orig": "Ahh, hello!\\. Are you the \\v[lore.title.seeker] that was sent to help me?",
           "transl": "Ahh, hallo!\\. Bist du der Seeker, der mir helfen soll?"
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Oh, I'm so excited!\\. You \\v[lore.title.seeker]s are so cool and I have never worked with one.",
           "transl": "Oh, ich bin so aufgeregt!\\. Ihr Seeker seid so cool! Und ich habe noch nie mit einem gearbeitet!"
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Lea!",
           "transl": "Лія!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Ah, I'm sorry!\\. I should concentrate on the work.\\. Important work with the help of a cool \\v[lore.title.seeker], yes, yes!",
           "transl": "Ah, tut mir leid!\\. Ich sollte mich auf meine Arbeit konzentrieren.\\. Wichtige Arbeit, verteidigt von coolem Seeker, ja, ja!"
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I will use my tools here to examine the water at different spots in this area.",
           "transl": "Ich werde meine Geräte hier verwenden, um das Wasser an verschiedenen Stellen in der Umgebung zu untersuchen."
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "Gonna check for pollution and radiation and take those samples we need.",
           "transl": "Ich werde die Verschmutzung und Radioaktivität untersuchen und ein paar Proben nehmen."
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Meanwhile, you will have to protect me from angry denizens of the Track that might appear.",
           "transl": "In der Zwischenzeit musst du mich vor angriffslustigen Pfadbewohnern beschützen.<<A<<[CHANGED 2021/05/22]"
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Yes, it's such a shame that we have to hurt them, but we've got no choice here.",
           "transl": "Ja, es ist eine Schande, dass wir sie verletzen müssen, aber wir haben keine andere Wahl."
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "At least their dead bodies will return to the Track and feed the new life, so it's okay!",
           "transl": "Wenigstens werden ihre toten Körper dem Pfad zurückgegeben und werden so wieder zu neuem Leben - also ist es okay!"
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Anyway, I will prepare myself.\\. Talk to me again when you are ready to go!",
           "transl": "So, ich werde mich jetzt vorbereiten.\\. Sprich mich an, wenn du so weit bist!"
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -1025,17 +1098,30 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Linde",
           "transl": "Linde"
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hey there, \\v[lore.title.seeker]!\\. Are you ready to escort me around?",
           "transl": "Hey, Seeker!\\. Bist du bereit, mich zu eskortieren?"
+         },
+         "person": {
+          "person": "greenies-jungle.female-examiner-white",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1046,12 +1132,20 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Alright.\\. Just let me gather my things real quick.",
             "transl": "Alles klar.\\. Einen Augenblick, geht sofort los.<<A<<[CHANGED 2021/05/22]"
+           },
+           "person": {
+            "person": "greenies-jungle.female-examiner-white",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -1060,15 +1154,27 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Aw, alright.\\. I will wait for you here.",
             "transl": "Oh, okay.\\. Ich werde hier auf dich warten."
+           },
+           "person": {
+            "person": "greenies-jungle.female-examiner-white",
+            "expression": "DEFAULT"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -1104,17 +1210,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Linde",
        "transl": "Linde"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Good, I will mark the first spot I have to investigate!",
        "transl": "Okay, ich werde den Ort markieren, den ich untersuchen muss."
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1124,29 +1243,50 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Linde",
        "transl": "Linde"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "All set, we can start now!\\. And please protect me from angry critters, okay?",
        "transl": "Alles bereit, wir können anfangen!\\. Und bitte beschütze mich vor allem, was da so kommt, ja?"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Alright, let's do this!",
        "transl": "Also dann, legen wir los!"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1198,6 +1338,10 @@
       "message": {
        "orig": "Careful, I hear something!",
        "transl": "Vorsicht, ich höre etwas!"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -1217,12 +1361,20 @@
           "message": {
            "orig": "Getting dizzy...",
            "transl": "Mir wird schwindlig..."
+          },
+          "person": {
+           "person": "greenies-jungle.female-examiner-white",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHOCKED"
           }
          }
         ],
@@ -1233,12 +1385,20 @@
             "message": {
              "orig": "Don't want to stress you, but this is getting a bit painful...",
              "transl": "Ich will dich ja nicht stressen, aber so langsam tut's echt weh..."
+            },
+            "person": {
+             "person": "greenies-jungle.female-examiner-white",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NERVOUS"
             }
            }
           ],
@@ -1249,6 +1409,10 @@
               "message": {
                "orig": "Ouchie... seems like they really are angry.",
                "transl": "Autsch... Die scheinen heute wirklich auf Krawall gebürstet zu sein."
+              },
+              "person": {
+               "person": "greenies-jungle.female-examiner-white",
+               "expression": "DEFAULT"
               }
              }
             ]
@@ -1299,6 +1463,10 @@
       "message": {
        "orig": "Starting the investigation!",
        "transl": "Untersuchung beginnt!"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1335,6 +1503,10 @@
       "message": {
        "orig": "All finished!\\. Onto the next one!",
        "transl": "Fertig!\\. Weiter geht's!"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -1350,6 +1522,10 @@
       "message": {
        "orig": "More critters approaching!",
        "transl": "Da kommen noch mehr!"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -1363,6 +1539,10 @@
       "message": {
        "orig": "Getting more data...",
        "transl": "Empfange weitere Daten..."
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1400,6 +1580,10 @@
       "message": {
        "orig": "Good job so far!\\. Just one more spot left!",
        "transl": "Gute Arbeit so weit!\\. Eine Stelle müssen wir noch!"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -1416,6 +1600,10 @@
       "message": {
        "orig": "They just keep on coming... must be really angry today.",
        "transl": "Es kommen immer mehr... Heute haben sie es aber echt auf uns abgesehen."
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -1429,12 +1617,20 @@
       "message": {
        "orig": "Starting with the last one.\\. We almost got it, \\v[lore.title.seeker]!",
        "transl": "Jetzt kommt die letzte Stelle.\\. Fast geschafft, Seeker!"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -1460,12 +1656,20 @@
       "message": {
        "orig": "Hang in there, we're almost done!",
        "transl": "Halt durch, wir sind fast fertig!"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -1507,41 +1711,70 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Linde",
        "transl": "Linde"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Okay, I got all the data we need for now.\\. Great job, \\v[lore.title.seeker]!",
        "transl": "Okay, ich habe alle Daten, die ich brauche.\\. Gute Arbeit, Seeker!"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "I would love to chat a bit more with you, but I gotta bring the samples back to the HQ.\\. Before more angry critters appear.",
        "transl": "Ich würde gerne noch mit dir plaudern, aber ich muss die Proben zurück ins Hauptquartier bringen.\\. Bevor noch mehr von denen auftauchen."
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "So this means goodbye for now.\\. Thanks again for everything and good luck on your adventures!",
        "transl": "Also erstmal auf Wiedersehen.\\. Vielen Dank nochmal für alles und viel Glück auf deiner Reise!"
+      },
+      "person": {
+       "person": "greenies-jungle.female-examiner-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      }
     ]
@@ -1557,42 +1790,70 @@
       "message": {
        "orig": "Now that's a place where I'd definitely dive into the water if I could!",
        "transl": "Also hier würde ich definitiv baden, wenn ich könnte!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "You sure?\\. Jungle rivers are incredibly active ecosystems.",
        "transl": "Bist du sicher?\\. Flüsse im Dschungel sind sehr aktive Ökosysteme."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "What do you mean?",
        "transl": "Was meinst du?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "There's all kind of stuff in there.\\. Including bugs.\\. Lots of bugs.",
        "transl": "Da ist allerhand Zeugs drin.\\. Wie zum Beispiel Käfer.\\. Viele Käfer."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Sacrebleu! Why do you have to destroy my fantasies?!",
        "transl": "Sacrebleu! Jetzt hast du meine Fantasie zerstört!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "Water is deadly, Emilie.\\. Deadly...\\. and probably not real.",
        "transl": "Wasser ist tödlich, Emilie.\\. Und vermutlich nicht real."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "Oh no, Foilhead-Tronny is back.",
        "transl": "Oh Mann... Jetzt fängt der wieder mit seinen Aluhut-Theorien an."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -1605,12 +1866,20 @@
       "message": {
        "orig": "There really is no end to this place.",
        "transl": "Dieses Gebiet endet scheinbar nie."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "Gaia's Garden! Wilderness as far as the eye can see!",
        "transl": "Gaias Garten! Wildnis, so weit das Auge reicht!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      }
     ]

@@ -635,12 +635,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hm, I hope we don't get lost around here.",
        "transl": "Hm, ich hoffe, wir verlaufen uns hier nicht."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      null,
@@ -648,6 +662,10 @@
       "message": {
        "orig": "Ah, over there!",
        "transl": "Ah, da drüben!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      null,
@@ -655,51 +673,94 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Seems we have to head \\c[3]northwest\\c[0] to reach Bergen Trail.",
        "transl": "Sieht aus, als müssten wir nach \\c[3]Nordwesten\\c[0], um den Bergen-Trail zu erreichen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      null,
      {
       "message": {
        "orig": "I hope it's not too far.",
        "transl": "Ich hoffe, es ist nicht allzu weit."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "I will have to logout sooner or later, you see?",
        "transl": "Ich werde nämlich gleich mal offline gehen müssen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Oh, don't worry. I'll stay until you beat up Mr. Grasshead!",
        "transl": "Oh, keine Sorge. Ich bleibe noch so lange, bis du Monsieur Graskopf verhauen hast."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "And please don't hurry too much because of me!",
        "transl": "Beeil dich aber bitte nicht extra meinetwegen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
@@ -708,18 +769,30 @@
         "message": {
          "orig": "Though there really is no reason for you to prepare for this duel, is there?",
          "transl": "Obwohl du es wahrscheinlich gar nicht nötig hast, dich auf das Duell vorzubereiten, oder?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
         }
        },
        {
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "Well, in any case!\\. C'est parti!",
          "transl": "Wie auch immer!\\. Lass uns gehen!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        }
       ],
@@ -728,18 +801,30 @@
         "message": {
          "orig": "We have to make sure you're well trained, non?",
          "transl": "Wir wollen doch, dass du gut trainiert bist, non?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DETERMINED"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Alright, then...\\. C'est parti!",
          "transl": "Also dann...\\. C'est parti!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        }
       ]
@@ -749,46 +834,85 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
+      }
+     },
      {
       "message": {
        "orig": "Hm...\\. That is right.",
        "transl": "Hm...\\. Das stimmt."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "We have been playing for a long while now, Lea.",
        "transl": "Wir haben nun schon eine ganze Weile gespielt, Lea."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Anyway, I suppose there is still time for you to face that duel.",
        "transl": "Aber ich glaube, du hast noch genug Zeit, das Duell auszufechten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Come on, Lea!",
        "transl": "Komm schon, Lea!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      }
     ]

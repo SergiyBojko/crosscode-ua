@@ -62,12 +62,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "These are the weapons of Rhombus Square, the finest any human can produce!",
           "transl": "Dies sind die Waffen Rhombus' - die besten, die je von Menschenhand gefertigt wurden!"
+         },
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -91,127 +105,216 @@
         "name": {
          "orig": "Leon",
          "transl": "Leon"
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hmmmmm...",
          "transl": "Hmmmmm..."
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi?",
          "transl": "Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Oh!\\. Sorry, I was lost in thought.",
          "transl": "Oh! Entschuldigung, ich war in Gedanken versunken."
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Why?",
          "transl": "Чому?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "Well, I'm trying to decide which weapon I should get.",
          "transl": "Tja, ich muss mich hier für eine Waffe entscheiden."
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Upstairs they offer the \\c[3]Skirmisher\\c[0], which seems pretty ideal for dealing damage close-up.",
          "transl": "Oben bieten sie den \\c[3]Plänkler\\c[0] an, der ideal für viel Nahkampfschaden ist."
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "But to get it I'd still need to grind for a few more items.",
          "transl": "Aber dafür müsste ich erstmal ein paar mehr Items grinden."
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The \\c[3]Laser Edge\\c[0], on the other hand, I could get right now.",
          "transl": "Die \\c[3]Laserschneide\\c[0] wiederum könnte ich mir jetzt sofort kaufen."
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "It's not quite as good stats-wise but still...",
          "transl": "Die kann zwar von den Stats nicht so ganz mithalten, aber trotzdem..."
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Having a Laser Edge is pretty awesome by itself, don't you think?",
          "transl": "So eine Laserwaffe zu haben, ist ja an sich schon ziemlich cool, oder?"
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Wait!",
          "transl": "Зачекай!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "HAND_TWO"
         }
        },
        {
         "message": {
          "orig": "Huh?\\. Two?\\. What do you mean?",
          "transl": "Höh? Zwei? Was meinst du...?"
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Oh, wait!\\. I can equip two weapons!",
          "transl": "Oh, Moment! Ich kann ja zwei Waffen ausrüsten!"
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "You're right, there is no need to pick just one.",
          "transl": "Du hast recht! Es gibt keinen Grund, sich zu für eine zu entscheiden!"
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I'll get the Laser Edge now and the Skirmisher later!",
          "transl": "Ich kauf mir jetzt die Laserschneide und den Plänkler dann später!"
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Or...\\. should I go for two Skirmishers right away?",
          "transl": "Oder...\\. soll ich mir gleich zwei Plänkler holen...?"
+        },
+        "person": {
+         "person": "guests.leon",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
         }
        }
       ]
@@ -225,25 +328,47 @@
     "event": [
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "advisors.female-tall-blond",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Welcome Seeker!",
        "transl": "Willkommen, Seeker!"
+      },
+      "person": {
+       "person": "advisors.female-tall-blond",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Our store now offers new \\c[3]ascended gears\\c[0] to all walkers of the track!",
        "transl": "Unser Geschäft bietet nun neue \\c[3]Elite-Ausrüstung\\c[0] für alle Wanderer des Pfades!"
+      },
+      "person": {
+       "person": "advisors.female-tall-blond",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Do you want to know further details about \\c[3]ascended equipment\\c[0]?",
        "transl": "Möchtest du mehr über \\c[3]Elite-Ausrüstung\\c[0] erfahren?"
+      },
+      "person": {
+       "person": "advisors.female-tall-blond",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -252,30 +377,50 @@
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "You recognize ascended equipment by the \\c[3]orange icon\\c[0] and the \\i[ascended] icon in the description.",
          "transl": "Elite-Ausrüstung erkennst du an dem \\c[3]orangenen Symbol\\c[0] und dem \\i[ascended]-Symbol in der Beschreibung."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Ascended gear will \\c[3]adapt to your level\\c[0]. That means its base stats will rise as your character level increases.",
          "transl": "Elite-Ausrüstung \\c[3]passt sich deinem Level an\\c[0]. Das bedeutet, dass die Grundwerte mit deinem Spielerlevel steigen.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "However, note that their \\c[3]modifier values\\c[0] remain unchanged.",
          "transl": "Beachte jedoch, dass ihre \\c[3]Modifikatorwerte\\c[0] unverändert bleiben."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Still, \\c[3]ascended equipment\\c[0] should be considered the first choice for every seeker to reach their highest potential!",
          "transl": "Dennoch sollte \\c[3]Elite-Ausrüstung\\c[0] die erste Wahl für jeden Seeker sein, damit er sein größtes Potential erreichen kann!"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -284,15 +429,27 @@
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "Of course!\\. I'll be here should you require my help later on.",
          "transl": "In Ordnung!\\. Ich bin hier, falls du später meine Hilfe brauchst."
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      },
       "options": [
        {
         "label": {

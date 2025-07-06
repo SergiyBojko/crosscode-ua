@@ -168,30 +168,56 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "CURIOUS"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
+        }
+       },
        {
         "message": {
          "orig": "Damn...\\. just second.",
          "transl": "Verdammt...\\. nur Zweiter."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "Too bad, I thought I had a pretty good run this time.",
          "transl": "Zu dumm, dabei dachte ich, ich hätte diesmal einen richtig guten Lauf."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "CURIOUS"
         }
        },
        {
         "message": {
          "orig": "That boss at the end was pretty neat.",
          "transl": "Der Boss war richtig toll."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "AWAY"
         }
        }
       ],
@@ -199,30 +225,56 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
+        }
+       },
        {
         "message": {
          "orig": "Hah! I won!",
          "transl": "Hah! Gewonnen!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SWEATY_SMILE"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "That final part was pretty intense, wasn't it?",
          "transl": "Der letzte Teil war ziemlich intensiv, oder?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ]
@@ -234,37 +286,72 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Darn it...\\. last one again.",
        "transl": "Mist...\\. Schon wieder Letzter."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "And I thought you'd do well since you figured out the puzzles so quickly.",
        "transl": "Und ich dachte, du kämst ganz gut voran, weil du die Rätsel so schnell gelöst hast."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Well...\\. I had a pretty hard time at the last section.\\. Too many of those enemies.",
        "transl": "Na ja...\\. Ich hatte Schwierigkeiten mit dem letzten Teil.\\. Das waren zu viele von diesen Gegnern."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "Yeah that was quite something, wasn't it?",
        "transl": "Oui, oui, das war schon 'ne Nummer für sich!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      {
       "message": {
        "orig": "Alors, the space bird is waiting!",
        "transl": "Alors, der Weltraumvogel wartet!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      }
     ]
@@ -482,13 +569,32 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "And done!",
        "transl": "Und fertig!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
@@ -497,6 +603,10 @@
         "message": {
          "orig": "One dungeon completed, two to go!",
          "transl": "Ein Dungeon erledigt, bleiben noch zwei!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        }
       ],
@@ -505,6 +615,10 @@
         "message": {
          "orig": "So that means we're finally ready for that Grand-something dungeon, right?",
          "transl": "Oui! Das heißt also, wir dürfen jetzt in diesen Großen Dingsbums-Dungeon rein, richtig?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
@@ -519,36 +633,60 @@
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Awesome!",
        "transl": "Super!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "This place here is pretty nice, don't you think?",
        "transl": "Dieser Ort hier ist richtig schön, findet ihr nicht auch?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "I'd like to have a small look around before we continue.",
        "transl": "Ich würde mich hier gerne noch ein wenig umsehen, bevor wir gehen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Sure! Though I have to admit that huge electric stream up there makes me slightly nervous.",
        "transl": "Mach ruhig! Ist nur so, dass der heftige Strom da oben mich ein wenig nervös macht."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      }
     ]
@@ -615,36 +753,66 @@
      {
       "event": [
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "How?!",
          "transl": "Як?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        },
        {
         "message": {
          "orig": "The uneven slope...",
          "transl": "Der unebene Hang..."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...bordering the fall...",
          "transl": "... lässt dich schwindeln..."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...testing your balance...",
          "transl": "... prüft dein Gleichgewicht..."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-male-red",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Whyyyy...?",
          "transl": "Waruuuum...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SCARED"
         }
        }
       ]

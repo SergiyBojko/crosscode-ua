@@ -697,61 +697,106 @@
         "name": {
          "orig": "Talatu Lips",
          "transl": "Talatu Lips"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey there darlin'!",
          "transl": "Hallole, Mädle!"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Thought Ah'd rest a spell here after all that awful cold an' heat.",
          "transl": "Nach de ganze grausische Kälde und Hitsche muass'e mi hie erschd a moal ne Weile ausruhe."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Feels a mite familiar, t'be honest.",
          "transl": "Un des fühl sich hie so scheltsam bekannd an."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Well, how's the explorin' comin' along? Doin' good so far?",
          "transl": "Kommsch du mit de Erforsche von de Gewäggse voran? "
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Good ta hear! Y'all keep it up now.",
          "transl": "Des froid mi! Weid'r so!"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -826,18 +871,30 @@
         "message": {
          "orig": "Here comes the Bunny...\\. that annoying bastard.",
          "transl": "Hier kommt der Hase...\\. Dieses nervige Mistvieh!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        },
        {
         "message": {
          "orig": "Hush Emilie, don't spoil it!",
          "transl": "Pscht! Nichts verraten, Emilie!"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "No spoiler. Just look at it jumping away! We all know it's gonna be annoying.",
          "transl": "Ich verrate nichts. Guck doch, wie er wegspringt! Wir wissen alle, dass es nervig werden wird."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EXHAUSTED"
         }
        }
       ]
@@ -854,19 +911,46 @@
       "thenStep": [
        null,
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "thenStep": [
+         {
+          "person": {
+           "person": "main.glasses",
+           "expression": "DEFAULT"
+          }
+         }
+        ]
+       },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "You got the Shade? Alright!",
          "transl": "Du hast die Form gekriegt? Très bien!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
@@ -875,6 +959,10 @@
           "message": {
            "orig": "Nice!",
            "transl": "Gut gemacht!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SMILE"
           }
          }
         ]
@@ -885,41 +973,81 @@
         "thenStep": [
          null,
          null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "main.glasses",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
           }
          },
          {
           "message": {
            "orig": "You got the Shade? Nice!",
            "transl": "Du hast die Form bekommen? Gut gemacht!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "You should tell Emilie via D-Link!",
            "transl": "Du solltest Emilie via D-Link davon erzählen!"
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "TOWARD"
           }
          }
         ],
         "elseStep": [
          null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "main.sergey",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "I suppose you just got the Shade!",
            "transl": "Ich nehme an, du hast soeben die Form erhalten!"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "I think Emilie wanted you to contact her at this point, right?",
            "transl": "Ich glaube, Emilie wollte, dass du sie danach kontaktierst, richtig?"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "NOTIFYING"
           }
          }
         ]
@@ -928,34 +1056,64 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        },
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Bonjour Lea! How is it going? Did you collect the shade?",
          "transl": "Bonjour, Lea! Wie geht's dir? Hast du schon die Form?"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Très bien!",
          "transl": "Très bien!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        }
       ]
@@ -964,120 +1122,200 @@
       "message": {
        "orig": "That means we're all set for the raid!",
        "transl": "Das heißt, wir sind bereit für den Raid!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But before that... there's one thing I wanted to tell you. ",
        "transl": "Aber vorher... wollte ich dir noch etwas sagen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "You heard what the geezer in space said, right?",
        "transl": "Du weißt doch, was der Typ im Weltraum gesagt hat, oder?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "With this new Shade you can now enter \\c[3]Gaia's Garden\\c[0].",
        "transl": "Dass wir mit dieser neuen Form nach \\c[3]Gaias Garten\\c[0] können."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "And well... that area is supposed to be a \\c[3]jungle\\c[0].",
        "transl": "Und...\\. na ja...\\. Gaias Garten ist eigentlich ein \\c[3]Dschungel\\c[0]."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "You know what you usually find in jungles?",
        "transl": "Du weißt, auf was man so im Dschungel trifft, oder?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Insects...\\. like \\c[3]bugs\\c[0].",
        "transl": "Insekten...\\. wie zum Beispiel \\c[3]Käfer\\c[0]."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "I really don't want to go there by myself.\\. So uhm...",
        "transl": "Ich will da wirklich nicht alleine reingehen.\\. Also, öhm..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "It would be great if you could wait for me so we can enter the Jungle together, d'accord?",
        "transl": "... wär's echt toll, wenn du auf mich warten könntest, damit wir den Dschungel gemeinsam betreten können, d'accord?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Merci! You're the best!",
        "transl": "Merci! Du bist die Beste!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "But let's wait on that until after the Raid is over, alright?",
        "transl": "Aber lass uns warten, bis der Raid vorbei ist, okay?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Oh and now that we're all ready, we should meet up at the \\c[3]First Scholars HQ\\c[0]! ",
        "transl": "Oh, und jetzt, wo wir alle bereit sind, sollten wir uns alle im \\c[3]Hauptquartier\\c[0] treffen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "Lin wanted to give us a small briefing about the Raid and explain all the details.",
        "transl": "Lin wollte uns noch einige Infos über den Raid geben und uns die Details erklären."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
@@ -1086,6 +1324,10 @@
         "message": {
          "orig": "Let's go!",
          "transl": "Auf geht's!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -1094,6 +1336,10 @@
         "message": {
          "orig": "See you there!",
          "transl": "Wir sehen uns dort!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1115,69 +1361,140 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bonjour, Lea!",
        "transl": "Bonjour, Lea!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Morning!",
        "transl": "Guten Morgen!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "The others already went ahead to the raid area.",
        "transl": "Die anderen sind schon vorgegangen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "All we have to do is wander through this cave here.",
        "transl": "Alles, was wir tun müssen, ist, durch diese Höhle zu gehen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "We still have some time left, though.",
        "transl": "Wir haben aber noch ein wenig Zeit."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "We should make sure we're well prepared.",
        "transl": "Wir sollten sichergehen, dass wir alle gut vorbereitet sind."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "THOUGHTFUL"
       }
      },
      {
       "message": {
        "orig": "I wouldn't mind checking equipment options in Rookie Harbor one last time.",
        "transl": "Ich hätte nichts dagegen, mir die Ausrüstung in Rookie Harbor noch einmal anzusehen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "Don't be such a worrywart, Tronny.",
        "transl": "Hör auf, so einen Stress zu schieben, Tronny."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "WATCH_OUT_BADASS"
       }
      },
      {
@@ -1186,18 +1503,30 @@
         "message": {
          "orig": "You know as well as I do that \\c[1]Lea will just carry both of us\\c[0].",
          "transl": "Du weißt so gut wie ich, dass \\c[1]Lea uns beide mitziehen wird\\c[0]."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "Lea!",
          "transl": "Лія!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMUG"
         }
        },
        {
         "message": {
          "orig": "That's true.",
          "transl": "Stimmt."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "THOUGHTFUL"
         }
        }
       ],
@@ -1206,12 +1535,20 @@
         "message": {
          "orig": "I'm ready to kick some derrière right now!",
          "transl": "Ich bin so was von bereit, ein paar Derrières zu versohlen!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "TAUNTING"
         }
        },
        {
         "message": {
          "orig": "...well, it's your call, Lea.",
          "transl": "Aber gut... Es ist deine Entscheidung, Lea."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "EMBARRASSED"
         }
        }
       ]
@@ -1237,12 +1574,20 @@
       "message": {
        "orig": "Ah I see we're back in the Ancient ruins of puzzle village!",
        "transl": "Ah, wie ich sehe, sind wir wieder bei den Rätselruinen der Ahnen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "Still serving puzzles even thousands of years later.",
        "transl": "Sorgen immer noch für Rätsel, selbst tausende Jahre später."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      }
     ]
@@ -1255,24 +1600,40 @@
       "message": {
        "orig": "Say hello to the hardest puzzle of the Playground!",
        "transl": "Willkommen zum schwersten Rätsel in ganz CrossWorlds!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Huh? Isn't that one quite trivial?",
        "transl": "Höh? Scheint relativ einfach zu sein, oder?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Sarcasm, Tronny...",
        "transl": "Das war Sarkasmus, Tronny..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      }
     ]

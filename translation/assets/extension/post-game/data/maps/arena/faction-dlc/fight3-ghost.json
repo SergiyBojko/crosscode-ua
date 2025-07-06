@@ -426,12 +426,20 @@
           "message": {
            "orig": "Getting dizzy...",
            "transl": "Mir wird schwindlig..."
+          },
+          "person": {
+           "person": "greenies-jungle.female-examiner-white",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHOCKED"
           }
          }
         ],
@@ -442,12 +450,20 @@
             "message": {
              "orig": "Don't want to stress you, but this is getting a bit painful...",
              "transl": "Ich will dich ja nicht stressen, aber so langsam tut's echt weh..."
+            },
+            "person": {
+             "person": "greenies-jungle.female-examiner-white",
+             "expression": "DEFAULT"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NERVOUS"
             }
            }
           ],
@@ -458,6 +474,10 @@
               "message": {
                "orig": "Ouchie... ghost hits are as nasty as it looks.",
                "transl": "Autsch... Geist-Treffer sind echt so fies, wie sie aussehen."
+              },
+              "person": {
+               "person": "greenies-jungle.female-examiner-white",
+               "expression": "DEFAULT"
               }
              }
             ]

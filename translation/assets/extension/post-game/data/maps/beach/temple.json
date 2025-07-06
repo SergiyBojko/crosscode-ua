@@ -933,173 +933,308 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "0": [
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "UP"
+        }
+       },
        {
         "message": {
          "orig": "Alright, we got the Shade!",
          "transl": "Gut, die Form hätten wir!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Too bad the dungeon isn't available yet.",
          "transl": "Doof nur, dass der Dungeon noch nicht verfügbar ist."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "Let's hope they'll add it soon!",
          "transl": "Hoffentlich wird er es bald!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "WATCH_OUT_BADASS"
         }
        }
       ],
       "1": [
-       null,
+       {
+        "person": {
+         "person": "main.luke",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I guess that's it, huh?",
          "transl": "Das war's, oder?"
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "UP"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "So...\\. next will be the \\c[3]final temple\\c[0].",
          "transl": "Gut...\\. Als Nächstes kommt der \\c[3]letzte Tempel\\c[0]."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "WONDERING"
         }
        },
        {
         "message": {
          "orig": "Whenever that one is released...",
          "transl": "Wann auch immer er veröffentlicht wird..."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "SKEPTICAL"
         }
        }
       ],
       "2": [
-       null,
+       {
+        "person": {
+         "person": "main.glasses",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Here we go!",
          "transl": "Geschafft!"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "So...\\. next we're supposed to go to the final temple.",
          "transl": "Also...\\. Als Nächstes sollen wir zum letzten Tempel gehen."
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "TOWARD"
         }
        },
        {
         "message": {
          "orig": "But...\\. it's not release yet?",
          "transl": "Der...\\. aber noch nicht fertig ist?"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "THOUGHTFUL"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "I see...?",
          "transl": "Okay...?"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
         }
        }
       ],
       "3": [
-       null,
+       {
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "SMILE"
+        }
+       },
        {
         "message": {
          "orig": "That is one weird looking shade.",
          "transl": "Das ist ja mal eine seltsame Form."
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Well...\\. we got it now.",
          "transl": "Tja...\\. Auf jeden Fall haben wir sie jetzt."
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Next is the final dungeon, once they release it.",
          "transl": "Als Nächstes folgt der letzte Dungeon, sobald er veröffentlicht wird."
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "UP"
         }
        },
        {
         "message": {
          "orig": "I really wonder how long that one will be...",
          "transl": "Ich frage mich wirklich, wie lange das noch dauern wird..."
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "SARCASTIC"
         }
        }
       ],
       "4": [
-       null,
+       {
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I guess that's it, huh?",
          "transl": "Das war's, oder?"
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "TOWARDS"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Guess next will be the \\c[3]final temple\\c[0].",
          "transl": "Als Nächstes wäre jetzt wohl der \\c[3]letzte Tempel\\c[0] dran."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...which is not released yet.",
          "transl": "...der noch nicht veröffentlicht wurde."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "WONDERING"
         }
        },
        {
         "message": {
          "orig": "Seriously, they could have waited with the update until everything is ready.",
          "transl": "Mal im Ernst, sie hätten mit dem Update doch auch noch warten können, bis alles fertig ist."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "COMPLAINING"
         }
        }
       ],
       "5": [
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Our task here is done!",
          "transl": "Unsere Aufgabe hier ist getan!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SHOUTING"
         }
        },
        {
         "message": {
          "orig": "Alas, there's just one thing left to do!",
          "transl": "Bleibt nur noch eines zu tun!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "LECTURING"
         }
        }
       ]
@@ -1119,11 +1254,20 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
+        }
+       },
        {
         "message": {
          "orig": "I see you've just collected the final Shade!",
          "transl": "Wie ich sehe, hast du gerade die letzte Form erhalten!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "POINTING"
         }
        }
       ],
@@ -1134,21 +1278,44 @@
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SHOUTING"
+        }
+       },
        {
         "message": {
          "orig": "Spheromancer Lea!",
          "transl": "Spheromancer Lea!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SHOUTING"
         }
        }
       ]
      },
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
+      }
+     },
      {
       "message": {
        "orig": "Our task in this new area has been completed!",
        "transl": "Unsere Aufgabe in diesem neuen Gebiet ist abgeschlossen!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1156,30 +1323,56 @@
       "message": {
        "orig": "And you know what that means...",
        "transl": "Und du weißt, was das bedeutet..."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "POINTING"
+      }
+     },
      {
       "message": {
        "orig": "It is time for our \\c[3]final duel\\c[0]!",
        "transl": "Es ist Zeit für unser \\c[3]letztes Duell\\c[0]!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "POINTING"
       }
      },
      {
       "message": {
        "orig": "Where?",
        "transl": "Де?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -1188,48 +1381,80 @@
       "message": {
        "orig": "Right!\\. As for the location...",
        "transl": "Richtig!\\. Was den Ort betrifft..."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "I suggest the \\c[3]north-west of Rhombus Square\\c[0]!",
        "transl": "... schlage ich den \\c[3]Nordwesten von Rhombus Square\\c[0] vor!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "As it happens, that part of the city has dedicated arenas for PvP battles.",
        "transl": "Wie der Zufall es will, gibt es in diesem Teil der Stadt spezielle Arenen für PvP-Duelle."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Excellent!",
        "transl": "Ausgezeichnet!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "I'll be waiting for you!\\. Be prepared!",
        "transl": "Ich werde auf dich warten!\\. Sei vorbereitet!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SHOUTING"
       }
      },
      {
       "message": {
        "orig": "Lea!",
        "transl": "Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,

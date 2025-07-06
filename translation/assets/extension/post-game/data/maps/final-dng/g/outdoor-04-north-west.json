@@ -304,48 +304,86 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Such a huge crystal!\\. That's almost overkill to be honest.",
        "transl": "Was für ein riesiger Kristall! Das ist fast zu viel des Guten, um ehrlich zu sein."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SURPRISED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Oh yeah!\\. I heard about that one.",
        "transl": "Oh ja!\\. Davon habe ich gehört."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "This crystal serves as a unique landmark.",
        "transl": "Dieser Kristall dient als ein einzigartiger Wegpunkt."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "Apparently this helps players to not get lost.",
        "transl": "Offenbar hilft er den Spielern, sich nicht zu verirren."
+      },
+      "person": {
+       "person": "main.genius",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "I see...",
        "transl": "Verstehe..."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "INNOCENT"
       }
      },
      {
       "message": {
        "orig": "Thanks for the developer's commentary, I guess!",
        "transl": "Besten Dank für den Entwickler-Kommentar!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "FUNNY_SMILE"
       }
      },
      {
       "message": {
        "orig": "Let's go back!",
        "transl": "Lass uns zurückgehen!"
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -358,6 +396,10 @@
       "message": {
        "orig": "Wow!\\. So pretty.",
        "transl": "Wow!\\. Wie schön."
+      },
+      "person": {
+       "person": "main.shizuka",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -371,13 +413,27 @@
      null,
      null,
      null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DUMBFOUNDED"
+      }
+     },
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "How is this POSSIBLE?!",
        "transl": "WIE ist das möglich?!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "DUMBFOUNDED"
       }
      },
      null,
@@ -385,88 +441,161 @@
       "message": {
        "orig": "It was \\c[3]RIGHT THERE\\c[0]!",
        "transl": "Es war \\c[3]GENAU DA\\c[0]!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SHOUTING"
       }
      },
      {
       "message": {
        "orig": "I don't know, it just happened!",
        "transl": "Ich weiß es nicht, es ist einfach passiert!"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "AWWW"
       }
      },
      {
       "message": {
        "orig": "I mean...\\. you missed it as well, right?",
        "transl": "Ich meine...\\. Du hast es auch verpasst, oder?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Well, I jumped down without thinking because you were standing down here.",
        "transl": "Nun ja, ich bin ohne nachzudenken heruntergesprungen, weil du hier unten standest."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Oh, so that's my fault now as well?",
        "transl": "Oh, dann ist das also auch meine Schuld?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Hi...",
        "transl": "Привіт..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
+      }
+     },
      {
       "message": {
        "orig": "Oh, hello Lea.",
        "transl": "Oh, hallo, Lea."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "What?",
        "transl": "Що?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Well...\\. we both jumped down here, but...",
        "transl": "Tja...\\. Wir sind beide hier runter gesprungen, aber..."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "TOWARD"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
+      }
+     },
      {
       "message": {
        "orig": "We forgot to press that floor switch first.",
        "transl": "Wir haben vergessen, vorher die Sprungplatte zu aktivieren."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "So the jump panel is still off and we're stuck down here.",
        "transl": "Die Sprungplatte ist also immer noch aus und wir sitzen hier unten fest."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "AWWW"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SARCASTIC"
+      }
+     },
      {
       "message": {
        "orig": "You remembered to push the switch, right?",
        "transl": "Du hast daran gedacht, die Platte zu aktivieren, oder?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -475,13 +604,26 @@
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "MOPING"
+        }
+       },
        {
         "message": {
          "orig": "Good for you!",
          "transl": "Schön für dich dich!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SUSPICIOUS"
         }
        }
       ],
@@ -490,31 +632,56 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "...?!",
          "transl": "...?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        },
        {
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE_SCARED"
         }
        },
        {
         "message": {
          "orig": "Ouch...",
          "transl": "Autsch..."
+        },
+        "person": {
+         "person": "antagonists.sidekick",
+         "expression": "AWWW"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "MOPING"
+        }
+       },
        {
         "message": {
          "orig": "You too?!",
          "transl": "Du auch?!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DUMBFOUNDED"
         }
        }
       ]
@@ -523,12 +690,20 @@
       "message": {
        "orig": "Well, it happened.",
        "transl": "Tja, ist nun einmal passiert."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "Time for some backtracking.",
        "transl": "Dann müssen wir wohl zurücklaufen."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      }
     ]

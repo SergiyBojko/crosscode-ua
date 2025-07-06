@@ -509,6 +509,10 @@
       "message": {
        "orig": "Here she is!\\. A random Lea appeared!",
        "transl": "Tada!\\. Da taucht die Zufalls-Lea wieder auf!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "GRIN"
       }
      }
     ]
@@ -536,48 +540,86 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.buggy",
+         "expression": "UP"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey Lea!",
          "transl": "Hey, Lea!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You just fought those fast hummingbirds, didn't you?",
          "transl": "Du hast gerade gegen diese schnellen Kolibris gekämpft, oder?"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Man, wished I could have seen it.",
          "transl": "Mann, das hätte ich gerne gesehen."
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "JOKING"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "That fight was instanced.\\. You just barely notice it, though!",
          "transl": "Der Kampf war instanziert.\\. Man merkt es aber kaum!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "UP"
         }
        },
        null,
@@ -591,55 +633,102 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.buggy",
+         "expression": "UP"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
+        }
+       },
        {
         "message": {
          "orig": "See?\\. This is how you appeared for me as well.",
          "transl": "Siehst du?\\. So bist du auch bei mir erschienen."
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I thought it would be perfect to play a little trick on somebody.",
          "transl": "Das wäre doch die perfekte Situation, jemandem einen kleinen Streich zu spielen."
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
+        }
+       },
        {
         "message": {
          "orig": "You know...\\. jumping right in front of them after they appear from the instance.",
          "transl": "Du weißt schon...\\. Direkt vor sie springen, nachdem sie aus der Instanz auftauchen!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "JOKING"
         }
        },
        {
         "message": {
          "orig": "Whhhyyyyy...?",
          "transl": "Waruuuuuum...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "Nyahahahahaha!",
          "transl": "Nyahahahahaha!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "LAUGHING"
         }
        },
        {
         "message": {
          "orig": "Unfortunately it's hard to pull that off in practice.",
          "transl": "Klappt in der Praxis leider nicht ganz so leicht."
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "EMBARRASSED"
         }
        },
        {
         "message": {
          "orig": "You never know where anyone will appear from exactly.",
          "transl": "Man weiß nämlich nie, woher jemand genau kommt."
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "UP"
         }
        },
        {
         "message": {
          "orig": "Oh well!\\. Time to move on!",
          "transl": "Na ja!\\. Machen wir mal weiter!"
+        },
+        "person": {
+         "person": "main.buggy",
+         "expression": "GRIN"
         }
        }
       ]

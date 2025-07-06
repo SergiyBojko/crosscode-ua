@@ -19,38 +19,78 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "WHISTLING"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
      {
       "message": {
        "orig": "Okay, where to start?",
        "transl": "Okay, wo fangen wir an?"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "How about:\\. Welcome to CrossWorlds!",
        "transl": "Wie wär's damit:\\. Willkommen in CrossWorlds!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "UP_GRIN"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "One step at a time, Carla.",
        "transl": "Einen Schritt nach dem anderen, Carla."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "SMILE"
+      }
+     },
      {
       "message": {
        "orig": "Lea, do you remember the concept of an MMO?",
        "transl": "Lea, erinnerst du dich an das Konzept eines MMOs?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -59,12 +99,20 @@
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Alright.",
          "transl": "Gut."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "THINKING"
         }
        }
       ],
@@ -73,27 +121,47 @@
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "Well, MMO stands for \"Massively Multiplayer Online\".",
          "transl": "Nun, MMO steht für \"Massively Multiplayer Online Game\"."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "WHISTLING"
         }
        },
        {
         "message": {
          "orig": "It is a term for video games that support a large number of players simultaneously.",
          "transl": "Darunter versteht man Videospiele, die zeitgleich eine große Anzahl von Spielern unterstützen."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "Usually, all these players are connected to a virtual environment from all around the world.",
          "transl": "Normalerweise werden diese Spieler aus aller Welt durch eine virtuelle Umgebung miteinander verbunden."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "DEFAULT"
         }
        }
       ],
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      },
       "options": [
        {
         "label": {
@@ -113,36 +181,60 @@
       "message": {
        "orig": "Now, CrossWorlds is like an MMO, just with one striking difference.",
        "transl": "CrossWorlds ist wie ein MMO, mit einem entscheidenden Unterschied."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "The world of this game is not virtual.\\. It is real.",
        "transl": "Die Welt dieses Spiels ist nicht virtuell.\\. Sie ist real."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "All players are remotely connected to this world through special avatars.",
        "transl": "Alle Spieler sind durch spezielle Avatare mit dieser Welt verbunden."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "These avatars have a physical form and are tightly connected to all 5 senses of the player.",
        "transl": "Diese Avatare haben eine physische Gestalt und sind eng mit allen fünf Sinnen des Spielers verbunden."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "And you, Lea, are currently logged into this game as well.",
        "transl": "Und du, Lea, bist auch gerade in diesem Spiel eingeloggt."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      null,
@@ -150,84 +242,151 @@
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Oh, me?\\. No, I'm not a player.\\. I just work here!",
        "transl": "Oh, ich?\\. Nee, ich bin keine Spielerin.\\. Ich arbeite hier nur!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GRIN"
       }
      },
      {
       "message": {
        "orig": "In fact, you're the only avatar on this whole ship.",
        "transl": "Um genau zu sein, bist du der einzige Avatar hier auf dem ganzen Schiff."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "UP"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "That is correct.\\. This cargo ship belongs to the maintenance staff of CrossWorlds.",
        "transl": "Das stimmt.\\. Dieses Frachtschiff gehört zum Wartungspersonal von CrossWorlds."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The actual game takes place in the land you see over there - the Playground.",
        "transl": "Das eigentliche Spiel findet auf dem Festland dort drüben statt - auf dem \\c[3]Spielplatz\\c[0]."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "The reason you are here, Lea, is because you are not a regular player.",
        "transl": "Der Grund, warum du hier bist, Lea, ist, dass du keine reguläre Spielerin bist."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "You have lost your memory and we are trying to recover it.",
        "transl": "Du hast dein Gedächtnis verloren und wir versuchen, es wiederherzustellen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "You see, you have been in this game before.",
        "transl": "Du musst wissen, dass dies nicht dein erster Besuch in diesem Spiel ist."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Being logged into this game, there is a chance you might remember your past.",
        "transl": "Es besteht die Chance, dass du dich durch das Spiel an deine Vergangenheit erinnerst."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "And that is why we will try to get you into the real Playground soon.",
        "transl": "Und deswegen versuchen wir, dich so schnell wie möglich auf den \\c[3]Spielplatz\\c[0] zu bringen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "Yeah, in fact you'll be going to that glass palace of a city over there!",
        "transl": "Genau! Und die Stadt da, die wie ein Glaspalast aussieht, is' dein Ziel!"
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "GRIN"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.carla",
+       "expression": "WHISTLING"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
+      }
+     },
      {
       "message": {
        "orig": "That's Rhombus Square. It's where all players start.",
        "transl": "Das ist Rhombus Square. Dort starten alle Spieler."
+      },
+      "person": {
+       "person": "main.carla",
+       "expression": "SMILE"
       }
      }
     ]

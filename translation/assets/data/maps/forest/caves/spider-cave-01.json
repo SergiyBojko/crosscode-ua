@@ -275,6 +275,10 @@
            "message": {
             "orig": "We have to fight now? Please just let it be spiders...",
             "transl": "Wir sollen kämpfen? Bitte lass es nur Spinnen sein..."
+           },
+           "person": {
+            "person": "main.emilie",
+            "expression": "BROKEN"
            }
           },
           {
@@ -283,6 +287,10 @@
              "message": {
               "orig": "Now that's a plea I never imagined hearing...",
               "transl": "Uff, das nenne ich mal eine verzweifelte Bitte..."
+             },
+             "person": {
+              "person": "main.glasses",
+              "expression": "EXHAUSTED"
              }
             }
            ],
@@ -293,6 +301,10 @@
                "message": {
                 "orig": "Emilie, please. No spiders, either!",
                 "transl": "Emilie, bitte. Auch keine Spinnen!"
+               },
+               "person": {
+                "person": "antagonists.sidekick",
+                "expression": "SURPRISED"
                }
               }
              ]
@@ -439,7 +451,12 @@
           }
          ]
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         null,
         null,
         null,
@@ -508,6 +525,10 @@
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -641,11 +662,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "...Why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      null,
@@ -653,11 +683,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "...Sorry!",
        "transl": "... Вибач!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      null,

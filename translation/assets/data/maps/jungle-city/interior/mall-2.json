@@ -21,12 +21,26 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "basin.male-brown",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hello, \\v[lore.title.seeker].\\. Need some equipment on this rainy day?",
           "transl": "Hallo, Seeker.\\. Vielleicht etwas neue Ausrüstung an diesem regnerischen Tag?"
+         },
+         "person": {
+          "person": "basin.male-brown",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -47,24 +61,46 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "basin.female-umbrella",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I'm sorry dear customer, but Umbrella Inc. is currently experiencing a \\..\\..\\.. sort of outbreak.",
          "transl": "Es tut mir leid, aber Umbrella Inc. hat gerade eine Art\\..\\..\\.. Ausbruch zu bewältigen.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "basin.female-umbrella",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "In order to avoid any residents from getting inf... \\.\\.\\.from having a bad time, we have closed off access to the third floor.",
          "transl": "Um zu verhindern, dass die Bewohner sich anste...\\.\\.\\. äh, unnötig Sorgen machen, bleibt der 2. Stock bis auf weiteres geschlossen."
+        },
+        "person": {
+         "person": "basin.female-umbrella",
+         "expression": "DEFAULT"
         }
        }
       ]

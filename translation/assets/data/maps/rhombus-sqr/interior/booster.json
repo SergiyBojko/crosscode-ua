@@ -30,80 +30,154 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Welcome to the \\c[3]Boost Lounge\\c[0], Seeker!",
           "transl": "Willkommen in der \\c[3]Booster Lounge\\c[0], Seeker!"
+         },
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Here you can acquire the Booster Item introduced in Version 1.35-1 of CrossWorlds.",
           "transl": "Hier kann man die Booster Items kaufen, welche in Version 1.35-1 eingeführt wurden."
+         },
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "As this is your first visit here, allow me to explain!",
           "transl": "Da dies dein erster Besuch ist, werde ich es dir erklären."
+         },
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
          }
         },
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "These Traders behind me hold a\\c[3] Booster Add-On\\c[0] for each one of the major areas.",
           "transl": "Diese Händler hinter mir haben für jedes größere Gebiet ein \\c[3]Booster Add-On\\c[0]."
+         },
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Once acquired and turned on, \\c[3]enemies in the affected area will become much stronger\\c[0].",
           "transl": "Sobald man es einschaltet, werden \\c[3]Gegner in den betroffenen Gebieten um einiges stärker\\c[0]. "
+         },
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "They will also \\c[3]drop rare gem stones used in various trading offers\\c[0] around \\v[area.rhombus-sqr.name].",
           "transl": "Sie werden auch \\c[3]seltene Edelsteine\\c[0] hinterlassen, mit welchen man \\c[3]in Rhombus Square handeln\\c[0] kann."
+         },
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "However, each trader requires a \\c[3]legendary item\\c[0] that can be \\c[3]found in the affected area\\c[0].",
           "transl": "Jeder Händler setzt jedoch ein \\c[3]legendäres Item\\c[0] voraus, welches in den \\c[3]jeweiligen Gebieten gefunden werden kann\\c[0]."
+         },
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "They are very well hidden! Try communicating with other players in order to locate them!",
           "transl": "Und die sind sehr gut versteckt! Tausche dich mit anderen Spielern aus, um sie zu finden!"
+         },
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Good Luck and happy hunting, Seeker!",
           "transl": "Viel Glück und Spaß beim Jagen, Seeker!"
+         },
+         "person": {
+          "person": "advisors.man-tall-gray",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -112,6 +186,10 @@
            "message": {
             "orig": "Thanks!",
             "transl": "Дякую!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXCITED"
            }
           }
          ],
@@ -120,6 +198,10 @@
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXCITED"
            }
           }
          ]
@@ -129,24 +211,46 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Welcome to the \\c[3]Boost Lounge\\c[0], Seeker!",
          "transl": "Willkommen in der \\c[3]Booster Lounge\\c[0], Seeker!"
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Here you can acquire the \\c[3]Booster Items\\c[0] introduced in Version 1.35-1 of CrossWorlds.",
          "transl": "Hier kann man die Booster Items kaufen, welche in Version 1.35-1 eingeführt wurden."
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Do you need a refresher on how to acquire and use Booster Items?",
          "transl": "Soll ich dir noch einmal erklären, wie man Booster Items erhält und einsetzt?"
+        },
+        "person": {
+         "person": "advisors.man-tall-gray",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -155,56 +259,108 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          null,
          null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "These Traders behind me, hold a\\c[3] Booster Add-On\\c[0] for each one of the major areas.",
            "transl": "Diese Händler hinter mir haben für jedes größere Gebiet ein \\c[3]Booster Add-On\\c[0]."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Once acquired and turned on, \\c[3]enemies in the affected area will become much stronger\\c[0].",
            "transl": "Sobald man es einschaltet, werden \\c[3]Gegner in den betroffenen Gebieten um einiges stärker\\c[0]. "
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "They will also \\c[3]drop rare gem stones used in various trading offers\\c[0] around \\v[area.rhombus-sqr.name].",
            "transl": "Sie werden auch \\c[3]seltene Edelsteine\\c[0] hinterlassen, mit welchen man \\c[3]in Rhombus Square handeln\\c[0] kann."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ASTONISHED"
           }
          },
          null,
          null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "However each trader requires a \\c[3]legendary item\\c[0] that can be \\c[3]found in the affected area\\c[0].",
            "transl": "Jeder Händler setzt jedoch ein \\c[3]legendäres Item\\c[0] voraus, welches in den \\c[3]jeweiligen Gebieten gefunden werden kann\\c[0]."
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "They are very well hidden! Try communicating with other players in order to locate them!",
            "transl": "Und die sind sehr gut versteckt! Tausche dich mit anderen Spielern aus, um sie zu finden!"
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Good Luck and happy hunting, Seeker!",
            "transl": "Viel Glück und Spaß beim Jagen, Seeker!"
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -213,6 +369,10 @@
             "message": {
              "orig": "Thanks!",
              "transl": "Дякую!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "EXCITED"
             }
            }
           ],
@@ -221,6 +381,10 @@
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "EXCITED"
             }
            }
           ]
@@ -231,12 +395,20 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Good Luck and happy hunting, Seeker!",
            "transl": "Viel Glück und Spaß beim Jagen, Seeker!"
+          },
+          "person": {
+           "person": "advisors.man-tall-gray",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -245,6 +417,10 @@
             "message": {
              "orig": "Thanks!",
              "transl": "Дякую!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "EXCITED"
             }
            }
           ],
@@ -253,11 +429,19 @@
             "message": {
              "orig": "...!",
              "transl": "...!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "EXCITED"
             }
            }
           ]
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        },
         "options": [
          {
           "label": {

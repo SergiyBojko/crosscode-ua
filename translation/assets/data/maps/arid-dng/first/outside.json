@@ -95,48 +95,97 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "W-Where are we...? Is this even still the playground?",
        "transl": "W-Wo sind wir...? Gehört das noch zum Spielplatz?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SURPRISED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Lea, please hurry! Run towards the sea, somebody will pick you up!",
        "transl": "Lea, bitte beeilt euch! Lauft Richtung Meer, ihr werdet dort abgeholt!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SURPRISED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "This way? You're sure?",
        "transl": "Hier lang? Bist du sicher?"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WONDERING"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
@@ -157,41 +206,81 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SHOCKED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "Lea...\\. I can't move...",
        "transl": "Lea...\\. Ich kann mich nicht bewegen..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "...Why?!",
        "transl": "... Чому?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SHOCKED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "No matter what I do... I... I just can't move...",
        "transl": "Egal, was ich mache... Ich... Ich kann mich einfach nicht bewegen..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "...Why...",
        "transl": "... Чому..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "Is this some bug or something?!",
        "transl": "Ist das ein Bug oder so was?!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      null,
@@ -205,18 +294,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOUT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "WHY?!?",
        "transl": "ЧОМУ?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOUT"
       }
      },
      {
       "message": {
        "orig": "Lea please... this won't go anywhere.",
        "transl": "Lea, bitte... Das führt doch zu nichts..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SHOCKED"
       }
      },
      null,
@@ -233,82 +340,150 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
+      }
+     },
      {
       "message": {
        "orig": "Somebody must know their way around here!",
        "transl": "Da kennt sich aber jemand verflixt gut aus!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
       }
      },
      {
       "message": {
        "orig": "It makes us wonder who exactly is leading the way.",
        "transl": "Wir fragen uns, wer genau euch hier eigentlich den Weg weist."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "TOWARD_TALK"
       }
      },
      {
       "message": {
        "orig": "Alas! This is as far as you'll be going!",
        "transl": "Doch genug jetzt! Hier endet eure Reise!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      },
      {
       "message": {
        "orig": "Your friend is now under our full control.",
        "transl": "Dein Freund befindet sich nun in unserer Gewalt."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "CONDESCENDING"
       }
      },
      {
       "message": {
        "orig": "We disabled his movement. He can be relocated at will, shall it be required.",
        "transl": "Wir haben seine Bewegung geblockt. Wir können ihn aber jederzeit wieder aktivieren, sollte es erforderlich sein."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "TOWARD_TALK"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "...Why?!",
        "transl": "... Чому?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      {
       "message": {
        "orig": "You leave us no choice.",
        "transl": "Du lässt uns keine Wahl."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
       }
      },
      {
       "message": {
        "orig": "His very fate rests in our hands!",
        "transl": "Sein Schicksal liegt in unseren Händen!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "DOWN_TALK"
       }
      },
      {
       "message": {
        "orig": "If his well being is of your concern, you'd be wise to obey and stop this escape at once.",
        "transl": "Wenn dir etwas an ihm liegt, wäre es weise, dich zu fügen und die Flucht aufzugeben."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "TOWARD_TALK"
       }
      },
      {
       "message": {
        "orig": "...Why...",
        "transl": "... Чому..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PANIC"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PONDERING"
+      }
+     },
      {
       "message": {
        "orig": "...Lea...",
        "transl": "... Лія..."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PONDERING_NORM"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "PANIC"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PANIC"
       }
      },
      null,
@@ -318,6 +493,10 @@
       "message": {
        "orig": "GET AWAY ALREADY!",
        "transl": "VERSCHWINDE ENDLICH!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      null,
@@ -326,6 +505,10 @@
       "message": {
        "orig": "...?!",
        "transl": "...?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
       }
      },
      null,
@@ -334,6 +517,10 @@
       "message": {
        "orig": "THERE IS NO POINT IN WAITING FOR ME! RUN!",
        "transl": "ES HAT KEINEN SINN, AUF MICH ZU WARTEN! LAUF!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      null,
@@ -342,6 +529,10 @@
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE_PANIC"
       }
      },
      null,
@@ -350,42 +541,76 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE2"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "PANIC"
+      }
+     },
      {
       "message": {
        "orig": "Lea...",
        "transl": "Лія..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE2"
       }
      },
      {
       "message": {
        "orig": "There is nothing I can do about Lukas.",
        "transl": "Es gibt nichts, was ich für Lukas tun kann."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE2"
       }
      },
      {
       "message": {
        "orig": "I am sorry.",
        "transl": "Es tut mir leid."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "COMPLEX"
       }
      },
      {
       "message": {
        "orig": "We have to escape on our own!",
        "transl": "Wir müssen ohne ihn verschwinden!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE1"
       }
      },
      {
       "message": {
        "orig": "It is our only option left!",
        "transl": "Das ist die einzige Option, die uns noch bleibt!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "INTENSE1"
       }
      },
      {
       "message": {
        "orig": "...Why...",
        "transl": "... Чому..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "COMPLEX"
       }
      },
      null,
@@ -394,12 +619,21 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PONDERING"
+      }
+     },
      null,
      {
       "message": {
        "orig": "RUN ALREADY!",
        "transl": "NUN LAUF SCHON!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      null,
@@ -408,15 +642,28 @@
       "message": {
        "orig": "GO!!!",
        "transl": "LOS!!!!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PANIC"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "COMPLEX"
+      }
+     },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "COMPLEX"
       }
      },
      null,
@@ -428,6 +675,10 @@
       "message": {
        "orig": "Stop right there!!",
        "transl": "Bleib stehen!!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SHOUT"
       }
      },
      null,
@@ -468,17 +719,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
+      }
+     },
      {
       "message": {
        "orig": "You keep pursuing this fruitless endeavor...",
        "transl": "Du jagst noch immer der vergeblichen Hoffnung hinterher..."
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "FROWN"
       }
      },
      {
       "message": {
        "orig": "There is no escape from this place. Not for avatars like you!",
        "transl": "Von diesem Ort gibt es kein Entrinnen. Nicht für Avatare wie dich!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "SHOUT"
       }
      },
      {
@@ -502,26 +766,48 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.captain",
+       "expression": "STERN_GLASS"
+      }
+     },
      {
       "message": {
        "orig": "Still not very explosion proof, I see!",
        "transl": "Noch immer anfällig für Explosionen, wie ich sehe!"
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "PLOTTING_GLASS"
       }
      },
      {
       "message": {
        "orig": "I'm here to fetch the lass!",
        "transl": "Ich bin hier, um die Deern mitzunehmen!"
+      },
+      "person": {
+       "person": "main.captain",
+       "expression": "SCEPTICAL_GLASS"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "BROKEN"
+      }
+     },
      {
       "message": {
        "orig": "No! Not YOU again!!",
        "transl": "Nein! Nicht DU schon wieder!!"
+      },
+      "person": {
+       "person": "antagonists.designer",
+       "expression": "BROKEN"
       }
      }
     ]

@@ -40,6 +40,12 @@
     "condAnims": [
      {
       "interact": {
+       "0": {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        "1": {
         "text": {
          "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
@@ -48,7 +54,12 @@
        },
        "2": {
         "0": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
+          }
+         },
          null,
          null,
          {
@@ -58,6 +69,10 @@
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -78,7 +93,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "Test sequence status: \\c[2]ready\\c[0].\n\\c[1]Start test sequence\\c[0]?",
@@ -87,7 +107,12 @@
         },
         {
          "0": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
+           }
+          },
           null,
           null,
           {
@@ -104,7 +129,12 @@
           }
          ],
          "1": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
+           }
+          },
           {
            "text": {
             "orig": "Completion of test sequence is \\c[3]required\\c[0] in order to access western testing area.",
@@ -115,9 +145,17 @@
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
+         },
          "options": [
           {
            "label": {
@@ -138,6 +176,12 @@
      },
      {
       "interact": {
+       "0": {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        "1": {
         "text": {
          "orig": "Bridge Elevator: \\c[1]disabled\\c[0].\nDo you want to enable the elevator?",
@@ -146,7 +190,12 @@
        },
        "2": {
         "0": [
-         null,
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "PROUD"
+          }
+         },
          null,
          null,
          {
@@ -156,6 +205,10 @@
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
+        },
         "options": [
          {
           "label": {
@@ -176,7 +229,12 @@
         "transl": "Bildschirm"
        },
        "event": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "text": {
           "orig": "Test sequence status: \\c[2]completed\\c[0].\nPerformance score: \\c[2]43.5%\\c[0].",
@@ -195,6 +253,10 @@
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         }
        ]

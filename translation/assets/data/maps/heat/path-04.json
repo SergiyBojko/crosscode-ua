@@ -215,24 +215,40 @@
       "message": {
        "orig": "So you see...\\. We had this team meeting today.",
        "transl": "Also...\\. Wir hatten da heute so eine Gruppenbesprechung."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "And everyone was supposed to do their task before then.",
        "transl": "Und jeder sollte eigentlich seine Aufgabe bis dahin fertig haben."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "The thing is, I didn't know about it.",
        "transl": "Die Sache ist die: Ich wusste nichts davon."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -248,6 +264,10 @@
         "message": {
          "orig": "What a nice, perfectly normal cactus.",
          "transl": "Was für ein schöner, gewöhnlicher Kaktus."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "AWAY"
         }
        }
       ],
@@ -258,6 +278,10 @@
           "message": {
            "orig": "Oh, a cactus. That's exactly how a cactus is supposed to look like.",
            "transl": "Oh, ein Kaktus. Genau so hat ein Kaktus auszusehen."
+          },
+          "person": {
+           "person": "main.glasses",
+           "expression": "SMILE"
           }
          }
         ],
@@ -266,6 +290,10 @@
           "message": {
            "orig": "Oh! Look at this perfectly regular cactus. Isn't it nice?",
            "transl": "Oh! Schau dir diesen Bilderbuch-Kaktus an! Ist er nicht schön?"
+          },
+          "person": {
+           "person": "main.sergey",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -276,6 +304,10 @@
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -288,6 +320,10 @@
       "message": {
        "orig": "They really got...\\. creative with those rock shapes.",
        "transl": "Wirklich...\\. sehr kreative Steinformationen hier."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -326,102 +362,177 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Whoa!",
        "transl": "Whoa!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Ah...",
        "transl": "Ah..."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That...\\. thing sure was unexpected, wasn't it?",
        "transl": "Mit so einem...\\. Ding hast du hier bestimmt nicht gerechnet, was?"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "They really didn't shy away from reusing all the assets they got their hands on, huh?",
        "transl": "Die waren sich echt nicht zu schade, alles zu verwursten, was sie kriegen konnten, höh?"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Exploding...\\. kittens...\\. and all that.",
        "transl": "Explodierende...\\. Kätzchen...\\. und das ganze Zeugs."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "Phew, but that was definitely worth it, don't you think?",
        "transl": "Puh! Aber das war's definitiv wert, findest du nicht?"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "It's just a shame you don't get a proper reward for all the trouble.",
        "transl": "Ein Jammer, dass man keine richtige Belohnung für die ganze Mühe bekommt."
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "That's what you get for playing unofficial content, I guess!",
        "transl": "Aber das hat man wohl davon, wenn man inoffizielle Inhalte spielt!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Allow me to at least give you a little something for your help!",
        "transl": "Lass mich dir wenigstens eine Kleinigkeit für deine Hilfe geben!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -429,48 +540,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "I gotta say, you've been a great partner for glitching through the game!",
        "transl": "Ich muss schon sagen, das hat richtig Laune gemacht, sich mit dir durchs Spiel zu glitchen!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "If I ever hear of another hidden area, I'll let you know!",
        "transl": "Wenn ich von irgendwelchen anderen versteckten Gebieten höre, sage ich dir Bescheid!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Now then...\\. I gotta go.\\. Until next time, Lea!",
        "transl": "Also dann...\\. Ich muss los.\\. Bis zum nächsten Mal, Lea!"
+      },
+      "person": {
+       "person": "guests.kit",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
@@ -490,12 +639,20 @@
       "message": {
        "orig": "Seriously Lea, never do this kind of thing again.\\. Please.",
        "transl": "Oh Mann... Mach so etwas bitte nie wieder, Lea.\\. Ich mein's ernst."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "WHISTLING"
       }
      }
     ]
@@ -520,73 +677,126 @@
       "name": {
        "orig": "Ey'leet",
        "transl": "Ey'leet"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "More wonderful machinery destroyed.\\. Such shame, but also showing superiority of \\v[lore.title.seeker] skill.",
        "transl": "Weitere wunderbare Maschinen zerstört.\\. Was für Schande, aber zeigen auch Überlegenheit der Fähigkeiten von Seeker."
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Praise no reason for dilly-dally, human!\\. Every second could be spend better with improved machine calculating!",
        "transl": "Lob kein Grund für Rumtrödeln, Mensch!\\. Jede Sekunde mit besserer Maschinenberechnung genutzt werden könnte!"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Back to mission.\\. Some location device dropped.\\. You picked up?",
        "transl": "Aber wieder an Arbeit.\\. Ortungsgerät verloren gegangen.\\. Du haben aufgesammelt?"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Good!\\. Secret place of special parts must be near.",
        "transl": "Gut!\\. Geheimort von Spezialteilen muss in Nähe sein."
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Follow beeping of smart device.",
        "transl": "Folge Piepen von schlaue Gerät."
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Forthgoing, \\v[lore.title.seeker]!",
        "transl": "Weiter gehen's, Seeker!"
+      },
+      "person": {
+       "person": "baki.male-steam1337",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Bye.",
        "transl": "Бувай."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      }
     ]

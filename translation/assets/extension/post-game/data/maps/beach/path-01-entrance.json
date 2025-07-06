@@ -725,6 +725,10 @@
         "message": {
          "orig": "Here we are!\\. A new area for us Seekers to explore!",
          "transl": "Da sind wir!\\. Ein neues Gebiet für uns Seeker zum Erkunden!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "DOWN"
         }
        }
       ]
@@ -735,6 +739,10 @@
         "message": {
          "orig": "Woah!\\. More beach!\\. Awesome!",
          "transl": "Boah!\\. Mehr Strand!\\. Fantastisch!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "HAPPY"
         }
        }
       ]
@@ -745,6 +753,10 @@
         "message": {
          "orig": "Seems like a fancy vacation spot, just filled with weird creatures.",
          "transl": "Sieht aus wie ein schicker Urlaubsort, nur eben voller seltsamer Kreaturen."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "WONDERING"
         }
        }
       ]
@@ -755,6 +767,10 @@
         "message": {
          "orig": "This almost feels like Instatainment is trying to expand into the resort business.",
          "transl": "Ich habe fast das Gefühl, als würde Instatainment versuchen, in das Resort-Geschäft zu expandieren."
+        },
+        "person": {
+         "person": "main.schneider",
+         "expression": "SKEPTICAL"
         }
        }
       ]
@@ -767,12 +783,20 @@
           "message": {
            "orig": "Really reminds me of our last vacation, right Polly?",
            "transl": "Erinnert mich echt an unseren letzten Urlaub, oder, Polly?"
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "Right... it's not that far off.",
            "transl": "Stimmt... Kommt dem schon recht nahe."
+          },
+          "person": {
+           "person": "antagonists.fancyguy",
+           "expression": "PONDERING"
           }
          }
         ],
@@ -781,6 +805,10 @@
           "message": {
            "orig": "Really reminds me of my last vacation with Polly...",
            "transl": "Erinnert mich echt an meinen letzten Urlaub mit Polly..."
+          },
+          "person": {
+           "person": "antagonists.sidekick",
+           "expression": "SMILE"
           }
          }
         ]
@@ -793,6 +821,10 @@
         "message": {
          "orig": "Maybe it's just me, but doesn't all that water seem...\\. dangerous?",
          "transl": "Geht es nur mir so oder sieht all das Wasser nicht irgendwie...\\. gefährlich aus?"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "DOWN"
         }
        }
       ]
@@ -816,36 +848,66 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Dear Seeker, welcome to \\c[3]Azure Archipelago\\c[0]!",
           "transl": "Liebe Seeker, willkommen im \\c[3]Azur-Archipel\\c[0]!"
+         },
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "This location has just recently been discovered and made fully accessible to Operation Trackwalker!",
           "transl": "Dieser Ort wurde erst kürzlich entdeckt und für die Operation Pfadläufer vollständig zugänglich gemacht!"
+         },
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Your objective is to explore the area and reach the \\c[3]temple\\c[0] located in the \\c[3]center of the archipelago\\c[0].",
           "transl": "Euer Ziel ist es, das Gebiet zu erkunden und den \\c[3]Tempel\\c[0] zu erreichen, der sich in der \\c[3]Mitte des Archipels\\c[0] befindet."
+         },
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Be prepared as the Track of the Ancients holds another challenge for those reaching their destination.",
           "transl": "Bereit euch gut vor, denn der Pfad der Ahnen hält eine weitere Herausforderung für diejenigen bereit, die ihr Ziel erreichen."
+         },
+         "person": {
+          "person": "advisors.female-tall-blond",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         null,
@@ -860,18 +922,36 @@
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Dear Seeker, welcome to \\c[3]Azure Archipelago\\c[0]!",
          "transl": "Liebe Seeker, willkommen im \\c[3]Azur-Archipel\\c[0]!"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Good luck on reaching the \\c[3]temple\\c[0] in the center of the archipelago!",
          "transl": "Viel Glück beim Erreichen des \\c[3]Tempels\\c[0] in der Mitte des Archipels!"
+        },
+        "person": {
+         "person": "advisors.female-tall-blond",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -889,6 +969,10 @@
         "message": {
          "orig": "Another checkpoint!\\. Where is the treasure?!\\. Ancients, I demand a treasure!!",
          "transl": "Ein weiterer Kontrollpunkt!\\. Wo ist der Schatz?!\\. Ihr Ahnen, ich verlange einen Schatz!!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SHOUTING"
         }
        }
       ],
@@ -897,6 +981,10 @@
         "message": {
          "orig": "Another checkpoint?!\\. We just went all the way back to where we started!",
          "transl": "Noch ein Kontrollpunkt?!\\. Wir sind wieder da, wo wir angefangen haben!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        }
       ],
@@ -905,6 +993,10 @@
         "message": {
          "orig": "So...\\. this is it?\\. Right back to the entrance?",
          "transl": "Das...\\. war es also?\\. Direkt zurück zum Eingang?"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EMBARRASSED"
         }
        }
       ],
@@ -913,6 +1005,10 @@
         "message": {
          "orig": "Another checkpoint...\\. Please, no more checkpoints.",
          "transl": "*stöhn* Noch'n Kontrollpunkt...\\. Ich kann die nicht mehr sehen, ey..."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "PISSED"
         }
        }
       ]
@@ -929,6 +1025,10 @@
         "message": {
          "orig": "Weeee diiiiiid iiiiiit!\\. Finally!!",
          "transl": "Geschaaaaaafft!\\. Endlich haben wir es geschafft!!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "HAPPY"
         }
        }
       ],
@@ -937,6 +1037,10 @@
         "message": {
          "orig": "It seems we just beat the king of all jumping puzzles!\\. Let's hope the reward is worth it!",
          "transl": "Sieht so aus, als hätten wir gerade die Mutter aller Sprungrätsel gelöst! Hoffen wir, dass die Belohnung es wert ist!"
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "CONTENT"
         }
        }
       ],
@@ -945,6 +1049,10 @@
         "message": {
          "orig": "Treasure...\\. we finally found...\\. the treasure!",
          "transl": "Der Schatz...\\. Wir haben endlich den Schatz gefunden!"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "BLANK"
         }
        }
       ],
@@ -953,6 +1061,10 @@
         "message": {
          "orig": "Finally!\\. Seriously, we just backtracked the whole fricking area just to get to this treasure!",
          "transl": "Endlich!\\. Und dafür mussten wir den ganzen verfluchten Weg zurückverfolgen!"
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "RANTING"
         }
        }
       ]
@@ -969,6 +1081,10 @@
         "message": {
          "orig": "This treasure can't possibly be worth the trouble to get here.",
          "transl": "Dieser Schatz kann unmöglich die Mühe wert sein."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SUSPICIOUS"
         }
        }
       ],
@@ -977,6 +1093,10 @@
         "message": {
          "orig": "Seriously!\\. This took forever!",
          "transl": "Jetzt mal im Ernst!\\. Das hat ewig gedauert!"
+        },
+        "person": {
+         "person": "main.glasses",
+         "expression": "EXHAUSTED"
         }
        }
       ],
@@ -985,6 +1105,10 @@
         "message": {
          "orig": "Alas, the Ancients offer us a reward hopefully worth all the struggle.",
          "transl": "Die Belohnung der Ahnen...\\. Ach! Sei sie doch nur der ganzen Mühsal wert."
+        },
+        "person": {
+         "person": "antagonists.fancyguy",
+         "expression": "SUSPICIOUS"
         }
        }
       ]
@@ -1035,18 +1159,36 @@
      {
       "event": {
        "shop": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Here we offer a small selection of \\c[3]new weapons and armor\\c[0].",
           "transl": "Hier bieten wir eine kleine Auswahl an \\c[3]neuen Waffen und Rüstungen\\c[0] feil."
+         },
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "For more advanced equipment, revisit our \\c[3]main store\\c[0] in the \\c[3]Shopping District of Rhombus Square\\c[0].",
           "transl": "Für fortgeschrittenere Ausrüstung besuche unser \\c[3]Hauptgeschäft\\c[0] im \\c[3]Einkaufsviertel von Rhombus Square\\c[0]."
+         },
+         "person": {
+          "person": "rookie-harbor.man-tall-mustache",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -1072,11 +1214,20 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "... H-hi?",
           "transl": "... H-Hi?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         null,
@@ -1097,6 +1248,10 @@
          "message": {
           "orig": "... S-sorry?",
           "transl": "... S-Sorry?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SCARED"
          }
         },
         null,
@@ -1125,11 +1280,20 @@
         },
         {
          "accepted": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
@@ -1140,11 +1304,20 @@
           }
          ],
          "declined": [
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
@@ -1157,6 +1330,10 @@
            "message": {
             "orig": "Sorry...",
             "transl": "Вибач..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXHAUSTED"
            }
           }
          ]
@@ -1171,11 +1348,20 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!\\. Meet!",
           "transl": "Hi!\\. Treffen!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         null,
@@ -1194,6 +1380,10 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
@@ -1212,6 +1402,10 @@
            "message": {
             "orig": "Where?",
             "transl": "Де?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
@@ -1224,6 +1418,10 @@
            "message": {
             "orig": "Why?",
             "transl": "Чому?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           },
           null,
@@ -1234,7 +1432,12 @@
           null,
           null,
           null,
-          null,
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "SHOCKED"
+           }
+          },
           {
            "text": {
             "orig": "And off we go!",
@@ -1245,6 +1448,10 @@
            "message": {
             "orig": "...!!!!!",
             "transl": "...!!!!!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHOCKED"
            }
           }
          ],
@@ -1253,6 +1460,10 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
@@ -1271,9 +1482,17 @@
            "message": {
             "orig": "Bye...",
             "transl": "Бувай..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "WHISTLING"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         },
          "options": [
           {
            "label": {
@@ -1314,11 +1533,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
@@ -1331,12 +1559,20 @@
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Lea!",
        "transl": "Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
@@ -1350,6 +1586,10 @@
       "message": {
        "orig": "... Bye.",
        "transl": "... Бувай."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMILE"
       }
      },
      null,
@@ -1366,11 +1606,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      }
     ]

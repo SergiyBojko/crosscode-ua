@@ -517,40 +517,70 @@
     "npcStates": [
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Zla'nyoro",
          "transl": "Zla'nyoro"
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "\\v[lore.title.seeker], day is hot and so is mood of the Shad.\\. If only evil beasts were gone.",
          "transl": "Seeker, Tag sein heiß wie Laune von Shad.\\. Wenn doch nur böse Biester weg wären."
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Zla'nyoro",
          "transl": "Zla'nyoro"
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "\\v[lore.title.seeker], thank you for defeating evil beasts.\\. Now Shad mood cooled down.",
          "transl": "Danke für Besiegen böse Biester, Seeker.\\. Laune von Shad wieder abgekühlt."
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Weather still hot, however.\\. Human cooling box would be a useful.",
          "transl": "Wetter trotzdem noch heiß.\\. Kühlbox von Mensch jetzt nützlich wären."
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -558,89 +588,150 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Zla'nyoro",
           "transl": "Zla'nyoro"
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "\\v[lore.title.seeker], thank you for defeating evil beasts.\\. Now Shad mood cooled down.",
           "transl": "Danke für Besiegen böse Biester, Seeker.\\. Laune von Shad wieder abgekühlt."
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Weather still hot, however.\\. Human cooling box would be a useful.",
           "transl": "Wetter trotzdem noch heiß.\\. Kühlbox von Mensch jetzt nützlich wären."
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hi!\\. Wait!",
           "transl": "Hi!\\. Warte!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Ohh, cooling boxes want become part of Shad village?\\. What a blessing!",
           "transl": "Ohh, Kühlboxen suchen neues zu Hause in Shad-Dorf?\\. Ahnen sei Dank!"
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Lea!",
           "transl": "Лія!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Mhm, but human devices need power, yes?\\. None of that in humble village.",
           "transl": "Mhm, aber Menschmaschine brauchen Strom, ja?\\. Wir nicht haben in unser bescheiden Dorf."
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "THINKING"
          }
         },
         {
          "message": {
           "orig": "Elder no like human powermachine.\\. But maybe my nephew Owo can find solution.",
           "transl": "Älteste mögen Menschmaschine nicht.\\. Aber Neffe Owo von mir vielleicht finden Lösung."
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "He smart shad, full of dream and aspire!\\. Even studied human science at coolleg in city!",
           "transl": "Er schlauer Shad, voll Traum und Tatendrang!\\. Sogar studiert Mänschen-Wissenschaft an Hohe Schule in Stadt."
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ASTONISHED"
          }
         },
         {
          "message": {
           "orig": "At day you can often find him in room of his, on hill to right of you!\\. Hope he help.",
           "transl": "Du finden ihn bei Tag in sein Zimmer, auf Hügel rechts von dir!\\. Hoffe, er dir helfen."
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -648,40 +739,70 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Zla'nyoro",
          "transl": "Zla'nyoro"
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "\\v[lore.title.seeker], talk to my nephew.\\. He smart and learned at humen school.",
          "transl": "Sprechen mit Neffe, Seeker.\\. Er schlau und gelernen hat auf Mänschen-Schule."
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "At day you can often find him in room of his, on hill to right of you!",
          "transl": "Du finden ihn bei Tag in sein Zimmer, auf Hügel rechts von dir!"
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Zla'nyoro",
          "transl": "Zla'nyoro"
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Nephew had idea?\\. Hurray!",
          "transl": "Neffe hat Idee?\\. Hurra!"
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -689,17 +810,30 @@
      null,
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Zla'nyoro",
          "transl": "Zla'nyoro"
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Nephew smart.\\. He pick good human machines for better life of Shad.",
          "transl": "Neffe schlau.\\. Er wählen gute Mänschen-Maschinen für besser Leben von uns Shad."
+        },
+        "person": {
+         "person": "baki.male-pink-tall",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -902,36 +1036,72 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "I can not trade with you human. Humans have made jungle sick.",
          "transl": "Ich nicht handeln mit Mensch. Mensch gemacht Dschungel krank."
+        },
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
      },
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "You may helped Shad, but I still not trust human!",
          "transl": "Du mögen geholfen Shad, ich aber noch nicht trauen Mensch!"
+        },
+        "person": {
+         "person": "baki.male-yellow-bald",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        }
       ]
@@ -955,19 +1125,36 @@
          "name": {
           "orig": "K'tara",
           "transl": "K'tara"
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "You've come!",
           "transl": "Du bist gekommen!"
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Quick, follow me.",
           "transl": "Kommt mit, schnell."
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -981,13 +1168,26 @@
          "name": {
           "orig": "K'tara",
           "transl": "K'tara"
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Oh, back already?",
           "transl": "Oh, schon zurück?"
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -996,12 +1196,20 @@
            "message": {
             "orig": "I saw you getting rid of the \\v[combat.name.minibosses/shockcat-black]s from here, thanks for that!",
             "transl": "Ich konnte von hier aus sehen, wie du die Schnurrken besiegt hast. Vielen Dank dafür!"
+           },
+           "person": {
+            "person": "jungle.female-albino",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           }
          ]
@@ -1010,12 +1218,20 @@
          "message": {
           "orig": "Did you find the key?",
           "transl": "Hast du den Schlüssel gefunden?"
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         null,
@@ -1029,55 +1245,96 @@
          "name": {
           "orig": "K'tara",
           "transl": "K'tara"
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Good. And it looks as sturdy as ever.",
           "transl": "Sehr gut. Sieht genauso unverwüstlich aus wie immer."
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Now we can sneak past the guards.",
           "transl": "Damit können wir uns an den Wachen vorbeischleichen."
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But we have to take a \\c[3]little detour first\\c[0].",
           "transl": "Aber vorher müssen wir einen \\c[3]kleinen Abstecher machen\\c[0]."
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "The hidden path we need to use is outside the village. ",
           "transl": "Der Schleichweg liegt außerhalb des Dorfes."
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Following the \\c[3]right path\\c[0] to the Grand Krys'kajo at \\c[3]Clinging River\\c[0] there's a small tree.",
           "transl": "Auf dem \\c[3]rechten Pfad\\c[0] zum Großen Krys'kajo steht am \\c[3]Schmiegenden Fluss\\c[0] ein kleiner Baum."
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Meet me there.",
           "transl": "Dort treffen wir uns."
+         },
+         "person": {
+          "person": "jungle.female-albino",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         }
        ]
@@ -1128,24 +1385,40 @@
       "message": {
        "orig": "This place is neat.",
        "transl": "Gefällt mir, der Ort hier."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "These Shads are experts in wooden constructions.",
        "transl": "Diese Shad sind echte Experten, wenn es um Holzbauten geht."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "Even with the fierce weather of the jungle, these bridges are said to remain stable for many years.",
        "transl": "Trotz des heftigen Wetters des Dschungels sollen diese Brücken noch viele Jahre stabil bleiben."
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      {
       "message": {
        "orig": "Amazing.",
        "transl": "Fantastisch."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SURPRISED"
       }
      }
     ]
@@ -1178,108 +1451,186 @@
       null,
       null,
       null,
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "name": {
         "orig": "Owo'kyari",
         "transl": "Owo'kyari"
+       },
+       "person": {
+        "person": "basin.shad-male-techie",
+        "expression": "DEFAULT"
        }
       },
       {
        "message": {
         "orig": "Yes, what is?",
         "transl": "Ja? Was geben's?"
+       },
+       "person": {
+        "person": "basin.shad-male-techie",
+        "expression": "DEFAULT"
        }
       },
       {
        "message": {
         "orig": "Hi...",
         "transl": "Привіт..."
+       },
+       "person": {
+        "person": "main.lea",
+        "expression": "ANNOYED"
        }
       },
       {
        "message": {
         "orig": "\\.\\.Ohh... A \\v[lore.title.seeker], huh?\\. What is special occasion?",
         "transl": "\\.\\.Ohh... Ein Seeker, höh?\\. Geben besonders Anlass?"
+       },
+       "person": {
+        "person": "basin.shad-male-techie",
+        "expression": "DEFAULT"
        }
       },
       {
        "message": {
         "orig": "...Lea.\\.\\. Meet!",
         "transl": "... Lea.\\.\\. Treffen!"
+       },
+       "person": {
+        "person": "main.lea",
+        "expression": "SURPRISED"
        }
       },
       {
        "message": {
         "orig": "Ah, uncle sent you because power is needed for fridging devices?\\. How full of wonder!",
         "transl": "Ah, Onkel dich schicken, weil Kühlgeräte Strom brauchen?\\. Welch Wunder!"
+       },
+       "person": {
+        "person": "basin.shad-male-techie",
+        "expression": "DEFAULT"
        }
       },
-      null,
+      {
+       "person": {
+        "person": "main.lea",
+        "expression": "DEFAULT"
+       }
+      },
       {
        "message": {
         "orig": "Yes, there no connection to human plant of power and chief won't ever allow dirty generator in village.",
         "transl": "Ja, es geben keine Verbindung zu Menschen-Kraftwerk und Chef niemals zulassen schmutzig Generator im Dorf."
+       },
+       "person": {
+        "person": "basin.shad-male-techie",
+        "expression": "DEFAULT"
        }
       },
       {
        "message": {
         "orig": "BUT, \\v[lore.title.seeker], I developed alternative!\\. Device powered by nature!",
         "transl": "ABER, Seeker, ich Alternative entwickelt!\\. Gerät laufen durch Natur!"
+       },
+       "person": {
+        "person": "basin.shad-male-techie",
+        "expression": "DEFAULT"
        }
       },
       {
        "message": {
         "orig": "...!",
         "transl": "...!"
+       },
+       "person": {
+        "person": "main.lea",
+        "expression": "ASTONISHED"
        }
       },
       {
        "message": {
         "orig": "Only developed one prototype however.\\. Need parts for more.\\. \\v[lore.title.seeker] help?",
         "transl": "Leider nur ein Prototyp bisher.\\. Brauchen Teile für mehr.\\. Seeker helfen?"
+       },
+       "person": {
+        "person": "basin.shad-male-techie",
+        "expression": "DEFAULT"
        }
       },
       {
        "message": {
         "orig": "[nods]",
         "transl": "[nickt]"
+       },
+       "person": {
+        "person": "main.lea",
+        "expression": "NOD"
        }
       },
       {
        "message": {
         "orig": "Good, good.\\. I will give you list.\\. \\c[3]Very precious metal\\c[0] is needed and some other things.",
         "transl": "Gut, gut.\\. Ich geben dir Liste.\\. Brauchen \\c[3]sehr hochwertig Metall\\c[0] und andere Sachen."
+       },
+       "person": {
+        "person": "basin.shad-male-techie",
+        "expression": "DEFAULT"
        }
       },
       {
        "message": {
         "orig": "\\c[3]\\v[item.281.name]\\c[0] is held by \\c[3]ghosts in local temples\\c[0], \\c[3]\\v[item.391.name]\\c[0] and \\c[3]\\v[item.409.name]\\c[0] can found in \\c[3]\\v[area.forest.name]\\c[0].",
         "transl": "\\c[3]Lebender Blitz\\c[0] haben \\c[3]Geister in nah gelegen Tempeln\\c[0], \\c[3]Kobaltkristall\\c[0] und \\c[3]Klebrige Spinnwebe\\c[0] finden auf \\c[3]Saphirgrat\\c[0]."
+       },
+       "person": {
+        "person": "basin.shad-male-techie",
+        "expression": "DEFAULT"
        }
       },
       {
        "message": {
         "orig": "...",
         "transl": "..."
+       },
+       "person": {
+        "person": "main.lea",
+        "expression": "SURPRISED_AWAY"
        }
       },
       {
        "message": {
         "orig": "[nods]",
         "transl": "[nickt]"
+       },
+       "person": {
+        "person": "main.lea",
+        "expression": "NOD"
        }
       },
       {
        "message": {
         "orig": "Good.\\. Come back when materials acquired.",
         "transl": "Gut.\\. Kommen wieder wenn Metarial gesammelt."
+       },
+       "person": {
+        "person": "basin.shad-male-techie",
+        "expression": "DEFAULT"
        }
       },
       {
        "message": {
         "orig": "Bye!",
         "transl": "Бувай!"
+       },
+       "person": {
+        "person": "main.lea",
+        "expression": "PROUD"
        }
       }
      ]
@@ -1299,23 +1650,40 @@
      null,
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Owo'kyari",
          "transl": "Owo'kyari"
+        },
+        "person": {
+         "person": "basin.shad-male-techie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Bring me material for more power machines.\\. First, there is need for \\c[3]very precious metal\\c[0].",
          "transl": "Bringen mir Metarial für mehr Maschinen.\\. \\c[3]Sehr hochwertig Metall\\c[0] dafür wichtig.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "basin.shad-male-techie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "\\c[3]\\v[item.281.name]\\c[0] is held by \\c[3]ghosts in local temples\\c[0].\\. \\c[3]\\v[item.391.name] and \\v[item.409.name]\\c[0] can found in \\c[3]\\v[area.forest.name]\\c[0].",
          "transl": "\\c[3]Lebender Blitz\\c[0] haben \\c[3]Geister in nah gelegen Tempeln\\c[0].\\. \\c[3]Kobaltkristall\\c[0] und \\c[3]Klebrige Spinnwebe\\c[0] finden auf \\c[3]Saphirgrat\\c[0]."
+        },
+        "person": {
+         "person": "basin.shad-male-techie",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1327,35 +1695,60 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Owo'kyari",
           "transl": "Owo'kyari"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "\\v[lore.title.seeker], you got all materials?",
           "transl": "Seeker, du haben alles Metarial?"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Excellent!\\. Now I can create more generator of power!\\. \\v[lore.title.seeker] just wait and prepare the awe!",
           "transl": "Fabelhaft!\\. Jetzt ich kann mehr Stromerzeuger bauen!\\. Seeker einfach warten und bereiten auf Staunen vor!"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Lea wait!",
           "transl": "Lea Warte!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         null,
@@ -1363,12 +1756,20 @@
          "message": {
           "orig": "Make engine time!",
           "transl": "Maschinenbauzeit!"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         null,
@@ -1392,71 +1793,120 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Owo'kyari",
           "transl": "Owo'kyari"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Work done, 3 generators ready!\\. Only power source missing!",
           "transl": "Fertig! Drei Generator bereit!\\. Nur noch Stromquelle fehlen!"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "How?",
           "transl": "Як?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Little charged furry creatures of course!\\. Called \\c[3]\\v[combat.name.jungle/shockcat]\\c[0] by you humens.",
           "transl": "Durch klein geladen Fell-Kreatur!\\. Mensch nennen \\c[3]\\v[combat.name.jungle/shockcat]\\c[0]."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "No worry, they will live long life and make for good and clean power source.\\. Now just need to catch some!",
           "transl": "Nicht sorgen müssen, sie werden lange Leben haben und für gut und sauber Stromquelle sorgen.\\. Jetzt müssen nur noch welche fangen!"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "But there is hookup, however!\\. Can't just take normal \\v[combat.name.jungle/shockcat], no, no.\\. Output not consistent.",
           "transl": "Geben aber Haken!\\. Können nicht nehmen normal Schockatz, nein, nein.\\. Abgabeleistung nicht konstant."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "But there be special ones in the jungle, that made of ideal attributes.\\. Just need to lure out.",
           "transl": "Geben aber Spezial-Art in Dschungel mit ideal Attribute.\\. Nur rauslocken müssen."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Already found ideal spots with them in the infested forest.\\. Meet at \\c[3]Lost Lookout\\c[0] in Northeast part!",
           "transl": "Ich schon ideal Fangort im verseuchte Wald gefunden.\\. Wir treffen an \\c[3]Verlorener Ausguck\\c[0] in Nordosten!"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye.",
           "transl": "Бувай."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         }
        ]
@@ -1466,11 +1916,20 @@
      {
       "event": {
        "quest": [
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Owo'kyari",
           "transl": "Owo'kyari"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1478,24 +1937,40 @@
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "\\v[lore.title.seeker], what day it was!\\. With 3 new generators Shad village now as powerful as never before.",
           "transl": "Was für Tag, Seeker!\\. Mit drei neue Generator Shad-Dorf so kraftgeladen wie nie zuvor."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         },
         {
          "message": {
           "orig": "Now things needed that actually use power.\\. But what?",
           "transl": "Nun brauchen Dinge, die mit Strom laufen.\\. Aber welche?"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1511,47 +1986,80 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "name": {
           "orig": "Owo'kyari",
           "transl": "Owo'kyari"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "name": {
           "orig": "Zla'nyoro",
           "transl": "Zla'nyoro"
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Owo, what this?",
           "transl": "Owo, was denn das?"
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Ah, uncle Zla.\\. We got more generators now.\\. Great power for all of Shad village now!",
           "transl": "Ah, Onkel Zla.\\. Wir nun haben mehr Generator.\\. Großkraft für ganze Shad-Dorf jetzt!"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Ohh, so we get useful humen machines to cool food and air?",
           "transl": "Ohh, wir bekommen also Mänsch-Maschine, um kühlen Essen und Luft?"
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Yes, those and more.\\. Now cool food and drinks all day, all year!",
           "transl": "Ja, das und mehr!\\. Von jetzt an Essen und Trinken kühl, ganze Tag und ganze Jahr!"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1559,6 +2067,10 @@
          "message": {
           "orig": "Hurray!\\. \\v[lore.title.seeker], go back to merchants in city and demand all the best machines!",
           "transl": "Hurra!\\. Seeker, gehen zurück zu Händler in Stadt und verlangen alle beste Maschinen!"
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1568,36 +2080,60 @@
          "message": {
           "orig": "Uncle, wait.\\. I will go and look at their things, so we get what needed.",
           "transl": "Onkel, warten.\\. Ich werden gehen und mir Dinge angucken, damit wir kriegen was wir brauchen."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Yes, true.\\. Owo smart Shad with high knowledge of human machines.\\. He will do fine.",
           "transl": "Ja, stimmen.\\. Owo schlau, mit viel Wissen über Mänsch-Maschinen.\\. Besser du machen das."
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "\\v[lore.title.seeker] already done much.\\. Just tell that Shad ready for trade.",
           "transl": "Seeker schon getan genug.\\. Nur sagen, dass Shad bereit für Handel."
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "And thank you for help.\\. Hope to welcome \\v[lore.title.seeker] back in improved village later!",
           "transl": "Und danke für Hilfe.\\. Hoffen, Seeker später besuchen hochmodern Dorf!"
+         },
+         "person": {
+          "person": "basin.shad-male-techie",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "I plan to open finest of shops with new power.\\. Please come back and honor with business then!",
           "transl": "Ich planen feinste Geschäft mit neue Strom.\\. Mich dann besuchen und beehren mit Geschäft!"
+         },
+         "person": {
+          "person": "baki.male-pink-tall",
+          "expression": "DEFAULT"
          }
         },
         null,
@@ -1605,6 +2141,10 @@
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         }
        ]
@@ -1612,40 +2152,70 @@
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Owo'kyari",
          "transl": "Owo'kyari"
+        },
+        "person": {
+         "person": "basin.shad-male-techie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Go back to human merchants and tell the tale of Shad Village being full of power!",
          "transl": "Gehen zurück zu Mensch-Händler und erzählen Geschichte von kraftgeladen Shad-Dorf!"
+        },
+        "person": {
+         "person": "basin.shad-male-techie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "New ways of cooperation between Shad and Human people of city possible now!\\. Hurray!",
          "transl": "Neue Wege für Zusammenarbeit von Shad und Mensch aus Stadt jetzt möglich!\\. Hurra!"
+        },
+        "person": {
+         "person": "basin.shad-male-techie",
+         "expression": "DEFAULT"
         }
        }
       ]
      },
      {
       "event": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "name": {
          "orig": "Owo'kyari",
          "transl": "Owo'kyari"
+        },
+        "person": {
+         "person": "basin.shad-male-techie",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Human machines useful for good life!\\. More shad starting trading in village.\\. \\v[lore.title.seeker] take look!",
          "transl": "Mensch-Maschinen nützlich für gut Leben! Mehr Shad beginnen Handel in Dorf.\\. Sehen selbst, Seeker!"
+        },
+        "person": {
+         "person": "basin.shad-male-techie",
+         "expression": "DEFAULT"
         }
        }
       ]

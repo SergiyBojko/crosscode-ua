@@ -94,42 +94,76 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Lea, dear!",
          "transl": "Lea, Liebes!"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "SMILE"
         }
        },
        {
         "message": {
          "orig": "I was just having a closer look at the elevator symbols.",
          "transl": "Ich habe mir gerade die Aufzug-Symbole einmal genauer angesehen."
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "TOWARDS"
         }
        },
        {
         "message": {
          "orig": "And then it just came over me how it all might be connected!",
          "transl": "Und dann kam ich plötzlich darauf, wie das alles zusammenhängen könnte!"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Wanna hear my theory?",
          "transl": "Willst du meine Theorie hören?"
+        },
+        "person": {
+         "person": "main.guild-leader",
+         "expression": "DETERMINED"
         }
        },
        {
@@ -138,12 +172,20 @@
           "message": {
            "orig": "[nods]",
            "transl": "[nickt]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NOD"
           }
          },
          {
           "message": {
            "orig": "Alrighty!\\. Let's have a look together!",
            "transl": "Alles klärchen!\\. Schauen wir es uns gemeinsam an!"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "SMILE"
           }
          },
          null,
@@ -152,11 +194,20 @@
          null,
          null,
          null,
-         null,
+         {
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "Floor 1: \"The Journey\"\nA meteor traveling lonely through space.",
            "transl": "Erdgeschoss: \"Die Reise\"\nEin Meteor, der einsam durch den Weltraum reist."
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "DEFAULT"
           }
          },
          null,
@@ -164,6 +215,10 @@
           "message": {
            "orig": "Floor 2: \"The Approaching\"!\nThe meteor is getting closer to a planet.",
            "transl": "1. Etage: \"Das Herannahen\"!\nDer Meteor nähert sich einem Planeten."
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "TOWARDS"
           }
          },
          null,
@@ -171,6 +226,10 @@
           "message": {
            "orig": "Floor 3: \"The Arrival\"!\nThe meteor is about to reach the planet.",
            "transl": "2. Etage: \"Die Ankunft\"!\nDer Meteor hat den Planeten erreicht.<<A<<[CHANGED 2021/05/22]"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "SURPRISED"
           }
          },
          null,
@@ -178,6 +237,10 @@
           "message": {
            "orig": "Floor 4: \"The Impact\"!\nWell... I'm sure you get the idea.",
            "transl": "3. Etage: \"Der Aufprall\"!\nNun ja... Das erklärt sich von selbst."
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "SMILE"
           }
          },
          null,
@@ -185,99 +248,174 @@
           "message": {
            "orig": "And blank!\\. I'm certain there is one more floor left.",
            "transl": "Und leer!\\. Ich bin mir sicher, dass es noch eine Etage gibt."
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "DEFAULT"
           }
          },
          null,
          null,
-         null,
+         {
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "So... what do you think this meteor is all about?",
            "transl": "Also...\\. Was glaubst du, worum es bei diesem Meteor geht?"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "DOWN"
           }
          },
          {
           "message": {
            "orig": "Say, Lea. Do you remember the \\c[3]Message of the Sky\\c[0]?",
            "transl": "Sag, Lea, erinnerst du dich an die \\c[3]Botschaft des Himmels\\c[0]?<<A<<[CHANGED 2021/05/22]"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "TOWARDS"
           }
          },
          {
           "message": {
            "orig": "It was mentioned in several texts of the Ancients.",
            "transl": "Sie wurde in mehreren Texten der Ahnen erwähnt."
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Di'aro wrapped it in an \\c[3]envelope of rock and ice\\c[0].",
            "transl": "\\c[3]Di'aro\\c[0] hüllte sie in einen \\c[3]Umschlag aus Gestein und Eis\\c[0]."
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "And \\c[3]K'win\\c[0] made it \\c[3]approach this planet fast enough\\c[0], so it arrived in time.",
            "transl": "Und \\c[3]K'win\\c[0] schaffte es, dass sie sich dem Planeten schnell genug näherte und rechtzeitig ankam."
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "DEFAULT"
           }
          },
          null,
          null,
          null,
          null,
-         null,
-         null,
+         {
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "DEFAULT"
+          }
+         },
          {
           "message": {
            "orig": "I think this is what this meteor is!\\. It's the \\c[3]Message of the Sky\\c[0]!",
            "transl": "Ich glaube, dieser Meteor ist die \\c[3]Botschaft des Himmels\\c[0]!<<A<<[CHANGED 2021/05/22]"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED"
           }
          },
          {
           "message": {
            "orig": "And it landed right here, at this very location!",
            "transl": "Und er ist hier gelandet, genau an dieser Stelle!"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "EXCITED"
           }
          },
          {
           "message": {
            "orig": "It left a gigantic crater, the same one we're currently descending down into!",
            "transl": "Er hinterließ einen gigantischen Krater, genau wie der, in den wir gerade hinabsteigen!<<A<<[CHANGED 2021/05/22]"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "SMILE"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "ASTONISHED"
           }
          },
          {
           "message": {
            "orig": "And I'm sure at the bottom we'll finally find out what it is!",
            "transl": "Und ich bin mir sicher, dass wir am Grund endlich herausfinden werden, was es ist!"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "SURPRISED"
           }
          },
          {
           "message": {
            "orig": "The message of the sky - the secret of the Ancients!",
            "transl": "Die Botschaft des Himmels - das Geheimnis der Ahnen!"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "DETERMINED"
           }
          },
          {
           "message": {
            "orig": "...!!",
            "transl": "...!!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXCITED"
           }
          },
          {
           "message": {
            "orig": "I really can't wait!\\. Let's go!",
            "transl": "Ich kann's wirklich kaum erwarten!\\. Los geht's!"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "SMILE"
           }
          }
         ],
@@ -286,21 +424,37 @@
           "message": {
            "orig": "[shakes head]",
            "transl": "[schüttelt Kopf]"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHAKE"
           }
          },
          {
           "message": {
            "orig": "Awww...\\. I was hoping to share it with somebody.",
            "transl": "Ooooch...\\. Ich hatte so gehofft, dass ich dir von meiner Theorie erzählen kann!"
+          },
+          "person": {
+           "person": "main.guild-leader",
+           "expression": "WORRIED"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -326,36 +480,66 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.luke",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Holerö!",
          "transl": "Holerö!"
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "So...\\. we're almost there, aren't we?",
          "transl": "Also...\\. Wir sind fast da, oder?"
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "We did the obligatory final batch of bouncing puzzles...",
          "transl": "Wir haben die obligatorischen letzten Sprungrätsel gemeistert..."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "WONDERING"
         }
        },
        {
         "message": {
          "orig": "Collected the master key...",
          "transl": "Den Kristallschlüssel erhalten..."
+        },
+        "person": {
+         "person": "main.luke",
+         "expression": "UP"
         }
        },
        {
@@ -364,30 +548,50 @@
           "message": {
            "orig": "...?",
            "transl": "...?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_TOWARD"
           }
          },
          {
           "message": {
            "orig": "...!!",
            "transl": "...!!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SHOCKED"
           }
          },
          {
           "message": {
            "orig": "Oh Junge!\\. You missed it?",
            "transl": "Oh Junge!\\. Du hast ihn verpasst?"
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "SURPRISED"
           }
          },
          {
           "message": {
            "orig": "You get it after the battle on this floor.",
            "transl": "Du erhältst ihn nach dem Kampf auf dieser Etage."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "EYES_CLOSED"
           }
          },
          {
           "message": {
            "orig": "It should still be there, go pick it up!",
            "transl": "Es sollte noch da sein! Hol ihn dir!"
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "WINK"
           }
          }
         ],
@@ -396,78 +600,130 @@
           "message": {
            "orig": "So... the final boss should not be much further.",
            "transl": "Hmm...\\. Der Boss sollte nicht mehr weit sein."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DETERMINED"
           }
          },
          {
           "message": {
            "orig": "Gyahaha!\\. You seem very determined!",
            "transl": "Gyahaha!\\. Das nenn' ich Entschlossenheit!"
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "LAUGH"
           }
          },
          {
           "message": {
            "orig": "Alright then...\\. this was pretty fun so far.",
            "transl": "Tja, also...\\. Das hat bisher ziemlichen Spaß gemacht."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "EYES_CLOSED"
           }
          },
          {
           "message": {
            "orig": "Gotta admit, I got more into it than I initially expected.",
            "transl": "Ich muss zugeben, dass es mir mehr Spaß gemacht hat, als ich anfangs gedacht hatte."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "Almost made me forget that I'm now a permanent part of this game.",
            "transl": "Hat mich fast vergessen lassen, dass ich jetzt ein fester Bestandteil dieses Spiels bin."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "EYES_CLOSED"
           }
          },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          },
          {
           "message": {
            "orig": "Don't worry, I'm fine.",
            "transl": "Keine Sorge, es geht mir gut."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "WINK"
           }
          },
          {
           "message": {
            "orig": "I mean, hey, we now have access to a whole island paradise and all that.",
            "transl": "Ich meine, hey, wir haben jetzt Zugang zu einem ganzen Inselparadies und all das."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "LAUGH"
           }
          },
          {
           "message": {
            "orig": "We should capitalize on that, you know?",
            "transl": "Das sollten wir ausnutzen!"
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "WONDERING"
           }
          },
          {
           "message": {
            "orig": "Take a long walk along the beach together, sometime.",
            "transl": "Mal gemeinsam einen langen Spaziergang am Strand entlang machen."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "WINK"
           }
          },
          {
           "message": {
            "orig": "No enemy bashing, just walking and taking in the waves and breezes.",
            "transl": "Kein Monsterkloppen, nur spazieren gehen und die Wellen und Brisen genießen."
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "EYES_CLOSED"
           }
          },
          {
           "message": {
            "orig": "What do you think?",
            "transl": "Was hältst du davon?"
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -477,30 +733,50 @@
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD_HAPPY"
             }
            },
            {
             "message": {
              "orig": "Alright!\\. It's a date!",
              "transl": "Gut!\\. Dann haben wir jetzt ein Date!"
+            },
+            "person": {
+             "person": "main.luke",
+             "expression": "LAUGH"
             }
            },
            {
             "message": {
              "orig": "We just have to find a time with less players around.",
              "transl": "Wir müssen nur eine Zeit finden, in der weniger Spieler da sind."
+            },
+            "person": {
+             "person": "main.luke",
+             "expression": "WONDERING"
             }
            },
            {
             "message": {
              "orig": "Unless you prefer walking through a war zone.",
              "transl": "Es sei denn, du läufst eigentlich ganz gern durch ein Kriegsgebiet."
+            },
+            "person": {
+             "person": "main.luke",
+             "expression": "SKEPTICAL"
             }
            },
            {
             "message": {
              "orig": "...",
              "transl": "..."
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SMILE"
             }
            }
           ],
@@ -509,21 +785,37 @@
             "message": {
              "orig": "[shakes head]",
              "transl": "[schüttelt Kopf]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SHAKE"
             }
            },
            {
             "message": {
              "orig": "Awww.\\. Not the beach walking kind, I see?",
              "transl": "Oooch.\\. Du magst echt keine Strandspaziergänge?"
+            },
+            "person": {
+             "person": "main.luke",
+             "expression": "LAUGH"
             }
            },
            {
             "message": {
              "orig": "Too bad.",
              "transl": "Schade."
+            },
+            "person": {
+             "person": "main.luke",
+             "expression": "EYES_CLOSED"
             }
            }
           ],
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_TOWARD"
+          },
           "options": [
            {
             "label": {
@@ -543,6 +835,10 @@
           "message": {
            "orig": "Anyway, ready to continue with the dungeon?",
            "transl": "Wie auch immer, wollen wir nun mit dem Dungeon weitermachen?"
+          },
+          "person": {
+           "person": "main.luke",
+           "expression": "DEFAULT"
           }
          },
          {
@@ -551,12 +847,20 @@
             "message": {
              "orig": "[nods]",
              "transl": "[nickt]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "NOD_HAPPY"
             }
            },
            {
             "message": {
              "orig": "Alright, let's go!",
              "transl": "Alles klar, dann mal los!"
+            },
+            "person": {
+             "person": "main.luke",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -565,21 +869,37 @@
             "message": {
              "orig": "[shakes head]",
              "transl": "[schüttelt Kopf]"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "SHAKE"
             }
            },
            {
             "message": {
              "orig": "Alright!\\. I'll go ahead then!",
              "transl": "Na gut!\\. Dann werde ich mal weitermachen!"
+            },
+            "person": {
+             "person": "main.luke",
+             "expression": "EYES_CLOSED"
             }
            },
            {
             "message": {
              "orig": "Bye!",
              "transl": "Бувай!"
+            },
+            "person": {
+             "person": "main.lea",
+             "expression": "DEFAULT"
             }
            }
           ],
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED_TOWARD"
+          },
           "options": [
            {
             "label": {

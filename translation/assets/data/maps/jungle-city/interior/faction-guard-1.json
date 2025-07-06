@@ -24,12 +24,26 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Welcome.",
          "transl": "Willkommen."
+        },
+        "person": {
+         "person": "guards.male-hairs-white",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -85,19 +99,36 @@
         "name": {
          "orig": "Sgt. Bronzel",
          "transl": "Hptm. Bronzel"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "There's no need for your help, \\v[lore.title.seeker].\\. So let me work.",
          "transl": "Keine Hilfe nötig, Seeker. Stör mich also nicht bei der Arbeit."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": ".\\..\\..",
          "transl": ".\\..\\.."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -109,43 +140,76 @@
          "name": {
           "orig": "Sgt. Bronzel",
           "transl": "Hptm. Bronzel"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXCITED"
          }
         },
         {
          "message": {
           "orig": "Yes, what is it... \\v[lore.title.seeker], I assume?\\. You're not here to waste my time, are you?",
           "transl": "Ja, was ist... Seeker, nehme ich an?\\. Du bist nicht hier, um meine Zeit zu verschwenden, oder?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
          }
         },
         {
          "message": {
           "orig": "[shakes head]",
           "transl": "[schüttelt Kopf]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SHAKE"
          }
         },
         {
          "message": {
           "orig": "Good, because that's already being eaten by this damn city.\\. Don't need no smartass adventurers pitching in.",
           "transl": "Gut, denn die raubt mir diese verdammte Stadt schon zur Genüge.\\. So 'n Schweinchen Schlau von Abenteurer würd' mir jetzt nämlich echt den Rest geben."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And since we're already talking, are you here to help with one of those time consuming problems plaguing Basin Keep?",
           "transl": "Dann gehe ich davon aus, dass du hier bist, um dich um eines dieser zeitfressenden Probleme zu kümmern, die diese Stadt plagt?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -154,66 +218,110 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Now there's a start for a brighter day.\\. Hope we can keep it that way.",
             "transl": "Dann fängt der Tag ja schon mal gut an.\\. Hoffen wir, dass es auch dabei bleibt."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Listen, \\v[lore.title.seeker]: We got a volatile situation at hand in our Western district.",
             "transl": "Hör zu, Seeker: Die Lage im Westbezirk ist brisant."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "An organized mob of armed birds has stormed an office building from the air and taken hostages.",
             "transl": "Eine organisierte Bande von bewaffneten Vögeln hat ein Bürogebäude gestürmt und Geiseln genommen."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           },
           {
            "message": {
             "orig": "Yes, it's a mess.\\. And we still don't know their demands or exact numbers.",
             "transl": "Ja, die Kacke ist am Dampfen.\\. Und wir wissen weder, was sie wollen, noch wie viele es sind."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I hate outsourcing matters of public security but we got no choice here.\\. Also, Track-related messes are a \\v[lore.title.seeker]'s specialty, right?",
             "transl": "Ich hasse es, mich auf andere verlassen zu müssen. Mir bleibt hier aber keine andere Wahl.\\. Außerdem sind solche Pfadschlamassel doch eine Spezialität von euch Seekern, oder nicht?"
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "How...?",
             "transl": "Як...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           },
           {
            "message": {
             "orig": "Look, there's no use debating this now.\\. Better talk to our officer on site and see that you make yourself useful.",
             "transl": "Hör zu, da gibt es gerade nichts zu diskutieren.\\. Sprich lieber mit unserem Wachtmeister vor Ort und schau, ob du dich nützlich machen kannst."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "It's the \\c[3]Clipson Tower\\c[0] in the \\c[3]Northern part of our Western district\\c[0].\\. Now get moving!",
             "transl": "Du musst zum \\c[3]Clipson-Turm\\c[0] im \\c[3]nördlichen Teil des Westbezirks\\c[0].\\. Nun los!"
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye.",
             "transl": "Бувай."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "DETERMINED"
            }
           }
          ],
@@ -222,18 +330,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "No?\\. And there I thought you might actually be useful.",
             "transl": "Nein?\\. Und ich dachte, du wärst endlich mal jemand, der sich nützlich macht."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "MOPING"
            }
           }
          ]
@@ -247,19 +367,36 @@
         "name": {
          "orig": "Sgt. Bronzel",
          "transl": "Hptm. Bronzel"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Talk to our officer on site and see how you can solve the hostage situation.",
          "transl": "Sprich mit unserem Wachtmeister vor Ort und schau, ob du die Geiselnahme beenden kannst."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "He is waiting in front of the \\c[3]Clipson Tower\\c[0] in the \\c[3]Northern part of our Western district\\c[0].",
          "transl": "Er wartet am \\c[3]Clipson-Turm\\c[0] im \\c[3]nördlichen Teil des Westbezirks\\c[0]."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -271,67 +408,116 @@
          "name": {
           "orig": "Sgt. Bronzel",
           "transl": "Hptm. Bronzel"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         },
         {
          "message": {
           "orig": "Oh, don't give me that smug face, \\v[lore.title.seeker]!\\. You stirred up a lot of trouble with your lil' shootout!",
           "transl": "Oh, mach nicht so ein freches Gesicht, Seeker!\\. Mit deiner kleinen Schießerei hast du viel Ärger verursacht!"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         },
         {
          "message": {
           "orig": "Messing up the negotiations, starting an office brawl around the hostages?",
           "transl": "Die vergeigte Verhandlung, die Schießerei vor den Augen der Geiseln?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "We got traumatized white collars and the press slamming our ears about your methods!\\. You are a loose cannon, \\v[lore.title.seeker]!",
           "transl": "Die Leute sind traumatisiert und die Presse hängt uns wegen deiner Methoden am Hals!\\. Du bist ein wandelndes Pulverfass, Seeker!"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXHAUSTED"
          }
         },
         {
          "message": {
           "orig": "Still, I can't deny that you got the results.\\. The problem has been resolved without major injuries.",
           "transl": "Dennoch kann ich nicht abstreiten, dass du Fakten geschaffen hast.\\. Die Situation konnte ohne größere Schäden bereinigt werden."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Alright, I'll let your methods slide this time.\\. Take your reward and stay in touch.",
           "transl": "Gut, dieses Mal lasse ich dir das noch durchgehen.\\. Nimm deine Belohnung und bleib in Kontakt."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye!",
           "transl": "Бувай!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         }
        ]
@@ -343,19 +529,36 @@
         "name": {
          "orig": "Sgt. Bronzel",
          "transl": "Hptm. Bronzel"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "There's no need for your help, \\v[lore.title.seeker].\\. So let me work.",
          "transl": "Keine Hilfe nötig, Seeker. Stör mich also nicht bei der Arbeit."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": ".\\..\\..",
          "transl": ".\\..\\.."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -367,31 +570,56 @@
          "name": {
           "orig": "Sgt. Bronzel",
           "transl": "Hptm. Bronzel"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi.",
           "transl": "Привіт."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
          }
         },
         {
          "message": {
           "orig": "Ah, the troublemaker has returned.\\. I assume that your lack of self-restraint has not changed?",
           "transl": "Ah, das Pulverfass ist zurück.\\. Keine Fortschritte in Sachen mangelnder Selbstbeherrschung, nehm ich an?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...why?",
           "transl": "... Чому?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "MOPING"
          }
         },
         {
          "message": {
           "orig": "A bit huffy, are we now?\\. Well, dealing with the press and signing all those reports was not pleasant either, \\v[lore.title.seeker].",
           "transl": "Ach, werden wir jetzt auch noch patzig?\\. Glaubst du etwa, dass es eine Freude für mich war, mich mit der Presse rumzuschlagen und die Berichte abzusegnen, Seeker?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -400,12 +628,20 @@
            "message": {
             "orig": "...Lea!",
             "transl": "... Лія!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           },
           {
            "message": {
             "orig": "What, some problems in Bergen?\\. Why is this on us now?\\. We already got our hands full.",
             "transl": "Was, einige Probleme in Bergen?\\. Warum sollen wir uns jetzt darum kümmern?\\. Wir haben schon alle Hände voll zu tun."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -414,19 +650,36 @@
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "In any case, we could use your help for another job.",
           "transl": "Wie dem auch sei, wir könnten deine Hilfe für einen weiteren Auftrag gebrauchen."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
+         }
+        },
         {
          "message": {
           "orig": "This time no human lives will be directly involved, so you can let loose as much as you want.\\. Should be right up your alley, to be frank.",
           "transl": "Diesmal stehen keine Menschenleben auf dem Spiel, also kannst du dich austoben so viel du willst. Sollte genau deine Kragenweite sein."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -435,72 +688,120 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Good.\\. I figured you'd be up for another opportunity to blast those criminal birds.",
             "transl": "Gut.\\. Ich wusste, dass du dir ein weiteres Gefecht mit der Vogelbande nicht nehmen lässt."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SMUG"
            }
           },
           {
            "message": {
             "orig": "It's about the situation in the damn \\c[3]Clipson Tower\\c[0] again.",
             "transl": "Es geht wieder um die Lage in diesem verdammten \\c[3]Clipson-Turm\\c[0]."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "The building has been evacuated by now, but the Papagang still controls the highest floors.",
             "transl": "Das Gebäude wurde inzwischen vollständig evakuiert, aber die Papagang hat die obersten Stockwerke immer noch unter Kontrolle."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Why...?",
             "transl": "Чому...?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED_TOWARD"
            }
           },
           {
            "message": {
             "orig": "Well, those feathery crooks have holed up with crates full of precious stolen fruits, slowly transporting it away.",
             "transl": "Tja, diese gefiederten Gauner haben sich dort oben hinter Kisten voll mit gestohlenen, kostbaren Früchten verschanzt, die sie nach und nach abtransportieren."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I would love to just storm the place from the air, but we can't. The press would murder us for such a risky operation inside the city.",
             "transl": "Am liebsten würde ich sie einfach aus der Luft angreifen, aber das geht nicht.\\. Die Presse würde uns für so eine riskante Operation mitten in der Stadt auseinandernehmen."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "That's why you, \\v[lore.title.seeker], will help us with this!",
             "transl": "Und genau deswegen wirst du uns wieder helfen, Seeker."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "How?",
             "transl": "Як?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           },
           {
            "message": {
             "orig": "Look, I'm too busy to hold your hand here.\\. Just talk to \\c[3]Officer Nailson\\c[0] in front of the \\c[3]Clipson Tower\\c[0] again.",
             "transl": "Hör zu, ich hab hier keine Zeit zum Händchenhalten.\\. Rede einfach nochmal mit \\c[3]Wachtmeister Nailson\\c[0] vor dem \\c[3]Clipson-Turm\\c[0]."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye.",
             "transl": "Бувай."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ],
@@ -509,18 +810,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Oh, don't play games with me, \\v[lore.title.seeker].\\. Either help us out or stop wasting my time.",
             "transl": "Lass die Spielchen, Seeker.\\. Entweder hilfst du uns oder du hörst auf, meine Zeit zu verschwenden."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "ANNOYED"
            }
           }
          ]
@@ -534,19 +847,36 @@
         "name": {
          "orig": "Sgt. Bronzel",
          "transl": "Hptm. Bronzel"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Talk to \\c[3]Officer Nailson\\c[0] about the details of the operation.",
          "transl": "Sprich mit \\c[3]Wachtmeister Nailson\\c[0] über die Details der Operation."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "He is waiting in front of the \\c[3]Clipson Tower\\c[0] in the \\c[3]Northern part of our Western district\\c[0], as usual.",
          "transl": "Er wartet wie immer vor dem \\c[3]Clipson-Turm\\c[0], im \\c[3]nördlichen Teil des Westbezirks\\c[0]."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -558,55 +888,96 @@
          "name": {
           "orig": "Sgt. Bronzel",
           "transl": "Hptm. Bronzel"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "There you are again.\\. Seems like everything went according to the protocol.\\. Excellent.",
           "transl": "Da bist da ja wieder.\\. Laut Protokoll scheint alles bestens verlaufen zu sein.\\. Sehr gut."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         },
         {
          "message": {
           "orig": "Apparently, you really are very reliable.\\..\\..\\. As long as your job doesn't involve diplomacy or public relations.",
           "transl": "Anscheinend bist du ja doch sehr zuverlässig.\\..\\..\\. Solange es nichts mit Diplomatie oder Pressearbeit zu tun hat."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "... Sorry.",
           "transl": "... Вибач."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Well, we'll just need to use your talents accordingly in the future.\\. For now, you did good.",
           "transl": "Tja, wir müssen wohl einfach in Zukunft deine Talente nur richtig einsetzen.\\. Heute hast du jedenfalls gute Arbeit geleistet."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Now take your reward and let me finish my reports.",
           "transl": "Und jetzt nimm deine Belohnung und lass mich meine Berichte schreiben."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye.",
           "transl": "Бувай."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         }
        ]
@@ -618,19 +989,36 @@
         "name": {
          "orig": "Sgt. Bronzel",
          "transl": "Hptm. Bronzel"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "There's no need for your help, \\v[lore.title.seeker].\\. So let me work.",
          "transl": "Keine Hilfe nötig, Seeker. Stör mich also nicht bei der Arbeit."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": ".\\..\\..",
          "transl": ".\\..\\.."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -642,80 +1030,142 @@
          "name": {
           "orig": "Sgt. Bronzel",
           "transl": "Hptm. Bronzel"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "\\v[lore.title.seeker], you're here.\\. Being a harbinger of trouble on this almost sunny day, I assume?",
           "transl": "Seeker, du hier.\\. Das bedeutet nichts Gutes, nehme ich an. Dabei fing der Tag so schön an."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Lea... Meet.",
           "transl": "Lea... Treffen."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXHAUSTED"
          }
         },
         {
          "message": {
           "orig": "Oh, by the Ancients, why did I even open my mouth?\\. Of course you'd bring more trouble.",
           "transl": "Oh nein, bei den Ahnen! Als hätte ich's geahnt...\\. Natürlich bringst du neuen Ärger mit dir."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Sorry?",
           "transl": "Вибач?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Well, it can't be helped.\\. The Papagang has been very quiet lately, so something else just has to fill the void.",
           "transl": "Was soll's...\\. Ist anscheinend zuviel verlangt, die Ruhe um die Papagang einfach mal genießen zu dürfen."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "... Meet.\\. Sorry.\\. How!",
           "transl": "... Treffen.\\. Sorry.\\. Wie!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_TOWARD"
          }
         },
         {
          "message": {
           "orig": "Criminal goats?\\. You're kidding me, right?",
           "transl": "Kriminelle Ziegen?\\. Du nimmst mich doch auf den Arm, oder?"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Birds forming gangs are one thing.\\. But gangsters with hooves...?\\.\\. Ridiculous!",
           "transl": "Vögel, die eine Gang gründen, sind ja das eine.\\. Aber Halunken mit Hufen...?\\.\\. Das ist doch lächerlich!"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Well, there has to be something to it if Sgt. Sterling sends her regards from distant Bergen.",
           "transl": "Nun denn, es muss wohl etwas dran sein, wenn Hauptmann Sterling eine Nachricht aus dem fernen Bergen schickt."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Good, it is in the interest of city security that we cooperate then.\\. Let us plan our approach.",
           "transl": "Gut, es ist im Interesse der Stadtwache, das wir kooperieren.\\. Lass uns das Vorgehen besprechen."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -724,78 +1174,130 @@
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "This situation seems to call for a \\c[3]direct investigation of the Papagang headquarters\\c[0].",
             "transl": "Das schreit förmlich nach einer \\c[3]Razzia des Papagang-Hauptquartiers\\c[0]."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Where?",
             "transl": "Де?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SURPRISED"
            }
           },
           {
            "message": {
             "orig": "Well, that is a good question, isn't it?\\. Those flying pests could have their nest anywhere in the city.",
             "transl": "Ja, das ist die Frage.\\. Diese fliegende Pest könnte ihr Nest überall in der Stadt haben."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Plus, our information on the proceedings in the unsavory Eastern part of town is limited.",
             "transl": "Hinzu kommt, dass unsere Informationen über die Vorgänge im widerlichen Ostteil der Stadt begrenzt sind.<<A<<[CHANGED 2021/05/22]"
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "How...?",
             "transl": "Як?"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NERVOUS"
            }
           },
           {
            "message": {
             "orig": "Look, \\v[lore.title.seeker], I don't like this either.\\. But you better talk to \\c[3]someone living in that kind of environment\\c[0].",
             "transl": "Pass auf, Seeker. Mir gefällt das zwar auch nicht, aber du solltest mit \\c[3]jemandem aus dem Milieu\\c[0] reden."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "I am sure there are some people who have the information for the right price.",
             "transl": "Ich bin sicher, dass es dort einige Leute gibt, die die Information für eine angemessene Summe preisgeben würden."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...",
             "transl": "..."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "THINKING"
            }
           },
           {
            "message": {
             "orig": "Well, you are still a \\v[lore.title.seeker].\\. I'm sure you can navigate the urban jungle as well as the other one.",
             "transl": "Nun, du bist immer noch ein Seeker.\\. Ich bin sicher, dass du dich im Großstadtdschungel genauso gut zurechtfinden wirst wie im richtigen."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "[nods]",
             "transl": "[nickt]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "NOD"
            }
           },
           {
            "message": {
             "orig": "Goodbye then.\\. I will be expecting some reports on that.",
             "transl": "Auf bald dann.\\. Ich erwarte einen umfassenden Bericht."
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "Bye.",
             "transl": "Бувай."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "EXHAUSTED"
            }
           }
          ],
@@ -804,18 +1306,30 @@
            "message": {
             "orig": "[shakes head]",
             "transl": "[schüttelt Kopf]"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "SHAKE"
            }
           },
           {
            "message": {
             "orig": "Impossible!",
             "transl": "Unmöglich!"
+           },
+           "person": {
+            "person": "guards.captain-male-normal-darkhair",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": ".\\..\\..",
             "transl": ".\\..\\.."
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "THINKING"
            }
           }
          ]
@@ -829,19 +1343,36 @@
         "name": {
          "orig": "Sgt. Bronzel",
          "transl": "Hptm. Bronzel"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Go to the \\c[3]Pond Slums\\c[0] and talk to \\c[3]someone from the underground circles\\c[0].",
          "transl": "Gehe ins \\c[3]Elendsviertel\\c[0] und sprich mit \\c[3]jemandem aus dem Untergrund\\c[0]."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "There have to be rumors about birds and goats working together and where to find their nest.",
          "transl": "Es gab Gerüchte darüber, dass Vögel und Ziegen gemeinsame Sache machen und wo das Nest ist."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -853,79 +1384,136 @@
          "name": {
           "orig": "Sgt. Bronzel",
           "transl": "Hptm. Bronzel"
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Hi!",
           "transl": "Привіт!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "You are back.\\. One of our patrols have sighted a flying transport leaving the city towards the south.",
           "transl": "Du bist zurück.\\. Eine unserer Patrouillen hat einen fliegenden Transporter gesehen, der die Stadt gen Süden verlassen hat."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Also some, and I quote, \"epic showdown on a rooftop\".\\. Seems like you made quite the show of your \"investigation\", \\v[lore.title.seeker].",
           "transl": "Und einen, ich zitiere, \"epischen Showdown auf einem Dach\".\\. Da hast du wohl bei deinen \"Untersuchungen\" eine ganz schöne Show abgezogen, Seeker."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "... How.\\. Meet.\\. Lea. ",
           "transl": "... Wie.\\. Treffen.\\. Lea."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "WHISTLING"
          }
         },
         {
          "message": {
           "orig": "Well, I don't give a flying nut about your methods, as long as they don't involve property damage or bad press.",
           "transl": "Nun, deine Methoden sind mir piepegal, solange keine schlechte Presse dabei herumkommt oder Sachschaden entsteht."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "And you rid us of the infamous young head of the Papagang.\\. This should clip their wings for some time.",
           "transl": "Immerhin hast du diesen jungen Heißsporn von Anführer aus dem Verkehr gezogen.\\. Das sollte der Gang für eine Weile die Flügel stutzen."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMUG"
          }
         },
         {
          "message": {
           "orig": "So... good job here, \\v[lore.title.seeker].\\. As for that mysterious transport...",
           "transl": "Also... Gute Arbeit, Seeker.\\. Was diesen mysteriösen Transporter angeht..."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Where?",
           "transl": "Де?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "We checked with the coastal guard and it is headed directly to \\v[area.rhombus-sqr.name].",
           "transl": "Wir haben mit der Küstenwache gesprochen, die ihn Richtung Rhombus Square fliegen sah."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Bye.",
           "transl": "Бувай."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "PROUD"
          }
         },
         {
          "message": {
           "orig": "Yes, goodbye \\v[lore.title.seeker].\\. And good luck.",
           "transl": "Ja, lebe wohl, Seeker.\\. Und viel Glück."
+         },
+         "person": {
+          "person": "guards.captain-male-normal-darkhair",
+          "expression": "DEFAULT"
          }
         }
        ]
@@ -937,19 +1525,36 @@
         "name": {
          "orig": "Sgt. Bronzel",
          "transl": "Hptm. Bronzel"
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "There's no need for your help, \\v[lore.title.seeker].\\. So let me work.",
          "transl": "Keine Hilfe nötig, Seeker. Stör mich also nicht bei der Arbeit."
+        },
+        "person": {
+         "person": "guards.captain-male-normal-darkhair",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": ".\\..\\..",
          "transl": ".\\..\\.."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        }
       ]
@@ -993,13 +1598,32 @@
       },
       "event": [
        null,
-       null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.hexacast-female-black",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.sphero-male-blue",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi.\\.\\. How?",
          "transl": "Hi.\\.\\. Wie?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        null,
@@ -1008,48 +1632,80 @@
         "message": {
          "orig": "Oh, hi.\\. A fellow Spheromancer.\\. That's rare.",
          "transl": "Hi-\\. Ah, guck mal, noch ein Spheromancer.\\. Sieht man selten."
+        },
+        "person": {
+         "person": "cross-worlds.sphero-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "So, you wonder how those misguided birds could be dissuaded from violence with mere words?",
          "transl": "Du möchtest also wissen, wie man mit diesen fehlgeleiteten Geschöpfen reden muss, um den Konflikt friedlich zu lösen?"
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "It's easy.\\. Just open your heart and think of what led them down their dark path.\\. What they might desire.",
          "transl": "Öffne einfach dein Herz und überlege, was sie auf diesen dunklen Pfad geführt haben könnte.\\. Und wonach es ihnen dürstet."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Yes, that... But I assume it comes down to triggering some flags with the right words or something.",
          "transl": "Ja, genau... Ich vermute mal, dass man einfach bestimmte Flags mit den richtigen Worten triggern muss."
+        },
+        "person": {
+         "person": "cross-worlds.sphero-male-blue",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "You do not seem much for talking, mhm?\\. Well, I guess some players just prefer to simply hit things.\\. You do you, girl.",
          "transl": "Nicht die Gesprächigste, hm?\\. Tja, ich glaube, manche Spieler hauen auch einfach lieber drauf.\\. Jedem das Seine."
+        },
+        "person": {
+         "person": "cross-worlds.hexacast-female-black",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "... bye.",
          "transl": "... Бувай."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        }
       ]

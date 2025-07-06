@@ -812,18 +812,30 @@
       "message": {
        "orig": "Those red gates really are all over the place, non?",
        "transl": "Diese roten Tore sind echt überall, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "I think those are called \\c[3]Torii\\c[0] and you usually find them around shrines.",
        "transl": "Ich glaube, die nennt man \\c[3]Torii\\c[0]. Man findet sie oft in der Nähe von Schreinen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Thanks, Monsieur Know-it-all.",
        "transl": "Danke, Monsieur Besserwisser.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "WATCH_OUT_BADASS"
       }
      }
     ]
@@ -852,12 +864,20 @@
       "message": {
        "orig": "Ahhh!\\. Please, somebody gotta help!",
        "transl": "Ahhh!!\\. Hilfe!!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Why?!",
        "transl": "Чому?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      }
     ]
@@ -879,48 +899,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
+      }
+     },
      {
       "message": {
        "orig": "Phew!\\. That was close...\\. again!\\. Haha...",
        "transl": "Puh!\\. Das war knapp...\\. Wieder einmal!\\. Haha..."
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Why?",
        "transl": "Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Oh man, I really should try to be more careful, shouldn't I?",
        "transl": "Oh Mann, ich sollte wirklich versuchen, vorsichtiger zu sein, was?"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "I'll try!\\. Anyway, thanks again for the rescue! ",
        "transl": "Ich versuch's!\\. Und danke nochmal für die Hilfe!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I gotta go!",
        "transl": "Ich muss los!"
+      },
+      "person": {
+       "person": "party-tmp.triblader-1",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...Bye...",
        "transl": "... Бувай..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      null,
@@ -940,97 +998,166 @@
       "name": {
        "orig": "PuellaDocta",
        "transl": "PuellaDocta"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Geez, that guy...",
        "transl": "Oh Mann, dieser Kerl..."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He just seems to attract trouble.",
        "transl": "Er scheint Ärger förmlich anzuziehen."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Why?",
        "transl": "Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "CONFUSED"
       }
      },
      {
       "message": {
        "orig": "I wish I knew!\\. I guess he's just especially careless?",
        "transl": "Das wüsste ich auch gern!\\. Vielleicht ist er einfach unglaublich leichtsinnig?"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I didn't see his username at first, but I should have known.",
        "transl": "Ich habe seinen Benutzernamen erst später gesehen, aber ich hätte es mir auch denken können."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We've helped him out before...\\. like, a lot.",
        "transl": "Wir haben ihm schon mal geholfen...\\. Sehr oft sogar."
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Long story.\\. Wait...\\. what the--?",
        "transl": "Lange Geschichte.\\. Warte...\\. Was zum--?"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...Seriously, dude, what are you doing?",
        "transl": "... Das gibt's doch nicht! Was ist los mit dem Kerl?!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "The same guy again.\\. And apparently he's kiting enemies now!",
        "transl": "Wieder der gleiche Typ.\\. Und diesmal hat er eine ganze Monsterhorde im Schlepptau!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "There's WAY too many of them!",
        "transl": "Es sind VIEL zu viele!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "WHY?!",
        "transl": "ЧОМУ?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "Better go help him!\\. He's at \\c[3]Flower Lake\\c[0]!",
        "transl": "Du solltest ihm jetzt besser helfen!\\. Er ist am \\c[3]Blumensee\\c[0]!"
+      },
+      "person": {
+       "person": "guests.puella-docta",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Lea!!",
        "transl": "Лія!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]

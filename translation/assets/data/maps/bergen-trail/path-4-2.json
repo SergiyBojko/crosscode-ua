@@ -550,6 +550,10 @@
       "message": {
        "orig": "Sure, let's jump along this narrow path above the endless abyss... Pas de problème!",
        "transl": "Klar, lass uns einfach auf diesem schmalen Pfad über den endlosen Abgrund hüpfen... Pas de problème!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SWEATY_SMILE"
       }
      }
     ]
@@ -574,13 +578,32 @@
      null,
      null,
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Cold, cold Bergen Trail!",
        "transl": "Der eiskalte Bergen-Trail!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
       }
      },
      null,
@@ -588,6 +611,10 @@
       "message": {
        "orig": "The first mountain for every Seeker to conquer!",
        "transl": "Der erste Berg, den jeder Seeker erklimmt!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -595,6 +622,10 @@
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      null,
@@ -602,6 +633,10 @@
       "message": {
        "orig": "And it's filled with cute little frog-bunnies.",
        "transl": "Und überall gibt es süße Froschhasen."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SMILE"
       }
      },
      null,
@@ -609,6 +644,10 @@
       "message": {
        "orig": "I still feel bad about beating up so many of them...",
        "transl": "Ich habe immer noch ein schlechtes Gewissen, dass ich so viele von ihnen verhauen habe..."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "AWWW"
       }
      },
      null,
@@ -616,6 +655,10 @@
       "message": {
        "orig": "Now, now, Joern. ",
        "transl": "Aber, aber, Joern."
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
@@ -623,6 +666,10 @@
       "message": {
        "orig": "These little bunnies might seem cute, but they can cause quite a lot of havoc as well.",
        "transl": "Diese kleinen Häschen sehen vielleicht süß aus, aber sie können auch Chaos und Verwüstung anrichten."
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -630,6 +677,10 @@
       "message": {
        "orig": "Have you heard of the \\c[3]Great Frobbit Plague\\c[0]?",
        "transl": "Hast du von der \\c[3]Großen Pogonickel-Plage\\c[0] gehört?"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
       }
      },
      null,
@@ -637,18 +688,30 @@
       "message": {
        "orig": "How?!",
        "transl": "Як?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "Urgh...",
        "transl": "Stopp..."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "That is some history I do NOT want to hear.\\. Thank you.",
        "transl": "Auf SOLCHE Geschichten möchte ich gerne verzichten.\\. Danke."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "SURPRISED"
       }
      },
      null,

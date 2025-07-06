@@ -4,26 +4,48 @@
   {
    "settings": {
     "blockEvent": [
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
+      }
+     },
      {
       "message": {
        "orig": "No, not that way, Lea. Please use the exit sign.",
        "transl": "Nicht dort lang, Lea. Benutze bitte den Ausgang."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        {
         "message": {
          "orig": "I promise, it will work this time...",
          "transl": "Dieses Mal wird es funktionieren, versprochen..."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "ROLL_EYES"
         }
        }
       ]
@@ -70,30 +92,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Okay, you are at the right position now, Lea.",
        "transl": "Gut, du befindest dich nun an der richtigen Position, Lea."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I just need a little bit longer to manage things on my side.",
        "transl": "Gib mir jetzt noch ein klein wenig Zeit..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "Meanwhile, you can take care of the enemies in this room.",
        "transl": "In der Zwischenzeit kannst du dich um die Gegner in diesem Raum kümmern."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      }
     ]
@@ -128,71 +176,131 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
+      }
+     },
      {
       "message": {
        "orig": "...Hi?",
        "transl": "... Привіт?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
+      }
+     },
      {
       "message": {
        "orig": "Just a moment, please...",
        "transl": "Einen Augenblick, bitte..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DOWN_EYE_CLOSED"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
+      }
+     },
      {
       "message": {
        "orig": "Perfect! We are very lucky!",
        "transl": "Perfekt! Wir haben Glück!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "I got Lukas just at the right position and he seems to be waiting for us.",
        "transl": "Ich habe Lukas genau an die richtige Position gelotst, und er scheint auf uns zu warten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Now we will just have to meet up with him...",
        "transl": "Jetzt müssen wir euch beide nur noch zusammenbringen..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...by breaking through the dungeon room instances.",
        "transl": "... indem wir die Dungeon-Instanzierung durchbrechen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "...?!",
        "transl": "...?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Just follow my instructions.",
        "transl": "Folge einfach meinen Anweisungen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "I will now spawn an exit point.",
        "transl": "Ich werde nun einen Ausgang freischalten."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      null,
@@ -200,11 +308,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
+      }
+     },
      {
       "message": {
        "orig": "Now, try interacting with the symbol.",
        "transl": "So, jetzt versuche, ihn zu benutzen."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -235,64 +352,115 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
+         }
+        },
         {
          "message": {
           "orig": "Oh... whoops!",
           "transl": "Oh... Uuuups!"
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
          }
         },
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SHOCKED"
+         }
+        },
         {
          "message": {
           "orig": "WHY?!",
           "transl": "ЧОМУ?!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SHOCKED"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
+         }
+        },
         {
          "message": {
           "orig": "S-Sorry! I must have made a little mistake here.",
           "transl": "Tu-Tut mir leid! Da habe ich wohl einen kleinen Fehler gemacht."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "THINKING"
          }
         },
         {
          "message": {
           "orig": "Let me go over the parameters again.",
           "transl": "Lass mich nochmal die Parameter durchgehen."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "WHISTLING"
          }
         },
         {
          "message": {
           "orig": "...!",
           "transl": "...!"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "DETERMINED"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "WORRIED"
          }
         },
         {
          "message": {
           "orig": "Oh, I think I got it!",
           "transl": "Oh, ich glaube, ich hab's!"
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Please try again.",
           "transl": "Versuche es bitte nochmal."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "NOTIFYING"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NERVOUS"
          }
         }
        ]
@@ -301,72 +469,132 @@
        "thenStep": [
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
+         }
+        },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
+         }
+        },
         {
          "message": {
           "orig": "Uhm...",
           "transl": "Öhm..."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "Oh right, forgot about that thing.",
           "transl": "Ach ja, das habe ich vergessen."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "ROLL_EYES"
          }
         },
         null,
         null,
         null,
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
+         }
+        },
+        {
+         "person": {
+          "person": "main.sergey",
+          "expression": "SURPRISED"
+         }
+        },
         {
          "message": {
           "orig": "Sorry Lea, we need one more attempt.",
           "transl": "Entschuldige, Lea, aber wir müssen es noch einmal versuchen."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "EYES_CLOSED"
          }
         },
         {
          "message": {
           "orig": "In my defense, this whole routine is pretty experimental...",
           "transl": "Zu meiner Verteidigung: Das ganze Programm hier ist sehr experimentell..."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "WHISTLING"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         },
         {
          "message": {
           "orig": "Hm...",
           "transl": "Hm..."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "WORRIED"
          }
         },
         {
          "message": {
           "orig": "Okay, this should do it.",
           "transl": "So, das sollte es gewesen sein."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "SMILE"
          }
         },
         {
          "message": {
           "orig": "Hopefully.",
           "transl": "Hoffentlich."
+         },
+         "person": {
+          "person": "main.sergey",
+          "expression": "DRAMATIC"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "ANNOYED"
          }
         }
        ]

@@ -117,6 +117,10 @@
       "message": {
        "orig": "Lea, chérie!",
        "transl": "Lea, chérie!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      }
     ]
@@ -130,97 +134,178 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "I guess we're pretty much in sync with the dungeon.",
        "transl": "Ich glaube, wir sind so ziemlich gleichauf mit dem Dungeon.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "You just fought one of these statue guardians too, right?",
        "transl": "Du hast auch gerade gegen einen dieser Statuenwächter gekämpft, oder?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "I like those enemies!\\. They're fun to fight!",
        "transl": "Ich mag diese Gegner!\\. Macht Spaß, gegen die zu kämpfen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.grumpy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "They're formidable opponents to be sure.",
        "transl": "Das sind gewaltige Gegner, soviel steht fest."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "EYES_CLOSED"
       }
      },
      null,
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.grumpy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Oui! It's a great feeling to get close for a beating right after dodging their shield!",
        "transl": "Oui! Ist ein großartiges Gefühl, so drauf eindreschen zu können, nachdem man ihrem Schild ausgewichen ist!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "But I guess things would be different for a Hexacast, right?",
        "transl": "Für einen Hexacast sieht das aber wohl etwas anders aus, oder?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "AWAY"
       }
      },
      {
       "message": {
        "orig": "More ranged attacks and the like.",
        "transl": "Mehr Fernangriffe und dergleichen."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "WATCH_OUT_BADASS"
       }
      },
      {
       "message": {
        "orig": "Not necessarily.",
        "transl": "Nicht unbedingt."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "We have a number of close-combat moves at our disposal as well.",
        "transl": "Uns steht auch eine Reihe von Nahkampf-Attacken zur Verfügung."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "SARCASTIC"
       }
      },
      {
       "message": {
        "orig": "And I happen to prefer those as well.",
        "transl": "Die ich zufälligerweise auch bevorzuge."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "Ah, a man of culture!",
        "transl": "Ah, ein kluger Mann!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CULTURE"
       }
      },
      {
       "message": {
        "orig": "Let's go then! Off to punching more statues!",
        "transl": "Dann mal los! Lass uns noch mehr Statuen verhauen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Indeed.",
        "transl": "Bin dabei."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "SMILE"
       }
      }
     ]
@@ -233,21 +318,44 @@
     "event": [
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.buggy",
+       "expression": "UP"
+      }
+     },
      {
       "message": {
        "orig": "Hey!\\. Those signs just appeared!",
        "transl": "Hey!\\. Diese Zeichen sind gerade auf der Wand erschienen!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "UP"
       }
      },
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "EXCITED"
+      }
+     },
+     {
+      "person": {
+       "person": "main.buggy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Yes and those depictions are quite interesting as well!",
        "transl": "Ja, und diese Darstellungen sind auch sehr interessant!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "SMILE"
       }
      },
      null,
@@ -255,60 +363,106 @@
       "message": {
        "orig": "Do you think there's an elevator inside?",
        "transl": "Glaubst du, da ist ein Aufzug drin?"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "Possibly!",
        "transl": "Möglich!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "I guess the Ancients pretty much learned the elevator technology ever since the Temple Mine.",
        "transl": "Immerhin haben die Ahnen die Aufzugtechnologie seit der Tempelmine schon ziemlich gut drauf gehabt."
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "GRIN"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "No, Buggy. If there is an elevator, it won't be based on human technology.",
        "transl": "Nein, Buggy. Wenn es einen Aufzug gibt, wird er nicht auf menschlicher Technologie basieren.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "You see, this temple must be much older than the Temple Mine.",
        "transl": "Dieser Tempel muss viel älter sein als die Tempelmine."
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "It's a place mentioned in the old texts of the Ancients.",
        "transl": "Es ist ein Ort, der in den alten Texten der Ahnen erwähnt wird."
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "TOWARDS"
       }
      },
      {
       "message": {
        "orig": "So it must have been here long before humankind arrived.",
        "transl": "Er muss also schon lange vor der Ankunft der Menschheit hier gewesen sein.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.buggy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Oh yeah, that makes sense!",
        "transl": "Oh! Ja, macht Sinn!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "Still, I bet it's an elevator!\\. Let's see what's inside!",
        "transl": "Trotzdem wette ich, dass es ein Aufzug ist!\\. Schauen wir doch mal nach!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "GRIN"
       }
      }
     ]
@@ -322,30 +476,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hey! The view from here is awesome isn't it?",
          "transl": "Hey! Die Aussicht von hier ist doch mal grandios, oder?"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Did you see the crystals at the top?",
          "transl": "Hast du die Kristalle oben gesehen?"
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        null,
@@ -354,30 +534,56 @@
        null,
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
+        }
+       },
+       {
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Those huge crystals that stretch over the whole crater.",
          "transl": "Diese riesigen Kristalle, die sich über den ganzen Krater erstrecken."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Some people think they're connected to some Ancient magic to cover up the whole place.",
          "transl": "Manche Leute glauben, dass sie mit der Magie der Ahnen belegt wurden, um den ganzen Ort zu verdecken."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "That's probably why it remained hidden up until now.",
          "transl": "Was erklären würde, warum der Ort jetzt erst entdeckt wurde."
+        },
+        "person": {
+         "person": "cross-worlds.quadroguard-female-gray",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]

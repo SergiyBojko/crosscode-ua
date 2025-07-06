@@ -16,41 +16,80 @@
       "name": {
        "orig": "The Boosi Man",
        "transl": "Der Botzemann"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
+      }
+     },
      {
       "message": {
        "orig": "Terrific!\\. Just terrific!",
        "transl": "Sargenhaft!\\. Einfach sarg-en-haft!"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Tiny one, it seems you already had \\c[3]great fun\\c[0] in Pumpkin Land!",
        "transl": "Das Kürbisknüllerland scheint dir ja einen \\c[3]Mordsspaß\\c[0] zu machen, Kleines!"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...??",
        "transl": "...??"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "Alas, we're not done yet!",
        "transl": "Doch leider sind wir noch nicht fertig!"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "basin.boogie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SCARED"
+      }
+     },
      {
       "message": {
        "orig": "Now it's time for the \\c[3]grand finale\\c[0]!",
        "transl": "Es wird Zeit für das \\c[3]große Finale\\c[0]!"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "BALD"
       }
      },
      null,
@@ -65,11 +104,20 @@
      null,
      {
       "thenStep": [
-       null,
+       {
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -77,18 +125,30 @@
         "message": {
          "orig": "BUGS! WHY DOES IT HAVE TO BE BUGS?!",
          "transl": "KÄFER! WARUM MÜSSEN ES AUSGERECHNET KÄFER SEIN?!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        },
        {
         "message": {
          "orig": "THEY COULD HAVE JUST THROWN MORE PUMPKINS AT US!",
          "transl": "SIE HÄTTEN AUCH EINFACH NOCH MEHR KÜRBISSE BRINGEN KÖNNEN!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        },
        {
         "message": {
          "orig": "NO, IT HAS TO BE BUGS!",
          "transl": "NEIN, ES MÜSSEN KÄFER SEIN!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        }
       ]
@@ -111,12 +171,20 @@
         "message": {
          "orig": "KILL THEM! KILL THEM WITH FIRE!",
          "transl": "TÖTET SIE! VERBRENNT SIE!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        },
        {
         "message": {
          "orig": "NO WAIT! ICE! KILL THEM WITH ICE!",
          "transl": "NEIN, WARTET! EIS! TÖTET SIE MIT EIS!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        }
       ]
@@ -138,6 +206,10 @@
         "message": {
          "orig": "SACREBLEU! JUST DIE ALREADY!",
          "transl": "SACREBLEU! JETZT STIRB ENDLICH!"
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "SHOCKED"
         }
        }
       ]
@@ -162,60 +234,106 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "basin.boogie",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Wonderful!\\. Wasn't this great?!",
        "transl": "Wunderbar!\\. War das nicht großartig?!"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "BALD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "Well, I sure had plenty of fun, tiny one!",
        "transl": "Also, mir hat es großen Spaß gemacht, Kleines!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "BALD"
       }
      },
      {
       "message": {
        "orig": "It's hard enough to haunt anybody in this city, with everyone so busy.",
        "transl": "Es ist so schwer, jemanden in dieser Stadt zu erschrecken, wenn alle so beschäftigt sind."
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "BALD"
       }
      },
      {
       "message": {
        "orig": "So I knew I had to aim for something big, start a proper... boosiness!",
        "transl": "Also wusste ich, ich muss mir etwas Spuuuktakuläres einfallen lassen, etwas wirklich Großes!"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "BALD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "It's the only way to get any attention these days.",
        "transl": "Heutzutage ist das der einzige Weg, Aufmerksamkeit zu bekommen."
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "BALD"
       }
      },
      {
       "message": {
        "orig": "Well, I sure call this a success!\\. Thanks a lot for your participation, tiny one!",
        "transl": "Also, ich werte das auf jeden Fall als Erfolg!\\. Vielen Dank für deine Teilnahme, Kleine!"
+      },
+      "person": {
+       "person": "basin.boogie",
+       "expression": "BALD"
       }
      },
      {
       "message": {
        "orig": "...bye.",
        "transl": "... Бувай."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      null,
@@ -228,6 +346,10 @@
         "message": {
          "orig": "Great fun I had, oui. And I thought I was safe from these things past the Temple Mine.",
          "transl": "Ein Riesenspaß war das, oui. Und ich dachte, nach der Tempelmine würde ich von diesen Viechern verschont bleiben."
+        },
+        "person": {
+         "person": "main.emilie",
+         "expression": "MOPING"
         }
        }
       ]

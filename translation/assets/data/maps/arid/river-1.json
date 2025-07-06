@@ -450,6 +450,10 @@
       "message": {
        "orig": "Laser bridgeees!",
        "transl": "Laserbrückeeeen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "HAPPY"
       }
      }
     ]
@@ -462,6 +466,10 @@
       "message": {
        "orig": "So many laser bridges!",
        "transl": "So viele Laserbrücken!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "HAPPY"
       }
      }
     ]
@@ -485,40 +493,80 @@
       "event": [
        {
         "thenStep": [
-         null,
-         null,
+         {
+          "person": {
+           "person": "cross-worlds.triblader-female-black",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED"
+          }
+         },
          {
           "message": {
            "orig": "...",
            "transl": "..."
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "DEAD_INSIDE2"
           }
          },
          {
           "message": {
            "orig": "Hm?",
            "transl": "Hm?"
+          },
+          "person": {
+           "person": "cross-worlds.triblader-female-black",
+           "expression": "DEFAULT"
           }
          }
         ],
         "elseStep": [
-         null,
-         null,
+         {
+          "person": {
+           "person": "cross-worlds.triblader-female-black",
+           "expression": "DEFAULT"
+          }
+         },
+         {
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED"
+          }
+         },
          {
           "message": {
            "orig": "Why?!",
            "transl": "Чому?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "SURPRISED"
           }
          },
          {
           "message": {
            "orig": "Because I don't want to see no more...",
            "transl": "Weil ich es nicht mehr sehen will..."
+          },
+          "person": {
+           "person": "cross-worlds.triblader-female-black",
+           "expression": "DEFAULT"
           }
          },
          {
           "message": {
            "orig": "...?",
            "transl": "...?"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "NERVOUS"
           }
          }
         ]

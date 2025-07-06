@@ -80,12 +80,20 @@
       "message": {
        "orig": "That must be the red sandworm, better be careful!",
        "transl": "Vorsicht! Das muss der rote Sandwurm sein!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -117,30 +125,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Phew...",
        "transl": "Puh..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EXHAUSTED"
       }
      },
      {
       "message": {
        "orig": "I suppose the \\c[3]\\v[item.362.name]\\c[0] is the strange item the guard wants to see, right?",
        "transl": "Ich schätze mal, dass das \\c[3]Ti'im-Residuum\\c[0] das komische Item ist, das die Wache sehen möchte, oder?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DOWN"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Okey-dokey!\\. Then let's go ba-",
        "transl": "Okey-dokey!\\. Dann lass uns zurü-"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      null,
@@ -148,213 +182,374 @@
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Oh, is that a direct link?",
        "transl": "Oh, ist das ein Direkt-Link?"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      null,
-     null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Lea, chérie!",
        "transl": "Lea, Chérie!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      {
       "message": {
        "orig": "I'm, ba...\\.\\.",
        "transl": "Ich bin zu...\\.\\."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Wait, who's that?",
        "transl": "Moment, wer ist das?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "Uhm...\\. hello! I'm C'tron-\\.\\.",
        "transl": "Ähm...\\. Hallo! Ich bin C'tron-\\.\\."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "OH!\\. You're the other member from the First Scholars, non?",
        "transl": "OH!\\. Du bist das andere neue Mitglied der Ersten Gelehrten, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "HAPPY"
       }
      },
      {
       "message": {
        "orig": "Yes, that's me.",
        "transl": "Ja, das bin ich."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Très bien!\\. So you'll join our party, oui?",
        "transl": "Très bien!\\. Du trittst also unserer Party bei, oui?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Yes, in fact-\\.\\.",
        "transl": "Ja, um genau zu sein-\\.\\."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "So where are you two right now?",
        "transl": "Also, wo seid ihr zwei gerade?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Uhm...\\. Lea and I are currently in the Maroon Tree Cave...",
        "transl": "Ähm...\\. Lea und ich sind gerade in der Maronenbaumhöhle..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "Maroon Tree Cave...",
        "transl": "Maronenbaumhöhle..."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Wait!\\. You started that quest already?",
        "transl": "Ah non!\\. Ihr habt die Quest schon angefangen?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "It looks like we almost finished it.",
        "transl": "Sieht so aus, als wären wir fast fertig."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "Aww man...\\. I wanted to do that quest with you!",
        "transl": "Ach, mennooo...\\. Ich wollte die doch mit dir zusammen machen!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "MOPING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "I-\\.I'm sorry, I didn't know you had that planned.",
        "transl": "E-\\. Es tut mir leid, ich wusste nicht, dass ihr das vorhattet."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Non, it's fine! Pas de problème!",
        "transl": "Non, schon in Ordnung! Pas de problème!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "I'll quickly rush through that quest myself!",
        "transl": "Ich mache die Quest einfach schnell selber!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "TAUNTING"
       }
      },
      {
       "message": {
        "orig": "You two just wait for me, d'accord?",
        "transl": "Ihr wartet einfach auf mich, d'accord?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Uhm...\\. sure!",
        "transl": "Ähm...\\. sicher!"
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "Au revoir!",
        "transl": "Au revoir!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "Bye!",
        "transl": "Бувай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.glasses",
+       "expression": "SAD"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Drat...\\. I feel bad now.",
        "transl": "Mist...\\. Jetzt fühle ich mich schlecht."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "[shakes head]",
        "transl": "[schüttelt Kopf]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHAKE"
       }
      },
      {
       "message": {
        "orig": "Uhm...\\. You mean I don't have to?\\. W-\\.Well...",
        "transl": "Ähm...\\. Du meinst, das muss ich nicht?\\. N-\\.Na ja..."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Let's just go back to the cave entrance and show the item to the guard.",
        "transl": "Lass uns einfach zum Eingang zurückgehen und der Wache das Item zeigen."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "EMBARRASSED"
       }
      },
      {
       "message": {
        "orig": "I think the cave interior is instanced, but we might be able to meet Emilie outside.",
        "transl": "Ich glaube, das Innere der Höhle ist instanziert... Lass uns besser draußen auf Emilie warten."
+      },
+      "person": {
+       "person": "main.glasses",
+       "expression": "TOWARD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]

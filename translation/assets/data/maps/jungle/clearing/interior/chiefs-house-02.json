@@ -50,11 +50,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -76,12 +85,20 @@
       "message": {
        "orig": "Is that the source of wicked kittens?!",
        "transl": "Ist das die Quelle der schnurrenden Schurken?!"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "Indeed! Summoning evil black cats on poor villagers! This can't stand!!",
        "transl": "Allerdings! Böse schwarze Katzen auf arme Dorfbewohner hetzen! Ein unhaltbarer Zustand!!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SHOUTING"
       }
      }
     ]
@@ -153,25 +170,52 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
+      }
+     },
      {
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Looks like those were the last of them.",
        "transl": "Sieht so aus, als wären das alle gewesen."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "TOWARD"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
+      }
+     },
      {
       "message": {
        "orig": "Justice has been served!",
        "transl": "Der Gerechtigkeit wurde Genüge getan!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "CONTENT"
       }
      },
      null,
@@ -180,24 +224,40 @@
       "message": {
        "orig": "Just what were those things?",
        "transl": "Was waren das bloß für Dinger?"
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Indeed! Were they really an extension of the power plant? Very mysterious!",
        "transl": "Gute Frage! Waren das wirklich Ausläufer des Kraftwerks? Äußerst mysteriös!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "LECTURING"
       }
      },
      {
       "message": {
        "orig": "Let's return to that K'tara girl for now.",
        "transl": "Lasst uns erst einmal zu diesem K'tara-Mädchen zurückkehren."
+      },
+      "person": {
+       "person": "antagonists.sidekick",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]

@@ -13,30 +13,56 @@
     "npcStates": [
      {
       "event": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "A new Seeker in my dojo? Hmm.",
          "transl": "Ein neuer Seeker in meinem Dojo? Hmm."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Not ready you are, hmm...",
          "transl": "Nicht bereit du bist, hmm..."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Come back when mastered both \\c[3]Heat\\c[0] and \\c[3]Cold\\c[0] you have, yes yes.",
          "transl": "Komm wieder, wenn \\c[3]Hitze\\c[0] und \\c[3]Kälte\\c[0] gemeistert du hast, m'jom m'jom."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        }
       ]
@@ -44,24 +70,46 @@
      {
       "event": {
        "quest": [
-        null,
-        null,
+        {
+         "person": {
+          "person": "rookie-harbor.van-pummelson",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "A new Seeker in my dojo? Hmm.",
           "transl": "Ein neuer Seeker in meinem Dojo? Hmm."
+         },
+         "person": {
+          "person": "rookie-harbor.van-pummelson",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Hrrmmm. Great power within you I sense.",
           "transl": "Hrrmmm. Große Kraft ich in dir spüre."
+         },
+         "person": {
+          "person": "rookie-harbor.van-pummelson",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Ready to explore the depths of your abilities you are? ",
           "transl": "Bereit, dein volles Potential zu ergründen du bist?"
+         },
+         "person": {
+          "person": "rookie-harbor.van-pummelson",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -70,6 +118,10 @@
            "message": {
             "orig": "Good, yes yes. Speak to me to begin you must.",
             "transl": "Gut, m'jom m'jom. Um zu beginnen, sprechen mit mir du musst."
+           },
+           "person": {
+            "person": "rookie-harbor.van-pummelson",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -78,6 +130,10 @@
            "message": {
             "orig": "Hrmmm? Sure you are?",
             "transl": "Hrmmm? Sicher du dir bist?"
+           },
+           "person": {
+            "person": "rookie-harbor.van-pummelson",
+            "expression": "DEFAULT"
            }
           }
          ]
@@ -90,59 +146,111 @@
        "quest": [
         {
          "thenStep": [
-          null,
-          null,
+          {
+           "person": {
+            "person": "rookie-harbor.van-pummelson",
+            "expression": "DEFAULT"
+           }
+          },
+          {
+           "person": {
+            "person": "main.lea",
+            "expression": "DEFAULT"
+           }
+          },
           {
            "message": {
             "orig": "Mastered my courses you have. Proud I am. Hmm.",
             "transl": "Ich bin stolz, gemeistert meine Lehren du hast. Hmm."
+           },
+           "person": {
+            "person": "rookie-harbor.van-pummelson",
+            "expression": "DEFAULT"
            }
           },
           {
            "message": {
             "orig": "...!",
             "transl": "...!"
+           },
+           "person": {
+            "person": "main.lea",
+            "expression": "PROUD"
            }
           },
           {
            "message": {
             "orig": "Take this you should and return for more training you can.",
             "transl": "Dies nehmen du solltest. Für weiteres Training zurückkehren du kannst."
+           },
+           "person": {
+            "person": "rookie-harbor.van-pummelson",
+            "expression": "DEFAULT"
            }
           }
          ]
         },
         null,
-        null,
-        null,
+        {
+         "person": {
+          "person": "rookie-harbor.van-pummelson",
+          "expression": "DEFAULT"
+         }
+        },
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+         }
+        },
         {
          "message": {
           "orig": "Already expecting you, I am.",
           "transl": "Bereits erwartet ich dich habe."
+         },
+         "person": {
+          "person": "rookie-harbor.van-pummelson",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Ready to train are you? Yes, hrrmmm.",
           "transl": "Bereit zu trainieren du bist? M'jom, hrrmmm."
+         },
+         "person": {
+          "person": "rookie-harbor.van-pummelson",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "[nods]",
           "transl": "[nickt]"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "NOD"
          }
         },
         {
          "message": {
           "orig": "Once begun, endure until the course is finished you must. ",
           "transl": "Einmal begonnen, den Pfad zu Ende gehen du musst."
+         },
+         "person": {
+          "person": "rookie-harbor.van-pummelson",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "Wisely made your decision must be, yes.",
           "transl": "Weise getroffen deine Entscheidung muss sein, m'jom."
+         },
+         "person": {
+          "person": "rookie-harbor.van-pummelson",
+          "expression": "DEFAULT"
          }
         },
         {
@@ -153,6 +261,10 @@
              "message": {
               "orig": "A good choice. To the art of balls, open your mind must be.",
               "transl": "Eine gute Wahl. Dein Geist für die Wurfkunst offen sein muss."
+             },
+             "person": {
+              "person": "rookie-harbor.van-pummelson",
+              "expression": "DEFAULT"
              }
             }
            ],
@@ -161,6 +273,10 @@
              "message": {
               "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
               "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+             },
+             "person": {
+              "person": "rookie-harbor.van-pummelson",
+              "expression": "DEFAULT"
              }
             }
            ]
@@ -171,6 +287,10 @@
            "message": {
             "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
             "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+           },
+           "person": {
+            "person": "rookie-harbor.van-pummelson",
+            "expression": "DEFAULT"
            }
           }
          ],
@@ -181,6 +301,10 @@
              "message": {
               "orig": "A good choice. To the art of the blade, open your mind must be.",
               "transl": "Eine gute Wahl. Dein Geist für die Schwertkunst offen sein muss."
+             },
+             "person": {
+              "person": "rookie-harbor.van-pummelson",
+              "expression": "DEFAULT"
              }
             }
            ],
@@ -189,6 +313,10 @@
              "message": {
               "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
               "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+             },
+             "person": {
+              "person": "rookie-harbor.van-pummelson",
+              "expression": "DEFAULT"
              }
             }
            ]
@@ -199,9 +327,17 @@
            "message": {
             "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
             "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+           },
+           "person": {
+            "person": "rookie-harbor.van-pummelson",
+            "expression": "DEFAULT"
            }
           }
          ],
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED_AWAY"
+         },
          "options": [
           {
            "label": {
@@ -242,36 +378,66 @@
       "event": [
        null,
        null,
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Already expecting you, I am.",
          "transl": "Bereits erwartet ich dich habe."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Ready to train are you? Yes, hrrmmm.",
          "transl": "Bereit zu trainieren du bist? M'jom, hrrmmm."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Once begun, endure until the course is finished you must. ",
          "transl": "Einmal begonnen, den Pfad zu Ende gehen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Wisely made your decision must be, yes.",
          "transl": "Weise getroffen deine Entscheidung muss sein, m'jom."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -282,6 +448,10 @@
             "message": {
              "orig": "A good choice. To the art of balls, open your mind must be.",
              "transl": "Eine gute Wahl. Dein Geist für die Wurfkunst offen sein muss."
+            },
+            "person": {
+             "person": "rookie-harbor.van-pummelson",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -290,6 +460,10 @@
             "message": {
              "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
              "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+            },
+            "person": {
+             "person": "rookie-harbor.van-pummelson",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -300,6 +474,10 @@
           "message": {
            "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
            "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+          },
+          "person": {
+           "person": "rookie-harbor.van-pummelson",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -310,6 +488,10 @@
             "message": {
              "orig": "A good choice. To the art of the blade, open your mind must be.",
              "transl": "Eine gute Wahl. Dein Geist für die Schwertkunst offen sein muss."
+            },
+            "person": {
+             "person": "rookie-harbor.van-pummelson",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -318,6 +500,10 @@
             "message": {
              "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
              "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+            },
+            "person": {
+             "person": "rookie-harbor.van-pummelson",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -328,9 +514,17 @@
           "message": {
            "orig": "A good choice. The path to mastery repetition is. Yes, hrrmmm.",
            "transl": "Eine gute Wahl. Wiederholung der Pfad zur Meisterschaft ist. M'jom, hrrmmm."
+          },
+          "person": {
+           "person": "rookie-harbor.van-pummelson",
+           "expression": "DEFAULT"
           }
          }
         ],
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
+        },
         "options": [
          {
           "label": {
@@ -387,18 +581,36 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "More expected of you I have. Try again you must.",
          "transl": "Mehr von dir erwartet ich habe. Nochmal versuchen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -409,18 +621,36 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good, good. Yes, hrrrm.",
          "transl": "Gut, gut. M'jom, hrrrm."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now again... but quickly.",
          "transl": "Nochmal... Dieses Mal schneller."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -457,12 +687,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Hit all targets in 10 seconds\\c[0] you must.",
        "transl": "\\c[3]Alle Ziele in 10 Sekunden treffen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -471,12 +715,20 @@
         "message": {
          "orig": "Fail... you must try again.",
          "transl": "Fehlgeschlagen... Nochmal versuchen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -511,18 +763,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Tested in this training your precision and perception will be. Hrmmm.",
        "transl": "Deine Präzision und Wahrnehmung in diesem Training getestet wird. Hrmmm."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Floating you must be for this, yes?",
        "transl": "Wie Wasser fließen du musst, m'jom."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -530,18 +800,30 @@
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Worry not. Trust in your sensei, you must.",
        "transl": "Keine Sorge, vertrauen deinem Sensei du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Now... Begun, your training has.",
        "transl": "Dein Training nun beginnt."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -550,12 +832,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "First, your basic understanding we will test, yes.",
        "transl": "Deine Grundkenntnisse als Erstes wir testen werden, m'jom."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -590,12 +886,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Hit all the targets you must\\c[0]. That you can do, can you not?",
        "transl": "\\c[3]Alle Ziele treffen du musst\\c[0]. Sicher leicht für dich, nicht wahr?"
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -627,18 +937,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Good, yes...",
        "transl": "Gut, m'jom..."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Now... your understanding of ricochet, show to me.",
        "transl": "Und nun... dein Können im Ricochettieren demonstrieren du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -675,12 +1003,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Hit all targets using ricochets\\c[0] you must. ",
        "transl": "\\c[3]Alle Ziele mit Ricochétschüssen treffen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -767,18 +1109,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Completed the course you have.",
        "transl": "Den Kurs bestanden du hast."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      null,
@@ -796,18 +1156,30 @@
       "message": {
        "orig": "But. Far from over your training is.",
        "transl": "Aber! Noch viel zu lernen du hast."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "For now, rest. When ready for your next lesson, speak to me you will.",
        "transl": "Erst einmal ausruhen du kannst. Wenn bereit für weitere Lehren, mit mir sprechen du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -842,18 +1214,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Too easy for you it was?",
        "transl": "Das zu einfach für dich war?"
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      null,
@@ -891,18 +1281,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Hit all targets using ricochet\\c[0] again you must!",
        "transl": "\\c[3]Alle Ziele mit Ricochétschüssen nochmal treffen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      null,
@@ -934,12 +1342,26 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "\\v[tmp.missedBalls] you missed. Becoming better you must.",
          "transl": "\\v[tmp.missedBalls] verfehlt du hast. Besser werden du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -966,24 +1388,46 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "In you perhaps, a true seeker sleeps. Hmm.",
          "transl": "Möglicherweise ein wahrer Seeker in dir steckt. Hmm."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Your aim next we must test.",
          "transl": "Als Nächstes deine Treffsicherheit wir testen müssen."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1003,12 +1447,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Hit the target 10 times without missing or throwing too much\\c[0] you must.",
        "transl": "\\c[3]Alle Ziele 10 Mal in Folge treffen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1051,12 +1509,26 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "\\v[tmp.missedBalls] you missed. Become better you must.",
          "transl": "\\v[tmp.missedBalls] verfehlt du hast. Besser werden du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1082,12 +1554,26 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Constant a seeker's aim must be, even when moving the enemy is.",
          "transl": "Selbst wenn Gegner in Bewegung, Präzision eines Seekers konstant sein muss."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1109,12 +1595,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Hit the target 10 times without missing\\c[0] again you must.",
        "transl": "\\c[3]Alle Ziele 10 Mal in Folge nochmal treffen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1167,18 +1667,36 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Faster and more accurate you must be, yes.",
          "transl": "Schneller und präziser sein du musst, m'jom."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1204,24 +1722,46 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "A fine student you are, yes... hmm...",
          "transl": "Ein ausgezeichneter Schüler du bist, m'jom... Hmm..."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Your final test now comes.",
          "transl": "Deine letzte Prüfung nun kommt."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ASTONISHED"
         }
        }
       ]
@@ -1259,12 +1799,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Hit all targets without missing and within 10 seconds\\c[0] you must.",
        "transl": "\\c[3]Alle Ziele ohne zu verfehlen in 10 Sekunden treffen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1305,18 +1859,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Tested in this training your strength will be. Yes...",
        "transl": "Deine Stärke in diesem Training getestet wird. M'jom..."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Throw, you cannot. Guarding, also disabled will be.",
        "transl": "Werfen und blocken dieses Mal du nicht kannst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1325,12 +1897,20 @@
       "message": {
        "orig": "...?",
        "transl": "...?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Now... Begun, your training has.",
        "transl": "Dein Training nun beginnt."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1349,12 +1929,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "First, basic understanding we must test, yes.",
        "transl": "Deine Grundkenntnisse als Erstes wir testen werden, m'jom."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1390,12 +1984,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Hit all targets you must\\c[0]. Simple it is, yes?",
        "transl": "\\c[3]Alle Ziele treffen du musst\\c[0]. Ganz simpel, m'jom?"
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1419,18 +2027,36 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Expect more of you, do I. Try again you must.",
          "transl": "Mehr von dir erwartet ich habe. Nochmal versuchen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1441,18 +2067,36 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good. Yes, hrrrm.",
          "transl": "Gut. M'jom, hrrrm."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now again, but quickly.",
          "transl": "Nochmal... Dieses Mal schneller."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1490,12 +2134,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Hit all targets in 10 seconds\\c[0] you must.",
        "transl": "\\c[3]Alle Ziele in 10 Sekunden treffen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -1504,12 +2162,20 @@
         "message": {
          "orig": "Fail... you must try again.",
          "transl": "Fehlgeschlagen... Nochmal versuchen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -1537,18 +2203,36 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "More expected of you I have. Try again you must.",
          "transl": "Mehr von dir erwartet ich habe. Nochmal versuchen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1559,24 +2243,46 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "A fine display.",
          "transl": "Eine schöne Darbietung."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "Now... Multiple enemies at once you must hit.",
          "transl": "Und nun... mehrere Feinde auf einmal treffen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1603,18 +2309,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Hit all targets in 10 seconds\\c[0] you must.",
        "transl": "\\c[3]Alle Ziele in 10 Sekunden treffen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "With a single swing, multiple enemies you must hit.",
        "transl": "Mehrere Feinde mit einem einzigen Streich treffen du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -1623,12 +2347,20 @@
         "message": {
          "orig": "Fail... you must try again.",
          "transl": "Fehlgeschlagen... Nochmal versuchen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -1661,48 +2393,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "The basics you understand I see.",
        "transl": "Wie ich sehe, die Grundlagen verstanden du hast."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "A secret technique, time it is to teach.",
        "transl": "Eine geheime Technik es wird Zeit dich zu lehren."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "Strong the last hit of your melee combo is. But leaves you open to counter attack, yes...",
        "transl": "Stark der letzte Treffer deiner Nahkampfkombo ist. So allerdings anfällig für Konter du bist, m'jom..."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "However. \\c[3]Dash\\c[0] before ending a combo you can.",
        "transl": "Doch kleinen Trick es gibt: Am Ende des Kombos \\c[3]dashen\\c[0] du kannst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Fittingly \\c[3]Dash Cancel\\c[0] it is called. hrm...",
        "transl": "Treffenderweise als \\c[3]Dash Cancel\\c[0] bezeichnet dies wird. Hrm..."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      null,
@@ -1714,12 +2484,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Perform 5 Dash Cancels by Dashing while attacking\\c[0] you must.",
        "transl": "\\c[3]5 Dash Cancels durch Dashen während eines Angriffs ausführen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -1760,18 +2544,36 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "More expected of you I have. Try again you must.",
          "transl": "Mehr von dir erwartet ich habe. Nochmal versuchen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -1784,36 +2586,66 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Good, very good.",
          "transl": "Gut, sehr gut."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "PROUD"
         }
        },
        {
         "message": {
          "orig": "To quickly dash away or continue attacking, this technique you can use.",
          "transl": "Um schnell in Sicherheit zu dashen oder weiter anzugreifen diese Technik verwenden du kannst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "In this, tested now you will be.",
          "transl": "Darin getestet du nun wirst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        }
       ]
@@ -1835,12 +2667,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Defeat all the enemies in 20 seconds using Dash Cancels\\c[0] you must.",
        "transl": "\\c[3]Alle Feinde in 20 Sekunden durch Dash Cancels besiegen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -1849,12 +2695,20 @@
         "message": {
          "orig": "Fail... you must try again.",
          "transl": "Fehlgeschlagen... Nochmal versuchen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -1888,18 +2742,36 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "More expected of you I have. Try again you must.",
          "transl": "Mehr von dir erwartet ich habe. Nochmal versuchen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -1910,6 +2782,10 @@
             "message": {
              "orig": "No \\c[3]Dash Cancels\\c[0] you used.",
              "transl": "Keinen einzigen \\c[3]Dash Cancel\\c[0] du benutzt."
+            },
+            "person": {
+             "person": "rookie-harbor.van-pummelson",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -1920,6 +2796,10 @@
               "message": {
                "orig": "Only one \\c[3]Dash Cancel\\c[0] you used.",
                "transl": "Nur einen \\c[3]Dash Cancel\\c[0] du benutzt."
+              },
+              "person": {
+               "person": "rookie-harbor.van-pummelson",
+               "expression": "DEFAULT"
               }
              }
             ],
@@ -1928,6 +2808,10 @@
               "message": {
                "orig": "Only \\v[tmp.cancels] \\c[3]Dash Cancels\\c[0] you used.",
                "transl": "Nur \\v[tmp.cancels] \\c[3]Dash Cancels\\c[0] du benutzt."
+              },
+              "person": {
+               "person": "rookie-harbor.van-pummelson",
+               "expression": "DEFAULT"
               }
              }
             ]
@@ -1940,6 +2824,10 @@
             "message": {
              "orig": "More then 50 attacks you used too.",
              "transl": "Auch mehr als 50 Angriffe gebraucht du hast."
+            },
+            "person": {
+             "person": "rookie-harbor.van-pummelson",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -1950,6 +2838,10 @@
               "message": {
                "orig": "All your attacks you used.",
                "transl": "Alle Angriffe aufgebraucht du hast."
+              },
+              "person": {
+               "person": "rookie-harbor.van-pummelson",
+               "expression": "DEFAULT"
               }
              }
             ]
@@ -1964,6 +2856,10 @@
             "message": {
              "orig": "More then 50 attacks you used.",
              "transl": "Mehr als 50 Angriffe gebraucht du hast."
+            },
+            "person": {
+             "person": "rookie-harbor.van-pummelson",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -1974,6 +2870,10 @@
               "message": {
                "orig": "All your attacks you used.",
                "transl": "Alle Angriffe aufgebraucht du hast."
+              },
+              "person": {
+               "person": "rookie-harbor.van-pummelson",
+               "expression": "DEFAULT"
               }
              }
             ]
@@ -1994,24 +2894,46 @@
      null,
      {
       "thenStep": [
-       null,
-       null,
+       {
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
+        }
+       },
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Well honed, your understanding is.",
          "transl": "Deine Auffassungsgabe außergewöhnlich ist."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Now begins, your final test.",
          "transl": "Deine letzte Prüfung nun beginnt."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_AWAY"
         }
        }
       ]
@@ -2030,12 +2952,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "\\c[3]Defeat all enemies in 15 seconds, using less than 30 attacks and at least 3 Dash Cancels\\c[0] you must.",
        "transl": "\\c[3]Alle Feinde in 15 Sekunden mit weniger als 30 Angriffen und mindestens 3 Dash Cancels besiegen\\c[0] du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
@@ -2044,12 +2980,20 @@
         "message": {
          "orig": "Fail... you must try again.",
          "transl": "Fehlgeschlagen... Nochmal versuchen du musst."
+        },
+        "person": {
+         "person": "rookie-harbor.van-pummelson",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        }
       ]
@@ -2134,18 +3078,36 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Completed the course you have.",
        "transl": "Den Kurs bestanden du hast."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "EXCITED"
       }
      },
      null,
@@ -2165,18 +3127,30 @@
       "message": {
        "orig": "But. Far from over your training is.",
        "transl": "Aber! Noch viel zu lernen du hast."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "For now your training is over. You must speak to me if you are ready for your next lesson.",
        "transl": "Erst einmal ausruhen du kannst. Wenn bereit für weitere Lehren, mit mir sprechen du musst."
+      },
+      "person": {
+       "person": "rookie-harbor.van-pummelson",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -2189,18 +3163,30 @@
       "message": {
        "orig": "Lea?",
        "transl": "Лія?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "CURIOUS"
       }
      },
      {
       "message": {
        "orig": "I think this is an instanced room... Must be something good going on here, no?",
        "transl": "Ich glaube, das ist ein instanzierter Raum... Dann muss hier irgendwas Gutes drin passieren, non?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]

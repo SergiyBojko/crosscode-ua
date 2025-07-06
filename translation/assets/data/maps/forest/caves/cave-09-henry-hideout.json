@@ -42,60 +42,106 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Henry",
        "transl": "Henry"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "You are q-q-quite persistent!",
        "transl": "Du bist ganz schön ha-ha-hartnäckig!"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Sir, I have already alerted the staff of CrossWorlds.",
        "transl": "Ich habe das Personal von CrossWorlds bereits benachrichtigt."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "There is absolutely no way out for you. ",
        "transl": "Es gibt absolut keinen Ausweg für dich."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'm also aware that you are in fact not a player but an actual person!",
        "transl": "Mir ist auch bewusst, dass du kein Spieler, sondern eine echte Person bist!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "How?",
        "transl": "Як?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "Oh? I-Is that s-so?",
        "transl": "Oh? I-Ist das s-so?"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Quite so, I'm afraid. How you managed to stay hidden, however, is still a mystery to me.",
        "transl": "Ich fürchte, so ist es. Wie du unentdeckt bleiben konntest, ist mir allerdings noch ein Rätsel. <<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Well... C-C-Could an actual human do t-t-this?",
        "transl": "Tja... K-K-Könnte ein echter Mensch s-s-sowas tun?"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -105,17 +151,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "name": {
        "orig": "Baxton",
        "transl": "Baxton"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "What are you doing? I can't move!",
        "transl": "Was soll das, ich kann mich nicht bewegen!<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -129,17 +188,30 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "name": {
        "orig": "Henry",
        "transl": "Henry"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "He won't be b-b-bothering us, anymore. Hehe.",
        "transl": "Der wird uns nicht mehr b-b-belästigen, hehe.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -147,30 +219,50 @@
       "message": {
        "orig": "Why!?",
        "transl": "Чому?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANGRY"
       }
      },
      {
       "message": {
        "orig": "Now, you...",
        "transl": "Jetzt du...<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "I can't seem to just d-delete you...",
        "transl": "Ich k-k-krieg dich irgendwie nicht gelöscht..."
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But...",
        "transl": "Aber..."
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -188,29 +280,50 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "name": {
        "orig": "Henry",
        "transl": "Henry"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I can t-trap you and let my little f-f-friends take care of you!",
        "transl": "Ich kann dich gefangen nehmen und meine kleinen F-F-Freunde kümmern sich um dich!"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Either you get t-tired or log-off.",
        "transl": "Entweder wirst du m-müde oder loggst dich aus."
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -224,34 +337,65 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "There he is!",
        "transl": "Da ist er!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "He seems to be just... waiting? ",
        "transl": "Er scheint... auf etwas zu warten?"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Let us put an end to this mockery, Lady Lea.",
        "transl": "Setzen wir der Scharade ein Ende, Fräulein Lea."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -265,12 +409,20 @@
       "message": {
        "orig": "A rather gloomy hideout.",
        "transl": "Ein ziemlich düsteres Versteck."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I was unaware this cave was playable.",
        "transl": "Mir war nicht bewusst, dass diese Höhle spielbar ist."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -417,13 +569,26 @@
       "name": {
        "orig": "Baxton",
        "transl": "Baxton"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "EXHAUSTED"
+      }
+     },
      {
       "message": {
        "orig": "Good job, Lady Lea!",
        "transl": "Gute Arbeit, Fräulein Lea!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -431,196 +596,334 @@
       "message": {
        "orig": "Hi?!",
        "transl": "Привіт?!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "You successfully completed the quest line created by the \\c[3]IHSO\\c[0] in celebration of the \\c[3]2205th International Hackspace Convention\\c[0]. ",
        "transl": "Sie haben die von der \\c[3]IHSO\\c[0] gestellte Questreihe zur Feier des \\c[3]2205. internationalen Hackspace-Kongresses\\c[0] erfolgreich beendet."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "...How?",
        "transl": "... Як?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "The whole quest line you have just completed was created by participants of this event.",
        "transl": "Die soeben abgeschlossene Questreihe wurde von Teilnehmern dieses Events kreiert."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "The goal was to create a scenario that was so convincing that players would believe it.",
        "transl": "Ziel war es, ein Szenario zu erschaffen, das so überzeugend ist, dass Spieler es für echt halten."
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "I'm but a tiny fraction of it. My makers wish to congratulate you on coming this far!",
        "transl": "Ich bin bloß ein kleiner Teil davon. Meine Schöpfer gratulieren Ihnen zu Ihrer Leistung!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "We hope you enjoyed the quest line!",
        "transl": "Wir hoffen, die Questreihe hat Ihnen gefallen!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "As a reward we offer \\c[3]extra CP\\c[0] for you to spend!",
        "transl": "Als Belohnung winken Ihnen einige \\c[3]extra CP\\c[0]!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Thank you for playing and good luck in future adventures!",
        "transl": "Danke fürs Spielen und viel Glück bei weiteren Abenteuern!"
+      },
+      "person": {
+       "person": "misc.advisor-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "You did it, Lea!",
        "transl": "Du hast es geschafft, Lea!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "So, how did you like the quest?",
        "transl": "Hat dir die Quest gefallen?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "...Why?",
        "transl": "... Чому?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DISGUSTED"
       }
      },
      {
       "message": {
        "orig": "Huh? You mean, why did I not just tell you?",
        "transl": "Höh? Warum ich es dir nicht einfach gesagt habe?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well, to be honest, I did not know at first, myself.",
        "transl": "Na ja, um ehrlich zu sein wusste ich es anfangs selbst nicht.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "NOTIFYING"
       }
      },
      {
       "message": {
        "orig": "I was really concerned that we had a hacker in the game.",
        "transl": "Ich dachte wirklich, wir hätten einen Hacker im Spiel."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "But when I went ahead and checked, I immediately saw that Henry was actually just an NPC. ",
        "transl": "Als ich aber nachsah, fand ich sofort heraus, dass Henry doch nur ein NPC war.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SMILE"
       }
      },
      {
       "message": {
        "orig": "The \\c[3]IHSO\\c[0] is an organization dedicated to finding exploits in all kinds of systems.",
        "transl": "Die \\c[3]IHSO\\c[0] widmet sich dem Finden von Sicherheitslücken in Systemen aller Art."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WHISTLING"
       }
      },
      {
       "message": {
        "orig": "They helped Instatainment to fix some bugs in the early days of CrossWorlds.",
        "transl": "Sie haben Instatainment geholfen, viele anfängliche Bugs in CrossWorlds zu fixen. "
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "I guess that is why they let them have this much fun.",
        "transl": "Ich nehme mal an, dass sie sich deshalb etwas Spaß erlauben durften."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "Normally, the company is pretty strict about these things.",
        "transl": "Normalerweise ist die Firma sehr streng, was so etwas angeht.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "WORRIED"
       }
      },
      {
       "message": {
        "orig": "Anyway, I did not want to spoil the surprise, so I thought I would help keep up the suspense. ",
        "transl": "Jedenfalls, ich wollte dir nicht die Überraschung verderben, also dachte ich, ich spiele einfach mal mit.<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "Lea?",
        "transl": "Лія?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SURPRISED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      },
      {
       "message": {
        "orig": "But all is well that ends well, right, Lea?",
        "transl": "Ende gut, alles gut, stimmt's, Lea?<<A<<[CHANGED 2021/05/22]"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DISGUSTED"
       }
      }
     ]
@@ -644,6 +947,10 @@
           "message": {
            "orig": "Have some more s-s-spiders!",
            "transl": "Hier, noch mehr S-S-Spinnen für dich!"
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -654,6 +961,10 @@
           "message": {
            "orig": "Let's s-s-see you you deal with these!",
            "transl": "Mal s-s-sehen, wie du damit f-f-fertig wirst!"
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -664,6 +975,10 @@
           "message": {
            "orig": "You can't k-k-keep up forever!",
            "transl": "Das k-k-k-annst du nicht ewig du-du-durchhalten!"
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -676,6 +991,10 @@
           "message": {
            "orig": "C-come my darlings!",
            "transl": "K-K-Kommt, meine Lieblinge!"
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -686,6 +1005,10 @@
             "message": {
              "orig": "Aren't b-bugs the b-b-best?",
              "transl": "Sind Käfer sind g-g-großartig?"
+            },
+            "person": {
+             "person": "misc.henry-researcher",
+             "expression": "DEFAULT"
             }
            }
           ],
@@ -694,6 +1017,10 @@
             "message": {
              "orig": "Aren't spiders b-beautiful?",
              "transl": "Sind Sp-p-pinnen nicht schön?"
+            },
+            "person": {
+             "person": "misc.henry-researcher",
+             "expression": "DEFAULT"
             }
            }
           ]
@@ -704,6 +1031,10 @@
           "message": {
            "orig": "T-this will never end, hehe!",
            "transl": "Das geht jetzt die g-g-ganze Zeit weiter so, hehe!"
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          }
         ],
@@ -712,6 +1043,10 @@
           "message": {
            "orig": "R-Ready for more?",
            "transl": "Wi-Wi-Willst du noch mehr?"
+          },
+          "person": {
+           "person": "misc.henry-researcher",
+           "expression": "DEFAULT"
           }
          }
         ]
@@ -729,6 +1064,10 @@
       "message": {
        "orig": "W-What are you doing?",
        "transl": "W-Was tust du da?"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -741,6 +1080,10 @@
       "message": {
        "orig": "S-stop it!",
        "transl": "S-Stopp!"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -757,25 +1100,46 @@
       "name": {
        "orig": "Henry",
        "transl": "Henry"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "ENOUGH!",
        "transl": "SCHLUSS JETZT!"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "M-my probe is n-n-not yours.",
        "transl": "M-Meine Sonde gehört nicht d-d-dir."
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I'll just change its party s-s-settings so you c-can't attack, hehe!",
        "transl": "Ich passe einfach die P-P-Party Settings an! Dann k-k-kannst du nicht angreifen, hehe!"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -804,12 +1168,20 @@
       "message": {
        "orig": "W-W-hat?!",
        "transl": "W-Was?!"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Now is your chance, Lea!",
        "transl": "Das ist deine Chance, Lea!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      }
     ]
@@ -822,6 +1194,10 @@
       "message": {
        "orig": "I s-s-said STOP it!",
        "transl": "Ich s-s-sagte HÖR AUF damit!"
+      },
+      "person": {
+       "person": "misc.henry-researcher",
+       "expression": "DEFAULT"
       }
      }
     ]
@@ -860,19 +1236,36 @@
         "name": {
          "orig": "Baxton",
          "transl": "Baxton"
+        },
+        "person": {
+         "person": "misc.advisor-researcher",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "EXHAUSTED"
+        }
+       },
        {
         "message": {
          "orig": "Good job, Lady Lea!",
          "transl": "Gute Arbeit, Fräulein Lea!"
+        },
+        "person": {
+         "person": "misc.advisor-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "You successfully completed the quest line created by the \\c[3]IHSO\\c[0] in celebration of the \\c[3]2205th International Hackspace Convention\\c[0]. ",
          "transl": "Sie haben die von der \\c[3]IHSO\\c[0] gestellte Questreihe zur Feier des \\c[3]2205. internationalen Hackspace-Kongresses\\c[0] erfolgreich beendet."
+        },
+        "person": {
+         "person": "misc.advisor-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
@@ -881,6 +1274,10 @@
           "message": {
            "orig": "Thanks!",
            "transl": "Дякую!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXCITED"
           }
          }
         ],
@@ -889,6 +1286,10 @@
           "message": {
            "orig": "...!",
            "transl": "...!"
+          },
+          "person": {
+           "person": "main.lea",
+           "expression": "EXCITED"
           }
          }
         ]
@@ -897,48 +1298,80 @@
         "message": {
          "orig": "The whole quest line you have just completed was created by participants of this event.",
          "transl": "Die soeben abgeschlossene Questreihe wurde von Teilnehmern dieses Events kreiert."
+        },
+        "person": {
+         "person": "misc.advisor-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "The goal was to create a scenario that was so convincing that players would believe it.",
          "transl": "Ziel war es, ein Szenario zu erschaffen, das so überzeugend ist, dass Spieler es für echt halten."
+        },
+        "person": {
+         "person": "misc.advisor-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "ANNOYED"
         }
        },
        {
         "message": {
          "orig": "I'm but a tiny fraction of it. My makers wish to congratulate you on coming this far!",
          "transl": "Ich bin bloß ein kleiner Teil davon. Meine Schöpfer gratulieren Ihnen zu Ihrer Leistung!"
+        },
+        "person": {
+         "person": "misc.advisor-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "We hoped you enjoyed the quest line!",
          "transl": "Wir hoffen, die Questreihe hat Ihnen gefallen!"
+        },
+        "person": {
+         "person": "misc.advisor-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "As a reward we offer \\c[3]extra Circuit Points\\c[0] for your to spend!",
          "transl": "Als Belohnung winken Ihnen einige \\c[3]extra CP\\c[0]!"
+        },
+        "person": {
+         "person": "misc.advisor-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Thank you for playing and good luck in future adventures!",
          "transl": "Danke fürs Spielen und viel Glück bei weiteren Abenteuern!"
+        },
+        "person": {
+         "person": "misc.advisor-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SMILE"
         }
        }
       ]
@@ -965,107 +1398,185 @@
         "name": {
          "orig": "Code Knight",
          "transl": "Code Knight"
+        },
+        "person": {
+         "person": "guests.code-knight",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "Hi?",
          "transl": "Привіт?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "That quest was...\\. interesting.",
          "transl": "Diese Quest war...\\. interessant."
+        },
+        "person": {
+         "person": "guests.code-knight",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "I wasn't aware that the IHSO had messed with CrossWorlds in the past.",
          "transl": "Ich wusste gar nicht, dass die IHSO da ihre Finger im Spiel hatte.<<A<<[CHANGED 2021/05/22]"
+        },
+        "person": {
+         "person": "guests.code-knight",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...?",
          "transl": "...?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "What about you, ever tried tampering with their systems?",
          "transl": "Was ist mit dir? Hast du mal versucht, mit deren Systemen herumzuspielen?"
+        },
+        "person": {
+         "person": "guests.code-knight",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "Heh.",
          "transl": "Ha."
+        },
+        "person": {
+         "person": "guests.code-knight",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "With the right amount of patience it's doable.",
          "transl": "Alles eine Frage der Geduld."
+        },
+        "person": {
+         "person": "guests.code-knight",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "There's a huge system behind CrossWorlds, but overall it's pretty standard for the most part.",
          "transl": "Hinter CrossWorlds steckt ein riesiges System, das meiste davon ist aber ziemlich Standard."
+        },
+        "person": {
+         "person": "guests.code-knight",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Yet finding those little loopholes is what makes it so interesting.",
          "transl": "Aber diese kleinen Lücken zu finden, das ist es, was es so interessant macht."
+        },
+        "person": {
+         "person": "guests.code-knight",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "That's what hacking is all about.\\. Creating fun out of boring systems!",
          "transl": "Darum geht es beim Hacken.\\. Du suchst dir ein langweiliges System und bringst Spaß in die Sache!"
+        },
+        "person": {
+         "person": "guests.code-knight",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "THINKING"
         }
        },
        null,
        null,
        null,
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "DOWN_EYE_CLOSED"
         }
        },
        {
         "message": {
          "orig": "Bye?",
          "transl": "Бувай?"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "MOPING"
         }
        },
        null,
@@ -1074,18 +1585,30 @@
         "message": {
          "orig": "Creating fun...? I suppose that is one reason why you would do it...",
          "transl": "Um Spaß in die Sache zu bringen...? Das könnte man wohl als Motivation gelten lassen..."
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "THINKING"
         }
        },
        {
         "message": {
          "orig": "Wait a moment...\\. isn't this room supposed to be instanced?",
          "transl": "Warte mal kurz...\\. Sollte dieser Raum nicht instanziert sein?"
+        },
+        "person": {
+         "person": "main.sergey",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "...?!",
          "transl": "...?!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHOCKED"
         }
        }
       ]

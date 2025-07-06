@@ -382,48 +382,86 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.schneider2",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "And this... is the cliff side.",
        "transl": "Und hier... sind die Klippen."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "UP"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
       "message": {
        "orig": "It's where you realize...\\. that this place is actually pretty small.",
        "transl": "Spätestens hier stellst du fest...\\. dass dieser ganze Ort hier eigentlich recht klein ist."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "And yes...\\. there is indeed no exit.",
        "transl": "Und ja...\\. es gibt tatsächlich keinen Ausgang."
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SAD"
       }
      },
      {
       "message": {
        "orig": "Well actually...\\. There is that one door just over here!",
        "transl": "Das heißt...\\. Warte mal...\\. Vielleicht diese eine Tür dort drüben!"
+      },
+      "person": {
+       "person": "main.schneider2",
+       "expression": "WONDERING"
       }
      },
      null,
@@ -447,82 +485,145 @@
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.schneider2",
+          "expression": "UP"
+         }
+        },
         {
          "message": {
           "orig": "Japp. It's a door.",
           "transl": "Japp. Da ist wirklich eine Tür."
+         },
+         "person": {
+          "person": "main.schneider2",
+          "expression": "NORM_SERIOUS"
          }
         },
         {
          "message": {
           "orig": " I have no idea where it leads but it's as close as it gets to an exit.",
           "transl": "Ich habe keine Ahnung, wo sie hinführt, aber sie kommt einem Ausgang am nächsten."
+         },
+         "person": {
+          "person": "main.schneider2",
+          "expression": "SERIOUS"
          }
         },
         {
          "message": {
           "orig": "Of course,\\. it's locked.",
           "transl": "Klar,\\. verschlossen."
+         },
+         "person": {
+          "person": "main.schneider2",
+          "expression": "PONDERING"
          }
         },
         null,
         null,
         null,
-        null,
+        {
+         "person": {
+          "person": "main.lea",
+          "expression": "SAD"
+         }
+        },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SAD"
          }
         },
-        null,
+        {
+         "person": {
+          "person": "main.schneider2",
+          "expression": "WONDERING"
+         }
+        },
         {
          "message": {
           "orig": "Hm...",
           "transl": "Hm..."
+         },
+         "person": {
+          "person": "main.schneider2",
+          "expression": "WONDERING"
          }
         },
         {
          "message": {
           "orig": "I didn't plan to end the tour on such a depressing note.",
           "transl": "War nicht meine Absicht, die Tour mit so einer deprimierenden Erkenntnis zu beenden."
+         },
+         "person": {
+          "person": "main.schneider2",
+          "expression": "WORRIED"
          }
         },
         {
          "message": {
           "orig": "Actually, now that I think about it...\\. there is one more thing I'd like to show you!",
           "transl": "Oh! Da fällt mir ein...\\. Eine Sache gibt es noch, die ich dir zeigen will!"
+         },
+         "person": {
+          "person": "main.schneider2",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "...?",
           "transl": "...?"
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SURPRISED"
          }
         },
         {
          "message": {
           "orig": "We'll have to run back all the way to the \\c[3]East Town\\c[0], though.",
           "transl": "Dafür müssen wir zurück zur \\c[3]Oststadt\\c[0], also den ganzen Weg wieder zurück."
+         },
+         "person": {
+          "person": "main.schneider2",
+          "expression": "DEFAULT"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "EXHAUSTED"
          }
         },
         {
          "message": {
           "orig": "What? Is the old granny tired already?",
           "transl": "Was denn? Ist die tattrige alte Dame etwa schon erschöpft?"
+         },
+         "person": {
+          "person": "main.schneider2",
+          "expression": "WINK"
          }
         },
         {
          "message": {
           "orig": "...",
           "transl": "..."
+         },
+         "person": {
+          "person": "main.lea",
+          "expression": "SMILE"
          }
         },
         null,
@@ -657,25 +758,52 @@
        }
       ]
      },
-     null,
+     {
+      "person": {
+       "person": "main.buggy",
+       "expression": "DOWN"
+      }
+     },
      {
       "message": {
        "orig": "Whoa! What a gloomy place!",
        "transl": "Woah! Was für ein düsterer Ort!"
+      },
+      "person": {
+       "person": "main.buggy",
+       "expression": "DOWN"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "How unexpected! Now I really wonder about the history of this location.",
        "transl": "Oh, wie überraschend! Jetzt wüsste ich nur zu gerne die Geschichte dieses Ortes."
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "There is time for that later, we need to hurry!",
        "transl": "Dafür ist jetzt keine Zeit, wir müssen uns beeilen!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      null,
@@ -721,166 +849,313 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED"
+      }
+     },
      {
       "message": {
        "orig": "Hm.",
        "transl": "Hm."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED_DOWN"
       }
      },
      {
       "message": {
        "orig": "What a large company.\\. Unexpected.",
        "transl": "Das sind mehr, als ich erwartet habe."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOUT"
+      }
+     },
      {
       "message": {
        "orig": "Hey, is this that Sidwell guy?!",
        "transl": "Hey, ist das dieser Sidwell-Typ?!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOUT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
+      }
+     },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "...!!",
        "transl": "...!!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED"
+      }
+     },
      {
       "message": {
        "orig": "You all should be perfectly aware that this area is off limits.\n",
        "transl": "Ihr wisst genau, dass dieses Gebiet hier für euch tabu ist."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED_DOWN"
       }
      },
      {
       "message": {
        "orig": "Leave at once unless you want all your accounts to be suspended.",
        "transl": "Verschwindet also auf der Stelle oder eure Accounts werden alle gebannt."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED_WARN"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "Everyone, do not listen to him.",
        "transl": "Hört nicht auf das, was er sagt."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "He cannot risk reporting this through official channels!",
        "transl": "Er kann das Risiko nicht eingehen, unseren Verstoß zu melden!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "POINTING"
+      }
+     },
      {
       "message": {
        "orig": "Foul Villain!!",
        "transl": "Elender Schuft!!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "POINTING"
       }
      },
      {
       "message": {
        "orig": "Your empty threats will not stop us!",
        "transl": "Deine leeren Drohungen werden uns nicht aufhalten!"
+      },
+      "person": {
+       "person": "antagonists.fancyguy",
+       "expression": "SHOUTING"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Oui! Nothing will turn us back now!",
        "transl": "Oui! Nichts wird uns jetzt mehr aufhalten!"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "DETERMINED"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED"
+      }
+     },
      {
       "message": {
        "orig": "So what is it you are after?\\. The server?",
        "transl": "Was sucht ihr hier?\\. Den Server?"
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED_UNPLEASED"
       }
      },
      {
       "message": {
        "orig": "It will be impossible for you to reach.",
        "transl": "Den könnt ihr unmöglich erreichen."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED_DOWN"
       }
      },
      {
       "message": {
        "orig": "And even if you did, its data will be lost before you get there.",
        "transl": "Und selbst wenn, wären die Daten verloren, bevor ihr dort ankommt."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED_WARN"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.grumpy",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "And then you'd lose the sole copy of every Evotar.",
        "transl": "Und damit würden Sie die einzige Kopie aller Evotare verlieren."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Including Satoshi.",
        "transl": "Und auch Satoshi."
+      },
+      "person": {
+       "person": "main.grumpy",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.schneider",
+       "expression": "NORM_SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "That's right!",
        "transl": "Ganz genau!"
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "PONDERING"
       }
      },
      {
       "message": {
        "orig": "The Evotar server is your last hostage.",
        "transl": "Der Evotarserver ist deine letzte Geisel."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "NORM_SERIOUS"
       }
      },
      {
       "message": {
        "orig": "A hostage you can't afford to lose!",
        "transl": "Eine Geisel, deren Verlust du nicht riskieren kannst."
+      },
+      "person": {
+       "person": "main.schneider",
+       "expression": "SERIOUS"
       }
      },
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED"
+      }
+     },
      {
       "message": {
        "orig": "You'd be wise not to overestimate my attachment to all of this.",
        "transl": "Du machst einen Fehler, wenn du glaubst, dass mir an all dem so viel liegt."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED_UNPLEASED"
       }
      },
      {
       "message": {
        "orig": "Anyway...",
        "transl": "Wie dem auch sei..."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED_DOWN"
       }
      },
      {
       "message": {
        "orig": "I'll humor your attempt.",
        "transl": "Lassen wir es doch auf einen Versuch ankommen."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED_DOWN_SMILE"
       }
      },
      null,
@@ -905,11 +1180,20 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED"
+      }
+     },
      {
       "message": {
        "orig": "But I won't let you stroll around unhindered.",
        "transl": "Aber ich werde euch nicht ungehindert herumspazieren lassen."
+      },
+      "person": {
+       "person": "antagonists.shady",
+       "expression": "MASKED_WARN"
       }
      },
      null,
@@ -931,19 +1215,37 @@
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
+      }
+     },
      {
       "message": {
        "orig": "The barrier is down! Time to split, everyone!",
        "transl": "Die Barriere ist weg! Zeit, sich aufzuteilen!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      null,
-     null,
+     {
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "Onwards!!",
        "transl": "Vorwärts!!"
+      },
+      "person": {
+       "person": "main.guild-leader",
+       "expression": "DETERMINED"
       }
      }
     ]

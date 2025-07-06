@@ -223,59 +223,111 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
+      }
+     },
      {
       "message": {
        "orig": "Looks like you found the place where this \\c[3]legendary bunny\\c[0] is.",
        "transl": "Sieht so aus, als hättest du den Ort gefunden, an dem dieser \\c[3]legendäre Hase\\c[0] sich versteckt hält."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "JOKING"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "Be careful!\\. Who knows how strong this enemy is.",
        "transl": "Sei vorsichtig!\\. Wer weiß, wie stark dein Gegner ist."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "So what do you want to do?",
        "transl": "Also, was willst du tun?"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
+      }
+     },
      {
       "message": {
        "orig": "I am not sure if... \\.\\.\\.",
        "transl": "Ich bin mir nicht sicher, ob... \\.\\.\\."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      null,
@@ -314,30 +366,56 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "main.sergey",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Never mind...",
        "transl": "Schon gut..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "ROLL_EYES"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Now is your chance, Lea!",
        "transl": "Das ist deine Chance, Lea!"
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      }
     ]
@@ -362,18 +440,30 @@
       "message": {
        "orig": "This...",
        "transl": "Das..."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "SERIOUS"
       }
      },
      {
       "message": {
        "orig": "...was just a normal \\v[combat.name.gray-frobbit].",
        "transl": "... war nur ein gewöhnlicher \\v[combat.name.gray-frobbit]."
+      },
+      "person": {
+       "person": "main.sergey",
+       "expression": "EYES_CLOSED"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ANNOYED"
       }
      }
     ]
@@ -386,12 +476,20 @@
       "message": {
        "orig": "What is up with these rock formations?",
        "transl": "Was sind das bloß für seltsame Felsformationen?"
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "It looks like it could collapse any second, yet it seems stable.",
        "transl": "Die sehen aus, als würden sie jeden Moment einstürzen. Und doch scheinen sie stabil zu sein."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "EXHAUSTED"
       }
      }
     ]
@@ -404,12 +502,20 @@
       "message": {
        "orig": "I didn't expect to see any green spots at this altitude.",
        "transl": "Ich hätte nicht erwartet, in dieser Höhe ein grünes Fleckchen Erde zu finden."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      },
      {
       "message": {
        "orig": "Suspicious.",
        "transl": "Verdächtig."
+      },
+      "person": {
+       "person": "main.emilie",
+       "expression": "SUSPICIOUS"
       }
      }
     ]
@@ -480,7 +586,12 @@
    "settings": {
     "event": [
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Oi!\\. Stop there, ye astray summerbirds!",
@@ -491,6 +602,10 @@
       "message": {
        "orig": "...!",
        "transl": "...!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED"
       }
      },
      null,
@@ -504,44 +619,77 @@
       "name": {
        "orig": "Guard Petra",
        "transl": "Wache Petra"
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Ah, reinforcements, eh?",
        "transl": "Ah, Verstärkung, heh?"
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Nice time to arrive, with me having some trouble here, I say.",
        "transl": "Kommst genau richtig, würd' ich sagen. Hab hier gerade etwas Ärger."
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Lea!",
        "transl": "Лія!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DETERMINED"
       }
      },
      {
       "message": {
        "orig": "So you better get these ruffians arrested now.",
        "transl": "Du solltest diese Gauner auf der Stelle verhaften."
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -553,25 +701,46 @@
       "name": {
        "orig": "Guard Petra",
        "transl": "Wache Petra"
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "... Meet!?",
        "transl": "... Зустрітися!?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "Me?\\. I got me my foot hurt, so keeping them in place was the best I could do.\\. I will cheer for you though!",
        "transl": "Ich?\\. Ich hab mich am Fuß verletzt. Mehr, als sie aufzuhalten, konnte ich nicht tun.\\. Ich werde dich aber anfeuern!"
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "MOPING"
       }
      },
      null,
@@ -590,37 +759,66 @@
       "name": {
        "orig": "Guard Petra",
        "transl": "Wache Petra"
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
+      }
+     },
      {
       "message": {
        "orig": "Wait!",
        "transl": "Зачекай!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SHOCKED"
       }
      },
      {
       "message": {
        "orig": "Arr, curses, that crate got away!\\. Who knows what darn things were inside!",
        "transl": "Ach, verflucht noch eins, die Kiste ist weg!\\. Weiß der Teufel, was da drin war!"
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NERVOUS"
       }
      },
      {
       "message": {
        "orig": "Well, you better still clean up the area.\\. I must take a rest to tend to my wounds!",
        "transl": "Du solltest hier besser noch die Gegend absichern.\\. Ich muss mich ausruhen, um meine Wunden zu versorgen!"
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      }
     ]
@@ -650,79 +848,137 @@
       "name": {
        "orig": "Guard Petra",
        "transl": "Wache Petra"
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      null,
      {
       "message": {
        "orig": "Hi!",
        "transl": "Привіт!"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "PROUD"
       }
      },
      {
       "message": {
        "orig": "Oi, \\v[lore.title.seeker]!\\. You really saved my bacon here.\\. Thought I was done for, I did!",
        "transl": "He, Seeker!\\. Du hast mir hier echt meinen Hintern gerettet.\\. Ich dachte schon, ich wäre erledigt!"
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SMUG"
       }
      },
      {
       "message": {
        "orig": "Them birds got away with that crate, though.\\. I hope that won't stir up troubles.",
        "transl": "Die Vögel konnten leider mit der Kiste entkommen.\\. Wenn das mal keinen Ärger gibt..."
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "... how?",
        "transl": "... Як?"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "THINKING"
       }
      },
      {
       "message": {
        "orig": "Well, you don't know what advanced goat tech they're bringing back to their patch.",
        "transl": "Tja, wir wissen nicht, welche fortschrittliche Ziegentechnologie sie erbeutet haben."
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "I better hurry to file me a report at the HQ.\\. And you should get into a talk with the chief over this.",
        "transl": "Jetzt ist aber erstmal der Bericht fürs Hauptquartier dran.\\. Und du solltest dich mit dem Chef beraten."
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_TOWARD"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well, gotta bounce and get some time off.\\. Cheerio, \\v[lore.title.seeker]!",
        "transl": "Gut, ich zisch' ab und nehm' mir 'ne Auszeit.\\. Cheerio, Seeker!"
+      },
+      "person": {
+       "person": "guards.female-small-white",
+       "expression": "DEFAULT"
       }
      },
      null,
      null,
      null,
      null,
-     null,
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "... bye.",
        "transl": "... Бувай."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
       }
      }
     ]

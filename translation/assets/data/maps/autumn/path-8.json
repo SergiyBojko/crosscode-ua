@@ -472,12 +472,26 @@
      null,
      null,
      null,
-     null,
-     null,
+     {
+      "person": {
+       "person": "greenies.female-researcher",
+       "expression": "DEFAULT"
+      }
+     },
+     {
+      "person": {
+       "person": "main.lea",
+       "expression": "DEFAULT"
+      }
+     },
      {
       "message": {
        "orig": "Hey!",
        "transl": "Huch!"
+      },
+      "person": {
+       "person": "greenies.female-researcher",
+       "expression": "DEFAULT"
       }
      },
      null,
@@ -489,30 +503,50 @@
         "message": {
          "orig": "Pleased ter meetcher, girl!",
          "transl": "Isch verdammt gu'd dich zu treffe', Mädle!"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Are y'all inner'sted in plants too?",
          "transl": "Seid's ihr all' auch an Gewäggs' endressierd?"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED_TOWARD"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        }
       ],
@@ -521,36 +555,60 @@
         "message": {
          "orig": "Good gracious, girl!",
          "transl": "Desch isch verdammt großzügig, Mädle!"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hi!",
          "transl": "Привіт!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "Y'all gave me quite the scare there.",
          "transl": "Ihr habt's mir ganz schön 'n Schock einjejagt."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Hittin' them plants an' all.",
          "transl": "Mit de' ganze Gewäggse kloppe un so."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SURPRISED"
         }
        },
        {
         "message": {
          "orig": "Shucks, 'sall good.",
          "transl": "Ach nah, isch alles subba."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -559,60 +617,100 @@
       "message": {
        "orig": "They got some mighty strange doohickeys inside, don'tcher think?",
        "transl": "Die lasse ganz schön seltsames Zeug fallen, wa?"
+      },
+      "person": {
+       "person": "greenies.female-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "SURPRISED_AWAY"
       }
      },
      {
       "message": {
        "orig": "[nods]",
        "transl": "[nickt]"
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "NOD"
       }
      },
      {
       "message": {
        "orig": "Well, Ah'm \\c[3]Talatu Lips\\c[0].",
        "transl": "Mei Nam' isch \\c[3]Talatu Lips\\c[0]."
+      },
+      "person": {
+       "person": "greenies.female-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "name": {
        "orig": "Talatu Lips",
        "transl": "Talatu Lips"
+      },
+      "person": {
+       "person": "greenies.female-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ah've takin' a notion ta findin' an' analyzin' as many as ah can. ",
        "transl": "Isch habbet mia zum Aufgäble jemacht, so viel fia di Analyse wie nur möchlich zu finden."
+      },
+      "person": {
+       "person": "greenies.female-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "But that's turned out ta be a lot harder than ah 'spected.",
        "transl": "Wus sisch als rescht schwer herausgestelld hat."
+      },
+      "person": {
+       "person": "greenies.female-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "See, gettin' at what's inside seems ta only be doable by Seekers. ",
        "transl": "Weischt, rauszufinde was inne drinne isch, des könne scheinbah' nur de' Seeker."
+      },
+      "person": {
+       "person": "greenies.female-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "Ah can only collec' what they bring me.",
        "transl": "Un isch kann nuar sammel, was die mi bringe."
+      },
+      "person": {
+       "person": "greenies.female-researcher",
+       "expression": "DEFAULT"
       }
      },
      {
       "message": {
        "orig": "...",
        "transl": "..."
+      },
+      "person": {
+       "person": "main.lea",
+       "expression": "ASTONISHED"
       }
      },
      {
@@ -621,6 +719,10 @@
         "message": {
          "orig": "Might y'all be inner'sted in givin' me a hand?",
          "transl": "Isch des für disch von Intressle?"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -629,12 +731,20 @@
         "message": {
          "orig": "Y'all already seem ta know the drill. ",
          "transl": "Du schaust aus, als kennste disch aus."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Care ta help me out?",
          "transl": "Mogscht helfe?"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        }
       ]
@@ -645,24 +755,40 @@
         "message": {
          "orig": "...!",
          "transl": "...!"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "EXCITED"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Much obliged, girl, that there's mighty kind o' y'all.",
          "transl": "Schick, blauhaarig's Mädel, desch is fei nett von dir!"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "First, lemme give y'all this here...",
          "transl": "Lass mir des mal dir gebe."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        null,
@@ -678,61 +804,106 @@
         "name": {
          "orig": "Talatu Lips",
          "transl": "Talatu Lips"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
-       null,
+       {
+        "person": {
+         "person": "main.lea",
+         "expression": "DEFAULT"
+        }
+       },
        {
         "message": {
          "orig": "This handy li'l gizmo will help y'all keep track o' yer progress. ",
          "transl": "Die kleine Disc mocht's mi möchlisch, dei Fortschritt zu sehe."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Jes' keep hittin' them plants an' analyze 'em by gettin' them doohickeys. ",
          "transl": "All's was de tun muscht, is de Gewäggse ordentlisch kloppe. Und se analysiere, wenn 'de dere Zeusch einsammel tust."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Y'all can check yer progress in the menu too!",
          "transl": "Du kansch de Fortschritt auch selbsch nachgucke, im Menü."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Ah took the liberty of addin' mah findin's fer the \\c[3]Alpha Ball Plant\\c[0].",
          "transl": "Isch hab mir mal de Freiheit genomme, mei Ergebnisse über de \\c[3]Alpha-Kugelpflanze\\c[0] hinzuzufüge."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Jes' keep hittin' them plants fer me, a'right?",
          "transl": "Hau nur fleißsch auf de Planze für mich, tuscht des, ja?"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "[nods]",
          "transl": "[nickt]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NOD"
         }
        },
        {
         "message": {
          "orig": "Alrighty, Ah'll be off explorin' fer more o' them plants. ",
          "transl": "Schick, schick. Isch werde ma' mehr von den Gewäggse suche'."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Might even meetcher again along the way. ",
          "transl": "Möglisch, dass me uns wieda sehe, wa?"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        },
        {
         "message": {
          "orig": "Once y'all're finished, come find me in \\c[3]Rookie Harbor Alley Quarters\\c[0]. ",
          "transl": "Wenn de feddisch bisch, findest mich in de \\c[3]Rookie Harbor Alleenviertel\\c[0]."
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        }
       ],
@@ -741,18 +912,30 @@
         "message": {
          "orig": "...",
          "transl": "..."
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "NERVOUS"
         }
        },
        {
         "message": {
          "orig": "[shakes head]",
          "transl": "[schüttelt Kopf]"
+        },
+        "person": {
+         "person": "main.lea",
+         "expression": "SHAKE"
         }
        },
        {
         "message": {
          "orig": "Well bless yer heart, girl, y'all come back if y'ever change yer mind.",
          "transl": "Oh, keine Sorge, Mädel, desch is kei Problem. Wenn de' dei' Meinung änderscht, kannst wieda komme, wa?"
+        },
+        "person": {
+         "person": "greenies.female-researcher",
+         "expression": "DEFAULT"
         }
        }
       ]
