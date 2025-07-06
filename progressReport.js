@@ -1,6 +1,9 @@
 const fs = require('fs');
 const p = require('path');
 
+let ignoreStrings = ['......', '....', '..', '...', '...!', '...?', '...!!', '...??', '...!!!', '...???', '???', '????', 'untitled', 'OG', 'UG 2'
+    , 'UG', 'Lachsen', 'The Four Visionaries', 'GFluegel', 'xDragon', 'R.D.', 'STATIC-LANG-FILE', 'sc.gimmick', 'sc.map-content', 'sc.gui'];
+
 fs.writeFileSync('report.txt', '');
 let stats = {total:0,translated:0}
 progressReport('translation\\assets', stats)
@@ -36,9 +39,7 @@ function fileReport(translation, stats) {
             }
         } else {
             if(translation.hasOwnProperty("transl")) {
-                let ignore = ['...', '...!', '...?', '...!!', '...??', '...!!!', '...???', '???', '????', 'untitled', 'OG', 'UG 2'
-                    , 'UG', 'Lachsen', 'The Four Visionaries', 'GFluegel', 'xDragon', 'R.D.'];
-                if(!ignore.includes(translation.orig)) { // ignore untranslatable strings
+                if(!ignoreStrings.includes(translation.orig)) { // ignore untranslatable strings
                     stats.total++;
                     if(translation.transl.toString().match(/[а-яА-ЯіїґІЇҐєЄ]/)?.length > 0) {
                         stats.translated++;
@@ -51,9 +52,13 @@ function fileReport(translation, stats) {
             }
         }
     } else if(typeof translation === 'string'){
-        stats.total++;
-        if([...translation.toString().matchAll(/[а-яА-ЯіїґІЇҐєЄ]/g)].length > 0) {
-            stats.translated++;
+        if(!ignoreStrings.includes(translation)) {
+            stats.total++;
+            if([...translation.toString().matchAll(/[а-яА-ЯіїґІЇҐєЄ]/g)].length > 0) {
+                stats.translated++;
+            } else {
+                console.log(`Not translated ${translation}`)
+            }
         }
     }
 }

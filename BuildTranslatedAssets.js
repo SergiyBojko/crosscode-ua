@@ -1,7 +1,7 @@
 const fs = require('fs');
 const p = require('path');
 
-pushTranslations('assets');
+pushTranslations('assets\\data\\lang');
 
 function pushTranslations(path) {
 
