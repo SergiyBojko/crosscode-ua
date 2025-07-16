@@ -1,14 +1,19 @@
 const fs = require('fs');
 const p = require('path');
 
-let ignoreStrings = ['......', '....', '..', '...', '...!', '...?', '...!?', '...!!', '...??', '...!!!', '...???', '???', '????', '??????', 'untitled', 'OG', 'UG 2'
-    , 'UG', 'Lachsen', 'The Four Visionaries', 'GFluegel', 'xDragon', 'R.D.', 'STATIC-LANG-FILE', 'sc.gimmick', 'sc.map-content', 'sc.gui'];
+let ignoreStrings = ['untitled', 'OG', 'UG 2', 'UG', 'Lachsen', 'The Four Visionaries', 'GFluegel', 'xDragon',
+    'R.D.', 'STATIC-LANG-FILE', 'sc.gimmick', 'sc.map-content', 'sc.gui',
+    'SP', 'player.hasAnyToggleItems', '!!min=64', '!!min=66', '!!min=-1', '!!min=82', '\\i[gamepad-r1] / \\i[gamepad-r2]', '\\i[gamepad-r2] / \\i[gamepad-r1]'];
 
+let excluded = new Set();
 fs.writeFileSync('report.txt', '');
 let stats = {total:0,translated:0}
 progressReport('translation\\assets', stats)
 fs.writeFileSync('report.txt', '\n TOTAL', {flag: 'a'});
 writeStatsToReport(stats)
+
+console.log("Excluded strings:")
+excluded.forEach((item) => {console.log(item);});
 
 function progressReport(path, totalStats) {
     writeDirToReport(path);
@@ -22,7 +27,7 @@ function progressReport(path, totalStats) {
             if(filePath.endsWith(".json")) {
                 writeDirToReport(filePath);
                 let stats = {total:0,translated:0}
-                fileReport(JSON.parse(fs.readFileSync(filePath)), stats)
+                collectStats(JSON.parse(fs.readFileSync(filePath)), stats)
                 writeStatsToReport(stats)
                 totalStats.total+=stats.total
                 totalStats.translated+=stats.translated
@@ -31,37 +36,41 @@ function progressReport(path, totalStats) {
     }
 }
 
-function fileReport(translation, stats) {
-    if(typeof translation === 'object' && translation !== null) {
-        if (Array.isArray(translation)) {
-            for (let i = 0; i < translation.length; i++) {
-                fileReport(translation[i], stats);
+function collectStats(json, stats) {
+    if(typeof json === 'object' && json !== null) {
+        if (Array.isArray(json)) {
+            for (let i = 0; i < json.length; i++) {
+                collectStats(json[i], stats);
             }
         } else {
-            if(translation.hasOwnProperty("transl")) {
-                if(!ignoreStrings.includes(translation.orig)) { // ignore untranslatable strings
+            if(json.hasOwnProperty("transl")) {
+                if(!ignoreStrings.includes(json.orig) && json.orig.toString().match(/[a-zA-Z]/)?.length > 0) { // ignore untranslatable strings
                     stats.total++;
-                    if(translation.transl.toString().match(/[а-яА-ЯіїґІЇҐєЄ]/)?.length > 0) {
+                    if(json.transl.toString().match(/[а-яА-ЯіїґІЇҐєЄ]/)?.length > 0) {
                         stats.translated++;
                     }
+                } else {
+                    excluded.add(json.orig.toString());
                 }
-            } else if(translation.hasOwnProperty("person") && translation.hasOwnProperty("expression")) {
+            } else if(json.hasOwnProperty("person") && json.hasOwnProperty("expression")) {
                 // dialog details, skip
                 return;
             } else {
-                for(k in translation) {
-                    fileReport(translation[k], stats)
+                for(k in json) {
+                    collectStats(json[k], stats)
                 }
             }
         }
-    } else if(typeof translation === 'string'){
-        if(!ignoreStrings.includes(translation)) {
+    } else if(typeof json === 'string'){
+        if(!ignoreStrings.includes(json) && json.toString().match(/[a-zA-Zа-яА-ЯіїґІЇҐєЄ]/)?.length > 0) {
             stats.total++;
-            if([...translation.toString().matchAll(/[а-яА-ЯіїґІЇҐєЄ]/g)].length > 0) {
+            if([...json.toString().matchAll(/[а-яА-ЯіїґІЇҐєЄ]/g)].length > 0) {
                 stats.translated++;
             } else {
-                console.log(`Not translated ${translation}`)
+                console.log(`Not translated ${json}`)
             }
+        } else {
+            excluded.add(json.toString());
         }
     }
 }
