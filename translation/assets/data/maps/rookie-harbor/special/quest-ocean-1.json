@@ -23,7 +23,7 @@
      {
       "text": {
        "orig": "[ Enemies detected. Get ready for combat! ]",
-       "transl": "[ Feinde entdeckt. Klarmachen zum Gefecht! ]"
+       "transl": "[ Виявлено ворогів. Приготуйтесь до бою! ]"
       }
      },
      null,
@@ -37,7 +37,7 @@
        "settings": {
         "text": {
          "orig": "Ship HP",
-         "transl": "Schiff-HP"
+         "transl": "HP Корабля"
         }
        }
       }
@@ -47,11 +47,11 @@
        "settings": {
         "taskTitle": {
          "orig": "\\c[1]Missed\\c[0]",
-         "transl": "\\c[1]Verfehlt\\c[0]"
+         "transl": "\\c[1]Промах\\c[0]"
         },
         "text": {
          "orig": "Battleship HP",
-         "transl": "Schlachtschiff-HP"
+         "transl": "HP Лінкора"
         }
        }
       }
@@ -66,7 +66,7 @@
      {
       "task": {
        "orig": "Wave 1 incoming!",
-       "transl": "1. Welle naht!"
+       "transl": "Наближається 1-ша Хвиля!"
       }
      }
     ]
@@ -82,7 +82,7 @@
        {
         "text": {
          "orig": "Turret Shot",
-         "transl": "Geschützschuss"
+         "transl": "Постріл з Турелі"
         }
        }
       ]
@@ -102,7 +102,7 @@
          {
           "text": {
            "orig": "Target Change",
-           "transl": "Neues Ziel"
+           "transl": "Зміна Цілі"
           }
          }
         ]
@@ -140,11 +140,11 @@
        "settings": {
         "text": {
          "orig": "\\c[1]Cannon Ready!\\c[0]\nUse \\c[3]Charged Throw\\c[0] to mark target! \n\n\\c[3]Heat\\c[0] and \\c[3]Cold\\c[0] have special effects!",
-         "transl": "\\c[1]Kanone bereit!\\c[0]\nMarkiere Ziel durch \\c[3]geladenen Wurf\\c[0]!\n\n\\c[3]Hitze\\c[0] und \\c[3]Kälte\\c[0] haben besondere Effekte!"
+         "transl": "\\c[1]Гармата Готова!\\c[0]\nВикористайте \\c[3]Заряджений Кидок\\c[0], щоб помітити ціль! \n\n\\c[3]Жар\\c[0] і \\c[3]Холод\\c[0] мають особливі ефекти!"
         },
         "altText": {
          "orig": "\\c[1]Cannon Ready!\\c[0]",
-         "transl": "\\c[1]Kanone bereit!\\c[0]"
+         "transl": "\\c[1]Гармата Готова!\\c[0]"
         }
        }
       }
@@ -172,7 +172,7 @@
      {
       "task": {
        "orig": "Wave 2 incoming!",
-       "transl": "2. Welle naht!"
+       "transl": "Наближається 2-га Хвиля!"
       }
      }
     ]
@@ -199,7 +199,7 @@
      {
       "text": {
        "orig": "[ Critical damage received. Detonation imminent! ]",
-       "transl": "[ Verheerender Treffer! Kurz vor Detonation! ]"
+       "transl": "[ Отримано критичне ушкодження. Вибух неминучий! ]"
       }
      }
     ]
@@ -217,7 +217,7 @@
      {
       "text": {
        "orig": "\\c[1]QUEST FAILED\\c[0]\n\nRestart task to try again",
-       "transl": "\\c[1]QUEST GESCHEITERT\\c[0]\n\nVersuch's nochmal!"
+       "transl": "\\c[1]КВЕСТ ПРОВАЛЕНО\\c[0]\n\nПерезапустіть завдання, щоб спробувати ще раз"
       }
      },
      {
@@ -235,13 +235,13 @@
        {
         "label": {
          "orig": "Restart Mission",
-         "transl": "Mission wiederholen"
+         "transl": "Перезапустити Місію"
         }
        },
        {
         "label": {
          "orig": "Back to \\v[area.rookie-harbor.name]",
-         "transl": "Zurück zu Rookie Harbor"
+         "transl": "Назад до Гавані Новачків"
         }
        }
       ]
@@ -270,7 +270,7 @@
      {
       "text": {
        "orig": "[ Sensors clear! ]",
-       "transl": "[ Kein Feind in Sicht! ]"
+       "transl": "[ Все чисто! ]"
       }
      },
      null,
@@ -278,7 +278,7 @@
      {
       "text": {
        "orig": "\\c[2]Patrol successful!\\c[0]\n\nThe Shipments have been destroyed!",
-       "transl": "\\c[2]Patrouille erfolgreich!\\c[0]\n\nDie Ladungen wurden zerstört!"
+       "transl": "\\c[2]Патрулювання успішне!\\c[0]\n\nПоставки знищено!"
       }
      }
     ]
@@ -300,7 +300,7 @@
      {
       "text": {
        "orig": "\\c[1]You let too many weapons pass by that will now reach the continent!\\c[0]",
-       "transl": "\\c[1]Du hast zu viele Waffen durchgelassen, die nun den Kontinent erreichen werden!\\c[0]"
+       "transl": "\\c[1]Ви пропустили надто багато озброєння, і тепер воно потрапить на континент!\\c[0]"
       }
      }
     ]
@@ -315,7 +315,7 @@
        {
         "text": {
          "orig": "Use \\c[3]Heat\\c[0] for explosive damage!",
-         "transl": "Nutze \\c[3]Hitze\\c[0] für Explosionsschaden!"
+         "transl": "Використайте \\c[3]Жар\\c[0] для вибухових ушкоджень!"
         }
        }
       ]
@@ -325,7 +325,7 @@
        {
         "text": {
          "orig": "Use \\c[3]Cold\\c[0] to slow down single targets!",
-         "transl": "Nutze \\c[3]Kälte\\c[0], um Ziele zu verlangsamen!"
+         "transl": "Використайте \\c[3]Холод\\c[0], щоб уповільнити цілі!"
         }
        }
       ]
@@ -335,7 +335,7 @@
        {
         "text": {
          "orig": "Use \\c[3]Shock\\c[0] to hit two targets at once!",
-         "transl": "Nutze \\c[3]Schock\\c[0], um zwei Ziele auf einmal zu treffen!"
+         "transl": "Використайте \\c[3]Шок\\c[0], щоб вразити дві цілі одночасно!"
         }
        }
       ]
@@ -345,7 +345,7 @@
        {
         "text": {
          "orig": "Use \\c[3]Wave\\c[0] to hit targets in a line!",
-         "transl": "Nutze \\c[3]Welle\\c[0], um Ziele in einer Reihe zu treffen!"
+         "transl": "Використайте \\c[3]Хвилю\\c[0], щоб вразити цілі по лінії!"
         }
        }
       ]
