@@ -12,7 +12,7 @@ function pushTranslations(path) {
                 console.log(`Dir ${filePath}`);
                 pushTranslations(filePath);
             } else {
-                if(filePath.endsWith("uk_UA.json") || filePath.endsWith(".png")) {
+                if(filePath.endsWith(".png") || filePath.match("lang")) {
                     copyFile(filePath)
                 } else if(filePath.endsWith(".json")) {
                     pushTranslationsToFile(filePath)
@@ -23,6 +23,7 @@ function pushTranslations(path) {
 }
 
 function copyFile(filePath) {
+    console.log(`Copying ${filePath}`);
     let translationFilePath = p.join('translation', filePath);
     let copyTo = p.join('build', filePath.replace("uk_UA.json", "de_DE.json"));
     fs.mkdirSync(p.parse(copyTo).dir, { recursive: true });

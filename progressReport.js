@@ -24,7 +24,7 @@ function progressReport(path, totalStats) {
             console.log(`Dir ${filePath}`);
             progressReport(filePath, totalStats);
         } else {
-            if(filePath.endsWith(".json")) {
+            if(filePath.endsWith(".json") && !filePath.match(/en_US|ja_JP|ko_KR|zh_CN|zh_TW/)) {
                 writeDirToReport(filePath);
                 let stats = {total:0,translated:0,words:0}
                 collectStats(JSON.parse(fs.readFileSync(filePath)), stats)
