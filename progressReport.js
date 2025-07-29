@@ -8,7 +8,7 @@ let ignoreStrings = ['untitled', 'OG', 'UG 2', 'UG', 'Lachsen', 'The Four Vision
 let excluded = new Set();
 fs.writeFileSync('report.txt', '');
 let stats = {total:0,translated:0,words:0}
-progressReport('translation\\assets', stats)
+progressReport('translation', stats)
 fs.writeFileSync('report.txt', '\n TOTAL', {flag: 'a'});
 writeStatsToReport(stats)
 
