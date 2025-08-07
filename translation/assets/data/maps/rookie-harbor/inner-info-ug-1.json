@@ -15,7 +15,7 @@
      {
       "text": {
        "orig": "Awesome!",
-       "transl": "Abgefahren!"
+       "transl": "Круто!"
       }
      }
     ]
@@ -27,7 +27,7 @@
     "interact": {
      "hoverText": {
       "orig": "Combat Practice Terminal",
-      "transl": "Übungskampf-Terminal"
+      "transl": "Термінал Бойового Тренування"
      },
      "event": [
       {
@@ -47,37 +47,37 @@
           {
            "label": {
             "orig": "\\i[element-neutral]Neutral",
-            "transl": "\\i[element-neutral]Neutral"
+            "transl": "\\i[element-neutral]Нейтральний"
            }
           },
           {
            "label": {
             "orig": "\\i[element-heat]Heat",
-            "transl": "\\i[element-heat]Hitze"
+            "transl": "\\i[element-heat]Жар"
            }
           },
           {
            "label": {
             "orig": "\\i[element-cold]Cold",
-            "transl": "\\i[element-cold]Kälte"
+            "transl": "\\i[element-cold]Холод"
            }
           },
           {
            "label": {
             "orig": "\\i[element-shock]Shock",
-            "transl": "\\i[element-shock]Schock"
+            "transl": "\\i[element-shock]Шок"
            }
           },
           {
            "label": {
             "orig": "\\i[element-wave]Wave",
-            "transl": "\\i[element-wave]Welle"
+            "transl": "\\i[element-wave]Хвиля"
            }
           },
           {
            "label": {
             "orig": "\\c[1]Cancel\\c[0]",
-            "transl": "\\c[1]Abbrechen\\c[0]"
+            "transl": "\\c[1]Скасувати\\c[0]"
            }
           }
          ]
@@ -91,43 +91,43 @@
         {
          "label": {
           "orig": "Single Enemy Practice",
-          "transl": "Einzelgegner-Übung"
+          "transl": "Тренування з Одним Ворогом"
          }
         },
         {
          "label": {
           "orig": "Multi Enemy Practice",
-          "transl": "Massenkampf-Übung"
+          "transl": "Тренування з Кількома Ворогами"
          }
         },
         {
          "label": {
           "orig": "Set Enemy Attack \\c[2]On\\c[0]",
-          "transl": "Gegner darf angreifen \\c[2]Ein\\c[0]"
+          "transl": "Атака Ворога: \\c[2]Увімкнено\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Set Enemy Attack \\c[1]Off\\c[0]",
-          "transl": "Gegner darf angreifen \\c[1]Aus\\c[0]"
+          "transl": "Атака Ворога: \\c[1]Вимкнено\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Change attacking \\c[3]Element\\c[0]",
-          "transl": "Wechsle \\c[3]Angriffselement\\c[0]"
+          "transl": "Змінити атакуючий \\c[3]Елемент\\c[0]"
          }
         },
         {
          "label": {
           "orig": "\\c[1]End Practice\\c[0]",
-          "transl": "\\c[1]Übung beenden\\c[0]"
+          "transl": "\\c[1]Завершити Тренування\\c[0]"
          }
         },
         {
          "label": {
           "orig": "\\c[1]Cancel\\c[0]",
-          "transl": "\\c[1]Abbrechen\\c[0]"
+          "transl": "\\c[1]Скасувати\\c[0]"
          }
         }
        ]
@@ -138,7 +138,7 @@
         {
          "text": {
           "orig": "Initiate Practice Mode",
-          "transl": "Starte Übungsmodus"
+          "transl": "Ініціалізація Режиму Тренування"
          }
         }
        ]
@@ -150,7 +150,7 @@
         {
          "text": {
           "orig": "Practice Mode End",
-          "transl": "Beende Übungsmodus"
+          "transl": "Завершення Режиму Тренування"
          }
         }
        ]
@@ -189,7 +189,7 @@
     "interact": {
      "hoverText": {
       "orig": "Circuit Reset Terminal",
-      "transl": "Circuit-Reset-Automat"
+      "transl": "Термінал Скидання Схем"
      },
      "event": [
       null,
@@ -212,7 +212,7 @@
       {
        "text": {
         "orig": "\\s[0]Circuit Reset Terminal\n-------------------------\n\\c[3]\\v[item.428.name]\\c[0]: \\v[item.428.amount]",
-        "transl": "\\s[0]Circuit-Reset-Automat\n-------------------------\n\\c[3]Circuit-Resetter\\c[0]: \\v[item.428.amount]<<A<<[CHANGED 2021/05/22]"
+        "transl": "\\s[0]Термінал Скидання Схем\n-------------------------\n\\c[3]\\v[item.428.name]\\c[0]: \\v[item.428.amount]"
        }
       },
       {
@@ -224,7 +224,7 @@
         {
          "object": {
           "orig": "Neutral Circuit",
-          "transl": "Neutral-Circuit"
+          "transl": "Нейтральна Схема"
          }
         }
        ],
@@ -236,7 +236,7 @@
         {
          "object": {
           "orig": "Heat Circuit",
-          "transl": "Hitze-Circuit"
+          "transl": "Схема Жару"
          }
         }
        ],
@@ -248,7 +248,7 @@
         {
          "object": {
           "orig": "Cold Circuit",
-          "transl": "Kälte-Circuit"
+          "transl": "Схема Холоду"
          }
         }
        ],
@@ -260,7 +260,7 @@
         {
          "object": {
           "orig": "Shock Circuit",
-          "transl": "Schock-Circuit"
+          "transl": "Схема Шоку"
          }
         }
        ],
@@ -272,7 +272,7 @@
         {
          "object": {
           "orig": "Wave Circuit",
-          "transl": "Welle-Circuit"
+          "transl": "Схема Хвилі"
          }
         }
        ],
@@ -283,7 +283,7 @@
           {
            "text": {
             "orig": "\\s[0]You can spend one \\c[3]\\v[item.428.name]\\c[0] to reset a circuit. \nWhich circuit do you want to reset?",
-            "transl": "\\s[0]Du kannst einen \\c[3]Circuit-Resetter\\c[0] einwerfen, um ein Circuitbrett zu resetten.\nWelches Brett möchtest du resetten?"
+            "transl": "\\s[0]Ви можете витратити один \\c[3]\\v[item.428.name]\\c[0], щоб скинути схему.\nЯку схему ви хочете скинути?"
            }
           }
          ],
@@ -291,7 +291,7 @@
           {
            "text": {
             "orig": "\\s[0]You can reset a circuit \\c[2]for free\\c[0]. \nWhich circuit do you want to reset?",
-            "transl": "\\s[0]Du kannst \\c[2]kostenlos\\c[0] ein Circuitbrett resetten.\nWelches Brett möchtest du resetten?"
+            "transl": "\\s[0]Ви можете скинути схему \\c[2]безкоштовно\\c[0].\nЯку схему ви хочете скинути?"
            }
           }
          ]
@@ -313,37 +313,37 @@
           {
            "label": {
             "orig": "Reset \\i[element-neutral]Neutral",
-            "transl": "Resette \\i[element-neutral]Neutral"
+            "transl": "Скинути \\i[element-neutral]Нейтральну"
            }
           },
           {
            "label": {
             "orig": "Reset \\i[element-heat]Heat",
-            "transl": "Resette \\i[element-heat]Hitze"
+            "transl": "Скинути \\i[element-heat]Жару"
            }
           },
           {
            "label": {
             "orig": "Reset \\i[element-cold]Cold",
-            "transl": "Resette \\i[element-cold]Kälte"
+            "transl": "Скинути \\i[element-cold]Холоду"
            }
           },
           {
            "label": {
             "orig": "Reset \\i[element-shock]Shock",
-            "transl": "Resette \\i[element-shock]Schock"
+            "transl": "Скинути \\i[element-shock]Шоку"
            }
           },
           {
            "label": {
             "orig": "Reset \\i[element-wave]Wave",
-            "transl": "Resette \\i[element-wave]Welle"
+            "transl": "Скинути \\i[element-wave]Хвилі"
            }
           },
           {
            "label": {
             "orig": "\\c[1]Cancel\\c[0]",
-            "transl": "\\c[1]Abbrechen\\c[0]"
+            "transl": "\\c[1]Скасувати\\c[0]"
            }
           }
          ]
@@ -359,7 +359,7 @@
         {
          "object": {
           "orig": "Neutral Circuit",
-          "transl": "Neutral-Circuit"
+          "transl": "Нейтральна Схема"
          }
         },
         null,
@@ -368,7 +368,7 @@
           {
            "object": {
             "orig": "Heat Circuit",
-            "transl": "Hitze-Circuit"
+            "transl": "Схема Жару"
            }
           }
          ]
@@ -378,7 +378,7 @@
           {
            "object": {
             "orig": "Cold Circuit",
-            "transl": "Kälte-Circuit"
+            "transl": "Схема Холоду"
            }
           }
          ]
@@ -388,7 +388,7 @@
           {
            "object": {
             "orig": "Shock Circuit",
-            "transl": "Schock-Circuit"
+            "transl": "Схема Шоку"
            }
           }
          ]
@@ -398,7 +398,7 @@
           {
            "object": {
             "orig": "Wave Circuit",
-            "transl": "Welle-Circuit"
+            "transl": "Схема Хвилі"
            }
           }
          ]
@@ -408,19 +408,19 @@
         {
          "text": {
           "orig": "You can spend one \\c[3]\\v[item.428.name]\\c[0] to reset a circuit.",
-          "transl": "Du kannst einen \\c[3]Circuit-Resetter\\c[0] einwerfen, um ein Circuitbrett zu resetten."
+          "transl": "Ви можете витратити один \\c[3]\\v[item.428.name]\\c[0], щоб скинути схему."
          }
         },
         {
          "text": {
           "orig": "If you possess \\c[3]more than one Element\\c[0], you can also \\c[2]reset more circuits at once\\c[0], \\c[2]at a discount\\c[0].",
-          "transl": "Falls du \\c[3]mehr als ein Element besitzt\\c[0], kannst du auch \\c[2]mehr als ein Circuit auf einmal resetten\\c[0], \\c[2]zum Sparpreis\\c[0]."
+          "transl": "Якщо у вас є \\c[3]більше ніж один Елемент\\c[0], ви можете також \\c[2]скинути кілька схем одночасно\\c[0], \\c[2]зі знижкою\\c[0]."
          }
         },
         {
          "text": {
           "orig": "Once you reset a circuit you can \\c[3]reset it again for free\\c[0] as often as you want - until you leave this room.",
-          "transl": "Hast du einmal ein Circuitbrett resettet, kannst du es \\c[3]beliebig oft gratis resetten\\c[0], solange du diesen Raum nicht verlässt."
+          "transl": "Після скидання схеми ви можете \\c[3]скидати її повторно безкоштовно\\c[0] скільки завгодно - до виходу з цієї кімнати."
          }
         }
        ],
@@ -432,67 +432,67 @@
         {
          "label": {
           "orig": "Reset \\i[element-neutral]Neutral \\c[2](free)\\c[0]",
-          "transl": "Resette \\i[element-neutral]Neutral \\c[2](gratis)\\c[0]"
+          "transl": "Скинути \\i[element-neutral]Нейтральну \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset \\i[element-heat]Heat \\c[2](free)\\c[0]",
-          "transl": "Resette \\i[element-heat]Hitze \\c[2](gratis)\\c[0]"
+          "transl": "Скинути \\i[element-heat]Жару \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset \\i[element-cold]Cold \\c[2](free)\\c[0]",
-          "transl": "Resette \\i[element-cold]Kälte \\c[2](gratis)\\c[0]"
+          "transl": "Скинути \\i[element-cold]Холоду \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset \\i[element-shock]Shock \\c[2](free)\\c[0]",
-          "transl": "Resette \\i[element-shock]Schock \\c[2](gratis)\\c[0]"
+          "transl": "Скинути \\i[element-shock]Шоку \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset \\i[element-wave]Wave \\c[2](free)\\c[0]",
-          "transl": "Resette \\i[element-wave]Welle \\c[2](gratis)\\c[0]"
+          "transl": "Скинути \\i[element-wave]Хвилі \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset a Circuit \\c[3](\\v[tmp.resetOneCost] token)\\c[0]",
-          "transl": "Circuit-Reset (\\c[3](\\v[tmp.resetOneCost] Marke)\\c[0])"
+          "transl": "Скинути Схему \\c[3](\\v[tmp.resetOneCost] токен)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset a Circuit \\c[2](free)\\c[0]",
-          "transl": "Circuit-Reset \\c[2](gratis)\\c[0]"
+          "transl": "Скинути Схему \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset all Circuits \\c[3](\\v[tmp.resetAllCost] tokens)\\c[0]",
-          "transl": "Kompletter Circuit-Reset \\c[3](\\v[tmp.resetAllCost] Marken)\\c[0]<<A<<[CHANGED 2021/05/22]"
+          "transl": "Скинути всі Схеми \\c[3](\\v[tmp.resetAllCost] токенів)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset all Circuits \\c[2](free)\\c[0]",
-          "transl": "Kompletter Circuit-Reset \\c[2](gratis)\\c[0]"
+          "transl": "Скинути всі Схеми \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "[Help]",
-          "transl": "[Hilfe]"
+          "transl": "[Довідка]"
          }
         },
         {
          "label": {
           "orig": "\\c[1]Cancel\\c[0]",
-          "transl": "\\c[1]Abbrechen\\c[0]"
+          "transl": "\\c[1]Скасувати\\c[0]"
          }
         }
        ]
@@ -511,7 +511,7 @@
          {
           "name": {
            "orig": "Info Advisor",
-           "transl": "Info-Berater"
+           "transl": "Інформаційний Радник"
           },
           "person": {
            "person": "advisors.man-tall-gray",
@@ -527,7 +527,7 @@
          {
           "message": {
            "orig": "Greetings, \\v[lore.title.seeker].\\. You can purchase additional \\c[3]Circuit Overrides\\c[0] from me that you can use to \\c[3]reset your circuits\\c[0].",
-           "transl": "Grüß dich, Seeker.\\. Du kannst bei mir zusätzliche \\c[3]Circuit-Resetter\\c[0] kaufen, um \\c[3]deine Circuits zu resetten\\c[0]."
+           "transl": "Вітаю, \\v[lore.title.seeker]ко.\\. Ви можете придбати додаткові \\c[3]Скидувачі Схем\\c[0] у мене, щоб \\c[3]скинути свої схеми\\c[0]."
           },
           "person": {
            "person": "advisors.man-tall-gray",
@@ -537,7 +537,7 @@
          {
           "message": {
            "orig": "But beware: These legendary items are still costly to acquire.\\. Please handle your circuit with care!",
-           "transl": "Aber Vorsicht: Diese legendären Items sind nach wie vor schwer zu ergattern.\\. Gehe mit deinen Circuits also besser achtsam um!"
+           "transl": "Але майте на увазі: ці легендарні предмети досі коштують недешево.\\. Будь ласка, поводьтеся зі схемами обережно!"
           },
           "person": {
            "person": "advisors.man-tall-gray",
