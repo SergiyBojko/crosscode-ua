@@ -103,13 +103,13 @@
         {
          "label": {
           "orig": "Set Enemy Attack \\c[2]On\\c[0]",
-          "transl": "Атака Ворога: \\c[2]Увімкнено\\c[0]"
+          "transl": "\\c[2]Увімкнути\\c[0] Агресію Ворогів"
          }
         },
         {
          "label": {
           "orig": "Set Enemy Attack \\c[1]Off\\c[0]",
-          "transl": "Атака Ворога: \\c[1]Вимкнено\\c[0]"
+          "transl": "\\c[1]Вимкнути\\c[0] Агресію Ворогів"
          }
         },
         {
@@ -313,31 +313,31 @@
           {
            "label": {
             "orig": "Reset \\i[element-neutral]Neutral",
-            "transl": "Скинути \\i[element-neutral]Нейтральну"
+            "transl": "Скинути \\i[element-neutral]Нейтральну Схему"
            }
           },
           {
            "label": {
             "orig": "Reset \\i[element-heat]Heat",
-            "transl": "Скинути \\i[element-heat]Жару"
+            "transl": "Скинути \\i[element-heat]Схему Жару"
            }
           },
           {
            "label": {
             "orig": "Reset \\i[element-cold]Cold",
-            "transl": "Скинути \\i[element-cold]Холоду"
+            "transl": "Скинути \\i[element-cold]Схему Холоду"
            }
           },
           {
            "label": {
             "orig": "Reset \\i[element-shock]Shock",
-            "transl": "Скинути \\i[element-shock]Шоку"
+            "transl": "Скинути \\i[element-shock]Схему Шоку"
            }
           },
           {
            "label": {
             "orig": "Reset \\i[element-wave]Wave",
-            "transl": "Скинути \\i[element-wave]Хвилі"
+            "transl": "Скинути \\i[element-wave]Схему Хвилі"
            }
           },
           {
@@ -414,13 +414,13 @@
         {
          "text": {
           "orig": "If you possess \\c[3]more than one Element\\c[0], you can also \\c[2]reset more circuits at once\\c[0], \\c[2]at a discount\\c[0].",
-          "transl": "Якщо у вас є \\c[3]більше ніж один Елемент\\c[0], ви можете також \\c[2]скинути кілька схем одночасно\\c[0], \\c[2]зі знижкою\\c[0]."
+          "transl": "Якщо у вас \\c[3]більше одного Елемента\\c[0], ви можете \\c[2]скинути кілька схем одночасно\\c[0], \\c[2]зі знижкою\\c[0]."
          }
         },
         {
          "text": {
           "orig": "Once you reset a circuit you can \\c[3]reset it again for free\\c[0] as often as you want - until you leave this room.",
-          "transl": "Після скидання схеми ви можете \\c[3]скидати її повторно безкоштовно\\c[0] скільки завгодно - до виходу з цієї кімнати."
+          "transl": "Після скидання схеми ви можете \\c[3]скидати її повторно безкоштовно\\c[0] - до виходу з цієї кімнати."
          }
         }
        ],
@@ -432,31 +432,31 @@
         {
          "label": {
           "orig": "Reset \\i[element-neutral]Neutral \\c[2](free)\\c[0]",
-          "transl": "Скинути \\i[element-neutral]Нейтральну \\c[2](безкоштовно)\\c[0]"
+          "transl": "Скинути \\i[element-neutral]Нейтральну Схему \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset \\i[element-heat]Heat \\c[2](free)\\c[0]",
-          "transl": "Скинути \\i[element-heat]Жару \\c[2](безкоштовно)\\c[0]"
+          "transl": "Скинути \\i[element-heat]Схему Жару \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset \\i[element-cold]Cold \\c[2](free)\\c[0]",
-          "transl": "Скинути \\i[element-cold]Холоду \\c[2](безкоштовно)\\c[0]"
+          "transl": "Скинути \\i[element-cold]Схему Холоду \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset \\i[element-shock]Shock \\c[2](free)\\c[0]",
-          "transl": "Скинути \\i[element-shock]Шоку \\c[2](безкоштовно)\\c[0]"
+          "transl": "Скинути \\i[element-shock]Схему Шоку \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
          "label": {
           "orig": "Reset \\i[element-wave]Wave \\c[2](free)\\c[0]",
-          "transl": "Скинути \\i[element-wave]Хвилі \\c[2](безкоштовно)\\c[0]"
+          "transl": "Скинути \\i[element-wave]Схему Хвилі \\c[2](безкоштовно)\\c[0]"
          }
         },
         {
@@ -474,7 +474,7 @@
         {
          "label": {
           "orig": "Reset all Circuits \\c[3](\\v[tmp.resetAllCost] tokens)\\c[0]",
-          "transl": "Скинути всі Схеми \\c[3](\\v[tmp.resetAllCost] токенів)\\c[0]"
+          "transl": "Скинути всі Схеми \\c[3](\\v[tmp.resetAllCost] токени)\\c[0]"
          }
         },
         {
