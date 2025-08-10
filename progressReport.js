@@ -7,7 +7,7 @@ let ignoreStrings = ['untitled', 'OG', 'UG 2', 'UG', 'Lachsen', 'The Four Vision
 
 let excluded = new Set();
 fs.writeFileSync('report.txt', '');
-let stats = {total:0,translated:0,words:0}
+let stats = {total:0,translated:0,words:0,wordsTranslated:0}
 progressReport('translation', stats)
 fs.writeFileSync('report.txt', '\n TOTAL', {flag: 'a'});
 writeStatsToReport(stats)
@@ -26,12 +26,13 @@ function progressReport(path, totalStats) {
         } else {
             if(filePath.endsWith(".json") && !filePath.match(/en_US|ja_JP|ko_KR|zh_CN|zh_TW/)) {
                 writeDirToReport(filePath);
-                let stats = {total:0,translated:0,words:0}
+                let stats = {total:0,translated:0,words:0,wordsTranslated:0}
                 collectStats(JSON.parse(fs.readFileSync(filePath)), stats)
                 writeStatsToReport(stats)
                 totalStats.total+=stats.total
                 totalStats.words+=stats.words
                 totalStats.translated+=stats.translated
+                totalStats.wordsTranslated+=stats.wordsTranslated
             }
         }
     }
@@ -46,10 +47,12 @@ function collectStats(json, stats) {
         } else {
             if(json.hasOwnProperty("transl")) {
                 if(!ignoreStrings.includes(json.orig) && json.orig.toString().match(/[a-zA-Z]/)?.length > 0) { // ignore untranslatable strings
-                    stats.words += json.orig.split(" ").filter(w => w.length > 1).length;
+                    let words = json.orig.split(" ").filter(w => w.length > 1).length;
+                    stats.words += words;
                     stats.total++;
                     if(json.transl.toString().match(/[а-яА-ЯіїґІЇҐєЄ]/)?.length > 0) {
                         stats.translated++;
+                        stats.wordsTranslated += words;
                     }
                 } else {
                     excluded.add(json.orig.toString());
@@ -87,9 +90,9 @@ function writeDirToReport(path) {
 function writeStatsToReport(stats) {
     let result;
     if(stats.total == stats.translated) {
-        result = ` : ${stats.translated}/${stats.total} (${stats.words}) ✅`;
+        result = ` : ${stats.total} (${stats.words}) ✅`;
     } else  {
-        result = ` : ${stats.translated}/${stats.total} (${stats.words}) 🔄`;
+        result = ` : ${stats.translated}/${stats.total} (${stats.wordsTranslated}/${stats.words}) 🔄`;
     }
     fs.writeFileSync('report.txt', result, {flag:"a"});
 }
