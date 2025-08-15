@@ -120,7 +120,7 @@
         {
          "message": {
           "orig": "Greetings, \\v[lore.title.seeker].\\. I see you accepted the task of collecting the Temple Mine equipment.",
-          "transl": "Grüß dich, Seeker.\\. Ich sehe, du hast die Aufgabe zum Sammeln der Grubenausrüstung angenommen!"
+          "transl": "Вітаю, \\v[lore.title.seeker]ко.\\. Бачу, ви прийняли завдання зі збору обладнання з Храму Шахти."
          },
          "person": {
           "person": "advisors.female-tall-blond",
@@ -130,7 +130,7 @@
         {
          "message": {
           "orig": "Please take this \\c[3]Detector\\c[0] to aid your search.",
-          "transl": "Bitte nimm diesen \\c[3]Detektor\\c[0], der dich bei deiner Suche unterstützen wird!"
+          "transl": "Будь ласка, візьміть цей \\c[3]Детектор\\c[0], щоб полегшити пошук."
          },
          "person": {
           "person": "advisors.female-tall-blond",
@@ -141,13 +141,13 @@
         {
          "object": {
           "orig": "\\v[item.466.name]",
-          "transl": "Grubensuchgerät"
+          "transl": "\\v[item.466.name]"
          }
         },
         {
          "message": {
           "orig": "This detector will notify you when there is lost equipment in the \\c[3]current room\\c[0] of the Temple Mine.",
-          "transl": "Dieser Detektor wird dich benachrichtigen, wenn sich verlorene Ausrüstung im \\c[3]aktuellen Raum\\c[0] der \\c[3]Tempelmine\\c[0] befindet."
+          "transl": "Цей детектор повідомить вас, коли в \\c[3]поточній кімнаті\\c[0] Храму Шахти буде загублене обладнання."
          },
          "person": {
           "person": "advisors.female-tall-blond",
@@ -167,7 +167,7 @@
         {
          "message": {
           "orig": "Good luck with the search!",
-          "transl": "Viel Glück bei der Suche!"
+          "transl": "Успіхів у пошуках!"
          },
          "person": {
           "person": "advisors.female-tall-blond",
@@ -179,11 +179,11 @@
         {
          "title": {
           "orig": "Using Add-Ons",
-          "transl": "Add-Ons verwenden"
+          "transl": "Використання Доповнень"
          },
          "content": {
           "orig": "Learn how to enable and disable Add-Ons.",
-          "transl": "Lerne, wie man Add-Ons aktiviert oder deaktiviert!"
+          "transl": "Дізнайтесь, як вмикати та вимикати Доповнення."
          },
          "acceptStep": [
           null,
@@ -206,7 +206,7 @@
           {
            "text": {
             "orig": "You find your Add-Ons in the \\c[3]last tab\\c[0] inside the \\c[3]inventory\\c[0]",
-            "transl": "Du findest deine Add-Ons im \\c[3]letzten Tab\\c[0] des \\c[3]Inventars\\c[0]"
+            "transl": "Ваші Доповнення знаходяться в \\c[3]останній вкладці\\c[0] у \\c[3]інвентарі\\c[0]."
            }
           },
           null,
@@ -219,7 +219,7 @@
           {
            "text": {
             "orig": "Simply click the Add-On to enable or disable it.",
-            "transl": "Klicke einfach auf das Add-On, um es zu aktivieren oder deaktivieren."
+            "transl": "Просто натисніть на Доповнення, щоб увімкнути або вимкнути його."
            }
           },
           null,
@@ -235,7 +235,7 @@
           {
            "text": {
             "orig": "Repeat?",
-            "transl": "Wiederholen?"
+            "transl": "Повторити?"
            },
            "options": [
             {
@@ -265,7 +265,7 @@
     "analyzable": {
      "text": {
       "orig": "Quest Advisor",
-      "transl": "Quest-Betreuer"
+      "transl": "Радник Квестів"
      }
     },
     "npcStates": [
@@ -296,7 +296,7 @@
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker].\\. Please head down into the basement for an introduction to \\v[area.bergen.name]!",
-         "transl": "Sei gegrüßt, Seeker.\\. Um mehr über Bergen zu erfahren, begib dich bitte ins Untergeschoss!"
+         "transl": "Вітаю, \\v[lore.title.seeker]ко.\\. Прошу спуститися в підвал для отримання інформації про Берґен!"
         },
         "person": {
          "person": "advisors.man-small-black",
@@ -333,7 +333,7 @@
         {
          "message": {
           "orig": "Greetings, \\v[lore.title.seeker].\\. You just heard the mayor's speech, am I correct?",
-          "transl": "Sei gegrüßt, Seeker.\\. Du hast gerade die Rede des Bürgermeisters gehört, korrekt?"
+          "transl": "Вітаю, \\v[lore.title.seeker]ко.\\. Ви щойно вислухали промову мера, так?"
          },
          "person": {
           "person": "advisors.man-small-black",
@@ -353,7 +353,7 @@
         {
          "message": {
           "orig": "Good.\\. As he mentioned, some important tools abandoned with the mine are still lost inside of it.",
-          "transl": "Gut!\\. Wie er erwähnte, liegen in der Mine immer noch einige wichtige Werkzeuge verschollen."
+          "transl": "Чудово.\\. Як він і згадував, деякі важливі інструменти, залишені в шахті, досі там."
          },
          "person": {
           "person": "advisors.man-small-black",
@@ -363,7 +363,7 @@
         {
          "message": {
           "orig": "It would be a great help to the entire town if someone could retrieve them for us.",
-          "transl": "Es liegt im Interesse aller Bewohner Bergens, dass wir diese Sachen zurückbekommen müssen."
+          "transl": "Це була б велика допомога для всього міста, якби хтось зміг їх повернути."
          },
          "person": {
           "person": "advisors.man-small-black",
@@ -373,7 +373,7 @@
         {
          "message": {
           "orig": "Can we count on your help, \\v[lore.title.seeker]?",
-          "transl": "Können wir auf deine Hilfe zählen, Seeker?"
+          "transl": "Можемо розраховувати на вашу допомогу, \\v[lore.title.seeker]ко?"
          },
          "person": {
           "person": "advisors.man-small-black",
@@ -395,7 +395,7 @@
           {
            "message": {
             "orig": "Very good!\\. There are three types of equipment missing:\\.\\.\n\\c[3]\\v[item.238.name]\\c[0],\\.\n\\c[3]\\v[item.239.name]\\c[0]\\.\nand \\c[3]\\v[item.240.name]\\c[0].",
-            "transl": "Sehr gut!\\. Es fehlen noch drei Arten von Ausrüstung:\\.\\.\n\\c[3]Laser-Spitzhacke\\c[0],\\.\n\\c[3]Laser-TNT\\c[0]\\.\nund die \\c[3]Grubenpläne\\c[0]."
+            "transl": "Дуже добре!\\. Потрібно знайти три типи обладнання:\\.\\.\n\\c[3]\\v[item.238.name]\\c[0],\\.\n\\c[3]\\v[item.239.name]\\c[0]\\.\nта \\c[3]\\v[item.240.name]\\c[0]."
            },
            "person": {
             "person": "advisors.man-small-black",
@@ -405,7 +405,7 @@
           {
            "message": {
             "orig": "You should be able to find all of those somewhere within the Temple Mine.",
-            "transl": "Du solltest sie irgendwo in der Tempelmine finden.\\. Halte also deine Augen offen."
+            "transl": "Усе це можна знайти десь у Храмі Шахти."
            },
            "person": {
             "person": "advisors.man-small-black",
@@ -425,7 +425,7 @@
           {
            "message": {
             "orig": "Since the equipment might be difficult to spot, we hand out \\c[3]Detectors\\c[0] to support your search.",
-            "transl": "Da die Ausrüstung nicht leicht zu finden ist, händigen wir \\c[3]Detektoren\\c[0] zur Unterstützung aus."
+            "transl": "Оскільки обладнання може бути важко помітити, ми видаємо \\c[3]Детектори\\c[0] для полегшення пошуку."
            },
            "person": {
             "person": "advisors.man-small-black",
@@ -455,7 +455,7 @@
           {
            "message": {
             "orig": "You can receive your detector from my colleague over there.",
-            "transl": "Du erhältst deinen Detektor von meiner Kollegin da drüben."
+            "transl": "Ви можете отримати детектор у моєї колеги он там."
            },
            "person": {
             "person": "advisors.man-small-black",
@@ -481,7 +481,7 @@
           {
            "message": {
             "orig": "Stay vigilant, Seeker.",
-            "transl": "Bleib wachsam, Seeker."
+            "transl": "Залишайтеся пильною, Шукачко."
            },
            "person": {
             "person": "advisors.man-small-black",
@@ -503,7 +503,7 @@
           {
            "message": {
             "orig": "That is a shame.\\. In the name of \\v[area.bergen.name], I urge you to reconsider.",
-            "transl": "Das ist bedauerlich!\\. Im Namen von ganz Bergen bitte ich dich, deine Entscheidung zu überdenken."
+            "transl": "Шкода.\\. Від імені Берґена, прошу вас переглянути своє рішення."
            },
            "person": {
             "person": "advisors.man-small-black",
@@ -532,7 +532,7 @@
        {
         "message": {
          "orig": "Remember, there are three things missing:\\.\\.\n\\c[3]\\v[item.238.name]s,\\.\nbundles of \\v[item.239.name]\\.\nand the \\v[item.240.name]\\c[0].",
-         "transl": "Denk daran, es fehlen noch drei Dinge:\\.\\.\n\\c[3]Eine Laser-Spitzhacke,\\.\nein Päckchen Laser-TNT\\.\nund die Grubenpläne\\c[0]."
+         "transl": "Пам'ятайте, загублено три речі:\\.\\.\n\\c[3]Лазерні Кирки,\\.\nпачки Лазерного-ТНТ\\.\nта \\v[item.240.name]\\c[0]."
         },
         "person": {
          "person": "advisors.man-small-black",
@@ -542,7 +542,7 @@
        {
         "message": {
          "orig": "You should be able to find all of those somewhere within the Temple Mine.\\. Please stay vigilant when exploring it.",
-         "transl": "Du solltest sie irgendwo in der Tempelmine finden.\\. Halte also deine Augen offen."
+         "transl": "Усе це можна знайти десь у Храмі Шахти.\\. Прошу бути пильною під час дослідження."
         },
         "person": {
          "person": "advisors.man-small-black",
@@ -589,7 +589,7 @@
         {
          "message": {
           "orig": "Welcome back, \\v[lore.title.seeker].\\. I see you have found everything we need?",
-          "transl": "Willkommen zurück, Seeker.\\. Wie ich sehe, hast du alles gefunden, was wir vermissen?"
+          "transl": "Вітаю з поверненням, \\v[lore.title.seeker]ко.\\. Бачу, ви знайшли все, що нам було потрібно?"
          },
          "person": {
           "person": "advisors.man-small-black",
@@ -609,7 +609,7 @@
         {
          "message": {
           "orig": "Truly, this is great news!\\. The entire town of Bergen is in your debt!",
-          "transl": "Das sind wahrhaft großartige Neuigkeiten!\\. Ganz Bergen steht in deiner Schuld!"
+          "transl": "Це справді чудова новина!\\. Все місто Берґен у вас у боргу!"
          },
          "person": {
           "person": "advisors.man-small-black",
@@ -629,7 +629,7 @@
         {
          "message": {
           "orig": "Here, take these humble rewards.\\. You have earned them three times over!",
-          "transl": "Hier, nimm dies als Zeichen unserer Dankbarkeit.\\. Du hast es dir doppelt und dreifach verdient! "
+          "transl": "Ось, прийміть ці скромні винагороди.\\. Ви їх заслужили тричі!"
          },
          "person": {
           "person": "advisors.man-small-black",
@@ -666,7 +666,7 @@
        {
         "message": {
          "orig": "Greetings, \\v[lore.title.seeker].\\. \\v[area.bergen.name] is in your debt.",
-         "transl": "Sei gegrüßt, Seeker!\\. Bergen steht in deiner Schuld."
+         "transl": "Вітаю, \\v[lore.title.seeker]ко.\\. \\v[area.bergen.name] у вас у боргу."
         },
         "person": {
          "person": "advisors.man-small-black",
@@ -695,25 +695,25 @@
      {
       "text": {
        "orig": "Zzzzzzzzz.....",
-       "transl": "Zzzzzzzzz....."
+       "transl": "Хрррррррр....."
       }
      },
      {
       "text": {
        "orig": "Zzzzzzzzz.....",
-       "transl": "Zzzzzzzzz....."
+       "transl": "Хрррррррр....."
       }
      },
      {
       "text": {
        "orig": "Snore...",
-       "transl": "Schnarch..."
+       "transl": "ХРРР..."
       }
      },
      {
       "text": {
        "orig": "Zzzzzzzzz.....",
-       "transl": "Zzzzzzzzz....."
+       "transl": "Хррррррррр....."
       }
      }
     ]
@@ -726,13 +726,13 @@
      {
       "text": {
        "orig": "Dear Seekers, welcome to Bergen!",
-       "transl": "Liebe Seeker, willkommen in Bergen!"
+       "transl": "Шановні Шукачі, ласкаво просимо до Берґена!"
       }
      },
      {
       "text": {
        "orig": "The mayor is waiting in the \\c[3]lower floor\\c[0] to greet all new Seekers visiting our small town.",
-       "transl": "Der Bürgermeister wartet im \\c[3]Untergeschoss\\c[0], um alle neu angekommenen Seeker zu begrüßen."
+       "transl": "Мер чекає на \\c[3]нижньому поверсі\\c[0], щоб привітати всіх нових Шукачів, які завітали до нашого містечка."
       }
      }
     ]
@@ -747,37 +747,37 @@
      {
       "text": {
        "orig": "I love this lamp, it's so cute!",
-       "transl": "Ich liebe diese Lampe, die ist sooo süüüß!"
+       "transl": "Мені подобається ця лампа, вона така мила!"
       }
      },
      {
       "text": {
        "orig": "Just look at all the patterns.",
-       "transl": "Schau dir all die Muster an!"
+       "transl": "Тільки поглянь на ці візерунки."
       }
      },
      {
       "text": {
        "orig": "...Yes, very cute.",
-       "transl": "... Ja, sehr süß."
+       "transl": "...Так, дуже мила."
       }
      },
      {
       "text": {
        "orig": "And here you are sitting on a table. Again.",
-       "transl": "Und du sitzt schon wieder auf einem Tisch."
+       "transl": "А ти сидиш на столі. Знову."
       }
      },
      {
       "text": {
        "orig": "Look, you can see the lamp just fine from over here.",
-       "transl": "Guck mal, von hier siehst du die Lampe genauso gut."
+       "transl": "Цю лампу і звідси добре видно."
       }
      },
      {
       "text": {
        "orig": "Ahhhh, I want one for my place!!",
-       "transl": "Ohhhh, so eine will ich auch für zu Hause!!"
+       "transl": "Ахххх, я хочу таку собі додому!!"
       }
      },
      {
@@ -803,7 +803,7 @@
         {
          "name": {
           "orig": "Talatu Lips",
-          "transl": "Talatu Lips"
+          "transl": "Талату Ліпс"
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -819,7 +819,7 @@
         {
          "message": {
           "orig": "There ya are!",
-          "transl": "Da bischte ja!"
+          "transl": "А ось і ти!"
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -839,7 +839,7 @@
         {
          "message": {
           "orig": "Ah've been workin' on a li'l somethin' here.",
-          "transl": "I hann anner Kleinigkeit geschaffet."
+          "transl": "Я тут собі дещо майструвала."
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -849,7 +849,7 @@
         {
          "message": {
           "orig": "A fancy new hat!",
-          "transl": "Ein neues Hütle!"
+          "transl": "Гарненький новий капелюшок!"
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -869,7 +869,7 @@
         {
          "message": {
           "orig": "Haha, now don'tcher look at me like that!",
-          "transl": "Haha, jetze schau mi doch net so in!"
+          "transl": "Ха-ха, та не зиркай так на мене!"
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -879,7 +879,7 @@
         {
          "message": {
           "orig": "It has one o' them nice \\c[3]Modifiers\\c[0].",
-          "transl": "Desch Dinge hat eine dieser \\c[3]Modifikatoren\\c[0]."
+          "transl": "Він має один із тих файних \\c[3]Модифікаторів\\c[0]"
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -899,7 +899,7 @@
         {
          "message": {
           "orig": "Makes it so ya'll can increase yer chance of loot by havin' a high \\c[3]Combat Rank\\c[0].",
-          "transl": "So kriegschst mehr von de Beude wennde deinen \\c[3]Kampfrang\\c[0] höher hascht."
+          "transl": "З ним ти зможеш збільшити шанс здобичі, якщо матимеш високий \\c[3]Бойовий Ранг\\c[0]."
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -909,7 +909,7 @@
         {
          "message": {
           "orig": "Made it all by mahself. Here take it, sweetheart.",
-          "transl": "Hann i sälbr gmacht. Hie, fir di, Mädle."
+          "transl": "Власноруч зробила. Ось, бери, серденько."
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -920,14 +920,14 @@
         {
          "object": {
           "orig": "\\i[item-helm-unique]\\v[item.287.name]",
-          "transl": "\\i[item-helm-unique]Strohhut"
+          "transl": "\\i[item-helm-unique]\\v[item.287.name]"
          }
         },
         null,
         {
          "name": {
           "orig": "Talatu Lips",
-          "transl": "Talatu Lips"
+          "transl": "Талату Ліпс"
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -943,7 +943,7 @@
         {
          "message": {
           "orig": "Ya'll like it?",
-          "transl": "Mogscht des?"
+          "transl": "Подобається?"
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -973,7 +973,7 @@
         {
          "message": {
           "orig": "Glad ta hear it!",
-          "transl": "Hah, sche, des zu höre!"
+          "transl": "Рада це чути!"
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -983,7 +983,7 @@
         {
          "message": {
           "orig": "A'right, Ah'll be off now. Y'all be good now!",
-          "transl": "Na denne, isch moche mich mal vom Agger. Bleibsch gesund, ne?"
+          "transl": "Ну гаразд, я побігла. Будь чемненька!"
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -993,7 +993,7 @@
         {
          "message": {
           "orig": "And keep hittin' them plants fer me, will ya?",
-          "transl": "Und kloppschst weiter de Gewäggse?"
+          "transl": "І не забувай бити ті рослинки для мене, добре?"
          },
          "person": {
           "person": "greenies.female-researcher",
@@ -1021,11 +1021,11 @@
     "interact": {
      "hoverText": {
       "orig": "Area: Bergen",
-      "transl": "Gebiet: Bergen"
+      "transl": "Локація: Берґен"
      },
      "title": {
       "orig": "\\c[3]Bulletin Board\\c[0]",
-      "transl": "\\c[3]Schwarzes Brett\\c[0]"
+      "transl": "\\c[3]Дошка Оголошень\\c[0]"
      }
     }
    }
@@ -1037,55 +1037,55 @@
      {
       "text": {
        "orig": "This spot is pretty cozy, huh?",
-       "transl": "Ziemlich gemütlich hier, was?"
+       "transl": "Тут досить затишно, еге ж?"
       }
      },
      {
       "text": {
        "orig": "Yeah, not bad.\\. Although, I prefer the rest area in Basin Keep.",
-       "transl": "Joa, nicht schlecht.\\. Obwohl ich die Ruhezone in Burg Bassin bevorzuge."
+       "transl": "Так, непогано.\\. Хоча мені більше подобається зона відпочинку в Бастіоні Басейну."
       }
      },
      {
       "text": {
        "orig": "Why's that?",
-       "transl": "Чому?"
+       "transl": "Чому це?"
       }
      },
      {
       "text": {
        "orig": "I live in a place much like this one, but I prefer modern architecture.",
-       "transl": "Ich lebe an einem Ort, der diesem ähnelt, aber ich bevorzuge moderne Architektur."
+       "transl": "Я живу в місці схожому на це, але мені більше подобається сучасна архітектура."
       }
      },
      {
       "text": {
        "orig": "Oh.\\. Wait, you've been that far into the game?",
-       "transl": "Oh.\\. Moment mal, du bist schon so weit im Spiel?"
+       "transl": "А.\\. Стривай, ти вже був так далеко в грі?"
       }
      },
      {
       "text": {
        "orig": "No! I saw it online!",
-       "transl": "Nein! Ich hab's im Internet gesehen!"
+       "transl": "Ні! Я бачив це в інтернеті!"
       }
      },
      {
       "text": {
        "orig": "Why would you spoil yourself like that?",
-       "transl": "Warum spoilerst du dich selbst?"
+       "transl": "Навіщо ж собі спойлерити?"
       }
      },
      {
       "text": {
        "orig": "When I'm not playing CrossWorlds, I'm thinking about CrossWorlds...\\. Or watching gameplay footage of CrossWorlds.",
-       "transl": "Wenn ich nicht gerade CrossWorlds spiele, denke ich an CrossWorlds...\\. Oder schaue mir Gameplay-Videos an."
+       "transl": "Коли я не граю CrossWorlds, я думаю про CrossWorlds...\\. Або дивлюсь відео про CrossWorlds."
       }
      },
      {
       "text": {
        "orig": "Dude...",
-       "transl": "Oh Mann..."
+       "transl": "Чуваче..."
       }
      }
     ]
