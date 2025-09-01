@@ -7,7 +7,7 @@
       {
        "text": {
         "orig": "[ INTERCEPT THE MISSILES! ]",
-        "transl": "[ FANGE RAKETEN AB! ]<<C<<Geprüft: Minsu"
+        "transl": "[ ПЕРЕХОПЛЮЙТЕ РАКЕТИ! ]"
        }
       }
      ]
@@ -31,7 +31,7 @@
       {
        "text": {
         "orig": "boom effects?",
-        "transl": "Knalleffekte?<<C<<Geprüft: Minsu"
+        "transl": "ефекти вибухів?"
        }
       }
      ]
@@ -42,7 +42,7 @@
       {
        "text": {
         "orig": "boom effects?",
-        "transl": "Knalleffekte?<<C<<Geprüft: Minsu"
+        "transl": "ефекти вибухів?"
        }
       }
      ],
@@ -52,7 +52,7 @@
         {
          "text": {
           "orig": "boom effects?",
-          "transl": "Knalleffekte?<<C<<Geprüft: Minsu"
+          "transl": "ефекти вибухів?"
          }
         }
        ]
@@ -69,7 +69,7 @@
      {
       "text": {
        "orig": "\\v[entity.attrib.startingWave]",
-       "transl": "\\v[entity.attrib.startingWave]<<C<<Geprüft: Minsu"
+       "transl": "\\v[entity.attrib.startingWave]<<C<<іг"
       }
      }
     ]
@@ -83,7 +83,7 @@
      {
       "text": {
        "orig": "MOVE",
-       "transl": "BEWEGEN<<C<<Geprüft: Minsu"
+       "transl": "РУХ"
       }
      }
     ]
@@ -95,7 +95,7 @@
      {
       "text": {
        "orig": "[ FullShield On ]",
-       "transl": "[ Vollschild AN ]<<C<<Geprüft: Minsu"
+       "transl": "[ ПовнийЩит Ввімкнений ]"
       }
      }
     ]
@@ -105,7 +105,7 @@
    {
     "text": {
      "orig": "[ FrontShield On ]",
-     "transl": "[ Frontschild AN ]<<C<<Geprüft: Minsu"
+     "transl": "[ ФронтальнийЩит Ввімкнений ]<<C<<Geprüft: Minsu"
     }
    }
   ],
@@ -113,7 +113,7 @@
    {
     "text": {
      "orig": "[ DoubleShield On ]",
-     "transl": "[ Doppelschild AN ]<<C<<Geprüft: Minsu"
+     "transl": "[ ПодвійнийЩит Ввімкнений ]<<C<<Geprüft: Minsu"
     }
    }
   ],
@@ -125,7 +125,7 @@
    {
     "text": {
      "orig": "[ TARGET ]",
-     "transl": "[ ZIEL ]<<C<<Geprüft: Minsu"
+     "transl": "[ ЦІЛЬ ]<<C<<Geprüft: Minsu"
     }
    }
   ],
@@ -144,7 +144,7 @@
      {
       "text": {
        "orig": "[ Preparing Missiles ]",
-       "transl": "[ Raketen vorbereiten ]<<C<<Geprüft: Minsu"
+       "transl": "[ Готуються Ракети ]<<C<<Geprüft: Minsu"
       }
      }
     ],
@@ -152,7 +152,7 @@
      {
       "text": {
        "orig": "[ Preparing Missiles ]",
-       "transl": "[ Raketen vorbereiten ]<<C<<Geprüft: Minsu"
+       "transl": "[ Готуються Ракети ]<<C<<Geprüft: Minsu"
       }
      }
     ]
@@ -172,7 +172,7 @@
      {
       "text": {
        "orig": "[Targetting Turret]",
-       "transl": "[ Geschütz anvisieren! ]<<C<<Geprüft: Minsu"
+       "transl": "[ Наводиться на Турель! ]<<C<<Geprüft: Minsu"
       }
      }
     ],
@@ -180,7 +180,7 @@
      {
       "text": {
        "orig": "[Targetting Turret]",
-       "transl": "[ Geschütz anvisieren! ]<<C<<Geprüft: Minsu"
+       "transl": "[ Наводиться на Турель! ]<<C<<Geprüft: Minsu"
       }
      }
     ]
@@ -190,7 +190,7 @@
    {
     "text": {
      "orig": "[ WEAPON ESCAPED! ]",
-     "transl": "[ WAFFEN ENTKOMMEN! ]<<C<<Geprüft: Minsu"
+     "transl": "[ ЗБРОЯ ВТЕКЛА! ]"
     }
    }
   ],
@@ -198,7 +198,7 @@
    {
     "text": {
      "orig": "[ STUN ]",
-     "transl": "[ GELÄHMT ]<<C<<Geprüft: Minsu"
+     "transl": "[ ОГЛУШЕНА ]<<C<<Geprüft: Minsu"
     }
    }
   ]
@@ -206,13 +206,13 @@
  "meta": {
   "species": {
    "orig": "Floating Coordinator Turret",
-   "transl": "Schwimmender Koordinator<<C<<Geprüft: Minsu"
+   "transl": "Літаюча Турель-Координатор"
   },
   "descriptions": [
    {
     "text": {
      "orig": "The central coordinator of the heavily modified turrets that were made in \\c[3]\\v[area.rhombus-sqr.name]\\c[0] and meant for illegal activities all over \\v[lore.title.planet]. It too is equipped with \\c[3]floating devices\\c[0] to cross the ocean on its own and has a highly advanced \\c[3]shielding system\\c[0].\nWhile \\c[3]heavy artillery\\c[0] will be able to \\c[3]break its normal shield\\c[0], the \\c[3]focussed frontal shield is basically impenetrable\\c[0] and must somehow be bypassed.\nIn addition to a \\c[3]powerful cannon\\c[0], this malicious machine of war is also equipped with an advanced launcher of \\c[3]ship-to-ship missiles\\c[0]. \\c[3]Shooting them down to protect your vessel\\c[0] should be the top-priority!",
-     "transl": "Der zentrale Koordinator der stark modifizierten Geschütztürme, die in \\c[3]Rhombus Square\\c[0] für illegale Aktivitäten auf ganz Shadoon geschaffen wurden. Auch er ist mit \\c[3]schwimmenden Vorrichtungen\\c[0] ausgestattet, um den Ozean aus eigener Kraft zu überqueren und verfügt über ein hochentwickeltes \\c[3]Abschirmsystem\\c[0].\nWährend \\c[3]schwere Artillerie\\c[0] in der Lage sein wird, \\c[3]seinen normalen Schild zu durchbrechen\\c[0], ist der \\c[3]fokussierte Frontalschild nahezu undurchdringlich\\c[0] und muss irgendwie umgangen werden.\nNeben einer \\c[3]mächtigen Kanone\\c[0] ist diese bösartige Kriegsmaschine auch mit einer fortschrittlichen Abschussvorrichtung für \\c[3]Anti-Schiffsraketen\\c[0] ausgestattet. \\c[3]Sie abzuschießen, um dein Schiff zu schützen\\c[0], sollte oberste Priorität haben!<<C<<Geprüft: Minsu"
+     "transl": "Центральний координатор сильно модифікованих турелей, виготовлених у \\c[3]Ромбічній Площі\\c[0] та призначених для незаконної діяльності по всьому Шадуну. Він також обладнаний \\c[3]пристроями левітації\\c[0], які дозволяють йому перетинати океан, та має високорозвинену \\c[3]систему захисту\\c[0].\nХоча \\c[3]важка артилерія\\c[0] здатна \\c[3]зламати його звичайний щит\\c[0], \\c[3]сфокусований фронтальний щит фактично непробивний\\c[0] і його потрібно якось обійти.\nОкрім \\c[3]потужної гармати\\c[0], ця зловісна бойова машина також оснащена пусковою установкою \\c[3]протикорабельних ракет\\c[0]. \\c[3]Збивати їх, щоб захистити своє судно\\c[0], має бути головним пріоритетом!"
     }
    }
   ]
