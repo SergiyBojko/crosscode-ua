@@ -13,7 +13,7 @@
        {
         "text": {
          "orig": "Left side incoming!",
-         "transl": "Links kommt was!<<C<<Geprüft: Minsu"
+         "transl": "Йдуть зліва!"
         }
        }
       ]
@@ -23,7 +23,7 @@
        {
         "text": {
          "orig": "Right side incoming!",
-         "transl": "Rechts kommt was!<<C<<Geprüft: Minsu"
+         "transl": "Йдуть справа!"
         }
        }
       ]
@@ -34,7 +34,7 @@
      {
       "text": {
        "orig": "Incoming!",
-       "transl": "Da kommt was!<<C<<Geprüft: Minsu"
+       "transl": "Щось наближається!"
       }
      }
     ]
@@ -47,7 +47,7 @@
      {
       "text": {
        "orig": "(SPAWN \\v[entity.name], \\v[entity.attrib.stdSpeed] Speed)",
-       "transl": "(SPAWNE \\v[entity.name], \\v[entity.attrib.stdSpeed] Geschw.)<<C<<Geprüft: Minsu"
+       "transl": "(ВИКЛИКАТИ \\v[entity.name], \\v[entity.attrib.stdSpeed] Швидкість)"
       }
      }
     ]
@@ -57,7 +57,7 @@
    {
     "text": {
      "orig": "[INFILTRATION!]",
-     "transl": "[INFILTRATION!]<<C<<Geprüft: Minsu"
+     "transl": "[ІНФІЛЬТРАЦІЯ!]"
     }
    }
   ],
@@ -75,7 +75,7 @@
          {
           "text": {
            "orig": "[WAVE REACHED LEFT DEFENSES!]",
-           "transl": "[WELLE ERREICHT LINKE FRONT!]<<C<<Geprüft: Minsu"
+           "transl": "[ХВИЛЯ ДОСЯГНУЛА ЛІВУ БАРИКАДУ!]"
           }
          }
         ]
@@ -85,7 +85,7 @@
          {
           "text": {
            "orig": "[WAVE REACHED RIGHT DEFENSES!]",
-           "transl": "[WELLE ERREICHT RECHTE FRONT!]<<C<<Geprüft: Minsu"
+           "transl": "[ХВИЛЯ ДОСЯГНУЛА ПРАВУ БАРИКАДУ!]"
           }
          }
         ]
@@ -100,7 +100,7 @@
        {
         "text": {
          "orig": "[WAVE REACHED DEFENSES!]",
-         "transl": "[WELLE ERREICHT FRONT!]<<C<<Geprüft: Minsu"
+         "transl": "[ХВИЛЯ ДОСЯГНУЛА БАРИКАДУ!]"
         }
        }
       ]
@@ -112,7 +112,7 @@
    {
     "text": {
      "orig": "[DANGER!]",
-     "transl": "[GEFAHR!]<<C<<Geprüft: Minsu"
+     "transl": "[НЕБЕЗПЕКА!]"
     }
    }
   ],
@@ -126,7 +126,7 @@
      {
       "text": {
        "orig": "(CORNER)",
-       "transl": "(CORNER)<<C<<Geprüft: Minsu"
+       "transl": "(КУТ)"
       }
      }
     ]
@@ -178,7 +178,7 @@
        {
         "text": {
          "orig": "[Recover Shield...]",
-         "transl": "[Aktiviere Schild...]<<C<<Geprüft: Minsu"
+         "transl": "[Відновити Щит...]"
         }
        }
       ]
@@ -205,7 +205,7 @@
    {
     "text": {
      "orig": "[Shield down & Stunned]",
-     "transl": "[Schildbruch & gelähmt]<<C<<Geprüft: Minsu"
+     "transl": "[Щит пробито та Оглушено]"
     }
    }
   ],
@@ -215,7 +215,7 @@
      {
       "text": {
        "orig": "FullShield On",
-       "transl": "ПовнийЩит Увімкнений<<C<<Geprüft: Minsu"
+       "transl": "ПовнийЩит Увімкнений"
       }
      }
     ]
@@ -225,7 +225,7 @@
      {
       "text": {
        "orig": "[Regain Shield]",
-       "transl": "[Aktiviere Schild]<<C<<Geprüft: Minsu"
+       "transl": "[Відновити Щит]"
       }
      }
     ]
@@ -238,7 +238,7 @@
      {
       "text": {
        "orig": "[Shield neutralized!]",
-       "transl": "[Schild neutralisiert!]<<C<<Geprüft: Minsu"
+       "transl": "[Щит нейтралізовано!]"
       }
      }
     ]
@@ -249,7 +249,7 @@
    {
     "text": {
      "orig": "[Shield neutralized!]",
-     "transl": "[Schild neutralisiert!]<<C<<Geprüft: Minsu"
+     "transl": "[Щит нейтралізовано!]"
     }
    }
   ],
@@ -257,7 +257,7 @@
    {
     "text": {
      "orig": "WALKING",
-     "transl": "LAUFE<<C<<Geprüft: Minsu"
+     "transl": "ЙДЕ"
     }
    }
   ]
@@ -265,13 +265,13 @@
  "meta": {
   "species": {
    "orig": "Mammal",
-   "transl": "Säugetier<<C<<Geprüft: Minsu"
+   "transl": "Ссавець"
   },
   "descriptions": [
    {
     "text": {
      "orig": "A close relative to the regular \\c[3]Teslabovine\\c[0], this specimen prefers to live underground. Usually they have a close connection to intensive points of Ancient power that they are eager to protect.\nThough it is currently unknown what a \"regular Teslabovine\" is, it is assumed that these are somewhat similar to it. In any case, they follow strict paths at a relaxed pace but sometimes feel compelled to \\c[3]charge forward\\c[0]. These charges will incite a \\c[3]powerful bolt of lightning\\c[0] on their trampled path!",
-     "transl": "Dieses Exemplar ist ein enger Verwandter des gewöhnlichen \\c[3]Teslabullen\\c[0] und lebt lieber im Untergrund. Normalerweise haben sie eine enge Verbindung zu Kraftpunkten der Ahnen, die sie bis aufs Blut verteidigen.\nObwohl unklar ist, was eigentlich ein \"gewöhnlicher Teslabulle\" ist, wird angenommen, dass diese sich ähneln. Sie trotten zwar meist gemächlich auf sicheren Pfaden, müssen manchmal aber Druck ablassen und \\c[3]vorwärts stürmen\\c[0]. Dieser Ansturm löst einen \\c[3]starken Blitz\\c[0] entlang ihrer Trampelspuren aus!<<C<<Geprüft: Minsu"
+     "transl": "Близький родич звичайного \\c[3]Теслабика\\c[0], цей екземпляр надає перевагу життю під землею. Зазвичай має тісний зв'язок з потужними джерелами сили Древніх, які ревно охороняє.\nХоча досі невідомо якими є \"звичайні Теслабики\", вважається, що ці істоти є доволі схожими. В будь якому разі, вони рухаються за чіткими маршрутами, неквапно, але час від часу їх охоплює бажання \\c[3]рванути вперед\\c[0]. У цей момент вони створюють \\c[3]могутній електричний розряд\\c[0], на своєму шляху!"
     }
    }
   ]
