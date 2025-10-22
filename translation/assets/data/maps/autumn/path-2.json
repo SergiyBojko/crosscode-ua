@@ -79,17 +79,17 @@
       "interact": {
        "hoverText": {
         "orig": "One of the sick trees. Apply \\c[3]\\v[item.171.name]\\c[0] to cure it.",
-        "transl": "Einer der kranken Bäume. \\c[3]Puren Herbst-Cidre\\c[0] auftragen, um ihn zu heilen."
+        "transl": "Одне з хворих дерев. Нанесіть \\c[3]\\v[item.171.name]\\c[0], щоб його вилікувати."
        },
        "title": {
         "orig": "Sick Tree",
-        "transl": "Kranker Baum"
+        "transl": "Хворе Дерево"
        },
        "event": [
         {
          "text": {
           "orig": "Applying extract",
-          "transl": "Trage Extrakt auf"
+          "transl": "Нанесення екстракту"
          }
         },
         null,
@@ -100,7 +100,7 @@
         {
          "text": {
           "orig": "Sickness cured!",
-          "transl": "Krankheit geheilt!"
+          "transl": "Хворобу вилікувано!"
          }
         }
        ]
@@ -277,7 +277,7 @@
        {
         "message": {
          "orig": "Can't you see I'm in the middle of something here?",
-         "transl": "Siehst du nicht, dass ich beschäftigt bin?"
+         "transl": "Ти що не бачиш, що я зараз зайнятий?"
         },
         "person": {
          "person": "cross-worlds.pentafist-male-blue",
@@ -313,7 +313,7 @@
        {
         "message": {
          "orig": "Still in the middle of something.",
-         "transl": "Ich bin immer noch beschäftigt."
+         "transl": "Все ще зайнятий."
         },
         "person": {
          "person": "cross-worlds.pentafist-male-blue",
@@ -440,7 +440,7 @@
         {
          "message": {
           "orig": "Oh dang it, I fell asleep again.",
-          "transl": "Oh, Verdammt. Ich bin schon wieder eingeschlafen."
+          "transl": "Ой, я знову заснув."
          },
          "person": {
           "person": "cross-worlds.hexacast-male-black",
@@ -450,7 +450,7 @@
         {
          "message": {
           "orig": "Sorry for startling you. Is this for me?",
-          "transl": "Sorry fürs Anblaffen. Ist das für mich?"
+          "transl": "Вибач, що налякав. Це для мене?"
          },
          "person": {
           "person": "cross-worlds.hexacast-male-black",
@@ -470,7 +470,7 @@
         {
          "message": {
           "orig": "Nice. I love presents! ",
-          "transl": "Wie toll. Ich liebe Geschenke!"
+          "transl": "Круто. Я люблю подарунки!"
          },
          "person": {
           "person": "cross-worlds.hexacast-male-black",
@@ -512,7 +512,7 @@
      {
       "message": {
        "orig": "Blue haired Spheromancer!",
-       "transl": "Blauhaariger Spheromancer!"
+       "transl": "Синеволоса Сферомансерко!"
       }
      },
      null,
@@ -527,7 +527,7 @@
      {
       "message": {
        "orig": "So we meet again!",
-       "transl": "So treffen wir uns wieder!"
+       "transl": "От ми й знову зустрілися!"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -552,7 +552,7 @@
      {
       "message": {
        "orig": "Mon Dieu, not this guy again~",
-       "transl": "Mon Dieu, nicht der schon wieder."
+       "transl": "Mon Dieu, тільки не він знову."
       },
       "person": {
        "person": "main.emilie",
@@ -580,7 +580,7 @@
        {
         "message": {
          "orig": "I see your level remains as \\c[1]UNACCEPTABLE\\c[0] as it has been before!",
-         "transl": "Wie ich sehe, ist dein Level noch genauso \\c[1]INAKZEPTABEL\\c[0] wie zuvor!"
+         "transl": "Бачу, твій рівень настільки ж \\c[1]НЕПРИЙНЯТНИЙ\\c[0], як і раніше!"
         },
         "person": {
          "person": "antagonists.fancyguy",
@@ -590,7 +590,7 @@
        {
         "message": {
          "orig": "Why do you even care so much about this...\\.",
-         "transl": "Warum stört dich das eigentlich so sehr...?\\."
+         "transl": "Чому ти взагалі так через це переймаєшся...?\\."
         },
         "person": {
          "person": "main.emilie",
@@ -601,7 +601,7 @@
        {
         "message": {
          "orig": "AGAIN, SHE IS \\c[1]LEVEL \\v[player.level]\\c[0]!",
-         "transl": "NOCHMAL: SIE HAT \\c[1]LEVEL \\v[player.level]\\c[0]!"
+         "transl": "ПОВТОРЮЮ: ВОНА \\c[1]\\v[player.level]-го РІВНЯ\\c[0]!"
         },
         "person": {
          "person": "antagonists.fancyguy",
@@ -612,7 +612,7 @@
        {
         "message": {
          "orig": "EVERYBODY SHOULD CARE ABOUT THIS!!",
-         "transl": "DAS SOLLTE DOCH JEDEN STÖREN!!"
+         "transl": "УСІ ПОВИННІ ЦИМ ПЕРЕЙМАТИСЬ!!"
         },
         "person": {
          "person": "antagonists.fancyguy",
@@ -622,7 +622,7 @@
        {
         "message": {
          "orig": "This game has \\c[1]RULES\\c[0]!!",
-         "transl": "Dieses Spiel hat schließlich \\c[1]REGELN\\c[0]!!"
+         "transl": "У цієї гри є \\c[1]ПРАВИЛА\\c[0]!!"
         },
         "person": {
          "person": "antagonists.fancyguy",
@@ -632,7 +632,7 @@
        {
         "message": {
          "orig": "Anyway...",
-         "transl": "Jedenfalls..."
+         "transl": "У будь-якому разі..."
         },
         "person": {
          "person": "antagonists.fancyguy",
@@ -644,7 +644,7 @@
        {
         "message": {
          "orig": "Good!\\. I see your level is now in an acceptable range. ",
-         "transl": "Ah, gut!\\. Ich sehe, dein Level ist endlich im annehmbaren Rahmen."
+         "transl": "Добре!\\. Бачу, твій рівень тепер у прийнятному діапазоні."
         },
         "person": {
          "person": "antagonists.fancyguy",
@@ -660,7 +660,7 @@
        {
         "message": {
          "orig": "As if that one level would have made a big difference.",
-         "transl": "Als ob das eine Level einen Unterschied gemacht hätte."
+         "transl": "Ніби той один рівень багато на що б вплинув."
         },
         "person": {
          "person": "main.emilie",
@@ -670,7 +670,7 @@
        {
         "message": {
          "orig": "However!",
-         "transl": "Aber!"
+         "transl": "Але!"
         },
         "person": {
          "person": "antagonists.fancyguy",
@@ -680,7 +680,7 @@
        {
         "message": {
          "orig": "Your previous actions have not been forgotten!",
-         "transl": "Deine vorherigen Schandtaten sind nicht vergessen!"
+         "transl": "Твої попередні вчинки не забуті!"
         },
         "person": {
          "person": "antagonists.fancyguy",
@@ -692,7 +692,7 @@
      {
       "message": {
        "orig": "Being a cheater is bad as it is. ",
-       "transl": "Ein Cheater zu sein, ist schon schlimm genug!\n"
+       "transl": "Бути Чітером - погано саме по собі."
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -703,7 +703,7 @@
      {
       "message": {
        "orig": "But seeing a \\c[3]Spheromancer\\c[0] displaying such dishonest behavior!\\. It breaks my heart!",
-       "transl": "Aber einen \\c[3]Spheromancer\\c[0] zu sehen, der betrügt!\\. Das bricht mir das Herz!"
+       "transl": "Але бачити \\c[3]Сферомансера\\c[0], який веде себе настільки безчесно!\\. Це розбиває мені серце!"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -730,7 +730,7 @@
      {
       "message": {
        "orig": "We Spheromancers are a noble, yet unappreciated class!",
-       "transl": "Wir Spheromancer sind eine edle, doch leider verkannte Klasse!"
+       "transl": "Ми, Сферомансери - шляхетний, але недооцінений клас!"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -740,7 +740,7 @@
      {
       "message": {
        "orig": "I can't allow a player like you to further damage our reputation!",
-       "transl": "Ich kann es Spielern wie dir nicht durchgehen lassen, unseren Ruf weiter zu schädigen!"
+       "transl": "Я не можу дозволити такому гравцю як ти, ще більше руйнувати нашу репутацію!"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -750,7 +750,7 @@
      {
       "message": {
        "orig": "Wait...\\. You're a Spheromancer, too?",
-       "transl": "Moment...\\. Du bist auch ein Spheromancer?"
+       "transl": "Секундочку...\\. Ти теж Сферомансер?"
       },
       "person": {
        "person": "main.emilie",
@@ -770,7 +770,7 @@
      {
       "message": {
        "orig": "Why of course!\\. Don't you see my striking crimson outfit?",
-       "transl": "Natürlich!\\. Siehst du nicht mein auffallend purpurnes Outfit?"
+       "transl": "Звісно!\\. Хіба ти не бачиш моє разюче-багряне вбрання?"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -780,7 +780,7 @@
      {
       "message": {
        "orig": "...Oh!",
-       "transl": "... Oh!"
+       "transl": "... Ох!"
       },
       "person": {
        "person": "main.emilie",
@@ -790,7 +790,7 @@
      {
       "message": {
        "orig": "Pardon, I thought you were a Triblader with all that green and...\\. pointy hair.",
-       "transl": "Pardon, ich dachte du wärst ein Triblader, mit all dem Grün und dem...\\. spitzen Haar."
+       "transl": "Pardon, я думала, ти Триблейдер через все це зелене і...\\. гостре волосся."
       },
       "person": {
        "person": "main.emilie",
@@ -800,7 +800,7 @@
      {
       "message": {
        "orig": "It's my style.",
-       "transl": "Das ist mein Stil!"
+       "transl": "Це мій стиль."
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -810,7 +810,7 @@
      {
       "message": {
        "orig": "It's plain to see that fashion is beyond your grasp.",
-       "transl": "Offensichtlich hast du keinen Sinn für Mode."
+       "transl": "Очевидно, що мода - не твоя стихія."
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -820,7 +820,7 @@
      {
       "message": {
        "orig": "Suuuure~",
-       "transl": "Genauuuuu~"
+       "transl": "Агаааа~"
       },
       "person": {
        "person": "main.emilie",
@@ -831,7 +831,7 @@
      {
       "message": {
        "orig": "Anyway!\\. I'm talking to you, blue-haired Spheromancer!",
-       "transl": "Egal!\\. Ich rede mit dir, blauhaariger Spheromancer!"
+       "transl": "Неважливо!\\. Я звертаюся до тебе, синеволоса Сферомансерко!"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -841,7 +841,7 @@
      {
       "message": {
        "orig": "...\\.Lea.",
-       "transl": "...\\. Lea."
+       "transl": "...\\. Лія."
       },
       "person": {
        "person": "main.lea",
@@ -869,7 +869,7 @@
      {
       "message": {
        "orig": "I challenge you to a \\c[3]duel\\c[0]!",
-       "transl": "Ich fordere dich zum \\c[3]Duell\\c[0] heraus!"
+       "transl": "Я викликаю тебе на \\c[3]дуель\\c[0]!"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -895,7 +895,7 @@
      {
       "message": {
        "orig": "Wait, what?",
-       "transl": "Moment, was?"
+       "transl": "Чекай, що?"
       },
       "person": {
        "person": "main.emilie",
@@ -906,7 +906,7 @@
      {
       "message": {
        "orig": "Come on!\\. We just started playing!",
-       "transl": "Komm schon!\\. Wir haben gerade erst angefangen zu spielen!"
+       "transl": "Та ну!\\. Ми ж лише почали грати!"
       },
       "person": {
        "person": "main.emilie",
@@ -917,7 +917,7 @@
      {
       "message": {
        "orig": "Of course we won't do it right here and now.",
-       "transl": "Natürlich werden wir das nicht hier und jetzt tun."
+       "transl": "Звісно, ми не будемо робити це просто тут і зараз."
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -927,7 +927,7 @@
      {
       "message": {
        "orig": "Let's have our duel at the \\c[3]entrance of Bergen Trail\\c[0]!",
-       "transl": "Lass uns das Duell am \\c[3]Eingang vom Bergen-Trail\\c[0] austragen!"
+       "transl": "Пропоную провести нашу дуель на \\c[3]вході до Стежки Берґена\\c[0]!"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -937,7 +937,7 @@
      {
       "message": {
        "orig": "I'll test your skills properly - to make sure you don't use any more dishonest methods!",
-       "transl": "Ich werde deine Fähigkeiten gründlich auf die Probe stellen - um sicherzustellen, dass du dich keiner unlauteren Methoden mehr bedienst!"
+       "transl": "Я як слід перевірю твої вміння, щоб переконатися, що ти більше не використовуєш нечесні методи!"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -949,7 +949,7 @@
        {
         "message": {
          "orig": "Ha...\\. you really think that's a good idea?",
-         "transl": "Ha...\\. Das halte ich für keine schlaue Idee..."
+         "transl": "Ха...\\. ти справді думаєш, що це хороша ідея?"
         },
         "person": {
          "person": "main.emilie",
@@ -959,7 +959,7 @@
        {
         "message": {
          "orig": "Trust me you haven't seen \\c[1]the worst of it\\c[0] yet.",
-         "transl": "Glaub mir, du hast das \\c[1]Schlimmste\\c[0] noch nicht gesehen."
+         "transl": "Повір, ти ще не бачив \\c[1]найгіршого\\c[0]."
         },
         "person": {
          "person": "main.emilie",
@@ -969,7 +969,7 @@
        {
         "message": {
          "orig": "\\c[1]...!",
-         "transl": "\\c[1]...!\\c[0]"
+         "transl": "\\c[1]...!\\c[0]<<C<<іг"
         },
         "person": {
          "person": "main.lea",
@@ -983,7 +983,7 @@
          {
           "message": {
            "orig": "Well she \\c[1]is level \\v[player.level]\\c[0]. So you can already guess how this will play out.",
-           "transl": "Na ja, sie \\c[1]hat Level \\v[player.level]\\c[0]. Du kannst dir also denken, wie das ausgeht."
+           "transl": "Ну вона \\c[1]\\v[player.level]-го рівня\\c[0]. Тож ти вже можеш здогадатися, як все пройде."
           },
           "person": {
            "person": "main.emilie",
@@ -995,7 +995,7 @@
          {
           "message": {
            "orig": "Are you serious?",
-           "transl": "Echt jetzt?"
+           "transl": "Ти серйозно?"
           },
           "person": {
            "person": "main.emilie",
@@ -1010,7 +1010,7 @@
      {
       "message": {
        "orig": "Do you accept, blue-haired Spheromancer?",
-       "transl": "Nimmst du die Herausforderung an, blauhaariger Spheromancer?"
+       "transl": "Чи приймаєш ти виклик, синеволоса Сферомансерко?"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -1020,7 +1020,7 @@
      {
       "message": {
        "orig": "...\\.Lea.",
-       "transl": "...\\. Lea."
+       "transl": "...\\. Лія."
       },
       "person": {
        "person": "main.lea",
@@ -1041,7 +1041,7 @@
      {
       "message": {
        "orig": "Good!\\. I'll be waiting for you!",
-       "transl": "Gut!\\. Ich werde auf dich warten!"
+       "transl": "Добре!\\. Я на тебе чекатиму!"
       },
       "person": {
        "person": "antagonists.fancyguy",
@@ -1070,7 +1070,7 @@
      {
       "message": {
        "orig": "And off he goes again.",
-       "transl": "Und da verschwindet er wieder."
+       "transl": "І от він знову зник."
       },
       "person": {
        "person": "main.emilie",
@@ -1084,7 +1084,7 @@
        {
         "message": {
          "orig": "I'm sure this will be a lot of \\c[1]fun to watch\\c[0]!",
-         "transl": "Ich \\c[1]freu'\\c[0] mich jetzt schon drauf, dir \\c[1]dabei zuzusehen\\c[0]..."
+         "transl": "Я впевнена, буде дуже \\c[1]цікаво дивитися\\c[0]..."
         },
         "person": {
          "person": "main.emilie",
@@ -1094,7 +1094,7 @@
        {
         "message": {
          "orig": "You beating that guy to a pulp.",
-         "transl": "... wie du den Kerl an die Wand klatschst und Hafergrütze aus ihm machst!"
+         "transl": "... на те, як ти зробиш з нього відбивну."
         },
         "person": {
          "person": "main.emilie",
@@ -1114,7 +1114,7 @@
        {
         "message": {
          "orig": "But I'd really like to level up a bit before that, too. If that's okay!",
-         "transl": "Aber vorher möchte ich noch ein bisschen leveln. Wenn das ok ist!"
+         "transl": "Але, перед цим, я б теж хотіла трохи підняти рівень. Якщо ти не проти!"
         },
         "person": {
          "person": "main.emilie",
@@ -1136,7 +1136,7 @@
        {
         "message": {
          "orig": "Are you sure it's okay to accept his challenge just like that?",
-         "transl": "Bist du sicher, dass es richtig war, seine Herausforderung einfach so anzunehmen?"
+         "transl": "Впевнена, що було правильно ось так просто прийняти його виклик?"
         },
         "person": {
          "person": "main.emilie",
@@ -1162,7 +1162,7 @@
        {
         "message": {
          "orig": "D'accord.\\. It's your choice.",
-         "transl": "D'accord.\\. Deine Entscheidung."
+         "transl": "D'accord.\\. Це твій вибір."
         },
         "person": {
          "person": "main.emilie",
@@ -1172,7 +1172,7 @@
        {
         "message": {
          "orig": "Then let's make sure you're well prepared!",
-         "transl": "Dann lass uns dafür sorgen, dass du gut vorbereitet bist!"
+         "transl": "Тоді давай впевнимося, що ти добре підготована!"
         },
         "person": {
          "person": "main.emilie",
@@ -1182,7 +1182,7 @@
        {
         "message": {
          "orig": "I want you to kick this guy's derrière!",
-         "transl": "Ich will, dass du dem Kerl so richtig in den Derrière trittst."
+         "transl": "Я хочу, щоб ти дала йому по derrière!"
         },
         "person": {
          "person": "main.emilie",
@@ -1194,7 +1194,7 @@
      {
       "message": {
        "orig": "Come on, let's train!",
-       "transl": "Komm, lass uns trainieren!"
+       "transl": "Давай, ходімо тренуватися!"
       },
       "person": {
        "person": "main.emilie",
@@ -1215,7 +1215,7 @@
      {
       "task": {
        "orig": "Apollo challenged you to a duel and waits for you at the entrance of \\c[3]Bergen Trail\\c[0]. Be prepared!",
-       "transl": "Apollo hat dich zu einem Duell herausgefordert. Er erwartet dich am Eingang des \\c[3]Bergen-Trails\\c[0]. Sei vorbereitet!"
+       "transl": "Аполло викликав вас на дуель і чекає на вході до \\c[3]стежки Берґена\\c[0]. Будьте готові!"
       }
      }
     ]
@@ -1225,7 +1225,7 @@
    "settings": {
     "text": {
      "orig": "\\c[1]Sick Tree\\c[0]",
-     "transl": "\\c[1]Kranker Baum\\c[0]"
+     "transl": "\\c[1]Хворе Дерево\\c[0]"
     }
    }
   },
@@ -1233,7 +1233,7 @@
    "settings": {
     "text": {
      "orig": "Healed Tree",
-     "transl": "Geheilter Baum"
+     "transl": "Вилікуване Дерево"
     }
    }
   }
