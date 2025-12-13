@@ -4,7 +4,7 @@ const p = require('path');
 let ignoreStrings = ['en_US','untitled', 'OG', 'UG 2', 'UG', 'Lachsen', 'The Four Visionaries', 'GFluegel', 'xDragon',
     'R.D.', 'STATIC-LANG-FILE', 'sc.gimmick', 'sc.map-content', 'sc.gui',
     'SP', 'player.hasAnyToggleItems', '!!min=64', '!!min=66', '!!min=-1', '!!min=82', '\\i[gamepad-r1] / \\i[gamepad-r2]', '\\i[gamepad-r2] / \\i[gamepad-r1]',
-    'boss.elephant-core', 'special.dummy', 'baggy-kun-test', 'final.god-controller', 'boss.radfish-spawner', 'jungle.special.quest_td_boss_slime_1'];
+    'boss.elephant-core', 'special.dummy', 'baggy-kun-test', 'final.god-controller', 'boss.radfish-spawner', 'jungle.special.quest_td_boss_slime_1', 'CrossWorlds'];
 
 let excluded = new Set();
 fs.writeFileSync('report.txt', '');
