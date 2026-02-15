@@ -12,9 +12,9 @@ function pushTranslations(path) {
                 console.log(`Dir ${filePath}`);
                 pushTranslations(filePath);
             } else {
-                // if(filePath !== "assets\\data\\database.json") {
-                //     break;
-                // }
+                if(filePath !== "assets\\data\\database.json") {
+                    break;
+                }
                 if(filePath.endsWith(".png") || filePath.match("lang")) {
                     copyFile(filePath)
                 } else if(filePath.endsWith(".json")) {
