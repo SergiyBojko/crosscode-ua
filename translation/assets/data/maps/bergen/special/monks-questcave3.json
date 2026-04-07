@@ -35,7 +35,7 @@
        {
         "titleText": {
          "orig": "\\c[1]Attention!\\c[0]",
-         "transl": "\\c[1]Achtung!\\c[0]"
+         "transl": "\\c[1]Увага!\\c[0]"
         },
         "text": {
          "orig": "\\c[3]\"Extra Frosty\"\\c[0] got automatically deactivated when leaving the cave. To continue the quest \\c[3]\"Chlg. of Ascension: Frosty\"\\c[0], you have to \\c[3]reactivate it again\\c[0]!",
@@ -164,7 +164,7 @@
       "interact": {
        "hoverText": {
         "orig": "The Trial of Ascension",
-        "transl": "Die Prüfung der Aszension"
+        "transl": "Випробування Вознесіння"
        },
        "event": [
         {
@@ -182,19 +182,19 @@
             {
              "text": {
               "orig": "This is a trial of fortitude and dexterity. To pass you must reach the end of the icy path without falling into the darkness.",
-              "transl": "Dies ist die Prüfung der Standhaftigkeit und Geschicklichkeit. Um sie zu bestehen, musst du das Ende des eisigen Weges erreichen, ohne in die Dunkelheit zu stürzen."
+              "transl": "Це випробування витривалості та спритності. Щоб його пройти, ви маєте дістатися кінця крижаної стежки, не впавши у темряву."
              }
             },
             {
              "text": {
               "orig": "Beware the slippery ground, for the Track itself will test you with the Element of this mountain: The Cold.",
-              "transl": "Стережіться слизької поверхні, адже сам Шлях випробовуватиме вас стихією цієї гори: Холодом."
+              "transl": "Стережіться слизької поверхні, адже сам Шлях випробовуватиме вас елементом цієї гори: Холодом."
              }
             },
             {
              "text": {
               "orig": "At certain points you must prove your connection to the element of Wave by overcoming large chasms with teleportation.",
-              "transl": "An bestimmten Stellen musst du deine Verbindung zum Element Welle beweisen, indem du große Abgründe durch Teleportation überwindest."
+              "transl": "У певних місцях ви маєте довести свою спорідненість з елементом Хвилі, долаючи великі провалля за допомогою телепортації."
              }
             },
             {
@@ -234,7 +234,7 @@
             {
              "text": {
               "orig": "Best time\n\n\\c[3]Normal:\\c[0] \\v[map.bestTime-format]\n\\c[3]Extra Frosty:\\c[0] \\v[map.bestTime-frosty-format]\n\\c[3]No Shield:\\c[0] \\v[map.bestTime-noShield-format]\n\\c[3]Extra Frosty & No Shield:\\c[0] \\v[map.bestTime-frostyNoShield-format]",
-              "transl": "Bestzeiten\n\n\\c[3]Normal:\\c[0] \\v[map.bestTime-format]\n\\c[3]Extra frostig:\\c[0] \\v[map.bestTime-frosty-format]\n\\c[3]Kein Schild:\\c[0] \\v[map.bestTime-noShield-format]\n\\c[3]Extra frostig & Kein Schild:\\c[0] \\v[map.bestTime-frostyNoShield-format]"
+              "transl": "Найкращий час\n\n\\c[3]Звичайний:\\c[0] \\v[map.bestTime-format]\n\\c[3]Додатковий Мороз:\\c[0] \\v[map.bestTime-frosty-format]\n\\c[3]Без Щита:\\c[0] \\v[map.bestTime-noShield-format]\n\\c[3]Додатковий Мороз і Без Щита:\\c[0] \\v[map.bestTime-frostyNoShield-format]"
              }
             }
            ],
@@ -280,7 +280,7 @@
             {
              "label": {
               "orig": "Information",
-              "transl": "Information"
+              "transl": "Інформація"
              }
             },
             {
@@ -292,13 +292,13 @@
             {
              "label": {
               "orig": "Activate \"Extra Frosty\"-challenge",
-              "transl": "Aktiviere \"Extra frostig\""
+              "transl": "Активувати \"Додатковий Мороз\""
              }
             },
             {
              "label": {
               "orig": "Deactivate \"Extra Frosty\"-challenge",
-              "transl": "Deaktiviere \"Extra frostig\""
+              "transl": "Деактивувати \"Додатковий Мороз\""
              }
             },
             {
@@ -316,7 +316,7 @@
             {
              "label": {
               "orig": "Cancel",
-              "transl": "Abbruch"
+              "transl": "Скасувати"
              }
             }
            ]
@@ -402,7 +402,7 @@
          {
           "value": {
            "orig": "\"Extra Frosty\" & \"No Shield\"",
-           "transl": "\"Extra frostig\" & \"Kein Schild\""
+           "transl": "\"Додатковий Мороз\" і \"Без Щита\""
           }
          }
         ],
@@ -410,7 +410,7 @@
          {
           "value": {
            "orig": "\"Extra Frosty\"",
-           "transl": "\"Extra frostig\""
+           "transl": "\"Додатковий Мороз\""
           }
          }
         ]
@@ -422,7 +422,7 @@
          {
           "value": {
            "orig": "\"No Shield\"",
-           "transl": "\"Kein Schild\""
+           "transl": "\"Без Щита\""
           }
          }
         ],
@@ -430,7 +430,7 @@
          {
           "value": {
            "orig": "Normal",
-           "transl": "Normal"
+           "transl": "Звичайний"
           }
          }
         ]
@@ -446,7 +446,7 @@
          {
           "text": {
            "orig": "\\c[3]New Record (\\v[tmp.resultMode])!\\c[0]\n\\v[tmp.time-format]",
-           "transl": "\\c[3]Neuer Rekord (\\v[tmp.resultMode])!\\c[0]\n\\v[tmp.time-format]"
+           "transl": "\\c[3]Новий Рекорд (\\v[tmp.resultMode])!\\c[0]\n\\v[tmp.time-format]"
           }
          }
         ],
@@ -610,7 +610,7 @@
            {
             "text": {
              "orig": "LEFT",
-             "transl": "LINKS"
+             "transl": "ЛІВОРУЧ"
             }
            }
           ]
@@ -624,7 +624,7 @@
              {
               "text": {
                "orig": "RIGHT",
-               "transl": "RECHTS"
+               "transl": "ПРАВОРУЧ"
               }
              }
             ]
@@ -642,7 +642,7 @@
        {
         "text": {
          "orig": "NOTHING",
-         "transl": "NICHTS"
+         "transl": "НІЧОГО"
         }
        },
        null,
@@ -761,7 +761,7 @@
        {
         "text": {
          "orig": "NOTHING",
-         "transl": "NICHTS"
+         "transl": "НІЧОГО"
         }
        },
        null,
@@ -795,7 +795,7 @@
        {
         "text": {
          "orig": "NOTHING",
-         "transl": "NICHTS"
+         "transl": "НІЧОГО"
         }
        },
        null,
@@ -822,7 +822,7 @@
        {
         "text": {
          "orig": "NOTHING",
-         "transl": "NICHTS"
+         "transl": "НІЧОГО"
         }
        },
        null,

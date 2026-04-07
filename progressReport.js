@@ -8,7 +8,7 @@ let ignoreStrings = ['en_US','untitled', 'OG', 'UG 2', 'UG', 'Lachsen', 'The Fou
     'arid.evotar', 'beach.sea-star', 'autumn-rh.buffel-sick-1', 'heat.darth-moth-old', 'autumn-rh.seahorse-river', 'cold.coldbug-quest-bombing-2',
     'hedgehog-dodge', 'jungle.special.parrot-gangster- boss-1', 'heat.drillertoise-OLD', 'template', 'beach.fish-beach', 'beach.bug-samurai-beach',
     'beach.hedgehog-beach', 'beach.penguin-beach', 'beach.sandworm-beach', 'forest.bug-samurai-shock-simple', 'heat.kamikatze-helper', 'heat.special.baki-cmd_bot_2',
-    'autumn-rh.big_turret-quest_naval', 'autumn-fall.ball-backup', 'autumn-rh.boss_turret-quest_navaloooooo', 'final.ele-pillar-cold-old', '222'];
+    'autumn-rh.big_turret-quest_naval', 'autumn-fall.ball-backup', 'autumn-rh.boss_turret-quest_navaloooooo', 'final.ele-pillar-cold-old', '222', 'ADLASDKAS\u00d6LDKSA'];
 
 let excluded = new Set();
 fs.writeFileSync('report.txt', '');
