@@ -98,7 +98,8 @@ function writeStatsToReport(stats) {
     if(stats.total == stats.translated) {
         result = ` : ${stats.total} (${stats.words}) ✅`;
     } else  {
-        result = ` : ${stats.translated}/${stats.total} (${stats.wordsTranslated}/${stats.words}) 🔄`;
+        wp = stats.wordsTranslated/stats.words * 100
+        result = ` : ${stats.translated}/${stats.total} (${stats.wordsTranslated}/${stats.words} ${wp.toFixed(2)}%) 🔄`;
     }
     fs.writeFileSync('report.txt', result, {flag:"a"});
 }
