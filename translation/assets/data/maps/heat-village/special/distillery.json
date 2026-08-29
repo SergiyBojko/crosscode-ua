@@ -42,11 +42,11 @@
          "settings": {
           "taskTitle": {
            "orig": "Requests",
-           "transl": "Anfragen"
+           "transl": "Запити"
           },
           "text": {
            "orig": "Brewing Quality: \\c[3]\\v[tmp.quality]\\c[0] ",
-           "transl": "Brauqualität: \\c[3]\\v[tmp.quality]\\c[0] "
+           "transl": "Якість Варіння: \\c[3]\\v[tmp.quality]\\c[0]"
           }
          }
         }
@@ -56,11 +56,11 @@
          "settings": {
           "taskTitle": {
            "orig": "Quality",
-           "transl": "Qualität"
+           "transl": "Якість"
           },
           "text": {
            "orig": "Brewing Quality: \\c[3]\\v[tmp.quality]\\c[0] ",
-           "transl": "Brauqualität: \\c[3]\\v[tmp.quality]\\c[0]"
+           "transl": "Якість Варіння: \\c[3]\\v[tmp.quality]\\c[0]"
           }
          }
         }
@@ -70,7 +70,7 @@
          "settings": {
           "text": {
            "orig": "Overheat",
-           "transl": "Überhitzung"
+           "transl": "Перегрів"
           }
          }
         }
@@ -85,7 +85,7 @@
          "settings": {
           "taskTitle": {
            "orig": "Requests",
-           "transl": "Anfragen"
+           "transl": "Запити"
           }
          }
         }
@@ -95,7 +95,7 @@
          "settings": {
           "text": {
            "orig": "Booze HP",
-           "transl": "Gebräu HP"
+           "transl": "HP Напою"
           }
          }
         }
@@ -105,7 +105,7 @@
          "settings": {
           "text": {
            "orig": "Overheat",
-           "transl": "Überhitzung"
+           "transl": "Перегрів"
           }
          }
         }
@@ -114,7 +114,7 @@
        {
         "task": {
          "orig": "\\c[3]Follow the brewing procedure!\\c[0] ",
-         "transl": "\\c[3]Folge der Brauanweisung!\\c[0]"
+         "transl": "\\c[3]Дотримуйтеся процедури варіння!\\c[0]"
         }
        }
       ]
@@ -128,7 +128,7 @@
      {
       "text": {
        "orig": "[Brewing Process START]",
-       "transl": "[Brauvorgang STARTET]"
+       "transl": "[ПОЧАТОК Процесу Варіння]"
       }
      }
     ]
@@ -166,13 +166,13 @@
        {
         "text": {
          "orig": "[Bubble Pipes activated]",
-         "transl": "[Wasserblasenrohre aktiviert]"
+         "transl": "[Бульбашкові Труби активовано]"
         }
        },
        {
         "text": {
          "orig": "[Bubble Pipes activated]",
-         "transl": "[Wasserblasenrohre aktiviert]"
+         "transl": "[Бульбашкові Труби активовано]"
         }
        }
       ]
@@ -189,7 +189,7 @@
        {
         "text": {
          "orig": "Steam ERROR #bug",
-         "transl": "Steam ERROR #bug<<C<<NOTIZ: Bug-msg, no translation"
+         "transl": "Steam ERROR #bug<<C<<NOTIZ: Bug-msg, no translation баг так баг"
         }
        }
       ],
@@ -200,7 +200,7 @@
          {
           "text": {
            "orig": "Request: Oven #1",
-           "transl": "Anfrage: Ofen #1"
+           "transl": "Запит: Піч #1"
           }
          }
         ]
@@ -210,7 +210,7 @@
          {
           "text": {
            "orig": "Request: Oven #2",
-           "transl": "Anfrage: Ofen #2"
+           "transl": "Запит: Піч #2"
           }
          }
         ]
@@ -220,7 +220,7 @@
          {
           "text": {
            "orig": "Request: Oven #3",
-           "transl": "Anfrage: Ofen #3"
+           "transl": "Запит: Піч #3"
           }
          }
         ]
@@ -230,7 +230,7 @@
          {
           "text": {
            "orig": "Request: Oven #4",
-           "transl": "Anfrage: Ofen #4"
+           "transl": "Запит: Піч #4"
           }
          }
         ]
@@ -261,7 +261,7 @@
            {
             "text": {
              "orig": "ERROR: Requests missed!",
-             "transl": "FEHLER: Anfrage verpasst!"
+             "transl": "ПОМИЛКА: Запити пропущено!"
             }
            }
           ],
@@ -269,7 +269,7 @@
            {
             "text": {
              "orig": "ERROR: Request missed!",
-             "transl": "FEHLER: Anfrage verpasst!"
+             "transl": "ПОМИЛКА: Запит пропущено!"
             }
            }
           ]
@@ -281,7 +281,7 @@
            {
             "text": {
              "orig": "ERROR: Requests missed! Quality -\\v[tmp.qualityChange]",
-             "transl": "FEHLER: Anfrage verpasst! Qualität -\\v[tmp.qualityChange]"
+             "transl": "ПОМИЛКА: Запити пропущено! Якість -\\v[tmp.qualityChange]"
             }
            }
           ],
@@ -289,7 +289,7 @@
            {
             "text": {
              "orig": "ERROR: Request missed! Quality -\\v[tmp.qualityChange]",
-             "transl": "FEHLER: Anfrage verpasst! Qualität -\\v[tmp.qualityChange]"
+             "transl": "ПОМИЛКА: Запит пропущено! Якість -\\v[tmp.qualityChange]"
             }
            }
           ]
@@ -301,7 +301,7 @@
          {
           "text": {
            "orig": "MISSED REQUEST: Oven #1",
-           "transl": "ANFRAGE VERPASST: Ofen #1"
+           "transl": "ЗАПИТ ПРОПУЩЕНО: Піч #1"
           }
          }
         ]
@@ -311,7 +311,7 @@
          {
           "text": {
            "orig": "MISSED REQUEST: Oven #2",
-           "transl": "ANFRAGE VERPASST: Ofen #2"
+           "transl": "ЗАПИТ ПРОПУЩЕНО: Піч #2"
           }
          }
         ]
@@ -321,7 +321,7 @@
          {
           "text": {
            "orig": "MISSED REQUEST: Oven #3",
-           "transl": "ANFRAGE VERPASST: Ofen #3"
+           "transl": "ЗАПИТ ПРОПУЩЕНО: Піч #3"
           }
          }
         ]
@@ -331,7 +331,7 @@
          {
           "text": {
            "orig": "MISSED REQUEST: Oven #4",
-           "transl": "ANFRAGE VERPASST: Ofen #4"
+           "transl": "ЗАПИТ ПРОПУЩЕНО: Піч #4"
           }
          }
         ]
@@ -341,7 +341,7 @@
          {
           "text": {
            "orig": "Steam ERROR",
-           "transl": "STÖRUNG Dampf"
+           "transl": "ПОМИЛКА Пари"
           }
          }
         ]
@@ -369,7 +369,7 @@
        {
         "text": {
          "orig": "Quality +\\v[tmp.qualityChange]",
-         "transl": "Qualität +\\v[tmp.qualityChange]"
+         "transl": "Якість +\\v[tmp.qualityChange]"
         }
        }
       ]
@@ -391,7 +391,7 @@
        {
         "text": {
          "orig": "ERROR: Wrong pipe!",
-         "transl": "FEHLER: Falscher Ofen!"
+         "transl": "ПОМИЛКА: Неправильна труба!"
         }
        }
       ],
@@ -399,7 +399,7 @@
        {
         "text": {
          "orig": "ERROR: Wrong pipe! Quality -\\v[tmp.qualityChange]",
-         "transl": "FEHLER: Falscher Ofen! Qualität -\\v[tmp.qualityChange]"
+         "transl": "ПОМИЛКА: Неправильна труба! Якість -\\v[tmp.qualityChange]"
         }
        }
       ]
@@ -452,7 +452,7 @@
        {
         "text": {
          "orig": "Brewing successful!",
-         "transl": "Brauvorgang erfolgreich!"
+         "transl": "Варіння успішне!"
         }
        }
       ],
@@ -461,7 +461,7 @@
        {
         "text": {
          "orig": "Brewing finished!",
-         "transl": "Brauvorgang beendet!"
+         "transl": "Варіння завершено!"
         }
        }
       ]
@@ -500,7 +500,7 @@
        {
         "message": {
          "orig": "Hey there, \\v[lore.title.seeker].\\. You got everything done here?",
-         "transl": "Hey, Seeker.\\. Hast du hier alles erledigt?"
+         "transl": "Гей, Шукачко.\\. Ти вже закінчила?"
         },
         "person": {
          "person": "business.female-redhair-sexy-brown",
@@ -522,7 +522,7 @@
        {
         "message": {
          "orig": "Alright!\\. What do the numbers say, Bru?",
-         "transl": "Alles klar!\\. Was sagen die Werte, Bru?"
+         "transl": "Чудово!\\. Що там кажуть цифри, Бру?"
         },
         "person": {
          "person": "business.female-redhair-sexy-brown",
@@ -533,7 +533,7 @@
        {
         "name": {
          "orig": "Bru'shy",
-         "transl": "Bru'shy"
+         "transl": "Бру'ші"
         },
         "person": {
          "person": "baki.female-yellow-tall",
@@ -543,7 +543,7 @@
        {
         "message": {
          "orig": "Numbers say good quality of liquid goods.\\. Seem \\v[lore.title.seeker] done well!",
-         "transl": "Werte sagen, dass Getränke haben gute Qualität.\\. Scheinen, als hätte Seeker geleistet gute Arbeit!"
+         "transl": "Цифри кажуть добра якість рідкого товару.\\. Схоже, Шукач зробив добре!"
         },
         "person": {
          "person": "baki.female-yellow-tall",
@@ -555,7 +555,7 @@
        {
         "message": {
          "orig": "Great, it seems like everything went off without a hitch!\\. We will extract the product soon.",
-         "transl": "Klasse, dann ist also alles problemlos verlaufen!\\. Wir werden das Produkt schon bald abfüllen können."
+         "transl": "Супер, значить, усе пройшло гладко!\\. Вже скоро зможемо розливати готовий продукт."
         },
         "person": {
          "person": "business.female-redhair-sexy-brown",
@@ -565,7 +565,7 @@
        {
         "message": {
          "orig": "I will notify the boss of your success, so you can go back to him and get your reward!",
-         "transl": "Ich werde dem Boss Bescheid geben, damit du deine Belohnung bei ihm abholen kannst!"
+         "transl": "Я повідомлю босу про твої успіхи, тож можеш повертатися до нього по свою нагороду!"
         },
         "person": {
          "person": "business.female-redhair-sexy-brown",
@@ -585,7 +585,7 @@
        {
         "message": {
          "orig": "But you should definitely come back afterwards, so we can brew more of this fine stuff.\\. Looking forward to it!",
-         "transl": "Du solltest danach aber auf jeden Fall zurückkommen, damit du mehr von dem guten Stoff brauen kannst.\\. Ich freu' mich schon drauf!"
+         "transl": "Але потім обов'язково повертайся, щоб ми могли зварити ще цього добра.\\. Вже не можу дочекатися!"
         },
         "person": {
          "person": "business.female-redhair-sexy-brown",
@@ -618,7 +618,7 @@
          {
           "value": {
            "orig": "New record!",
-           "transl": "Neuer Rekord!"
+           "transl": "Новий рекорд!"
           }
          }
         ]
@@ -633,7 +633,7 @@
          {
           "text": {
            "orig": "Brewing process finished!\n\nRequests: \\v[tmp.brewingRequests]\nQuality: \\v[tmp.quality] \\c[3]\\v[tmp.recordString]\\c[0]\n\nRewards:\n\\c[3]\\v[tmp.itemReward]x \\v[tmp.rewardString]\\c[0]",
-           "transl": "Brauvorgang beendet!\n\nAnfragen: \\v[tmp.brewingRequests]\nQualität: \\v[tmp.quality] \\c[3]\\v[tmp.recordString]\\c[0]\n\nBelohnung:\n\\c[3]\\v[tmp.itemReward]x \\v[tmp.rewardString]\\c[0]"
+           "transl": "Процес варіння завершено!\n\nЗапити: \\v[tmp.brewingRequests]\nЯкість: \\v[tmp.quality] \\c[3]\\v[tmp.recordString]\\c[0]\n\nНагороди:\n\\c[3]\\v[tmp.itemReward]x \\v[tmp.rewardString]\\c[0]"
           }
          }
         ],
@@ -641,7 +641,7 @@
          {
           "text": {
            "orig": "Brewing process finished!\n\nRequests: \\v[tmp.brewingRequests]\nQuality: \\v[tmp.quality]\n\n\\c[1]Quality too low.\nNo Rewards!\\c[0]",
-           "transl": "Brauvorgang beendet!\n\nAnfragen: \\v[tmp.brewingRequests]\nQualität: \\v[tmp.quality]\n\n\\c[1]Qualität zu gering.\nKeine Belohnung!\\c[0]"
+           "transl": "Процес варіння завершено!\n\nЗапити: \\v[tmp.brewingRequests]\nЯкість: \\v[tmp.quality]\n\n\\c[1]Якість надто низька.\nНагороди відсутні!\\c[0]"
           }
          }
         ]
@@ -666,7 +666,7 @@
          {
           "text": {
            "orig": "50% Overheat reached!",
-           "transl": "50% Überhitzung erreicht!"
+           "transl": "Досягнуто 50% Перегріву!"
           }
          }
         ]
@@ -676,7 +676,7 @@
          {
           "text": {
            "orig": "75% Overheat reached! Cooling needed!",
-           "transl": "75% Überhitzung erreicht! Kühlung erforderlich!"
+           "transl": "Досягнуто 75% Перегріву! Потрібне Охолодження!"
           }
          }
         ]
@@ -686,7 +686,7 @@
          {
           "text": {
            "orig": "WARNING: Overheating imminent! Requesting ice!",
-           "transl": "ACHTUNG: Überhitzung bevorstehend! Erwarte Eis!"
+           "transl": "УВАГА: Перегрів неминучий! Запит на Лід!"
           }
          }
         ]
@@ -711,7 +711,7 @@
      {
       "text": {
        "orig": "[Preparing request]",
-       "transl": "[Anfrage wird vorbereitet]"
+       "transl": "[Підготовка запиту]"
       }
      }
     ]
@@ -739,7 +739,7 @@
        {
         "text": {
          "orig": "Overheated! Starting emergency cooling!",
-         "transl": "Überhitzt! Starte Notkühlung!"
+         "transl": "Перегрів! Запуск аварійного охолодження!"
         }
        }
       ],
@@ -747,7 +747,7 @@
        {
         "text": {
          "orig": "Overheated! Starting emergency cooling! Quality -\\v[tmp.qualityChange]",
-         "transl": "Überhitzt! Starte Notkühlung! Qualität -\\v[tmp.qualityChange]"
+         "transl": "Перегрів! Запуск аварійного охолодження! Якість -\\v[tmp.qualityChange]"
         }
        }
       ]
@@ -804,14 +804,14 @@
      {
       "text": {
        "orig": "FAIL",
-       "transl": "FEHLSCHLAG"
+       "transl": "НЕВДАЧА"
       }
      },
      null,
      {
       "text": {
        "orig": "Brewing Failed!",
-       "transl": "Brauvorgang fehlgeschlagen!"
+       "transl": "Варіння не вдалося!"
       }
      },
      null,
@@ -845,7 +845,7 @@
      {
       "name": {
        "orig": "Bru'shy",
-       "transl": "Bru'shy"
+       "transl": "Бру'ші"
       },
       "person": {
        "person": "baki.female-yellow-tall",
@@ -871,7 +871,7 @@
      {
       "message": {
        "orig": "Ah, \\v[lore.title.seeker] welcome!\\. Red-headed expert of the brew is coming down as well to give explain.",
-       "transl": "Ah, Seeker, willkommen!\\. Rothaarige Expertin kommen auch, um alles zu erklären."
+       "transl": "А, Шукач, вітаю!\\. Руда майстриня варіння зараз прийде і все пояснювати."
       },
       "person": {
        "person": "baki.female-yellow-tall",
@@ -916,7 +916,7 @@
      {
       "message": {
        "orig": "Alrighty, let's get this going, shall we?",
-       "transl": "Alles klärchen, sollen wir loslegen?"
+       "transl": "Ну що, починаємо?"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -936,7 +936,7 @@
      {
       "message": {
        "orig": "Come, follow me!",
-       "transl": "Dann komm mal mit!"
+       "transl": "Тоді ходи за мною!"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -970,7 +970,7 @@
      {
       "message": {
        "orig": "Here we are!\\. Now take a look at this!",
-       "transl": "Da wären wir!\\. Jetzt schau dir das an!"
+       "transl": "Ось ми й на місці!\\. А тепер поглянь на це!"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -1011,7 +1011,7 @@
      {
       "message": {
        "orig": "Amazing, huh?\\. Our partners in Bergen really outdid themselves with this beauty!",
-       "transl": "Genial, oder? Unsere Partner in Bergen haben sich mit dieser Schönheit selbst übertroffen!"
+       "transl": "Вражає, правда?\\. Наші партнери з Берґена просто перевершили самих себе!"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -1021,7 +1021,7 @@
      {
       "message": {
        "orig": "Not gonna go into technical details but it will brew us amazing drinks and infuse them with Ancient power!",
-       "transl": "Ich werde nicht ins Detail gehen, aber das Teil wird uns großartige Getränke brauen und sie mit den Kräften der Ahnen stärken!"
+       "transl": "Не буду вдаватися в технічні подробиці, але вона варитиме нам відмінні напої й наповнюватиме їх силою Древніх!"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -1041,7 +1041,7 @@
      {
       "message": {
        "orig": "If we prove ourselves worthy that is.\\. You know how the Track works: No reward without trials. ",
-       "transl": "Natürlich nur, wenn wir uns als würdig erweisen.\\. Du weißt, wie der Pfad funktioniert: Keine Belohnung ohne Prüfungen."
+       "transl": "Якщо, звісно, доведемо, що гідні.\\. Ти ж знаєш, як працює Шлях: без випробувань немає нагороди."
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -1061,7 +1061,7 @@
      {
       "message": {
        "orig": "I'm sure a \\v[lore.title.seeker] like you will do just fine!\\. So lemme explain...",
-       "transl": "Ich bin mir sicher, ein Seeker wie du wird das schon schaffen!\\. Also, lass es mich dir erklären..."
+       "transl": "Впевнена, що така Шукачка, як ти, точно дасть собі раду!\\. Тож слухай..."
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -1092,7 +1092,7 @@
      {
       "message": {
        "orig": "After starting, the machine will \\c[3]request energy\\c[0] from one of those \\c[3]steam-receivers\\c[0].",
-       "transl": "Nachdem die Maschine läuft, wird sie von einem dieser \\c[3]Dampf-Empfänger Energie anfordern\\c[0]."
+       "transl": "Після запуску машина \\c[3]запитуватиме енергію\\c[0] від одного з тих \\c[3]приймачів пари\\c[0]."
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -1129,7 +1129,7 @@
      {
       "message": {
        "orig": "You will need to put some \\c[3]ice\\c[0] in there quickly.\\. At first you can use a \\c[3]bubble generator\\c[0] for that.",
-       "transl": "Du musst dann schnell etwas \\c[3]Eis\\c[0] dort reinlegen.\\. Zuerst kannst du einen \\c[3]Blasen-Generator\\c[0] dafür verwenden."
+       "transl": "Тобі треба буде швидко покласти туди трохи \\c[3]льоду\\c[0].\\. Спочатку для цього можна використовувати \\c[3]генератор бульбашок\\c[0]."
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -1161,7 +1161,7 @@
      {
       "message": {
        "orig": "Later you will have to \\c[3]catch waterbubbles\\c[0] that the Track sends through those \\c[3]pipes\\c[0] from who knows where.",
-       "transl": "Später wirst du die \\c[3]Wasserblasen fangen müssen\\c[0], die der Pfad woher auch immer durch diese \\c[3]Rohre\\c[0] schickt."
+       "transl": "Пізніше доведеться \\c[3]ловити водяні бульбашки\\c[0], які Шлях невідомо звідки подаватиме через ці \\c[3]труби\\c[0]."
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -1200,7 +1200,7 @@
      {
       "message": {
        "orig": "Oh, and you should also \\c[3]throw some ice at the machine itself\\c[0] once in a while.\\. We don't want it \\c[3]overheating\\c[0], do we?",
-       "transl": "Oh, und du solltest ab und zu auch \\c[3]etwas Eis auf die Maschine selbst werfen\\c[0].\\. Wir wollen ja nicht, dass sie \\c[3]überhitzt\\c[0], oder?"
+       "transl": "А, і ще час від часу треба буде \\c[3]кидати лід прямо в машину\\c[0].\\. Ми ж не хочемо, щоб вона \\c[3]перегрілася\\c[0], правда?"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -1220,7 +1220,7 @@
      {
       "message": {
        "orig": "Well, and that's about it.\\. You got everything?",
-       "transl": "Tja, das war's eigentlich schon.\\. Alles klar so weit?"
+       "transl": "Ну от, це наче й усе.\\. Все зрозуміло?"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -1243,7 +1243,7 @@
        {
         "message": {
          "orig": "Perfect!\\. My assistant Bru will check the numbers while you are at work, but I'm sure you will do great!",
-         "transl": "Perfekt!\\. Meine Assistentin Bru wird während des Vorgangs die Werte überwachen. Ich bin mir aber sicher, dass du das packst!"
+         "transl": "Чудово!\\. Моя помічниця Бру стежитиме за показниками, поки ти працюватимеш, але я впевнена, що ти чудово впораєшся!"
         },
         "person": {
          "person": "business.female-redhair-sexy-brown",
@@ -1263,7 +1263,7 @@
        {
         "message": {
          "orig": "I myself sadly can't watch you because I have business to attend to upstairs.\\. So we'll talk again once it's finished, yes?",
-         "transl": "Ich kann dir leider nicht zusehen, weil ich noch einiges zu erledigen habe.\\. Wir reden, sobald du fertig bist, ja?"
+         "transl": "Я, на жаль, я не зможу за тобою поспостерігати, бо маю ще деякі справи.\\. Тож поговоримо, коли закінчиш, гаразд?"
         },
         "person": {
          "person": "business.female-redhair-sexy-brown",
@@ -1311,7 +1311,7 @@
        {
         "message": {
          "orig": "Alrighty, then lemme explain it again.",
-         "transl": "Alles klärchen, dann wiederhole ich es nochmal."
+         "transl": "Добренько, тоді я ще раз усе поясню."
         },
         "person": {
          "person": "business.female-redhair-sexy-brown",
@@ -1342,7 +1342,7 @@
        {
         "message": {
          "orig": "This is the machine that will create our wonderful, magic booze.\\. If it is used correctly!",
-         "transl": "Das ist die Maschine, die unser magisches Ahnengebräu herstellen wird.\\. Wenn man sie richtig benutzt!"
+         "transl": "Ця машина створюватиме наш чудовий магічний алкоголь.\\. Якщо правильно нею користуватися!"
         },
         "person": {
          "person": "business.female-redhair-sexy-brown",
@@ -1364,7 +1364,7 @@
        {
         "label": {
          "orig": "No (repeat instructions)",
-         "transl": "Nein (nochmal erklären)"
+         "transl": "Ні (повторити інструкцію)"
         }
        }
       ]
@@ -1377,7 +1377,7 @@
     "interact": {
      "hoverText": {
       "orig": "Brewing Console",
-      "transl": "Brausteuerung"
+      "transl": "Консоль Варіння"
      },
      "event": [
       null,
@@ -1396,7 +1396,7 @@
           {
            "value": {
             "orig": "(updated!)",
-            "transl": "(aktualisiert!)"
+            "transl": "(оновлено!)"
            }
           }
          ]
@@ -1406,25 +1406,25 @@
           {
            "text": {
             "orig": "- Instruction to Ancient Brewing -\nQuality drinks using the mystical powers of the Track, steam and only the best natural ingredients!",
-            "transl": "- Anleitung zum Brauen nach Art der Ahnen -\nQualitätstränke, die die Kraft des Pfades, des Dampfes und nur die besten natürlichen Zutaten enthalten!"
+            "transl": "- Інструкція до Варіння методом Древніх -\nНапої високої якості з використанням містичних сил Шляху, пари та лише найкращих натуральних інгредієнтів!"
            }
           },
           {
            "text": {
             "orig": "After activating this machine, it will request energy from the \\c[3]4 steam ovens\\c[0]. Those requests have to be met with \\c[3]icedisks\\c[0] quickly and correctly!",
-            "transl": "Nach dem Starten der Maschine wird sie Energie von den \\c[3]vier Dampföfen\\c[0] anfordern. Diese Anfragen müssen mit \\c[3]Eisplatten\\c[0] schnell und korrekt bedient werden!"
+            "transl": "Після активації апарат запитуватиме енергію від \\c[3]чотирьох парових печей\\c[0]. На ці запити потрібно швидко й правильно реагувати, закидаючи \\c[3]крижані диски\\c[0]!"
            }
           },
           {
            "text": {
             "orig": "In the beginning a \\c[3]static bubble generator\\c[0] will be available, though later it will vanish. At this point, bubbles ejected from the \\c[3]pipes left and right\\c[0] have to be used.",
-            "transl": "Anfangs werden \\c[3]statische Blasengeneratoren\\c[0] verfügbar sein, die jedoch später verschwinden. Ab dann müssen Blasen aus den \\c[3]Rohren links und rechts\\c[0] genutzt werden."
+            "transl": "На початку буде доступний \\c[3]стаціонарний генератор бульбашок\\c[0], але згодом він зникне. Тоді потрібно буде використовувати бульбашки, що вилітають із \\c[3]труб зліва і справа\\c[0]."
            }
           },
           {
            "text": {
             "orig": "Due to the immense powers flowing through it, the brewing machine will \\c[3]overheat\\c[0] with time. \\c[3]Cooling it with ice\\c[0] will be necessary to prevent \\c[3]overheating\\c[0] and a \\c[3]time-consuming cooldown-phase\\c[0].",
-            "transl": "Die Braumaschine wird durch die immensen Kräfte, die sie durchströmen, mit der Zeit \\c[3]überhitzen\\c[0]. Daher ist es nötig, sie \\c[3]mit Eis zu kühlen\\c[0], um \\c[3]Überhitzung\\c[0] und eine \\c[3]zeitraubende Abkühlphase\\c[0] zu verhindern."
+            "transl": "Через величезну силу, що проходить крізь апарат, з часом він почне \\c[3]перегріватися\\c[0]. Щоб запобігти \\c[3]перегріву\\c[0] та \\c[3]тривалому охолодженню\\c[0], його необхідно \\c[3]охолоджувати льодом\\c[0]."
            }
           },
           {
@@ -1433,19 +1433,19 @@
             {
              "text": {
               "orig": "\\c[3]Not meeting a request\\c[0], \\c[3]putting ice in a wrong oven\\c[0] or \\c[3]overheating the machine\\c[0] will damage the ingredients and \\c[3]reduce the overall quality\\c[0] of the product.",
-              "transl": "\\c[3]Nicht bediente Anfragen\\c[0], \\c[3]Eis im falschen Ofen\\c[0] oder \\c[3]Überhitzung der Maschine\\c[0] wird den Zutaten schaden und \\c[3]die Gesamtqualität\\c[0] des Produktes verringern."
+              "transl": "\\c[3]Пропущений запит\\c[0], \\c[3]подача льоду у неправильну піч\\c[0] або \\c[3]перегрів апарату\\c[0] пошкоджують інгредієнти та \\c[3]знижують загальну якість\\c[0] продукту."
              }
             },
             {
              "text": {
               "orig": "On the other hand, brewing \\c[3]quality\\c[0] will increase at a higher rate with \\c[3]growing requests\\c[0] and when maintaining a \\c[3]high heat\\c[0]!",
-              "transl": "Durch \\c[3]steigende Anfragen\\c[0] und das Aufrechterhalten von \\c[3]hoher Hitze\\c[0] wird die \\c[3]Brauqualität\\c[0] hingegen schneller erhöht!"
+              "transl": "Водночас \\c[3]якість варіння\\c[0] зростає швидше зі \\c[3]збільшенням кількості запитів\\c[0] та за підтримання \\c[3]високої температури\\c[0]!"
              }
             },
             {
              "text": {
               "orig": "The \\c[3]higher the quality\\c[0], the \\c[3]more useable drinks\\c[0] can be created from \\c[3]the same amount of ingredients\\c[0]!",
-              "transl": "Je \\c[3]höher die Qualität\\c[0], desto \\c[3]mehr Tränke\\c[0] können mit \\c[3]derselben Menge an Zutaten\\c[0] hergestellt werden!"
+              "transl": "Що \\c[3]вища якість\\c[0], то \\c[3]більше напоїв\\c[0] можна отримати з \\c[3]тієї самої кількості інгредієнтів\\c[0]!"
              }
             }
            ],
@@ -1453,7 +1453,7 @@
             {
              "text": {
               "orig": "\\c[3]Not meeting a request\\c[0], \\c[3]putting ice in a wrong oven\\c[0] or \\c[3]overheating the machine\\c[0] will do \\c[3]damage\\c[0] to the ingredients. With too much \\c[3]damage\\c[0], the brewing will \\c[1]fail\\c[0]! ",
-              "transl": "\\c[3]Nicht bediente Anfragen\\c[0], \\c[3]Eis im falschen Ofen\\c[0] oder \\c[3]Überhitzung der Maschine\\c[0] wird den Zutaten \\c[3]schaden\\c[0]. Bei zu viel \\c[3]Schaden\\c[0] wird der Brauvorgang \\c[1]fehlschlagen\\c[0]!"
+              "transl": "\\c[3]Пропущений запит\\c[0], \\c[3]подача льоду у неправильну піч\\c[0] або \\c[3]перегрів апарату\\c[0] завдають \\c[3]шкоди\\c[0] інгредієнтам. Якщо \\c[3]шкоди\\c[0] накопичиться надто багато, варіння \\c[1]провалиться\\c[0]!"
              }
             }
            ]
@@ -1467,61 +1467,61 @@
           {
            "label": {
             "orig": "Start Brewing Process",
-            "transl": "Brauvorgang starten"
+            "transl": "Почати Процес Варіння"
            }
           },
           {
            "label": {
             "orig": "\\c[1]!!!\\c[0] \\c[3]Upgrade Brewing Machine\\c[0] \\c[1]!!!\\c[0]",
-            "transl": "\\c[1]!!!\\c[0] \\c[3]Aufrüstung der Braumaschine\\c[0] \\c[1]!!!\\c[0]"
+            "transl": "\\c[1]!!!\\c[0] \\c[3]Покращити Броварний Апарат\\c[0] \\c[1]!!!\\c[0]"
            }
           },
           {
            "label": {
             "orig": "Brewing: \\c[3]\\v[item.367.name]\\c[0] (Material: \\v[item.372.amount] | Owned: \\v[item.367.amount])",
-            "transl": "Braue: \\c[3]Bärenbier\\c[0] (Material: \\v[item.372.amount] | Im Besitz: \\v[item.367.amount])"
+            "transl": "Зварити: \\c[3]\\v[item.367.name]\\c[0] (Матеріали: \\v[item.372.amount] | Є: \\v[item.367.amount])"
            }
           },
           {
            "label": {
             "orig": "Brewing: \\c[3]\\v[item.368.name]\\c[0] (Material: \\v[item.373.amount] | Owned: \\v[item.368.amount])",
-            "transl": "Braue: \\c[3]Krabbenmet\\c[0] (Material: \\v[item.373.amount] | Im Besitz: \\v[item.368.amount])"
+            "transl": "Зварити: \\c[3]\\v[item.368.name]\\c[0] (Матеріали: \\v[item.373.amount] | Є: \\v[item.368.amount])"
            }
           },
           {
            "label": {
             "orig": "Brewing: \\c[3]\\v[item.369.name]\\c[0] (Material: \\v[item.374.amount] | Owned: \\v[item.369.amount])",
-            "transl": "Braue: \\c[3]Fuchs-Sake\\c[0] (Material: \\v[item.374.amount] | Im Besitz: \\v[item.369.amount])"
+            "transl": "Зварити: \\c[3]\\v[item.369.name]\\c[0] (Матеріали: \\v[item.374.amount] | Є: \\v[item.369.amount])"
            }
           },
           {
            "label": {
             "orig": "Brewing: \\c[3]\\v[item.370.name]\\c[0] (Material: \\v[item.375.amount] | Owned: \\v[item.370.amount])",
-            "transl": "Braue: \\c[3]Walwein\\c[0] (Material: \\v[item.375.amount] | Im Besitz: \\v[item.370.amount])"
+            "transl": "Зварити: \\c[3]\\v[item.370.name]\\c[0] (Матеріали: \\v[item.375.amount] | Є: \\v[item.370.amount])"
            }
           },
           {
            "label": {
             "orig": "Information \\c[1]\\v[tmp.infoUpdate]\\c[0]",
-            "transl": "Info \\c[1]\\v[tmp.infoUpdate]\\c[0]"
+            "transl": "Інформація \\c[1]\\v[tmp.infoUpdate]\\c[0]"
            }
           },
           {
            "label": {
             "orig": "Turn Quality Notifications \\c[2]ON\\c[0]",
-            "transl": "Schalte Qualitätsbenachrichtigungen \\c[2]AN\\c[0]"
+            "transl": "\\c[2]УВІМКНУТИ\\c[0] Сповіщення про Якість"
            }
           },
           {
            "label": {
             "orig": "Turn Quality Notifications \\c[1]OFF\\c[0]",
-            "transl": "Schalte Qualitätsbenachrichtigungen \\c[1]AUS\\c[0]"
+            "transl": "\\c[1]ВИМКНУТИ\\c[0] Сповіщення про Якість"
            }
           },
           {
            "label": {
             "orig": "\\c[1]Cancel\\c[0]",
-            "transl": "\\c[1]Abbrechen\\c[0]"
+            "transl": "\\c[1]Скасувати\\c[0]"
            }
           }
          ]
@@ -1531,7 +1531,7 @@
         {
          "text": {
           "orig": "[Machine inactive]",
-          "transl": "[Maschine inaktiv]"
+          "transl": "[Апарат неактивний]"
          }
         }
        ]
@@ -1545,7 +1545,7 @@
     "analyzable": {
      "text": {
       "orig": "Bru'shy",
-      "transl": "Bru'shy"
+      "transl": "Бру'ші"
      }
     },
     "npcStates": [
@@ -1554,7 +1554,7 @@
        {
         "name": {
          "orig": "Bru'shy",
-         "transl": "Bru'shy"
+         "transl": "Бру'ші"
         },
         "person": {
          "person": "baki.female-yellow-tall",
@@ -1570,7 +1570,7 @@
        {
         "message": {
          "orig": "\\v[lore.title.seeker] impress Ancients for great liquids!\\. I will keep eyes on numbers.",
-         "transl": "Seeker beeindrucken Ahnen für tolle Tränke!\\. Ich werde Augen auf Zahlen haben."
+         "transl": "Шукач дивувати Древніх чудовими зіллями!\\. Я стежити за цифрами."
         },
         "person": {
          "person": "baki.female-yellow-tall",
@@ -1584,7 +1584,7 @@
        {
         "name": {
          "orig": "Bru'shy",
-         "transl": "Bru'shy"
+         "transl": "Бру'ші"
         },
         "person": {
          "person": "baki.female-yellow-tall",
@@ -1600,7 +1600,7 @@
        {
         "message": {
          "orig": "\\v[lore.title.seeker] done well.\\. Extracting goods will done soon.",
-         "transl": "Seeker gemacht gute Arbeit.\\. Extrakt bald fertig."
+         "transl": "Шукачка добре зробила.\\. Скоро товар буде добуто."
         },
         "person": {
          "person": "baki.female-yellow-tall",
@@ -1614,7 +1614,7 @@
        {
         "name": {
          "orig": "Bru'shy",
-         "transl": "Bru'shy"
+         "transl": "Бру'ші"
         },
         "person": {
          "person": "baki.female-yellow-tall",
@@ -1630,7 +1630,7 @@
        {
         "message": {
          "orig": "\\v[lore.title.seeker] talk to Ms. Ryda upstairs.\\. Much progress is on the foot.",
-         "transl": "Seeker oben Frau Ryda berichten, wir viel Fortschritt machen."
+         "transl": "Шукач, поговори з пані Райда нагорі.\\. Багато роботи вже на ходу."
         },
         "person": {
          "person": "baki.female-yellow-tall",
@@ -1646,7 +1646,7 @@
          {
           "name": {
            "orig": "Bru'shy",
-           "transl": "Bru'shy"
+           "transl": "Бру'ші"
           },
           "person": {
            "person": "baki.female-yellow-tall",
@@ -1662,7 +1662,7 @@
          {
           "message": {
            "orig": "\\v[lore.title.seeker] need brewing ingredients prepared?",
-           "transl": "Seeker brauchen Zutaten zum Brauen?"
+           "transl": "Шукач потребує інгредієнти для варіння?"
           },
           "person": {
            "person": "baki.female-yellow-tall",
@@ -1674,7 +1674,7 @@
            {
             "message": {
              "orig": "Wish much success.\\. May Ancients bless precious liquids!",
-             "transl": "Wünschen viel Erfolg.\\. Mögen Ahnen kostbare Tränke segnen!"
+             "transl": "Бажаю багато успіху.\\. Хай Древні благословлять цінні зілля!"
             },
             "person": {
              "person": "baki.female-yellow-tall",
@@ -1686,7 +1686,7 @@
            {
             "message": {
              "orig": "Maybe next time, yes?",
-             "transl": "Vielleicht nächste Mal, ja?"
+             "transl": "Може, інший раз, так?"
             },
             "person": {
              "person": "baki.female-yellow-tall",
@@ -1706,7 +1706,7 @@
          {
           "name": {
            "orig": "Bru'shy",
-           "transl": "Bru'shy"
+           "transl": "Бру'ші"
           },
           "person": {
            "person": "baki.female-yellow-tall",
@@ -1722,7 +1722,7 @@
          {
           "message": {
            "orig": "\\v[lore.title.seeker] need brewing ingredients prepared?",
-           "transl": "Seeker brauchen Zutaten zum Brauen?"
+           "transl": "Шукач потребує інгредієнти для варіння?"
           },
           "person": {
            "person": "baki.female-yellow-tall",
@@ -1735,7 +1735,7 @@
            {
             "message": {
              "orig": "Wish much success.\\. May Ancients bless precious liquids!",
-             "transl": "Wünschen viel Erfolg.\\. Mögen Ahnen kostbare Tränke segnen!"
+             "transl": "Бажаю багато успіху.\\. Хай Древні благословлять цінні зілля!"
             },
             "person": {
              "person": "baki.female-yellow-tall",
@@ -1747,7 +1747,7 @@
            {
             "message": {
              "orig": "Maybe next time, yes?",
-             "transl": "Vielleicht nächste Mal, ja?"
+             "transl": "Може, інший раз, так?"
             },
             "person": {
              "person": "baki.female-yellow-tall",
@@ -1779,7 +1779,7 @@
          {
           "message": {
            "orig": "\\v[lore.title.seeker] need brewing ingredients prepared?",
-           "transl": "Seeker brauchen Zutaten zum Brauen?"
+           "transl": "Шукач потребує інгредієнти для варіння?"
           },
           "person": {
            "person": "baki.female-yellow-tall",
@@ -1791,7 +1791,7 @@
            {
             "message": {
              "orig": "Wish much success.\\. May Ancients bless precious liquids!",
-             "transl": "Wünschen viel Erfolg.\\. Mögen Ahnen kostbare Tränke segnen!"
+             "transl": "Бажаю багато успіху.\\. Хай Древні благословлять цінні зілля!"
             },
             "person": {
              "person": "baki.female-yellow-tall",
@@ -1803,7 +1803,7 @@
            {
             "message": {
              "orig": "Maybe next time, yes?",
-             "transl": "Vielleicht nächste Mal, ja?"
+             "transl": "Може, інший раз, так?"
             },
             "person": {
              "person": "baki.female-yellow-tall",
@@ -1828,7 +1828,7 @@
       "interact": {
        "hoverText": {
         "orig": "Brewing Statistics",
-        "transl": "Braustatistiken"
+        "transl": "Статистика Варіння"
        },
        "event": [
         {
@@ -1840,7 +1840,7 @@
           {
            "text": {
             "orig": "~ Brewing Statistics ~\n\nQuality Highscore: \n\\c[3]\\v[map.qualityRecord]\\c[0]",
-            "transl": "~ Braustatistiken ~\n\nQualitätsrekord: \n\\c[3]\\v[map.qualityRecord]\\c[0]"
+            "transl": "~ Статистика Варіння ~\n\nРекорд Якості: \n\\c[3]\\v[map.qualityRecord]\\c[0]"
            }
           },
           {
@@ -1848,7 +1848,7 @@
             {
              "text": {
               "orig": "Times brewed / Drinks gained:\nTotal: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\n\\v[item.367.name]: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[tmp.focName]: \\v[map.brewedFoc] / \\v[map.drinksFoc]\n\\v[item.370.name]: \\v[map.brewedMhp] / \\v[map.drinksMhp]",
-              "transl": "Anzahl Brauvorgänge / Tränke:\nGesamt: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\nBärenbier: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[tmp.focName]: \\v[map.brewedFoc] / \\v[map.drinksFoc]\nWalwein: \\v[map.brewedMhp] / \\v[map.drinksMhp]"
+              "transl": "Кількість варінь / Отримано напоїв:\nУсього: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\n\\v[item.367.name]: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[tmp.focName]: \\v[map.brewedFoc] / \\v[map.drinksFoc]\n\\v[item.370.name]: \\v[map.brewedMhp] / \\v[map.drinksMhp]"
              }
             }
            ],
@@ -1856,7 +1856,7 @@
             {
              "text": {
               "orig": "Times brewed / Drinks gained:\nTotal: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\n\\v[item.367.name]: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[item.370.name]: \\v[map.brewedMhp] / \\v[map.drinksMhp]",
-              "transl": "Anzahl Brauvorgänge / Tränke:\nGesamt: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\nBärenbier: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\nWalwein: \\v[map.brewedMhp] / \\v[map.drinksMhp]"
+              "transl": "Кількість варінь / Отримано напоїв:\nУсього: \\c[3]\\v[map.brewedTotal] / \\v[map.drinksTotal]\\c[0]\n\n\\v[item.367.name]: \\v[map.brewedAtk] / \\v[map.drinksAtk]\n\\v[tmp.defName]: \\v[map.brewedDef] / \\v[map.drinksDef]\n\\v[item.370.name]: \\v[map.brewedMhp] / \\v[map.drinksMhp]"
              }
             }
            ]
@@ -1866,7 +1866,7 @@
           {
            "text": {
             "orig": "\\c[1]- UNDER CONSTRUCTION -\\c[0]",
-            "transl": "\\c[1]- IM AUFBAU -\\c[0]"
+            "transl": "\\c[1]- У РОЗРОБЦІ -\\c[0]"
            }
           }
          ]
@@ -1882,7 +1882,7 @@
    "settings": {
     "text": {
      "orig": "Brewing Machine",
-     "transl": "Braumaschine"
+     "transl": "Броварний Апарат"
     }
    }
   },
@@ -1890,7 +1890,7 @@
    "settings": {
     "text": {
      "orig": "Left Waterpipe",
-     "transl": "Linkes Wasserblasenrohr"
+     "transl": "Ліва Водяна Труба"
     }
    }
   },
@@ -1898,7 +1898,7 @@
    "settings": {
     "text": {
      "orig": "Right Waterpipe",
-     "transl": "Rechtes Wasserblasenrohr"
+     "transl": "Права Водяна Труба"
     }
    }
   },
@@ -1906,7 +1906,7 @@
    "settings": {
     "text": {
      "orig": "Steam Oven #1",
-     "transl": "Dampfofen #1"
+     "transl": "Парова Піч #1"
     }
    }
   },
@@ -1914,7 +1914,7 @@
    "settings": {
     "text": {
      "orig": "Steam Oven #2",
-     "transl": "Dampfofen #2"
+     "transl": "Парова Піч #2"
     }
    }
   },
@@ -1922,7 +1922,7 @@
    "settings": {
     "text": {
      "orig": "Steam Oven #3",
-     "transl": "Dampfofen #3"
+     "transl": "Парова Піч #3"
     }
    }
   },
@@ -1930,7 +1930,7 @@
    "settings": {
     "text": {
      "orig": "Steam Oven #4",
-     "transl": "Dampfofen #4"
+     "transl": "Парова Піч #4"
     }
    }
   },
@@ -1960,7 +1960,7 @@
        {
         "text": {
          "orig": "VAR: \\v[tmp.tempNr]",
-         "transl": "VAR: \\v[tmp.tempNr]"
+         "transl": "VAR: \\v[tmp.tempNr]<<C<<іг"
         }
        }
       ]
@@ -1974,7 +1974,7 @@
          {
           "text": {
            "orig": "VAR: \\v[tmp.tempStringSteam]",
-           "transl": "VAR: \\v[tmp.tempStringSteam]"
+           "transl": "VAR: \\v[tmp.tempStringSteam]<<C<<іг"
           }
          }
         ]
@@ -2003,14 +2003,14 @@
      {
       "text": {
        "orig": "[Upgrade Process START]",
-       "transl": "[ Aufrüstungsprozess STARTET ]"
+       "transl": "[ПОЧАТОК Процесу Покращення]"
       }
      },
      null,
      {
       "text": {
        "orig": "[ Initiating Trial ]",
-       "transl": "[ Initiiere Prüfung ]"
+       "transl": "[ Ініціалізація Випробування ]"
       }
      }
     ]
@@ -2069,7 +2069,7 @@
      {
       "text": {
        "orig": "Upgrade successful!",
-       "transl": "Aufrüstung erfolgreich!"
+       "transl": "Покращення успішне!"
       }
      },
      null,
@@ -2105,7 +2105,7 @@
      {
       "message": {
        "orig": "Heya, \\v[lore.title.seeker].\\. Are you done by now?\\. You made a lot of noise for just upgrading a machine, y'know?",
-       "transl": "Heya, Seeker.\\. Bist du jetzt fertig?\\. Du hast eine Menge Lärm gemacht, dafür, dass du nur eine Maschine aufgerüstet hast, weißt du?"
+       "transl": "Гей, Шукачко.\\. Ну що, вже закінчила?\\. Щось забагато шуму для простого покращення машини, знаєш?"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -2115,7 +2115,7 @@
      {
       "message": {
        "orig": "... Sorry... How?\\. .\\..\\..\\. Why?",
-       "transl": "... Sorry... Wie?\\. .\\..\\..\\. Warum?"
+       "transl": "... Вибач... Як?\\. .\\..\\..\\. Чому?"
       },
       "person": {
        "person": "main.lea",
@@ -2125,7 +2125,7 @@
      {
       "message": {
        "orig": "Oh, wait, wait.\\. So you're telling me, that upgrading this thing involved fighting monstrous incarnations of booze?",
-       "transl": "Warte, warte.\\. Du willst mir also sagen, dass das Aufrüsten den Kampf gegen monströse Inkarnationen von Alkohol ausgelöst hat?"
+       "transl": "О, стривай, стривай.\\. Тобто ти хочеш сказати, що для покращення цієї штуки довелося битися з алкогольними чудовиськами?"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -2151,7 +2151,7 @@
      {
       "message": {
        "orig": "Oh, woops, haha.\\. That's pretty crazy, but I guess we should've expected the Track to throw some final test at us.",
-       "transl": "Oh, uuups, hahaha.\\. Das ist echt verrückt, aber wir hätten wohl damit rechnen sollen, dass der Pfad uns einen letzten Test aufbrummt.<<A<<[CHANGED 2021/05/22]"
+       "transl": "Ой, ууупс, хаха.\\. Ну й дичина, але, мабуть, варто було очікувати, що Шлях підкине нам наостанок ще одне випробування."
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -2161,7 +2161,7 @@
      {
       "message": {
        "orig": "... Whyyyy?",
-       "transl": "... Waruuuum?"
+       "transl": "... Чомууууу?"
       },
       "person": {
        "person": "main.lea",
@@ -2171,7 +2171,7 @@
      {
       "message": {
        "orig": "Hey, you got it done, right?\\. No \\v[lore.title.seeker] work without some challenge.",
-       "transl": "Hey, du hast es doch geschafft, oder?\\. Keine Seeker-Arbeit ohne eine Herausforderung."
+       "transl": "Гей, ти ж упоралася, правда?\\. Яка ж робота Шукача без випробувань?"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -2181,7 +2181,7 @@
      {
       "message": {
        "orig": "...",
-       "transl": "...!"
+       "transl": "..."
       },
       "person": {
        "person": "main.lea",
@@ -2191,7 +2191,7 @@
      {
       "message": {
        "orig": "And you can feel a clear change to the aura of our baby here.\\. Now it should be well-equipped for \\c[3]Fox Sake\\c[0], the last missing recipe!",
-       "transl": "Und ich spüre eine deutliche Veränderung in der Aura unseres Schätzchens hier.\\. Jetzt sollte es gut gerüstet sein für \\c[3]Fuchs-Sake\\c[0], das letzte fehlende Rezept!"
+       "transl": "Аура нашої крихітки тут тепер зовсім інша - це одразу відчувається.\\. Тепер вона має бути готова до \\c[3]Лисячого Саке\\c[0] - останнього рецепту!"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -2201,7 +2201,7 @@
      {
       "message": {
        "orig": "...",
-       "transl": "...!"
+       "transl": "..."
       },
       "person": {
        "person": "main.lea",
@@ -2211,7 +2211,7 @@
      {
       "message": {
        "orig": "Just report back to our dear Kney' on the market.\\. I will handle the rest down here!",
-       "transl": "Melde dich einfach bei unserem lieben Kney' auf dem Markt zurück.\\. Den Rest erledige ich dann hier unten!"
+       "transl": "Просто відзвітуй нашому любому Кнею на ринку.\\. А решту я сама владнаю!"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -2231,7 +2231,7 @@
      {
       "message": {
        "orig": "Was great working with you again, sweetie!\\. Don't forget to visit now and then for some drinks!",
-       "transl": "War toll, wieder mit dir zu arbeiten, Süße!\\. Vergiss nicht, ab und zu auf ein paar Drinks vorbeizuschauen!"
+       "transl": "Рада була знову попрацювати з тобою, люба!\\. Не забувай час від часу навідуватися по напої!"
       },
       "person": {
        "person": "business.female-redhair-sexy-brown",
@@ -2266,25 +2266,25 @@
        {
         "text": {
          "orig": "\\v[tmp.ovenText]",
-         "transl": "\\v[tmp.ovenText]"
+         "transl": "\\v[tmp.ovenText]<<C<<іг"
         }
        },
        {
         "text": {
          "orig": "\\v[tmp.ovenText]",
-         "transl": "\\v[tmp.ovenText]"
+         "transl": "\\v[tmp.ovenText]<<C<<іг"
         }
        },
        {
         "text": {
          "orig": "\\v[tmp.ovenText]",
-         "transl": "\\v[tmp.ovenText]"
+         "transl": "\\v[tmp.ovenText]<<C<<іг"
         }
        },
        {
         "text": {
          "orig": "\\v[tmp.ovenText]",
-         "transl": "\\v[tmp.ovenText]"
+         "transl": "\\v[tmp.ovenText]<<C<<іг"
         }
        }
       ]
@@ -2305,7 +2305,7 @@
        "settings": {
         "text": {
          "orig": "Overheat",
-         "transl": "Überhitzung"
+         "transl": "Перегрів"
         }
        }
       }
@@ -2333,7 +2333,7 @@
      {
       "text": {
        "orig": "Overheated! Starting emergency cooling!",
-       "transl": "Überhitzt! Starte Notkühlung!"
+       "transl": "Перегрів! Починається аварійне охолодження!"
       }
      }
     ]
