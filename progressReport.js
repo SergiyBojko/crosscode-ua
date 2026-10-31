@@ -10,6 +10,7 @@ let ignoreStrings = ['en_US','untitled', 'OG', 'UG 2', 'UG', 'Lachsen', 'The Fou
     'beach.hedgehog-beach', 'beach.penguin-beach', 'beach.sandworm-beach', 'forest.bug-samurai-shock-simple', 'heat.kamikatze-helper', 'heat.special.baki-cmd_bot_2',
     'autumn-rh.big_turret-quest_naval', 'autumn-fall.ball-backup', 'autumn-rh.boss_turret-quest_navaloooooo', 'final.ele-pillar-cold-old', '222', 'ADLASDKAS\u00d6LDKSA',
     'G', 'B1', 'B2', 'B3', 'B4', 'Megan98', '\\c[1]...!\\c[0]',
+    'PuellaDocta',
     'Mon dieu...', 'Très bien!',
     '\\v[plot.race.leaWins] to \\v[plot.race.emilieWins].'];
 
