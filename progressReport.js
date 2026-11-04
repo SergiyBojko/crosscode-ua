@@ -24,6 +24,8 @@ writeStatsToReport(stats)
 console.log("Excluded strings:")
 excluded.forEach((item) => {console.log(item);});
 
+printProgress(stats)
+
 function progressReport(path, totalStats) {
     writeDirToReport(path);
     let files = fs.readdirSync(path)
@@ -107,3 +109,22 @@ function writeStatsToReport(stats) {
     fs.writeFileSync('report.txt', result, {flag:"a"});
 }
 
+function printProgress(stats) {
+    let percentage = stats.wordsTranslated / stats.words;
+
+    let data =
+    `${progressBar(percentage)} **${(100*percentage).toFixed(2)}%**\n` +
+    "\n" +
+    "|       | Перекладено |  Усього |\n" +
+    "|-------|------------:|--------:|\n" +
+    `| Рядки |       ${stats.translated} |   ${stats.total} |\n` +
+    `| Слова |      ${stats.wordsTranslated} |  ${stats.words} |`
+    console.log("Progress:\n" + data)
+}
+
+function progressBar(progress, length = 20) {
+    const filled = Math.round(progress * length);
+    const empty = length - filled;
+
+    return "█".repeat(filled) + "░".repeat(empty);
+}
