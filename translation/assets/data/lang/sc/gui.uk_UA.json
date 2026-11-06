@@ -1005,7 +1005,7 @@
                     "MELEE_DMG": "Борець",
                     "ASSAULT": "Штурм",
                     "CRITICAL_DMG": "Точний Удар",
-                    "DASH_INVINC": "Блискавка",
+                    "DASH_INVINC": "Невловимість",
                     "STUN_THRESHOLD": "Стійкість",
                     "HP_REGEN": "Реген. HP",
                     "DROP_CHANCE": "Щасливчик",
@@ -2218,7 +2218,7 @@
                 "AIMING_SPEED": "Приціл",
                 "AIMING_STABILITY": "Рівновага",
                 "AIMING_MOVEMENT_SPEED": "Рухливість",
-                "DASH_DISTANCE": "Блискавка",
+                "DASH_DISTANCE": "Невловимість",
                 "ADDITIONAL_DASH_STEP": "+1 Ривок",
                 "GUARD_STRENGTH": "Міцний Блок",
                 "ADDITIONAL_GUARD_AREA": "Бастіон",
@@ -2463,12 +2463,12 @@
                     "Звичайні",
                     "Широкі"
                 ],
-                "description": "Відступи навколо текстів у діалогових бульбашках\/вікнах."
+                "description": "Відступи навколо тексту у діалогових бульбашках\/вікнах."
             },
             "text-speed": {
                 "name": "Шв. Тексту ",
                 "example": "\\c[3]Приклад",
-                "description": "Швидкість, з якою текст відображається в діалогах та бічних повідомленнях."
+                "description": "Швидкість, з якою текст з'являється в діалогах та текстових бульбашках."
             },
             "pause-unfocused": {
                 "name": "Пауза не у фокусі",
