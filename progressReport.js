@@ -12,6 +12,7 @@ let ignoreStrings = ['en_US','untitled', 'OG', 'UG 2', 'UG', 'Lachsen', 'The Fou
     'G', 'B1', 'B2', 'B3', 'B4', 'Megan98', '\\c[1]...!\\c[0]',
     'PuellaDocta', 'WorldWideWeeb', 'ScepticalShield', 'Jeff',
     'Mon dieu...', 'Très bien!',
+    'player-copy',
     '\\v[plot.race.leaWins] to \\v[plot.race.emilieWins].'];
 
 let excluded = new Set();
