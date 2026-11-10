@@ -13,6 +13,9 @@ let ignoreStrings = ['en_US','untitled', 'OG', 'UG 2', 'UG', 'Lachsen', 'The Fou
     'PuellaDocta', 'WorldWideWeeb', 'ScepticalShield', 'Jeff',
     'Mon dieu...', 'Très bien!',
     'player-copy',
+    'ERST SCHLITZER!!!', 'Wirbelschlitzer', 'Erstschlag', 'Flammenwirbler', 'Feuersprint', 'Kältewirbler', 'Eisbahn', 'Schockwirbler', 'Donnerpfeil', 'Wellenwirbler', 'Wellenritt', // luke skills
+    'Faucon Poing', // emilie skill
+    'MAGIC MISSILE', 'BUFF H3X!', // ctron skills
     '\\v[plot.race.leaWins] to \\v[plot.race.emilieWins].'];
 
 let excluded = new Set();
